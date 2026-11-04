@@ -2,12 +2,13 @@
 import numpy as np, sys, wave
 SR = 44100
 dur = float(sys.argv[1]); out = sys.argv[2]
+SHIFT = int(sys.argv[3]) if len(sys.argv) > 3 else 0
 N = int(SR * dur); t = np.arange(N) / SR
 bpm = 92; beat = 60 / bpm; bar = beat * 4
 rng = np.random.default_rng(3)
 mix = np.zeros((N, 2))
 
-def note(m): return 440 * 2 ** ((m - 69) / 12)
+def note(m): return 440 * 2 ** ((m + SHIFT - 69) / 12)
 def onepole(x, a):
     y = np.empty_like(x); acc = 0.0
     # vectorizado por bloques con lfilter manual

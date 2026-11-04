@@ -592,6 +592,10 @@ SCENES = {'barriles': s_barriles, 'titulo': s_titulo, 'mapa_estrecho': s_mapa, '
           'oleoductos': s_oleoductos, 'barras': s_barras, 'cierre': s_cierre, 'suscribete': s_suscribete}
 
 
+from escenas_extra import register  # noqa: E402
+register(globals())
+
+
 def render_scene(folder, i):
     escenas = json.load(open(os.path.join(folder, 'escenas.json')))
     tl = json.load(open(os.path.join(folder, 'timeline.json')))
@@ -611,7 +615,7 @@ def render_scene(folder, i):
         im = background_at(bgimg, gstart + t)
         d = ImageDraw.Draw(im)
         fn(d, t, dur, sc)
-        if sc['tipo'] not in ('titulo',):
+        if sc['tipo'] not in ('titulo', 'gran_titulo'):
             header(d, sc, t, dur)
         captions(d, words_t, t)
         progress_bar(d, gstart + t, total)

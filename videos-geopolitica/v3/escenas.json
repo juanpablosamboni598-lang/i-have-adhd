@@ -1,0 +1,149 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "La isla más grande del mundo",
+  "titulo": "Y casi nadie vive ahí",
+  "desde": 0,
+  "hasta": 56000,
+  "sufijo": "",
+  "etiqueta": "HABITANTES, MÁS O MENOS",
+  "texto": "Es la isla más grande del mundo. Tiene unos cincuenta y seis mil habitantes, menos que muchos barrios de una gran ciudad. Y aun así, las grandes potencias del planeta la miran con mucho interés. ¿Qué tiene Groenlandia que no tenga ningún otro lugar?"
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Geopolítica con mapas",
+  "titulo": "GROENLANDIA",
+  "grande": "GROENLANDIA",
+  "sub": "LA ISLA QUE TODOS QUIEREN",
+  "texto": "Hoy vamos a ver por qué Groenlandia se ha convertido en una de las piezas más valiosas del tablero mundial. Y spoiler: no es por el hielo."
+ },
+ {
+  "id": "mapa",
+  "tipo": "mapa_groenlandia",
+  "kicker": "Mira el mapa",
+  "titulo": "Entre América y Europa",
+  "texto": "Mira el mapa. Groenlandia está en el extremo norte del océano Atlántico, entre Canadá y Europa. Geográficamente es parte de América del Norte, pero políticamente pertenece al Reino de Dinamarca. Y cerca del ochenta por ciento de su superficie está cubierta por una enorme capa de hielo."
+ },
+ {
+  "id": "estatus",
+  "tipo": "lista",
+  "kicker": "¿De quién es?",
+  "titulo": "Autónoma, pero no independiente",
+  "items": [
+   "Gobierno propio desde 2009",
+   "Dinamarca: defensa y exteriores",
+   "Derecho a votar su independencia"
+  ],
+  "texto": "Groenlandia tiene su propio gobierno y su propio parlamento, que deciden casi todo dentro de la isla. Pero Dinamarca sigue a cargo de la defensa y la política exterior. Y desde dos mil nueve, la ley reconoce que los groenlandeses pueden decidir algún día ser independientes."
+ },
+ {
+  "id": "polo",
+  "tipo": "polar",
+  "kicker": "Razón 1: la ubicación",
+  "titulo": "Mira el mundo desde arriba",
+  "texto": "Ahora mira el mundo desde arriba, desde el polo norte. De repente, Groenlandia queda justo en medio de Norteamérica, Europa y Rusia. La ruta más corta entre Rusia y Estados Unidos pasa por el Ártico. Y Groenlandia está en primera fila."
+ },
+ {
+  "id": "base",
+  "tipo": "radar",
+  "kicker": "Desde la Guerra Fría",
+  "titulo": "La base de Pituffik",
+  "texto": "Por eso Estados Unidos tiene allí, desde los años cincuenta, una base militar en el norte de la isla, la base espacial de Pituffik, antes llamada Thule. Sus radares vigilan el cielo para detectar misiles que pudieran cruzar el Ártico."
+ },
+ {
+  "id": "compra",
+  "tipo": "contador",
+  "kicker": "No es la primera vez",
+  "titulo": "Estados Unidos ya intentó comprarla",
+  "desde": 1900,
+  "hasta": 1946,
+  "sufijo": "",
+  "etiqueta": "OFERTA: 100 MILLONES DE DÓLARES EN ORO",
+  "texto": "Y no es la primera vez que Washington se interesa. En mil novecientos cuarenta y seis, Estados Unidos ofreció en secreto cien millones de dólares en oro para comprar Groenlandia. Dinamarca dijo que no."
+ },
+ {
+  "id": "minerales",
+  "tipo": "chips_g",
+  "kicker": "Razón 2: lo que hay debajo",
+  "titulo": "Minerales del futuro",
+  "items": [
+   "TIERRAS RARAS",
+   "ZINC",
+   "HIERRO",
+   "GRAFITO"
+  ],
+  "texto": "La segunda razón está bajo tierra. En Groenlandia hay tierras raras, zinc, hierro, grafito y otros minerales clave para fabricar baterías, motores eléctricos, teléfonos y armamento."
+ },
+ {
+  "id": "china",
+  "tipo": "barras_g",
+  "kicker": "El factor China",
+  "titulo": "¿Quién controla las tierras raras?",
+  "barras": [
+   [
+    "CHINA",
+    1.0,
+    "red"
+   ],
+   [
+    "RESTO DEL MUNDO",
+    0.45,
+    "cyan"
+   ]
+  ],
+  "texto": "Y esto importa mucho, porque hoy China domina gran parte de la producción y el procesamiento de tierras raras en el mundo. Occidente busca alternativas desesperadamente. Y Groenlandia podría ser una de ellas.",
+  "ilustrativo": true
+ },
+ {
+  "id": "uranio",
+  "tipo": "lista",
+  "kicker": "Pero ojo",
+  "titulo": "No todo se puede sacar",
+  "items": [
+   "El hielo hace todo más caro",
+   "Casi no hay carreteras",
+   "Groenlandia prohibió el uranio en 2021"
+  ],
+  "texto": "Pero ojo, sacar esos minerales no es fácil. El clima es extremo, casi no hay carreteras entre pueblos, y el propio gobierno groenlandés prohibió en dos mil veintiuno la minería de uranio por razones ambientales."
+ },
+ {
+  "id": "deshielo",
+  "tipo": "deshielo",
+  "kicker": "Razón 3: el deshielo",
+  "titulo": "Nuevas rutas en el Ártico",
+  "texto": "La tercera razón es el clima. A medida que el Ártico se calienta, el hielo marino se retira durante el verano y se abren rutas de navegación que antes eran casi imposibles. Rutas que pueden acortar mucho los viajes entre Asia, Europa y América."
+ },
+ {
+  "id": "potencias",
+  "tipo": "potencias",
+  "kicker": "Quién la mira",
+  "titulo": "Tres potencias, una isla",
+  "texto": "En dos mil diecinueve, el entonces presidente Donald Trump propuso comprar Groenlandia, y Dinamarca respondió que no estaba en venta. El tema volvió con fuerza después. China se ha llamado a sí misma un Estado casi ártico. Y Rusia ha reforzado su presencia militar en su propio Ártico."
+ },
+ {
+  "id": "groenlandeses",
+  "tipo": "gran_titulo",
+  "kicker": "La pregunta que casi nadie hace",
+  "titulo": "¿Y los groenlandeses?",
+  "grande": "¿Y ELLOS?",
+  "sub": "LA MAYORÍA SON INUIT",
+  "texto": "Y en medio de todo, la pregunta que casi nadie hace: ¿qué quieren los groenlandeses? La mayoría son inuit. Muchos apoyan la independencia a largo plazo, pero la economía de la isla todavía depende en buena parte del dinero que envía Dinamarca."
+ },
+ {
+  "id": "cierre",
+  "tipo": "cierre_g",
+  "kicker": "El tablero mundial",
+  "titulo": "Mucho más que hielo",
+  "texto": "Así que Groenlandia no es un bloque de hielo perdido en el mapa. Es una de las piezas más valiosas del tablero mundial. Y la partida apenas está empezando."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Tu opinión",
+  "titulo": "¿Quién debería controlar el Ártico?",
+  "proximo": "DÉJALO EN LOS COMENTARIOS",
+  "texto": "Si quieres entender el mundo con mapas, suscríbete y activa la campanita. Y déjame en los comentarios: ¿quién crees que debería controlar el Ártico?"
+ }
+]
