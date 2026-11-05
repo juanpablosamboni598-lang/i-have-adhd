@@ -594,6 +594,8 @@ SCENES = {'barriles': s_barriles, 'titulo': s_titulo, 'mapa_estrecho': s_mapa, '
 
 from escenas_extra import register  # noqa: E402
 register(globals())
+from escenas_geo import register as register_geo  # noqa: E402
+register_geo(globals())
 
 
 def render_scene(folder, i):

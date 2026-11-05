@@ -1,0 +1,424 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "Cada año",
+  "titulo": "Más de 80.000 barcos",
+  "desde": 0,
+  "hasta": 80000,
+  "sufijo": "",
+  "etiqueta": "BARCOS AL AÑO, MÁS O MENOS",
+  "texto": "Por un pasillo de agua entre Malasia e Indonesia pasan más de ochenta mil barcos al año. Una buena parte de lo que compras, desde tu teléfono hasta tu ropa, probablemente navegó por aquí. Y China tiene un nombre para el miedo que le produce: el dilema de Malaca."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Geopolítica con mapas",
+  "titulo": "MALACA",
+  "grande": "MALACA",
+  "sub": "EL PASILLO QUE CHINA TEME",
+  "texto": "Hoy vamos a ver por qué el estrecho de Malaca es una de las rutas más importantes del planeta, por qué preocupa tanto a China, y qué alternativas existen."
+ },
+ {
+  "id": "mapa",
+  "tipo": "mapa_g",
+  "kicker": "Mira el mapa",
+  "titulo": "Entre el Índico y el Pacífico",
+  "vista": [
+   100.5,
+   2.0,
+   14.0
+  ],
+  "zoom": [
+   1.0,
+   1.15
+  ],
+  "tierras": [
+   [
+    "malaya",
+    "land2"
+   ],
+   [
+    "sumatra",
+    "land"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "MALASIA",
+    101.9,
+    4.3,
+    0.15,
+    "sand"
+   ],
+   [
+    "SUMATRA (INDONESIA)",
+    101.3,
+    -1.2,
+    0.3,
+    "sand"
+   ],
+   [
+    "OCÉANO ÍNDICO",
+    95.6,
+    0.5,
+    0.45,
+    "cyan"
+   ],
+   [
+    "MAR DE CHINA",
+    104.9,
+    5.6,
+    0.55,
+    "cyan"
+   ]
+  ],
+  "linea": [
+   [
+    95.5,
+    6.2
+   ],
+   [
+    98.4,
+    4.6
+   ],
+   [
+    100.8,
+    2.8
+   ],
+   [
+    102.6,
+    1.8
+   ],
+   [
+    103.8,
+    1.15
+   ],
+   [
+    105.2,
+    1.9
+   ]
+  ],
+  "linea_t": 0.6,
+  "pulso": [
+   103.85,
+   1.25
+  ],
+  "texto": "Mira el mapa. A un lado, la península de Malasia. Al otro, la isla de Sumatra, en Indonesia. En medio, el estrecho de Malaca, de unos ochocientos kilómetros de largo. Es el camino más corto entre el océano Índico y el océano Pacífico. Y al final, justo en la punta, está Singapur."
+ },
+ {
+  "id": "embudo",
+  "tipo": "mapa_g",
+  "kicker": "El cuello de botella",
+  "titulo": "Solo unos 3 km",
+  "vista": [
+   103.6,
+   1.3,
+   3.2
+  ],
+  "zoom": [
+   1.0,
+   1.3
+  ],
+  "tierras": [
+   [
+    "malaya",
+    "land2"
+   ],
+   [
+    "sumatra",
+    "land"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "SINGAPUR",
+    103.85,
+    1.55,
+    0.2,
+    "sand"
+   ],
+   [
+    "CANAL DE PHILLIPS",
+    103.85,
+    0.85,
+    0.4,
+    "gold"
+   ]
+  ],
+  "linea": [
+   [
+    102.6,
+    1.9
+   ],
+   [
+    103.3,
+    1.35
+   ],
+   [
+    103.8,
+    1.15
+   ],
+   [
+    104.4,
+    1.25
+   ]
+  ],
+  "linea_t": 0.35,
+  "medida": "~3 km",
+  "pulso": [
+   103.8,
+   1.15
+  ],
+  "texto": "Y aquí viene lo delicado. Cerca de Singapur, el canal navegable se estrecha muchísimo: en su punto más angosto, el canal de Phillips, apenas tiene unos tres kilómetros de ancho. Por ese cuello de botella tienen que pasar petroleros, portacontenedores y buques de gas, uno detrás de otro."
+ },
+ {
+  "id": "carga",
+  "tipo": "chips_g",
+  "kicker": "Lo que pasa por aquí",
+  "titulo": "Energía y productos",
+  "items": [
+   "PETRÓLEO",
+   "GAS",
+   "CONTENEDORES",
+   "ELECTRÓNICA"
+  ],
+  "nota": "DEL GOLFO A ASIA · DE ASIA AL MUNDO",
+  "texto": "¿Y qué llevan? Petróleo del golfo Pérsico rumbo a Asia. Gas natural. Y millones de contenedores con productos fabricados en China, Japón y Corea que van hacia Europa, África y Oriente Medio."
+ },
+ {
+  "id": "singapur",
+  "tipo": "gran_titulo",
+  "kicker": "El gran ganador",
+  "titulo": "Singapur",
+  "grande": "SINGAPUR",
+  "sub": "UNO DE LOS PUERTOS MÁS ACTIVOS DEL MUNDO",
+  "texto": "Por eso Singapur, una ciudad estado más pequeña que muchas ciudades latinoamericanas, tiene uno de los puertos más activos del mundo. Su riqueza nace, en buena parte, de estar en el lugar exacto por donde pasa el comercio."
+ },
+ {
+  "id": "dilema",
+  "tipo": "nodos",
+  "kicker": "El dilema de Malaca",
+  "titulo": "La vena energética de China",
+  "nodos": [
+   [
+    "GOLFO PÉRSICO",
+    300,
+    560,
+    "gold"
+   ],
+   [
+    "MALACA",
+    960,
+    700,
+    "red"
+   ],
+   [
+    "CHINA",
+    1600,
+    420,
+    "cyan"
+   ]
+  ],
+  "flechas": [
+   [
+    0,
+    1,
+    -80,
+    0.2,
+    "gold"
+   ],
+   [
+    1,
+    2,
+    -80,
+    0.45,
+    "gold"
+   ]
+  ],
+  "nota": [
+   "2003: EL «DILEMA DE MALACA»",
+   0.7,
+   "gold"
+  ],
+  "texto": "Y ahora el problema de China. La mayor parte del petróleo que China importa llega en barco, y una gran parte de ese petróleo pasa por Malaca. En dos mil tres, el entonces presidente chino Hu Jintao habló del llamado dilema de Malaca."
+ },
+ {
+  "id": "miedo",
+  "tipo": "lista",
+  "kicker": "¿Por qué es un dilema?",
+  "titulo": "El miedo a un bloqueo",
+  "items": [
+   "Un bloqueo en una crisis",
+   "Menos energía en semanas",
+   "China no controla esas aguas"
+  ],
+  "texto": "¿Por qué es un dilema? Porque si alguien bloqueara el estrecho en una crisis, China podría quedarse sin una parte enorme de su energía en cuestión de semanas. Y China no controla esas aguas."
+ },
+ {
+  "id": "piratas",
+  "tipo": "lista",
+  "kicker": "Otro riesgo",
+  "titulo": "Piratas en el estrecho",
+  "items": [
+   "Años de ataques piratas",
+   "Patrullas conjuntas desde 2004",
+   "El riesgo no desapareció"
+  ],
+  "texto": "Además, durante años esta fue una de las zonas con más ataques piratas del mundo. Hoy son muchos menos gracias a patrullas conjuntas de Malasia, Indonesia, Singapur y Tailandia, pero el riesgo nunca desapareció del todo."
+ },
+ {
+  "id": "rutas",
+  "tipo": "nodos",
+  "kicker": "¿Hay otras rutas?",
+  "titulo": "Sí, pero más largas",
+  "nodos": [
+   [
+    "OCÉANO ÍNDICO",
+    260,
+    560,
+    "cyan"
+   ],
+   [
+    "MALACA",
+    900,
+    420,
+    "red"
+   ],
+   [
+    "SONDA / LOMBOK",
+    900,
+    820,
+    "gold"
+   ],
+   [
+    "PACÍFICO",
+    1620,
+    560,
+    "cyan"
+   ]
+  ],
+  "flechas": [
+   [
+    0,
+    1,
+    -60,
+    0.1,
+    "red"
+   ],
+   [
+    1,
+    3,
+    -60,
+    0.25,
+    "red"
+   ],
+   [
+    0,
+    2,
+    60,
+    0.45,
+    "gold"
+   ],
+   [
+    2,
+    3,
+    60,
+    0.6,
+    "gold"
+   ]
+  ],
+  "nota": [
+   "+ DÍAS DE VIAJE",
+   0.75,
+   "gold"
+  ],
+  "texto": "¿Existen otras rutas? Sí, pero son peores. Los estrechos de Sonda y Lombok, en Indonesia, permiten rodear Malaca, pero alargan el viaje varios días y tienen sus propias limitaciones."
+ },
+ {
+  "id": "oleoducto",
+  "tipo": "nodos",
+  "kicker": "El plan de China",
+  "titulo": "Oleoductos por Birmania",
+  "nodos": [
+   [
+    "OCÉANO ÍNDICO",
+    300,
+    700,
+    "cyan"
+   ],
+   [
+    "BIRMANIA",
+    900,
+    560,
+    "gold"
+   ],
+   [
+    "CHINA",
+    1550,
+    380,
+    "red"
+   ]
+  ],
+  "flechas": [
+   [
+    0,
+    1,
+    -40,
+    0.25,
+    "gold"
+   ],
+   [
+    1,
+    2,
+    -40,
+    0.45,
+    "gold"
+   ]
+  ],
+  "nota": [
+   "ESQUIVAR MALACA",
+   0.7,
+   "gold"
+  ],
+  "texto": "China también ha construido oleoductos y gasoductos que cruzan Birmania, desde la costa del océano Índico hasta su territorio, para que parte de su energía no tenga que pasar por el estrecho."
+ },
+ {
+  "id": "kra",
+  "tipo": "gran_titulo",
+  "kicker": "El sueño eterno",
+  "titulo": "El canal de Kra",
+  "grande": "KRA",
+  "sub": "EL CANAL QUE NUNCA SE CONSTRUYÓ",
+  "texto": "Y desde hace décadas se habla de un sueño: abrir un canal a través de Tailandia, en el istmo de Kra, para crear un atajo. Pero es carísimo, y nunca se ha construido."
+ },
+ {
+  "id": "efecto",
+  "tipo": "cadena",
+  "kicker": "Por qué te afecta",
+  "titulo": "Del estrecho a tu bolsillo",
+  "cadena": [
+   "MALACA BLOQUEADO",
+   "FLETES ↑",
+   "PRECIOS ↑"
+  ],
+  "texto": "Así que, si Malaca se bloquea, el efecto no se queda en Asia: los fletes suben, las entregas se retrasan y los precios de muchos productos suben en todo el mundo."
+ },
+ {
+  "id": "cierre",
+  "tipo": "gran_titulo",
+  "kicker": "La próxima vez",
+  "titulo": "3 km",
+  "grande": "3 KM",
+  "sub": "QUE SOSTIENEN EL COMERCIO DE ASIA",
+  "texto": "Un pasillo de agua que, en su punto más estrecho, mide unos tres kilómetros, sostiene buena parte del comercio de Asia y del mundo."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Próximo video",
+  "titulo": "La isla de los chips",
+  "proximo": "TAIWÁN Y LOS CHIPS QUE MUEVEN EL MUNDO",
+  "texto": "Si quieres entender el mundo con mapas, suscríbete y activa la campanita. En el próximo video: Taiwán, la isla que fabrica los chips que mueven el mundo."
+ }
+]

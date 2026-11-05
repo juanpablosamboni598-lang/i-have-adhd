@@ -1,0 +1,309 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "Una sola isla",
+  "titulo": "Los chips del mundo",
+  "desde": 0,
+  "hasta": 90,
+  "sufijo": "%",
+  "etiqueta": "DE LOS CHIPS MÁS AVANZADOS (ESTIMADO)",
+  "texto": "Tu teléfono, tu computador, tu carro y la inteligencia artificial dependen de chips. Y la gran mayoría de los chips más avanzados del mundo se fabrican en una sola isla, a unos ciento treinta kilómetros de China: Taiwán."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Geopolítica con mapas",
+  "titulo": "TAIWÁN",
+  "grande": "TAIWÁN",
+  "sub": "LA ISLA DE LOS CHIPS",
+  "texto": "Hoy vamos a ver por qué Taiwán es tan importante para el mundo, qué tiene que ver con los chips, y por qué es uno de los lugares más tensos del planeta."
+ },
+ {
+  "id": "mapa",
+  "tipo": "mapa_g",
+  "kicker": "Mira el mapa",
+  "titulo": "A 130 km de China",
+  "vista": [
+   120.5,
+   24.4,
+   11.0
+  ],
+  "zoom": [
+   1.0,
+   1.1
+  ],
+  "tierras": [
+   [
+    "china_sur",
+    "land"
+   ],
+   [
+    "taiwan",
+    "land2"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "CHINA",
+    117.0,
+    25.6,
+    0.15,
+    "sand"
+   ],
+   [
+    "TAIWÁN",
+    122.6,
+    23.4,
+    0.3,
+    "sand"
+   ],
+   [
+    "OCÉANO PACÍFICO",
+    124.5,
+    21.5,
+    0.45,
+    "cyan"
+   ],
+   [
+    "ESTRECHO DE TAIWÁN",
+    119.3,
+    24.1,
+    0.55,
+    "cyan"
+   ]
+  ],
+  "linea": [
+   [
+    119.8,
+    25.45
+   ],
+   [
+    120.95,
+    24.85
+   ]
+  ],
+  "linea_t": 0.7,
+  "medida": "~130 km",
+  "pulso": [
+   121.0,
+   23.8
+  ],
+  "texto": "Mira el mapa. Al oeste, China continental. Al este, el océano Pacífico. Y en medio, separada por el estrecho de Taiwán, una isla de unos veintitrés millones de habitantes. En su punto más estrecho, el estrecho mide unos ciento treinta kilómetros."
+ },
+ {
+  "id": "historia",
+  "tipo": "lista",
+  "kicker": "Un poco de historia",
+  "titulo": "Dos gobiernos desde 1949",
+  "items": [
+   "Gobierno propio desde 1949",
+   "Pekín la reclama como suya",
+   "Elecciones, ejército y moneda propios"
+  ],
+  "texto": "Desde mil novecientos cuarenta y nueve, Taiwán tiene su propio gobierno, separado del de Pekín. China considera que la isla es parte de su territorio y que algún día debe reunificarse. Taiwán, por su parte, funciona como un país con su propio ejército, moneda y elecciones."
+ },
+ {
+  "id": "tsmc",
+  "tipo": "gran_titulo",
+  "kicker": "La empresa clave",
+  "titulo": "TSMC",
+  "grande": "TSMC",
+  "sub": "LA FÁBRICA DE CHIPS MÁS IMPORTANTE DEL MUNDO",
+  "texto": "Y aquí entra una empresa: TSMC. No diseña chips, los fabrica para otros. Y es tan buena que gigantes como Apple o Nvidia dependen de ella para producir sus chips más avanzados."
+ },
+ {
+  "id": "todo",
+  "tipo": "chips_g",
+  "kicker": "Están en todo",
+  "titulo": "Sin chips, nada funciona",
+  "items": [
+   "TELÉFONOS",
+   "COMPUTADORES",
+   "CARROS",
+   "IA"
+  ],
+  "nota": "TODO LLEVA CHIPS",
+  "texto": "Esos chips están en todo: en teléfonos, computadores, carros, electrodomésticos, satélites y en los centros de datos que hacen funcionar la inteligencia artificial."
+ },
+ {
+  "id": "escasez",
+  "tipo": "cadena",
+  "kicker": "Ya pasó en 2021",
+  "titulo": "La escasez de chips",
+  "cadena": [
+   "FALTAN CHIPS",
+   "FÁBRICAS PARADAS",
+   "PRECIOS ↑"
+  ],
+  "texto": "Para entender lo que pasa cuando faltan, recuerda la escasez de chips de dos mil veintiuno: varias fábricas de carros en el mundo tuvieron que frenar su producción, y los precios subieron. Y eso fue sin una crisis en Taiwán."
+ },
+ {
+  "id": "escudo",
+  "tipo": "gran_titulo",
+  "kicker": "Una idea polémica",
+  "titulo": "El escudo de silicio",
+  "grande": "ESCUDO",
+  "sub": "EL «ESCUDO DE SILICIO»",
+  "texto": "Por eso algunos hablan del escudo de silicio: la idea de que Taiwán es tan importante para la economía mundial, que nadie se atrevería a provocar una guerra allí. Pero nadie sabe si esa idea resistiría una crisis real."
+ },
+ {
+  "id": "estrecho",
+  "tipo": "mapa_g",
+  "kicker": "No solo chips",
+  "titulo": "Una ruta clave de Asia",
+  "vista": [
+   121.5,
+   25.0,
+   16.0
+  ],
+  "zoom": [
+   1.0,
+   1.1
+  ],
+  "tierras": [
+   [
+    "china_sur",
+    "land"
+   ],
+   [
+    "taiwan",
+    "land2"
+   ],
+   [
+    "japon_sur",
+    "land"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "CHINA",
+    117.0,
+    27.0,
+    0.1,
+    "sand"
+   ],
+   [
+    "TAIWÁN",
+    122.4,
+    23.3,
+    0.15,
+    "sand"
+   ],
+   [
+    "HACIA JAPÓN Y COREA",
+    126.0,
+    29.5,
+    0.5,
+    "gold"
+   ]
+  ],
+  "linea": [
+   [
+    116.0,
+    22.0
+   ],
+   [
+    118.5,
+    23.3
+   ],
+   [
+    120.0,
+    24.6
+   ],
+   [
+    121.5,
+    26.5
+   ],
+   [
+    124.0,
+    28.8
+   ],
+   [
+    127.0,
+    30.2
+   ]
+  ],
+  "linea_t": 0.3,
+  "pulso": [
+   120.2,
+   24.5
+  ],
+  "texto": "Además, por el estrecho de Taiwán pasa una gran parte del tráfico marítimo de Asia. Un bloqueo de la isla no solo cortaría los chips: también afectaría a barcos que van y vienen de Japón, Corea y China."
+ },
+ {
+  "id": "potencias",
+  "tipo": "tarjetas",
+  "kicker": "Quién está en juego",
+  "titulo": "Tensión en el Pacífico",
+  "centro": "TAIWÁN",
+  "tarjetas": [
+   [
+    "EE. UU.",
+    "blue",
+    420,
+    400,
+    0.1,
+    "VENDE ARMAS A TAIWÁN"
+   ],
+   [
+    "CHINA",
+    "red",
+    1500,
+    400,
+    0.5,
+    "EJERCICIOS MILITARES"
+   ],
+   [
+    "JAPÓN",
+    "gray",
+    1500,
+    760,
+    0.75,
+    "VECINO CERCANO"
+   ]
+  ],
+  "texto": "Estados Unidos vende armas a Taiwán y mantiene una política llamada ambigüedad estratégica: no dice claramente si defendería la isla. China, mientras tanto, realiza ejercicios militares cada vez más grandes cerca de sus costas."
+ },
+ {
+  "id": "diversificar",
+  "tipo": "lista",
+  "kicker": "El plan B",
+  "titulo": "No depender de una isla",
+  "items": [
+   "Fábricas en Arizona (EE. UU.)",
+   "Fábricas en Japón",
+   "Ley de chips de EE. UU. (2022)"
+  ],
+  "texto": "Por eso el mundo intenta no depender tanto de una sola isla. TSMC está construyendo fábricas en Estados Unidos y Japón, y Estados Unidos aprobó en dos mil veintidós una ley millonaria para fabricar más chips en su territorio."
+ },
+ {
+  "id": "dificil",
+  "tipo": "lista",
+  "kicker": "Pero no es fácil",
+  "titulo": "Copiar Taiwán cuesta",
+  "items": [
+   "Años de construcción",
+   "Decenas de miles de millones $",
+   "Miles de ingenieros"
+  ],
+  "texto": "Pero no es tan fácil. Las fábricas más avanzadas tardan años en construirse, cuestan decenas de miles de millones de dólares, y necesitan miles de ingenieros especializados. Por ahora, el corazón de la industria sigue en Taiwán."
+ },
+ {
+  "id": "cierre",
+  "tipo": "gran_titulo",
+  "kicker": "La próxima vez",
+  "titulo": "130 km",
+  "grande": "130 KM",
+  "sub": "LA DISTANCIA MÁS DELICADA DEL MUNDO",
+  "texto": "Así que la próxima vez que uses tu teléfono, recuerda que el chip que lo hace funcionar probablemente salió de una isla a ciento treinta kilómetros de China. Una de las piezas más delicadas del mundo."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Próximo video",
+  "titulo": "Un pedazo de Rusia en Europa",
+  "proximo": "KALININGRADO: RUSIA EN MEDIO DE EUROPA",
+  "texto": "Si quieres entender el mundo con mapas, suscríbete y activa la campanita. En el próximo video: Kaliningrado, un pedazo de Rusia escondido en medio de Europa."
+ }
+]

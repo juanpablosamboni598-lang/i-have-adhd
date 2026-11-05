@@ -75,7 +75,8 @@ def register(g):
                 continue
             cx = W / 2 + (i - (n - 1) / 2) * 560
             d.rounded_rectangle([cx - 220, 470, cx + 220, 590], 24, fill=RED if i == n - 1 else (30, 50, 85))
-            draw_label(d, (cx, 530), txt, 50 * (0.6 + 0.4 * clamp(p)), WHITE, 1, 'Black',
+            fs = fit_font(d, txt, 'Black', 50, 400)
+            draw_label(d, (cx, 530), txt, fs * (0.6 + 0.4 * clamp(p)), WHITE, 1, 'Black',
                        bgc=RED if i == n - 1 else (30, 50, 85))
             if i > 0:
                 arrow_path(d, (cx - 560 + 230, 530), (cx - 230, 530), 0, ease_out(prog(t, st - 0.3, 0.4)), GOLD, 8)
@@ -94,7 +95,7 @@ def register(g):
             d.polygon(pts, fill=cols[i % len(cols)], outline=WHITE)
             draw_label(d, (cx, cy + 165), txt, 42, WHITE, clamp(p), 'Black')
         a = ease_out(prog(t, dur * 0.65, 0.5))
-        draw_label(d, (W / 2, 860), 'BATERÍAS · MOTORES · TELÉFONOS · ARMAS', 44, GOLD, a, 'Black')
+        draw_label(d, (W / 2, 860), sc.get('nota', 'BATERÍAS · MOTORES · TELÉFONOS · ARMAS'), 44, GOLD, a, 'Black')
 
     def s_suscribete_g(d, t, dur, sc):
         p = ease_back(prog(t, 0.5, 0.6))
@@ -363,8 +364,8 @@ def register(g):
                 c = mix(BG, (255, 80, 80), 1 - diff / 2.5)
                 x, y = cx + math.cos(ang) * rr, cy + math.sin(ang) * rr
                 d.ellipse([x - 12, y - 12, x + 12, y + 12], fill=c)
-        draw_label(d, (cx, cy + R + 60), 'PITUFFIK (ANTES THULE)', 46, GOLD, ease_out(prog(t, 1, 0.5)), 'Black')
-        draw_label(d, (cx + R + 220, cy - 120), 'DESDE 1951', 44, WHITE, ease_out(prog(t, 2, 0.5)), 'Black')
+        draw_label(d, (cx, cy + R + 60), sc.get('etiqueta', 'PITUFFIK (ANTES THULE)'), 46, GOLD, ease_out(prog(t, 1, 0.5)), 'Black')
+        draw_label(d, (cx + R + 220, cy - 120), sc.get('nota', 'DESDE 1951'), 44, WHITE, ease_out(prog(t, 2, 0.5)), 'Black')
 
     def s_deshielo(d, t, dur, sc):
         cx, cy, R = W / 2, 600, 380

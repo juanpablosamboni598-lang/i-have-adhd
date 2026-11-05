@@ -1,0 +1,402 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "El pasillo más vigilado",
+  "titulo": "Unos 65 km",
+  "desde": 0,
+  "hasta": 65,
+  "sufijo": " km",
+  "etiqueta": "EL PUNTO DÉBIL DE LA OTAN",
+  "texto": "Entre Polonia y Lituania hay un pedazo de Rusia que no toca Rusia. Está rodeado por países de la OTAN. Y muy cerca hay un pasillo de tierra de unos sesenta y cinco kilómetros que los militares consideran uno de los puntos más vulnerables de Europa."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Geopolítica con mapas",
+  "titulo": "KALININGRADO",
+  "grande": "KALININGRADO",
+  "sub": "UN PEDAZO DE RUSIA EN EUROPA",
+  "texto": "Hoy vamos a ver qué es Kaliningrado, cómo terminó siendo ruso, y por qué preocupa tanto a Europa."
+ },
+ {
+  "id": "mapa",
+  "tipo": "mapa_g",
+  "kicker": "Mira el mapa",
+  "titulo": "Un exclave ruso",
+  "vista": [
+   21.5,
+   55.0,
+   16.0
+  ],
+  "zoom": [
+   1.0,
+   1.35
+  ],
+  "tierras": [
+   [
+    "baltico_sur",
+    "land"
+   ],
+   [
+    "suecia",
+    "land2"
+   ],
+   [
+    "bielorrusia",
+    "dark"
+   ],
+   [
+    "kaliningrado",
+    "red"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "POLONIA",
+    19.0,
+    53.0,
+    0.1,
+    "sand"
+   ],
+   [
+    "LITUANIA",
+    24.2,
+    55.4,
+    0.25,
+    "sand"
+   ],
+   [
+    "MAR BÁLTICO",
+    18.0,
+    55.9,
+    0.4,
+    "cyan"
+   ],
+   [
+    "KALININGRADO",
+    21.2,
+    54.72,
+    0.55,
+    "white"
+   ]
+  ],
+  "pulso": [
+   20.5,
+   54.71
+  ],
+  "texto": "Mira el mapa. Al sur, Polonia. Al este, Lituania. Al norte, el mar Báltico. Y en medio, un territorio ruso de unos quince mil kilómetros cuadrados, separado del resto de Rusia por cientos de kilómetros. Es lo que se llama un exclave."
+ },
+ {
+  "id": "historia",
+  "tipo": "contador",
+  "kicker": "No siempre fue ruso",
+  "titulo": "De Königsberg a Kaliningrado",
+  "desde": 1900,
+  "hasta": 1945,
+  "sufijo": "",
+  "etiqueta": "KÖNIGSBERG PASA A LA URSS",
+  "texto": "No siempre fue ruso. Durante siglos fue la ciudad alemana de Königsberg, capital de Prusia Oriental, y la ciudad del filósofo Immanuel Kant. Al final de la Segunda Guerra Mundial, en mil novecientos cuarenta y cinco, la Unión Soviética la tomó y le cambió el nombre."
+ },
+ {
+  "id": "urss",
+  "tipo": "lista",
+  "kicker": "Después de la guerra",
+  "titulo": "Una isla rusa en tierra",
+  "items": [
+   "Población alemana expulsada",
+   "1991: fin de la Unión Soviética",
+   "Kaliningrado queda aislado"
+  ],
+  "texto": "La población alemana fue expulsada y llegaron habitantes de otras partes de la Unión Soviética. Cuando la Unión Soviética se disolvió en mil novecientos noventa y uno, Lituania se independizó, y Kaliningrado quedó aislado, como una isla rusa en tierra."
+ },
+ {
+  "id": "flota",
+  "tipo": "gran_titulo",
+  "kicker": "Por qué vale oro",
+  "titulo": "La flota del Báltico",
+  "grande": "BÁLTICO",
+  "sub": "SEDE DE LA FLOTA RUSA DEL BÁLTICO",
+  "texto": "Para Rusia, este territorio vale oro. Allí está la base principal de su flota del Báltico, en Baltiisk, uno de sus pocos puertos en este mar que no se congela en invierno."
+ },
+ {
+  "id": "misiles",
+  "tipo": "radar",
+  "kicker": "Misiles en Europa",
+  "titulo": "Iskander en Kaliningrado",
+  "etiqueta": "MISILES ISKANDER",
+  "nota": "CERCA DE LA UE",
+  "texto": "Rusia también ha desplegado allí misiles Iskander, capaces de llevar cargas nucleares, que desde Kaliningrado pueden alcanzar varias capitales europeas."
+ },
+ {
+  "id": "suwalki",
+  "tipo": "mapa_g",
+  "kicker": "El punto débil",
+  "titulo": "El corredor de Suwałki",
+  "vista": [
+   22.6,
+   54.6,
+   8.0
+  ],
+  "zoom": [
+   1.0,
+   1.1
+  ],
+  "tierras": [
+   [
+    "baltico_sur",
+    "land"
+   ],
+   [
+    "bielorrusia",
+    "dark"
+   ],
+   [
+    "kaliningrado",
+    "red"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "KALININGRADO",
+    21.2,
+    54.72,
+    0.1,
+    "white"
+   ],
+   [
+    "BIELORRUSIA",
+    25.6,
+    54.05,
+    0.25,
+    "sand"
+   ],
+   [
+    "POLONIA",
+    21.2,
+    54.05,
+    0.35,
+    "sand"
+   ],
+   [
+    "LITUANIA",
+    24.2,
+    55.3,
+    0.4,
+    "sand"
+   ]
+  ],
+  "linea": [
+   [
+    22.79,
+    54.36
+   ],
+   [
+    23.5,
+    53.95
+   ]
+  ],
+  "linea_t": 0.5,
+  "medida": "~65 km",
+  "pulso": [
+   23.15,
+   54.15
+  ],
+  "texto": "Y ahora mira este punto. Entre Kaliningrado y Bielorrusia, aliada de Rusia, hay una franja de frontera entre Polonia y Lituania de unos sesenta y cinco kilómetros: el corredor de Suwałki. Si alguien lo cerrara, los países bálticos quedarían separados por tierra del resto de la OTAN."
+ },
+ {
+  "id": "balticos",
+  "tipo": "tarjetas",
+  "kicker": "Quién depende del pasillo",
+  "titulo": "Los países bálticos",
+  "centro": "SUWAŁKI",
+  "tarjetas": [
+   [
+    "ESTONIA",
+    "blue",
+    420,
+    400,
+    0.1,
+    ""
+   ],
+   [
+    "LETONIA",
+    "blue",
+    1500,
+    400,
+    0.2,
+    ""
+   ],
+   [
+    "LITUANIA",
+    "blue",
+    1500,
+    760,
+    0.3,
+    ""
+   ],
+   [
+    "TROPAS OTAN",
+    "gray",
+    420,
+    760,
+    0.6,
+    "EJERCICIOS FRECUENTES"
+   ]
+  ],
+  "texto": "Estonia, Letonia y Lituania dependen de ese pasillo para recibir refuerzos por tierra. Por eso la OTAN ha enviado tropas a la región y hace ejercicios militares allí con frecuencia."
+ },
+ {
+  "id": "transito",
+  "tipo": "cadena",
+  "kicker": "2022",
+  "titulo": "La pelea por el tránsito",
+  "cadena": [
+   "SANCIONES UE",
+   "LITUANIA LIMITA",
+   "RUSIA PROTESTA"
+  ],
+  "texto": "Kaliningrado también depende del tránsito por Lituania para recibir mercancías desde Rusia. En dos mil veintidós, cuando Lituania limitó el paso de productos sancionados por la Unión Europea, Rusia protestó y habló de represalias."
+ },
+ {
+  "id": "lago",
+  "tipo": "mapa_g",
+  "kicker": "Todo cambió",
+  "titulo": "¿Un lago de la OTAN?",
+  "vista": [
+   21.0,
+   56.5,
+   24.0
+  ],
+  "zoom": [
+   1.0,
+   1.05
+  ],
+  "tierras": [
+   [
+    "baltico_sur",
+    "land"
+   ],
+   [
+    "suecia",
+    "blue"
+   ],
+   [
+    "finlandia",
+    "blue"
+   ],
+   [
+    "bielorrusia",
+    "dark"
+   ],
+   [
+    "kaliningrado",
+    "red"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "SUECIA · 2024",
+    14.6,
+    57.6,
+    0.4,
+    "white"
+   ],
+   [
+    "FINLANDIA · 2023",
+    25.5,
+    59.4,
+    0.3,
+    "white"
+   ],
+   [
+    "MAR BÁLTICO",
+    19.0,
+    56.8,
+    0.6,
+    "cyan"
+   ]
+  ],
+  "pulso": [
+   20.5,
+   54.71
+  ],
+  "texto": "Y la situación cambió aún más cuando Finlandia y Suecia se unieron a la OTAN, en dos mil veintitrés y dos mil veinticuatro. Hoy casi todo el mar Báltico está rodeado de países de la alianza. Algunos lo llaman el lago de la OTAN."
+ },
+ {
+  "id": "dilema",
+  "tipo": "lista",
+  "kicker": "Fortaleza y punto débil",
+  "titulo": "Dos miradas",
+  "items": [
+   "Rusia: base en el corazón de Europa",
+   "OTAN: una amenaza que vigilar",
+   "Los dos lo miran de cerca"
+  ],
+  "texto": "Así que Kaliningrado es al mismo tiempo una fortaleza y un punto vulnerable. Para Rusia, es una base de avanzada en el corazón de Europa. Para la OTAN, es una amenaza que vigilar muy de cerca."
+ },
+ {
+  "id": "gente",
+  "tipo": "gran_titulo",
+  "kicker": "Y la gente",
+  "titulo": "Un millón de personas",
+  "grande": "1 MILLÓN",
+  "sub": "DE PERSONAS VIVEN EN KALININGRADO",
+  "texto": "Y en medio de todo viven alrededor de un millón de personas, que para ir al resto de su propio país tienen que cruzar otros países o tomar un avión."
+ },
+ {
+  "id": "cierre",
+  "tipo": "mapa_g",
+  "kicker": "El tablero europeo",
+  "titulo": "Pequeño pero clave",
+  "vista": [
+   21.5,
+   55.0,
+   10.0
+  ],
+  "zoom": [
+   1.6,
+   0.9
+  ],
+  "tierras": [
+   [
+    "baltico_sur",
+    "land"
+   ],
+   [
+    "suecia",
+    "land2"
+   ],
+   [
+    "bielorrusia",
+    "dark"
+   ],
+   [
+    "kaliningrado",
+    "red"
+   ]
+  ],
+  "etiquetas": [
+   [
+    "PEQUEÑO, PERO CLAVE",
+    21.5,
+    56.6,
+    0.3,
+    "gold"
+   ]
+  ],
+  "pulso": [
+   20.5,
+   54.71
+  ],
+  "texto": "Un pequeño pedazo de tierra junto al mar Báltico, que puede definir la seguridad de toda Europa."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Tu opinión",
+  "titulo": "¿Qué quieres ver?",
+  "proximo": "DIME QUÉ PAÍS QUIERES QUE EXPLIQUE",
+  "texto": "Si quieres entender el mundo con mapas, suscríbete y activa la campanita. Y déjame en los comentarios qué país o región quieres que expliquemos en el próximo video."
+ }
+]
