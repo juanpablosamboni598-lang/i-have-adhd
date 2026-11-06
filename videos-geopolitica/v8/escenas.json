@@ -1,0 +1,208 @@
+[
+ {
+  "id": "hook",
+  "tipo": "tamano",
+  "kicker": "Un monstruo real",
+  "titulo": "Hasta 12 metros",
+  "items": [
+   [
+    "HUMANO",
+    1.75,
+    "cyan"
+   ],
+   [
+    "CALAMAR GIGANTE",
+    12,
+    "red"
+   ]
+  ],
+  "texto": "Durante siglos, los marineros contaban historias de un monstruo con tentáculos capaz de hundir barcos: el Kraken. Todos pensaban que era una leyenda. Pero el monstruo era real. Y nadie lo había visto vivo en su hogar hasta el siglo veintiuno."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "CALAMAR GIGANTE",
+  "grande": "KRAKEN",
+  "sub": "EL MONSTRUO QUE ERA REAL",
+  "texto": "Hoy vamos a ver por qué el calamar gigante se escondió de nosotros durante siglos, y qué descubrimos cuando por fin lo encontramos."
+ },
+ {
+  "id": "tamano",
+  "tipo": "criatura",
+  "kicker": "Su tamaño",
+  "titulo": "Uno de los invertebrados más grandes",
+  "kind": "calamar",
+  "callouts": [
+   [
+    "HASTA ~12 METROS",
+    0.15
+   ],
+   [
+    "LA MAYOR PARTE SON TENTÁCULOS",
+    0.4
+   ],
+   [
+    "VENTOSAS CON DIENTECILLOS",
+    0.65
+   ]
+  ],
+  "texto": "El calamar gigante puede medir hasta unos doce metros de largo, aunque la mayor parte de esa longitud son sus dos tentáculos largos. Sus ventosas tienen anillos con pequeños dientes para sujetar a sus presas."
+ },
+ {
+  "id": "ojos",
+  "tipo": "contador",
+  "kicker": "Ojos enormes",
+  "titulo": "Del tamaño de un balón",
+  "desde": 0,
+  "hasta": 27,
+  "sufijo": " cm",
+  "etiqueta": "OJOS: DE LOS MÁS GRANDES DEL REINO ANIMAL",
+  "texto": "Y tiene unos ojos enormes: pueden medir más de veinticinco centímetros, como un balón de fútbol. Junto con su primo, el calamar colosal, tiene los ojos más grandes de todo el reino animal."
+ },
+ {
+  "id": "profundidad",
+  "tipo": "profundidad",
+  "kicker": "¿Dónde vive?",
+  "titulo": "En la oscuridad total",
+  "objetivo": 900,
+  "texto": "¿Por qué no lo veíamos? Porque vive en las profundidades, entre unos trescientos y más de mil metros bajo la superficie, donde la luz del sol casi no llega. Un mundo frío, oscuro y enorme."
+ },
+ {
+  "id": "ojos_por_que",
+  "tipo": "lista",
+  "kicker": "¿Para qué ojos tan grandes?",
+  "titulo": "Ver al enemigo",
+  "items": [
+   "Captar la poca luz que hay",
+   "Detectar el brillo de otros animales",
+   "Ver venir a su gran depredador"
+  ],
+  "texto": "Y esos ojos gigantes tienen una razón. Le ayudan a captar la poquísima luz que hay ahí abajo, y a detectar a tiempo a su gran enemigo."
+ },
+ {
+  "id": "cachalote",
+  "tipo": "tarjetas",
+  "kicker": "Su gran enemigo",
+  "titulo": "El cachalote",
+  "centro": "CALAMAR",
+  "tarjetas": [
+   [
+    "CACHALOTE",
+    "blue",
+    420,
+    400,
+    0.15,
+    "SU GRAN DEPREDADOR"
+   ],
+   [
+    "CICATRICES",
+    "red",
+    1500,
+    400,
+    0.45,
+    "MARCAS DE VENTOSAS"
+   ],
+   [
+    "ESTÓMAGOS",
+    "gray",
+    1500,
+    760,
+    0.7,
+    "PICOS DE CALAMAR"
+   ]
+  ],
+  "texto": "Ese enemigo es el cachalote. Durante mucho tiempo, la mejor prueba de que existían los calamares gigantes eran las cicatrices de ventosas en la piel de los cachalotes, y los picos de calamar encontrados en sus estómagos."
+ },
+ {
+  "id": "leyenda",
+  "tipo": "gran_titulo",
+  "kicker": "De la leyenda a la ciencia",
+  "titulo": "Solo cadáveres",
+  "grande": "MISTERIO",
+  "sub": "SOLO SE ENCONTRABAN RESTOS EN LAS PLAYAS",
+  "texto": "Durante siglos, solo conocíamos al calamar gigante por restos que aparecían flotando o varados en las playas. Nadie sabía cómo se movía, cómo cazaba, ni cómo se comportaba vivo."
+ },
+ {
+  "id": "2004",
+  "tipo": "contador",
+  "kicker": "Por fin",
+  "titulo": "Las primeras fotos",
+  "desde": 1990,
+  "hasta": 2004,
+  "sufijo": "",
+  "etiqueta": "PRIMERAS FOTOS DE UNO VIVO EN SU HÁBITAT",
+  "texto": "Eso cambió en dos mil cuatro, cuando dos científicos japoneses lograron las primeras fotografías de un calamar gigante vivo en su hábitat, cerca de las islas Ogasawara, en Japón."
+ },
+ {
+  "id": "video",
+  "tipo": "radar",
+  "kicker": "El primer video",
+  "titulo": "Filmado en las profundidades",
+  "etiqueta": "CÁMARA EN LAS PROFUNDIDADES",
+  "nota": "2012: PRIMER VIDEO",
+  "texto": "Y en dos mil doce, un equipo internacional lo filmó por primera vez en su hogar, a cientos de metros de profundidad. Fue una de las imágenes más buscadas de la historia de la biología marina."
+ },
+ {
+  "id": "truco",
+  "tipo": "lista",
+  "kicker": "El truco que funcionó",
+  "titulo": "Luz que imita a una medusa",
+  "items": [
+   "Luces rojas que no lo asustan",
+   "Un señuelo que brilla como medusa",
+   "Cámaras muy silenciosas"
+  ],
+  "texto": "¿Cuál fue el truco? En algunas expediciones usaron luces que el calamar casi no puede ver, y señuelos que brillan como una medusa en peligro. Así lograron acercarse sin asustarlo."
+ },
+ {
+  "id": "oceano",
+  "tipo": "barras_g",
+  "kicker": "Lo que esto significa",
+  "titulo": "El océano sigue sin explorar",
+  "barras": [
+   [
+    "OCÉANO PROFUNDO EXPLORADO EN DETALLE",
+    0.15,
+    "cyan"
+   ],
+   [
+    "LO QUE AÚN NO CONOCEMOS",
+    1.0,
+    "red"
+   ]
+  ],
+  "ilustrativo": true,
+  "texto": "Y lo más impresionante es lo que esto significa: si un animal de doce metros pudo esconderse de nosotros durante siglos, imagina todo lo que todavía no hemos descubierto en el océano profundo."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kicker": "El Kraken era real",
+  "titulo": "Y sigue ahí abajo",
+  "kind": "calamar",
+  "callouts": [
+   [
+    "12 METROS",
+    0.1
+   ],
+   [
+    "OJOS GIGANTES",
+    0.3
+   ],
+   [
+    "SIGLOS ESCONDIDO",
+    0.55
+   ]
+  ],
+  "texto": "El Kraken de las leyendas era real. Y sigue ahí abajo, en la oscuridad."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Próximo video",
+  "titulo": "Un tiburón gigante",
+  "proximo": "ESTÁBAMOS EQUIVOCADOS SOBRE EL MEGALODÓN",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. En el próximo video: estábamos equivocados sobre el megalodón."
+ }
+]

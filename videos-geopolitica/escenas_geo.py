@@ -119,7 +119,10 @@ def register(g):
                 continue
             fc = FILL.get(c, col(c))
             d.rounded_rectangle([x - 190, y - 60, x + 190, y + 60], 20, fill=fc, outline=WHITE, width=3)
-            draw_label(d, (x, y), label, 46 * (0.6 + 0.4 * clamp(p)), WHITE, 1, 'Black', bgc=fc)
+            fs = 46
+            while fs > 24 and d.textlength(label, font=font('Black', fs)) > 340:
+                fs -= 2
+            draw_label(d, (x, y), label, fs * (0.6 + 0.4 * clamp(p)), WHITE, 1, 'Black', bgc=fc)
             sx = x + (200 if x < cx else -200)
             arrow_path(d, (sx, y), (cx + (-125 if x < cx else 125), cy + (-40 if y < cy else 40)), 30,
                        ease_out(prog(t, dur * fr + 0.3, 0.8)), GOLD, 6)

@@ -1,0 +1,193 @@
+[
+ {
+  "id": "hook",
+  "tipo": "tamano",
+  "kicker": "El tiburón más grande",
+  "titulo": "Hasta 3 veces un tiburón blanco",
+  "items": [
+   [
+    "HUMANO",
+    1.75,
+    "cyan"
+   ],
+   [
+    "TIBURÓN BLANCO",
+    6,
+    "gold"
+   ],
+   [
+    "MEGALODÓN",
+    16,
+    "red"
+   ]
+  ],
+  "texto": "Durante años lo imaginamos como un tiburón blanco gigante: igual, pero tres veces más grande. Pero los científicos se han dado cuenta de que probablemente estábamos equivocados. El megalodón era todavía más extraño."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "MEGALODÓN",
+  "grande": "MEGALODÓN",
+  "sub": "ESTÁBAMOS EQUIVOCADOS",
+  "texto": "Hoy vamos a ver qué sabemos de verdad sobre el megalodón, el tiburón más grande que ha existido, y en qué nos equivocamos durante años."
+ },
+ {
+  "id": "epoca",
+  "tipo": "contador",
+  "kicker": "Cuándo vivió",
+  "titulo": "Millones de años en los océanos",
+  "desde": 0,
+  "hasta": 20,
+  "sufijo": " M",
+  "etiqueta": "AÑOS DOMINÓ LOS MARES (APROX.)",
+  "texto": "El megalodón vivió hace entre unos veintitrés y tres millones y medio de años. Durante unos veinte millones de años fue uno de los grandes depredadores de los océanos de todo el mundo."
+ },
+ {
+  "id": "dientes",
+  "tipo": "contador",
+  "kicker": "Casi todo son dientes",
+  "titulo": "Lo que dejó",
+  "desde": 0,
+  "hasta": 18,
+  "sufijo": " cm",
+  "etiqueta": "DIENTES DE HASTA UNOS 18 CM",
+  "texto": "Pero aquí empieza el problema. Casi todo lo que sabemos de él viene de sus dientes, que podían medir hasta unos dieciocho centímetros. Su esqueleto era de cartílago, como el de todos los tiburones, y el cartílago casi nunca se fosiliza."
+ },
+ {
+  "id": "error1",
+  "tipo": "lista",
+  "kicker": "Error número 1",
+  "titulo": "No era un tiburón blanco gigante",
+  "items": [
+   "Lo dibujamos copiando al tiburón blanco",
+   "Estudios recientes: cuerpo más alargado",
+   "Más largo y delgado de lo que creíamos"
+  ],
+  "texto": "Por eso, durante décadas, los científicos lo reconstruyeron copiando la forma del tiburón blanco, solo que más grande. Pero estudios recientes sugieren que su cuerpo era más alargado y delgado, más parecido a otros tiburones."
+ },
+ {
+  "id": "tamano",
+  "tipo": "tamano",
+  "kicker": "Su tamaño real",
+  "titulo": "Unos 15 a 18 metros",
+  "items": [
+   [
+    "AUTOBÚS",
+    12,
+    "gold"
+   ],
+   [
+    "MEGALODÓN",
+    16,
+    "red"
+   ]
+  ],
+  "texto": "¿Y su tamaño? La mayoría de estimaciones lo ponen entre unos quince y dieciocho metros de largo. Más que un autobús escolar. Aunque, como solo tenemos dientes y algunas vértebras, todavía hay mucho debate."
+ },
+ {
+  "id": "mordida",
+  "tipo": "cadena",
+  "kicker": "Su mordida",
+  "titulo": "Una de las más fuertes de la historia",
+  "cadena": [
+   "DIENTES ENORMES",
+   "MANDÍBULA GIGANTE",
+   "BALLENAS COMO PRESA"
+  ],
+  "texto": "Su mordida probablemente fue una de las más fuertes de la historia del planeta. Y sus presas eran grandes: se han encontrado huesos de ballenas antiguas con marcas de sus dientes."
+ },
+ {
+  "id": "error2",
+  "tipo": "gran_titulo",
+  "kicker": "Error número 2",
+  "titulo": "Sangre caliente",
+  "grande": "CALIENTE",
+  "sub": "ERA MÁS CÁLIDO QUE EL AGUA",
+  "texto": "Segundo error. Se pensaba que era un pez de sangre fría como la mayoría. Pero un estudio de dos mil veintitrés, analizando la química de sus dientes, sugiere que su cuerpo era varios grados más cálido que el agua que lo rodeaba."
+ },
+ {
+  "id": "costo",
+  "tipo": "lista",
+  "kicker": "Ventaja y problema",
+  "titulo": "Un motor que gasta mucho",
+  "items": [
+   "Nadaba más rápido",
+   "Cazaba en aguas frías",
+   "Pero necesitaba comer muchísimo"
+  ],
+  "texto": "Eso era una gran ventaja: le permitía nadar más rápido y cazar en aguas más frías. Pero tenía un precio: necesitaba comer muchísimo para mantener ese motor encendido."
+ },
+ {
+  "id": "extincion",
+  "tipo": "tarjetas",
+  "kicker": "¿Por qué desapareció?",
+  "titulo": "Varias causas",
+  "centro": "MEGALODÓN",
+  "tarjetas": [
+   [
+    "OCÉANOS MÁS FRÍOS",
+    "blue",
+    420,
+    400,
+    0.15,
+    "EL CLIMA CAMBIÓ"
+   ],
+   [
+    "MENOS PRESAS",
+    "gray",
+    1500,
+    400,
+    0.4,
+    "BALLENAS QUE SE ALEJAN"
+   ],
+   [
+    "TIBURÓN BLANCO",
+    "red",
+    1500,
+    760,
+    0.65,
+    "UN NUEVO RIVAL"
+   ]
+  ],
+  "texto": "¿Y por qué desapareció? Probablemente por varias razones a la vez: los océanos se enfriaron, sus presas cambiaron, y apareció un competidor más pequeño y eficiente: el tiburón blanco, que comía parte de lo mismo."
+ },
+ {
+  "id": "mito",
+  "tipo": "profundidad",
+  "kicker": "El mito",
+  "titulo": "¿Sigue vivo en la fosa de las Marianas?",
+  "objetivo": 11000,
+  "texto": "Y no, no sigue vivo en la fosa de las Marianas. Un tiburón de ese tamaño necesitaría muchísima comida y aguas templadas, y en las profundidades extremas no hay ni lo uno ni lo otro. Además, sus dientes aparecerían por todas partes, y no los hay más recientes de unos tres millones y medio de años."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kicker": "Lo que sí sabemos",
+  "titulo": "Un gigante real",
+  "kind": "tiburon",
+  "callouts": [
+   [
+    "15 A 18 METROS",
+    0.1
+   ],
+   [
+    "MÁS CÁLIDO QUE EL AGUA",
+    0.3
+   ],
+   [
+    "EXTINTO HACE MILLONES DE AÑOS",
+    0.55
+   ]
+  ],
+  "texto": "Así que el megalodón fue real, gigante y sorprendente. Solo que un poco distinto de como nos lo imaginábamos."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Tu opinión",
+  "titulo": "¿Qué animal quieres ver?",
+  "proximo": "DIME QUÉ ANIMAL QUIERES QUE EXPLIQUE",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. Y déjame en los comentarios qué animal quieres que expliquemos en el próximo video."
+ }
+]

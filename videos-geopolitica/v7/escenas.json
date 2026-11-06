@@ -1,0 +1,213 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "Un dato increíble",
+  "titulo": "3 corazones y sangre azul",
+  "desde": 0,
+  "hasta": 3,
+  "sufijo": "",
+  "etiqueta": "CORAZONES TIENE UN PULPO",
+  "texto": "Tiene tres corazones, sangre azul, y puede cambiar de color en menos de un segundo. Puede abrir frascos, escaparse de acuarios y usar herramientas. Y aun así, la mayoría vive apenas uno o dos años. Hoy vas a entender por qué el pulpo parece un alienígena."
+ },
+ {
+  "id": "titulo",
+  "tipo": "gran_titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "EL PULPO",
+  "grande": "PULPO",
+  "sub": "EL ANIMAL QUE PARECE UN ALIEN",
+  "texto": "Y no exageramos: algunos científicos dicen que el pulpo es lo más parecido a una inteligencia extraterrestre que tenemos en la Tierra."
+ },
+ {
+  "id": "corazones",
+  "tipo": "criatura",
+  "kicker": "Su cuerpo",
+  "titulo": "Tres corazones",
+  "kind": "pulpo",
+  "callouts": [
+   [
+    "2 CORAZONES PARA LAS BRANQUIAS",
+    0.2
+   ],
+   [
+    "1 CORAZÓN PARA EL CUERPO",
+    0.45
+   ],
+   [
+    "SANGRE AZUL (COBRE)",
+    0.7
+   ]
+  ],
+  "texto": "Empecemos por su cuerpo. El pulpo tiene tres corazones: dos bombean sangre a las branquias, y uno al resto del cuerpo. Y su sangre es azul, porque usa una molécula con cobre para transportar el oxígeno, en lugar del hierro que usamos nosotros."
+ },
+ {
+  "id": "neuronas",
+  "tipo": "contador",
+  "kicker": "Su cerebro",
+  "titulo": "500 millones de neuronas",
+  "desde": 0,
+  "hasta": 500,
+  "sufijo": " M",
+  "etiqueta": "NEURONAS, PARECIDO A UN PERRO",
+  "texto": "Ahora su cerebro. Un pulpo tiene unos quinientos millones de neuronas, una cantidad parecida a la de un perro. Pero aquí viene lo raro: la mayoría no están en su cabeza."
+ },
+ {
+  "id": "brazos",
+  "tipo": "criatura",
+  "kicker": "Brazos que piensan",
+  "titulo": "Dos tercios en los brazos",
+  "kind": "pulpo",
+  "callouts": [
+   [
+    "2/3 DE SUS NEURONAS ESTÁN EN LOS BRAZOS",
+    0.15
+   ],
+   [
+    "CADA BRAZO DECIDE SOLO",
+    0.45
+   ],
+   [
+    "SABOREAN AL TOCAR",
+    0.7
+   ]
+  ],
+  "texto": "Cerca de dos tercios de sus neuronas están repartidas por sus ocho brazos. Cada brazo puede tomar decisiones por su cuenta, casi como si tuviera su propio mini cerebro. Y sus ventosas pueden saborear lo que tocan."
+ },
+ {
+  "id": "camuflaje",
+  "tipo": "chips_g",
+  "kicker": "El maestro del disfraz",
+  "titulo": "Cambia de color en un instante",
+  "items": [
+   "COLOR",
+   "TEXTURA",
+   "FORMA",
+   "BRILLO"
+  ],
+  "nota": "Y CASI SEGURO NO VE LOS COLORES",
+  "texto": "Su camuflaje es de otro nivel. Puede cambiar de color, de textura y hasta de forma en una fracción de segundo, para parecer una roca o un alga. Y lo más loco: según la mayoría de estudios, el pulpo probablemente no ve los colores como nosotros."
+ },
+ {
+  "id": "escape",
+  "tipo": "lista",
+  "kicker": "El gran escapista",
+  "titulo": "El caso de Inky",
+  "items": [
+   "Acuario de Nueva Zelanda, 2016",
+   "Salió por un hueco de su tanque",
+   "Llegó al mar por una tubería"
+  ],
+  "texto": "Y es un escapista profesional. En dos mil dieciséis, un pulpo llamado Inky se escapó del acuario nacional de Nueva Zelanda: salió por un pequeño hueco de su tanque, cruzó el suelo y desapareció por una tubería que llevaba al mar."
+ },
+ {
+  "id": "herramientas",
+  "tipo": "gran_titulo",
+  "kicker": "Usa herramientas",
+  "titulo": "Cocos como casa",
+  "grande": "COCOS",
+  "sub": "LLEVA CÁSCARAS PARA ESCONDERSE",
+  "texto": "También usa herramientas. Hay pulpos que recogen cáscaras de coco, las cargan mientras caminan por el fondo del mar, y luego las usan como refugio portátil. Durante mucho tiempo se pensó que eso solo lo hacían mamíferos y aves."
+ },
+ {
+  "id": "alien",
+  "tipo": "nodos",
+  "kicker": "¿Por qué parece un alien?",
+  "titulo": "Una inteligencia diferente",
+  "nodos": [
+   [
+    "ANCESTRO COMÚN",
+    960,
+    820,
+    "gold"
+   ],
+   [
+    "HUMANOS",
+    420,
+    420,
+    "cyan"
+   ],
+   [
+    "PULPOS",
+    1500,
+    420,
+    "red"
+   ]
+  ],
+  "flechas": [
+   [
+    0,
+    1,
+    60,
+    0.25,
+    "cyan"
+   ],
+   [
+    0,
+    2,
+    -60,
+    0.4,
+    "red"
+   ]
+  ],
+  "nota": [
+   "SEPARADOS HACE MÁS DE 500 MILLONES DE AÑOS",
+   0.65,
+   "gold"
+  ],
+  "texto": "¿Y por qué decimos que parece un alien? Porque nuestro último ancestro común con el pulpo vivió hace más de quinientos millones de años, y probablemente era un animal muy simple, parecido a un gusano. O sea, su inteligencia evolucionó por un camino totalmente distinto al nuestro."
+ },
+ {
+  "id": "vida",
+  "tipo": "contador",
+  "kicker": "El gran misterio",
+  "titulo": "Una vida muy corta",
+  "desde": 0,
+  "hasta": 2,
+  "sufijo": " AÑOS",
+  "etiqueta": "VIVE LA MAYORÍA DE PULPOS",
+  "texto": "Pero aquí está el gran misterio. Con todo ese cerebro, la mayoría de los pulpos vive apenas uno o dos años. Y muchas hembras dejan de comer mientras cuidan sus huevos, y mueren poco después de que nacen las crías."
+ },
+ {
+  "id": "solo",
+  "tipo": "lista",
+  "kicker": "Imagina esto",
+  "titulo": "Aprende todo solo",
+  "items": [
+   "No conoce a su madre",
+   "Nadie le enseña nada",
+   "Aprende todo en pocos meses"
+  ],
+  "texto": "Piensa en esto: un pulpo no conoce a sus padres. Nadie le enseña a cazar ni a esconderse. Todo lo que sabe, lo aprende solo en pocos meses de vida."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kicker": "La próxima vez",
+  "titulo": "Un genio del mar",
+  "kind": "pulpo",
+  "callouts": [
+   [
+    "3 CORAZONES",
+    0.1
+   ],
+   [
+    "8 BRAZOS QUE PIENSAN",
+    0.3
+   ],
+   [
+    "1 GENIO DEL MAR",
+    0.55
+   ]
+  ],
+  "texto": "Así que la próxima vez que veas un pulpo, recuerda que estás mirando a uno de los animales más inteligentes y extraños del planeta."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete_g",
+  "kicker": "Próximo video",
+  "titulo": "El monstruo escondido",
+  "proximo": "EL CALAMAR GIGANTE QUE SE ESCONDIÓ SIGLOS",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. En el próximo video: el calamar gigante, el monstruo marino que se escondió de nosotros durante siglos."
+ }
+]

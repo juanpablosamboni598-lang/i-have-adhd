@@ -8,6 +8,7 @@ from functools import lru_cache
 from PIL import Image, ImageDraw, ImageFont
 
 W, H, FPS = 1920, 1080, 30
+MARCA = 'jxseng · geopolítica'
 INTER = '/usr/share/fonts/opentype/inter/'
 BG = (7, 13, 26)
 WHITE = (255, 255, 255)
@@ -596,6 +597,8 @@ from escenas_extra import register  # noqa: E402
 register(globals())
 from escenas_geo import register as register_geo  # noqa: E402
 register_geo(globals())
+from escenas_animales import register as register_animales  # noqa: E402
+register_animales(globals())
 
 
 def render_scene(folder, i):
@@ -612,6 +615,9 @@ def render_scene(folder, i):
                            '-s', f'{W}x{H}', '-r', str(FPS), '-i', '-', '-c:v', 'libx264', '-preset', 'veryfast',
                            '-crf', '20', '-pix_fmt', 'yuv420p', out], stdin=subprocess.PIPE)
     fn = SCENES[sc['tipo']]
+    meta_p = os.path.join(folder, 'meta.json')
+    global MARCA
+    MARCA = json.load(open(meta_p)).get('marca', MARCA) if os.path.exists(meta_p) else MARCA
     for f in range(n):
         t = f / FPS
         im = background_at(bgimg, gstart + t)
@@ -621,7 +627,7 @@ def render_scene(folder, i):
             header(d, sc, t, dur)
         captions(d, words_t, t)
         progress_bar(d, gstart + t, total)
-        draw_label(d, (W - 40, H - 40), 'jxseng · geopolítica', 24, SOFT, 0.7, 'Medium', 'rm')
+        draw_label(d, (W - 40, H - 40), MARCA, 24, SOFT, 0.7, 'Medium', 'rm')
         if i > 0:
             transition(im, t)
         ff.stdin.write(im.tobytes())
