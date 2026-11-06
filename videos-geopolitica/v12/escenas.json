@@ -1,0 +1,153 @@
+[
+ {
+  "id": "hook",
+  "tipo": "lista",
+  "kicker": "Un animal increíble",
+  "titulo": "Se regenera",
+  "items": [
+   "Le crecen las patas de nuevo",
+   "Repara su médula espinal",
+   "Y hasta partes del corazón"
+  ],
+  "texto": "Si pierde una pata, le vuelve a crecer. Puede reparar su médula espinal, e incluso partes de su corazón y de su cerebro. Y vive en un solo lugar del mundo: los canales de Xochimilco, en México."
+ },
+ {
+  "id": "titulo",
+  "tipo": "titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "AJOLOTE",
+  "grande": "AJOLOTE",
+  "sub": "EL ANIMAL QUE SE REGENERA",
+  "texto": "Hoy vamos a conocer al ajolote, uno de los animales más asombrosos del planeta, y a entender por qué está en peligro."
+ },
+ {
+  "id": "como",
+  "tipo": "criatura",
+  "kind": "ajolote",
+  "kicker": "Cómo es",
+  "titulo": "Siempre sonriendo",
+  "callouts": [
+   "BRANQUIAS COMO PLUMAS",
+   "CARA QUE SONRÍE",
+   "ES UN ANFIBIO"
+  ],
+  "texto": "Míralo. Tiene unas branquias que parecen plumas a los lados de la cabeza, y una cara que parece estar siempre sonriendo. Es un anfibio, pariente de las salamandras."
+ },
+ {
+  "id": "nino",
+  "tipo": "titulo",
+  "kicker": "Su secreto",
+  "titulo": "Eterno joven",
+  "grande": "ETERNO JOVEN",
+  "sub": "SE QUEDA COMO LARVA TODA SU VIDA",
+  "texto": "Su gran secreto es que nunca termina de crecer como otros anfibios. Se queda toda su vida con forma de larva, con sus branquias, y aun así puede tener crías. Los científicos llaman a esto neotenia."
+ },
+ {
+  "id": "regenera",
+  "tipo": "lista",
+  "kicker": "Superpoder",
+  "titulo": "Regeneración total",
+  "items": [
+   "Patas y cola completas",
+   "Médula espinal",
+   "Partes del corazón y del cerebro"
+  ],
+  "texto": "Y su regeneración es impresionante: no solo le vuelven a crecer las patas y la cola, sino que también puede reparar la médula espinal, y partes de órganos como el corazón y el cerebro, sin dejar cicatriz."
+ },
+ {
+  "id": "genoma",
+  "tipo": "contador",
+  "kicker": "Su ADN",
+  "titulo": "Un genoma gigante",
+  "desde": 0,
+  "hasta": 10,
+  "sufijo": "x",
+  "etiqueta": "MÁS GRANDE QUE EL GENOMA HUMANO",
+  "texto": "Por eso los científicos lo estudian. En dos mil dieciocho se descifró su genoma, y resultó ser unas diez veces más grande que el nuestro. Allí buscan las claves para, quizás algún día, ayudar a regenerar tejidos humanos."
+ },
+ {
+  "id": "xochimilco",
+  "tipo": "lista",
+  "kicker": "Dónde vive",
+  "titulo": "Solo en Xochimilco",
+  "items": [
+   "Canales al sur de Ciudad de México",
+   "Restos de antiguos lagos",
+   "Su único hogar silvestre"
+  ],
+  "texto": "En libertad, el ajolote solo vive en los canales de Xochimilco, al sur de la Ciudad de México, los restos de los antiguos lagos sobre los que se construyó la ciudad."
+ },
+ {
+  "id": "peligro",
+  "tipo": "barras",
+  "kicker": "En peligro",
+  "titulo": "Casi desaparece",
+  "barras": [
+   [
+    "AJOLOTES EN 1998",
+    1.0,
+    "cyan"
+   ],
+   [
+    "AJOLOTES EN 2014",
+    0.06,
+    "red"
+   ]
+  ],
+  "ilustrativo": true,
+  "texto": "Y ahí está el problema: está en peligro crítico de extinción. Según algunos estudios, la población silvestre cayó de forma dramática en pocos años, por la contaminación del agua, la urbanización y peces invasores como la tilapia y la carpa."
+ },
+ {
+  "id": "dios",
+  "tipo": "titulo",
+  "kicker": "Un símbolo de México",
+  "titulo": "El dios Xólotl",
+  "grande": "XÓLOTL",
+  "sub": "SU NOMBRE VIENE DE UN DIOS AZTECA",
+  "texto": "Para los aztecas era muy especial: su nombre viene de Xólotl, un dios que según la leyenda se transformó en ajolote para escapar de la muerte."
+ },
+ {
+  "id": "billete",
+  "tipo": "contador",
+  "kicker": "Hoy es famoso",
+  "titulo": "En los billetes",
+  "desde": 0,
+  "hasta": 50,
+  "sufijo": " $",
+  "etiqueta": "APARECE EN EL BILLETE DE 50 PESOS",
+  "texto": "Hoy es un símbolo nacional: aparece en el billete de cincuenta pesos de México, en peluches, en videojuegos y en redes sociales."
+ },
+ {
+  "id": "salvar",
+  "tipo": "lista",
+  "kicker": "¿Se puede salvar?",
+  "titulo": "Hay esperanza",
+  "items": [
+   "Refugios en los canales",
+   "Agricultura tradicional: chinampas",
+   "Agua más limpia"
+  ],
+  "texto": "¿Se puede salvar? Hay proyectos que crean refugios en los canales, recuperan la agricultura tradicional de las chinampas y limpian el agua. Pero el tiempo corre."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kind": "ajolote",
+  "kicker": "La próxima vez",
+  "titulo": "Un tesoro vivo",
+  "callouts": [
+   "SE REGENERA",
+   "ETERNO JOVEN",
+   "EN PELIGRO CRÍTICO"
+  ],
+  "texto": "Así que el ajolote no es solo un animal tierno. Es un tesoro científico y cultural que todavía podemos salvar."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete",
+  "kicker": "Tu opinión",
+  "titulo": "¿Qué animal quieres ver?",
+  "proximo": "DIME QUÉ ANIMAL QUIERES QUE EXPLIQUE",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. Y déjame en los comentarios qué animal quieres que expliquemos en el próximo video."
+ }
+]

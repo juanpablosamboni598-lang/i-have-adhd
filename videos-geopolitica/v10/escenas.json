@@ -1,0 +1,147 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "Un animal casi indestructible",
+  "titulo": "Medio milímetro",
+  "desde": 0,
+  "hasta": 0.5,
+  "decimales": 1,
+  "sufijo": " mm",
+  "etiqueta": "MIDE UN TARDÍGRADO",
+  "texto": "Mide medio milímetro. Puede sobrevivir al vacío del espacio, a temperaturas cercanas al cero absoluto y a dosis de radiación que matarían a cualquier persona. Se llama tardígrado, y es probablemente el animal más resistente del planeta."
+ },
+ {
+  "id": "titulo",
+  "tipo": "titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "TARDÍGRADO",
+  "grande": "TARDÍGRADO",
+  "sub": "EL ANIMAL CASI INDESTRUCTIBLE",
+  "texto": "Hoy vamos a ver cómo es posible que un animal tan pequeño resista cosas que ningún otro ser vivo aguanta."
+ },
+ {
+  "id": "como_es",
+  "tipo": "criatura",
+  "kind": "tardigrado",
+  "kicker": "Cómo es",
+  "titulo": "El oso de agua",
+  "callouts": [
+   "8 PATAS CON GARRAS",
+   "CUERPO REGORDETE",
+   "VIVE EN EL MUSGO"
+  ],
+  "texto": "Míralo. Tiene ocho patitas con garras, un cuerpo regordete y camina despacio, como un osito. Por eso lo llaman el oso de agua. Y vive en casi cualquier lugar donde haya un poco de humedad, como el musgo de tu jardín."
+ },
+ {
+  "id": "donde",
+  "tipo": "lista",
+  "kicker": "Dónde vive",
+  "titulo": "En todas partes",
+  "items": [
+   "Cimas del Himalaya",
+   "Fondo del océano",
+   "Hielo de la Antártida"
+  ],
+  "texto": "Se han encontrado tardígrados en las cimas del Himalaya, en el fondo del océano y en el hielo de la Antártida. Están literalmente en todas partes."
+ },
+ {
+  "id": "tun",
+  "tipo": "lista",
+  "kicker": "Su superpoder",
+  "titulo": "Se convierte en un barril",
+  "items": [
+   "Pierde casi toda su agua",
+   "Se encoge como un barril",
+   "Su cuerpo casi se detiene"
+  ],
+  "texto": "Su gran truco es este: cuando las condiciones se ponen muy difíciles, pierde casi toda el agua de su cuerpo y se encoge como un pequeño barril. En ese estado, su metabolismo casi se detiene por completo."
+ },
+ {
+  "id": "frio",
+  "tipo": "contador",
+  "kicker": "Frío extremo",
+  "titulo": "Casi el cero absoluto",
+  "desde": 0,
+  "hasta": -272,
+  "sufijo": " °C",
+  "etiqueta": "SOBREVIVE BREVEMENTE A ESTE FRÍO",
+  "texto": "En ese estado ha sobrevivido, durante un tiempo corto, a temperaturas cercanas a menos doscientos setenta y dos grados. Prácticamente el cero absoluto."
+ },
+ {
+  "id": "calor",
+  "tipo": "contador",
+  "kicker": "Calor extremo",
+  "titulo": "Más que el agua hirviendo",
+  "desde": 0,
+  "hasta": 150,
+  "sufijo": " °C",
+  "etiqueta": "AGUANTA POR UNOS MINUTOS",
+  "texto": "Y también ha aguantado, por unos minutos, temperaturas de hasta unos ciento cincuenta grados, más caliente que el agua hirviendo."
+ },
+ {
+  "id": "espacio",
+  "tipo": "titulo",
+  "kicker": "2007",
+  "titulo": "Al espacio",
+  "grande": "ESPACIO",
+  "sub": "SOBREVIVIÓ AL VACÍO DEL ESPACIO",
+  "texto": "En dos mil siete, científicos europeos enviaron tardígrados al espacio, expuestos al vacío y a la radiación del Sol. Al volver a la Tierra, varios de ellos revivieron y hasta tuvieron crías."
+ },
+ {
+  "id": "adn",
+  "tipo": "lista",
+  "kicker": "El secreto",
+  "titulo": "Una proteína escudo",
+  "items": [
+   "Proteína llamada Dsup",
+   "Protege su ADN de la radiación",
+   "Los científicos la estudian"
+  ],
+  "texto": "¿Cuál es su secreto? Una parte está en una proteína llamada Dsup, que envuelve su ADN y lo protege de la radiación. Los científicos la estudian para proteger células humanas en el futuro."
+ },
+ {
+  "id": "30anos",
+  "tipo": "contador",
+  "kicker": "Dormido por décadas",
+  "titulo": "Congelado 30 años",
+  "desde": 0,
+  "hasta": 30,
+  "sufijo": " AÑOS",
+  "etiqueta": "CONGELADO Y VOLVIÓ A LA VIDA",
+  "texto": "Y lo más loco: en Japón, unos tardígrados que estuvieron congelados en una muestra de musgo durante unos treinta años volvieron a la vida, y uno de ellos incluso puso huevos."
+ },
+ {
+  "id": "ojo",
+  "tipo": "lista",
+  "kicker": "Pero ojo",
+  "titulo": "No es inmortal",
+  "items": [
+   "Despierto es muy frágil",
+   "Solo resiste en estado barril",
+   "Y vive pocos meses activo"
+  ],
+  "texto": "Pero ojo, no es inmortal. Cuando está despierto y activo es bastante frágil. Sus superpoderes funcionan sobre todo cuando está en ese estado de barril."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kind": "tardigrado",
+  "kicker": "La próxima vez",
+  "titulo": "Un sobreviviente",
+  "callouts": [
+   "0,5 MM",
+   "ESPACIO, FRÍO Y CALOR",
+   "30 AÑOS DORMIDO"
+  ],
+  "texto": "Así que la próxima vez que veas un poco de musgo, piensa que ahí abajo puede haber uno de los sobrevivientes más increíbles de la Tierra."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete",
+  "kicker": "Próximo video",
+  "titulo": "Un insecto útil",
+  "proximo": "¿PARA QUÉ SIRVEN LAS MARIQUITAS?",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. En el próximo video: para qué sirven las mariquitas, y por qué son mucho más importantes de lo que crees."
+ }
+]

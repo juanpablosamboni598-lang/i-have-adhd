@@ -1,0 +1,135 @@
+[
+ {
+  "id": "hook",
+  "tipo": "contador",
+  "kicker": "Una cazadora tierna",
+  "titulo": "Miles de presas",
+  "desde": 0,
+  "hasta": 5000,
+  "sufijo": "",
+  "etiqueta": "PULGONES PUEDE COMER EN SU VIDA",
+  "texto": "Parece el insecto más tierno del mundo. Pero una sola mariquita puede comerse miles de pulgones a lo largo de su vida. Es una cazadora, y los agricultores la adoran por eso."
+ },
+ {
+  "id": "titulo",
+  "tipo": "titulo",
+  "kicker": "Datos curiosos",
+  "titulo": "MARIQUITAS",
+  "grande": "MARIQUITAS",
+  "sub": "¿PARA QUÉ SIRVEN?",
+  "texto": "Hoy vamos a ver para qué sirven las mariquitas, y por qué son mucho más importantes de lo que crees."
+ },
+ {
+  "id": "como",
+  "tipo": "criatura",
+  "kind": "mariquita",
+  "kicker": "Cómo es",
+  "titulo": "Un escarabajo",
+  "callouts": [
+   "ES UN ESCARABAJO",
+   "ALAS BAJO SU CAPARAZÓN",
+   "MILES DE ESPECIES"
+  ],
+  "texto": "Primero, la mariquita es un escarabajo. Sus alas para volar están escondidas debajo de ese caparazón rojo con puntos. Y existen miles de especies en todo el mundo, de muchos colores."
+ },
+ {
+  "id": "pulgones",
+  "tipo": "contador",
+  "kicker": "Su trabajo",
+  "titulo": "Come plagas",
+  "desde": 0,
+  "hasta": 50,
+  "sufijo": "",
+  "etiqueta": "PULGONES AL DÍA, MÁS O MENOS",
+  "texto": "¿Y para qué sirven? Su comida favorita son los pulgones, unos insectos diminutos que chupan la savia de las plantas y destruyen cultivos. Una mariquita adulta puede comerse decenas de pulgones en un solo día."
+ },
+ {
+  "id": "larva",
+  "tipo": "lista",
+  "kicker": "Dato sorprendente",
+  "titulo": "Su larva da miedo",
+  "items": [
+   "Parece un mini cocodrilo",
+   "Es negra con puntos naranjas",
+   "Come todavía más pulgones"
+  ],
+  "texto": "Y su larva es todavía más voraz. Mucha gente no la reconoce: parece un pequeño cocodrilo negro con puntos naranjas, y se pasa el día comiendo pulgones."
+ },
+ {
+  "id": "1888",
+  "tipo": "contador",
+  "kicker": "Salvó una industria",
+  "titulo": "California, 1888",
+  "desde": 1850,
+  "hasta": 1888,
+  "sufijo": "",
+  "etiqueta": "MARIQUITAS SALVAN LOS NARANJOS",
+  "texto": "Su fama tiene historia. En mil ochocientos ochenta y ocho, una plaga estaba destruyendo los naranjos de California. Trajeron una mariquita de Australia, y en poco tiempo la plaga quedó bajo control. Fue uno de los primeros grandes éxitos del control biológico."
+ },
+ {
+  "id": "colores",
+  "tipo": "lista",
+  "kicker": "¿Por qué es roja?",
+  "titulo": "Una señal de peligro",
+  "items": [
+   "El rojo avisa: sabe mal",
+   "Suelta un líquido amargo",
+   "Los pájaros aprenden a evitarla"
+  ],
+  "texto": "¿Y por qué es tan llamativa? Su color rojo es una advertencia para los depredadores: significa sabe mal. Si la atacan, suelta un líquido amarillo y amargo por sus patas, y los pájaros aprenden a no comérsela."
+ },
+ {
+  "id": "puntos",
+  "tipo": "titulo",
+  "kicker": "Mito",
+  "titulo": "Los puntos y la edad",
+  "grande": "MITO",
+  "sub": "LOS PUNTOS NO DICEN SU EDAD",
+  "texto": "Y un mito muy común: los puntos no indican la edad de la mariquita. Dependen de la especie. Hay mariquitas con dos puntos, con siete, con veintidós, e incluso sin ninguno."
+ },
+ {
+  "id": "invierno",
+  "tipo": "lista",
+  "kicker": "En invierno",
+  "titulo": "Se juntan por miles",
+  "items": [
+   "Buscan refugio en grupo",
+   "Pueden ser miles juntas",
+   "Esperan a la primavera"
+  ],
+  "texto": "En invierno, muchas especies se reúnen en grupos enormes, a veces de miles de individuos, en grietas, troncos o casas, para esperar juntas la llegada de la primavera."
+ },
+ {
+  "id": "invasora",
+  "tipo": "lista",
+  "kicker": "No todas son buenas",
+  "titulo": "La mariquita asiática",
+  "items": [
+   "Fue llevada a otros países",
+   "Se volvió invasora",
+   "Desplaza a especies locales"
+  ],
+  "texto": "Pero no todas son buenas noticias. La mariquita asiática fue llevada a muchos países para controlar plagas, y se volvió invasora: compite con las mariquitas locales y en algunos lugares las desplaza."
+ },
+ {
+  "id": "cierre",
+  "tipo": "criatura",
+  "kind": "mariquita",
+  "kicker": "La próxima vez",
+  "titulo": "Una aliada del jardín",
+  "callouts": [
+   "CAZA PLAGAS",
+   "AVISA CON SU COLOR",
+   "SALVÓ LOS NARANJOS"
+  ],
+  "texto": "Así que la próxima vez que una mariquita se pose en tu mano, recuerda que estás frente a una pequeña cazadora que protege las plantas que comemos."
+ },
+ {
+  "id": "suscribe",
+  "tipo": "suscribete",
+  "kicker": "Próximo video",
+  "titulo": "El animal que se regenera",
+  "proximo": "EL AJOLOTE: EL ANIMAL QUE SE REGENERA",
+  "texto": "Si te gustan los datos curiosos, suscríbete y activa la campanita. En el próximo video: el ajolote, el animal que puede regenerar partes de su cuerpo."
+ }
+]

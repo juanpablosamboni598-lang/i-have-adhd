@@ -1,0 +1,401 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.39,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} pierde una pata, le vuelve
+Dialogue: 0,0:00:00.39,0:00:00.84,Sub,,0,0,0,,Si {\c&H3CC8FF&}pierde{\c&HFFFFFF&} una pata, le vuelve
+Dialogue: 0,0:00:00.84,0:00:01.13,Sub,,0,0,0,,Si pierde {\c&H3CC8FF&}una{\c&HFFFFFF&} pata, le vuelve
+Dialogue: 0,0:00:01.13,0:00:01.52,Sub,,0,0,0,,Si pierde una {\c&H3CC8FF&}pata,{\c&HFFFFFF&} le vuelve
+Dialogue: 0,0:00:01.52,0:00:01.77,Sub,,0,0,0,,Si pierde una pata, {\c&H3CC8FF&}le{\c&HFFFFFF&} vuelve
+Dialogue: 0,0:00:01.77,0:00:02.21,Sub,,0,0,0,,Si pierde una pata, le {\c&H3CC8FF&}vuelve{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.21,0:00:02.40,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} crecer. Puede reparar su médula
+Dialogue: 0,0:00:02.40,0:00:02.89,Sub,,0,0,0,,a {\c&H3CC8FF&}crecer.{\c&HFFFFFF&} Puede reparar su médula
+Dialogue: 0,0:00:02.89,0:00:03.28,Sub,,0,0,0,,a crecer. {\c&H3CC8FF&}Puede{\c&HFFFFFF&} reparar su médula
+Dialogue: 0,0:00:03.28,0:00:03.77,Sub,,0,0,0,,a crecer. Puede {\c&H3CC8FF&}reparar{\c&HFFFFFF&} su médula
+Dialogue: 0,0:00:03.77,0:00:04.02,Sub,,0,0,0,,a crecer. Puede reparar {\c&H3CC8FF&}su{\c&HFFFFFF&} médula
+Dialogue: 0,0:00:04.02,0:00:04.46,Sub,,0,0,0,,a crecer. Puede reparar su {\c&H3CC8FF&}médula{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.46,0:00:05.00,Sub,,0,0,0,,{\c&H3CC8FF&}espinal,{\c&HFFFFFF&} e incluso partes de su
+Dialogue: 0,0:00:05.00,0:00:05.19,Sub,,0,0,0,,espinal, {\c&H3CC8FF&}e{\c&HFFFFFF&} incluso partes de su
+Dialogue: 0,0:00:05.19,0:00:05.68,Sub,,0,0,0,,espinal, e {\c&H3CC8FF&}incluso{\c&HFFFFFF&} partes de su
+Dialogue: 0,0:00:05.68,0:00:06.12,Sub,,0,0,0,,espinal, e incluso {\c&H3CC8FF&}partes{\c&HFFFFFF&} de su
+Dialogue: 0,0:00:06.12,0:00:06.37,Sub,,0,0,0,,espinal, e incluso partes {\c&H3CC8FF&}de{\c&HFFFFFF&} su
+Dialogue: 0,0:00:06.37,0:00:06.61,Sub,,0,0,0,,espinal, e incluso partes de {\c&H3CC8FF&}su{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.61,0:00:07.10,Sub,,0,0,0,,{\c&H3CC8FF&}corazón{\c&HFFFFFF&} y de su cerebro. Y
+Dialogue: 0,0:00:07.10,0:00:07.30,Sub,,0,0,0,,corazón {\c&H3CC8FF&}y{\c&HFFFFFF&} de su cerebro. Y
+Dialogue: 0,0:00:07.30,0:00:07.54,Sub,,0,0,0,,corazón y {\c&H3CC8FF&}de{\c&HFFFFFF&} su cerebro. Y
+Dialogue: 0,0:00:07.54,0:00:07.79,Sub,,0,0,0,,corazón y de {\c&H3CC8FF&}su{\c&HFFFFFF&} cerebro. Y
+Dialogue: 0,0:00:07.79,0:00:08.33,Sub,,0,0,0,,corazón y de su {\c&H3CC8FF&}cerebro.{\c&HFFFFFF&} Y
+Dialogue: 0,0:00:08.33,0:00:08.52,Sub,,0,0,0,,corazón y de su cerebro. {\c&H3CC8FF&}Y{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.52,0:00:08.87,Sub,,0,0,0,,{\c&H3CC8FF&}vive{\c&HFFFFFF&} en un solo lugar del
+Dialogue: 0,0:00:08.87,0:00:09.11,Sub,,0,0,0,,vive {\c&H3CC8FF&}en{\c&HFFFFFF&} un solo lugar del
+Dialogue: 0,0:00:09.11,0:00:09.35,Sub,,0,0,0,,vive en {\c&H3CC8FF&}un{\c&HFFFFFF&} solo lugar del
+Dialogue: 0,0:00:09.35,0:00:09.70,Sub,,0,0,0,,vive en un {\c&H3CC8FF&}solo{\c&HFFFFFF&} lugar del
+Dialogue: 0,0:00:09.70,0:00:10.09,Sub,,0,0,0,,vive en un solo {\c&H3CC8FF&}lugar{\c&HFFFFFF&} del
+Dialogue: 0,0:00:10.09,0:00:10.38,Sub,,0,0,0,,vive en un solo lugar {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.38,0:00:10.82,Sub,,0,0,0,,{\c&H3CC8FF&}mundo:{\c&HFFFFFF&} los canales de Xochimilco, en
+Dialogue: 0,0:00:10.82,0:00:11.12,Sub,,0,0,0,,mundo: {\c&H3CC8FF&}los{\c&HFFFFFF&} canales de Xochimilco, en
+Dialogue: 0,0:00:11.12,0:00:11.61,Sub,,0,0,0,,mundo: los {\c&H3CC8FF&}canales{\c&HFFFFFF&} de Xochimilco, en
+Dialogue: 0,0:00:11.61,0:00:11.85,Sub,,0,0,0,,mundo: los canales {\c&H3CC8FF&}de{\c&HFFFFFF&} Xochimilco, en
+Dialogue: 0,0:00:11.85,0:00:12.54,Sub,,0,0,0,,mundo: los canales de {\c&H3CC8FF&}Xochimilco,{\c&HFFFFFF&} en
+Dialogue: 0,0:00:12.54,0:00:12.78,Sub,,0,0,0,,mundo: los canales de Xochimilco, {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.78,0:00:13.42,Sub,,0,0,0,,{\c&H3CC8FF&}México.{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.17,0:00:14.43,Sub,,0,0,0,,{\c&H3CC8FF&}Hoy{\c&HFFFFFF&} vamos a conocer al ajolote,
+Dialogue: 0,0:00:14.43,0:00:14.77,Sub,,0,0,0,,Hoy {\c&H3CC8FF&}vamos{\c&HFFFFFF&} a conocer al ajolote,
+Dialogue: 0,0:00:14.77,0:00:14.94,Sub,,0,0,0,,Hoy vamos {\c&H3CC8FF&}a{\c&HFFFFFF&} conocer al ajolote,
+Dialogue: 0,0:00:14.94,0:00:15.36,Sub,,0,0,0,,Hoy vamos a {\c&H3CC8FF&}conocer{\c&HFFFFFF&} al ajolote,
+Dialogue: 0,0:00:15.36,0:00:15.58,Sub,,0,0,0,,Hoy vamos a conocer {\c&H3CC8FF&}al{\c&HFFFFFF&} ajolote,
+Dialogue: 0,0:00:15.58,0:00:16.05,Sub,,0,0,0,,Hoy vamos a conocer al {\c&H3CC8FF&}ajolote,{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.05,0:00:16.30,Sub,,0,0,0,,{\c&H3CC8FF&}uno{\c&HFFFFFF&} de los animales más asombrosos
+Dialogue: 0,0:00:16.30,0:00:16.51,Sub,,0,0,0,,uno {\c&H3CC8FF&}de{\c&HFFFFFF&} los animales más asombrosos
+Dialogue: 0,0:00:16.51,0:00:16.77,Sub,,0,0,0,,uno de {\c&H3CC8FF&}los{\c&HFFFFFF&} animales más asombrosos
+Dialogue: 0,0:00:16.77,0:00:17.24,Sub,,0,0,0,,uno de los {\c&H3CC8FF&}animales{\c&HFFFFFF&} más asombrosos
+Dialogue: 0,0:00:17.24,0:00:17.49,Sub,,0,0,0,,uno de los animales {\c&H3CC8FF&}más{\c&HFFFFFF&} asombrosos
+Dialogue: 0,0:00:17.49,0:00:18.05,Sub,,0,0,0,,uno de los animales más {\c&H3CC8FF&}asombrosos{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.05,0:00:18.30,Sub,,0,0,0,,{\c&H3CC8FF&}del{\c&HFFFFFF&} planeta, y a entender por
+Dialogue: 0,0:00:18.30,0:00:18.77,Sub,,0,0,0,,del {\c&H3CC8FF&}planeta,{\c&HFFFFFF&} y a entender por
+Dialogue: 0,0:00:18.77,0:00:18.94,Sub,,0,0,0,,del planeta, {\c&H3CC8FF&}y{\c&HFFFFFF&} a entender por
+Dialogue: 0,0:00:18.94,0:00:19.11,Sub,,0,0,0,,del planeta, y {\c&H3CC8FF&}a{\c&HFFFFFF&} entender por
+Dialogue: 0,0:00:19.11,0:00:19.58,Sub,,0,0,0,,del planeta, y a {\c&H3CC8FF&}entender{\c&HFFFFFF&} por
+Dialogue: 0,0:00:19.58,0:00:19.84,Sub,,0,0,0,,del planeta, y a entender {\c&H3CC8FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.84,0:00:20.09,Sub,,0,0,0,,{\c&H3CC8FF&}qué{\c&HFFFFFF&} está en peligro.
+Dialogue: 0,0:00:20.09,0:00:20.39,Sub,,0,0,0,,qué {\c&H3CC8FF&}está{\c&HFFFFFF&} en peligro.
+Dialogue: 0,0:00:20.39,0:00:20.60,Sub,,0,0,0,,qué está {\c&H3CC8FF&}en{\c&HFFFFFF&} peligro.
+Dialogue: 0,0:00:20.60,0:00:21.22,Sub,,0,0,0,,qué está en {\c&H3CC8FF&}peligro.{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.97,0:00:22.41,Sub,,0,0,0,,{\c&H3CC8FF&}Míralo.{\c&HFFFFFF&} Tiene unas branquias que parecen
+Dialogue: 0,0:00:22.41,0:00:22.75,Sub,,0,0,0,,Míralo. {\c&H3CC8FF&}Tiene{\c&HFFFFFF&} unas branquias que parecen
+Dialogue: 0,0:00:22.75,0:00:23.06,Sub,,0,0,0,,Míralo. Tiene {\c&H3CC8FF&}unas{\c&HFFFFFF&} branquias que parecen
+Dialogue: 0,0:00:23.06,0:00:23.58,Sub,,0,0,0,,Míralo. Tiene unas {\c&H3CC8FF&}branquias{\c&HFFFFFF&} que parecen
+Dialogue: 0,0:00:23.58,0:00:23.84,Sub,,0,0,0,,Míralo. Tiene unas branquias {\c&H3CC8FF&}que{\c&HFFFFFF&} parecen
+Dialogue: 0,0:00:23.84,0:00:24.27,Sub,,0,0,0,,Míralo. Tiene unas branquias que {\c&H3CC8FF&}parecen{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.27,0:00:24.66,Sub,,0,0,0,,{\c&H3CC8FF&}plumas{\c&HFFFFFF&} a los lados de la
+Dialogue: 0,0:00:24.66,0:00:24.83,Sub,,0,0,0,,plumas {\c&H3CC8FF&}a{\c&HFFFFFF&} los lados de la
+Dialogue: 0,0:00:24.83,0:00:25.09,Sub,,0,0,0,,plumas a {\c&H3CC8FF&}los{\c&HFFFFFF&} lados de la
+Dialogue: 0,0:00:25.09,0:00:25.44,Sub,,0,0,0,,plumas a los {\c&H3CC8FF&}lados{\c&HFFFFFF&} de la
+Dialogue: 0,0:00:25.44,0:00:25.66,Sub,,0,0,0,,plumas a los lados {\c&H3CC8FF&}de{\c&HFFFFFF&} la
+Dialogue: 0,0:00:25.66,0:00:25.87,Sub,,0,0,0,,plumas a los lados de {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.87,0:00:26.31,Sub,,0,0,0,,{\c&H3CC8FF&}cabeza,{\c&HFFFFFF&} y una cara que parece
+Dialogue: 0,0:00:26.31,0:00:26.48,Sub,,0,0,0,,cabeza, {\c&H3CC8FF&}y{\c&HFFFFFF&} una cara que parece
+Dialogue: 0,0:00:26.48,0:00:26.74,Sub,,0,0,0,,cabeza, y {\c&H3CC8FF&}una{\c&HFFFFFF&} cara que parece
+Dialogue: 0,0:00:26.74,0:00:27.05,Sub,,0,0,0,,cabeza, y una {\c&H3CC8FF&}cara{\c&HFFFFFF&} que parece
+Dialogue: 0,0:00:27.05,0:00:27.31,Sub,,0,0,0,,cabeza, y una cara {\c&H3CC8FF&}que{\c&HFFFFFF&} parece
+Dialogue: 0,0:00:27.31,0:00:27.70,Sub,,0,0,0,,cabeza, y una cara que {\c&H3CC8FF&}parece{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.70,0:00:28.04,Sub,,0,0,0,,{\c&H3CC8FF&}estar{\c&HFFFFFF&} siempre sonriendo. Es un anfibio,
+Dialogue: 0,0:00:28.04,0:00:28.48,Sub,,0,0,0,,estar {\c&H3CC8FF&}siempre{\c&HFFFFFF&} sonriendo. Es un anfibio,
+Dialogue: 0,0:00:28.48,0:00:29.04,Sub,,0,0,0,,estar siempre {\c&H3CC8FF&}sonriendo.{\c&HFFFFFF&} Es un anfibio,
+Dialogue: 0,0:00:29.04,0:00:29.26,Sub,,0,0,0,,estar siempre sonriendo. {\c&H3CC8FF&}Es{\c&HFFFFFF&} un anfibio,
+Dialogue: 0,0:00:29.26,0:00:29.47,Sub,,0,0,0,,estar siempre sonriendo. Es {\c&H3CC8FF&}un{\c&HFFFFFF&} anfibio,
+Dialogue: 0,0:00:29.47,0:00:29.95,Sub,,0,0,0,,estar siempre sonriendo. Es un {\c&H3CC8FF&}anfibio,{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.95,0:00:30.43,Sub,,0,0,0,,{\c&H3CC8FF&}pariente{\c&HFFFFFF&} de las salamandras.
+Dialogue: 0,0:00:30.43,0:00:30.64,Sub,,0,0,0,,pariente {\c&H3CC8FF&}de{\c&HFFFFFF&} las salamandras.
+Dialogue: 0,0:00:30.64,0:00:30.91,Sub,,0,0,0,,pariente de {\c&H3CC8FF&}las{\c&HFFFFFF&} salamandras.
+Dialogue: 0,0:00:30.91,0:00:31.71,Sub,,0,0,0,,pariente de las {\c&H3CC8FF&}salamandras.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.46,0:00:32.70,Sub,,0,0,0,,{\c&H3CC8FF&}Su{\c&HFFFFFF&} gran secreto es que nunca
+Dialogue: 0,0:00:32.70,0:00:33.04,Sub,,0,0,0,,Su {\c&H3CC8FF&}gran{\c&HFFFFFF&} secreto es que nunca
+Dialogue: 0,0:00:33.04,0:00:33.53,Sub,,0,0,0,,Su gran {\c&H3CC8FF&}secreto{\c&HFFFFFF&} es que nunca
+Dialogue: 0,0:00:33.53,0:00:33.78,Sub,,0,0,0,,Su gran secreto {\c&H3CC8FF&}es{\c&HFFFFFF&} que nunca
+Dialogue: 0,0:00:33.78,0:00:34.07,Sub,,0,0,0,,Su gran secreto es {\c&H3CC8FF&}que{\c&HFFFFFF&} nunca
+Dialogue: 0,0:00:34.07,0:00:34.46,Sub,,0,0,0,,Su gran secreto es que {\c&H3CC8FF&}nunca{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.46,0:00:34.95,Sub,,0,0,0,,{\c&H3CC8FF&}termina{\c&HFFFFFF&} de crecer como otros anfibios.
+Dialogue: 0,0:00:34.95,0:00:35.20,Sub,,0,0,0,,termina {\c&H3CC8FF&}de{\c&HFFFFFF&} crecer como otros anfibios.
+Dialogue: 0,0:00:35.20,0:00:35.64,Sub,,0,0,0,,termina de {\c&H3CC8FF&}crecer{\c&HFFFFFF&} como otros anfibios.
+Dialogue: 0,0:00:35.64,0:00:35.98,Sub,,0,0,0,,termina de crecer {\c&H3CC8FF&}como{\c&HFFFFFF&} otros anfibios.
+Dialogue: 0,0:00:35.98,0:00:36.37,Sub,,0,0,0,,termina de crecer como {\c&H3CC8FF&}otros{\c&HFFFFFF&} anfibios.
+Dialogue: 0,0:00:36.37,0:00:36.96,Sub,,0,0,0,,termina de crecer como otros {\c&H3CC8FF&}anfibios.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.96,0:00:37.20,Sub,,0,0,0,,{\c&H3CC8FF&}Se{\c&HFFFFFF&} queda toda su vida con
+Dialogue: 0,0:00:37.20,0:00:37.59,Sub,,0,0,0,,Se {\c&H3CC8FF&}queda{\c&HFFFFFF&} toda su vida con
+Dialogue: 0,0:00:37.59,0:00:37.94,Sub,,0,0,0,,Se queda {\c&H3CC8FF&}toda{\c&HFFFFFF&} su vida con
+Dialogue: 0,0:00:37.94,0:00:38.18,Sub,,0,0,0,,Se queda toda {\c&H3CC8FF&}su{\c&HFFFFFF&} vida con
+Dialogue: 0,0:00:38.18,0:00:38.52,Sub,,0,0,0,,Se queda toda su {\c&H3CC8FF&}vida{\c&HFFFFFF&} con
+Dialogue: 0,0:00:38.52,0:00:38.82,Sub,,0,0,0,,Se queda toda su vida {\c&H3CC8FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.82,0:00:39.21,Sub,,0,0,0,,{\c&H3CC8FF&}forma{\c&HFFFFFF&} de larva, con sus branquias,
+Dialogue: 0,0:00:39.21,0:00:39.45,Sub,,0,0,0,,forma {\c&H3CC8FF&}de{\c&HFFFFFF&} larva, con sus branquias,
+Dialogue: 0,0:00:39.45,0:00:39.89,Sub,,0,0,0,,forma de {\c&H3CC8FF&}larva,{\c&HFFFFFF&} con sus branquias,
+Dialogue: 0,0:00:39.89,0:00:40.19,Sub,,0,0,0,,forma de larva, {\c&H3CC8FF&}con{\c&HFFFFFF&} sus branquias,
+Dialogue: 0,0:00:40.19,0:00:40.48,Sub,,0,0,0,,forma de larva, con {\c&H3CC8FF&}sus{\c&HFFFFFF&} branquias,
+Dialogue: 0,0:00:40.48,0:00:41.12,Sub,,0,0,0,,forma de larva, con sus {\c&H3CC8FF&}branquias,{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.12,0:00:41.31,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} aun así puede tener crías.
+Dialogue: 0,0:00:41.31,0:00:41.61,Sub,,0,0,0,,y {\c&H3CC8FF&}aun{\c&HFFFFFF&} así puede tener crías.
+Dialogue: 0,0:00:41.61,0:00:41.90,Sub,,0,0,0,,y aun {\c&H3CC8FF&}así{\c&HFFFFFF&} puede tener crías.
+Dialogue: 0,0:00:41.90,0:00:42.29,Sub,,0,0,0,,y aun así {\c&H3CC8FF&}puede{\c&HFFFFFF&} tener crías.
+Dialogue: 0,0:00:42.29,0:00:42.68,Sub,,0,0,0,,y aun así puede {\c&H3CC8FF&}tener{\c&HFFFFFF&} crías.
+Dialogue: 0,0:00:42.68,0:00:43.12,Sub,,0,0,0,,y aun así puede tener {\c&H3CC8FF&}crías.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.12,0:00:43.42,Sub,,0,0,0,,{\c&H3CC8FF&}Los{\c&HFFFFFF&} científicos llaman a esto neotenia.
+Dialogue: 0,0:00:43.42,0:00:44.10,Sub,,0,0,0,,Los {\c&H3CC8FF&}científicos{\c&HFFFFFF&} llaman a esto neotenia.
+Dialogue: 0,0:00:44.10,0:00:44.54,Sub,,0,0,0,,Los científicos {\c&H3CC8FF&}llaman{\c&HFFFFFF&} a esto neotenia.
+Dialogue: 0,0:00:44.54,0:00:44.74,Sub,,0,0,0,,Los científicos llaman {\c&H3CC8FF&}a{\c&HFFFFFF&} esto neotenia.
+Dialogue: 0,0:00:44.74,0:00:45.08,Sub,,0,0,0,,Los científicos llaman a {\c&H3CC8FF&}esto{\c&HFFFFFF&} neotenia.
+Dialogue: 0,0:00:45.08,0:00:45.82,Sub,,0,0,0,,Los científicos llaman a esto {\c&H3CC8FF&}neotenia.{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.57,0:00:46.74,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} su regeneración es impresionante: no
+Dialogue: 0,0:00:46.74,0:00:46.95,Sub,,0,0,0,,Y {\c&H3CC8FF&}su{\c&HFFFFFF&} regeneración es impresionante: no
+Dialogue: 0,0:00:46.95,0:00:47.60,Sub,,0,0,0,,Y su {\c&H3CC8FF&}regeneración{\c&HFFFFFF&} es impresionante: no
+Dialogue: 0,0:00:47.60,0:00:47.81,Sub,,0,0,0,,Y su regeneración {\c&H3CC8FF&}es{\c&HFFFFFF&} impresionante: no
+Dialogue: 0,0:00:47.81,0:00:48.54,Sub,,0,0,0,,Y su regeneración es {\c&H3CC8FF&}impresionante:{\c&HFFFFFF&} no
+Dialogue: 0,0:00:48.54,0:00:48.75,Sub,,0,0,0,,Y su regeneración es impresionante: {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.75,0:00:49.05,Sub,,0,0,0,,{\c&H3CC8FF&}solo{\c&HFFFFFF&} le vuelven a crecer las
+Dialogue: 0,0:00:49.05,0:00:49.27,Sub,,0,0,0,,solo {\c&H3CC8FF&}le{\c&HFFFFFF&} vuelven a crecer las
+Dialogue: 0,0:00:49.27,0:00:49.69,Sub,,0,0,0,,solo le {\c&H3CC8FF&}vuelven{\c&HFFFFFF&} a crecer las
+Dialogue: 0,0:00:49.69,0:00:49.86,Sub,,0,0,0,,solo le vuelven {\c&H3CC8FF&}a{\c&HFFFFFF&} crecer las
+Dialogue: 0,0:00:49.86,0:00:50.25,Sub,,0,0,0,,solo le vuelven a {\c&H3CC8FF&}crecer{\c&HFFFFFF&} las
+Dialogue: 0,0:00:50.25,0:00:50.51,Sub,,0,0,0,,solo le vuelven a crecer {\c&H3CC8FF&}las{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.51,0:00:50.85,Sub,,0,0,0,,{\c&H3CC8FF&}patas{\c&HFFFFFF&} y la cola, sino que
+Dialogue: 0,0:00:50.85,0:00:51.02,Sub,,0,0,0,,patas {\c&H3CC8FF&}y{\c&HFFFFFF&} la cola, sino que
+Dialogue: 0,0:00:51.02,0:00:51.23,Sub,,0,0,0,,patas y {\c&H3CC8FF&}la{\c&HFFFFFF&} cola, sino que
+Dialogue: 0,0:00:51.23,0:00:51.58,Sub,,0,0,0,,patas y la {\c&H3CC8FF&}cola,{\c&HFFFFFF&} sino que
+Dialogue: 0,0:00:51.58,0:00:51.88,Sub,,0,0,0,,patas y la cola, {\c&H3CC8FF&}sino{\c&HFFFFFF&} que
+Dialogue: 0,0:00:51.88,0:00:52.13,Sub,,0,0,0,,patas y la cola, sino {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.13,0:00:52.56,Sub,,0,0,0,,{\c&H3CC8FF&}también{\c&HFFFFFF&} puede reparar la médula espinal,
+Dialogue: 0,0:00:52.56,0:00:52.90,Sub,,0,0,0,,también {\c&H3CC8FF&}puede{\c&HFFFFFF&} reparar la médula espinal,
+Dialogue: 0,0:00:52.90,0:00:53.33,Sub,,0,0,0,,también puede {\c&H3CC8FF&}reparar{\c&HFFFFFF&} la médula espinal,
+Dialogue: 0,0:00:53.33,0:00:53.55,Sub,,0,0,0,,también puede reparar {\c&H3CC8FF&}la{\c&HFFFFFF&} médula espinal,
+Dialogue: 0,0:00:53.55,0:00:53.93,Sub,,0,0,0,,también puede reparar la {\c&H3CC8FF&}médula{\c&HFFFFFF&} espinal,
+Dialogue: 0,0:00:53.93,0:00:54.40,Sub,,0,0,0,,también puede reparar la médula {\c&H3CC8FF&}espinal,{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.40,0:00:54.57,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} partes de órganos como el
+Dialogue: 0,0:00:54.57,0:00:54.96,Sub,,0,0,0,,y {\c&H3CC8FF&}partes{\c&HFFFFFF&} de órganos como el
+Dialogue: 0,0:00:54.96,0:00:55.17,Sub,,0,0,0,,y partes {\c&H3CC8FF&}de{\c&HFFFFFF&} órganos como el
+Dialogue: 0,0:00:55.17,0:00:55.60,Sub,,0,0,0,,y partes de {\c&H3CC8FF&}órganos{\c&HFFFFFF&} como el
+Dialogue: 0,0:00:55.60,0:00:55.90,Sub,,0,0,0,,y partes de órganos {\c&H3CC8FF&}como{\c&HFFFFFF&} el
+Dialogue: 0,0:00:55.90,0:00:56.11,Sub,,0,0,0,,y partes de órganos como {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.11,0:00:56.54,Sub,,0,0,0,,{\c&H3CC8FF&}corazón{\c&HFFFFFF&} y el cerebro, sin dejar
+Dialogue: 0,0:00:56.54,0:00:56.71,Sub,,0,0,0,,corazón {\c&H3CC8FF&}y{\c&HFFFFFF&} el cerebro, sin dejar
+Dialogue: 0,0:00:56.71,0:00:56.93,Sub,,0,0,0,,corazón y {\c&H3CC8FF&}el{\c&HFFFFFF&} cerebro, sin dejar
+Dialogue: 0,0:00:56.93,0:00:57.40,Sub,,0,0,0,,corazón y el {\c&H3CC8FF&}cerebro,{\c&HFFFFFF&} sin dejar
+Dialogue: 0,0:00:57.40,0:00:57.65,Sub,,0,0,0,,corazón y el cerebro, {\c&H3CC8FF&}sin{\c&HFFFFFF&} dejar
+Dialogue: 0,0:00:57.65,0:00:58.00,Sub,,0,0,0,,corazón y el cerebro, sin {\c&H3CC8FF&}dejar{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.00,0:00:58.66,Sub,,0,0,0,,{\c&H3CC8FF&}cicatriz.{\c&HFFFFFF&}
+Dialogue: 0,0:00:59.41,0:00:59.67,Sub,,0,0,0,,{\c&H3CC8FF&}Por{\c&HFFFFFF&} eso los científicos lo estudian.
+Dialogue: 0,0:00:59.67,0:00:59.94,Sub,,0,0,0,,Por {\c&H3CC8FF&}eso{\c&HFFFFFF&} los científicos lo estudian.
+Dialogue: 0,0:00:59.94,0:01:00.20,Sub,,0,0,0,,Por eso {\c&H3CC8FF&}los{\c&HFFFFFF&} científicos lo estudian.
+Dialogue: 0,0:01:00.20,0:01:00.81,Sub,,0,0,0,,Por eso los {\c&H3CC8FF&}científicos{\c&HFFFFFF&} lo estudian.
+Dialogue: 0,0:01:00.81,0:01:01.03,Sub,,0,0,0,,Por eso los científicos {\c&H3CC8FF&}lo{\c&HFFFFFF&} estudian.
+Dialogue: 0,0:01:01.03,0:01:01.56,Sub,,0,0,0,,Por eso los científicos lo {\c&H3CC8FF&}estudian.{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.56,0:01:01.78,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} dos mil dieciocho se descifró
+Dialogue: 0,0:01:01.78,0:01:02.04,Sub,,0,0,0,,En {\c&H3CC8FF&}dos{\c&HFFFFFF&} mil dieciocho se descifró
+Dialogue: 0,0:01:02.04,0:01:02.31,Sub,,0,0,0,,En dos {\c&H3CC8FF&}mil{\c&HFFFFFF&} dieciocho se descifró
+Dialogue: 0,0:01:02.31,0:01:02.83,Sub,,0,0,0,,En dos mil {\c&H3CC8FF&}dieciocho{\c&HFFFFFF&} se descifró
+Dialogue: 0,0:01:02.83,0:01:03.05,Sub,,0,0,0,,En dos mil dieciocho {\c&H3CC8FF&}se{\c&HFFFFFF&} descifró
+Dialogue: 0,0:01:03.05,0:01:03.54,Sub,,0,0,0,,En dos mil dieciocho se {\c&H3CC8FF&}descifró{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.54,0:01:03.76,Sub,,0,0,0,,{\c&H3CC8FF&}su{\c&HFFFFFF&} genoma, y resultó ser unas
+Dialogue: 0,0:01:03.76,0:01:04.20,Sub,,0,0,0,,su {\c&H3CC8FF&}genoma,{\c&HFFFFFF&} y resultó ser unas
+Dialogue: 0,0:01:04.20,0:01:04.37,Sub,,0,0,0,,su genoma, {\c&H3CC8FF&}y{\c&HFFFFFF&} resultó ser unas
+Dialogue: 0,0:01:04.37,0:01:04.81,Sub,,0,0,0,,su genoma, y {\c&H3CC8FF&}resultó{\c&HFFFFFF&} ser unas
+Dialogue: 0,0:01:04.81,0:01:05.07,Sub,,0,0,0,,su genoma, y resultó {\c&H3CC8FF&}ser{\c&HFFFFFF&} unas
+Dialogue: 0,0:01:05.07,0:01:05.38,Sub,,0,0,0,,su genoma, y resultó ser {\c&H3CC8FF&}unas{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.38,0:01:05.69,Sub,,0,0,0,,{\c&H3CC8FF&}diez{\c&HFFFFFF&} veces más grande que el
+Dialogue: 0,0:01:05.69,0:01:06.04,Sub,,0,0,0,,diez {\c&H3CC8FF&}veces{\c&HFFFFFF&} más grande que el
+Dialogue: 0,0:01:06.04,0:01:06.30,Sub,,0,0,0,,diez veces {\c&H3CC8FF&}más{\c&HFFFFFF&} grande que el
+Dialogue: 0,0:01:06.30,0:01:06.70,Sub,,0,0,0,,diez veces más {\c&H3CC8FF&}grande{\c&HFFFFFF&} que el
+Dialogue: 0,0:01:06.70,0:01:06.96,Sub,,0,0,0,,diez veces más grande {\c&H3CC8FF&}que{\c&HFFFFFF&} el
+Dialogue: 0,0:01:06.96,0:01:07.18,Sub,,0,0,0,,diez veces más grande que {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.18,0:01:07.66,Sub,,0,0,0,,{\c&H3CC8FF&}nuestro.{\c&HFFFFFF&} Allí buscan las claves para,
+Dialogue: 0,0:01:07.66,0:01:07.97,Sub,,0,0,0,,nuestro. {\c&H3CC8FF&}Allí{\c&HFFFFFF&} buscan las claves para,
+Dialogue: 0,0:01:07.97,0:01:08.37,Sub,,0,0,0,,nuestro. Allí {\c&H3CC8FF&}buscan{\c&HFFFFFF&} las claves para,
+Dialogue: 0,0:01:08.37,0:01:08.63,Sub,,0,0,0,,nuestro. Allí buscan {\c&H3CC8FF&}las{\c&HFFFFFF&} claves para,
+Dialogue: 0,0:01:08.63,0:01:09.03,Sub,,0,0,0,,nuestro. Allí buscan las {\c&H3CC8FF&}claves{\c&HFFFFFF&} para,
+Dialogue: 0,0:01:09.03,0:01:09.38,Sub,,0,0,0,,nuestro. Allí buscan las claves {\c&H3CC8FF&}para,{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.38,0:01:09.77,Sub,,0,0,0,,{\c&H3CC8FF&}quizás{\c&HFFFFFF&} algún día, ayudar a regenerar
+Dialogue: 0,0:01:09.77,0:01:10.12,Sub,,0,0,0,,quizás {\c&H3CC8FF&}algún{\c&HFFFFFF&} día, ayudar a regenerar
+Dialogue: 0,0:01:10.12,0:01:10.43,Sub,,0,0,0,,quizás algún {\c&H3CC8FF&}día,{\c&HFFFFFF&} ayudar a regenerar
+Dialogue: 0,0:01:10.43,0:01:10.83,Sub,,0,0,0,,quizás algún día, {\c&H3CC8FF&}ayudar{\c&HFFFFFF&} a regenerar
+Dialogue: 0,0:01:10.83,0:01:11.00,Sub,,0,0,0,,quizás algún día, ayudar {\c&H3CC8FF&}a{\c&HFFFFFF&} regenerar
+Dialogue: 0,0:01:11.00,0:01:11.53,Sub,,0,0,0,,quizás algún día, ayudar a {\c&H3CC8FF&}regenerar{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.53,0:01:11.97,Sub,,0,0,0,,{\c&H3CC8FF&}tejidos{\c&HFFFFFF&} humanos.
+Dialogue: 0,0:01:11.97,0:01:12.60,Sub,,0,0,0,,tejidos {\c&H3CC8FF&}humanos.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.35,0:01:13.54,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} libertad, el ajolote solo vive
+Dialogue: 0,0:01:13.54,0:01:13.99,Sub,,0,0,0,,En {\c&H3CC8FF&}libertad,{\c&HFFFFFF&} el ajolote solo vive
+Dialogue: 0,0:01:13.99,0:01:14.18,Sub,,0,0,0,,En libertad, {\c&H3CC8FF&}el{\c&HFFFFFF&} ajolote solo vive
+Dialogue: 0,0:01:14.18,0:01:14.56,Sub,,0,0,0,,En libertad, el {\c&H3CC8FF&}ajolote{\c&HFFFFFF&} solo vive
+Dialogue: 0,0:01:14.56,0:01:14.82,Sub,,0,0,0,,En libertad, el ajolote {\c&H3CC8FF&}solo{\c&HFFFFFF&} vive
+Dialogue: 0,0:01:14.82,0:01:15.08,Sub,,0,0,0,,En libertad, el ajolote solo {\c&H3CC8FF&}vive{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.08,0:01:15.27,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} los canales de Xochimilco, al
+Dialogue: 0,0:01:15.27,0:01:15.50,Sub,,0,0,0,,en {\c&H3CC8FF&}los{\c&HFFFFFF&} canales de Xochimilco, al
+Dialogue: 0,0:01:15.50,0:01:15.87,Sub,,0,0,0,,en los {\c&H3CC8FF&}canales{\c&HFFFFFF&} de Xochimilco, al
+Dialogue: 0,0:01:15.87,0:01:16.06,Sub,,0,0,0,,en los canales {\c&H3CC8FF&}de{\c&HFFFFFF&} Xochimilco, al
+Dialogue: 0,0:01:16.06,0:01:16.59,Sub,,0,0,0,,en los canales de {\c&H3CC8FF&}Xochimilco,{\c&HFFFFFF&} al
+Dialogue: 0,0:01:16.59,0:01:16.78,Sub,,0,0,0,,en los canales de Xochimilco, {\c&H3CC8FF&}al{\c&HFFFFFF&}
+Dialogue: 0,0:01:16.78,0:01:17.00,Sub,,0,0,0,,{\c&H3CC8FF&}sur{\c&HFFFFFF&} de la Ciudad de México,
+Dialogue: 0,0:01:17.00,0:01:17.19,Sub,,0,0,0,,sur {\c&H3CC8FF&}de{\c&HFFFFFF&} la Ciudad de México,
+Dialogue: 0,0:01:17.19,0:01:17.38,Sub,,0,0,0,,sur de {\c&H3CC8FF&}la{\c&HFFFFFF&} Ciudad de México,
+Dialogue: 0,0:01:17.38,0:01:17.72,Sub,,0,0,0,,sur de la {\c&H3CC8FF&}Ciudad{\c&HFFFFFF&} de México,
+Dialogue: 0,0:01:17.72,0:01:17.90,Sub,,0,0,0,,sur de la Ciudad {\c&H3CC8FF&}de{\c&HFFFFFF&} México,
+Dialogue: 0,0:01:17.90,0:01:18.28,Sub,,0,0,0,,sur de la Ciudad de {\c&H3CC8FF&}México,{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.28,0:01:18.51,Sub,,0,0,0,,{\c&H3CC8FF&}los{\c&HFFFFFF&} restos de los antiguos lagos
+Dialogue: 0,0:01:18.51,0:01:18.85,Sub,,0,0,0,,los {\c&H3CC8FF&}restos{\c&HFFFFFF&} de los antiguos lagos
+Dialogue: 0,0:01:18.85,0:01:19.03,Sub,,0,0,0,,los restos {\c&H3CC8FF&}de{\c&HFFFFFF&} los antiguos lagos
+Dialogue: 0,0:01:19.03,0:01:19.26,Sub,,0,0,0,,los restos de {\c&H3CC8FF&}los{\c&HFFFFFF&} antiguos lagos
+Dialogue: 0,0:01:19.26,0:01:19.67,Sub,,0,0,0,,los restos de los {\c&H3CC8FF&}antiguos{\c&HFFFFFF&} lagos
+Dialogue: 0,0:01:19.67,0:01:19.97,Sub,,0,0,0,,los restos de los antiguos {\c&H3CC8FF&}lagos{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.97,0:01:20.28,Sub,,0,0,0,,{\c&H3CC8FF&}sobre{\c&HFFFFFF&} los que se construyó la
+Dialogue: 0,0:01:20.28,0:01:20.50,Sub,,0,0,0,,sobre {\c&H3CC8FF&}los{\c&HFFFFFF&} que se construyó la
+Dialogue: 0,0:01:20.50,0:01:20.73,Sub,,0,0,0,,sobre los {\c&H3CC8FF&}que{\c&HFFFFFF&} se construyó la
+Dialogue: 0,0:01:20.73,0:01:20.92,Sub,,0,0,0,,sobre los que {\c&H3CC8FF&}se{\c&HFFFFFF&} construyó la
+Dialogue: 0,0:01:20.92,0:01:21.37,Sub,,0,0,0,,sobre los que se {\c&H3CC8FF&}construyó{\c&HFFFFFF&} la
+Dialogue: 0,0:01:21.37,0:01:21.56,Sub,,0,0,0,,sobre los que se construyó {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.56,0:01:22.08,Sub,,0,0,0,,{\c&H3CC8FF&}ciudad.{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.83,0:01:23.02,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} ahí está el problema: está
+Dialogue: 0,0:01:23.02,0:01:23.30,Sub,,0,0,0,,Y {\c&H3CC8FF&}ahí{\c&HFFFFFF&} está el problema: está
+Dialogue: 0,0:01:23.30,0:01:23.63,Sub,,0,0,0,,Y ahí {\c&H3CC8FF&}está{\c&HFFFFFF&} el problema: está
+Dialogue: 0,0:01:23.63,0:01:23.87,Sub,,0,0,0,,Y ahí está {\c&H3CC8FF&}el{\c&HFFFFFF&} problema: está
+Dialogue: 0,0:01:23.87,0:01:24.44,Sub,,0,0,0,,Y ahí está el {\c&H3CC8FF&}problema:{\c&HFFFFFF&} está
+Dialogue: 0,0:01:24.44,0:01:24.77,Sub,,0,0,0,,Y ahí está el problema: {\c&H3CC8FF&}está{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.77,0:01:25.00,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} peligro crítico de extinción. Según
+Dialogue: 0,0:01:25.00,0:01:25.47,Sub,,0,0,0,,en {\c&H3CC8FF&}peligro{\c&HFFFFFF&} crítico de extinción. Según
+Dialogue: 0,0:01:25.47,0:01:25.95,Sub,,0,0,0,,en peligro {\c&H3CC8FF&}crítico{\c&HFFFFFF&} de extinción. Según
+Dialogue: 0,0:01:25.95,0:01:26.18,Sub,,0,0,0,,en peligro crítico {\c&H3CC8FF&}de{\c&HFFFFFF&} extinción. Según
+Dialogue: 0,0:01:26.18,0:01:26.80,Sub,,0,0,0,,en peligro crítico de {\c&H3CC8FF&}extinción.{\c&HFFFFFF&} Según
+Dialogue: 0,0:01:26.80,0:01:27.17,Sub,,0,0,0,,en peligro crítico de extinción. {\c&H3CC8FF&}Según{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.17,0:01:27.64,Sub,,0,0,0,,{\c&H3CC8FF&}algunos{\c&HFFFFFF&} estudios, la población silvestre cayó
+Dialogue: 0,0:01:27.64,0:01:28.21,Sub,,0,0,0,,algunos {\c&H3CC8FF&}estudios,{\c&HFFFFFF&} la población silvestre cayó
+Dialogue: 0,0:01:28.21,0:01:28.45,Sub,,0,0,0,,algunos estudios, {\c&H3CC8FF&}la{\c&HFFFFFF&} población silvestre cayó
+Dialogue: 0,0:01:28.45,0:01:29.01,Sub,,0,0,0,,algunos estudios, la {\c&H3CC8FF&}población{\c&HFFFFFF&} silvestre cayó
+Dialogue: 0,0:01:29.01,0:01:29.58,Sub,,0,0,0,,algunos estudios, la población {\c&H3CC8FF&}silvestre{\c&HFFFFFF&} cayó
+Dialogue: 0,0:01:29.58,0:01:29.91,Sub,,0,0,0,,algunos estudios, la población silvestre {\c&H3CC8FF&}cayó{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.91,0:01:30.15,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} forma dramática en pocos años,
+Dialogue: 0,0:01:30.15,0:01:30.52,Sub,,0,0,0,,de {\c&H3CC8FF&}forma{\c&HFFFFFF&} dramática en pocos años,
+Dialogue: 0,0:01:30.52,0:01:31.09,Sub,,0,0,0,,de forma {\c&H3CC8FF&}dramática{\c&HFFFFFF&} en pocos años,
+Dialogue: 0,0:01:31.09,0:01:31.33,Sub,,0,0,0,,de forma dramática {\c&H3CC8FF&}en{\c&HFFFFFF&} pocos años,
+Dialogue: 0,0:01:31.33,0:01:31.70,Sub,,0,0,0,,de forma dramática en {\c&H3CC8FF&}pocos{\c&HFFFFFF&} años,
+Dialogue: 0,0:01:31.70,0:01:32.08,Sub,,0,0,0,,de forma dramática en pocos {\c&H3CC8FF&}años,{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.08,0:01:32.36,Sub,,0,0,0,,{\c&H3CC8FF&}por{\c&HFFFFFF&} la contaminación del agua, la
+Dialogue: 0,0:01:32.36,0:01:32.60,Sub,,0,0,0,,por {\c&H3CC8FF&}la{\c&HFFFFFF&} contaminación del agua, la
+Dialogue: 0,0:01:32.60,0:01:33.35,Sub,,0,0,0,,por la {\c&H3CC8FF&}contaminación{\c&HFFFFFF&} del agua, la
+Dialogue: 0,0:01:33.35,0:01:33.64,Sub,,0,0,0,,por la contaminación {\c&H3CC8FF&}del{\c&HFFFFFF&} agua, la
+Dialogue: 0,0:01:33.64,0:01:34.02,Sub,,0,0,0,,por la contaminación del {\c&H3CC8FF&}agua,{\c&HFFFFFF&} la
+Dialogue: 0,0:01:34.02,0:01:34.25,Sub,,0,0,0,,por la contaminación del agua, {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.25,0:01:34.96,Sub,,0,0,0,,{\c&H3CC8FF&}urbanización{\c&HFFFFFF&} y peces invasores como la
+Dialogue: 0,0:01:34.96,0:01:35.15,Sub,,0,0,0,,urbanización {\c&H3CC8FF&}y{\c&HFFFFFF&} peces invasores como la
+Dialogue: 0,0:01:35.15,0:01:35.53,Sub,,0,0,0,,urbanización y {\c&H3CC8FF&}peces{\c&HFFFFFF&} invasores como la
+Dialogue: 0,0:01:35.53,0:01:36.09,Sub,,0,0,0,,urbanización y peces {\c&H3CC8FF&}invasores{\c&HFFFFFF&} como la
+Dialogue: 0,0:01:36.09,0:01:36.42,Sub,,0,0,0,,urbanización y peces invasores {\c&H3CC8FF&}como{\c&HFFFFFF&} la
+Dialogue: 0,0:01:36.42,0:01:36.66,Sub,,0,0,0,,urbanización y peces invasores como {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.66,0:01:37.13,Sub,,0,0,0,,{\c&H3CC8FF&}tilapia{\c&HFFFFFF&} y la carpa.
+Dialogue: 0,0:01:37.13,0:01:37.32,Sub,,0,0,0,,tilapia {\c&H3CC8FF&}y{\c&HFFFFFF&} la carpa.
+Dialogue: 0,0:01:37.32,0:01:37.55,Sub,,0,0,0,,tilapia y {\c&H3CC8FF&}la{\c&HFFFFFF&} carpa.
+Dialogue: 0,0:01:37.55,0:01:38.13,Sub,,0,0,0,,tilapia y la {\c&H3CC8FF&}carpa.{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.88,0:01:39.17,Sub,,0,0,0,,{\c&H3CC8FF&}Para{\c&HFFFFFF&} los aztecas era muy especial:
+Dialogue: 0,0:01:39.17,0:01:39.42,Sub,,0,0,0,,Para {\c&H3CC8FF&}los{\c&HFFFFFF&} aztecas era muy especial:
+Dialogue: 0,0:01:39.42,0:01:39.84,Sub,,0,0,0,,Para los {\c&H3CC8FF&}aztecas{\c&HFFFFFF&} era muy especial:
+Dialogue: 0,0:01:39.84,0:01:40.09,Sub,,0,0,0,,Para los aztecas {\c&H3CC8FF&}era{\c&HFFFFFF&} muy especial:
+Dialogue: 0,0:01:40.09,0:01:40.34,Sub,,0,0,0,,Para los aztecas era {\c&H3CC8FF&}muy{\c&HFFFFFF&} especial:
+Dialogue: 0,0:01:40.34,0:01:40.85,Sub,,0,0,0,,Para los aztecas era muy {\c&H3CC8FF&}especial:{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.85,0:01:41.06,Sub,,0,0,0,,{\c&H3CC8FF&}su{\c&HFFFFFF&} nombre viene de Xólotl, un
+Dialogue: 0,0:01:41.06,0:01:41.43,Sub,,0,0,0,,su {\c&H3CC8FF&}nombre{\c&HFFFFFF&} viene de Xólotl, un
+Dialogue: 0,0:01:41.43,0:01:41.77,Sub,,0,0,0,,su nombre {\c&H3CC8FF&}viene{\c&HFFFFFF&} de Xólotl, un
+Dialogue: 0,0:01:41.77,0:01:41.98,Sub,,0,0,0,,su nombre viene {\c&H3CC8FF&}de{\c&HFFFFFF&} Xólotl, un
+Dialogue: 0,0:01:41.98,0:01:42.39,Sub,,0,0,0,,su nombre viene de {\c&H3CC8FF&}Xólotl,{\c&HFFFFFF&} un
+Dialogue: 0,0:01:42.39,0:01:42.60,Sub,,0,0,0,,su nombre viene de Xólotl, {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.60,0:01:42.90,Sub,,0,0,0,,{\c&H3CC8FF&}dios{\c&HFFFFFF&} que según la leyenda se
+Dialogue: 0,0:01:42.90,0:01:43.15,Sub,,0,0,0,,dios {\c&H3CC8FF&}que{\c&HFFFFFF&} según la leyenda se
+Dialogue: 0,0:01:43.15,0:01:43.48,Sub,,0,0,0,,dios que {\c&H3CC8FF&}según{\c&HFFFFFF&} la leyenda se
+Dialogue: 0,0:01:43.48,0:01:43.69,Sub,,0,0,0,,dios que según {\c&H3CC8FF&}la{\c&HFFFFFF&} leyenda se
+Dialogue: 0,0:01:43.69,0:01:44.11,Sub,,0,0,0,,dios que según la {\c&H3CC8FF&}leyenda{\c&HFFFFFF&} se
+Dialogue: 0,0:01:44.11,0:01:44.32,Sub,,0,0,0,,dios que según la leyenda {\c&H3CC8FF&}se{\c&HFFFFFF&}
+Dialogue: 0,0:01:44.32,0:01:44.86,Sub,,0,0,0,,{\c&H3CC8FF&}transformó{\c&HFFFFFF&} en ajolote para escapar de
+Dialogue: 0,0:01:44.86,0:01:45.07,Sub,,0,0,0,,transformó {\c&H3CC8FF&}en{\c&HFFFFFF&} ajolote para escapar de
+Dialogue: 0,0:01:45.07,0:01:45.49,Sub,,0,0,0,,transformó en {\c&H3CC8FF&}ajolote{\c&HFFFFFF&} para escapar de
+Dialogue: 0,0:01:45.49,0:01:45.78,Sub,,0,0,0,,transformó en ajolote {\c&H3CC8FF&}para{\c&HFFFFFF&} escapar de
+Dialogue: 0,0:01:45.78,0:01:46.20,Sub,,0,0,0,,transformó en ajolote para {\c&H3CC8FF&}escapar{\c&HFFFFFF&} de
+Dialogue: 0,0:01:46.20,0:01:46.41,Sub,,0,0,0,,transformó en ajolote para escapar {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.41,0:01:46.62,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} muerte.
+Dialogue: 0,0:01:46.62,0:01:47.19,Sub,,0,0,0,,la {\c&H3CC8FF&}muerte.{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.94,0:01:48.22,Sub,,0,0,0,,{\c&H3CC8FF&}Hoy{\c&HFFFFFF&} es un símbolo nacional: aparece
+Dialogue: 0,0:01:48.22,0:01:48.46,Sub,,0,0,0,,Hoy {\c&H3CC8FF&}es{\c&HFFFFFF&} un símbolo nacional: aparece
+Dialogue: 0,0:01:48.46,0:01:48.69,Sub,,0,0,0,,Hoy es {\c&H3CC8FF&}un{\c&HFFFFFF&} símbolo nacional: aparece
+Dialogue: 0,0:01:48.69,0:01:49.17,Sub,,0,0,0,,Hoy es un {\c&H3CC8FF&}símbolo{\c&HFFFFFF&} nacional: aparece
+Dialogue: 0,0:01:49.17,0:01:49.73,Sub,,0,0,0,,Hoy es un símbolo {\c&H3CC8FF&}nacional:{\c&HFFFFFF&} aparece
+Dialogue: 0,0:01:49.73,0:01:50.20,Sub,,0,0,0,,Hoy es un símbolo nacional: {\c&H3CC8FF&}aparece{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.20,0:01:50.44,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} el billete de cincuenta pesos
+Dialogue: 0,0:01:50.44,0:01:50.68,Sub,,0,0,0,,en {\c&H3CC8FF&}el{\c&HFFFFFF&} billete de cincuenta pesos
+Dialogue: 0,0:01:50.68,0:01:51.15,Sub,,0,0,0,,en el {\c&H3CC8FF&}billete{\c&HFFFFFF&} de cincuenta pesos
+Dialogue: 0,0:01:51.15,0:01:51.38,Sub,,0,0,0,,en el billete {\c&H3CC8FF&}de{\c&HFFFFFF&} cincuenta pesos
+Dialogue: 0,0:01:51.38,0:01:51.95,Sub,,0,0,0,,en el billete de {\c&H3CC8FF&}cincuenta{\c&HFFFFFF&} pesos
+Dialogue: 0,0:01:51.95,0:01:52.33,Sub,,0,0,0,,en el billete de cincuenta {\c&H3CC8FF&}pesos{\c&HFFFFFF&}
+Dialogue: 0,0:01:52.33,0:01:52.56,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} México, en peluches, en videojuegos
+Dialogue: 0,0:01:52.56,0:01:53.03,Sub,,0,0,0,,de {\c&H3CC8FF&}México,{\c&HFFFFFF&} en peluches, en videojuegos
+Dialogue: 0,0:01:53.03,0:01:53.27,Sub,,0,0,0,,de México, {\c&H3CC8FF&}en{\c&HFFFFFF&} peluches, en videojuegos
+Dialogue: 0,0:01:53.27,0:01:53.84,Sub,,0,0,0,,de México, en {\c&H3CC8FF&}peluches,{\c&HFFFFFF&} en videojuegos
+Dialogue: 0,0:01:53.84,0:01:54.07,Sub,,0,0,0,,de México, en peluches, {\c&H3CC8FF&}en{\c&HFFFFFF&} videojuegos
+Dialogue: 0,0:01:54.07,0:01:54.73,Sub,,0,0,0,,de México, en peluches, en {\c&H3CC8FF&}videojuegos{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.73,0:01:54.92,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} en redes sociales.
+Dialogue: 0,0:01:54.92,0:01:55.16,Sub,,0,0,0,,y {\c&H3CC8FF&}en{\c&HFFFFFF&} redes sociales.
+Dialogue: 0,0:01:55.16,0:01:55.53,Sub,,0,0,0,,y en {\c&H3CC8FF&}redes{\c&HFFFFFF&} sociales.
+Dialogue: 0,0:01:55.53,0:01:56.25,Sub,,0,0,0,,y en redes {\c&H3CC8FF&}sociales.{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.00,0:01:57.29,Sub,,0,0,0,,{\c&H3CC8FF&}¿Se{\c&HFFFFFF&} puede salvar? Hay proyectos que
+Dialogue: 0,0:01:57.29,0:01:57.68,Sub,,0,0,0,,¿Se {\c&H3CC8FF&}puede{\c&HFFFFFF&} salvar? Hay proyectos que
+Dialogue: 0,0:01:57.68,0:01:58.16,Sub,,0,0,0,,¿Se puede {\c&H3CC8FF&}salvar?{\c&HFFFFFF&} Hay proyectos que
+Dialogue: 0,0:01:58.16,0:01:58.45,Sub,,0,0,0,,¿Se puede salvar? {\c&H3CC8FF&}Hay{\c&HFFFFFF&} proyectos que
+Dialogue: 0,0:01:58.45,0:01:59.03,Sub,,0,0,0,,¿Se puede salvar? Hay {\c&H3CC8FF&}proyectos{\c&HFFFFFF&} que
+Dialogue: 0,0:01:59.03,0:01:59.32,Sub,,0,0,0,,¿Se puede salvar? Hay proyectos {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.32,0:01:59.71,Sub,,0,0,0,,{\c&H3CC8FF&}crean{\c&HFFFFFF&} refugios en los canales, recuperan
+Dialogue: 0,0:01:59.71,0:02:00.24,Sub,,0,0,0,,crean {\c&H3CC8FF&}refugios{\c&HFFFFFF&} en los canales, recuperan
+Dialogue: 0,0:02:00.24,0:02:00.48,Sub,,0,0,0,,crean refugios {\c&H3CC8FF&}en{\c&HFFFFFF&} los canales, recuperan
+Dialogue: 0,0:02:00.48,0:02:00.77,Sub,,0,0,0,,crean refugios en {\c&H3CC8FF&}los{\c&HFFFFFF&} canales, recuperan
+Dialogue: 0,0:02:00.77,0:02:01.30,Sub,,0,0,0,,crean refugios en los {\c&H3CC8FF&}canales,{\c&HFFFFFF&} recuperan
+Dialogue: 0,0:02:01.30,0:02:01.88,Sub,,0,0,0,,crean refugios en los canales, {\c&H3CC8FF&}recuperan{\c&HFFFFFF&}
+Dialogue: 0,0:02:01.88,0:02:02.12,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} agricultura tradicional de las chinampas
+Dialogue: 0,0:02:02.12,0:02:02.80,Sub,,0,0,0,,la {\c&H3CC8FF&}agricultura{\c&HFFFFFF&} tradicional de las chinampas
+Dialogue: 0,0:02:02.80,0:02:03.48,Sub,,0,0,0,,la agricultura {\c&H3CC8FF&}tradicional{\c&HFFFFFF&} de las chinampas
+Dialogue: 0,0:02:03.48,0:02:03.72,Sub,,0,0,0,,la agricultura tradicional {\c&H3CC8FF&}de{\c&HFFFFFF&} las chinampas
+Dialogue: 0,0:02:03.72,0:02:04.01,Sub,,0,0,0,,la agricultura tradicional de {\c&H3CC8FF&}las{\c&HFFFFFF&} chinampas
+Dialogue: 0,0:02:04.01,0:02:04.59,Sub,,0,0,0,,la agricultura tradicional de las {\c&H3CC8FF&}chinampas{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.59,0:02:04.78,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} limpian el agua. Pero el
+Dialogue: 0,0:02:04.78,0:02:05.26,Sub,,0,0,0,,y {\c&H3CC8FF&}limpian{\c&HFFFFFF&} el agua. Pero el
+Dialogue: 0,0:02:05.26,0:02:05.51,Sub,,0,0,0,,y limpian {\c&H3CC8FF&}el{\c&HFFFFFF&} agua. Pero el
+Dialogue: 0,0:02:05.51,0:02:05.89,Sub,,0,0,0,,y limpian el {\c&H3CC8FF&}agua.{\c&HFFFFFF&} Pero el
+Dialogue: 0,0:02:05.89,0:02:06.23,Sub,,0,0,0,,y limpian el agua. {\c&H3CC8FF&}Pero{\c&HFFFFFF&} el
+Dialogue: 0,0:02:06.23,0:02:06.47,Sub,,0,0,0,,y limpian el agua. Pero {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.47,0:02:06.91,Sub,,0,0,0,,{\c&H3CC8FF&}tiempo{\c&HFFFFFF&} corre.
+Dialogue: 0,0:02:06.91,0:02:07.49,Sub,,0,0,0,,tiempo {\c&H3CC8FF&}corre.{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.24,0:02:08.55,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que el ajolote no es
+Dialogue: 0,0:02:08.55,0:02:08.86,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} el ajolote no es
+Dialogue: 0,0:02:08.86,0:02:09.12,Sub,,0,0,0,,Así que {\c&H3CC8FF&}el{\c&HFFFFFF&} ajolote no es
+Dialogue: 0,0:02:09.12,0:02:09.64,Sub,,0,0,0,,Así que el {\c&H3CC8FF&}ajolote{\c&HFFFFFF&} no es
+Dialogue: 0,0:02:09.64,0:02:09.90,Sub,,0,0,0,,Así que el ajolote {\c&H3CC8FF&}no{\c&HFFFFFF&} es
+Dialogue: 0,0:02:09.90,0:02:10.16,Sub,,0,0,0,,Así que el ajolote no {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.16,0:02:10.52,Sub,,0,0,0,,{\c&H3CC8FF&}solo{\c&HFFFFFF&} un animal tierno. Es un
+Dialogue: 0,0:02:10.52,0:02:10.78,Sub,,0,0,0,,solo {\c&H3CC8FF&}un{\c&HFFFFFF&} animal tierno. Es un
+Dialogue: 0,0:02:10.78,0:02:11.25,Sub,,0,0,0,,solo un {\c&H3CC8FF&}animal{\c&HFFFFFF&} tierno. Es un
+Dialogue: 0,0:02:11.25,0:02:11.77,Sub,,0,0,0,,solo un animal {\c&H3CC8FF&}tierno.{\c&HFFFFFF&} Es un
+Dialogue: 0,0:02:11.77,0:02:12.03,Sub,,0,0,0,,solo un animal tierno. {\c&H3CC8FF&}Es{\c&HFFFFFF&} un
+Dialogue: 0,0:02:12.03,0:02:12.29,Sub,,0,0,0,,solo un animal tierno. Es {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:02:12.29,0:02:12.75,Sub,,0,0,0,,{\c&H3CC8FF&}tesoro{\c&HFFFFFF&} científico y cultural que todavía
+Dialogue: 0,0:02:12.75,0:02:13.43,Sub,,0,0,0,,tesoro {\c&H3CC8FF&}científico{\c&HFFFFFF&} y cultural que todavía
+Dialogue: 0,0:02:13.43,0:02:13.63,Sub,,0,0,0,,tesoro científico {\c&H3CC8FF&}y{\c&HFFFFFF&} cultural que todavía
+Dialogue: 0,0:02:13.63,0:02:14.20,Sub,,0,0,0,,tesoro científico y {\c&H3CC8FF&}cultural{\c&HFFFFFF&} que todavía
+Dialogue: 0,0:02:14.20,0:02:14.52,Sub,,0,0,0,,tesoro científico y cultural {\c&H3CC8FF&}que{\c&HFFFFFF&} todavía
+Dialogue: 0,0:02:14.52,0:02:15.03,Sub,,0,0,0,,tesoro científico y cultural que {\c&H3CC8FF&}todavía{\c&HFFFFFF&}
+Dialogue: 0,0:02:15.03,0:02:15.55,Sub,,0,0,0,,{\c&H3CC8FF&}podemos{\c&HFFFFFF&} salvar.
+Dialogue: 0,0:02:15.55,0:02:16.22,Sub,,0,0,0,,podemos {\c&H3CC8FF&}salvar.{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.97,0:02:17.18,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} te gustan los datos curiosos,
+Dialogue: 0,0:02:17.18,0:02:17.38,Sub,,0,0,0,,Si {\c&H3CC8FF&}te{\c&HFFFFFF&} gustan los datos curiosos,
+Dialogue: 0,0:02:17.38,0:02:17.76,Sub,,0,0,0,,Si te {\c&H3CC8FF&}gustan{\c&HFFFFFF&} los datos curiosos,
+Dialogue: 0,0:02:17.76,0:02:18.01,Sub,,0,0,0,,Si te gustan {\c&H3CC8FF&}los{\c&HFFFFFF&} datos curiosos,
+Dialogue: 0,0:02:18.01,0:02:18.34,Sub,,0,0,0,,Si te gustan los {\c&H3CC8FF&}datos{\c&HFFFFFF&} curiosos,
+Dialogue: 0,0:02:18.34,0:02:18.84,Sub,,0,0,0,,Si te gustan los datos {\c&H3CC8FF&}curiosos,{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.84,0:02:19.37,Sub,,0,0,0,,{\c&H3CC8FF&}suscríbete{\c&HFFFFFF&} y activa la campanita. Y
+Dialogue: 0,0:02:19.37,0:02:19.54,Sub,,0,0,0,,suscríbete {\c&H3CC8FF&}y{\c&HFFFFFF&} activa la campanita. Y
+Dialogue: 0,0:02:19.54,0:02:19.91,Sub,,0,0,0,,suscríbete y {\c&H3CC8FF&}activa{\c&HFFFFFF&} la campanita. Y
+Dialogue: 0,0:02:19.91,0:02:20.12,Sub,,0,0,0,,suscríbete y activa {\c&H3CC8FF&}la{\c&HFFFFFF&} campanita. Y
+Dialogue: 0,0:02:20.12,0:02:20.66,Sub,,0,0,0,,suscríbete y activa la {\c&H3CC8FF&}campanita.{\c&HFFFFFF&} Y
+Dialogue: 0,0:02:20.66,0:02:20.83,Sub,,0,0,0,,suscríbete y activa la campanita. {\c&H3CC8FF&}Y{\c&HFFFFFF&}
+Dialogue: 0,0:02:20.83,0:02:21.20,Sub,,0,0,0,,{\c&H3CC8FF&}déjame{\c&HFFFFFF&} en los comentarios qué animal
+Dialogue: 0,0:02:21.20,0:02:21.41,Sub,,0,0,0,,déjame {\c&H3CC8FF&}en{\c&HFFFFFF&} los comentarios qué animal
+Dialogue: 0,0:02:21.41,0:02:21.65,Sub,,0,0,0,,déjame en {\c&H3CC8FF&}los{\c&HFFFFFF&} comentarios qué animal
+Dialogue: 0,0:02:21.65,0:02:22.23,Sub,,0,0,0,,déjame en los {\c&H3CC8FF&}comentarios{\c&HFFFFFF&} qué animal
+Dialogue: 0,0:02:22.23,0:02:22.48,Sub,,0,0,0,,déjame en los comentarios {\c&H3CC8FF&}qué{\c&HFFFFFF&} animal
+Dialogue: 0,0:02:22.48,0:02:22.86,Sub,,0,0,0,,déjame en los comentarios qué {\c&H3CC8FF&}animal{\c&HFFFFFF&}
+Dialogue: 0,0:02:22.86,0:02:23.27,Sub,,0,0,0,,{\c&H3CC8FF&}quieres{\c&HFFFFFF&} que expliquemos en el próximo
+Dialogue: 0,0:02:23.27,0:02:23.52,Sub,,0,0,0,,quieres {\c&H3CC8FF&}que{\c&HFFFFFF&} expliquemos en el próximo
+Dialogue: 0,0:02:23.52,0:02:24.10,Sub,,0,0,0,,quieres que {\c&H3CC8FF&}expliquemos{\c&HFFFFFF&} en el próximo
+Dialogue: 0,0:02:24.10,0:02:24.31,Sub,,0,0,0,,quieres que expliquemos {\c&H3CC8FF&}en{\c&HFFFFFF&} el próximo
+Dialogue: 0,0:02:24.31,0:02:24.51,Sub,,0,0,0,,quieres que expliquemos en {\c&H3CC8FF&}el{\c&HFFFFFF&} próximo
+Dialogue: 0,0:02:24.51,0:02:24.93,Sub,,0,0,0,,quieres que expliquemos en el {\c&H3CC8FF&}próximo{\c&HFFFFFF&}
+Dialogue: 0,0:02:24.93,0:02:25.45,Sub,,0,0,0,,{\c&H3CC8FF&}video.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:02:25.85,Marca,,0,0,0,,jxseng · datos curiosos

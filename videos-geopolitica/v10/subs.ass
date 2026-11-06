@@ -1,0 +1,395 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.48,Sub,,0,0,0,,{\c&H3CC8FF&}Mide{\c&HFFFFFF&} medio milímetro. Puede sobrevivir al
+Dialogue: 0,0:00:00.48,0:00:00.85,Sub,,0,0,0,,Mide {\c&H3CC8FF&}medio{\c&HFFFFFF&} milímetro. Puede sobrevivir al
+Dialogue: 0,0:00:00.85,0:00:01.45,Sub,,0,0,0,,Mide medio {\c&H3CC8FF&}milímetro.{\c&HFFFFFF&} Puede sobrevivir al
+Dialogue: 0,0:00:01.45,0:00:01.83,Sub,,0,0,0,,Mide medio milímetro. {\c&H3CC8FF&}Puede{\c&HFFFFFF&} sobrevivir al
+Dialogue: 0,0:00:01.83,0:00:02.43,Sub,,0,0,0,,Mide medio milímetro. Puede {\c&H3CC8FF&}sobrevivir{\c&HFFFFFF&} al
+Dialogue: 0,0:00:02.43,0:00:02.66,Sub,,0,0,0,,Mide medio milímetro. Puede sobrevivir {\c&H3CC8FF&}al{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.66,0:00:03.04,Sub,,0,0,0,,{\c&H3CC8FF&}vacío{\c&HFFFFFF&} del espacio, a temperaturas cercanas
+Dialogue: 0,0:00:03.04,0:00:03.31,Sub,,0,0,0,,vacío {\c&H3CC8FF&}del{\c&HFFFFFF&} espacio, a temperaturas cercanas
+Dialogue: 0,0:00:03.31,0:00:03.83,Sub,,0,0,0,,vacío del {\c&H3CC8FF&}espacio,{\c&HFFFFFF&} a temperaturas cercanas
+Dialogue: 0,0:00:03.83,0:00:04.01,Sub,,0,0,0,,vacío del espacio, {\c&H3CC8FF&}a{\c&HFFFFFF&} temperaturas cercanas
+Dialogue: 0,0:00:04.01,0:00:04.71,Sub,,0,0,0,,vacío del espacio, a {\c&H3CC8FF&}temperaturas{\c&HFFFFFF&} cercanas
+Dialogue: 0,0:00:04.71,0:00:05.22,Sub,,0,0,0,,vacío del espacio, a temperaturas {\c&H3CC8FF&}cercanas{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.22,0:00:05.46,Sub,,0,0,0,,{\c&H3CC8FF&}al{\c&HFFFFFF&} cero absoluto y a dosis
+Dialogue: 0,0:00:05.46,0:00:05.78,Sub,,0,0,0,,al {\c&H3CC8FF&}cero{\c&HFFFFFF&} absoluto y a dosis
+Dialogue: 0,0:00:05.78,0:00:06.29,Sub,,0,0,0,,al cero {\c&H3CC8FF&}absoluto{\c&HFFFFFF&} y a dosis
+Dialogue: 0,0:00:06.29,0:00:06.48,Sub,,0,0,0,,al cero absoluto {\c&H3CC8FF&}y{\c&HFFFFFF&} a dosis
+Dialogue: 0,0:00:06.48,0:00:06.67,Sub,,0,0,0,,al cero absoluto y {\c&H3CC8FF&}a{\c&HFFFFFF&} dosis
+Dialogue: 0,0:00:06.67,0:00:07.04,Sub,,0,0,0,,al cero absoluto y a {\c&H3CC8FF&}dosis{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.04,0:00:07.27,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} radiación que matarían a cualquier
+Dialogue: 0,0:00:07.27,0:00:07.83,Sub,,0,0,0,,de {\c&H3CC8FF&}radiación{\c&HFFFFFF&} que matarían a cualquier
+Dialogue: 0,0:00:07.83,0:00:08.11,Sub,,0,0,0,,de radiación {\c&H3CC8FF&}que{\c&HFFFFFF&} matarían a cualquier
+Dialogue: 0,0:00:08.11,0:00:08.62,Sub,,0,0,0,,de radiación que {\c&H3CC8FF&}matarían{\c&HFFFFFF&} a cualquier
+Dialogue: 0,0:00:08.62,0:00:08.81,Sub,,0,0,0,,de radiación que matarían {\c&H3CC8FF&}a{\c&HFFFFFF&} cualquier
+Dialogue: 0,0:00:08.81,0:00:09.36,Sub,,0,0,0,,de radiación que matarían a {\c&H3CC8FF&}cualquier{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.36,0:00:09.88,Sub,,0,0,0,,{\c&H3CC8FF&}persona.{\c&HFFFFFF&} Se llama tardígrado, y es
+Dialogue: 0,0:00:09.88,0:00:10.11,Sub,,0,0,0,,persona. {\c&H3CC8FF&}Se{\c&HFFFFFF&} llama tardígrado, y es
+Dialogue: 0,0:00:10.11,0:00:10.48,Sub,,0,0,0,,persona. Se {\c&H3CC8FF&}llama{\c&HFFFFFF&} tardígrado, y es
+Dialogue: 0,0:00:10.48,0:00:11.13,Sub,,0,0,0,,persona. Se llama {\c&H3CC8FF&}tardígrado,{\c&HFFFFFF&} y es
+Dialogue: 0,0:00:11.13,0:00:11.32,Sub,,0,0,0,,persona. Se llama tardígrado, {\c&H3CC8FF&}y{\c&HFFFFFF&} es
+Dialogue: 0,0:00:11.32,0:00:11.55,Sub,,0,0,0,,persona. Se llama tardígrado, y {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.55,0:00:12.30,Sub,,0,0,0,,{\c&H3CC8FF&}probablemente{\c&HFFFFFF&} el animal más resistente del
+Dialogue: 0,0:00:12.30,0:00:12.53,Sub,,0,0,0,,probablemente {\c&H3CC8FF&}el{\c&HFFFFFF&} animal más resistente del
+Dialogue: 0,0:00:12.53,0:00:12.95,Sub,,0,0,0,,probablemente el {\c&H3CC8FF&}animal{\c&HFFFFFF&} más resistente del
+Dialogue: 0,0:00:12.95,0:00:13.23,Sub,,0,0,0,,probablemente el animal {\c&H3CC8FF&}más{\c&HFFFFFF&} resistente del
+Dialogue: 0,0:00:13.23,0:00:13.83,Sub,,0,0,0,,probablemente el animal más {\c&H3CC8FF&}resistente{\c&HFFFFFF&} del
+Dialogue: 0,0:00:13.83,0:00:14.11,Sub,,0,0,0,,probablemente el animal más resistente {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.11,0:00:14.77,Sub,,0,0,0,,{\c&H3CC8FF&}planeta.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.52,0:00:15.78,Sub,,0,0,0,,{\c&H3CC8FF&}Hoy{\c&HFFFFFF&} vamos a ver cómo es
+Dialogue: 0,0:00:15.78,0:00:16.13,Sub,,0,0,0,,Hoy {\c&H3CC8FF&}vamos{\c&HFFFFFF&} a ver cómo es
+Dialogue: 0,0:00:16.13,0:00:16.30,Sub,,0,0,0,,Hoy vamos {\c&H3CC8FF&}a{\c&HFFFFFF&} ver cómo es
+Dialogue: 0,0:00:16.30,0:00:16.56,Sub,,0,0,0,,Hoy vamos a {\c&H3CC8FF&}ver{\c&HFFFFFF&} cómo es
+Dialogue: 0,0:00:16.56,0:00:16.86,Sub,,0,0,0,,Hoy vamos a ver {\c&H3CC8FF&}cómo{\c&HFFFFFF&} es
+Dialogue: 0,0:00:16.86,0:00:17.08,Sub,,0,0,0,,Hoy vamos a ver cómo {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.08,0:00:17.51,Sub,,0,0,0,,{\c&H3CC8FF&}posible{\c&HFFFFFF&} que un animal tan pequeño
+Dialogue: 0,0:00:17.51,0:00:17.77,Sub,,0,0,0,,posible {\c&H3CC8FF&}que{\c&HFFFFFF&} un animal tan pequeño
+Dialogue: 0,0:00:17.77,0:00:17.98,Sub,,0,0,0,,posible que {\c&H3CC8FF&}un{\c&HFFFFFF&} animal tan pequeño
+Dialogue: 0,0:00:17.98,0:00:18.37,Sub,,0,0,0,,posible que un {\c&H3CC8FF&}animal{\c&HFFFFFF&} tan pequeño
+Dialogue: 0,0:00:18.37,0:00:18.63,Sub,,0,0,0,,posible que un animal {\c&H3CC8FF&}tan{\c&HFFFFFF&} pequeño
+Dialogue: 0,0:00:18.63,0:00:19.06,Sub,,0,0,0,,posible que un animal tan {\c&H3CC8FF&}pequeño{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.06,0:00:19.49,Sub,,0,0,0,,{\c&H3CC8FF&}resista{\c&HFFFFFF&} cosas que ningún otro ser
+Dialogue: 0,0:00:19.49,0:00:19.84,Sub,,0,0,0,,resista {\c&H3CC8FF&}cosas{\c&HFFFFFF&} que ningún otro ser
+Dialogue: 0,0:00:19.84,0:00:20.10,Sub,,0,0,0,,resista cosas {\c&H3CC8FF&}que{\c&HFFFFFF&} ningún otro ser
+Dialogue: 0,0:00:20.10,0:00:20.49,Sub,,0,0,0,,resista cosas que {\c&H3CC8FF&}ningún{\c&HFFFFFF&} otro ser
+Dialogue: 0,0:00:20.49,0:00:20.79,Sub,,0,0,0,,resista cosas que ningún {\c&H3CC8FF&}otro{\c&HFFFFFF&} ser
+Dialogue: 0,0:00:20.79,0:00:21.05,Sub,,0,0,0,,resista cosas que ningún otro {\c&H3CC8FF&}ser{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.05,0:00:21.35,Sub,,0,0,0,,{\c&H3CC8FF&}vivo{\c&HFFFFFF&} aguanta.
+Dialogue: 0,0:00:21.35,0:00:21.97,Sub,,0,0,0,,vivo {\c&H3CC8FF&}aguanta.{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.72,0:00:23.12,Sub,,0,0,0,,{\c&H3CC8FF&}Míralo.{\c&HFFFFFF&} Tiene ocho patitas con garras,
+Dialogue: 0,0:00:23.12,0:00:23.44,Sub,,0,0,0,,Míralo. {\c&H3CC8FF&}Tiene{\c&HFFFFFF&} ocho patitas con garras,
+Dialogue: 0,0:00:23.44,0:00:23.72,Sub,,0,0,0,,Míralo. Tiene {\c&H3CC8FF&}ocho{\c&HFFFFFF&} patitas con garras,
+Dialogue: 0,0:00:23.72,0:00:24.12,Sub,,0,0,0,,Míralo. Tiene ocho {\c&H3CC8FF&}patitas{\c&HFFFFFF&} con garras,
+Dialogue: 0,0:00:24.12,0:00:24.36,Sub,,0,0,0,,Míralo. Tiene ocho patitas {\c&H3CC8FF&}con{\c&HFFFFFF&} garras,
+Dialogue: 0,0:00:24.36,0:00:24.76,Sub,,0,0,0,,Míralo. Tiene ocho patitas con {\c&H3CC8FF&}garras,{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.76,0:00:24.96,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} cuerpo regordete y camina despacio,
+Dialogue: 0,0:00:24.96,0:00:25.32,Sub,,0,0,0,,un {\c&H3CC8FF&}cuerpo{\c&HFFFFFF&} regordete y camina despacio,
+Dialogue: 0,0:00:25.32,0:00:25.80,Sub,,0,0,0,,un cuerpo {\c&H3CC8FF&}regordete{\c&HFFFFFF&} y camina despacio,
+Dialogue: 0,0:00:25.80,0:00:25.96,Sub,,0,0,0,,un cuerpo regordete {\c&H3CC8FF&}y{\c&HFFFFFF&} camina despacio,
+Dialogue: 0,0:00:25.96,0:00:26.32,Sub,,0,0,0,,un cuerpo regordete y {\c&H3CC8FF&}camina{\c&HFFFFFF&} despacio,
+Dialogue: 0,0:00:26.32,0:00:26.80,Sub,,0,0,0,,un cuerpo regordete y camina {\c&H3CC8FF&}despacio,{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.80,0:00:27.08,Sub,,0,0,0,,{\c&H3CC8FF&}como{\c&HFFFFFF&} un osito. Por eso lo
+Dialogue: 0,0:00:27.08,0:00:27.28,Sub,,0,0,0,,como {\c&H3CC8FF&}un{\c&HFFFFFF&} osito. Por eso lo
+Dialogue: 0,0:00:27.28,0:00:27.64,Sub,,0,0,0,,como un {\c&H3CC8FF&}osito.{\c&HFFFFFF&} Por eso lo
+Dialogue: 0,0:00:27.64,0:00:27.88,Sub,,0,0,0,,como un osito. {\c&H3CC8FF&}Por{\c&HFFFFFF&} eso lo
+Dialogue: 0,0:00:27.88,0:00:28.12,Sub,,0,0,0,,como un osito. Por {\c&H3CC8FF&}eso{\c&HFFFFFF&} lo
+Dialogue: 0,0:00:28.12,0:00:28.32,Sub,,0,0,0,,como un osito. Por eso {\c&H3CC8FF&}lo{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.32,0:00:28.68,Sub,,0,0,0,,{\c&H3CC8FF&}llaman{\c&HFFFFFF&} el oso de agua. Y
+Dialogue: 0,0:00:28.68,0:00:28.88,Sub,,0,0,0,,llaman {\c&H3CC8FF&}el{\c&HFFFFFF&} oso de agua. Y
+Dialogue: 0,0:00:28.88,0:00:29.12,Sub,,0,0,0,,llaman el {\c&H3CC8FF&}oso{\c&HFFFFFF&} de agua. Y
+Dialogue: 0,0:00:29.12,0:00:29.32,Sub,,0,0,0,,llaman el oso {\c&H3CC8FF&}de{\c&HFFFFFF&} agua. Y
+Dialogue: 0,0:00:29.32,0:00:29.64,Sub,,0,0,0,,llaman el oso de {\c&H3CC8FF&}agua.{\c&HFFFFFF&} Y
+Dialogue: 0,0:00:29.64,0:00:29.80,Sub,,0,0,0,,llaman el oso de agua. {\c&H3CC8FF&}Y{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.80,0:00:30.08,Sub,,0,0,0,,{\c&H3CC8FF&}vive{\c&HFFFFFF&} en casi cualquier lugar donde
+Dialogue: 0,0:00:30.08,0:00:30.28,Sub,,0,0,0,,vive {\c&H3CC8FF&}en{\c&HFFFFFF&} casi cualquier lugar donde
+Dialogue: 0,0:00:30.28,0:00:30.56,Sub,,0,0,0,,vive en {\c&H3CC8FF&}casi{\c&HFFFFFF&} cualquier lugar donde
+Dialogue: 0,0:00:30.56,0:00:31.04,Sub,,0,0,0,,vive en casi {\c&H3CC8FF&}cualquier{\c&HFFFFFF&} lugar donde
+Dialogue: 0,0:00:31.04,0:00:31.36,Sub,,0,0,0,,vive en casi cualquier {\c&H3CC8FF&}lugar{\c&HFFFFFF&} donde
+Dialogue: 0,0:00:31.36,0:00:31.68,Sub,,0,0,0,,vive en casi cualquier lugar {\c&H3CC8FF&}donde{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.68,0:00:31.96,Sub,,0,0,0,,{\c&H3CC8FF&}haya{\c&HFFFFFF&} un poco de humedad, como
+Dialogue: 0,0:00:31.96,0:00:32.16,Sub,,0,0,0,,haya {\c&H3CC8FF&}un{\c&HFFFFFF&} poco de humedad, como
+Dialogue: 0,0:00:32.16,0:00:32.44,Sub,,0,0,0,,haya un {\c&H3CC8FF&}poco{\c&HFFFFFF&} de humedad, como
+Dialogue: 0,0:00:32.44,0:00:32.64,Sub,,0,0,0,,haya un poco {\c&H3CC8FF&}de{\c&HFFFFFF&} humedad, como
+Dialogue: 0,0:00:32.64,0:00:33.08,Sub,,0,0,0,,haya un poco de {\c&H3CC8FF&}humedad,{\c&HFFFFFF&} como
+Dialogue: 0,0:00:33.08,0:00:33.36,Sub,,0,0,0,,haya un poco de humedad, {\c&H3CC8FF&}como{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.36,0:00:33.56,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} musgo de tu jardín.
+Dialogue: 0,0:00:33.56,0:00:33.88,Sub,,0,0,0,,el {\c&H3CC8FF&}musgo{\c&HFFFFFF&} de tu jardín.
+Dialogue: 0,0:00:33.88,0:00:34.08,Sub,,0,0,0,,el musgo {\c&H3CC8FF&}de{\c&HFFFFFF&} tu jardín.
+Dialogue: 0,0:00:34.08,0:00:34.28,Sub,,0,0,0,,el musgo de {\c&H3CC8FF&}tu{\c&HFFFFFF&} jardín.
+Dialogue: 0,0:00:34.28,0:00:34.83,Sub,,0,0,0,,el musgo de tu {\c&H3CC8FF&}jardín.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.58,0:00:35.80,Sub,,0,0,0,,{\c&H3CC8FF&}Se{\c&HFFFFFF&} han encontrado tardígrados en las
+Dialogue: 0,0:00:35.80,0:00:36.06,Sub,,0,0,0,,Se {\c&H3CC8FF&}han{\c&HFFFFFF&} encontrado tardígrados en las
+Dialogue: 0,0:00:36.06,0:00:36.62,Sub,,0,0,0,,Se han {\c&H3CC8FF&}encontrado{\c&HFFFFFF&} tardígrados en las
+Dialogue: 0,0:00:36.62,0:00:37.23,Sub,,0,0,0,,Se han encontrado {\c&H3CC8FF&}tardígrados{\c&HFFFFFF&} en las
+Dialogue: 0,0:00:37.23,0:00:37.45,Sub,,0,0,0,,Se han encontrado tardígrados {\c&H3CC8FF&}en{\c&HFFFFFF&} las
+Dialogue: 0,0:00:37.45,0:00:37.71,Sub,,0,0,0,,Se han encontrado tardígrados en {\c&H3CC8FF&}las{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.71,0:00:38.06,Sub,,0,0,0,,{\c&H3CC8FF&}cimas{\c&HFFFFFF&} del Himalaya, en el fondo
+Dialogue: 0,0:00:38.06,0:00:38.32,Sub,,0,0,0,,cimas {\c&H3CC8FF&}del{\c&HFFFFFF&} Himalaya, en el fondo
+Dialogue: 0,0:00:38.32,0:00:38.84,Sub,,0,0,0,,cimas del {\c&H3CC8FF&}Himalaya,{\c&HFFFFFF&} en el fondo
+Dialogue: 0,0:00:38.84,0:00:39.06,Sub,,0,0,0,,cimas del Himalaya, {\c&H3CC8FF&}en{\c&HFFFFFF&} el fondo
+Dialogue: 0,0:00:39.06,0:00:39.28,Sub,,0,0,0,,cimas del Himalaya, en {\c&H3CC8FF&}el{\c&HFFFFFF&} fondo
+Dialogue: 0,0:00:39.28,0:00:39.62,Sub,,0,0,0,,cimas del Himalaya, en el {\c&H3CC8FF&}fondo{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.62,0:00:39.89,Sub,,0,0,0,,{\c&H3CC8FF&}del{\c&HFFFFFF&} océano y en el hielo
+Dialogue: 0,0:00:39.89,0:00:40.28,Sub,,0,0,0,,del {\c&H3CC8FF&}océano{\c&HFFFFFF&} y en el hielo
+Dialogue: 0,0:00:40.28,0:00:40.45,Sub,,0,0,0,,del océano {\c&H3CC8FF&}y{\c&HFFFFFF&} en el hielo
+Dialogue: 0,0:00:40.45,0:00:40.67,Sub,,0,0,0,,del océano y {\c&H3CC8FF&}en{\c&HFFFFFF&} el hielo
+Dialogue: 0,0:00:40.67,0:00:40.89,Sub,,0,0,0,,del océano y en {\c&H3CC8FF&}el{\c&HFFFFFF&} hielo
+Dialogue: 0,0:00:40.89,0:00:41.23,Sub,,0,0,0,,del océano y en el {\c&H3CC8FF&}hielo{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.23,0:00:41.45,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} la Antártida. Están literalmente en
+Dialogue: 0,0:00:41.45,0:00:41.67,Sub,,0,0,0,,de {\c&H3CC8FF&}la{\c&HFFFFFF&} Antártida. Están literalmente en
+Dialogue: 0,0:00:41.67,0:00:42.23,Sub,,0,0,0,,de la {\c&H3CC8FF&}Antártida.{\c&HFFFFFF&} Están literalmente en
+Dialogue: 0,0:00:42.23,0:00:42.58,Sub,,0,0,0,,de la Antártida. {\c&H3CC8FF&}Están{\c&HFFFFFF&} literalmente en
+Dialogue: 0,0:00:42.58,0:00:43.23,Sub,,0,0,0,,de la Antártida. Están {\c&H3CC8FF&}literalmente{\c&HFFFFFF&} en
+Dialogue: 0,0:00:43.23,0:00:43.45,Sub,,0,0,0,,de la Antártida. Están literalmente {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.45,0:00:43.80,Sub,,0,0,0,,{\c&H3CC8FF&}todas{\c&HFFFFFF&} partes.
+Dialogue: 0,0:00:43.80,0:00:44.39,Sub,,0,0,0,,todas {\c&H3CC8FF&}partes.{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.14,0:00:45.37,Sub,,0,0,0,,{\c&H3CC8FF&}Su{\c&HFFFFFF&} gran truco es este: cuando
+Dialogue: 0,0:00:45.37,0:00:45.69,Sub,,0,0,0,,Su {\c&H3CC8FF&}gran{\c&HFFFFFF&} truco es este: cuando
+Dialogue: 0,0:00:45.69,0:00:46.06,Sub,,0,0,0,,Su gran {\c&H3CC8FF&}truco{\c&HFFFFFF&} es este: cuando
+Dialogue: 0,0:00:46.06,0:00:46.29,Sub,,0,0,0,,Su gran truco {\c&H3CC8FF&}es{\c&HFFFFFF&} este: cuando
+Dialogue: 0,0:00:46.29,0:00:46.66,Sub,,0,0,0,,Su gran truco es {\c&H3CC8FF&}este:{\c&HFFFFFF&} cuando
+Dialogue: 0,0:00:46.66,0:00:47.08,Sub,,0,0,0,,Su gran truco es este: {\c&H3CC8FF&}cuando{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.08,0:00:47.36,Sub,,0,0,0,,{\c&H3CC8FF&}las{\c&HFFFFFF&} condiciones se ponen muy difíciles,
+Dialogue: 0,0:00:47.36,0:00:48.01,Sub,,0,0,0,,las {\c&H3CC8FF&}condiciones{\c&HFFFFFF&} se ponen muy difíciles,
+Dialogue: 0,0:00:48.01,0:00:48.24,Sub,,0,0,0,,las condiciones {\c&H3CC8FF&}se{\c&HFFFFFF&} ponen muy difíciles,
+Dialogue: 0,0:00:48.24,0:00:48.61,Sub,,0,0,0,,las condiciones se {\c&H3CC8FF&}ponen{\c&HFFFFFF&} muy difíciles,
+Dialogue: 0,0:00:48.61,0:00:48.89,Sub,,0,0,0,,las condiciones se ponen {\c&H3CC8FF&}muy{\c&HFFFFFF&} difíciles,
+Dialogue: 0,0:00:48.89,0:00:49.49,Sub,,0,0,0,,las condiciones se ponen muy {\c&H3CC8FF&}difíciles,{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.49,0:00:49.91,Sub,,0,0,0,,{\c&H3CC8FF&}pierde{\c&HFFFFFF&} casi toda el agua de
+Dialogue: 0,0:00:49.91,0:00:50.23,Sub,,0,0,0,,pierde {\c&H3CC8FF&}casi{\c&HFFFFFF&} toda el agua de
+Dialogue: 0,0:00:50.23,0:00:50.55,Sub,,0,0,0,,pierde casi {\c&H3CC8FF&}toda{\c&HFFFFFF&} el agua de
+Dialogue: 0,0:00:50.55,0:00:50.79,Sub,,0,0,0,,pierde casi toda {\c&H3CC8FF&}el{\c&HFFFFFF&} agua de
+Dialogue: 0,0:00:50.79,0:00:51.11,Sub,,0,0,0,,pierde casi toda el {\c&H3CC8FF&}agua{\c&HFFFFFF&} de
+Dialogue: 0,0:00:51.11,0:00:51.34,Sub,,0,0,0,,pierde casi toda el agua {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.34,0:00:51.57,Sub,,0,0,0,,{\c&H3CC8FF&}su{\c&HFFFFFF&} cuerpo y se encoge como
+Dialogue: 0,0:00:51.57,0:00:51.99,Sub,,0,0,0,,su {\c&H3CC8FF&}cuerpo{\c&HFFFFFF&} y se encoge como
+Dialogue: 0,0:00:51.99,0:00:52.18,Sub,,0,0,0,,su cuerpo {\c&H3CC8FF&}y{\c&HFFFFFF&} se encoge como
+Dialogue: 0,0:00:52.18,0:00:52.41,Sub,,0,0,0,,su cuerpo y {\c&H3CC8FF&}se{\c&HFFFFFF&} encoge como
+Dialogue: 0,0:00:52.41,0:00:52.82,Sub,,0,0,0,,su cuerpo y se {\c&H3CC8FF&}encoge{\c&HFFFFFF&} como
+Dialogue: 0,0:00:52.82,0:00:53.15,Sub,,0,0,0,,su cuerpo y se encoge {\c&H3CC8FF&}como{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.15,0:00:53.38,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} pequeño barril. En ese estado,
+Dialogue: 0,0:00:53.38,0:00:53.84,Sub,,0,0,0,,un {\c&H3CC8FF&}pequeño{\c&HFFFFFF&} barril. En ese estado,
+Dialogue: 0,0:00:53.84,0:00:54.31,Sub,,0,0,0,,un pequeño {\c&H3CC8FF&}barril.{\c&HFFFFFF&} En ese estado,
+Dialogue: 0,0:00:54.31,0:00:54.54,Sub,,0,0,0,,un pequeño barril. {\c&H3CC8FF&}En{\c&HFFFFFF&} ese estado,
+Dialogue: 0,0:00:54.54,0:00:54.82,Sub,,0,0,0,,un pequeño barril. En {\c&H3CC8FF&}ese{\c&HFFFFFF&} estado,
+Dialogue: 0,0:00:54.82,0:00:55.28,Sub,,0,0,0,,un pequeño barril. En ese {\c&H3CC8FF&}estado,{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.28,0:00:55.51,Sub,,0,0,0,,{\c&H3CC8FF&}su{\c&HFFFFFF&} metabolismo casi se detiene por
+Dialogue: 0,0:00:55.51,0:00:56.16,Sub,,0,0,0,,su {\c&H3CC8FF&}metabolismo{\c&HFFFFFF&} casi se detiene por
+Dialogue: 0,0:00:56.16,0:00:56.48,Sub,,0,0,0,,su metabolismo {\c&H3CC8FF&}casi{\c&HFFFFFF&} se detiene por
+Dialogue: 0,0:00:56.48,0:00:56.71,Sub,,0,0,0,,su metabolismo casi {\c&H3CC8FF&}se{\c&HFFFFFF&} detiene por
+Dialogue: 0,0:00:56.71,0:00:57.18,Sub,,0,0,0,,su metabolismo casi se {\c&H3CC8FF&}detiene{\c&HFFFFFF&} por
+Dialogue: 0,0:00:57.18,0:00:57.46,Sub,,0,0,0,,su metabolismo casi se detiene {\c&H3CC8FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.46,0:00:58.16,Sub,,0,0,0,,{\c&H3CC8FF&}completo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.91,0:00:59.14,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} ese estado ha sobrevivido, durante
+Dialogue: 0,0:00:59.14,0:00:59.42,Sub,,0,0,0,,En {\c&H3CC8FF&}ese{\c&HFFFFFF&} estado ha sobrevivido, durante
+Dialogue: 0,0:00:59.42,0:00:59.84,Sub,,0,0,0,,En ese {\c&H3CC8FF&}estado{\c&HFFFFFF&} ha sobrevivido, durante
+Dialogue: 0,0:00:59.84,0:01:00.07,Sub,,0,0,0,,En ese estado {\c&H3CC8FF&}ha{\c&HFFFFFF&} sobrevivido, durante
+Dialogue: 0,0:01:00.07,0:01:00.76,Sub,,0,0,0,,En ese estado ha {\c&H3CC8FF&}sobrevivido,{\c&HFFFFFF&} durante
+Dialogue: 0,0:01:00.76,0:01:01.23,Sub,,0,0,0,,En ese estado ha sobrevivido, {\c&H3CC8FF&}durante{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.23,0:01:01.46,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} tiempo corto, a temperaturas cercanas
+Dialogue: 0,0:01:01.46,0:01:01.88,Sub,,0,0,0,,un {\c&H3CC8FF&}tiempo{\c&HFFFFFF&} corto, a temperaturas cercanas
+Dialogue: 0,0:01:01.88,0:01:02.29,Sub,,0,0,0,,un tiempo {\c&H3CC8FF&}corto,{\c&HFFFFFF&} a temperaturas cercanas
+Dialogue: 0,0:01:02.29,0:01:02.48,Sub,,0,0,0,,un tiempo corto, {\c&H3CC8FF&}a{\c&HFFFFFF&} temperaturas cercanas
+Dialogue: 0,0:01:02.48,0:01:03.17,Sub,,0,0,0,,un tiempo corto, a {\c&H3CC8FF&}temperaturas{\c&HFFFFFF&} cercanas
+Dialogue: 0,0:01:03.17,0:01:03.68,Sub,,0,0,0,,un tiempo corto, a temperaturas {\c&H3CC8FF&}cercanas{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.68,0:01:03.87,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} menos doscientos setenta y dos
+Dialogue: 0,0:01:03.87,0:01:04.24,Sub,,0,0,0,,a {\c&H3CC8FF&}menos{\c&HFFFFFF&} doscientos setenta y dos
+Dialogue: 0,0:01:04.24,0:01:04.84,Sub,,0,0,0,,a menos {\c&H3CC8FF&}doscientos{\c&HFFFFFF&} setenta y dos
+Dialogue: 0,0:01:04.84,0:01:05.30,Sub,,0,0,0,,a menos doscientos {\c&H3CC8FF&}setenta{\c&HFFFFFF&} y dos
+Dialogue: 0,0:01:05.30,0:01:05.49,Sub,,0,0,0,,a menos doscientos setenta {\c&H3CC8FF&}y{\c&HFFFFFF&} dos
+Dialogue: 0,0:01:05.49,0:01:05.77,Sub,,0,0,0,,a menos doscientos setenta y {\c&H3CC8FF&}dos{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.77,0:01:06.23,Sub,,0,0,0,,{\c&H3CC8FF&}grados.{\c&HFFFFFF&} Prácticamente el cero absoluto.
+Dialogue: 0,0:01:06.23,0:01:06.97,Sub,,0,0,0,,grados. {\c&H3CC8FF&}Prácticamente{\c&HFFFFFF&} el cero absoluto.
+Dialogue: 0,0:01:06.97,0:01:07.20,Sub,,0,0,0,,grados. Prácticamente {\c&H3CC8FF&}el{\c&HFFFFFF&} cero absoluto.
+Dialogue: 0,0:01:07.20,0:01:07.53,Sub,,0,0,0,,grados. Prácticamente el {\c&H3CC8FF&}cero{\c&HFFFFFF&} absoluto.
+Dialogue: 0,0:01:07.53,0:01:08.23,Sub,,0,0,0,,grados. Prácticamente el cero {\c&H3CC8FF&}absoluto.{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.98,0:01:09.16,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} también ha aguantado, por unos
+Dialogue: 0,0:01:09.16,0:01:09.59,Sub,,0,0,0,,Y {\c&H3CC8FF&}también{\c&HFFFFFF&} ha aguantado, por unos
+Dialogue: 0,0:01:09.59,0:01:09.81,Sub,,0,0,0,,Y también {\c&H3CC8FF&}ha{\c&HFFFFFF&} aguantado, por unos
+Dialogue: 0,0:01:09.81,0:01:10.38,Sub,,0,0,0,,Y también ha {\c&H3CC8FF&}aguantado,{\c&HFFFFFF&} por unos
+Dialogue: 0,0:01:10.38,0:01:10.64,Sub,,0,0,0,,Y también ha aguantado, {\c&H3CC8FF&}por{\c&HFFFFFF&} unos
+Dialogue: 0,0:01:10.64,0:01:10.94,Sub,,0,0,0,,Y también ha aguantado, por {\c&H3CC8FF&}unos{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.94,0:01:11.42,Sub,,0,0,0,,{\c&H3CC8FF&}minutos,{\c&HFFFFFF&} temperaturas de hasta unos ciento
+Dialogue: 0,0:01:11.42,0:01:12.08,Sub,,0,0,0,,minutos, {\c&H3CC8FF&}temperaturas{\c&HFFFFFF&} de hasta unos ciento
+Dialogue: 0,0:01:12.08,0:01:12.29,Sub,,0,0,0,,minutos, temperaturas {\c&H3CC8FF&}de{\c&HFFFFFF&} hasta unos ciento
+Dialogue: 0,0:01:12.29,0:01:12.64,Sub,,0,0,0,,minutos, temperaturas de {\c&H3CC8FF&}hasta{\c&HFFFFFF&} unos ciento
+Dialogue: 0,0:01:12.64,0:01:12.95,Sub,,0,0,0,,minutos, temperaturas de hasta {\c&H3CC8FF&}unos{\c&HFFFFFF&} ciento
+Dialogue: 0,0:01:12.95,0:01:13.34,Sub,,0,0,0,,minutos, temperaturas de hasta unos {\c&H3CC8FF&}ciento{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.34,0:01:13.86,Sub,,0,0,0,,{\c&H3CC8FF&}cincuenta{\c&HFFFFFF&} grados, más caliente que el
+Dialogue: 0,0:01:13.86,0:01:14.30,Sub,,0,0,0,,cincuenta {\c&H3CC8FF&}grados,{\c&HFFFFFF&} más caliente que el
+Dialogue: 0,0:01:14.30,0:01:14.56,Sub,,0,0,0,,cincuenta grados, {\c&H3CC8FF&}más{\c&HFFFFFF&} caliente que el
+Dialogue: 0,0:01:14.56,0:01:15.04,Sub,,0,0,0,,cincuenta grados, más {\c&H3CC8FF&}caliente{\c&HFFFFFF&} que el
+Dialogue: 0,0:01:15.04,0:01:15.30,Sub,,0,0,0,,cincuenta grados, más caliente {\c&H3CC8FF&}que{\c&HFFFFFF&} el
+Dialogue: 0,0:01:15.30,0:01:15.52,Sub,,0,0,0,,cincuenta grados, más caliente que {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.52,0:01:15.82,Sub,,0,0,0,,{\c&H3CC8FF&}agua{\c&HFFFFFF&} hirviendo.
+Dialogue: 0,0:01:15.82,0:01:16.54,Sub,,0,0,0,,agua {\c&H3CC8FF&}hirviendo.{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.29,0:01:17.52,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} dos mil siete, científicos europeos
+Dialogue: 0,0:01:17.52,0:01:17.80,Sub,,0,0,0,,En {\c&H3CC8FF&}dos{\c&HFFFFFF&} mil siete, científicos europeos
+Dialogue: 0,0:01:17.80,0:01:18.09,Sub,,0,0,0,,En dos {\c&H3CC8FF&}mil{\c&HFFFFFF&} siete, científicos europeos
+Dialogue: 0,0:01:18.09,0:01:18.51,Sub,,0,0,0,,En dos mil {\c&H3CC8FF&}siete,{\c&HFFFFFF&} científicos europeos
+Dialogue: 0,0:01:18.51,0:01:19.16,Sub,,0,0,0,,En dos mil siete, {\c&H3CC8FF&}científicos{\c&HFFFFFF&} europeos
+Dialogue: 0,0:01:19.16,0:01:19.68,Sub,,0,0,0,,En dos mil siete, científicos {\c&H3CC8FF&}europeos{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.68,0:01:20.20,Sub,,0,0,0,,{\c&H3CC8FF&}enviaron{\c&HFFFFFF&} tardígrados al espacio, expuestos al
+Dialogue: 0,0:01:20.20,0:01:20.85,Sub,,0,0,0,,enviaron {\c&H3CC8FF&}tardígrados{\c&HFFFFFF&} al espacio, expuestos al
+Dialogue: 0,0:01:20.85,0:01:21.09,Sub,,0,0,0,,enviaron tardígrados {\c&H3CC8FF&}al{\c&HFFFFFF&} espacio, expuestos al
+Dialogue: 0,0:01:21.09,0:01:21.60,Sub,,0,0,0,,enviaron tardígrados al {\c&H3CC8FF&}espacio,{\c&HFFFFFF&} expuestos al
+Dialogue: 0,0:01:21.60,0:01:22.17,Sub,,0,0,0,,enviaron tardígrados al espacio, {\c&H3CC8FF&}expuestos{\c&HFFFFFF&} al
+Dialogue: 0,0:01:22.17,0:01:22.40,Sub,,0,0,0,,enviaron tardígrados al espacio, expuestos {\c&H3CC8FF&}al{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.40,0:01:22.77,Sub,,0,0,0,,{\c&H3CC8FF&}vacío{\c&HFFFFFF&} y a la radiación del
+Dialogue: 0,0:01:22.77,0:01:22.96,Sub,,0,0,0,,vacío {\c&H3CC8FF&}y{\c&HFFFFFF&} a la radiación del
+Dialogue: 0,0:01:22.96,0:01:23.15,Sub,,0,0,0,,vacío y {\c&H3CC8FF&}a{\c&HFFFFFF&} la radiación del
+Dialogue: 0,0:01:23.15,0:01:23.38,Sub,,0,0,0,,vacío y a {\c&H3CC8FF&}la{\c&HFFFFFF&} radiación del
+Dialogue: 0,0:01:23.38,0:01:23.95,Sub,,0,0,0,,vacío y a la {\c&H3CC8FF&}radiación{\c&HFFFFFF&} del
+Dialogue: 0,0:01:23.95,0:01:24.23,Sub,,0,0,0,,vacío y a la radiación {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.23,0:01:24.56,Sub,,0,0,0,,{\c&H3CC8FF&}Sol.{\c&HFFFFFF&} Al volver a la Tierra,
+Dialogue: 0,0:01:24.56,0:01:24.79,Sub,,0,0,0,,Sol. {\c&H3CC8FF&}Al{\c&HFFFFFF&} volver a la Tierra,
+Dialogue: 0,0:01:24.79,0:01:25.21,Sub,,0,0,0,,Sol. Al {\c&H3CC8FF&}volver{\c&HFFFFFF&} a la Tierra,
+Dialogue: 0,0:01:25.21,0:01:25.40,Sub,,0,0,0,,Sol. Al volver {\c&H3CC8FF&}a{\c&HFFFFFF&} la Tierra,
+Dialogue: 0,0:01:25.40,0:01:25.63,Sub,,0,0,0,,Sol. Al volver a {\c&H3CC8FF&}la{\c&HFFFFFF&} Tierra,
+Dialogue: 0,0:01:25.63,0:01:26.10,Sub,,0,0,0,,Sol. Al volver a la {\c&H3CC8FF&}Tierra,{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.10,0:01:26.53,Sub,,0,0,0,,{\c&H3CC8FF&}varios{\c&HFFFFFF&} de ellos revivieron y hasta
+Dialogue: 0,0:01:26.53,0:01:26.76,Sub,,0,0,0,,varios {\c&H3CC8FF&}de{\c&HFFFFFF&} ellos revivieron y hasta
+Dialogue: 0,0:01:26.76,0:01:27.13,Sub,,0,0,0,,varios de {\c&H3CC8FF&}ellos{\c&HFFFFFF&} revivieron y hasta
+Dialogue: 0,0:01:27.13,0:01:27.74,Sub,,0,0,0,,varios de ellos {\c&H3CC8FF&}revivieron{\c&HFFFFFF&} y hasta
+Dialogue: 0,0:01:27.74,0:01:27.93,Sub,,0,0,0,,varios de ellos revivieron {\c&H3CC8FF&}y{\c&HFFFFFF&} hasta
+Dialogue: 0,0:01:27.93,0:01:28.31,Sub,,0,0,0,,varios de ellos revivieron y {\c&H3CC8FF&}hasta{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.31,0:01:28.82,Sub,,0,0,0,,{\c&H3CC8FF&}tuvieron{\c&HFFFFFF&} crías.
+Dialogue: 0,0:01:28.82,0:01:29.39,Sub,,0,0,0,,tuvieron {\c&H3CC8FF&}crías.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.14,0:01:30.49,Sub,,0,0,0,,{\c&H3CC8FF&}¿Cuál{\c&HFFFFFF&} es su secreto? Una parte
+Dialogue: 0,0:01:30.49,0:01:30.70,Sub,,0,0,0,,¿Cuál {\c&H3CC8FF&}es{\c&HFFFFFF&} su secreto? Una parte
+Dialogue: 0,0:01:30.70,0:01:30.92,Sub,,0,0,0,,¿Cuál es {\c&H3CC8FF&}su{\c&HFFFFFF&} secreto? Una parte
+Dialogue: 0,0:01:30.92,0:01:31.39,Sub,,0,0,0,,¿Cuál es su {\c&H3CC8FF&}secreto?{\c&HFFFFFF&} Una parte
+Dialogue: 0,0:01:31.39,0:01:31.65,Sub,,0,0,0,,¿Cuál es su secreto? {\c&H3CC8FF&}Una{\c&HFFFFFF&} parte
+Dialogue: 0,0:01:31.65,0:01:32.00,Sub,,0,0,0,,¿Cuál es su secreto? Una {\c&H3CC8FF&}parte{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.00,0:01:32.30,Sub,,0,0,0,,{\c&H3CC8FF&}está{\c&HFFFFFF&} en una proteína llamada Dsup,
+Dialogue: 0,0:01:32.30,0:01:32.51,Sub,,0,0,0,,está {\c&H3CC8FF&}en{\c&HFFFFFF&} una proteína llamada Dsup,
+Dialogue: 0,0:01:32.51,0:01:32.77,Sub,,0,0,0,,está en {\c&H3CC8FF&}una{\c&HFFFFFF&} proteína llamada Dsup,
+Dialogue: 0,0:01:32.77,0:01:33.24,Sub,,0,0,0,,está en una {\c&H3CC8FF&}proteína{\c&HFFFFFF&} llamada Dsup,
+Dialogue: 0,0:01:33.24,0:01:33.68,Sub,,0,0,0,,está en una proteína {\c&H3CC8FF&}llamada{\c&HFFFFFF&} Dsup,
+Dialogue: 0,0:01:33.68,0:01:34.02,Sub,,0,0,0,,está en una proteína llamada {\c&H3CC8FF&}Dsup,{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.02,0:01:34.28,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} envuelve su ADN y lo
+Dialogue: 0,0:01:34.28,0:01:34.75,Sub,,0,0,0,,que {\c&H3CC8FF&}envuelve{\c&HFFFFFF&} su ADN y lo
+Dialogue: 0,0:01:34.75,0:01:34.97,Sub,,0,0,0,,que envuelve {\c&H3CC8FF&}su{\c&HFFFFFF&} ADN y lo
+Dialogue: 0,0:01:34.97,0:01:35.22,Sub,,0,0,0,,que envuelve su {\c&H3CC8FF&}ADN{\c&HFFFFFF&} y lo
+Dialogue: 0,0:01:35.22,0:01:35.40,Sub,,0,0,0,,que envuelve su ADN {\c&H3CC8FF&}y{\c&HFFFFFF&} lo
+Dialogue: 0,0:01:35.40,0:01:35.61,Sub,,0,0,0,,que envuelve su ADN y {\c&H3CC8FF&}lo{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.61,0:01:36.04,Sub,,0,0,0,,{\c&H3CC8FF&}protege{\c&HFFFFFF&} de la radiación. Los científicos
+Dialogue: 0,0:01:36.04,0:01:36.26,Sub,,0,0,0,,protege {\c&H3CC8FF&}de{\c&HFFFFFF&} la radiación. Los científicos
+Dialogue: 0,0:01:36.26,0:01:36.47,Sub,,0,0,0,,protege de {\c&H3CC8FF&}la{\c&HFFFFFF&} radiación. Los científicos
+Dialogue: 0,0:01:36.47,0:01:37.03,Sub,,0,0,0,,protege de la {\c&H3CC8FF&}radiación.{\c&HFFFFFF&} Los científicos
+Dialogue: 0,0:01:37.03,0:01:37.29,Sub,,0,0,0,,protege de la radiación. {\c&H3CC8FF&}Los{\c&HFFFFFF&} científicos
+Dialogue: 0,0:01:37.29,0:01:37.89,Sub,,0,0,0,,protege de la radiación. Los {\c&H3CC8FF&}científicos{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.89,0:01:38.11,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} estudian para proteger células humanas
+Dialogue: 0,0:01:38.11,0:01:38.58,Sub,,0,0,0,,la {\c&H3CC8FF&}estudian{\c&HFFFFFF&} para proteger células humanas
+Dialogue: 0,0:01:38.58,0:01:38.88,Sub,,0,0,0,,la estudian {\c&H3CC8FF&}para{\c&HFFFFFF&} proteger células humanas
+Dialogue: 0,0:01:38.88,0:01:39.36,Sub,,0,0,0,,la estudian para {\c&H3CC8FF&}proteger{\c&HFFFFFF&} células humanas
+Dialogue: 0,0:01:39.36,0:01:39.79,Sub,,0,0,0,,la estudian para proteger {\c&H3CC8FF&}células{\c&HFFFFFF&} humanas
+Dialogue: 0,0:01:39.79,0:01:40.22,Sub,,0,0,0,,la estudian para proteger células {\c&H3CC8FF&}humanas{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.22,0:01:40.43,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} el futuro.
+Dialogue: 0,0:01:40.43,0:01:40.65,Sub,,0,0,0,,en {\c&H3CC8FF&}el{\c&HFFFFFF&} futuro.
+Dialogue: 0,0:01:40.65,0:01:41.23,Sub,,0,0,0,,en el {\c&H3CC8FF&}futuro.{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.98,0:01:42.15,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} lo más loco: en Japón,
+Dialogue: 0,0:01:42.15,0:01:42.37,Sub,,0,0,0,,Y {\c&H3CC8FF&}lo{\c&HFFFFFF&} más loco: en Japón,
+Dialogue: 0,0:01:42.37,0:01:42.63,Sub,,0,0,0,,Y lo {\c&H3CC8FF&}más{\c&HFFFFFF&} loco: en Japón,
+Dialogue: 0,0:01:42.63,0:01:42.98,Sub,,0,0,0,,Y lo más {\c&H3CC8FF&}loco:{\c&HFFFFFF&} en Japón,
+Dialogue: 0,0:01:42.98,0:01:43.20,Sub,,0,0,0,,Y lo más loco: {\c&H3CC8FF&}en{\c&HFFFFFF&} Japón,
+Dialogue: 0,0:01:43.20,0:01:43.60,Sub,,0,0,0,,Y lo más loco: en {\c&H3CC8FF&}Japón,{\c&HFFFFFF&}
+Dialogue: 0,0:01:43.60,0:01:43.90,Sub,,0,0,0,,{\c&H3CC8FF&}unos{\c&HFFFFFF&} tardígrados que estuvieron congelados en
+Dialogue: 0,0:01:43.90,0:01:44.51,Sub,,0,0,0,,unos {\c&H3CC8FF&}tardígrados{\c&HFFFFFF&} que estuvieron congelados en
+Dialogue: 0,0:01:44.51,0:01:44.77,Sub,,0,0,0,,unos tardígrados {\c&H3CC8FF&}que{\c&HFFFFFF&} estuvieron congelados en
+Dialogue: 0,0:01:44.77,0:01:45.34,Sub,,0,0,0,,unos tardígrados que {\c&H3CC8FF&}estuvieron{\c&HFFFFFF&} congelados en
+Dialogue: 0,0:01:45.34,0:01:45.91,Sub,,0,0,0,,unos tardígrados que estuvieron {\c&H3CC8FF&}congelados{\c&HFFFFFF&} en
+Dialogue: 0,0:01:45.91,0:01:46.13,Sub,,0,0,0,,unos tardígrados que estuvieron congelados {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.13,0:01:46.39,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} muestra de musgo durante unos
+Dialogue: 0,0:01:46.39,0:01:46.83,Sub,,0,0,0,,una {\c&H3CC8FF&}muestra{\c&HFFFFFF&} de musgo durante unos
+Dialogue: 0,0:01:46.83,0:01:47.04,Sub,,0,0,0,,una muestra {\c&H3CC8FF&}de{\c&HFFFFFF&} musgo durante unos
+Dialogue: 0,0:01:47.04,0:01:47.39,Sub,,0,0,0,,una muestra de {\c&H3CC8FF&}musgo{\c&HFFFFFF&} durante unos
+Dialogue: 0,0:01:47.39,0:01:47.83,Sub,,0,0,0,,una muestra de musgo {\c&H3CC8FF&}durante{\c&HFFFFFF&} unos
+Dialogue: 0,0:01:47.83,0:01:48.14,Sub,,0,0,0,,una muestra de musgo durante {\c&H3CC8FF&}unos{\c&HFFFFFF&}
+Dialogue: 0,0:01:48.14,0:01:48.57,Sub,,0,0,0,,{\c&H3CC8FF&}treinta{\c&HFFFFFF&} años volvieron a la vida,
+Dialogue: 0,0:01:48.57,0:01:48.88,Sub,,0,0,0,,treinta {\c&H3CC8FF&}años{\c&HFFFFFF&} volvieron a la vida,
+Dialogue: 0,0:01:48.88,0:01:49.40,Sub,,0,0,0,,treinta años {\c&H3CC8FF&}volvieron{\c&HFFFFFF&} a la vida,
+Dialogue: 0,0:01:49.40,0:01:49.58,Sub,,0,0,0,,treinta años volvieron {\c&H3CC8FF&}a{\c&HFFFFFF&} la vida,
+Dialogue: 0,0:01:49.58,0:01:49.80,Sub,,0,0,0,,treinta años volvieron a {\c&H3CC8FF&}la{\c&HFFFFFF&} vida,
+Dialogue: 0,0:01:49.80,0:01:50.14,Sub,,0,0,0,,treinta años volvieron a la {\c&H3CC8FF&}vida,{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.14,0:01:50.32,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} uno de ellos incluso puso
+Dialogue: 0,0:01:50.32,0:01:50.58,Sub,,0,0,0,,y {\c&H3CC8FF&}uno{\c&HFFFFFF&} de ellos incluso puso
+Dialogue: 0,0:01:50.58,0:01:50.80,Sub,,0,0,0,,y uno {\c&H3CC8FF&}de{\c&HFFFFFF&} ellos incluso puso
+Dialogue: 0,0:01:50.80,0:01:51.15,Sub,,0,0,0,,y uno de {\c&H3CC8FF&}ellos{\c&HFFFFFF&} incluso puso
+Dialogue: 0,0:01:51.15,0:01:51.59,Sub,,0,0,0,,y uno de ellos {\c&H3CC8FF&}incluso{\c&HFFFFFF&} puso
+Dialogue: 0,0:01:51.59,0:01:51.89,Sub,,0,0,0,,y uno de ellos incluso {\c&H3CC8FF&}puso{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.89,0:01:52.48,Sub,,0,0,0,,{\c&H3CC8FF&}huevos.{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.23,0:01:53.53,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} ojo, no es inmortal. Cuando
+Dialogue: 0,0:01:53.53,0:01:53.84,Sub,,0,0,0,,Pero {\c&H3CC8FF&}ojo,{\c&HFFFFFF&} no es inmortal. Cuando
+Dialogue: 0,0:01:53.84,0:01:54.06,Sub,,0,0,0,,Pero ojo, {\c&H3CC8FF&}no{\c&HFFFFFF&} es inmortal. Cuando
+Dialogue: 0,0:01:54.06,0:01:54.28,Sub,,0,0,0,,Pero ojo, no {\c&H3CC8FF&}es{\c&HFFFFFF&} inmortal. Cuando
+Dialogue: 0,0:01:54.28,0:01:54.80,Sub,,0,0,0,,Pero ojo, no es {\c&H3CC8FF&}inmortal.{\c&HFFFFFF&} Cuando
+Dialogue: 0,0:01:54.80,0:01:55.19,Sub,,0,0,0,,Pero ojo, no es inmortal. {\c&H3CC8FF&}Cuando{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.19,0:01:55.50,Sub,,0,0,0,,{\c&H3CC8FF&}está{\c&HFFFFFF&} despierto y activo es bastante
+Dialogue: 0,0:01:55.50,0:01:56.02,Sub,,0,0,0,,está {\c&H3CC8FF&}despierto{\c&HFFFFFF&} y activo es bastante
+Dialogue: 0,0:01:56.02,0:01:56.20,Sub,,0,0,0,,está despierto {\c&H3CC8FF&}y{\c&HFFFFFF&} activo es bastante
+Dialogue: 0,0:01:56.20,0:01:56.59,Sub,,0,0,0,,está despierto y {\c&H3CC8FF&}activo{\c&HFFFFFF&} es bastante
+Dialogue: 0,0:01:56.59,0:01:56.81,Sub,,0,0,0,,está despierto y activo {\c&H3CC8FF&}es{\c&HFFFFFF&} bastante
+Dialogue: 0,0:01:56.81,0:01:57.29,Sub,,0,0,0,,está despierto y activo es {\c&H3CC8FF&}bastante{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.29,0:01:57.73,Sub,,0,0,0,,{\c&H3CC8FF&}frágil.{\c&HFFFFFF&} Sus superpoderes funcionan sobre todo
+Dialogue: 0,0:01:57.73,0:01:57.99,Sub,,0,0,0,,frágil. {\c&H3CC8FF&}Sus{\c&HFFFFFF&} superpoderes funcionan sobre todo
+Dialogue: 0,0:01:57.99,0:01:58.65,Sub,,0,0,0,,frágil. Sus {\c&H3CC8FF&}superpoderes{\c&HFFFFFF&} funcionan sobre todo
+Dialogue: 0,0:01:58.65,0:01:59.17,Sub,,0,0,0,,frágil. Sus superpoderes {\c&H3CC8FF&}funcionan{\c&HFFFFFF&} sobre todo
+Dialogue: 0,0:01:59.17,0:01:59.52,Sub,,0,0,0,,frágil. Sus superpoderes funcionan {\c&H3CC8FF&}sobre{\c&HFFFFFF&} todo
+Dialogue: 0,0:01:59.52,0:01:59.83,Sub,,0,0,0,,frágil. Sus superpoderes funcionan sobre {\c&H3CC8FF&}todo{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.83,0:02:00.22,Sub,,0,0,0,,{\c&H3CC8FF&}cuando{\c&HFFFFFF&} está en ese estado de
+Dialogue: 0,0:02:00.22,0:02:00.53,Sub,,0,0,0,,cuando {\c&H3CC8FF&}está{\c&HFFFFFF&} en ese estado de
+Dialogue: 0,0:02:00.53,0:02:00.75,Sub,,0,0,0,,cuando está {\c&H3CC8FF&}en{\c&HFFFFFF&} ese estado de
+Dialogue: 0,0:02:00.75,0:02:01.01,Sub,,0,0,0,,cuando está en {\c&H3CC8FF&}ese{\c&HFFFFFF&} estado de
+Dialogue: 0,0:02:01.01,0:02:01.40,Sub,,0,0,0,,cuando está en ese {\c&H3CC8FF&}estado{\c&HFFFFFF&} de
+Dialogue: 0,0:02:01.40,0:02:01.62,Sub,,0,0,0,,cuando está en ese estado {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:02:01.62,0:02:02.21,Sub,,0,0,0,,{\c&H3CC8FF&}barril.{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.96,0:02:03.21,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que la próxima vez que
+Dialogue: 0,0:02:03.21,0:02:03.46,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} la próxima vez que
+Dialogue: 0,0:02:03.46,0:02:03.66,Sub,,0,0,0,,Así que {\c&H3CC8FF&}la{\c&HFFFFFF&} próxima vez que
+Dialogue: 0,0:02:03.66,0:02:04.08,Sub,,0,0,0,,Así que la {\c&H3CC8FF&}próxima{\c&HFFFFFF&} vez que
+Dialogue: 0,0:02:04.08,0:02:04.33,Sub,,0,0,0,,Así que la próxima {\c&H3CC8FF&}vez{\c&HFFFFFF&} que
+Dialogue: 0,0:02:04.33,0:02:04.58,Sub,,0,0,0,,Así que la próxima vez {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.58,0:02:04.87,Sub,,0,0,0,,{\c&H3CC8FF&}veas{\c&HFFFFFF&} un poco de musgo, piensa
+Dialogue: 0,0:02:04.87,0:02:05.08,Sub,,0,0,0,,veas {\c&H3CC8FF&}un{\c&HFFFFFF&} poco de musgo, piensa
+Dialogue: 0,0:02:05.08,0:02:05.37,Sub,,0,0,0,,veas un {\c&H3CC8FF&}poco{\c&HFFFFFF&} de musgo, piensa
+Dialogue: 0,0:02:05.37,0:02:05.58,Sub,,0,0,0,,veas un poco {\c&H3CC8FF&}de{\c&HFFFFFF&} musgo, piensa
+Dialogue: 0,0:02:05.58,0:02:05.95,Sub,,0,0,0,,veas un poco de {\c&H3CC8FF&}musgo,{\c&HFFFFFF&} piensa
+Dialogue: 0,0:02:05.95,0:02:06.33,Sub,,0,0,0,,veas un poco de musgo, {\c&H3CC8FF&}piensa{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.33,0:02:06.58,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} ahí abajo puede haber uno
+Dialogue: 0,0:02:06.58,0:02:06.83,Sub,,0,0,0,,que {\c&H3CC8FF&}ahí{\c&HFFFFFF&} abajo puede haber uno
+Dialogue: 0,0:02:06.83,0:02:07.16,Sub,,0,0,0,,que ahí {\c&H3CC8FF&}abajo{\c&HFFFFFF&} puede haber uno
+Dialogue: 0,0:02:07.16,0:02:07.50,Sub,,0,0,0,,que ahí abajo {\c&H3CC8FF&}puede{\c&HFFFFFF&} haber uno
+Dialogue: 0,0:02:07.50,0:02:07.83,Sub,,0,0,0,,que ahí abajo puede {\c&H3CC8FF&}haber{\c&HFFFFFF&} uno
+Dialogue: 0,0:02:07.83,0:02:08.08,Sub,,0,0,0,,que ahí abajo puede haber {\c&H3CC8FF&}uno{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.08,0:02:08.29,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} los sobrevivientes más increíbles de
+Dialogue: 0,0:02:08.29,0:02:08.54,Sub,,0,0,0,,de {\c&H3CC8FF&}los{\c&HFFFFFF&} sobrevivientes más increíbles de
+Dialogue: 0,0:02:08.54,0:02:09.24,Sub,,0,0,0,,de los {\c&H3CC8FF&}sobrevivientes{\c&HFFFFFF&} más increíbles de
+Dialogue: 0,0:02:09.24,0:02:09.49,Sub,,0,0,0,,de los sobrevivientes {\c&H3CC8FF&}más{\c&HFFFFFF&} increíbles de
+Dialogue: 0,0:02:09.49,0:02:10.04,Sub,,0,0,0,,de los sobrevivientes más {\c&H3CC8FF&}increíbles{\c&HFFFFFF&} de
+Dialogue: 0,0:02:10.04,0:02:10.24,Sub,,0,0,0,,de los sobrevivientes más increíbles {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.24,0:02:10.45,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} Tierra.
+Dialogue: 0,0:02:10.45,0:02:11.02,Sub,,0,0,0,,la {\c&H3CC8FF&}Tierra.{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.77,0:02:11.99,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} te gustan los datos curiosos,
+Dialogue: 0,0:02:11.99,0:02:12.21,Sub,,0,0,0,,Si {\c&H3CC8FF&}te{\c&HFFFFFF&} gustan los datos curiosos,
+Dialogue: 0,0:02:12.21,0:02:12.60,Sub,,0,0,0,,Si te {\c&H3CC8FF&}gustan{\c&HFFFFFF&} los datos curiosos,
+Dialogue: 0,0:02:12.60,0:02:12.87,Sub,,0,0,0,,Si te gustan {\c&H3CC8FF&}los{\c&HFFFFFF&} datos curiosos,
+Dialogue: 0,0:02:12.87,0:02:13.22,Sub,,0,0,0,,Si te gustan los {\c&H3CC8FF&}datos{\c&HFFFFFF&} curiosos,
+Dialogue: 0,0:02:13.22,0:02:13.75,Sub,,0,0,0,,Si te gustan los datos {\c&H3CC8FF&}curiosos,{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.75,0:02:14.32,Sub,,0,0,0,,{\c&H3CC8FF&}suscríbete{\c&HFFFFFF&} y activa la campanita. En
+Dialogue: 0,0:02:14.32,0:02:14.50,Sub,,0,0,0,,suscríbete {\c&H3CC8FF&}y{\c&HFFFFFF&} activa la campanita. En
+Dialogue: 0,0:02:14.50,0:02:14.89,Sub,,0,0,0,,suscríbete y {\c&H3CC8FF&}activa{\c&HFFFFFF&} la campanita. En
+Dialogue: 0,0:02:14.89,0:02:15.11,Sub,,0,0,0,,suscríbete y activa {\c&H3CC8FF&}la{\c&HFFFFFF&} campanita. En
+Dialogue: 0,0:02:15.11,0:02:15.69,Sub,,0,0,0,,suscríbete y activa la {\c&H3CC8FF&}campanita.{\c&HFFFFFF&} En
+Dialogue: 0,0:02:15.69,0:02:15.91,Sub,,0,0,0,,suscríbete y activa la campanita. {\c&H3CC8FF&}En{\c&HFFFFFF&}
+Dialogue: 0,0:02:15.91,0:02:16.13,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} próximo video: para qué sirven
+Dialogue: 0,0:02:16.13,0:02:16.57,Sub,,0,0,0,,el {\c&H3CC8FF&}próximo{\c&HFFFFFF&} video: para qué sirven
+Dialogue: 0,0:02:16.57,0:02:16.96,Sub,,0,0,0,,el próximo {\c&H3CC8FF&}video:{\c&HFFFFFF&} para qué sirven
+Dialogue: 0,0:02:16.96,0:02:17.27,Sub,,0,0,0,,el próximo video: {\c&H3CC8FF&}para{\c&HFFFFFF&} qué sirven
+Dialogue: 0,0:02:17.27,0:02:17.53,Sub,,0,0,0,,el próximo video: para {\c&H3CC8FF&}qué{\c&HFFFFFF&} sirven
+Dialogue: 0,0:02:17.53,0:02:17.93,Sub,,0,0,0,,el próximo video: para qué {\c&H3CC8FF&}sirven{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.93,0:02:18.19,Sub,,0,0,0,,{\c&H3CC8FF&}las{\c&HFFFFFF&} mariquitas, y por qué son
+Dialogue: 0,0:02:18.19,0:02:18.81,Sub,,0,0,0,,las {\c&H3CC8FF&}mariquitas,{\c&HFFFFFF&} y por qué son
+Dialogue: 0,0:02:18.81,0:02:18.99,Sub,,0,0,0,,las mariquitas, {\c&H3CC8FF&}y{\c&HFFFFFF&} por qué son
+Dialogue: 0,0:02:18.99,0:02:19.25,Sub,,0,0,0,,las mariquitas, y {\c&H3CC8FF&}por{\c&HFFFFFF&} qué son
+Dialogue: 0,0:02:19.25,0:02:19.52,Sub,,0,0,0,,las mariquitas, y por {\c&H3CC8FF&}qué{\c&HFFFFFF&} son
+Dialogue: 0,0:02:19.52,0:02:19.78,Sub,,0,0,0,,las mariquitas, y por qué {\c&H3CC8FF&}son{\c&HFFFFFF&}
+Dialogue: 0,0:02:19.78,0:02:20.13,Sub,,0,0,0,,{\c&H3CC8FF&}mucho{\c&HFFFFFF&} más importantes de lo que
+Dialogue: 0,0:02:20.13,0:02:20.40,Sub,,0,0,0,,mucho {\c&H3CC8FF&}más{\c&HFFFFFF&} importantes de lo que
+Dialogue: 0,0:02:20.40,0:02:21.01,Sub,,0,0,0,,mucho más {\c&H3CC8FF&}importantes{\c&HFFFFFF&} de lo que
+Dialogue: 0,0:02:21.01,0:02:21.23,Sub,,0,0,0,,mucho más importantes {\c&H3CC8FF&}de{\c&HFFFFFF&} lo que
+Dialogue: 0,0:02:21.23,0:02:21.45,Sub,,0,0,0,,mucho más importantes de {\c&H3CC8FF&}lo{\c&HFFFFFF&} que
+Dialogue: 0,0:02:21.45,0:02:21.72,Sub,,0,0,0,,mucho más importantes de lo {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.72,0:02:22.26,Sub,,0,0,0,,{\c&H3CC8FF&}crees.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:02:22.66,Marca,,0,0,0,,jxseng · datos curiosos

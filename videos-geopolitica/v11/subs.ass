@@ -1,0 +1,381 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.54,Sub,,0,0,0,,{\c&H3CC8FF&}Parece{\c&HFFFFFF&} el insecto más tierno del
+Dialogue: 0,0:00:00.54,0:00:00.75,Sub,,0,0,0,,Parece {\c&H3CC8FF&}el{\c&HFFFFFF&} insecto más tierno del
+Dialogue: 0,0:00:00.75,0:00:01.18,Sub,,0,0,0,,Parece el {\c&H3CC8FF&}insecto{\c&HFFFFFF&} más tierno del
+Dialogue: 0,0:00:01.18,0:00:01.44,Sub,,0,0,0,,Parece el insecto {\c&H3CC8FF&}más{\c&HFFFFFF&} tierno del
+Dialogue: 0,0:00:01.44,0:00:01.83,Sub,,0,0,0,,Parece el insecto más {\c&H3CC8FF&}tierno{\c&HFFFFFF&} del
+Dialogue: 0,0:00:01.83,0:00:02.09,Sub,,0,0,0,,Parece el insecto más tierno {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.09,0:00:02.48,Sub,,0,0,0,,{\c&H3CC8FF&}mundo.{\c&HFFFFFF&} Pero una sola mariquita puede
+Dialogue: 0,0:00:02.48,0:00:02.78,Sub,,0,0,0,,mundo. {\c&H3CC8FF&}Pero{\c&HFFFFFF&} una sola mariquita puede
+Dialogue: 0,0:00:02.78,0:00:03.04,Sub,,0,0,0,,mundo. Pero {\c&H3CC8FF&}una{\c&HFFFFFF&} sola mariquita puede
+Dialogue: 0,0:00:03.04,0:00:03.34,Sub,,0,0,0,,mundo. Pero una {\c&H3CC8FF&}sola{\c&HFFFFFF&} mariquita puede
+Dialogue: 0,0:00:03.34,0:00:03.86,Sub,,0,0,0,,mundo. Pero una sola {\c&H3CC8FF&}mariquita{\c&HFFFFFF&} puede
+Dialogue: 0,0:00:03.86,0:00:04.20,Sub,,0,0,0,,mundo. Pero una sola mariquita {\c&H3CC8FF&}puede{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.20,0:00:04.63,Sub,,0,0,0,,{\c&H3CC8FF&}comerse{\c&HFFFFFF&} miles de pulgones a lo
+Dialogue: 0,0:00:04.63,0:00:04.98,Sub,,0,0,0,,comerse {\c&H3CC8FF&}miles{\c&HFFFFFF&} de pulgones a lo
+Dialogue: 0,0:00:04.98,0:00:05.19,Sub,,0,0,0,,comerse miles {\c&H3CC8FF&}de{\c&HFFFFFF&} pulgones a lo
+Dialogue: 0,0:00:05.19,0:00:05.66,Sub,,0,0,0,,comerse miles de {\c&H3CC8FF&}pulgones{\c&HFFFFFF&} a lo
+Dialogue: 0,0:00:05.66,0:00:05.84,Sub,,0,0,0,,comerse miles de pulgones {\c&H3CC8FF&}a{\c&HFFFFFF&} lo
+Dialogue: 0,0:00:05.84,0:00:06.05,Sub,,0,0,0,,comerse miles de pulgones a {\c&H3CC8FF&}lo{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.05,0:00:06.40,Sub,,0,0,0,,{\c&H3CC8FF&}largo{\c&HFFFFFF&} de su vida. Es una
+Dialogue: 0,0:00:06.40,0:00:06.61,Sub,,0,0,0,,largo {\c&H3CC8FF&}de{\c&HFFFFFF&} su vida. Es una
+Dialogue: 0,0:00:06.61,0:00:06.83,Sub,,0,0,0,,largo de {\c&H3CC8FF&}su{\c&HFFFFFF&} vida. Es una
+Dialogue: 0,0:00:06.83,0:00:07.17,Sub,,0,0,0,,largo de su {\c&H3CC8FF&}vida.{\c&HFFFFFF&} Es una
+Dialogue: 0,0:00:07.17,0:00:07.39,Sub,,0,0,0,,largo de su vida. {\c&H3CC8FF&}Es{\c&HFFFFFF&} una
+Dialogue: 0,0:00:07.39,0:00:07.65,Sub,,0,0,0,,largo de su vida. Es {\c&H3CC8FF&}una{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.65,0:00:08.16,Sub,,0,0,0,,{\c&H3CC8FF&}cazadora,{\c&HFFFFFF&} y los agricultores la adoran
+Dialogue: 0,0:00:08.16,0:00:08.34,Sub,,0,0,0,,cazadora, {\c&H3CC8FF&}y{\c&HFFFFFF&} los agricultores la adoran
+Dialogue: 0,0:00:08.34,0:00:08.59,Sub,,0,0,0,,cazadora, y {\c&H3CC8FF&}los{\c&HFFFFFF&} agricultores la adoran
+Dialogue: 0,0:00:08.59,0:00:09.24,Sub,,0,0,0,,cazadora, y los {\c&H3CC8FF&}agricultores{\c&HFFFFFF&} la adoran
+Dialogue: 0,0:00:09.24,0:00:09.46,Sub,,0,0,0,,cazadora, y los agricultores {\c&H3CC8FF&}la{\c&HFFFFFF&} adoran
+Dialogue: 0,0:00:09.46,0:00:09.84,Sub,,0,0,0,,cazadora, y los agricultores la {\c&H3CC8FF&}adoran{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.84,0:00:10.10,Sub,,0,0,0,,{\c&H3CC8FF&}por{\c&HFFFFFF&} eso.
+Dialogue: 0,0:00:10.10,0:00:10.55,Sub,,0,0,0,,por {\c&H3CC8FF&}eso.{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.30,0:00:11.54,Sub,,0,0,0,,{\c&H3CC8FF&}Hoy{\c&HFFFFFF&} vamos a ver para qué
+Dialogue: 0,0:00:11.54,0:00:11.85,Sub,,0,0,0,,Hoy {\c&H3CC8FF&}vamos{\c&HFFFFFF&} a ver para qué
+Dialogue: 0,0:00:11.85,0:00:12.01,Sub,,0,0,0,,Hoy vamos {\c&H3CC8FF&}a{\c&HFFFFFF&} ver para qué
+Dialogue: 0,0:00:12.01,0:00:12.25,Sub,,0,0,0,,Hoy vamos a {\c&H3CC8FF&}ver{\c&HFFFFFF&} para qué
+Dialogue: 0,0:00:12.25,0:00:12.52,Sub,,0,0,0,,Hoy vamos a ver {\c&H3CC8FF&}para{\c&HFFFFFF&} qué
+Dialogue: 0,0:00:12.52,0:00:12.76,Sub,,0,0,0,,Hoy vamos a ver para {\c&H3CC8FF&}qué{\c&HFFFFFF&}
+Dialogue: 0,0:00:12.76,0:00:13.11,Sub,,0,0,0,,{\c&H3CC8FF&}sirven{\c&HFFFFFF&} las mariquitas, y por qué
+Dialogue: 0,0:00:13.11,0:00:13.35,Sub,,0,0,0,,sirven {\c&H3CC8FF&}las{\c&HFFFFFF&} mariquitas, y por qué
+Dialogue: 0,0:00:13.35,0:00:13.90,Sub,,0,0,0,,sirven las {\c&H3CC8FF&}mariquitas,{\c&HFFFFFF&} y por qué
+Dialogue: 0,0:00:13.90,0:00:14.06,Sub,,0,0,0,,sirven las mariquitas, {\c&H3CC8FF&}y{\c&HFFFFFF&} por qué
+Dialogue: 0,0:00:14.06,0:00:14.29,Sub,,0,0,0,,sirven las mariquitas, y {\c&H3CC8FF&}por{\c&HFFFFFF&} qué
+Dialogue: 0,0:00:14.29,0:00:14.53,Sub,,0,0,0,,sirven las mariquitas, y por {\c&H3CC8FF&}qué{\c&HFFFFFF&}
+Dialogue: 0,0:00:14.53,0:00:14.76,Sub,,0,0,0,,{\c&H3CC8FF&}son{\c&HFFFFFF&} mucho más importantes de lo
+Dialogue: 0,0:00:14.76,0:00:15.08,Sub,,0,0,0,,son {\c&H3CC8FF&}mucho{\c&HFFFFFF&} más importantes de lo
+Dialogue: 0,0:00:15.08,0:00:15.32,Sub,,0,0,0,,son mucho {\c&H3CC8FF&}más{\c&HFFFFFF&} importantes de lo
+Dialogue: 0,0:00:15.32,0:00:15.87,Sub,,0,0,0,,son mucho más {\c&H3CC8FF&}importantes{\c&HFFFFFF&} de lo
+Dialogue: 0,0:00:15.87,0:00:16.06,Sub,,0,0,0,,son mucho más importantes {\c&H3CC8FF&}de{\c&HFFFFFF&} lo
+Dialogue: 0,0:00:16.06,0:00:16.26,Sub,,0,0,0,,son mucho más importantes de {\c&H3CC8FF&}lo{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.26,0:00:16.49,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} crees.
+Dialogue: 0,0:00:16.49,0:00:17.00,Sub,,0,0,0,,que {\c&H3CC8FF&}crees.{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.75,0:00:18.27,Sub,,0,0,0,,{\c&H3CC8FF&}Primero,{\c&HFFFFFF&} la mariquita es un escarabajo.
+Dialogue: 0,0:00:18.27,0:00:18.50,Sub,,0,0,0,,Primero, {\c&H3CC8FF&}la{\c&HFFFFFF&} mariquita es un escarabajo.
+Dialogue: 0,0:00:18.50,0:00:19.07,Sub,,0,0,0,,Primero, la {\c&H3CC8FF&}mariquita{\c&HFFFFFF&} es un escarabajo.
+Dialogue: 0,0:00:19.07,0:00:19.30,Sub,,0,0,0,,Primero, la mariquita {\c&H3CC8FF&}es{\c&HFFFFFF&} un escarabajo.
+Dialogue: 0,0:00:19.30,0:00:19.54,Sub,,0,0,0,,Primero, la mariquita es {\c&H3CC8FF&}un{\c&HFFFFFF&} escarabajo.
+Dialogue: 0,0:00:19.54,0:00:20.19,Sub,,0,0,0,,Primero, la mariquita es un {\c&H3CC8FF&}escarabajo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:20.19,0:00:20.48,Sub,,0,0,0,,{\c&H3CC8FF&}Sus{\c&HFFFFFF&} alas para volar están escondidas
+Dialogue: 0,0:00:20.48,0:00:20.81,Sub,,0,0,0,,Sus {\c&H3CC8FF&}alas{\c&HFFFFFF&} para volar están escondidas
+Dialogue: 0,0:00:20.81,0:00:21.14,Sub,,0,0,0,,Sus alas {\c&H3CC8FF&}para{\c&HFFFFFF&} volar están escondidas
+Dialogue: 0,0:00:21.14,0:00:21.51,Sub,,0,0,0,,Sus alas para {\c&H3CC8FF&}volar{\c&HFFFFFF&} están escondidas
+Dialogue: 0,0:00:21.51,0:00:21.89,Sub,,0,0,0,,Sus alas para volar {\c&H3CC8FF&}están{\c&HFFFFFF&} escondidas
+Dialogue: 0,0:00:21.89,0:00:22.50,Sub,,0,0,0,,Sus alas para volar están {\c&H3CC8FF&}escondidas{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.50,0:00:22.92,Sub,,0,0,0,,{\c&H3CC8FF&}debajo{\c&HFFFFFF&} de ese caparazón rojo con
+Dialogue: 0,0:00:22.92,0:00:23.16,Sub,,0,0,0,,debajo {\c&H3CC8FF&}de{\c&HFFFFFF&} ese caparazón rojo con
+Dialogue: 0,0:00:23.16,0:00:23.44,Sub,,0,0,0,,debajo de {\c&H3CC8FF&}ese{\c&HFFFFFF&} caparazón rojo con
+Dialogue: 0,0:00:23.44,0:00:24.00,Sub,,0,0,0,,debajo de ese {\c&H3CC8FF&}caparazón{\c&HFFFFFF&} rojo con
+Dialogue: 0,0:00:24.00,0:00:24.33,Sub,,0,0,0,,debajo de ese caparazón {\c&H3CC8FF&}rojo{\c&HFFFFFF&} con
+Dialogue: 0,0:00:24.33,0:00:24.62,Sub,,0,0,0,,debajo de ese caparazón rojo {\c&H3CC8FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.62,0:00:25.09,Sub,,0,0,0,,{\c&H3CC8FF&}puntos.{\c&HFFFFFF&} Y existen miles de especies
+Dialogue: 0,0:00:25.09,0:00:25.27,Sub,,0,0,0,,puntos. {\c&H3CC8FF&}Y{\c&HFFFFFF&} existen miles de especies
+Dialogue: 0,0:00:25.27,0:00:25.74,Sub,,0,0,0,,puntos. Y {\c&H3CC8FF&}existen{\c&HFFFFFF&} miles de especies
+Dialogue: 0,0:00:25.74,0:00:26.12,Sub,,0,0,0,,puntos. Y existen {\c&H3CC8FF&}miles{\c&HFFFFFF&} de especies
+Dialogue: 0,0:00:26.12,0:00:26.36,Sub,,0,0,0,,puntos. Y existen miles {\c&H3CC8FF&}de{\c&HFFFFFF&} especies
+Dialogue: 0,0:00:26.36,0:00:26.87,Sub,,0,0,0,,puntos. Y existen miles de {\c&H3CC8FF&}especies{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.87,0:00:27.11,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} todo el mundo, de muchos
+Dialogue: 0,0:00:27.11,0:00:27.44,Sub,,0,0,0,,en {\c&H3CC8FF&}todo{\c&HFFFFFF&} el mundo, de muchos
+Dialogue: 0,0:00:27.44,0:00:27.67,Sub,,0,0,0,,en todo {\c&H3CC8FF&}el{\c&HFFFFFF&} mundo, de muchos
+Dialogue: 0,0:00:27.67,0:00:28.10,Sub,,0,0,0,,en todo el {\c&H3CC8FF&}mundo,{\c&HFFFFFF&} de muchos
+Dialogue: 0,0:00:28.10,0:00:28.33,Sub,,0,0,0,,en todo el mundo, {\c&H3CC8FF&}de{\c&HFFFFFF&} muchos
+Dialogue: 0,0:00:28.33,0:00:28.75,Sub,,0,0,0,,en todo el mundo, de {\c&H3CC8FF&}muchos{\c&HFFFFFF&}
+Dialogue: 0,0:00:28.75,0:00:29.42,Sub,,0,0,0,,{\c&H3CC8FF&}colores.{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.17,0:00:30.39,Sub,,0,0,0,,{\c&H3CC8FF&}¿Y{\c&HFFFFFF&} para qué sirven? Su comida
+Dialogue: 0,0:00:30.39,0:00:30.69,Sub,,0,0,0,,¿Y {\c&H3CC8FF&}para{\c&HFFFFFF&} qué sirven? Su comida
+Dialogue: 0,0:00:30.69,0:00:30.94,Sub,,0,0,0,,¿Y para {\c&H3CC8FF&}qué{\c&HFFFFFF&} sirven? Su comida
+Dialogue: 0,0:00:30.94,0:00:31.37,Sub,,0,0,0,,¿Y para qué {\c&H3CC8FF&}sirven?{\c&HFFFFFF&} Su comida
+Dialogue: 0,0:00:31.37,0:00:31.59,Sub,,0,0,0,,¿Y para qué sirven? {\c&H3CC8FF&}Su{\c&HFFFFFF&} comida
+Dialogue: 0,0:00:31.59,0:00:31.97,Sub,,0,0,0,,¿Y para qué sirven? Su {\c&H3CC8FF&}comida{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.97,0:00:32.44,Sub,,0,0,0,,{\c&H3CC8FF&}favorita{\c&HFFFFFF&} son los pulgones, unos insectos
+Dialogue: 0,0:00:32.44,0:00:32.70,Sub,,0,0,0,,favorita {\c&H3CC8FF&}son{\c&HFFFFFF&} los pulgones, unos insectos
+Dialogue: 0,0:00:32.70,0:00:32.96,Sub,,0,0,0,,favorita son {\c&H3CC8FF&}los{\c&HFFFFFF&} pulgones, unos insectos
+Dialogue: 0,0:00:32.96,0:00:33.47,Sub,,0,0,0,,favorita son los {\c&H3CC8FF&}pulgones,{\c&HFFFFFF&} unos insectos
+Dialogue: 0,0:00:33.47,0:00:33.77,Sub,,0,0,0,,favorita son los pulgones, {\c&H3CC8FF&}unos{\c&HFFFFFF&} insectos
+Dialogue: 0,0:00:33.77,0:00:34.24,Sub,,0,0,0,,favorita son los pulgones, unos {\c&H3CC8FF&}insectos{\c&HFFFFFF&}
+Dialogue: 0,0:00:34.24,0:00:34.76,Sub,,0,0,0,,{\c&H3CC8FF&}diminutos{\c&HFFFFFF&} que chupan la savia de
+Dialogue: 0,0:00:34.76,0:00:35.01,Sub,,0,0,0,,diminutos {\c&H3CC8FF&}que{\c&HFFFFFF&} chupan la savia de
+Dialogue: 0,0:00:35.01,0:00:35.40,Sub,,0,0,0,,diminutos que {\c&H3CC8FF&}chupan{\c&HFFFFFF&} la savia de
+Dialogue: 0,0:00:35.40,0:00:35.61,Sub,,0,0,0,,diminutos que chupan {\c&H3CC8FF&}la{\c&HFFFFFF&} savia de
+Dialogue: 0,0:00:35.61,0:00:35.95,Sub,,0,0,0,,diminutos que chupan la {\c&H3CC8FF&}savia{\c&HFFFFFF&} de
+Dialogue: 0,0:00:35.95,0:00:36.17,Sub,,0,0,0,,diminutos que chupan la savia {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.17,0:00:36.43,Sub,,0,0,0,,{\c&H3CC8FF&}las{\c&HFFFFFF&} plantas y destruyen cultivos. Una
+Dialogue: 0,0:00:36.43,0:00:36.85,Sub,,0,0,0,,las {\c&H3CC8FF&}plantas{\c&HFFFFFF&} y destruyen cultivos. Una
+Dialogue: 0,0:00:36.85,0:00:37.03,Sub,,0,0,0,,las plantas {\c&H3CC8FF&}y{\c&HFFFFFF&} destruyen cultivos. Una
+Dialogue: 0,0:00:37.03,0:00:37.54,Sub,,0,0,0,,las plantas y {\c&H3CC8FF&}destruyen{\c&HFFFFFF&} cultivos. Una
+Dialogue: 0,0:00:37.54,0:00:38.05,Sub,,0,0,0,,las plantas y destruyen {\c&H3CC8FF&}cultivos.{\c&HFFFFFF&} Una
+Dialogue: 0,0:00:38.05,0:00:38.31,Sub,,0,0,0,,las plantas y destruyen cultivos. {\c&H3CC8FF&}Una{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.31,0:00:38.82,Sub,,0,0,0,,{\c&H3CC8FF&}mariquita{\c&HFFFFFF&} adulta puede comerse decenas de
+Dialogue: 0,0:00:38.82,0:00:39.21,Sub,,0,0,0,,mariquita {\c&H3CC8FF&}adulta{\c&HFFFFFF&} puede comerse decenas de
+Dialogue: 0,0:00:39.21,0:00:39.55,Sub,,0,0,0,,mariquita adulta {\c&H3CC8FF&}puede{\c&HFFFFFF&} comerse decenas de
+Dialogue: 0,0:00:39.55,0:00:39.98,Sub,,0,0,0,,mariquita adulta puede {\c&H3CC8FF&}comerse{\c&HFFFFFF&} decenas de
+Dialogue: 0,0:00:39.98,0:00:40.41,Sub,,0,0,0,,mariquita adulta puede comerse {\c&H3CC8FF&}decenas{\c&HFFFFFF&} de
+Dialogue: 0,0:00:40.41,0:00:40.62,Sub,,0,0,0,,mariquita adulta puede comerse decenas {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:40.62,0:00:41.09,Sub,,0,0,0,,{\c&H3CC8FF&}pulgones{\c&HFFFFFF&} en un solo día.
+Dialogue: 0,0:00:41.09,0:00:41.31,Sub,,0,0,0,,pulgones {\c&H3CC8FF&}en{\c&HFFFFFF&} un solo día.
+Dialogue: 0,0:00:41.31,0:00:41.52,Sub,,0,0,0,,pulgones en {\c&H3CC8FF&}un{\c&HFFFFFF&} solo día.
+Dialogue: 0,0:00:41.52,0:00:41.82,Sub,,0,0,0,,pulgones en un {\c&H3CC8FF&}solo{\c&HFFFFFF&} día.
+Dialogue: 0,0:00:41.82,0:00:42.27,Sub,,0,0,0,,pulgones en un solo {\c&H3CC8FF&}día.{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.02,0:00:43.22,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} su larva es todavía más
+Dialogue: 0,0:00:43.22,0:00:43.47,Sub,,0,0,0,,Y {\c&H3CC8FF&}su{\c&HFFFFFF&} larva es todavía más
+Dialogue: 0,0:00:43.47,0:00:43.88,Sub,,0,0,0,,Y su {\c&H3CC8FF&}larva{\c&HFFFFFF&} es todavía más
+Dialogue: 0,0:00:43.88,0:00:44.13,Sub,,0,0,0,,Y su larva {\c&H3CC8FF&}es{\c&HFFFFFF&} todavía más
+Dialogue: 0,0:00:44.13,0:00:44.63,Sub,,0,0,0,,Y su larva es {\c&H3CC8FF&}todavía{\c&HFFFFFF&} más
+Dialogue: 0,0:00:44.63,0:00:44.93,Sub,,0,0,0,,Y su larva es todavía {\c&H3CC8FF&}más{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.93,0:00:45.38,Sub,,0,0,0,,{\c&H3CC8FF&}voraz.{\c&HFFFFFF&} Mucha gente no la reconoce:
+Dialogue: 0,0:00:45.38,0:00:45.79,Sub,,0,0,0,,voraz. {\c&H3CC8FF&}Mucha{\c&HFFFFFF&} gente no la reconoce:
+Dialogue: 0,0:00:45.79,0:00:46.19,Sub,,0,0,0,,voraz. Mucha {\c&H3CC8FF&}gente{\c&HFFFFFF&} no la reconoce:
+Dialogue: 0,0:00:46.19,0:00:46.44,Sub,,0,0,0,,voraz. Mucha gente {\c&H3CC8FF&}no{\c&HFFFFFF&} la reconoce:
+Dialogue: 0,0:00:46.44,0:00:46.69,Sub,,0,0,0,,voraz. Mucha gente no {\c&H3CC8FF&}la{\c&HFFFFFF&} reconoce:
+Dialogue: 0,0:00:46.69,0:00:47.29,Sub,,0,0,0,,voraz. Mucha gente no la {\c&H3CC8FF&}reconoce:{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.29,0:00:47.75,Sub,,0,0,0,,{\c&H3CC8FF&}parece{\c&HFFFFFF&} un pequeño cocodrilo negro con
+Dialogue: 0,0:00:47.75,0:00:48.00,Sub,,0,0,0,,parece {\c&H3CC8FF&}un{\c&HFFFFFF&} pequeño cocodrilo negro con
+Dialogue: 0,0:00:48.00,0:00:48.50,Sub,,0,0,0,,parece un {\c&H3CC8FF&}pequeño{\c&HFFFFFF&} cocodrilo negro con
+Dialogue: 0,0:00:48.50,0:00:49.10,Sub,,0,0,0,,parece un pequeño {\c&H3CC8FF&}cocodrilo{\c&HFFFFFF&} negro con
+Dialogue: 0,0:00:49.10,0:00:49.50,Sub,,0,0,0,,parece un pequeño cocodrilo {\c&H3CC8FF&}negro{\c&HFFFFFF&} con
+Dialogue: 0,0:00:49.50,0:00:49.81,Sub,,0,0,0,,parece un pequeño cocodrilo negro {\c&H3CC8FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.81,0:00:50.26,Sub,,0,0,0,,{\c&H3CC8FF&}puntos{\c&HFFFFFF&} naranjas, y se pasa el
+Dialogue: 0,0:00:50.26,0:00:50.86,Sub,,0,0,0,,puntos {\c&H3CC8FF&}naranjas,{\c&HFFFFFF&} y se pasa el
+Dialogue: 0,0:00:50.86,0:00:51.06,Sub,,0,0,0,,puntos naranjas, {\c&H3CC8FF&}y{\c&HFFFFFF&} se pasa el
+Dialogue: 0,0:00:51.06,0:00:51.31,Sub,,0,0,0,,puntos naranjas, y {\c&H3CC8FF&}se{\c&HFFFFFF&} pasa el
+Dialogue: 0,0:00:51.31,0:00:51.67,Sub,,0,0,0,,puntos naranjas, y se {\c&H3CC8FF&}pasa{\c&HFFFFFF&} el
+Dialogue: 0,0:00:51.67,0:00:51.92,Sub,,0,0,0,,puntos naranjas, y se pasa {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:00:51.92,0:00:52.22,Sub,,0,0,0,,{\c&H3CC8FF&}día{\c&HFFFFFF&} comiendo pulgones.
+Dialogue: 0,0:00:52.22,0:00:52.77,Sub,,0,0,0,,día {\c&H3CC8FF&}comiendo{\c&HFFFFFF&} pulgones.
+Dialogue: 0,0:00:52.77,0:00:53.52,Sub,,0,0,0,,día comiendo {\c&H3CC8FF&}pulgones.{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.27,0:00:54.50,Sub,,0,0,0,,{\c&H3CC8FF&}Su{\c&HFFFFFF&} fama tiene historia. En mil
+Dialogue: 0,0:00:54.50,0:00:54.82,Sub,,0,0,0,,Su {\c&H3CC8FF&}fama{\c&HFFFFFF&} tiene historia. En mil
+Dialogue: 0,0:00:54.82,0:00:55.18,Sub,,0,0,0,,Su fama {\c&H3CC8FF&}tiene{\c&HFFFFFF&} historia. En mil
+Dialogue: 0,0:00:55.18,0:00:55.73,Sub,,0,0,0,,Su fama tiene {\c&H3CC8FF&}historia.{\c&HFFFFFF&} En mil
+Dialogue: 0,0:00:55.73,0:00:55.95,Sub,,0,0,0,,Su fama tiene historia. {\c&H3CC8FF&}En{\c&HFFFFFF&} mil
+Dialogue: 0,0:00:55.95,0:00:56.22,Sub,,0,0,0,,Su fama tiene historia. En {\c&H3CC8FF&}mil{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.22,0:00:56.86,Sub,,0,0,0,,{\c&H3CC8FF&}ochocientos{\c&HFFFFFF&} ochenta y ocho, una plaga
+Dialogue: 0,0:00:56.86,0:00:57.31,Sub,,0,0,0,,ochocientos {\c&H3CC8FF&}ochenta{\c&HFFFFFF&} y ocho, una plaga
+Dialogue: 0,0:00:57.31,0:00:57.49,Sub,,0,0,0,,ochocientos ochenta {\c&H3CC8FF&}y{\c&HFFFFFF&} ocho, una plaga
+Dialogue: 0,0:00:57.49,0:00:57.86,Sub,,0,0,0,,ochocientos ochenta y {\c&H3CC8FF&}ocho,{\c&HFFFFFF&} una plaga
+Dialogue: 0,0:00:57.86,0:00:58.13,Sub,,0,0,0,,ochocientos ochenta y ocho, {\c&H3CC8FF&}una{\c&HFFFFFF&} plaga
+Dialogue: 0,0:00:58.13,0:00:58.49,Sub,,0,0,0,,ochocientos ochenta y ocho, una {\c&H3CC8FF&}plaga{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.49,0:00:58.90,Sub,,0,0,0,,{\c&H3CC8FF&}estaba{\c&HFFFFFF&} destruyendo los naranjos de California.
+Dialogue: 0,0:00:58.90,0:00:59.53,Sub,,0,0,0,,estaba {\c&H3CC8FF&}destruyendo{\c&HFFFFFF&} los naranjos de California.
+Dialogue: 0,0:00:59.53,0:00:59.81,Sub,,0,0,0,,estaba destruyendo {\c&H3CC8FF&}los{\c&HFFFFFF&} naranjos de California.
+Dialogue: 0,0:00:59.81,0:01:00.31,Sub,,0,0,0,,estaba destruyendo los {\c&H3CC8FF&}naranjos{\c&HFFFFFF&} de California.
+Dialogue: 0,0:01:00.31,0:01:00.53,Sub,,0,0,0,,estaba destruyendo los naranjos {\c&H3CC8FF&}de{\c&HFFFFFF&} California.
+Dialogue: 0,0:01:00.53,0:01:01.17,Sub,,0,0,0,,estaba destruyendo los naranjos de {\c&H3CC8FF&}California.{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.17,0:01:01.67,Sub,,0,0,0,,{\c&H3CC8FF&}Trajeron{\c&HFFFFFF&} una mariquita de Australia, y
+Dialogue: 0,0:01:01.67,0:01:01.94,Sub,,0,0,0,,Trajeron {\c&H3CC8FF&}una{\c&HFFFFFF&} mariquita de Australia, y
+Dialogue: 0,0:01:01.94,0:01:02.48,Sub,,0,0,0,,Trajeron una {\c&H3CC8FF&}mariquita{\c&HFFFFFF&} de Australia, y
+Dialogue: 0,0:01:02.48,0:01:02.71,Sub,,0,0,0,,Trajeron una mariquita {\c&H3CC8FF&}de{\c&HFFFFFF&} Australia, y
+Dialogue: 0,0:01:02.71,0:01:03.30,Sub,,0,0,0,,Trajeron una mariquita de {\c&H3CC8FF&}Australia,{\c&HFFFFFF&} y
+Dialogue: 0,0:01:03.30,0:01:03.48,Sub,,0,0,0,,Trajeron una mariquita de Australia, {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.48,0:01:03.71,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} poco tiempo la plaga quedó
+Dialogue: 0,0:01:03.71,0:01:04.02,Sub,,0,0,0,,en {\c&H3CC8FF&}poco{\c&HFFFFFF&} tiempo la plaga quedó
+Dialogue: 0,0:01:04.02,0:01:04.43,Sub,,0,0,0,,en poco {\c&H3CC8FF&}tiempo{\c&HFFFFFF&} la plaga quedó
+Dialogue: 0,0:01:04.43,0:01:04.66,Sub,,0,0,0,,en poco tiempo {\c&H3CC8FF&}la{\c&HFFFFFF&} plaga quedó
+Dialogue: 0,0:01:04.66,0:01:05.02,Sub,,0,0,0,,en poco tiempo la {\c&H3CC8FF&}plaga{\c&HFFFFFF&} quedó
+Dialogue: 0,0:01:05.02,0:01:05.38,Sub,,0,0,0,,en poco tiempo la plaga {\c&H3CC8FF&}quedó{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.38,0:01:05.70,Sub,,0,0,0,,{\c&H3CC8FF&}bajo{\c&HFFFFFF&} control. Fue uno de los
+Dialogue: 0,0:01:05.70,0:01:06.20,Sub,,0,0,0,,bajo {\c&H3CC8FF&}control.{\c&HFFFFFF&} Fue uno de los
+Dialogue: 0,0:01:06.20,0:01:06.47,Sub,,0,0,0,,bajo control. {\c&H3CC8FF&}Fue{\c&HFFFFFF&} uno de los
+Dialogue: 0,0:01:06.47,0:01:06.74,Sub,,0,0,0,,bajo control. Fue {\c&H3CC8FF&}uno{\c&HFFFFFF&} de los
+Dialogue: 0,0:01:06.74,0:01:06.97,Sub,,0,0,0,,bajo control. Fue uno {\c&H3CC8FF&}de{\c&HFFFFFF&} los
+Dialogue: 0,0:01:06.97,0:01:07.24,Sub,,0,0,0,,bajo control. Fue uno de {\c&H3CC8FF&}los{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.24,0:01:07.74,Sub,,0,0,0,,{\c&H3CC8FF&}primeros{\c&HFFFFFF&} grandes éxitos del control biológico.
+Dialogue: 0,0:01:07.74,0:01:08.20,Sub,,0,0,0,,primeros {\c&H3CC8FF&}grandes{\c&HFFFFFF&} éxitos del control biológico.
+Dialogue: 0,0:01:08.20,0:01:08.60,Sub,,0,0,0,,primeros grandes {\c&H3CC8FF&}éxitos{\c&HFFFFFF&} del control biológico.
+Dialogue: 0,0:01:08.60,0:01:08.88,Sub,,0,0,0,,primeros grandes éxitos {\c&H3CC8FF&}del{\c&HFFFFFF&} control biológico.
+Dialogue: 0,0:01:08.88,0:01:09.33,Sub,,0,0,0,,primeros grandes éxitos del {\c&H3CC8FF&}control{\c&HFFFFFF&} biológico.
+Dialogue: 0,0:01:09.33,0:01:10.07,Sub,,0,0,0,,primeros grandes éxitos del control {\c&H3CC8FF&}biológico.{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.82,0:01:11.06,Sub,,0,0,0,,{\c&H3CC8FF&}¿Y{\c&HFFFFFF&} por qué es tan llamativa?
+Dialogue: 0,0:01:11.06,0:01:11.35,Sub,,0,0,0,,¿Y {\c&H3CC8FF&}por{\c&HFFFFFF&} qué es tan llamativa?
+Dialogue: 0,0:01:11.35,0:01:11.64,Sub,,0,0,0,,¿Y por {\c&H3CC8FF&}qué{\c&HFFFFFF&} es tan llamativa?
+Dialogue: 0,0:01:11.64,0:01:11.89,Sub,,0,0,0,,¿Y por qué {\c&H3CC8FF&}es{\c&HFFFFFF&} tan llamativa?
+Dialogue: 0,0:01:11.89,0:01:12.18,Sub,,0,0,0,,¿Y por qué es {\c&H3CC8FF&}tan{\c&HFFFFFF&} llamativa?
+Dialogue: 0,0:01:12.18,0:01:12.81,Sub,,0,0,0,,¿Y por qué es tan {\c&H3CC8FF&}llamativa?{\c&HFFFFFF&}
+Dialogue: 0,0:01:12.81,0:01:13.05,Sub,,0,0,0,,{\c&H3CC8FF&}Su{\c&HFFFFFF&} color rojo es una advertencia
+Dialogue: 0,0:01:13.05,0:01:13.44,Sub,,0,0,0,,Su {\c&H3CC8FF&}color{\c&HFFFFFF&} rojo es una advertencia
+Dialogue: 0,0:01:13.44,0:01:13.78,Sub,,0,0,0,,Su color {\c&H3CC8FF&}rojo{\c&HFFFFFF&} es una advertencia
+Dialogue: 0,0:01:13.78,0:01:14.02,Sub,,0,0,0,,Su color rojo {\c&H3CC8FF&}es{\c&HFFFFFF&} una advertencia
+Dialogue: 0,0:01:14.02,0:01:14.31,Sub,,0,0,0,,Su color rojo es {\c&H3CC8FF&}una{\c&HFFFFFF&} advertencia
+Dialogue: 0,0:01:14.31,0:01:14.99,Sub,,0,0,0,,Su color rojo es una {\c&H3CC8FF&}advertencia{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.99,0:01:15.33,Sub,,0,0,0,,{\c&H3CC8FF&}para{\c&HFFFFFF&} los depredadores: significa sabe mal.
+Dialogue: 0,0:01:15.33,0:01:15.62,Sub,,0,0,0,,para {\c&H3CC8FF&}los{\c&HFFFFFF&} depredadores: significa sabe mal.
+Dialogue: 0,0:01:15.62,0:01:16.39,Sub,,0,0,0,,para los {\c&H3CC8FF&}depredadores:{\c&HFFFFFF&} significa sabe mal.
+Dialogue: 0,0:01:16.39,0:01:16.98,Sub,,0,0,0,,para los depredadores: {\c&H3CC8FF&}significa{\c&HFFFFFF&} sabe mal.
+Dialogue: 0,0:01:16.98,0:01:17.31,Sub,,0,0,0,,para los depredadores: significa {\c&H3CC8FF&}sabe{\c&HFFFFFF&} mal.
+Dialogue: 0,0:01:17.31,0:01:17.65,Sub,,0,0,0,,para los depredadores: significa sabe {\c&H3CC8FF&}mal.{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.65,0:01:17.90,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} la atacan, suelta un líquido
+Dialogue: 0,0:01:17.90,0:01:18.14,Sub,,0,0,0,,Si {\c&H3CC8FF&}la{\c&HFFFFFF&} atacan, suelta un líquido
+Dialogue: 0,0:01:18.14,0:01:18.62,Sub,,0,0,0,,Si la {\c&H3CC8FF&}atacan,{\c&HFFFFFF&} suelta un líquido
+Dialogue: 0,0:01:18.62,0:01:19.06,Sub,,0,0,0,,Si la atacan, {\c&H3CC8FF&}suelta{\c&HFFFFFF&} un líquido
+Dialogue: 0,0:01:19.06,0:01:19.30,Sub,,0,0,0,,Si la atacan, suelta {\c&H3CC8FF&}un{\c&HFFFFFF&} líquido
+Dialogue: 0,0:01:19.30,0:01:19.79,Sub,,0,0,0,,Si la atacan, suelta un {\c&H3CC8FF&}líquido{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.79,0:01:20.32,Sub,,0,0,0,,{\c&H3CC8FF&}amarillo{\c&HFFFFFF&} y amargo por sus patas,
+Dialogue: 0,0:01:20.32,0:01:20.51,Sub,,0,0,0,,amarillo {\c&H3CC8FF&}y{\c&HFFFFFF&} amargo por sus patas,
+Dialogue: 0,0:01:20.51,0:01:20.95,Sub,,0,0,0,,amarillo y {\c&H3CC8FF&}amargo{\c&HFFFFFF&} por sus patas,
+Dialogue: 0,0:01:20.95,0:01:21.24,Sub,,0,0,0,,amarillo y amargo {\c&H3CC8FF&}por{\c&HFFFFFF&} sus patas,
+Dialogue: 0,0:01:21.24,0:01:21.53,Sub,,0,0,0,,amarillo y amargo por {\c&H3CC8FF&}sus{\c&HFFFFFF&} patas,
+Dialogue: 0,0:01:21.53,0:01:21.97,Sub,,0,0,0,,amarillo y amargo por sus {\c&H3CC8FF&}patas,{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.97,0:01:22.16,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} los pájaros aprenden a no
+Dialogue: 0,0:01:22.16,0:01:22.45,Sub,,0,0,0,,y {\c&H3CC8FF&}los{\c&HFFFFFF&} pájaros aprenden a no
+Dialogue: 0,0:01:22.45,0:01:22.94,Sub,,0,0,0,,y los {\c&H3CC8FF&}pájaros{\c&HFFFFFF&} aprenden a no
+Dialogue: 0,0:01:22.94,0:01:23.47,Sub,,0,0,0,,y los pájaros {\c&H3CC8FF&}aprenden{\c&HFFFFFF&} a no
+Dialogue: 0,0:01:23.47,0:01:23.66,Sub,,0,0,0,,y los pájaros aprenden {\c&H3CC8FF&}a{\c&HFFFFFF&} no
+Dialogue: 0,0:01:23.66,0:01:23.91,Sub,,0,0,0,,y los pájaros aprenden a {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.91,0:01:24.69,Sub,,0,0,0,,{\c&H3CC8FF&}comérsela.{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.44,0:01:25.61,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} un mito muy común: los
+Dialogue: 0,0:01:25.61,0:01:25.82,Sub,,0,0,0,,Y {\c&H3CC8FF&}un{\c&HFFFFFF&} mito muy común: los
+Dialogue: 0,0:01:25.82,0:01:26.11,Sub,,0,0,0,,Y un {\c&H3CC8FF&}mito{\c&HFFFFFF&} muy común: los
+Dialogue: 0,0:01:26.11,0:01:26.36,Sub,,0,0,0,,Y un mito {\c&H3CC8FF&}muy{\c&HFFFFFF&} común: los
+Dialogue: 0,0:01:26.36,0:01:26.74,Sub,,0,0,0,,Y un mito muy {\c&H3CC8FF&}común:{\c&HFFFFFF&} los
+Dialogue: 0,0:01:26.74,0:01:26.99,Sub,,0,0,0,,Y un mito muy común: {\c&H3CC8FF&}los{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.99,0:01:27.37,Sub,,0,0,0,,{\c&H3CC8FF&}puntos{\c&HFFFFFF&} no indican la edad de
+Dialogue: 0,0:01:27.37,0:01:27.58,Sub,,0,0,0,,puntos {\c&H3CC8FF&}no{\c&HFFFFFF&} indican la edad de
+Dialogue: 0,0:01:27.58,0:01:28.00,Sub,,0,0,0,,puntos no {\c&H3CC8FF&}indican{\c&HFFFFFF&} la edad de
+Dialogue: 0,0:01:28.00,0:01:28.22,Sub,,0,0,0,,puntos no indican {\c&H3CC8FF&}la{\c&HFFFFFF&} edad de
+Dialogue: 0,0:01:28.22,0:01:28.51,Sub,,0,0,0,,puntos no indican la {\c&H3CC8FF&}edad{\c&HFFFFFF&} de
+Dialogue: 0,0:01:28.51,0:01:28.72,Sub,,0,0,0,,puntos no indican la edad {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.72,0:01:28.93,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} mariquita. Dependen de la especie.
+Dialogue: 0,0:01:28.93,0:01:29.48,Sub,,0,0,0,,la {\c&H3CC8FF&}mariquita.{\c&HFFFFFF&} Dependen de la especie.
+Dialogue: 0,0:01:29.48,0:01:29.94,Sub,,0,0,0,,la mariquita. {\c&H3CC8FF&}Dependen{\c&HFFFFFF&} de la especie.
+Dialogue: 0,0:01:29.94,0:01:30.15,Sub,,0,0,0,,la mariquita. Dependen {\c&H3CC8FF&}de{\c&HFFFFFF&} la especie.
+Dialogue: 0,0:01:30.15,0:01:30.36,Sub,,0,0,0,,la mariquita. Dependen de {\c&H3CC8FF&}la{\c&HFFFFFF&} especie.
+Dialogue: 0,0:01:30.36,0:01:30.82,Sub,,0,0,0,,la mariquita. Dependen de la {\c&H3CC8FF&}especie.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.82,0:01:31.08,Sub,,0,0,0,,{\c&H3CC8FF&}Hay{\c&HFFFFFF&} mariquitas con dos puntos, con
+Dialogue: 0,0:01:31.08,0:01:31.62,Sub,,0,0,0,,Hay {\c&H3CC8FF&}mariquitas{\c&HFFFFFF&} con dos puntos, con
+Dialogue: 0,0:01:31.62,0:01:31.88,Sub,,0,0,0,,Hay mariquitas {\c&H3CC8FF&}con{\c&HFFFFFF&} dos puntos, con
+Dialogue: 0,0:01:31.88,0:01:32.13,Sub,,0,0,0,,Hay mariquitas con {\c&H3CC8FF&}dos{\c&HFFFFFF&} puntos, con
+Dialogue: 0,0:01:32.13,0:01:32.55,Sub,,0,0,0,,Hay mariquitas con dos {\c&H3CC8FF&}puntos,{\c&HFFFFFF&} con
+Dialogue: 0,0:01:32.55,0:01:32.80,Sub,,0,0,0,,Hay mariquitas con dos puntos, {\c&H3CC8FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.80,0:01:33.18,Sub,,0,0,0,,{\c&H3CC8FF&}siete,{\c&HFFFFFF&} con veintidós, e incluso sin
+Dialogue: 0,0:01:33.18,0:01:33.43,Sub,,0,0,0,,siete, {\c&H3CC8FF&}con{\c&HFFFFFF&} veintidós, e incluso sin
+Dialogue: 0,0:01:33.43,0:01:33.98,Sub,,0,0,0,,siete, con {\c&H3CC8FF&}veintidós,{\c&HFFFFFF&} e incluso sin
+Dialogue: 0,0:01:33.98,0:01:34.15,Sub,,0,0,0,,siete, con veintidós, {\c&H3CC8FF&}e{\c&HFFFFFF&} incluso sin
+Dialogue: 0,0:01:34.15,0:01:34.57,Sub,,0,0,0,,siete, con veintidós, e {\c&H3CC8FF&}incluso{\c&HFFFFFF&} sin
+Dialogue: 0,0:01:34.57,0:01:34.82,Sub,,0,0,0,,siete, con veintidós, e incluso {\c&H3CC8FF&}sin{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.82,0:01:35.44,Sub,,0,0,0,,{\c&H3CC8FF&}ninguno.{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.19,0:01:36.42,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} invierno, muchas especies se reúnen
+Dialogue: 0,0:01:36.42,0:01:36.99,Sub,,0,0,0,,En {\c&H3CC8FF&}invierno,{\c&HFFFFFF&} muchas especies se reúnen
+Dialogue: 0,0:01:36.99,0:01:37.41,Sub,,0,0,0,,En invierno, {\c&H3CC8FF&}muchas{\c&HFFFFFF&} especies se reúnen
+Dialogue: 0,0:01:37.41,0:01:37.93,Sub,,0,0,0,,En invierno, muchas {\c&H3CC8FF&}especies{\c&HFFFFFF&} se reúnen
+Dialogue: 0,0:01:37.93,0:01:38.17,Sub,,0,0,0,,En invierno, muchas especies {\c&H3CC8FF&}se{\c&HFFFFFF&} reúnen
+Dialogue: 0,0:01:38.17,0:01:38.59,Sub,,0,0,0,,En invierno, muchas especies se {\c&H3CC8FF&}reúnen{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.59,0:01:38.83,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} grupos enormes, a veces de
+Dialogue: 0,0:01:38.83,0:01:39.25,Sub,,0,0,0,,en {\c&H3CC8FF&}grupos{\c&HFFFFFF&} enormes, a veces de
+Dialogue: 0,0:01:39.25,0:01:39.77,Sub,,0,0,0,,en grupos {\c&H3CC8FF&}enormes,{\c&HFFFFFF&} a veces de
+Dialogue: 0,0:01:39.77,0:01:39.96,Sub,,0,0,0,,en grupos enormes, {\c&H3CC8FF&}a{\c&HFFFFFF&} veces de
+Dialogue: 0,0:01:39.96,0:01:40.34,Sub,,0,0,0,,en grupos enormes, a {\c&H3CC8FF&}veces{\c&HFFFFFF&} de
+Dialogue: 0,0:01:40.34,0:01:40.57,Sub,,0,0,0,,en grupos enormes, a veces {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.57,0:01:40.95,Sub,,0,0,0,,{\c&H3CC8FF&}miles{\c&HFFFFFF&} de individuos, en grietas, troncos
+Dialogue: 0,0:01:40.95,0:01:41.19,Sub,,0,0,0,,miles {\c&H3CC8FF&}de{\c&HFFFFFF&} individuos, en grietas, troncos
+Dialogue: 0,0:01:41.19,0:01:41.85,Sub,,0,0,0,,miles de {\c&H3CC8FF&}individuos,{\c&HFFFFFF&} en grietas, troncos
+Dialogue: 0,0:01:41.85,0:01:42.08,Sub,,0,0,0,,miles de individuos, {\c&H3CC8FF&}en{\c&HFFFFFF&} grietas, troncos
+Dialogue: 0,0:01:42.08,0:01:42.60,Sub,,0,0,0,,miles de individuos, en {\c&H3CC8FF&}grietas,{\c&HFFFFFF&} troncos
+Dialogue: 0,0:01:42.60,0:01:43.07,Sub,,0,0,0,,miles de individuos, en grietas, {\c&H3CC8FF&}troncos{\c&HFFFFFF&}
+Dialogue: 0,0:01:43.07,0:01:43.26,Sub,,0,0,0,,{\c&H3CC8FF&}o{\c&HFFFFFF&} casas, para esperar juntas la
+Dialogue: 0,0:01:43.26,0:01:43.69,Sub,,0,0,0,,o {\c&H3CC8FF&}casas,{\c&HFFFFFF&} para esperar juntas la
+Dialogue: 0,0:01:43.69,0:01:44.02,Sub,,0,0,0,,o casas, {\c&H3CC8FF&}para{\c&HFFFFFF&} esperar juntas la
+Dialogue: 0,0:01:44.02,0:01:44.49,Sub,,0,0,0,,o casas, para {\c&H3CC8FF&}esperar{\c&HFFFFFF&} juntas la
+Dialogue: 0,0:01:44.49,0:01:44.91,Sub,,0,0,0,,o casas, para esperar {\c&H3CC8FF&}juntas{\c&HFFFFFF&} la
+Dialogue: 0,0:01:44.91,0:01:45.15,Sub,,0,0,0,,o casas, para esperar juntas {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:45.15,0:01:45.62,Sub,,0,0,0,,{\c&H3CC8FF&}llegada{\c&HFFFFFF&} de la primavera.
+Dialogue: 0,0:01:45.62,0:01:45.86,Sub,,0,0,0,,llegada {\c&H3CC8FF&}de{\c&HFFFFFF&} la primavera.
+Dialogue: 0,0:01:45.86,0:01:46.09,Sub,,0,0,0,,llegada de {\c&H3CC8FF&}la{\c&HFFFFFF&} primavera.
+Dialogue: 0,0:01:46.09,0:01:46.85,Sub,,0,0,0,,llegada de la {\c&H3CC8FF&}primavera.{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.60,0:01:47.91,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} no todas son buenas noticias.
+Dialogue: 0,0:01:47.91,0:01:48.12,Sub,,0,0,0,,Pero {\c&H3CC8FF&}no{\c&HFFFFFF&} todas son buenas noticias.
+Dialogue: 0,0:01:48.12,0:01:48.46,Sub,,0,0,0,,Pero no {\c&H3CC8FF&}todas{\c&HFFFFFF&} son buenas noticias.
+Dialogue: 0,0:01:48.46,0:01:48.72,Sub,,0,0,0,,Pero no todas {\c&H3CC8FF&}son{\c&HFFFFFF&} buenas noticias.
+Dialogue: 0,0:01:48.72,0:01:49.11,Sub,,0,0,0,,Pero no todas son {\c&H3CC8FF&}buenas{\c&HFFFFFF&} noticias.
+Dialogue: 0,0:01:49.11,0:01:49.63,Sub,,0,0,0,,Pero no todas son buenas {\c&H3CC8FF&}noticias.{\c&HFFFFFF&}
+Dialogue: 0,0:01:49.63,0:01:49.84,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} mariquita asiática fue llevada a
+Dialogue: 0,0:01:49.84,0:01:50.36,Sub,,0,0,0,,La {\c&H3CC8FF&}mariquita{\c&HFFFFFF&} asiática fue llevada a
+Dialogue: 0,0:01:50.36,0:01:50.83,Sub,,0,0,0,,La mariquita {\c&H3CC8FF&}asiática{\c&HFFFFFF&} fue llevada a
+Dialogue: 0,0:01:50.83,0:01:51.09,Sub,,0,0,0,,La mariquita asiática {\c&H3CC8FF&}fue{\c&HFFFFFF&} llevada a
+Dialogue: 0,0:01:51.09,0:01:51.52,Sub,,0,0,0,,La mariquita asiática fue {\c&H3CC8FF&}llevada{\c&HFFFFFF&} a
+Dialogue: 0,0:01:51.52,0:01:51.69,Sub,,0,0,0,,La mariquita asiática fue llevada {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.69,0:01:52.08,Sub,,0,0,0,,{\c&H3CC8FF&}muchos{\c&HFFFFFF&} países para controlar plagas, y
+Dialogue: 0,0:01:52.08,0:01:52.46,Sub,,0,0,0,,muchos {\c&H3CC8FF&}países{\c&HFFFFFF&} para controlar plagas, y
+Dialogue: 0,0:01:52.46,0:01:52.77,Sub,,0,0,0,,muchos países {\c&H3CC8FF&}para{\c&HFFFFFF&} controlar plagas, y
+Dialogue: 0,0:01:52.77,0:01:53.28,Sub,,0,0,0,,muchos países para {\c&H3CC8FF&}controlar{\c&HFFFFFF&} plagas, y
+Dialogue: 0,0:01:53.28,0:01:53.71,Sub,,0,0,0,,muchos países para controlar {\c&H3CC8FF&}plagas,{\c&HFFFFFF&} y
+Dialogue: 0,0:01:53.71,0:01:53.88,Sub,,0,0,0,,muchos países para controlar plagas, {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.88,0:01:54.10,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} volvió invasora: compite con las
+Dialogue: 0,0:01:54.10,0:01:54.49,Sub,,0,0,0,,se {\c&H3CC8FF&}volvió{\c&HFFFFFF&} invasora: compite con las
+Dialogue: 0,0:01:54.49,0:01:55.00,Sub,,0,0,0,,se volvió {\c&H3CC8FF&}invasora:{\c&HFFFFFF&} compite con las
+Dialogue: 0,0:01:55.00,0:01:55.43,Sub,,0,0,0,,se volvió invasora: {\c&H3CC8FF&}compite{\c&HFFFFFF&} con las
+Dialogue: 0,0:01:55.43,0:01:55.69,Sub,,0,0,0,,se volvió invasora: compite {\c&H3CC8FF&}con{\c&HFFFFFF&} las
+Dialogue: 0,0:01:55.69,0:01:55.95,Sub,,0,0,0,,se volvió invasora: compite con {\c&H3CC8FF&}las{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.95,0:01:56.51,Sub,,0,0,0,,{\c&H3CC8FF&}mariquitas{\c&HFFFFFF&} locales y en algunos lugares
+Dialogue: 0,0:01:56.51,0:01:56.94,Sub,,0,0,0,,mariquitas {\c&H3CC8FF&}locales{\c&HFFFFFF&} y en algunos lugares
+Dialogue: 0,0:01:56.94,0:01:57.11,Sub,,0,0,0,,mariquitas locales {\c&H3CC8FF&}y{\c&HFFFFFF&} en algunos lugares
+Dialogue: 0,0:01:57.11,0:01:57.32,Sub,,0,0,0,,mariquitas locales y {\c&H3CC8FF&}en{\c&HFFFFFF&} algunos lugares
+Dialogue: 0,0:01:57.32,0:01:57.75,Sub,,0,0,0,,mariquitas locales y en {\c&H3CC8FF&}algunos{\c&HFFFFFF&} lugares
+Dialogue: 0,0:01:57.75,0:01:58.18,Sub,,0,0,0,,mariquitas locales y en algunos {\c&H3CC8FF&}lugares{\c&HFFFFFF&}
+Dialogue: 0,0:01:58.18,0:01:58.44,Sub,,0,0,0,,{\c&H3CC8FF&}las{\c&HFFFFFF&} desplaza.
+Dialogue: 0,0:01:58.44,0:01:59.11,Sub,,0,0,0,,las {\c&H3CC8FF&}desplaza.{\c&HFFFFFF&}
+Dialogue: 0,0:01:59.86,0:02:00.12,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que la próxima vez que
+Dialogue: 0,0:02:00.12,0:02:00.38,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} la próxima vez que
+Dialogue: 0,0:02:00.38,0:02:00.59,Sub,,0,0,0,,Así que {\c&H3CC8FF&}la{\c&HFFFFFF&} próxima vez que
+Dialogue: 0,0:02:00.59,0:02:01.02,Sub,,0,0,0,,Así que la {\c&H3CC8FF&}próxima{\c&HFFFFFF&} vez que
+Dialogue: 0,0:02:01.02,0:02:01.28,Sub,,0,0,0,,Así que la próxima {\c&H3CC8FF&}vez{\c&HFFFFFF&} que
+Dialogue: 0,0:02:01.28,0:02:01.54,Sub,,0,0,0,,Así que la próxima vez {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:02:01.54,0:02:01.80,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} mariquita se pose en tu
+Dialogue: 0,0:02:01.80,0:02:02.31,Sub,,0,0,0,,una {\c&H3CC8FF&}mariquita{\c&HFFFFFF&} se pose en tu
+Dialogue: 0,0:02:02.31,0:02:02.53,Sub,,0,0,0,,una mariquita {\c&H3CC8FF&}se{\c&HFFFFFF&} pose en tu
+Dialogue: 0,0:02:02.53,0:02:02.83,Sub,,0,0,0,,una mariquita se {\c&H3CC8FF&}pose{\c&HFFFFFF&} en tu
+Dialogue: 0,0:02:02.83,0:02:03.05,Sub,,0,0,0,,una mariquita se pose {\c&H3CC8FF&}en{\c&HFFFFFF&} tu
+Dialogue: 0,0:02:03.05,0:02:03.26,Sub,,0,0,0,,una mariquita se pose en {\c&H3CC8FF&}tu{\c&HFFFFFF&}
+Dialogue: 0,0:02:03.26,0:02:03.61,Sub,,0,0,0,,{\c&H3CC8FF&}mano,{\c&HFFFFFF&} recuerda que estás frente a
+Dialogue: 0,0:02:03.61,0:02:04.08,Sub,,0,0,0,,mano, {\c&H3CC8FF&}recuerda{\c&HFFFFFF&} que estás frente a
+Dialogue: 0,0:02:04.08,0:02:04.34,Sub,,0,0,0,,mano, recuerda {\c&H3CC8FF&}que{\c&HFFFFFF&} estás frente a
+Dialogue: 0,0:02:04.34,0:02:04.68,Sub,,0,0,0,,mano, recuerda que {\c&H3CC8FF&}estás{\c&HFFFFFF&} frente a
+Dialogue: 0,0:02:04.68,0:02:05.07,Sub,,0,0,0,,mano, recuerda que estás {\c&H3CC8FF&}frente{\c&HFFFFFF&} a
+Dialogue: 0,0:02:05.07,0:02:05.24,Sub,,0,0,0,,mano, recuerda que estás frente {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:02:05.24,0:02:05.50,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} pequeña cazadora que protege las
+Dialogue: 0,0:02:05.50,0:02:05.93,Sub,,0,0,0,,una {\c&H3CC8FF&}pequeña{\c&HFFFFFF&} cazadora que protege las
+Dialogue: 0,0:02:05.93,0:02:06.41,Sub,,0,0,0,,una pequeña {\c&H3CC8FF&}cazadora{\c&HFFFFFF&} que protege las
+Dialogue: 0,0:02:06.41,0:02:06.67,Sub,,0,0,0,,una pequeña cazadora {\c&H3CC8FF&}que{\c&HFFFFFF&} protege las
+Dialogue: 0,0:02:06.67,0:02:07.10,Sub,,0,0,0,,una pequeña cazadora que {\c&H3CC8FF&}protege{\c&HFFFFFF&} las
+Dialogue: 0,0:02:07.10,0:02:07.36,Sub,,0,0,0,,una pequeña cazadora que protege {\c&H3CC8FF&}las{\c&HFFFFFF&}
+Dialogue: 0,0:02:07.36,0:02:07.79,Sub,,0,0,0,,{\c&H3CC8FF&}plantas{\c&HFFFFFF&} que comemos.
+Dialogue: 0,0:02:07.79,0:02:08.04,Sub,,0,0,0,,plantas {\c&H3CC8FF&}que{\c&HFFFFFF&} comemos.
+Dialogue: 0,0:02:08.04,0:02:08.67,Sub,,0,0,0,,plantas que {\c&H3CC8FF&}comemos.{\c&HFFFFFF&}
+Dialogue: 0,0:02:09.42,0:02:09.66,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} te gustan los datos curiosos,
+Dialogue: 0,0:02:09.66,0:02:09.90,Sub,,0,0,0,,Si {\c&H3CC8FF&}te{\c&HFFFFFF&} gustan los datos curiosos,
+Dialogue: 0,0:02:09.90,0:02:10.34,Sub,,0,0,0,,Si te {\c&H3CC8FF&}gustan{\c&HFFFFFF&} los datos curiosos,
+Dialogue: 0,0:02:10.34,0:02:10.63,Sub,,0,0,0,,Si te gustan {\c&H3CC8FF&}los{\c&HFFFFFF&} datos curiosos,
+Dialogue: 0,0:02:10.63,0:02:11.02,Sub,,0,0,0,,Si te gustan los {\c&H3CC8FF&}datos{\c&HFFFFFF&} curiosos,
+Dialogue: 0,0:02:11.02,0:02:11.60,Sub,,0,0,0,,Si te gustan los datos {\c&H3CC8FF&}curiosos,{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.60,0:02:12.23,Sub,,0,0,0,,{\c&H3CC8FF&}suscríbete{\c&HFFFFFF&} y activa la campanita. En
+Dialogue: 0,0:02:12.23,0:02:12.42,Sub,,0,0,0,,suscríbete {\c&H3CC8FF&}y{\c&HFFFFFF&} activa la campanita. En
+Dialogue: 0,0:02:12.42,0:02:12.86,Sub,,0,0,0,,suscríbete y {\c&H3CC8FF&}activa{\c&HFFFFFF&} la campanita. En
+Dialogue: 0,0:02:12.86,0:02:13.10,Sub,,0,0,0,,suscríbete y activa {\c&H3CC8FF&}la{\c&HFFFFFF&} campanita. En
+Dialogue: 0,0:02:13.10,0:02:13.73,Sub,,0,0,0,,suscríbete y activa la {\c&H3CC8FF&}campanita.{\c&HFFFFFF&} En
+Dialogue: 0,0:02:13.73,0:02:13.97,Sub,,0,0,0,,suscríbete y activa la campanita. {\c&H3CC8FF&}En{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.97,0:02:14.22,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} próximo video: el ajolote, el
+Dialogue: 0,0:02:14.22,0:02:14.70,Sub,,0,0,0,,el {\c&H3CC8FF&}próximo{\c&HFFFFFF&} video: el ajolote, el
+Dialogue: 0,0:02:14.70,0:02:15.14,Sub,,0,0,0,,el próximo {\c&H3CC8FF&}video:{\c&HFFFFFF&} el ajolote, el
+Dialogue: 0,0:02:15.14,0:02:15.38,Sub,,0,0,0,,el próximo video: {\c&H3CC8FF&}el{\c&HFFFFFF&} ajolote, el
+Dialogue: 0,0:02:15.38,0:02:15.91,Sub,,0,0,0,,el próximo video: el {\c&H3CC8FF&}ajolote,{\c&HFFFFFF&} el
+Dialogue: 0,0:02:15.91,0:02:16.16,Sub,,0,0,0,,el próximo video: el ajolote, {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:02:16.16,0:02:16.59,Sub,,0,0,0,,{\c&H3CC8FF&}animal{\c&HFFFFFF&} que puede regenerar partes de
+Dialogue: 0,0:02:16.59,0:02:16.88,Sub,,0,0,0,,animal {\c&H3CC8FF&}que{\c&HFFFFFF&} puede regenerar partes de
+Dialogue: 0,0:02:16.88,0:02:17.27,Sub,,0,0,0,,animal que {\c&H3CC8FF&}puede{\c&HFFFFFF&} regenerar partes de
+Dialogue: 0,0:02:17.27,0:02:17.85,Sub,,0,0,0,,animal que puede {\c&H3CC8FF&}regenerar{\c&HFFFFFF&} partes de
+Dialogue: 0,0:02:17.85,0:02:18.29,Sub,,0,0,0,,animal que puede regenerar {\c&H3CC8FF&}partes{\c&HFFFFFF&} de
+Dialogue: 0,0:02:18.29,0:02:18.53,Sub,,0,0,0,,animal que puede regenerar partes {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.53,0:02:18.77,Sub,,0,0,0,,{\c&H3CC8FF&}su{\c&HFFFFFF&} cuerpo.
+Dialogue: 0,0:02:18.77,0:02:19.41,Sub,,0,0,0,,su {\c&H3CC8FF&}cuerpo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.00,0:02:19.81,Marca,,0,0,0,,jxseng · datos curiosos
