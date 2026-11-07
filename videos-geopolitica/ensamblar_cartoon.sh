@@ -5,7 +5,7 @@ cd "$1"
 python3 ../subtitulos_ass.py .
 N=$(python3 -c "import json;print(len(json.load(open('escenas.json'))))")
 TOTAL=$(python3 -c "import json;print(json.load(open('timeline.json'))['total'])")
-for i in $(seq 0 $((N-1))); do printf "file 'render/e%02d.mp4'\n" $i; done > vlist.txt
+for i in $(seq 0 $((N-1))); do printf "file '${RENDER:-render}/e%02d.mp4'\n" $i; done > vlist.txt
 ffmpeg -y -loglevel error -f concat -safe 0 -i vlist.txt -c copy crudo.mp4
 ffmpeg -y -loglevel error -i crudo.mp4 -vf "ass=subs.ass:fontsdir=/usr/share/fonts/opentype/inter" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -an mudo.mp4
 python3 ../musica.py $TOTAL musica.wav $3

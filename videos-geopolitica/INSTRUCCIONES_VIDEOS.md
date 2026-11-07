@@ -30,3 +30,25 @@ subtítulos palabra por palabra con la palabra clave resaltada, ritmo rápido, s
 
 **Regla principal**: producir el video completo (animación, narración, música, efectos, subtítulos y edición),
 no solo un guion o imágenes.
+
+## Regla obligatoria: animación dinámica (7 nov 2026, prioridad sobre ahorro de tokens/tiempo)
+Herramientas: escenas, cámara, partículas, transiciones y procesos con código (Remotion o HTML/canvas), 30 fps.
+Personajes con expresiones o acciones complejas: clips Flow/Veo que pasa el dueño; si falta uno, pedirlo antes de seguir (nunca imagen fija).
+
+Reglas medibles en cada escena:
+1. Ningún plano > 3 s sin movimiento de cámara (zoom, paneo, giro, seguimiento, perspectiva).
+2. Cambio de plano o encuadre cada 2–4 s.
+3. Mínimo 3 capas en movimiento a la vez: fondo, elemento principal, partículas/ambiente.
+4. Personajes nunca quietos: parpadean, respiran, gesticulan, señalan, reaccionan.
+5. Cada concepto narrado = algo que se mueve, transforma o interactúa (no texto/imagen sola).
+6. Profundidad: primer plano, plano medio y fondo con velocidades distintas (parallax).
+7. Iluminación y sombras que cambian con la acción.
+8. Cada transición distinta de la anterior; ninguna se repite más de 2 veces en el video.
+9. Ninguna animación se repite igual en escenas distintas.
+
+Prohibido: imagen fija como escena principal > 2 s; solo mover imágenes de izquierda a derecha; elementos que
+solo aparecen y desaparecen sin moverse; escenas vacías o con un solo elemento.
+
+Control de calidad antes de entregar: fotograma cada 2 s del video completo; rehacer escenas con 3 fotogramas
+seguidos casi iguales o que incumplan alguna regla; repetir hasta que todo pase. Entregar tabla:
+escena | duración | movimiento de cámara | capas en movimiento | transición.
