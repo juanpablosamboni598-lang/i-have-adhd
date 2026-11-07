@@ -1,0 +1,686 @@
+[
+ {
+  "tipo": "caza_superficie",
+  "titulo": "Sudáfrica",
+  "texto": "En las costas de Sudáfrica, una foca nada tranquila en la superficie. No tiene ni idea de que, veinte metros más abajo, algo la está observando.",
+  "sfx": [
+   [
+    0.0,
+    "ambiente"
+   ],
+   [
+    0.55,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "caza_salto",
+  "titulo": "La emboscada",
+  "texto": "En menos de dos segundos, un tiburón blanco de más de una tonelada sube disparado desde la oscuridad, y sale volando fuera del agua.",
+  "sfx": [
+   [
+    0.25,
+    "whoosh_largo"
+   ],
+   [
+    0.6,
+    "splash"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "El cazador perfecto",
+  "texto": "Hoy vamos a ver, paso a paso, cómo caza el depredador más famoso del océano: el tiburón blanco. Sus sentidos, sus armas, sus trucos, y el único animal al que le tiene miedo.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "tamano_buzo",
+  "titulo": "Su tamaño",
+  "texto": "Empecemos por su tamaño. Un tiburón blanco adulto puede medir hasta seis metros de largo, más que una camioneta, y pesar unas dos toneladas.",
+  "sfx": [
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "hidrodinamica",
+  "titulo": "Forma de torpedo",
+  "texto": "Su cuerpo tiene forma de torpedo. Así el agua fluye a su alrededor casi sin resistencia, y puede moverse con muy poco esfuerzo.",
+  "sfx": [
+   [
+    0.2,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "piel_zoom",
+  "titulo": "Piel de lija",
+  "texto": "Y si pudieras tocar su piel, sentirías algo como papel de lija. Está cubierta de diminutas escamas con forma de dientes, que reducen todavía más la fricción con el agua.",
+  "sfx": [
+   [
+    0.25,
+    "zoom"
+   ],
+   [
+    0.5,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "branquias",
+  "titulo": "Las branquias",
+  "texto": "Ahora mira estas cinco ranuras a los lados de su cabeza: son sus branquias. El agua entra por la boca, pasa por ellas, y el tiburón extrae el oxígeno.",
+  "sfx": [
+   [
+    0.3,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "nadar_respirar",
+  "titulo": "Nadar para respirar",
+  "texto": "Pero hay un detalle importante: el tiburón blanco no puede bombear agua como otros peces. Tiene que nadar constantemente para que el agua siga entrando. Si se detiene por mucho tiempo, se asfixia.",
+  "sfx": [
+   [
+    0.6,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "calor",
+  "titulo": "Sangre caliente",
+  "texto": "Y tiene otro secreto: no es completamente de sangre fría. Gracias a una red especial de vasos sanguíneos, mantiene sus músculos, su estómago y sus ojos más calientes que el agua que lo rodea.",
+  "sfx": [
+   [
+    0.4,
+    "calor"
+   ]
+  ]
+ },
+ {
+  "tipo": "calor_ventaja",
+  "titulo": "Ventaja en el frío",
+  "texto": "Eso le da una enorme ventaja: sus músculos funcionan mejor, puede nadar más rápido y cazar en aguas frías donde otros depredadores serían lentos.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "sentidos_iconos",
+  "titulo": "Sus sentidos",
+  "texto": "Pero lo que realmente convierte al tiburón blanco en un cazador perfecto son sus sentidos. Y tiene más de los que imaginas.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.75,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "olfato_nariz",
+  "titulo": "El olfato",
+  "texto": "Empecemos por el olfato. Sus fosas nasales no sirven para respirar: solo para oler. Y son increíblemente sensibles.",
+  "sfx": [
+   [
+    0.35,
+    "olfatear"
+   ]
+  ]
+ },
+ {
+  "tipo": "olfato_rastro",
+  "titulo": "Un rastro invisible",
+  "texto": "Una pequeña cantidad de sangre o de grasa en el agua forma un rastro invisible. El tiburón lo detecta y, moviendo la cabeza de un lado a otro, sigue el olor hasta su origen.",
+  "sfx": [
+   [
+    0.1,
+    "gota"
+   ],
+   [
+    0.5,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "oido_ondas",
+  "titulo": "El oído",
+  "texto": "Luego está el oído. Aunque no lo veas, tiene oídos internos capaces de captar sonidos de baja frecuencia, como los de un animal herido que se agita, desde cientos de metros.",
+  "sfx": [
+   [
+    0.25,
+    "chapoteo"
+   ],
+   [
+    0.5,
+    "onda"
+   ]
+  ]
+ },
+ {
+  "tipo": "linea_lateral",
+  "titulo": "La línea lateral",
+  "texto": "Cuando se acerca, entra en juego otro sentido: la línea lateral. Es una fila de pequeños poros a lo largo de su cuerpo que detecta vibraciones y cambios de presión en el agua.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "linea_ondas",
+  "titulo": "Siente las vibraciones",
+  "texto": "Cada movimiento de un pez produce pequeñas ondas. La línea lateral las siente, y el tiburón sabe dónde está su presa aunque no pueda verla.",
+  "sfx": [
+   [
+    0.3,
+    "onda"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ojo_tapetum",
+  "titulo": "La vista",
+  "texto": "Su vista también es mejor de lo que se cree. Detrás de sus ojos tiene una capa que funciona como un espejo y refleja la luz, para ver mejor en aguas oscuras.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "ampollas_hocico",
+  "titulo": "Ampollas de Lorenzini",
+  "texto": "Y ahora, el sentido más increíble. Mira estos puntos oscuros en su hocico. Se llaman ampollas de Lorenzini.",
+  "sfx": [
+   [
+    0.3,
+    "zoom"
+   ],
+   [
+    0.6,
+    "electrico"
+   ]
+  ]
+ },
+ {
+  "tipo": "ampollas_campo",
+  "titulo": "Detecta electricidad",
+  "texto": "Cada uno es un pequeño canal lleno de gel que detecta electricidad. Y todos los seres vivos producimos campos eléctricos diminutos cada vez que se contrae un músculo, incluso el corazón.",
+  "sfx": [
+   [
+    0.5,
+    "latido"
+   ],
+   [
+    0.7,
+    "electrico"
+   ]
+  ]
+ },
+ {
+  "tipo": "ampollas_ataque",
+  "titulo": "El último golpe",
+  "texto": "Así que, en los últimos centímetros, el tiburón puede encontrar a un pez escondido bajo la arena solo por la electricidad de su latido.",
+  "sfx": [
+   [
+    0.65,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "radar_capas",
+  "titulo": "Un radar por capas",
+  "texto": "Piénsalo como un sistema de radar por capas: primero el oído y el olfato desde lejos, luego la línea lateral y la vista al acercarse, y al final, la electricidad para el último golpe.",
+  "sfx": [
+   [
+    0.2,
+    "ding"
+   ],
+   [
+    0.45,
+    "ding"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "boca_dientes",
+  "titulo": "Sus armas",
+  "texto": "Ahora hablemos de sus armas. Un tiburón blanco tiene unos trescientos dientes, organizados en varias filas.",
+  "sfx": [
+   [
+    0.3,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "diente_zoom",
+  "titulo": "Bordes aserrados",
+  "texto": "Cada diente es triangular y tiene bordes aserrados, como un cuchillo de cocina. Están hechos para cortar, no para masticar.",
+  "sfx": [
+   [
+    0.3,
+    "zoom"
+   ],
+   [
+    0.6,
+    "corte"
+   ]
+  ]
+ },
+ {
+  "tipo": "cinta_dientes",
+  "titulo": "Dientes de repuesto",
+  "texto": "Y aquí viene lo curioso: sus dientes funcionan como una cinta transportadora. Cuando uno se rompe o se cae, el de atrás avanza y ocupa su lugar.",
+  "sfx": [
+   [
+    0.45,
+    "clink"
+   ],
+   [
+    0.65,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "contador_dientes",
+  "titulo": "Miles de dientes",
+  "texto": "Por eso un tiburón puede perder y reemplazar miles de dientes a lo largo de su vida.",
+  "sfx": [
+   [
+    0.2,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "mandibula",
+  "titulo": "Mandíbula que avanza",
+  "texto": "Además, cuando muerde, su mandíbula superior se desplaza hacia adelante, fuera de la boca, para morder con más fuerza y alcance.",
+  "sfx": [
+   [
+    0.5,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "ojos_giran",
+  "titulo": "Ojos protegidos",
+  "texto": "Y en el último instante del ataque hace algo muy curioso: gira los ojos hacia atrás, dentro de su cabeza, para protegerlos de los arañazos de su presa.",
+  "sfx": [
+   [
+    0.55,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapa_isla",
+  "titulo": "La isla de las focas",
+  "texto": "Ahora sí, volvamos a Sudáfrica. Cerca de la costa hay una isla donde viven miles de focas. Y cada invierno, los tiburones blancos llegan a cazarlas.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "emboscada_silueta",
+  "titulo": "Desde abajo",
+  "texto": "Su estrategia es la emboscada. El tiburón nada en lo profundo, donde el agua es oscura. Desde abajo, la foca se ve como una silueta recortada contra la luz del cielo.",
+  "sfx": [
+   [
+    0.0,
+    "ambiente"
+   ],
+   [
+    0.6,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "vista_arriba",
+  "titulo": "Camuflaje perfecto",
+  "texto": "Pero desde arriba, la foca casi no puede ver al tiburón: su lomo gris oscuro se confunde con el fondo del mar. Es un camuflaje perfecto.",
+  "sfx": [
+   [
+    0.5,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "velocimetro",
+  "titulo": "Aceleración",
+  "texto": "Cuando elige el momento, acelera en vertical. Puede superar los treinta y cinco kilómetros por hora en pocos segundos.",
+  "sfx": [
+   [
+    0.2,
+    "motor"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "caza_salto",
+  "titulo": "El salto",
+  "texto": "Llega con tanta velocidad que, a veces, sale completamente del agua con la foca en la boca. Es uno de los espectáculos más impresionantes de la naturaleza.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh_largo"
+   ],
+   [
+    0.5,
+    "splash"
+   ]
+  ]
+ },
+ {
+  "tipo": "escape",
+  "titulo": "No siempre gana",
+  "texto": "Pero no siempre gana. Las focas son ágiles, hacen giros bruscos y muchas veces escapan. Una gran parte de los ataques termina sin éxito.",
+  "sfx": [
+   [
+    0.3,
+    "swish"
+   ],
+   [
+    0.55,
+    "swish"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "mordisco_espera",
+  "titulo": "Muerde y espera",
+  "texto": "Y cuando la presa es grande, a veces el tiburón da un primer mordisco y se aleja, esperando a que se debilite antes de volver. Así evita salir herido.",
+  "sfx": [
+   [
+    0.25,
+    "mordida"
+   ],
+   [
+    0.55,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapa_marca",
+  "titulo": "Un gran viajero",
+  "texto": "Otro dato sorprendente: el tiburón blanco es un gran viajero. En dos mil tres, una hembra a la que llamaron Nicole fue marcada con un dispositivo en Sudáfrica.",
+  "sfx": [
+   [
+    0.6,
+    "bip"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapa_ruta",
+  "titulo": "20.000 kilómetros",
+  "texto": "En menos de nueve meses nadó hasta Australia y regresó: un viaje de unos veinte mil kilómetros, uno de los más largos registrados para un pez.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapa_cafe",
+  "titulo": "El café del tiburón",
+  "texto": "Y en medio del océano Pacífico, entre México y Hawái, hay una zona donde los tiburones blancos se reúnen cada año, lejos de cualquier costa. Los científicos la llaman el café del tiburón blanco.",
+  "sfx": [
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "misterio",
+  "titulo": "Un gran misterio",
+  "texto": "Todavía no sabemos bien qué hacen allí. Puede que busquen comida en las profundidades, o pareja. Es uno de los grandes misterios del océano.",
+  "sfx": [
+   [
+    0.2,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "orcas_llegan",
+  "titulo": "Su único miedo",
+  "texto": "Pero incluso el gran tiburón blanco tiene algo a lo que temer: las orcas.",
+  "sfx": [
+   [
+    0.2,
+    "tension"
+   ],
+   [
+    0.6,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "orcas_caza",
+  "titulo": "Cazadoras de tiburones",
+  "texto": "En Sudáfrica, desde dos mil diecisiete, una pareja de orcas empezó a cazar tiburones blancos. Trabajan en equipo y les extraen el hígado, un órgano grande y lleno de energía.",
+  "sfx": [
+   [
+    0.35,
+    "whoosh"
+   ],
+   [
+    0.6,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburones_huyen",
+  "titulo": "Huyen de la zona",
+  "texto": "Y la reacción de los tiburones fue sorprendente: abandonaron la zona. Durante meses, prácticamente desaparecieron de lugares donde antes eran comunes.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "barras_riesgo",
+  "titulo": "¿Peligro para nosotros?",
+  "texto": "¿Y los humanos? A pesar de su fama, los ataques de tiburón son muy raros. Cada año, mueren muchas más personas por rayos o por accidentes en casa que por mordidas de tiburón.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "surfista_silueta",
+  "titulo": "Una confusión",
+  "texto": "Una de las teorías es que algunos ataques son errores: desde abajo, la silueta de un surfista sobre su tabla se parece a la de una foca.",
+  "sfx": [
+   [
+    0.5,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "humanos_matan",
+  "titulo": "El verdadero peligro",
+  "texto": "Mientras tanto, los humanos matamos cada año decenas de millones de tiburones, por la pesca y por sus aletas. El verdadero peligro, para ellos, somos nosotros.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.75,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "vida_lenta",
+  "titulo": "Una vida lenta",
+  "texto": "Y el tiburón blanco es especialmente vulnerable: puede vivir unos setenta años, pero las hembras tardan alrededor de treinta en poder tener crías, y tienen muy pocas.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "Un diseño perfecto",
+  "texto": "Así que el tiburón blanco no es un monstruo sin sentido. Es un cazador increíblemente preciso, con un cuerpo diseñado durante millones de años para el océano.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Protejámoslo",
+  "texto": "Siente la electricidad de un latido, oye a una presa a cientos de metros, y puede salir volando fuera del agua. Y aun así, necesita nuestra protección.",
+  "sfx": [
+   [
+    0.2,
+    "latido"
+   ],
+   [
+    0.6,
+    "splash"
+   ]
+  ]
+ },
+ {
+  "tipo": "suscribete",
+  "titulo": "¿Qué animal sigue?",
+  "texto": "Si te gustó, suscríbete y activa la campanita. Y déjame en los comentarios qué animal quieres que expliquemos paso a paso en el próximo video.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.4,
+    "campana"
+   ]
+  ]
+ }
+]
