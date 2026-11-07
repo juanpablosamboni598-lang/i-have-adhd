@@ -127,6 +127,8 @@ class Base(MovingCameraScene):
     sc, dur, idx = None, 5.0, 0
 
     def P(self, *a, rt=1.0, **kw):
+        if getattr(self, 'hdr', None) is not None:
+            self.bring_to_front(self.hdr)
         self.play(*a, run_time=rt, **kw)
         self.used += rt
 
@@ -185,6 +187,7 @@ class Base(MovingCameraScene):
         g = VGroup(bx, k).to_corner(UL, buff=0.4)
         g.fix_in_frame() if hasattr(g, 'fix_in_frame') else None
         self.add(g)
+        self.hdr = g
         self.play(FadeIn(g, shift=RIGHT * 0.4), run_time=0.35)
         self.used += 0.35
         return g
@@ -501,8 +504,8 @@ class Base(MovingCameraScene):
     def s_radar_capas(self):
         self.ocean(top='#0e3b63', bot='#020a18', rays=False)
         self.header()
-        center = np.array([3, -0.5, 0])
-        rings = [(4.6, 'OÍDO Y OLFATO', CYAN_), (3.2, 'LÍNEA LATERAL Y VISTA', '#7ee081'), (1.6, 'ELECTRICIDAD', '#b388ff')]
+        center = np.array([3, -0.9, 0])
+        rings = [(3.9, 'OÍDO Y OLFATO', CYAN_), (2.7, 'LÍNEA LATERAL Y VISTA', '#7ee081'), (1.4, 'ELECTRICIDAD', '#b388ff')]
         f = Fish('#ffd166').scale(0.8).move_to(center)
         self.add(f)
         sh = Shark().scale(0.35).move_to(center + LEFT * 6)
@@ -666,7 +669,7 @@ class Base(MovingCameraScene):
         self.add(arc, ticks, needle, num)
         sh = Shark().scale(0.5).rotate(PI / 2.3).move_to([-4.5, -4, 0])
         self.add(sh)
-        self.P(tr.animate.set_value(36), sh.animate.move_to([-4.5, 2.5, 0]), rt=self.dur * 0.55, rate_func=rush_into)
+        self.P(tr.animate.set_value(36), sh.animate.move_to([-4.5, 0.8, 0]), rt=self.dur * 0.55, rate_func=rush_into)
         self.P(Flash(num, color=GOLD_), rt=0.6)
 
     def s_escape(self):
@@ -833,12 +836,12 @@ class Base(MovingCameraScene):
         self.ocean(surface=True)
         self.header()
         boat = VGroup(Polygon([-1.6, 0, 0], [1.6, 0, 0], [1.1, -0.6, 0], [-1.1, -0.6, 0], fill_color='#c0392b', fill_opacity=1, stroke_width=3),
-                      Rectangle(width=0.8, height=0.6, fill_color=WHITE, fill_opacity=1).shift(UP * 0.3 + LEFT * 0.3)).move_to([-3, 2.75, 0])
-        net = VGroup(*[Line([-3 + i * 0.3, 2.5, 0], [-3 + i * 0.25, -1.5, 0], color='#ddd', stroke_width=2, stroke_opacity=0.6) for i in range(-4, 6)])
+                      Rectangle(width=0.8, height=0.6, fill_color=WHITE, fill_opacity=1).shift(UP * 0.3 + LEFT * 0.3)).move_to([-0.5, 2.75, 0])
+        net = VGroup(*[Line([-0.5 + i * 0.3, 2.5, 0], [-0.5 + i * 0.25, -1.5, 0], color='#ddd', stroke_width=2, stroke_opacity=0.6) for i in range(-4, 6)])
         self.P(FadeIn(boat, shift=RIGHT), rt=0.6)
         self.P(Create(net), rt=0.8)
         tr = ValueTracker(0)
-        num = always_redraw(lambda: pill(f'{int(tr.get_value()):,}'.replace(',', '.') + ' AL AÑO', RED_, 46).move_to([3, -1, 0]))
+        num = always_redraw(lambda: pill(f'{int(tr.get_value()):,}'.replace(',', '.') + ' AL AÑO', RED_, 46).move_to([3.8, -1.8, 0]))
         self.add(num)
         self.P(tr.animate.set_value(50000000), rt=self.dur * 0.4, rate_func=rush_from)
         lab = T('Estimación: decenas de millones', 20, SOFT_, NORMAL).next_to(num, DOWN)
