@@ -159,7 +159,7 @@ const s22 = (p) => {
       <g opacity={ramp(t, d * 0.25, d * 0.35)} transform={`translate(${640 + 90} ${500 + 40})`}>
         <circle r={95} fill="none" stroke={C.gold} strokeWidth={10} /><line x1={68} y1={68} x2={150} y2={150} stroke={C.gold} strokeWidth={18} strokeLinecap="round" />
       </g>
-      <Pill x={640} y={830} text="BORDES ASERRADOS" s={pop(t, d * 0.3)} />
+      <Pill x={640} y={200} text="BORDES ASERRADOS" s={pop(t, d * 0.3)} />
       <g transform="translate(1320 560)">
         <path d={`M-200,0 C-150,-90 150,-90 200,0 C150,90 -150,90 -200,0Z`} fill="#f2a28c" stroke="#a05a48" strokeWidth={5} transform={`translate(0 ${cut * 40}) `} clipPath="" />
         <g transform={`translate(0 ${-cut * 50}) rotate(${-cut * 8})`}><path d="M-200,0 C-150,-90 150,-90 200,0Z" fill="#f2a28c" stroke="#a05a48" strokeWidth={5} /></g>
@@ -254,7 +254,7 @@ const s26 = (p) => {
         {[0, 1, 2].map((k) => <path key={k} d={`M${-10},${8 + k * 22} l-40,-10 l36,22Z`} fill="#eee" stroke="#555" strokeWidth={2} />)}
       </g>
       {t > d * 0.62 && [...Array(6)].map((_, k) => <line key={k} x1={1100} y1={480 + k * 10} x2={1060 - 40 * Math.abs(Math.sin(t * 8 + k))} y2={470 + k * 14} stroke="#fff" strokeWidth={4} />)}
-      <Pill x={960} y={920} text="OJOS A SALVO" color={C.gold} s={pop(t, d * 0.62)} />
+      <Pill x={960} y={180} text="OJOS A SALVO" color={C.gold} s={pop(t, d * 0.62)} />
     </Stage>
   );
 };
@@ -318,7 +318,7 @@ const s29 = (p) => {
       <Seal x={1300} y={260} s={0.9} t={t} look={Math.sin(t * 1.5)} />
       <path d={`M1360,290 L${1100 + 300 * Math.sin(t * 1.5)},900 L${1500 + 300 * Math.sin(t * 1.5)},900Z`} fill="#fffbe0" opacity={0.08} />
       <Txt x={1600} y={260} size={110} color="#fff" s={pop(t, d * 0.3)}>?</Txt>
-      <Pill x={960} y={900} text="CAMUFLAJE PERFECTO" s={pop(t, d * 0.6)} />
+      <Pill x={700} y={200} text="CAMUFLAJE PERFECTO" s={pop(t, d * 0.6)} />
     </Stage>
   );
 };

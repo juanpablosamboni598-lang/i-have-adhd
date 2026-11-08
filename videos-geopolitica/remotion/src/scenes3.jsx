@@ -65,7 +65,7 @@ const s34 = (p) => {
       <g transform={`translate(${lerp(960, 945, tag)} ${lerp(420, 455, tag)})`} opacity={ramp(t, d * 0.4, d * 0.45)}><rect x={-18} y={-10} width={36} height={20} rx={5} fill={C.gold} stroke="#000" strokeWidth={2} /><line x1={0} y1={-10} x2={0} y2={-40} stroke="#000" strokeWidth={3} /></g>
       {[0, 1, 2, 3].map((k) => <Ring key={k} x={945} y={430} t={t} t0={ping + k * 0.5} dur={1.2} maxR={300} color={C.gold} />)}
       <line x1={945} y1={420} x2={sat[0]} y2={sat[1]} stroke={C.gold} strokeWidth={4} strokeDasharray="14 10" strokeDashoffset={-t * 80} opacity={ramp(t, ping, ping + 0.3)} />
-      <Pill x={960} y={860} text="NICOLE · 2003" size={44} s={pop(t, d * 0.5)} />
+      <Pill x={1350} y={560} text="NICOLE · 2003" size={44} s={pop(t, d * 0.5)} />
     </Stage>
   );
 };
@@ -165,7 +165,7 @@ const s39 = (p) => {
         <path d="M-120,-20 C-90,-70 40,-70 110,-40 C140,-10 110,40 40,50 C-40,60 -110,30 -120,-20Z" fill="#8b3a3a" stroke={C.gold} strokeWidth={6} />
         {[...Array(10)].map((_, k) => { const a = t * 2 + k * 0.63; return <circle key={k} cx={Math.cos(a) * (150 + 20 * Math.sin(t * 3 + k))} cy={Math.sin(a) * 90} r={6} fill={C.gold} filter="url(#glow)" />; })}
       </g>
-      <Pill x={960} y={860} text="HÍGADO: PURA ENERGÍA" s={pop(t, d * 0.68)} />
+      <Pill x={960} y={330} text="HÍGADO: PURA ENERGÍA" s={pop(t, d * 0.68)} />
     </Stage>
   );
 };
@@ -306,7 +306,7 @@ const s46 = (p) => {
       {u > 0 && u < 1 && <Shark x={x} y={y} s={0.9} rot={rot} t={t} seed={45} speed={1.6} tint="#24313f" />}
       <Splash x={760} y={620} t={t} t0={tb - 0.8} power={1.1} seed={46} />
       <Splash x={1180} y={620} t={t} t0={tb + 1.6} power={0.9} seed={47} />
-      <Txt x={960} y={980} size={64} color={C.gold} s={pop(t, d * 0.75)}>PROTEJAMOS AL TIBURÓN BLANCO</Txt>
+      <Txt x={960} y={230} size={64} color={C.gold} s={pop(t, d * 0.75)}>PROTEJAMOS AL TIBURÓN BLANCO</Txt>
     </Stage>
   );
 };

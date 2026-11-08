@@ -117,7 +117,7 @@ const s04 = (p) => {
       <g opacity={box}><rect x={420} y={460} width={170} height={160} fill="#7f8c8d" stroke="#2c3e50" strokeWidth={5} transform={`rotate(${3 * Math.sin(t * 8)} 505 540)`} />{eddies}
         <Pill x={505} y={380} text="RESISTENCIA" color={C.red} size={30} s={pop(t, 0.6)} /></g>
       <Shark x={lerp(1500, 1250, eo(ramp(t, d * 0.3, d * 0.55)))} y={540} s={0.95} t={t} seed={10} speed={0.6} opacity={ramp(t, d * 0.28, d * 0.45)} />
-      <Pill x={1250} y={800} text="FORMA DE TORPEDO" s={pop(t, d * 0.55)} />
+      <Pill x={1250} y={330} text="FORMA DE TORPEDO" s={pop(t, d * 0.55)} />
     </Stage>
   );
 };
@@ -145,7 +145,7 @@ const s05 = (p) => {
       <g opacity={z}>
         <circle cx={960} cy={560} r={250 * z} fill="#53697e" stroke={C.gold} strokeWidth={10} />
         {den}{flow}
-        <Pill x={960} y={860} text="ESCAMAS CON FORMA DE DIENTE" size={32} s={pop(t, d * 0.62)} />
+        <Pill x={960} y={270} text="ESCAMAS CON FORMA DE DIENTE" size={32} s={pop(t, d * 0.62)} />
       </g>
     </Stage>
   );
@@ -213,7 +213,7 @@ const s08 = (p) => {
   return (
     <Stage {...p} env={{ theme: 'deep' }} cam={{ keys: [[0, 960, 540, 1.1, 0], [2.6, 960, 520, 1.4, -2], [5.3, 960, 560, 1.25, 1.5], [7.9, 1080, 560, 1.6, -1], [10.5, 1180, 500, 1.8, 2], [d, 960, 540, 1.2, 0]] }}>
       <Shark x={960} y={500} s={1.25} t={t} seed={14} speed={0.6} heat={heat} />
-      <g opacity={ramp(t, d * 0.35, d * 0.45)}>{vessels}<Pill x={950} y={830} text="RED DE VASOS QUE GUARDA CALOR" size={30} color={C.red} s={pop(t, d * 0.4)} /></g>
+      <g opacity={ramp(t, d * 0.35, d * 0.45)}>{vessels}<Pill x={950} y={250} text="RED DE VASOS QUE GUARDA CALOR" size={30} color={C.red} s={pop(t, d * 0.4)} /></g>
       {parts.map(([n, x, y, fr], k) => <g key={k}><Ring x={x} y={y} t={t} t0={d * fr} dur={1} maxR={110} color={C.gold} /><Pill x={x} y={y - 150 - k * 20} text={n} size={30} s={pop(t, d * fr)} /></g>)}
       {[[330, '#4b9bff', 0.15, 'AGUA 15°C'], [1540, '#ff4b4b', 0.62, 'CUERPO 26°C']].map(([x, c, v, lb], k) => (
         <g key={k} transform={`translate(${x} 300)`}><rect x={-22} y={0} width={44} height={280} rx={22} fill="#fff" opacity={0.85} /><circle cy={300} r={40} fill={c} />
