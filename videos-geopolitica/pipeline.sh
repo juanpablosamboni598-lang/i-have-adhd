@@ -3,14 +3,16 @@
 cd /home/user/i-have-adhd/videos-geopolitica
 log(){ echo "[$(date -u +%H:%M)] $*"; }
 # voz en cadena (v16 y v17 cuando termine la anterior)
-( while pgrep -f "chatter.py v15" >/dev/null; do sleep 30; done
+( /home/user/tools/tts-venv/bin/python tts/chatter.py v15 >> v15/tts.log 2>&1
   /home/user/tools/tts-venv/bin/python tts/chatter.py v16 > v16/tts.log 2>&1
   /home/user/tools/tts-venv/bin/python tts/chatter.py v17 > v17/tts.log 2>&1 ) &
 # v14
+if [ ! -f v14/depredadores.mp4 ]; then
 while [ $(ls v14/render2/e*.mp4 2>/dev/null | wc -l) -lt 46 ] || pgrep -f "build14 T" >/dev/null; do sleep 30; done
 log "v14 render listo"
 RENDER=render2 VBITRATE=1450k ./ensamblar_cartoon.sh v14 depredadores.mp4 1 && python3 qc_video.py v14/depredadores.mp4 v14/timeline.json > v14/qc.txt
 log "v14 ensamblado: $(cat v14/qc.txt | tr '\n' ' ')"
+fi
 declare -A NAME=( [15]=tardigrado [16]=mariquitas [17]=ajolote ) ; declare -A KEY=( [15]=2 [16]=-1 [17]=3 )
 for v in 15 16 17; do
   N=$(python3 -c "import json;print(len(json.load(open('v$v/escenas.json'))))")
