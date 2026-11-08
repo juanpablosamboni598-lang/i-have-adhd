@@ -21,7 +21,7 @@ así. Hoy vamos a ver siete. Y el número seis convierte a un cazador temido en 
 Sin logo ni saludo. El cocodrilo con la cinta abre el video (coincide con la miniatura).
 
 ## A · Retención: re-gancho cada 60–90 s, un solo tema, sin relleno
-Duración objetivo: 10–11 min (~1.600 palabras). Siete bloques de ~80 s, cada uno con: el poder (lo que lo
+Duración objetivo: ~7,5–8 min (~1.200 palabras; sin relleno, mínimo del canal 7 min). Siete bloques de ~60 s, cada uno con: el poder (lo que lo
 hace temido) → el giro (el punto débil) → la prueba visual → re-gancho hacia el siguiente.
 
 ## I · Iterar: los tres números a revisar en Studio (no se inventan)
@@ -44,6 +44,7 @@ Todos los súper depredadores tienen un punto débil así: algo que, si lo conoc
 Empecemos por él. El cocodrilo de agua salada es el reptil más grande del mundo: puede superar los seis metros y la tonelada de peso.
 Su mordida es una de las más fuertes jamás medidas, más de tres mil kilos de presión. Puede partir el caparazón de una tortuga como si fuera una nuez.
 Pero aquí está el truco: casi toda esa fuerza sirve para cerrar la boca. Los músculos que la abren son pequeños y débiles. Por eso los investigadores, para medirlo o moverlo, le sostienen el hocico con las manos o con unas vueltas de cinta.
+Y hay más: el cocodrilo no puede masticar. Para comer una presa grande, la sujeta y gira sobre sí mismo una y otra vez hasta arrancar un pedazo. Es el famoso giro de la muerte.
 Su arma más temida solo funciona en una dirección.
 Y el siguiente depredador tiene el problema contrario: tiene el arranque más rápido de la Tierra, pero no puede mantenerlo.
 
@@ -52,12 +53,14 @@ El guepardo es el animal terrestre más veloz. En unos tres segundos pasa de est
 Para lograrlo, todo su cuerpo es una máquina de correr: patas largas, una columna que se dobla como un resorte y una cola que funciona como timón en las curvas.
 Pero esa carrera tiene un precio enorme. Su temperatura sube tan rápido que solo puede correr unos veinte o treinta segundos. Después tiene que parar, jadeando, durante varios minutos.
 Y ese es justo el momento más peligroso: agotado, no puede defender su presa. Leones, hienas y leopardos aprovechan para robársela. Un guepardo puede perder una buena parte de lo que caza.
+Y sus crías lo tienen todavía más difícil: en algunas reservas de África, la gran mayoría de los cachorros de guepardo no llega a ser adulto, porque leones y hienas los atacan cuando la madre sale a cazar.
 El más rápido no es el más fuerte. Y hablando de fuerza: el rey de la sabana tiene un secreto que casi nadie conoce.
 
 **4. El león (3:05)**
 El león es el gran depredador de África. Un macho puede pesar más de doscientos kilos, y su rugido se oye a ocho kilómetros.
 Pero tiene un problema escondido en el pecho: su corazón es pequeño para su tamaño. Eso le da muy poca resistencia. Puede dar un salto explosivo y correr unos metros a toda velocidad, pero se cansa enseguida.
 Por eso los leones necesitan acercarse muchísimo antes de atacar, y por eso cazan en grupo, rodeando a la presa. Aun así, la mayoría de sus intentos de caza fracasan.
+Y aunque el macho tenga la fama, son las leonas las que hacen casi toda la caza. Los machos suelen llegar después, a comer primero.
 Y pasan hasta veinte horas al día descansando, para ahorrar energía.
 El siguiente depredador también pasa mucho tiempo quieto, pero por una razón muy distinta: está ocupado comiendo.
 
@@ -65,6 +68,7 @@ El siguiente depredador también pasa mucho tiempo quieto, pero por una razón m
 La anaconda verde es la serpiente más pesada del mundo. Caza por sorpresa desde el agua: se enrolla alrededor de su presa y aprieta con cada respiración que esta suelta.
 Puede tragarse animales enteros, como capibaras, ciervos e incluso caimanes, gracias a una mandíbula que se estira como una goma.
 Pero después de una comida grande, la cazadora se vuelve lenta y pesada. Puede tardar días o semanas en digerir, y durante ese tiempo apenas puede moverse ni defenderse.
+Y tragarse a una presa viva tiene otro riesgo: si el animal se defiende con cuernos o garras, puede herir a la serpiente desde dentro o mientras la traga.
 Su mayor victoria la deja en su momento más vulnerable.
 Ahora vamos al lugar más frío del planeta, con un depredador cuyo problema es… el calor.
 
@@ -72,7 +76,8 @@ Ahora vamos al lugar más frío del planeta, con un depredador cuyo problema es�
 El oso polar es el carnívoro terrestre más grande. Un macho puede superar los seiscientos kilos y oler una foca a más de un kilómetro, incluso bajo la nieve.
 Está diseñado para el frío extremo: una capa gruesa de grasa, pelaje denso y piel negra que absorbe el calor del sol.
 Pero esa armadura contra el frío es también su debilidad. Si corre mucho, se sobrecalienta rápidamente. Por eso caza esperando, quieto junto a un agujero en el hielo, a que una foca salga a respirar.
-Y ahí está su segundo punto débil: necesita el hielo marino para cazar. Cuando el hielo se derrite cada vez más temprano, el oso pasa más tiempo sin poder comer.
+Aunque parezca blanco, su pelo en realidad es transparente y hueco, y su piel es negra para atrapar cada rayo de sol.
+Y ahí está su segundo punto débil: necesita el hielo marino para cazar. Cuando el hielo se derrite cada vez más temprano, el oso pasa más tiempo sin poder comer. En verano, algunos sobreviven meses casi sin alimento, viviendo de su grasa.
 Y ahora, el número seis. Un cazador que conocemos muy bien, y que tiene un interruptor secreto.
 
 **7. El tiburón blanco (6:55)**
@@ -84,7 +89,7 @@ Y eso nos lleva al número siete. Porque la orca, el depredador que caza tiburon
 
 **8. La orca (8:10)**
 La orca es el verdadero rey del océano. Caza ballenas, focas y tiburones, y no tiene rival: nadie la caza a ella.
-Su arma secreta es la familia: viven en grupos muy unidos, dirigidos por las hembras mayores, que enseñan a las más jóvenes técnicas de caza que pasan de generación en generación.
+Su arma secreta es la familia: viven en grupos muy unidos, dirigidos por las hembras mayores, que enseñan a las más jóvenes técnicas de caza que pasan de generación en generación. Igual que los humanos, las hembras de orca viven muchos años después de dejar de tener crías, y esas abuelas guían a la familia hacia la comida en los años difíciles.
 Pero esa misma fortaleza es su punto débil. Muchas familias solo comen un tipo de presa, y si esa presa escasea, no cambian de menú: pasan hambre.
 Además, al estar en lo más alto de la cadena alimenticia, acumulan en su grasa toda la contaminación que hay en el mar, y eso puede afectar a sus crías.
 
