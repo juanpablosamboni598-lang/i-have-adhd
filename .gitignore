@@ -3,3 +3,6 @@ __pycache__/
 *.py[cod]
 evals/results/
 videos-geopolitica/*/miniatura.png
+videos-geopolitica/*/tts.log
+videos-geopolitica/pipeline.log
+videos-geopolitica/*/qc.txt
