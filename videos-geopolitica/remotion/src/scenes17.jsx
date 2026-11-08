@@ -335,5 +335,27 @@ S.cierre = (p) => { const { t } = p; const d = D(p); const tc = d * 0.3;
       <Txt x={960} y={250} size={50} color={C.gold} s={pop(t, d * 0.5)}>¿QUÉ ANIMAL SIGUE?</Txt>
     </Stage>); };
 
-export const ORDER17 = ['apertura', 'titulo', 'anfibio', 'cuerpo', 'branquias', 'pulmones', 'colores', 'caza', 'huevos', 'puente_bebe', 'metamorfosis', 'neotenia', 'tiroides', 'puente_regen', 'pata', 'reconstruye', 'organos', 'humano', 'genoma', 'puente_hogar', 'xochimilco', 'chinampas', 'ciudad', 'invasores', 'censo', 'peligro', 'puente_cultura', 'xolotl', 'billete', 'refugios', 'ayudar', 'resumen', 'cierre'];
+S.nocturno = (p) => { const { t } = p; const d = D(p);
+  const night = ramp(t, d * 0.4, d * 0.6);
+  return (
+    <Stage {...p} env={canal({ t, seed: 27 })} light={(tt) => 1 - 0.5 * ramp(tt, d * 0.4, d * 0.6)} cam={{ keys: [[0, 900, 680, 1.4, -1], [2.6, 960, 660, 1.2, 2], [5.2, 1050, 640, 1.5, -2], [7.8, 1100, 620, 1.3, 1], [d, 1000, 640, 1.2, 0]] }}>
+      <Mud t={t} y={900} />
+      <Axo x={lerp(820, 1300, ramp(t, d * 0.6, d))} y={lerp(860, 700, ramp(t, d * 0.6, d * 0.75))} s={0.9} t={t} swim={night} opacity={0.5 + 0.5 * night} />
+      {[...Array(8)].map((_, k) => <path key={k} d={`M${700 + k * 40},900 q${10 * Math.sin(t + k)},-80 0,-160`} stroke="#3f7a3a" strokeWidth={12} fill="none" />)}
+      <circle cx={1600 - 200 * night} cy={lerp(400, 140, night)} r={60} fill={night > 0.5 ? '#e8eef7' : '#fff2c4'} opacity={0.6} />
+      <Pill x={960} y={300} text={night > 0.5 ? 'SALE DE NOCHE' : 'ESCONDIDO DE DÍA'} color={night > 0.5 ? C.purple : C.gold} size={30} s={pop(t, night > 0.5 ? d * 0.6 : 0.5)} />
+    </Stage>); };
+
+S.macrofagos = (p) => { const { t } = p; const d = D(p);
+  const removed = ramp(t, d * 0.55, d * 0.65);
+  return (
+    <Stage {...p} env={{ theme: 'dark', rays: false, fish: false }} cam={{ keys: [[0, 900, 600, 1.4, -1], [2.6, 860, 620, 1.9, 2], [5.2, 960, 600, 1.4, -2], [7.8, 1100, 600, 1.6, 1], [d, 1000, 600, 1.3, 0]] }}>
+      <Axo x={960} y={560} s={1.6} t={t} missing={removed > 0.5 ? 1 : 1 - ramp(t, 1, d * 0.5)} opacity={0.8} />
+      {[...Array(8)].map((_, k) => { const a = k * 0.8 + t; return <g key={k} opacity={1 - removed}><circle cx={864 + Math.cos(a) * 60} cy={614 + Math.sin(a) * 40} r={16} fill="#7ee081" stroke="#2a6a3a" strokeWidth={3} /><circle cx={864 + Math.cos(a) * 60 + 4} cy={614 + Math.sin(a) * 40 - 4} r={5} fill="#2a6a3a" /></g>; })}
+      {removed > 0.5 && <path d="M830,620 L900,620" stroke="#c0605a" strokeWidth={14} strokeLinecap="round" />}
+      <Pill x={700} y={300} text="MACRÓFAGOS" color={C.green} size={32} s={pop(t, d * 0.15)} />
+      <Pill x={1250} y={300} text="SIN ELLOS: CICATRIZ" color={C.red} size={30} s={pop(t, d * 0.68)} />
+    </Stage>); };
+
+export const ORDER17 = ['apertura', 'titulo', 'anfibio', 'cuerpo', 'branquias', 'pulmones', 'colores', 'caza', 'huevos', 'nocturno', 'puente_bebe', 'metamorfosis', 'neotenia', 'tiroides', 'puente_regen', 'pata', 'reconstruye', 'macrofagos', 'organos', 'humano', 'genoma', 'puente_hogar', 'xochimilco', 'chinampas', 'ciudad', 'invasores', 'censo', 'peligro', 'puente_cultura', 'xolotl', 'billete', 'refugios', 'ayudar', 'resumen', 'cierre'];
 export const S17 = S;

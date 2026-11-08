@@ -131,6 +131,21 @@
   ]
  },
  {
+  "tipo": "nocturno",
+  "titulo": "Un cazador nocturno",
+  "texto": "Es un animal tranquilo y solitario. Pasa buena parte del día escondido entre las plantas y el lodo del fondo, y al caer la noche sale a buscar comida. Por eso, aunque viva en canales llenos de gente, casi nadie lo ve.",
+  "sfx": [
+   [
+    0.4,
+    "misterio"
+   ],
+   [
+    0.7,
+    "burbujas"
+   ]
+  ]
+ },
+ {
   "tipo": "puente_bebe",
   "titulo": "Un bebé eterno",
   "texto": "Y aquí viene el primer secreto: el ajolote nunca crece del todo.",
@@ -224,6 +239,21 @@
    [
     0.7,
     "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "macrofagos",
+  "titulo": "Los guardianes de la herida",
+  "texto": "Un detalle clave: en la herida aparecen unas células del sistema inmune llamadas macrófagos, que limpian y dan las órdenes de reparación. En un experimento, cuando los científicos las eliminaron, el ajolote ya no pudo regenerar su pata y formó una cicatriz, como nosotros.",
+  "sfx": [
+   [
+    0.3,
+    "electrico"
+   ],
+   [
+    0.7,
+    "fallo"
    ]
   ]
  },
