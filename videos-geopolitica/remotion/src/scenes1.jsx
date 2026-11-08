@@ -73,26 +73,26 @@ const s03 = (p) => {
   const { t } = p; const d = p.frames / 30;
   const shx = lerp(1500, 1050, eo(t / (d * 0.35)));
   const tape = eo(ramp(t, d * 0.25, d * 0.45));
-  const truckX = lerp(-600, 1020, eo(ramp(t, d * 0.45, d * 0.62)));
+  const truckX = lerp(-600, 700, eo(ramp(t, d * 0.45, d * 0.62)));
   const wheel = t * 400;
   return (
     <Stage {...p} env={{ theme: 'blue', seabed: 900 }} cam={{ focus: (tt) => [lerp(700, 1000, ramp(tt, 0, d * 0.4)), 560], zamt: 0.7 }}>
       <Diver x={360} y={560} s={1.1} t={t} point={ramp(t, 1.5, 2.5)} />
       <Shark x={shx} y={520} s={1.05} t={t} seed={9} speed={0.7} />
       <Shadow x={shx} groundY={900} y={520} size={330} />
-      <g opacity={tape > 0 ? 1 : 0}>
-        <rect x={shx - 420} y={668} width={760 * tape} height={34} fill="#f5d000" stroke="#7a6500" strokeWidth={3} />
+      <g opacity={tape > 0 ? 1 - ramp(t, d * 0.45, d * 0.52) : 0}>
+        <rect x={shx - 420} y={668 + 0} width={760 * tape} height={34} fill="#f5d000" stroke="#7a6500" strokeWidth={3} />
         {[...Array(7)].map((_, k) => k / 6 <= tape + 0.001 && <g key={k}><line x1={shx - 420 + k * 126.7} y1={668} x2={shx - 420 + k * 126.7} y2={692} stroke="#000" strokeWidth={4} /><text x={shx - 420 + k * 126.7 + 6} y={699} fontFamily={FONT} fontWeight={900} fontSize={18}>{k}</text></g>)}
       </g>
-      <Counter x={shx - 40} y={790} t={t} t0={d * 0.25} t1={d * 0.45} v1={6} size={90} color={C.gold} suffix=" m" />
+      {t < d * 0.5 && <Counter x={shx - 40} y={640} t={t} t0={d * 0.25} t1={d * 0.45} v1={6} size={90} color={C.gold} suffix=" m" />}
       <g transform={`translate(${truckX} 860)`} opacity={0.9}>
         <rect x={-240} y={-110} width={330} height={90} rx={12} fill="#c0392b" stroke="#5a1a14" strokeWidth={4} />
         <path d="M90,-20 L90,-110 L170,-110 L220,-60 L220,-20Z" fill="#c0392b" stroke="#5a1a14" strokeWidth={4} />
         <rect x={110} y={-100} width={60} height={36} fill="#9fe3ff" />
         {[-160, 140].map((wx, k) => <g key={k} transform={`translate(${wx} -15) rotate(${wheel})`}><circle r={34} fill="#222" /><rect x={-4} y={-26} width={8} height={52} fill="#999" /></g>)}
-        <Pill x={0} y={-160} text="MÁS QUE UNA CAMIONETA" size={30} color={C.cyan} s={pop(t, d * 0.6)} />
+        <Pill x={0} y={-150} text="MÁS QUE UNA CAMIONETA" size={30} color={C.cyan} s={pop(t, d * 0.6)} />
       </g>
-      <g transform={`translate(1580 300)`}>
+      <g transform={`translate(1350 230)`}>
         <Pill x={0} y={0} text="≈ 2 TONELADAS" color={C.red} s={pop(t, d * 0.78)} rot={-3 + 3 * Math.sin(t * 2)} />
         {[...Array(4)].map((_, k) => <rect key={k} x={-120 + k * 62} y={60 - eo(ramp(t, d * 0.8 + k * 0.12, d * 0.86 + k * 0.12)) * 0 + (1 - eo(ramp(t, d * 0.8 + k * 0.12, d * 0.9 + k * 0.12))) * -300} width={54} height={54} rx={6} fill="#56606d" stroke="#222" strokeWidth={3} opacity={ramp(t, d * 0.8 + k * 0.12, d * 0.82 + k * 0.12)} />)}
       </g>

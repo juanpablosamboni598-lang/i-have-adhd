@@ -159,7 +159,7 @@ const s22 = (p) => {
       <g opacity={ramp(t, d * 0.25, d * 0.35)} transform={`translate(${640 + 90} ${500 + 40})`}>
         <circle r={95} fill="none" stroke={C.gold} strokeWidth={10} /><line x1={68} y1={68} x2={150} y2={150} stroke={C.gold} strokeWidth={18} strokeLinecap="round" />
       </g>
-      <Pill x={640} y={200} text="BORDES ASERRADOS" s={pop(t, d * 0.3)} />
+      <Pill x={1000} y={380} text="BORDES ASERRADOS" s={pop(t, d * 0.3)} />
       <g transform="translate(1320 560)">
         <path d={`M-200,0 C-150,-90 150,-90 200,0 C150,90 -150,90 -200,0Z`} fill="#f2a28c" stroke="#a05a48" strokeWidth={5} transform={`translate(0 ${cut * 40}) `} clipPath="" />
         <g transform={`translate(0 ${-cut * 50}) rotate(${-cut * 8})`}><path d="M-200,0 C-150,-90 150,-90 200,0Z" fill="#f2a28c" stroke="#a05a48" strokeWidth={5} /></g>
