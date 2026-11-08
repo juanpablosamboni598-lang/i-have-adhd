@@ -1,0 +1,473 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Le vuelve a crecer",
+  "texto": "Si pierde una pata, le vuelve a crecer. Si se daña la médula espinal, la repara. Puede regenerar partes de su corazón, de su cerebro y de sus ojos. Y además parece que siempre está sonriendo.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "El ajolote",
+  "texto": "Es el ajolote, uno de los animales más extraordinarios del planeta. Hoy vamos a ver, paso a paso, cómo funciona su superpoder, por qué parece un bebé eterno, y por qué está a punto de desaparecer.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "anfibio",
+  "titulo": "Un anfibio",
+  "texto": "Aunque lo llamen pez caminante, el ajolote no es un pez. Es un anfibio, pariente de las salamandras y de las ranas.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuerpo",
+  "titulo": "Cómo es",
+  "texto": "Tiene cuatro patas cortas con dedos finos, una cola larga con una aleta que le recorre la espalda, y una cabeza ancha con ojos pequeños y una boca que parece una sonrisa.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "branquias",
+  "titulo": "Sus plumas",
+  "texto": "Pero lo que más llama la atención son esas plumas que salen de los lados de su cabeza. No son adornos: son branquias. Tres a cada lado, llenas de vasos sanguíneos, que toman el oxígeno del agua.",
+  "sfx": [
+   [
+    0.3,
+    "burbujas"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pulmones",
+  "titulo": "También pulmones",
+  "texto": "Y por si fuera poco, también tiene pulmones. De vez en cuando sube a la superficie a tomar un poco de aire. Incluso puede respirar a través de su piel.",
+  "sfx": [
+   [
+    0.4,
+    "burbujas"
+   ],
+   [
+    0.7,
+    "gota"
+   ]
+  ]
+ },
+ {
+  "tipo": "colores",
+  "titulo": "Sus colores",
+  "texto": "En la naturaleza, los ajolotes son de color oscuro, verdoso o marrón, para camuflarse en el fondo de los canales. Los rosados o blancos que ves en fotos son variedades criadas en acuarios y laboratorios.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "caza",
+  "titulo": "Cómo caza",
+  "texto": "Es un cazador paciente. Se queda quieto en el fondo y, cuando pasa un gusano, un insecto o un pez pequeño, abre la boca de golpe y lo succiona como una aspiradora.",
+  "sfx": [
+   [
+    0.4,
+    "swish"
+   ],
+   [
+    0.6,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "huevos",
+  "titulo": "Cientos de huevos",
+  "texto": "Para reproducirse, la hembra pone cientos de huevos, uno por uno, pegados a plantas y piedras del fondo. En unas dos semanas nacen larvas diminutas que ya saben cazar. En buenas condiciones, un ajolote puede vivir de diez a quince años.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_bebe",
+  "titulo": "Un bebé eterno",
+  "texto": "Y aquí viene el primer secreto: el ajolote nunca crece del todo.",
+  "sfx": [
+   [
+    0.5,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "metamorfosis",
+  "titulo": "La metamorfosis",
+  "texto": "La mayoría de las salamandras nacen en el agua como larvas con branquias, y después sufren una metamorfosis: pierden las branquias, desarrollan pulmones más fuertes y salen a vivir a tierra firme.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "neotenia",
+  "titulo": "Neotenia",
+  "texto": "El ajolote no. Se queda toda su vida con la forma de larva: con sus branquias, su aleta y su vida en el agua. Pero aun así crece, madura y puede tener crías. A esto se le llama neotenia: ser adulto con cuerpo de bebé.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiroides",
+  "titulo": "Una hormona",
+  "texto": "La razón está en sus hormonas. Su cuerpo produce muy poca de la hormona que activa la metamorfosis. En laboratorio, si se le da esa hormona, el ajolote puede transformarse en una salamandra terrestre, aunque eso suele acortar su vida.",
+  "sfx": [
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.7,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_regen",
+  "titulo": "Su superpoder",
+  "texto": "Pero su secreto más famoso es otro: la regeneración.",
+  "sfx": [
+   [
+    0.5,
+    "whoosh_largo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pata",
+  "titulo": "Una pata nueva",
+  "texto": "Si un ajolote pierde una pata, en el lugar de la herida se forma un pequeño grupo de células llamado blastema. Esas células vuelven a un estado casi de inicio, como si olvidaran qué eran, y empiezan a construir todo de nuevo.",
+  "sfx": [
+   [
+    0.3,
+    "corte"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "reconstruye",
+  "titulo": "Hueso por hueso",
+  "texto": "En unas semanas, aparece una pata completa: con huesos, músculos, nervios, piel y hasta los dedos, todo en su lugar. Y no queda cicatriz. Puede hacerlo una y otra vez.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "organos",
+  "titulo": "Órganos enteros",
+  "texto": "Y no solo las patas. Puede regenerar la cola, la médula espinal, partes del corazón, del cerebro, de los ojos y de otros órganos. Incluso acepta trasplantes de otros ajolotes sin rechazarlos con facilidad.",
+  "sfx": [
+   [
+    0.3,
+    "latido"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "humano",
+  "titulo": "¿Y nosotros?",
+  "texto": "Nosotros, en cambio, cuando nos cortamos formamos una cicatriz. Podemos regenerar un poco el hígado y la piel, pero nunca un dedo completo. Por eso los científicos estudian al ajolote: quieren entender cómo lo hace para, algún día, ayudar a curar heridas y lesiones en personas.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "genoma",
+  "titulo": "Un genoma gigante",
+  "texto": "Para eso necesitaban leer su ADN. Y se llevaron una sorpresa: el genoma del ajolote es enorme, unas diez veces más grande que el nuestro. Fue uno de los genomas animales más difíciles de descifrar.",
+  "sfx": [
+   [
+    0.4,
+    "zoom"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_hogar",
+  "titulo": "Su único hogar",
+  "texto": "Pero con todo su poder, el ajolote tiene un gran problema: su hogar.",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "xochimilco",
+  "titulo": "Xochimilco",
+  "texto": "En estado salvaje, el ajolote mexicano vive en un solo lugar del mundo: los canales de Xochimilco, al sur de la Ciudad de México. Son los restos de un enorme sistema de lagos que existía cuando se fundó la ciudad.",
+  "sfx": [
+   [
+    0.3,
+    "chapoteo"
+   ],
+   [
+    0.7,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "chinampas",
+  "titulo": "Las chinampas",
+  "texto": "Allí, desde hace siglos, la gente cultiva en chinampas: pequeñas islas de tierra rodeadas de canales. Entre esas islas, el agua tranquila y fría era el lugar perfecto para el ajolote.",
+  "sfx": [
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "ciudad",
+  "titulo": "La ciudad crece",
+  "texto": "Pero la ciudad creció. Los lagos se secaron, el agua de los canales se contaminó con desechos y las orillas se llenaron de casas.",
+  "sfx": [
+   [
+    0.3,
+    "motor"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "invasores",
+  "titulo": "Peces invasores",
+  "texto": "Y llegaron peces que no eran de allí, como las carpas y las tilapias. Se comen los huevos y las crías de los ajolotes, y compiten por su comida.",
+  "sfx": [
+   [
+    0.3,
+    "mordida"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "censo",
+  "titulo": "Cada vez menos",
+  "texto": "Los números son alarmantes. A finales de los años noventa se calculaban unos seis mil ajolotes por kilómetro cuadrado. Unos quince años después, los estudios encontraron menos de cuarenta.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "peligro",
+  "titulo": "En peligro crítico",
+  "texto": "Hoy el ajolote está en peligro crítico de extinción en la naturaleza. Paradójicamente, hay miles en acuarios y laboratorios del mundo, pero en su hogar casi no quedan.",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_cultura",
+  "titulo": "Un símbolo de México",
+  "texto": "Y su historia no es solo biológica. El ajolote es un símbolo de México desde hace siglos.",
+  "sfx": [
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "xolotl",
+  "titulo": "El dios Xólotl",
+  "texto": "Según una leyenda mexica, el dios Xólotl no quería ser sacrificado y escapó transformándose en distintas criaturas. La última fue un ajolote, que se escondió en el agua. De ahí viene su nombre, que en náhuatl se relaciona con monstruo de agua.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "billete",
+  "titulo": "En los billetes",
+  "texto": "Hoy aparece en el billete de cincuenta pesos, en murales, en juguetes y en videojuegos. Se ha convertido en una estrella. Pero la fama no basta para salvarlo.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "refugios",
+  "titulo": "Refugios en los canales",
+  "texto": "Por eso, científicos y agricultores de Xochimilco crearon refugios: canales protegidos con filtros que limpian el agua y barreras que impiden el paso de peces invasores. Los agricultores que cuidan el agua cultivan sin químicos y venden sus productos con un sello especial.",
+  "sfx": [
+   [
+    0.3,
+    "brillo"
+   ],
+   [
+    0.7,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "ayudar",
+  "titulo": "Cómo ayudar",
+  "texto": "Si visitas Xochimilco, puedes apoyar a esos proyectos. Y si tienes un ajolote de acuario, nunca lo sueltes en un río: podría traer enfermedades a los salvajes.",
+  "sfx": [
+   [
+    0.4,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "Lo que aprendimos",
+  "texto": "Un anfibio con plumas que son branquias, que se queda bebé para siempre, que reconstruye patas y órganos, y que vive en un solo lugar del planeta. El ajolote podría enseñarnos a curar heridas. Pero primero, tenemos que salvarlo.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Tu turno",
+  "texto": "Si te gustó, suscríbete y activa la campanita. Y cuéntame en los comentarios qué otro animal increíble quieres que expliquemos paso a paso.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]

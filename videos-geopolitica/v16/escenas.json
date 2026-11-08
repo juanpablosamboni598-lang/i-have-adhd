@@ -1,0 +1,554 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Una cazadora tierna",
+  "texto": "Parece el insecto más tierno del mundo: redondita, roja, con puntitos negros. Pero en realidad es una cazadora implacable que puede comerse miles de insectos a lo largo de su vida.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "La mariquita",
+  "texto": "Hoy vamos a ver, paso a paso, cómo vive la mariquita: cómo caza, cómo se defiende, por qué es roja, y cómo una sola especie salvó a toda una industria en Estados Unidos.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "escarabajo",
+  "titulo": "Es un escarabajo",
+  "texto": "Lo primero: la mariquita no es una mosca ni una araña. Es un escarabajo. Y como todos los escarabajos, tiene dos pares de alas.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "alas",
+  "titulo": "Dos pares de alas",
+  "texto": "Las de arriba son duras, como un caparazón: son esas tapas rojas con puntos, llamadas élitros. Debajo, plegadas como un origami, esconde unas alas finas y transparentes, que son las que usa para volar.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "despegue",
+  "titulo": "El despegue",
+  "texto": "Cuando quiere volar, abre el caparazón, despliega las alas de abajo en una fracción de segundo y despega. Al aterrizar, las vuelve a doblar con mucho cuidado y las guarda.",
+  "sfx": [
+   [
+    0.3,
+    "swish"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "patas",
+  "titulo": "Patas pegajosas",
+  "texto": "Y para caminar por cualquier superficie, incluso por un vidrio vertical, tiene las patas cubiertas de pelitos diminutos que sueltan un líquido pegajoso. Así se sostiene boca abajo en una hoja sin caerse, aunque haya viento.",
+  "sfx": [
+   [
+    0.4,
+    "click"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "especies",
+  "titulo": "Miles de especies",
+  "texto": "Existen unas seis mil especies de mariquitas en el mundo. No todas son rojas: las hay amarillas, naranjas, negras con puntos rojos, e incluso algunas sin ningún punto.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "nombre",
+  "titulo": "Muchos nombres",
+  "texto": "Y tiene muchos nombres. En algunos países la llaman catarina, chinita, vaquita de San Antonio o san antonio. Pero siempre hablamos del mismo pequeño escarabajo.",
+  "sfx": [
+   [
+    0.4,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "origen_nombre",
+  "titulo": "El origen del nombre",
+  "texto": "En inglés la llaman el pájaro de Nuestra Señora. Según una historia popular, en la Edad Media los campesinos rezaron a la Virgen para salvar sus cosechas de una plaga, y aparecieron estos escarabajos que se comieron a los insectos. Desde entonces, se ganaron fama de traer buena suerte.",
+  "sfx": [
+   [
+    0.4,
+    "campana"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_caza",
+  "titulo": "La cazadora",
+  "texto": "Ahora, lo más importante: ¿qué come?",
+  "sfx": [
+   [
+    0.5,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "pulgones",
+  "titulo": "Pulgones",
+  "texto": "Su comida favorita son los pulgones, unos insectos diminutos que chupan la savia de las plantas. Se reproducen tan rápido que pueden cubrir un rosal o un cultivo entero en pocos días.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "gota"
+   ]
+  ]
+ },
+ {
+  "tipo": "plaga",
+  "titulo": "Una plaga",
+  "texto": "Los pulgones debilitan las plantas, deforman sus hojas y transmiten enfermedades. Para un agricultor, son una pesadilla.",
+  "sfx": [
+   [
+    0.4,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "apetito",
+  "titulo": "Un apetito enorme",
+  "texto": "Y ahí entra la mariquita. Una sola adulta puede comerse unos cincuenta pulgones al día, y varios miles a lo largo de su vida. Es como tener un pequeño ejército trabajando gratis en tu jardín.",
+  "sfx": [
+   [
+    0.3,
+    "mordida"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "busca",
+  "titulo": "Cómo los encuentra",
+  "texto": "Para encontrarlos, la mariquita usa sus antenas, que detectan el olor de las plantas atacadas por pulgones. Cuando llega, revisa hoja por hoja.",
+  "sfx": [
+   [
+    0.4,
+    "olfatear"
+   ]
+  ]
+ },
+ {
+  "tipo": "menu",
+  "titulo": "Un menú variado",
+  "texto": "Y no solo come pulgones. Según la especie, también se alimenta de cochinillas, ácaros, huevos de otros insectos e incluso de polen y de hongos que crecen en las hojas.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_larva",
+  "titulo": "Su lado más extraño",
+  "texto": "Pero si crees que la mariquita adulta es buena cazadora, espera a ver a sus crías.",
+  "sfx": [
+   [
+    0.5,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "huevos",
+  "titulo": "Los huevos",
+  "texto": "La hembra pone grupos de pequeños huevos amarillos justo al lado de una colonia de pulgones. Así, cuando nazcan, tendrán comida de inmediato.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "larva",
+  "titulo": "La larva",
+  "texto": "De los huevos no salen mariquitas pequeñitas, sino larvas alargadas, oscuras y con espinas, que parecen pequeños caimanes. Mucha gente las ve en su jardín y las mata, sin saber que son mariquitas bebé.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "larva_come",
+  "titulo": "Una larva hambrienta",
+  "texto": "Y son todavía más voraces que los adultos: una larva puede comerse cientos de pulgones antes de convertirse en adulta.",
+  "sfx": [
+   [
+    0.4,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "pupa",
+  "titulo": "La transformación",
+  "texto": "Después de unas semanas, la larva se pega a una hoja y se convierte en pupa. Dentro, su cuerpo se transforma por completo, y unos días después sale una mariquita adulta, al principio pálida y blanda.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "color_aparece",
+  "titulo": "El color aparece",
+  "texto": "En pocas horas su caparazón se endurece y aparecen los colores y los puntos. Todo el ciclo, de huevo a adulto, puede durar apenas un mes.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_1888",
+  "titulo": "La historia de 1888",
+  "texto": "Y ahora, la historia que convirtió a una mariquita en heroína.",
+  "sfx": [
+   [
+    0.5,
+    "whoosh_largo"
+   ]
+  ]
+ },
+ {
+  "tipo": "california",
+  "titulo": "California en peligro",
+  "texto": "A finales del siglo diecinueve, los naranjos de California estaban siendo destruidos por un insecto llegado de Australia: la cochinilla algodonosa. Se pegaba a los árboles y los secaba. Los agricultores estaban perdiendo todo.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "viaje",
+  "titulo": "Un viaje a Australia",
+  "texto": "Un entomólogo viajó hasta Australia para buscar al enemigo natural de esa plaga. Y lo encontró: una pequeña mariquita llamada vedalia, que se alimentaba justamente de esa cochinilla.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "salvados",
+  "titulo": "Huertos salvados",
+  "texto": "En mil ochocientos ochenta y ocho llevaron unos cuantos cientos de mariquitas a California y las soltaron en los huertos. En menos de dos años, la plaga estaba controlada. Fue uno de los primeros grandes éxitos del control biológico: usar un animal para combatir una plaga.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_rojo",
+  "titulo": "¿Por qué es roja?",
+  "texto": "Pero ¿por qué es tan llamativa? Un insecto pequeño y lento debería esconderse, no vestirse de rojo brillante.",
+  "sfx": [
+   [
+    0.5,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "aviso",
+  "titulo": "Una señal de peligro",
+  "texto": "Ese color es una advertencia. Le dice a los pájaros y a otros depredadores: no me comas, sé muy mal.",
+  "sfx": [
+   [
+    0.4,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "sangrado",
+  "titulo": "Su arma secreta",
+  "texto": "Y es verdad: cuando se siente atacada, la mariquita suelta por las articulaciones de sus patas unas gotitas de un líquido amarillo, de olor fuerte y sabor amargo. Además, se hace la muerta, quedándose quieta patas arriba.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "aprende",
+  "titulo": "El pájaro aprende",
+  "texto": "Un pájaro que prueba una mariquita la escupe enseguida, y aprende a no volver a intentarlo. Así, su color protege a todas las demás.",
+  "sfx": [
+   [
+    0.4,
+    "swish"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puntos",
+  "titulo": "El mito de los puntos",
+  "texto": "Y un mito muy común: los puntos no indican la edad. Una mariquita no gana puntos con los años. El número de puntos depende de su especie: hay de dos, de siete, de veintidós puntos, y algunas no tienen ninguno.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "invierno",
+  "titulo": "El invierno",
+  "texto": "Cuando llega el frío, muchas mariquitas buscan un refugio y se juntan por cientos o miles, debajo de piedras, cortezas o en grietas, para pasar el invierno casi sin moverse.",
+  "sfx": [
+   [
+    0.4,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "feromonas",
+  "titulo": "Mensajes de olor",
+  "texto": "Para encontrarse, se comunican con olores: sueltan sustancias químicas que atraen a otras mariquitas al mismo refugio. Por eso, a veces, vuelven al mismo lugar año tras año.",
+  "sfx": [
+   [
+    0.4,
+    "olfatear"
+   ]
+  ]
+ },
+ {
+  "tipo": "masas",
+  "titulo": "Montañas de mariquitas",
+  "texto": "En algunas montañas se han visto masas tan grandes que cubren rocas enteras de color rojo. En primavera, despiertan y salen volando a buscar pulgones.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_asiatica",
+  "titulo": "Un problema",
+  "texto": "Pero no todo es bonito. Hay una mariquita que se convirtió en un problema.",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "asiatica",
+  "titulo": "La mariquita asiática",
+  "texto": "La mariquita asiática fue llevada a Europa y América para controlar plagas. Funcionó, pero se extendió demasiado: es más grande, más agresiva y se come a otras mariquitas y a sus larvas.",
+  "sfx": [
+   [
+    0.3,
+    "mordida"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "nativas",
+  "titulo": "Las nativas en peligro",
+  "texto": "En muchos lugares, las mariquitas nativas han disminuido mucho desde que llegó. Es un ejemplo de que mover especies de un lugar a otro puede tener consecuencias inesperadas.",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "pesticidas",
+  "titulo": "Los pesticidas",
+  "texto": "Además, los pesticidas que se usan contra los pulgones también matan a las mariquitas. Por eso muchos agricultores prefieren cuidarlas: son más baratas y no dejan químicos en los alimentos.",
+  "sfx": [
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ayudar",
+  "titulo": "Cómo ayudarlas",
+  "texto": "Si quieres ayudarlas, planta flores en tu balcón o jardín, evita los insecticidas y, si ves una larva con forma de caimán, déjala tranquila: está trabajando para ti.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "Lo que aprendimos",
+  "texto": "Un escarabajo con alas secretas, un apetito de miles de pulgones, larvas con forma de caimán y un color que avisa del peligro. La mariquita no es solo bonita: es una de las mejores aliadas de las plantas.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Tu turno",
+  "texto": "Si te gustó, suscríbete y activa la campanita. Y cuéntame en los comentarios qué otro insecto quieres que expliquemos paso a paso.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]

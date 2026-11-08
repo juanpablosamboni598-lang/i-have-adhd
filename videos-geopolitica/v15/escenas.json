@@ -1,0 +1,528 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Medio milímetro",
+  "texto": "Mide medio milímetro. Lo puedes congelar casi hasta el cero absoluto, hervirlo, aplastarlo con una presión seis veces mayor que la del fondo del océano, e incluso lanzarlo al espacio. Y sobrevive.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "El tardígrado",
+  "texto": "Se llama tardígrado, y es probablemente el animal más resistente del planeta. Hoy vamos a ver, paso a paso, cómo lo hace. Y al final, el punto débil que casi nadie conoce.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "zoom_musgo",
+  "titulo": "Dónde vive",
+  "texto": "Para encontrarlo no necesitas viajar lejos. Toma un poco de musgo húmedo de una pared o de un árbol, ponlo bajo un microscopio, y con un poco de suerte verás a uno caminando.",
+  "sfx": [
+   [
+    0.3,
+    "zoom"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "anatomia",
+  "titulo": "Cómo es",
+  "texto": "Tiene un cuerpo gordito dividido en segmentos, y ocho patas cortas terminadas en pequeñas garras con las que se agarra a las plantas. Por eso, en 1773, un naturalista alemán lo llamó osito de agua.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "escala",
+  "titulo": "Más pequeño que un grano de sal",
+  "texto": "Para que te hagas una idea del tamaño: cabría varias veces sobre un grano de sal, y es apenas un poco más grueso que un cabello humano. Aun así, tiene cerebro, músculos, sistema digestivo y ojos diminutos.",
+  "sfx": [
+   [
+    0.4,
+    "zoom"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "come",
+  "titulo": "Qué come",
+  "texto": "Su boca tiene dos agujas finas, llamadas estiletes. Con ellas perfora las células de las plantas y de las algas, y les chupa el contenido como si fuera un jugo. Algunas especies incluso cazan animales más pequeños.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "respira",
+  "titulo": "Sin pulmones ni corazón",
+  "texto": "Y algo que sorprende: no tiene pulmones ni corazón. Es tan pequeño que el oxígeno entra directamente a través de su piel, y los líquidos de su cuerpo bañan todos sus órganos.",
+  "sfx": [
+   [
+    0.4,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "muda",
+  "titulo": "Cambia de piel",
+  "texto": "Como los insectos, cambia de piel varias veces en su vida. Y muchas especies aprovechan la piel vieja como una bolsa: ponen sus huevos dentro y la dejan como una pequeña cuna.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "crias",
+  "titulo": "Sin necesidad de pareja",
+  "texto": "En algunas especies ni siquiera hacen falta machos: las hembras pueden poner huevos que se desarrollan solos. Así, un solo tardígrado puede empezar una población nueva.",
+  "sfx": [
+   [
+    0.5,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "en_todas_partes",
+  "titulo": "En todas partes",
+  "texto": "Y están en todas partes: en la cima del Himalaya, en el fondo del mar, en los hielos de la Antártida, en los bosques tropicales y en el jardín de tu casa. Se conocen más de mil trescientas especies.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "nombre",
+  "titulo": "El que camina despacio",
+  "texto": "Su nombre científico, tardígrado, significa el que camina despacio. Y es verdad: avanza con pasitos torpes, moviendo sus ocho patas como un osito de peluche diminuto. Pero no te dejes engañar por su aspecto tierno.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "agua",
+  "titulo": "Necesita agua",
+  "texto": "Pero aquí está lo curioso: para estar activo, el tardígrado necesita una capa fina de agua a su alrededor. Sin agua, no puede moverse ni comer. Así que, cuando su charco se seca, debería morir.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "barril",
+  "titulo": "El truco del barril",
+  "texto": "En lugar de eso, hace algo increíble. Encoge sus patas, saca casi toda el agua de su cuerpo y se enrolla en una bolita seca. A esa forma se le llama tun, que significa barril.",
+  "sfx": [
+   [
+    0.4,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "metabolismo",
+  "titulo": "Casi apagado",
+  "texto": "En ese estado puede perder hasta el noventa y siete por ciento de su agua, y su metabolismo cae a menos del cero coma uno por ciento de lo normal. No está muerto, pero tampoco del todo vivo. Es como poner la vida en pausa.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ],
+   [
+    0.8,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "azucar",
+  "titulo": "Su escudo de vidrio",
+  "texto": "Para no romperse por dentro, llena sus células de azúcares y proteínas especiales que se vuelven una especie de vidrio. Ese vidrio sostiene sus moléculas en su lugar, como una funda protectora.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "revivir",
+  "titulo": "Volver a la vida",
+  "texto": "Y cuando vuelve el agua, la magia ocurre al revés: en pocos minutos u horas se hincha, estira las patas y vuelve a caminar como si nada.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.6,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_frio",
+  "titulo": "Ahora, las pruebas",
+  "texto": "Gracias a ese truco, los científicos lo han sometido a pruebas que ningún otro animal resistiría. Empecemos por el frío.",
+  "sfx": [
+   [
+    0.5,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "frio",
+  "titulo": "Frío extremo",
+  "texto": "En el laboratorio, algunos tardígrados en estado de barril han soportado temperaturas cercanas al cero absoluto, casi doscientos setenta y tres grados bajo cero, la temperatura más baja posible en el universo.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "calor",
+  "titulo": "Calor extremo",
+  "texto": "Y en el otro extremo, han aguantado unos minutos a más de ciento cincuenta grados de calor, más que el agua hirviendo.",
+  "sfx": [
+   [
+    0.4,
+    "calor"
+   ]
+  ]
+ },
+ {
+  "tipo": "presion",
+  "titulo": "Presión aplastante",
+  "texto": "También han resistido presiones enormes, unas seis veces mayores que las del punto más profundo del océano, donde el agua aplastaría a casi cualquier ser vivo.",
+  "sfx": [
+   [
+    0.4,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "radiacion",
+  "titulo": "Radiación",
+  "texto": "Y pueden sobrevivir a dosis de radiación cientos de veces más altas que las que matarían a una persona.",
+  "sfx": [
+   [
+    0.4,
+    "electrico"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_espacio",
+  "titulo": "La prueba final",
+  "texto": "Pero faltaba la prueba más loca de todas: el espacio.",
+  "sfx": [
+   [
+    0.5,
+    "whoosh_largo"
+   ]
+  ]
+ },
+ {
+  "tipo": "espacio",
+  "titulo": "Al espacio, 2007",
+  "texto": "En el año dos mil siete, un grupo de científicos europeos envió tardígrados secos en una cápsula espacial. Durante diez días estuvieron expuestos directamente al vacío del espacio, sin aire y a temperaturas extremas.",
+  "sfx": [
+   [
+    0.3,
+    "motor"
+   ],
+   [
+    0.7,
+    "bip"
+   ]
+  ]
+ },
+ {
+  "tipo": "regreso",
+  "titulo": "El regreso",
+  "texto": "Cuando la cápsula volvió a la Tierra, los investigadores les pusieron agua. Y muchos despertaron. Algunos, incluso, llegaron a tener crías. Fue la primera vez que un animal sobrevivía al vacío del espacio así, sin protección.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ultravioleta",
+  "titulo": "El sol sin filtro",
+  "texto": "Los que además recibieron toda la luz ultravioleta del sol sin filtro lo pasaron peor: la mayoría no sobrevivió. Aun así, que alguno lo lograra sorprendió a todo el mundo.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "luna",
+  "titulo": "Tardígrados en la Luna",
+  "texto": "Y hay una historia todavía más curiosa: en dos mil diecinueve, una nave israelina que llevaba tardígrados secos se estrelló en la Luna. Así que es posible que haya tardígrados dormidos allí ahora mismo, aunque probablemente no puedan revivir.",
+  "sfx": [
+   [
+    0.3,
+    "motor"
+   ],
+   [
+    0.6,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "canon",
+  "titulo": "Disparados con un cañón",
+  "texto": "Para saber si podrían sobrevivir a ese choque, en dos mil veintiuno unos científicos dispararon tardígrados con una pistola de gas contra un blanco. Aguantaron impactos de hasta unos tres mil kilómetros por hora. Más rápido, se deshacían. La nave chocó todavía más rápido.",
+  "sfx": [
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_dna",
+  "titulo": "Su secreto en el ADN",
+  "texto": "¿Y cómo resiste tanto? Una parte de la respuesta está en su ADN.",
+  "sfx": [
+   [
+    0.5,
+    "zoom"
+   ]
+  ]
+ },
+ {
+  "tipo": "dsup",
+  "titulo": "La proteína escudo",
+  "texto": "Una especie de tardígrado tiene una proteína única, llamada Dsup. Se pega al ADN y lo envuelve como un escudo, protegiéndolo de la radiación.",
+  "sfx": [
+   [
+    0.3,
+    "brillo"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "celulas_humanas",
+  "titulo": "En células humanas",
+  "texto": "Los científicos pusieron esa proteína en células humanas en el laboratorio, y esas células sufrieron menos daño por radiación. Por eso se estudia para proteger a astronautas o mejorar tratamientos médicos.",
+  "sfx": [
+   [
+    0.4,
+    "electrico"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "treinta_anos",
+  "titulo": "Treinta años congelado",
+  "texto": "Otro récord: en mil novecientos ochenta y tres, unos investigadores congelaron un poco de musgo de la Antártida. Treinta años después lo descongelaron, y dos tardígrados volvieron a la vida. Uno de ellos incluso puso huevos.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_debil",
+  "titulo": "¿Es inmortal?",
+  "texto": "Con todo esto, parece que el tardígrado es inmortal. Pero no lo es. Y aquí está su gran punto débil.",
+  "sfx": [
+   [
+    0.5,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "activo",
+  "titulo": "Cuando está despierto",
+  "texto": "Todas esas hazañas las logra en estado de barril. Cuando está activo, despierto y caminando, es mucho más frágil. Un estudio encontró que, despierto, puede morir si pasa un día entero a unos treinta y siete grados, la temperatura de tu cuerpo.",
+  "sfx": [
+   [
+    0.4,
+    "calor"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "vida_corta",
+  "titulo": "Una vida corta",
+  "texto": "Y su vida activa es corta: muchas especies viven solo unos meses, quizás uno o dos años. Lo que pasa es que el tiempo que pasa en pausa no cuenta, así que puede estirar su vida durante décadas.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "lento",
+  "titulo": "Lento y pequeño",
+  "texto": "Además, es un animal lento y diminuto. Muchos otros animales microscópicos, como algunos gusanos y ácaros, se lo comen sin problema.",
+  "sfx": [
+   [
+    0.4,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre_idea",
+  "titulo": "Paciencia, no fuerza",
+  "texto": "Así que el secreto del tardígrado no es ser fuerte. Es saber esperar. Cuando el mundo se pone imposible, se apaga, y vuelve cuando las cosas mejoran.",
+  "sfx": [
+   [
+    0.5,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "Lo que aprendimos",
+  "texto": "Medio milímetro de cuerpo, ocho patas, un truco de barril, un escudo de vidrio y una proteína que protege su ADN. Por eso, se cree que su linaje ha resistido varias extinciones masivas en la historia de la Tierra.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Tu turno",
+  "texto": "Si te gustó, suscríbete y activa la campanita. Y cuéntame en los comentarios qué otro animal increíble quieres que expliquemos paso a paso.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]
