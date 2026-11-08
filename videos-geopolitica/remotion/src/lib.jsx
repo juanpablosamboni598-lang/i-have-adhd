@@ -242,8 +242,10 @@ export function Ring({ x, y, t, t0, dur = 1.2, maxR = 400, color = C.cyan, w = 5
   return <circle cx={x} cy={y} r={20 + maxR * eo(u)} fill="none" stroke={color} strokeWidth={w} opacity={1 - u} />;
 }
 export function Counter({ x, y, t, t0, t1, v0 = 0, v1, size = 120, color = '#fff', suffix = '', anchor = 'middle' }) {
+  if (t < t0 - 0.25) return null;
+  const sc = back(ramp(t, t0 - 0.25, t0 + 0.2));
   const v = Math.round(lerp(v0, v1, eo(ramp(t, t0, t1))));
   const s = v.toLocaleString('es-CO').replace(/,/g, '.');
   const kick = 1 + 0.06 * Math.max(0, Math.sin((t - t0) * 30)) * (t < t1 ? 1 : 0);
-  return <text x={x} y={y} textAnchor={anchor} fontFamily={FONT} fontWeight={900} fontSize={size * kick} fill={color} stroke="#000" strokeWidth={size / 14} paintOrder="stroke">{s + suffix}</text>;
+  return <text x={x} y={y} textAnchor={anchor} fontFamily={FONT} fontWeight={900} fontSize={size * kick * sc} fill={color} stroke="#000" strokeWidth={size / 14} paintOrder="stroke">{s + suffix}</text>;
 }

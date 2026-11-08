@@ -5,9 +5,16 @@ cd "$1"
 python3 ../subtitulos_ass.py .
 N=$(python3 -c "import json;print(len(json.load(open('escenas.json'))))")
 TOTAL=$(python3 -c "import json;print(json.load(open('timeline.json'))['total'])")
-for i in $(seq 0 $((N-1))); do printf "file '${RENDER:-render}/e%02d.mp4'\n" $i; done > vlist.txt
+mkdir -p vonly
+for i in $(seq 0 $((N-1))); do f=$(printf "%s/e%02d.mp4" ${RENDER:-render} $i); ffmpeg -y -loglevel error -i $f -an -c copy $(printf "vonly/e%02d.mp4" $i); printf "file 'vonly/e%02d.mp4'\n" $i; done > vlist.txt
 ffmpeg -y -loglevel error -f concat -safe 0 -i vlist.txt -c copy crudo.mp4
-ffmpeg -y -loglevel error -i crudo.mp4 -vf "ass=subs.ass:fontsdir=/usr/share/fonts/opentype/inter" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -an mudo.mp4
+VF="ass=subs.ass:fontsdir=/usr/share/fonts/opentype/inter"
+if [ -n "$VBITRATE" ]; then
+  ffmpeg -y -loglevel error -i crudo.mp4 -vf "$VF" -c:v libx264 -preset slow -b:v $VBITRATE -pass 1 -passlogfile x264pass -pix_fmt yuv420p -an -f mp4 /dev/null
+  ffmpeg -y -loglevel error -i crudo.mp4 -vf "$VF" -c:v libx264 -preset slow -b:v $VBITRATE -pass 2 -passlogfile x264pass -pix_fmt yuv420p -an mudo.mp4
+else
+  ffmpeg -y -loglevel error -i crudo.mp4 -vf "$VF" -c:v libx264 -preset veryfast -crf 20 -pix_fmt yuv420p -an mudo.mp4
+fi
 python3 ../musica.py $TOTAL musica.wav $3
 python3 ../sfx.py .
 python3 - <<'PY'

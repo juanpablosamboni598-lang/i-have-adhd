@@ -52,16 +52,16 @@ const ei2 = (x) => Math.pow(cl(x), 2.2);
 const s02 = (p) => {
   const { t } = p; const d = p.frames / 30;
   const l1 = 'CÓMO CAZA', l2 = 'EL TIBURÓN BLANCO';
-  const letters = (str, y0, size, col, t0) => { const ws = str.split(' '); const tot = str.length * size * 0.62; let cx = 960 - tot / 2; return ws.map((w, k) => {
-    const wl = w.length * size * 0.62; const x = cx + wl / 2; cx += wl + size * 0.62; const s = pop(t, t0 + k * 0.18, 0.5);
+  const letters = (str, y0, size, col, t0) => { const ws = str.split(' '); const cw = size * 0.74; const tot = str.length * cw; let cx = 960 - tot / 2; return ws.map((w, k) => {
+    const wl = w.length * cw; const x = cx + wl / 2; cx += wl + cw; const s = pop(t, t0 + k * 0.18, 0.5);
     return <Txt key={k} x={x} y={y0 + 6 * Math.sin(t * 3 + k) - (1 - Math.min(1, s)) * 120} s={s} size={size} color={col} rot={3 * Math.sin(t * 2 + k)}>{w}</Txt>; }); };
   const items = [['SENTIDOS', C.cyan], ['ARMAS', C.red], ['TRUCOS', C.green], ['¿SU MIEDO?', C.gold]];
   return (
     <Stage {...p} env={{ theme: 'blue', seabed: 930 }}
       cam={{ keys: [[0, 960, 520, 1.25, -2], [2.5, 960, 470, 1.05, 1], [5.2, 960, 560, 1.15, -1], [7.8, 960, 700, 1.35, 2], [d, 960, 640, 1.1, 0]] }}
       back={<Shark x={lerp(-500, 2400, t / d)} y={560} s={0.7} t={t} seed={8} opacity={0.75} />}>
-      {letters(l1, 420, 120, '#fff', 0.4)}
-      {letters(l2, 560, 128, C.gold, 1.0)}
+      {letters(l1, 430, 96, '#fff', 0.4)}
+      {letters(l2, 560, 100, C.gold, 1.0)}
       {items.map(([n, c], k) => <Pill key={k} x={420 + k * 360} y={790 + 10 * Math.sin(t * 2 + k)} text={n} color={c} size={38} s={pop(t, d * 0.42 + k * d * 0.12)} rot={3 * Math.sin(t * 1.5 + k)} />)}
       <Shadow x={lerp(-500, 2400, t / d)} groundY={930} y={560} size={260} />
     </Stage>

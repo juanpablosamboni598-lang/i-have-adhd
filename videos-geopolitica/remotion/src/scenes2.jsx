@@ -310,7 +310,7 @@ const s29 = (p) => {
     <Stage {...p} env={{ custom: (cam) => <rect x={-200} y={-200} width={2400} height={1500} fill="#163a57" />, rays: false }}
       cam={{ keys: [[0, 960, 540, 1.1, 0], [2.4, 800, 500, 1.4, 3], [4.8, shx, 560, 1.7, -2], [7.2, shx + 100, 560, 1.3, 1], [d, 1100, 540, 1.2, -1]] }}>
       {tex}
-      <g transform={`translate(${shx} 560) rotate(-90) scale(1.1)`} opacity={0.22 + 0.5 * reveal}>
+      <g transform={`translate(${shx} 560) rotate(-90) scale(1.1)`} opacity={0.32 + 0.45 * reveal}>
         <path d="M0,-300 C70,-220 80,0 50,180 L0,260 L-50,180 C-80,0 -70,-220 0,-300Z" fill="#1d3346" stroke={reveal ? C.gold : 'none'} strokeWidth={6} strokeDasharray="20 12" transform={`rotate(${4 * Math.sin(t * 4)})`} />
         <path d="M40,-40 L170,40 L45,10Z M-40,-40 L-170,40 L-45,10Z" fill="#1d3346" />
       </g>

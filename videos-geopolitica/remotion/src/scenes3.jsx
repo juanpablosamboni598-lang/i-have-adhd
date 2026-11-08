@@ -193,12 +193,21 @@ const s41 = (p) => {
   const { t } = p; const d = p.frames / 30;
   const rows = [['RAYOS', 0.85, C.gold, 0.4], ['ACCIDENTES EN CASA', 1, '#ff9f43', 0.6], ['TIBURONES', 0.025, C.red, 0.8]];
   return (
-    <Stage {...p} env={{ theme: 'blue', rays: true }} cam={{ keys: [[0, 960, 540, 1.1, 0], [2.6, 960, 560, 1.3, -2], [5.2, 800, 420, 1.5, 1], [7.8, 900, 600, 1.4, -1], [10, 600, 760, 1.7, 2], [d, 960, 560, 1.2, 0]] }}>
-      <Shark x={lerp(2300, -400, t / d)} y={250} s={0.4} t={t} seed={41} speed={0.6} flip opacity={0.6} />
+    <Stage {...p} env={{ theme: 'blue', surface: 170 }} cam={{ keys: [[0, 1150, 330, 1.5, -2], [2.4, 1000, 320, 1.25, 2], [4.6, 900, 450, 1.1, -1], [7, 800, 520, 1.35, 1], [9.4, 650, 700, 1.55, -2], [d, 960, 560, 1.15, 0]] }}>
+      <g transform={`translate(${lerp(1500, 1200, t / d)} 190)`}>
+        <path d="M-70,0 L60,-4" stroke="#f0c8a0" strokeWidth={26} strokeLinecap="round" />
+        <circle cx={82} cy={-8} r={18} fill="#f0c8a0" /><path d="M62,-22 a22,16 0 0,1 40,0Z" fill="#e74c3c" />
+        <path d={`M40,0 L${70 + 40 * Math.sin(t * 4)},${-30 + 30 * Math.cos(t * 4)}`} stroke="#f0c8a0" strokeWidth={10} strokeLinecap="round" />
+        <path d={`M-60,2 L${-110 + 15 * Math.sin(t * 6)},${12 + 10 * Math.sin(t * 6)}`} stroke="#2c6fbf" strokeWidth={12} strokeLinecap="round" />
+        <path d={`M-60,2 L${-110 - 15 * Math.sin(t * 6)},${-8 - 10 * Math.sin(t * 6)}`} stroke="#2c6fbf" strokeWidth={12} strokeLinecap="round" />
+      </g>
+      <Shark x={lerp(600, 1700, t / d)} y={300} s={0.45} t={t} seed={41} speed={0.7} />
+      <Pill x={1150} y={430} text="¿PELIGRO?" color={C.red} size={34} s={pop(t, 0.5) * (1 - ramp(t, d * 0.35, d * 0.4))} />
+      <Pill x={850} y={430} text="ATAQUES MUY RAROS" color={C.cyan} size={34} s={pop(t, d * 0.2) * (1 - ramp(t, d * 0.35, d * 0.4))} />
       {rows.map(([n, f, c, fr], k) => {
-        const g = eo(ramp(t, d * fr - 0.3, d * fr + 0.7)); const y = 380 + k * 200;
+        const g = eo(ramp(t, d * fr - 0.3, d * fr + 0.7)); const y = 470 + k * 180;
         return <g key={k}>
-          <Txt x={420} y={y - 30} size={40} s={pop(t, d * fr - 0.3)}>{n}</Txt>
+          <Txt x={300 + n.length * 13} y={y - 18} size={36} s={pop(t, d * fr - 0.3)}>{n}</Txt>
           <rect x={300} y={y} width={Math.max(14, 1250 * f) * g} height={80} rx={14} fill={c} />
           <g transform={`translate(${260} ${y + 40}) scale(${pop(t, d * fr - 0.3)})`}>
             {k === 0 && <path d="M8,-40 L-16,4 L2,4 L-8,40 L20,-6 L2,-6Z" fill={C.gold} opacity={Math.sin(t * 9) > 0 ? 1 : 0.5} />}
