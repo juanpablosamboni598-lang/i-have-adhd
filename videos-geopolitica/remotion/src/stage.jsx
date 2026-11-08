@@ -2,13 +2,13 @@ import React from 'react';
 import { W, H, camera, layerT, Backdrop, Rays, Snow, Seabed, Surface, Cover, transFor, Header, cl, ramp } from './lib.jsx';
 
 // Escena con capas: fondo (parallax lento) · rayos · mundo (1x) · partículas · primer plano (rápido) · luz · HUD · transiciones
-export function Stage({ t, f, frames, i, title, cam: camSpec = {}, env = {}, light = 1, lightX, children, back, front, hud, seed }) {
+export function Stage({ t, f, frames, i, n = 48, title, cam: camSpec = {}, env = {}, light = 1, lightX, children, back, front, hud, seed }) {
   const dur = frames / 30;
   const sd = seed ?? i * 17 + 5;
   const cam = camera(t, dur, sd, camSpec);
   const L = typeof light === 'function' ? light(t) : light;
   const lx = lightX ? lightX(t) : 960 + 500 * Math.sin(t * 0.35 + i);
-  const outP = i < 47 ? ramp(f, frames - 9, frames - 1) : 0;
+  const outP = i < n - 1 ? ramp(f, frames - 9, frames - 1) : 0;
   const inP = i > 0 ? 1 - ramp(f, 0, 10) : 0;
   const fgOn = env.fg !== false;
   return (

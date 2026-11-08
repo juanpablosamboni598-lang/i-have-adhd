@@ -1,0 +1,608 @@
+[
+ {
+  "tipo": "croc_cinta",
+  "titulo": "Todos tienen un punto débil",
+  "texto": "Un cocodrilo puede morder con más fuerza que casi cualquier animal del planeta. Pero si le cierras la boca, puedes mantenerla cerrada con un trozo de cinta adhesiva.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.6,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "7 súper depredadores",
+  "texto": "Todos los súper depredadores tienen un punto débil así: algo que, si lo conoces, cambia por completo cómo los ves. Hoy vamos a ver siete. Y el número seis convierte a un cazador temido en presa de otro.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "croc_tamano",
+  "titulo": "1 · El cocodrilo",
+  "texto": "Empecemos por él. El cocodrilo de agua salada es el reptil más grande del mundo: puede superar los seis metros y la tonelada de peso.",
+  "sfx": [
+   [
+    0.2,
+    "chapoteo"
+   ],
+   [
+    0.6,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "croc_mordida",
+  "titulo": "La mordida",
+  "texto": "Su mordida es una de las más fuertes jamás medidas, más de tres mil kilos de presión. Puede partir el caparazón de una tortuga como si fuera una nuez.",
+  "sfx": [
+   [
+    0.3,
+    "mordida"
+   ],
+   [
+    0.7,
+    "corte"
+   ]
+  ]
+ },
+ {
+  "tipo": "croc_musculos",
+  "titulo": "El truco",
+  "texto": "Pero aquí está el truco: casi toda esa fuerza sirve para cerrar la boca. Los músculos que la abren son pequeños y débiles.",
+  "sfx": [
+   [
+    0.4,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "croc_manos",
+  "titulo": "Una sola cinta",
+  "texto": "Por eso los investigadores, para medirlo o moverlo, le sostienen el hocico con las manos o con unas vueltas de cinta.",
+  "sfx": [
+   [
+    0.5,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "croc_giro",
+  "titulo": "El giro de la muerte",
+  "texto": "Y hay más: el cocodrilo no puede masticar. Para comer una presa grande, la sujeta y gira sobre sí mismo una y otra vez hasta arrancar un pedazo. Es el famoso giro de la muerte.",
+  "sfx": [
+   [
+    0.3,
+    "splash"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_guepardo",
+  "titulo": "Solo en una dirección",
+  "texto": "Su arma más temida solo funciona en una dirección. Y el siguiente depredador tiene el problema contrario: tiene el arranque más rápido de la Tierra, pero no puede mantenerlo.",
+  "sfx": [
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "guepardo_carrera",
+  "titulo": "2 · El guepardo",
+  "texto": "El guepardo es el animal terrestre más veloz. En unos tres segundos pasa de estar quieto a casi cien kilómetros por hora.",
+  "sfx": [
+   [
+    0.2,
+    "motor"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "guepardo_cuerpo",
+  "titulo": "Una máquina de correr",
+  "texto": "Para lograrlo, todo su cuerpo es una máquina de correr: patas largas, una columna que se dobla como un resorte y una cola que funciona como timón en las curvas.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "guepardo_calor",
+  "titulo": "Se sobrecalienta",
+  "texto": "Pero esa carrera tiene un precio enorme. Su temperatura sube tan rápido que solo puede correr unos veinte o treinta segundos. Después tiene que parar, jadeando, durante varios minutos.",
+  "sfx": [
+   [
+    0.3,
+    "calor"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "guepardo_robo",
+  "titulo": "Le roban la presa",
+  "texto": "Y ese es justo el momento más peligroso: agotado, no puede defender su presa. Leones, hienas y leopardos aprovechan para robársela. Un guepardo puede perder una buena parte de lo que caza.",
+  "sfx": [
+   [
+    0.4,
+    "swish"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "guepardo_crias",
+  "titulo": "Cachorros en peligro",
+  "texto": "Y sus crías lo tienen todavía más difícil: en algunas reservas de África, la gran mayoría de los cachorros de guepardo no llega a ser adulto, porque leones y hienas los atacan cuando la madre sale a cazar.",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_leon",
+  "titulo": "El rey de la sabana",
+  "texto": "El más rápido no es el más fuerte. Y hablando de fuerza: el rey de la sabana tiene un secreto que casi nadie conoce.",
+  "sfx": [
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon_rugido",
+  "titulo": "3 · El león",
+  "texto": "El león es el gran depredador de África. Un macho puede pesar más de doscientos kilos, y su rugido se oye a ocho kilómetros.",
+  "sfx": [
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "onda"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon_corazon",
+  "titulo": "Un corazón pequeño",
+  "texto": "Pero tiene un problema escondido en el pecho: su corazón es pequeño para su tamaño. Eso le da muy poca resistencia.",
+  "sfx": [
+   [
+    0.3,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon_salto",
+  "titulo": "Se cansa enseguida",
+  "texto": "Puede dar un salto explosivo y correr unos metros a toda velocidad, pero se cansa enseguida.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon_grupo",
+  "titulo": "Cazar en grupo",
+  "texto": "Por eso los leones necesitan acercarse muchísimo antes de atacar, y por eso cazan en grupo, rodeando a la presa. Aun así, la mayoría de sus intentos de caza fracasan.",
+  "sfx": [
+   [
+    0.4,
+    "swish"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon_leonas",
+  "titulo": "Las leonas cazan",
+  "texto": "Y aunque el macho tenga la fama, son las leonas las que hacen casi toda la caza. Los machos suelen llegar después, a comer primero. Y pasan hasta veinte horas al día descansando, para ahorrar energía.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.8,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_anaconda",
+  "titulo": "Ocupada comiendo",
+  "texto": "El siguiente depredador también pasa mucho tiempo quieto, pero por una razón muy distinta: está ocupado comiendo.",
+  "sfx": [
+   [
+    0.5,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "anaconda_caza",
+  "titulo": "4 · La anaconda",
+  "texto": "La anaconda verde es la serpiente más pesada del mundo. Caza por sorpresa desde el agua: se enrolla alrededor de su presa y aprieta con cada respiración que esta suelta.",
+  "sfx": [
+   [
+    0.3,
+    "chapoteo"
+   ],
+   [
+    0.6,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "anaconda_traga",
+  "titulo": "Traga presas enteras",
+  "texto": "Puede tragarse animales enteros, como capibaras, ciervos e incluso caimanes, gracias a una mandíbula que se estira como una goma.",
+  "sfx": [
+   [
+    0.5,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "anaconda_digiere",
+  "titulo": "Días sin moverse",
+  "texto": "Pero después de una comida grande, la cazadora se vuelve lenta y pesada. Puede tardar días o semanas en digerir, y durante ese tiempo apenas puede moverse ni defenderse.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "anaconda_riesgo",
+  "titulo": "Un riesgo por dentro",
+  "texto": "Y tragarse a una presa viva tiene otro riesgo: si el animal se defiende con cuernos o garras, puede herir a la serpiente desde dentro o mientras la traga. Su mayor victoria la deja en su momento más vulnerable.",
+  "sfx": [
+   [
+    0.4,
+    "impacto"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_oso",
+  "titulo": "Al lugar más frío",
+  "texto": "Ahora vamos al lugar más frío del planeta, con un depredador cuyo problema es… el calor.",
+  "sfx": [
+   [
+    0.4,
+    "whoosh_largo"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_olfato",
+  "titulo": "5 · El oso polar",
+  "texto": "El oso polar es el carnívoro terrestre más grande. Un macho puede superar los seiscientos kilos y oler una foca a más de un kilómetro, incluso bajo la nieve.",
+  "sfx": [
+   [
+    0.3,
+    "olfatear"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_aislante",
+  "titulo": "Hecho para el frío",
+  "texto": "Está diseñado para el frío extremo: una capa gruesa de grasa, pelaje denso y piel negra que absorbe el calor del sol.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_calor",
+  "titulo": "Se sobrecalienta",
+  "texto": "Pero esa armadura contra el frío es también su debilidad. Si corre mucho, se sobrecalienta rápidamente.",
+  "sfx": [
+   [
+    0.4,
+    "calor"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_espera",
+  "titulo": "Cazar esperando",
+  "texto": "Por eso caza esperando, quieto junto a un agujero en el hielo, a que una foca salga a respirar.",
+  "sfx": [
+   [
+    0.6,
+    "chapoteo"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_pelo",
+  "titulo": "Pelo transparente",
+  "texto": "Aunque parezca blanco, su pelo en realidad es transparente y hueco, y su piel es negra para atrapar cada rayo de sol.",
+  "sfx": [
+   [
+    0.4,
+    "zoom"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "oso_hielo",
+  "titulo": "Sin hielo no come",
+  "texto": "Y ahí está su segundo punto débil: necesita el hielo marino para cazar. Cuando el hielo se derrite cada vez más temprano, el oso pasa más tiempo sin poder comer. En verano, algunos sobreviven meses casi sin alimento, viviendo de su grasa.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_tiburon",
+  "titulo": "El número seis",
+  "texto": "Y ahora, el número seis. Un cazador que conocemos muy bien, y que tiene un interruptor secreto.",
+  "sfx": [
+   [
+    0.5,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburon_intro",
+  "titulo": "6 · El tiburón blanco",
+  "texto": "El tiburón blanco es uno de los depredadores más temidos del océano: seis metros, trescientos dientes y sentidos capaces de detectar la electricidad de un latido.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "electrico"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburon_trance",
+  "titulo": "Inmovilidad tónica",
+  "texto": "Pero si lo voltean boca arriba, ocurre algo extraño: entra en una especie de trance. Sus músculos se relajan y se queda inmóvil durante varios minutos. Se llama inmovilidad tónica.",
+  "sfx": [
+   [
+    0.4,
+    "swish"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburon_ciencia",
+  "titulo": "Los científicos lo saben",
+  "texto": "Los científicos la usan para examinarlo con calma. Pero hay otro animal que también la conoce: la orca.",
+  "sfx": [
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburon_orcas",
+  "titulo": "Cazador cazado",
+  "texto": "En Sudáfrica, las orcas aprendieron a voltear a los tiburones blancos, dejarlos inmóviles y extraerles el hígado. El gran cazador se convierte en presa.",
+  "sfx": [
+   [
+    0.4,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_orca",
+  "titulo": "El número siete",
+  "texto": "Y eso nos lleva al número siete. Porque la orca, el depredador que caza tiburones blancos, ¿tiene algún punto débil?",
+  "sfx": [
+   [
+    0.5,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "orca_rey",
+  "titulo": "7 · La orca",
+  "texto": "La orca es el verdadero rey del océano. Caza ballenas, focas y tiburones, y no tiene rival: nadie la caza a ella.",
+  "sfx": [
+   [
+    0.3,
+    "splash"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "orca_familia",
+  "titulo": "Su arma: la familia",
+  "texto": "Su arma secreta es la familia: viven en grupos muy unidos, dirigidos por las hembras mayores, que enseñan a las más jóvenes técnicas de caza que pasan de generación en generación.",
+  "sfx": [
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "orca_abuelas",
+  "titulo": "Las abuelas guían",
+  "texto": "Igual que los humanos, las hembras de orca viven muchos años después de dejar de tener crías, y esas abuelas guían a la familia hacia la comida en los años difíciles.",
+  "sfx": [
+   [
+    0.5,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "orca_dieta",
+  "titulo": "Un solo menú",
+  "texto": "Pero esa misma fortaleza es su punto débil. Muchas familias solo comen un tipo de presa, y si esa presa escasea, no cambian de menú: pasan hambre.",
+  "sfx": [
+   [
+    0.5,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "orca_contaminacion",
+  "titulo": "Contaminación",
+  "texto": "Además, al estar en lo más alto de la cadena alimenticia, acumulan en su grasa toda la contaminación que hay en el mar, y eso puede afectar a sus crías.",
+  "sfx": [
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "comun",
+  "titulo": "Lo que comparten",
+  "texto": "Y si te fijas, hay algo que tienen en común casi todos estos depredadores: crecen despacio, tienen pocas crías y necesitan mucho territorio y mucha comida.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fragiles",
+  "titulo": "Frágiles como especie",
+  "texto": "Eso los hace increíblemente fuertes como individuos, pero frágiles como especie. Cuando cambia su hogar, son de los primeros en sufrirlo.",
+  "sfx": [
+   [
+    0.5,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "humanos",
+  "titulo": "Su mayor punto débil",
+  "texto": "Su mayor punto débil no está en su cuerpo. Somos nosotros. Y también somos los únicos que podemos protegerlos.",
+  "sfx": [
+   [
+    0.5,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "¿Cuál sigue?",
+  "texto": "Si quieres ver paso a paso cómo caza uno de ellos, el tiburón blanco, te dejo el video aquí. Y cuéntame en los comentarios qué depredador quieres que analicemos después.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]

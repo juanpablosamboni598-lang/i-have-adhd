@@ -52,3 +52,9 @@ solo aparecen y desaparecen sin moverse; escenas vacías o con un solo elemento.
 Control de calidad antes de entregar: fotograma cada 2 s del video completo; rehacer escenas con 3 fotogramas
 seguidos casi iguales o que incumplan alguna regla; repetir hasta que todo pase. Entregar tabla:
 escena | duración | movimiento de cámara | capas en movimiento | transición.
+
+## Uso automático de Skills (8 nov 2026)
+Antes de cada tarea, revisar la lista de Skills y elegir las que aplican sin preguntar. Cargar solo las relevantes
+(varias si la tarea tiene varios procesos); no abrir SKILL.md de las que no se usan. Priorizar Skills especializadas.
+Si ninguna encaja, decirlo en una línea y seguir. Nunca decir que se usó una Skill que no se cargó. No modificar ni
+borrar Skills salvo pedido explícito.
