@@ -128,12 +128,14 @@ export function Waterfilm({ t, y = 860, on = 1 }) { // capa de agua brillante
 }
 export function GardenBack({ cam, t, seed = 1 }) {
   const R = rng(seed);
+  const cols = ['#ffd6e8', '#fff3b0', '#d6f5ff', '#e3ffd6'];
   return (
     <g>
-      <defs><linearGradient id="garden" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#bfe8ff" /><stop offset="0.6" stopColor="#d8f3c8" /><stop offset="1" stopColor="#8cc46a" /></linearGradient></defs>
+      <defs><linearGradient id="garden" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#bfe8ff" /><stop offset="0.6" stopColor="#d8f3c8" /><stop offset="1" stopColor="#8cc46a" /></linearGradient>
+        {cols.map((c, k) => <radialGradient key={k} id={'bok' + k}><stop offset="0" stopColor={c} stopOpacity="0.75" /><stop offset="1" stopColor={c} stopOpacity="0" /></radialGradient>)}</defs>
       <rect x={-200} y={-200} width={W + 400} height={H + 400} fill="url(#garden)" />
-      <g transform={layerT(cam, 0.2)} filter="url(#blur14)">{[...Array(16)].map((_, k) => <circle key={k} cx={R() * 2600 - 300} cy={R() * 1000} r={50 + R() * 90} fill={['#ffd6e8', '#fff3b0', '#d6f5ff', '#e3ffd6'][k % 4]} opacity={0.6} />)}</g>
-      <g transform={layerT(cam, 0.45)} filter="url(#blur6)">{[...Array(8)].map((_, k) => { const x0 = -300 + k * 340; return <path key={k} d={`M${x0},1300 Q${x0 + 60 * Math.sin(t * 0.8 + k)},700 ${x0 + 120},${300 + 50 * k % 300}`} stroke="#5aa04a" strokeWidth={26} fill="none" opacity={0.5} />; })}</g>
+      <g transform={layerT(cam, 0.2)}>{[...Array(16)].map((_, k) => <circle key={k} cx={R() * 2600 - 300} cy={R() * 1000} r={80 + R() * 120} fill={`url(#bok${k % 4})`} />)}</g>
+      <g transform={layerT(cam, 0.45)} opacity={0.35}>{[...Array(8)].map((_, k) => { const x0 = -300 + k * 340; return <path key={k} d={`M${x0},1300 Q${x0 + 60 * Math.sin(t * 0.8 + k)},700 ${x0 + 120},${300 + 50 * k % 300}`} stroke="#5aa04a" strokeWidth={34} fill="none" strokeLinecap="round" />; })}</g>
     </g>
   );
 }
