@@ -1,7 +1,7 @@
 #!/bin/bash
 # v18 gatos: voz -> prep -> bundle -> render -> ensamblado -> QC -> 3 Shorts. Una tarea pesada a la vez; reanudable.
 cd /home/user/i-have-adhd/videos-geopolitica
-source <(sed -n '/^log()/,/^}$/p;/^render_all()/,/^}$/p;/^assemble()/,/^}$/p' pipeline3.sh)
+source <(sed -n '/^log()/,/^}$/p;/^assemble()/,/^}$/p' pipeline3.sh)
 P=$(pgrep -f "python tts/chatter.py v18")
 if [ -n "$P" ]; then while kill -0 $P 2>/dev/null; do sleep 20; done; fi
 /home/user/tools/tts-venv/bin/python tts/chatter.py v18 >> v18/tts.log 2>&1

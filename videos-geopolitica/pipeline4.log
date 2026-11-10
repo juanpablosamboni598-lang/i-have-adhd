@@ -1,0 +1,30 @@
+[05:06] v18 voz lista
+v18 total 451.6 s
+18 38 451.6 s real
+[05:06] v18 render listo
+ok .
+[in#0 @ 0x56540298ce00] Error opening input: No such file or directory
+Error opening input file render2/e00.mp4.
+Error opening input files: No such file or directory
+cat: v18/qc.txt: No such file or directory
+[05:06] v18 ensamblado (1489k): 
+[in#0 @ 0x55d63443dec0] Error opening input: No such file or directory
+Error opening input file v18/gatos.mp4.
+Error opening input files: No such file or directory
+Traceback (most recent call last):
+  File "/home/user/i-have-adhd/videos-geopolitica/shorts13/make_short.py", line 9, in <module>
+    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-ss', str(a), '-t', str(d), '-i', src, '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', p], check=True)
+    ~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['ffmpeg', '-y', '-loglevel', 'error', '-ss', '211.24', '-t', '8.9', '-i', 'v18/gatos.mp4', '-c:v', 'libx264', '-preset', 'fast', '-crf', '18', '-c:a', 'aac', '-b:a', '192k', 'shorts18/s1_giro.mp4.p0.mp4']' returned non-zero exit status 254.
+Traceback (most recent call last):
+  File "<stdin>", line 9, in <module>
+  File "/usr/local/lib/python3.13/subprocess.py", line 578, in run
+    raise CalledProcessError(retcode, process.args,
+                             output=stdout, stderr=stderr)
+subprocess.CalledProcessError: Command '['python3', 'shorts13/make_short.py', 'v18/gatos.mp4', 'shorts18/s1_giro.mp4', 'ASÍ GIRA UN GATO', 'EN EL AIRE', '[[210.88, 9.56], [220.44, 14.05], [244.15, 11.18], [255.32, 15.36]]']' returned non-zero exit status 1.
+shorts18/*.mp4: No such file or directory
+[05:06] v18 shorts: shorts18/*.mp4  
+[05:06] FIN4
