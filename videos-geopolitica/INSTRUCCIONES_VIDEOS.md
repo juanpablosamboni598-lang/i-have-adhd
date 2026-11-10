@@ -67,3 +67,8 @@ borrar Skills salvo pedido explícito.
 5. Antes de cualquier acción pública en el canal, pedir permiso.
 6. No inventar datos ni afirmar haber analizado métricas sin acceso real.
 Rol actual: experto en crecimiento, SEO, analítica y estrategia; aprender de las métricas y mejorar continuamente.
+
+## Autorización vigente (10 nov 2026)
+Cada día: 1 video largo a la 1:00 am y 3 Shorts juntos a las 7:00 am (hora de Colombia).
+El dueño autoriza programar automáticamente lo que pase el control de calidad y avisar con el enlace.
+Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin preguntar.
