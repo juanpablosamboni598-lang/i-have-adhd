@@ -69,6 +69,10 @@ borrar Skills salvo pedido explícito.
 Rol actual: experto en crecimiento, SEO, analítica y estrategia; aprender de las métricas y mejorar continuamente.
 
 ## Autorización vigente (10 nov 2026)
-Cada día: 1 video largo a la 1:00 am y 3 Shorts separados: 7:00 am, 12:30 pm y 7:00 pm (hora de Colombia). Nunca los 3 Shorts a la misma hora.
+Horario actualizado (11 nov 2026, pedido del dueño: "la hora donde más conectada está la comunidad"), hora de Colombia:
+- Video largo: 3:00 pm.
+- Sus 3 Shorts: 3:30 pm y 8:00 pm del mismo día, y 8:00 am del día siguiente (cada Short sale cuando ya existe el video completo).
+- Base: Zernio best-time (8:00 am ≈ 30, 3:00 pm ≈ 26, 8:00 pm ≈ 16 de interacción media; la 1:00 am casi 0). Muestra pequeña (1–3 videos por hora): revisar cada semana.
+- Nunca 2 publicaciones a la misma hora.
 El dueño autoriza programar automáticamente lo que pase el control de calidad y avisar con el enlace.
 Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin preguntar.
