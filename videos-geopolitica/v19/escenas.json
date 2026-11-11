@@ -1,0 +1,488 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Medio cerebro",
+  "texto": "Este delfín está dormido. Y al mismo tiempo está despierto. Mira su ojo izquierdo: abierto. El derecho: cerrado. La mitad de su cerebro descansa, y la otra mitad vigila. Es uno de los trucos más raros de todo el reino animal.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "¿Cómo duermen los delfines?",
+  "texto": "Hoy vamos a ver, paso a paso, cómo duerme un delfín sin ahogarse, qué pasa dentro de su cerebro, y qué otros animales, incluidos nosotros, usan un truco parecido.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "problema",
+  "titulo": "El problema",
+  "texto": "Para entenderlo, primero hay que ver el problema. El delfín es un mamífero, como tú. No tiene branquias. Respira aire, por un orificio en la parte de arriba de su cabeza. Puede aguantar varios minutos bajo el agua, pero tarde o temprano tiene que subir.",
+  "sfx": [
+   [
+    0.3,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "espiraculo",
+  "titulo": "El espiráculo",
+  "texto": "Ese orificio se llama espiráculo. Cuando el delfín está relajado, el espiráculo se queda cerrado. Para abrirlo y respirar, tiene que usar un músculo a propósito.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "voluntario",
+  "titulo": "Respirar a propósito",
+  "texto": "Eso significa que el delfín respira de forma voluntaria. Tú respiras sin pensar, incluso dormido. Él tiene que decidir cada respiración. Sube, abre, toma aire en una fracción de segundo, y cierra otra vez.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "ahogarse",
+  "titulo": "El peligro",
+  "texto": "Entonces, si se durmiera por completo como tú, dejaría de respirar. Y se ahogaría en su propio océano.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "solucion",
+  "titulo": "La solución",
+  "texto": "La evolución encontró una salida increíble: dormir con una sola mitad del cerebro a la vez. Los científicos lo llaman sueño de ondas lentas unihemisférico.",
+  "sfx": [
+   [
+    0.3,
+    "ding"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "hemisferios",
+  "titulo": "Dos mitades",
+  "texto": "Tu cerebro, y el del delfín, tiene dos mitades: el hemisferio izquierdo y el derecho. En el delfín, una mitad entra en sueño profundo, mientras la otra sigue despierta.",
+  "sfx": [
+   [
+    0.3,
+    "electrico"
+   ]
+  ]
+ },
+ {
+  "tipo": "ondas",
+  "titulo": "Las ondas",
+  "texto": "Si le pones sensores en la cabeza, se ve clarísimo. Un lado muestra ondas lentas y grandes, las del sueño profundo. El otro lado muestra ondas rápidas, las de alguien despierto.",
+  "sfx": [
+   [
+    0.3,
+    "electrico"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "ojo",
+  "titulo": "El ojo cruzado",
+  "texto": "Y aquí viene lo curioso. Cada ojo está conectado con el lado contrario del cerebro. Si duerme el hemisferio derecho, el que se cierra es el ojo izquierdo.",
+  "sfx": [
+   [
+    0.4,
+    "zoom"
+   ]
+  ]
+ },
+ {
+  "tipo": "turnos",
+  "titulo": "Por turnos",
+  "texto": "Después de un rato, cambian. La mitad que dormía se despierta, y la que vigilaba se va a descansar. Así, por turnos, a lo largo del día y de la noche.",
+  "sfx": [
+   [
+    0.3,
+    "swish"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "horas",
+  "titulo": "Cuánto duerme",
+  "texto": "Sumando los turnos, un delfín nariz de botella pasa alrededor de un tercio del día durmiendo. Pero nunca con todo el cerebro apagado. Siempre queda alguien de guardia ahí dentro.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_como",
+  "titulo": "¿Dónde duerme?",
+  "texto": "Ahora, ¿dónde se pone un delfín para dormir? No tiene cama, ni cueva, ni nido. Tiene dos opciones.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "tronco",
+  "titulo": "Como un tronco",
+  "texto": "La primera: quedarse quieto flotando en la superficie, con el espiráculo fuera del agua. Desde lejos parece un tronco. Por eso en inglés a esto le dicen logging, de log, tronco.",
+  "sfx": [
+   [
+    0.3,
+    "chapoteo"
+   ]
+  ]
+ },
+ {
+  "tipo": "nadando",
+  "titulo": "Dormir nadando",
+  "texto": "La segunda: nadar despacio, casi en piloto automático, y subir a respirar cada cierto tiempo, sin despertar del todo.",
+  "sfx": [
+   [
+    0.3,
+    "swish"
+   ],
+   [
+    0.7,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "grupo",
+  "titulo": "En grupo",
+  "texto": "Muchas veces duermen en grupo, nadando juntos y muy pegados, a veces en círculo. El grupo los protege, y cada uno vigila con su ojo abierto.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "ojo_grupo",
+  "titulo": "El ojo hacia afuera",
+  "texto": "Algunos estudios observaron que los delfines tienden a mantener abierto el ojo que mira hacia los demás, para no perder al grupo. Otros miran hacia afuera, hacia posibles peligros.",
+  "sfx": [
+   [
+    0.4,
+    "zoom"
+   ]
+  ]
+ },
+ {
+  "tipo": "tiburon",
+  "titulo": "Siempre alerta",
+  "texto": "Y peligros hay. Los tiburones cazan en la oscuridad. Un delfín completamente dormido sería una presa fácil. Con medio cerebro despierto, puede reaccionar en un instante y huir nadando.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.8,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "frio",
+  "titulo": "El frío",
+  "texto": "Hay una tercera razón: el calor. El agua roba el calor del cuerpo muy rápido. Al seguir moviéndose un poco, aunque esté durmiendo, el delfín produce calor y no se enfría.",
+  "sfx": [
+   [
+    0.4,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "sonar",
+  "titulo": "El sonar no se apaga",
+  "texto": "Los delfines ven con sonido. Lanzan chasquidos y escuchan el eco, como un sonar. Y ese sonar puede seguir funcionando mientras duermen.",
+  "sfx": [
+   [
+    0.2,
+    "click"
+   ],
+   [
+    0.5,
+    "click"
+   ],
+   [
+    0.8,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "experimento",
+  "titulo": "El experimento",
+  "texto": "En 2012, unos investigadores pusieron a prueba a dos delfinas. Debían detectar objetivos con su sonar, sin parar, durante cinco días seguidos.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "resultado",
+  "titulo": "Cinco días",
+  "texto": "Lo lograron casi sin errores, día y noche. Y en una prueba posterior, una de ellas siguió así durante quince días. Sin mostrar signos de cansancio.",
+  "sfx": [
+   [
+    0.3,
+    "ding"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "crias",
+  "titulo": "Las crías",
+  "texto": "Con las crías pasa algo sorprendente. Un estudio de 2005 observó que las mamás y sus bebés recién nacidos casi no hacían las pausas de descanso típicas durante el primer mes.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "crias_debate",
+  "titulo": "¿Sin dormir?",
+  "texto": "El bebé tiene que subir a respirar muy seguido, y la mamá lo acompaña todo el tiempo. Pero ojo: otros científicos dicen que quizá sí dormían, solo que nadando. El debate sigue abierto, y es un buen ejemplo de lo difícil que es estudiar el sueño en el océano.",
+  "sfx": [
+   [
+    0.4,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "rem",
+  "titulo": "¿Sueñan?",
+  "texto": "Y otra pregunta: ¿sueñan los delfines? En nosotros, los sueños más intensos ocurren en la fase llamada REM. En los delfines casi no se ha detectado esa fase.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_otros",
+  "titulo": "No son los únicos",
+  "texto": "Este truco de dormir a medias no es solo de los delfines. Otros animales también lo usan.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "focas",
+  "titulo": "Las focas",
+  "texto": "Algunas focas, como los lobos marinos, duermen con todo el cerebro cuando están en tierra. Pero en el agua cambian al modo delfín: medio cerebro, y una aleta moviéndose para flotar.",
+  "sfx": [
+   [
+    0.3,
+    "chapoteo"
+   ],
+   [
+    0.7,
+    "burbujas"
+   ]
+  ]
+ },
+ {
+  "tipo": "patos",
+  "titulo": "Los patos",
+  "texto": "Los patos que duermen en fila hacen algo muy listo. Los del centro duermen con los dos ojos cerrados. Los de las orillas dejan abierto el ojo que mira hacia afuera.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "fragatas",
+  "titulo": "Dormir volando",
+  "texto": "Y las aves fragata pueden dormir en pleno vuelo, durante viajes de semanas sobre el mar. Duermen en siestas de segundos, casi siempre con medio cerebro, y en total poco más de cuarenta minutos al día.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "ballenas",
+  "titulo": "Las ballenas",
+  "texto": "Los cachalotes hacen otra cosa: se quedan flotando en vertical, como troncos parados, y duermen siestas cortas de unos diez a quince minutos.",
+  "sfx": [
+   [
+    0.4,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "humanos",
+  "titulo": "¿Y nosotros?",
+  "texto": "Y ahora lo más inesperado. Tú también haces algo parecido. Cuando duermes por primera vez en un lugar nuevo, una mitad de tu cerebro duerme más ligero que la otra.",
+  "sfx": [
+   [
+    0.3,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "primera_noche",
+  "titulo": "La primera noche",
+  "texto": "Se llama efecto de la primera noche. Un estudio de 2016 encontró que el hemisferio izquierdo se queda más alerta y reacciona más rápido a sonidos raros. Por eso duermes peor en un hotel. Es como si una parte de ti hiciera guardia, igual que el delfín.",
+  "sfx": [
+   [
+    0.3,
+    "campana"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "evolucion",
+  "titulo": "La misma idea",
+  "texto": "Delfines, focas, aves y personas. Animales muy distintos llegaron a la misma idea: cuando el peligro no descansa, una parte de ti tampoco.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuidado",
+  "titulo": "Cuidar su sueño",
+  "texto": "Por eso es tan importante no molestar a los delfines que descansan cerca de la costa. Las lanchas y los nadadores que se les acercan los obligan a despertar, y eso los agota.",
+  "sfx": [
+   [
+    0.4,
+    "motor"
+   ]
+  ]
+ },
+ {
+  "tipo": "respeto",
+  "titulo": "Mira de lejos",
+  "texto": "Si alguna vez ves delfines flotando quietos o nadando despacio en grupo, probablemente están durmiendo. Lo mejor es mirarlos de lejos y dejarlos descansar.",
+  "sfx": [
+   [
+    0.4,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "En resumen",
+  "texto": "Respiran a propósito, duermen con medio cerebro, cierran el ojo contrario, se turnan, y nunca apagan del todo su sonar. Así duerme un delfín.",
+  "sfx": [
+   [
+    0.2,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "Una pregunta",
+  "texto": "Y ahora piénsalo: si tuvieras que decidir cada respiración, ¿podrías dormir tranquilo?",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Suscríbete",
+  "texto": "Si te gustó, suscríbete y activa la campana. Y cuéntame en los comentarios: ¿qué otro animal quieres que explique en el próximo video?",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]
