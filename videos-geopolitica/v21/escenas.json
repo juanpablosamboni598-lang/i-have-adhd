@@ -1,0 +1,536 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Desde cero",
+  "texto": "Vamos a construir un inodoro desde cero. Sin trampas. Cada vez que algo falle, lo arreglamos con una pieza nueva. Y al final vas a entender por qué el tuyo tiene exactamente esa forma.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "¿Cómo funciona un inodoro?",
+  "texto": "Prueba y error, pieza por pieza. Empezamos con lo más simple que se nos ocurra, y vamos viendo qué sale mal.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "hoyo",
+  "titulo": "Un hoyo",
+  "texto": "Primera idea: un hoyo en el suelo. Así se hizo durante miles de años. Funciona, unos días. Después huele fatal, se llena, y llegan las moscas. Y con las moscas, las enfermedades.",
+  "sfx": [
+   [
+    0.3,
+    "corte"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tubo",
+  "titulo": "Un tubo",
+  "texto": "Mejor: un tubo que se lleve todo lejos, hasta la alcantarilla. Ahora nada se queda aquí. El hoyo ya no se llena, y la casa está limpia. Problema resuelto. O eso creemos.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "gases",
+  "titulo": "Suben los gases",
+  "texto": "Pero el tubo está abierto por los dos lados. Los gases de la alcantarilla suben por el mismo tubo y salen dentro de la casa. Huele peor que antes.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tapa",
+  "titulo": "¿Una tapa?",
+  "texto": "¿Y si le ponemos una tapa? Sirve un poco. Pero hay que quitarla cada vez, nunca cierra perfecto, y el olor se escapa por los bordes.",
+  "sfx": [
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "curva",
+  "titulo": "Doblar el tubo",
+  "texto": "Ahora el truco genial: doblar el tubo en forma de ese. El agua se queda atrapada en la curva y forma un tapón. Los gases chocan contra el agua y no pueden pasar.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "sello",
+  "titulo": "El sello de agua",
+  "texto": "A eso se le llama sello de agua. Por eso siempre queda agua en el fondo de la taza. No es un descuido: es la puerta que bloquea los olores. Esta idea la patentó Alexander Cumming en 1775.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "empujar",
+  "titulo": "Hay que empujar",
+  "texto": "Pero ahora tenemos otro problema. Lo que cae en la taza se queda ahí, flotando sobre el sello. Hay que empujarlo por la curva. ¿Con qué? Con agua. Mucha, y de golpe.",
+  "sfx": [
+   [
+    0.4,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "balde",
+  "titulo": "Un balde",
+  "texto": "Primera prueba: un balde. Lo llenas, lo vacías de golpe, y funciona. Pero cada vez hay que ir a llenarlo, cargarlo, y apuntar bien. Diez litros pesan diez kilos. Nadie quiere hacer eso varias veces al día.",
+  "sfx": [
+   [
+    0.3,
+    "splash"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tanque",
+  "titulo": "Un tanque arriba",
+  "texto": "Mejor: un tanque que guarde el agua lista, siempre. Lo ponemos más alto que la taza, y la gravedad hace el trabajo de empujar.",
+  "sfx": [
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "llave",
+  "titulo": "Una llave",
+  "texto": "Pero cuando el tanque se vacía, hay que volver a llenarlo. Le conectamos un tubo de agua con una llave. Abrimos la llave, y se llena.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "desborde",
+  "titulo": "Se desborda",
+  "texto": "Problema: si se nos olvida cerrar la llave, el agua sigue entrando. El tanque se desborda, y el baño se inunda.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "splash"
+   ]
+  ]
+ },
+ {
+  "tipo": "flotador",
+  "titulo": "Un flotador",
+  "texto": "Solución: un flotador. Una bola hueca que flota sobre el agua, y va subiendo junto con el nivel.",
+  "sfx": [
+   [
+    0.3,
+    "burbujas"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "brazo",
+  "titulo": "El brazo",
+  "texto": "La bola va unida a un brazo, y el brazo a la válvula de entrada. Cuando el agua llega arriba, el flotador empuja el brazo, y la válvula se cierra sola.",
+  "sfx": [
+   [
+    0.4,
+    "mecanismo"
+   ],
+   [
+    0.8,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "solo",
+  "titulo": "Se apaga solo",
+  "texto": "Ahora el tanque se llena y se detiene sin que nadie haga nada. Se llena solo, y se apaga solo.",
+  "sfx": [
+   [
+    0.4,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "falla",
+  "titulo": "¿Y si falla?",
+  "texto": "Pero las piezas fallan. Si el flotador se atasca, o la válvula se gasta, el agua no para. Y volvemos a la inundación.",
+  "sfx": [
+   [
+    0.3,
+    "fallo"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "rebose",
+  "titulo": "Tubo de rebose",
+  "texto": "Plan B: un tubo de rebose. Un tubo abierto por arriba. Si el agua sube demasiado, cae por ahí directo a la taza. Mejor perder un poco de agua que inundar el baño.",
+  "sfx": [
+   [
+    0.4,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "agujero",
+  "titulo": "Un agujero",
+  "texto": "Ahora necesitamos soltar el agua del tanque, toda de golpe. Le abrimos un agujero grande en el fondo. Pero claro, el agua se sale enseguida.",
+  "sfx": [
+   [
+    0.3,
+    "corte"
+   ],
+   [
+    0.7,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "compuerta",
+  "titulo": "Una compuerta",
+  "texto": "Así que lo tapamos con una compuerta de goma. Mientras está cerrada, el agua espera. En algunos lugares le dicen sapito, o pera.",
+  "sfx": [
+   [
+    0.4,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "palanca",
+  "titulo": "Palanca y cadena",
+  "texto": "Para abrirla desde afuera, agregamos una palanca, y una cadena que levanta la compuerta cuando bajas la palanca.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "flota",
+  "titulo": "Se queda abierta",
+  "texto": "Y aquí hay un detalle muy ingenioso. La compuerta tiene aire por dentro. Cuando la levantas, flota, y se queda abierta sola mientras sale el agua. Por eso basta con un toque.",
+  "sfx": [
+   [
+    0.4,
+    "burbujas"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierra",
+  "titulo": "Se cierra sola",
+  "texto": "Cuando el tanque casi se vacía, la compuerta pierde el agua que la sostenía, cae por su propio peso, y tapa el agujero. Y el flotador, que bajó, abre la válvula y el tanque se vuelve a llenar.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.7,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "prueba",
+  "titulo": "Primera prueba",
+  "texto": "Probamos todo junto. Bajamos la palanca, el agua cae en la taza, y da vueltas. Pero no tiene suficiente fuerza. El agua solo empuja un poco, y lo de adentro sigue ahí. Algo nos falta.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "sifon",
+  "titulo": "El sifón",
+  "texto": "Aquí está el último secreto. La curva de la taza está diseñada para que, cuando entra mucha agua de golpe, se llene por completo. Y entonces se forma un sifón.",
+  "sfx": [
+   [
+    0.4,
+    "mecanismo"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "manguera",
+  "titulo": "Como una manguera",
+  "texto": "Un sifón funciona como cuando pasas agua de un balde a otro con una manguera. Una vez que el tubo está lleno y el agua empieza a bajar, jala todo lo que viene detrás.",
+  "sfx": [
+   [
+    0.4,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "glup",
+  "titulo": "¡Glup!",
+  "texto": "Ese ruido final, el glup, es el aire que entra cuando el sifón se rompe. Es la señal de que la taza ya se vació. Y queda otra vez agua en la curva: el sello vuelve a su lugar.",
+  "sfx": [
+   [
+    0.3,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "gota"
+   ]
+  ]
+ },
+ {
+  "tipo": "ventilacion",
+  "titulo": "El tubo al techo",
+  "texto": "Un problema más. Cuando baja tanta agua por el tubo de la casa, puede jalar el sello de otros desagües, como el del lavamanos. Por eso las casas tienen un tubo de ventilación que sale hasta el techo y deja entrar aire.",
+  "sfx": [
+   [
+    0.4,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "harington",
+  "titulo": "1596",
+  "texto": "¿Y quién inventó todo esto? En 1596, John Harington diseñó un inodoro con descarga de agua para la reina Isabel primera de Inglaterra. Tenía un tanque, una válvula y una descarga. Pero no tenía sello de agua, así que olía mal, y casi nadie lo copió.",
+  "sfx": [
+   [
+    0.3,
+    "campana"
+   ],
+   [
+    0.7,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "crapper",
+  "titulo": "El mito",
+  "texto": "Después llegaron el sello de agua de Cumming y muchas mejoras al flotador y al tanque. Thomas Crapper vendió muchos inodoros en Londres, pero no lo inventó, aunque es un mito muy popular.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "litros",
+  "titulo": "¿Cuánta agua?",
+  "texto": "Los inodoros viejos gastaban más de doce litros en cada descarga. Muchos de los modernos usan unos seis. Y los de doble botón, unos tres para la descarga corta.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "gota"
+   ]
+  ]
+ },
+ {
+  "tipo": "doble",
+  "titulo": "Dos botones",
+  "texto": "¿Por qué dos botones? Porque no todo necesita la misma cantidad de agua. En una familia, eso puede ahorrar miles de litros al año.",
+  "sfx": [
+   [
+    0.4,
+    "click"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fuga",
+  "titulo": "¿Hay fuga?",
+  "texto": "Un truco útil. Si oyes que el tanque se llena solo cada rato, la compuerta puede estar gastada. Echa unas gotas de colorante en el tanque. Si aparece color en la taza sin jalar, tienes una fuga.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "toallitas",
+  "titulo": "Nunca toallitas",
+  "texto": "Y nunca tires toallitas húmedas al inodoro. No se deshacen como el papel. Se atascan en la curva y en las tuberías de toda la ciudad.",
+  "sfx": [
+   [
+    0.4,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "repaso",
+  "titulo": "Repaso",
+  "texto": "Repasemos cómo llegamos aquí. Hoyo, que olía mal. Tubo, que dejaba subir los gases. Curva con sello de agua. Tanque, para tener agua lista. Flotador, para que no se desborde. Rebose, por si falla. Compuerta y palanca, para soltar el agua. Y sifón, para jalarlo todo.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "Cada pieza",
+  "texto": "Cada pieza existe porque algo falló antes. Así funciona tu inodoro.",
+  "sfx": [
+   [
+    0.3,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "Una pregunta",
+  "texto": "Y ahora piénsalo: usas esta pequeña máquina de física varias veces al día, sin electricidad, sin motor, solo con gravedad, un flotador y un sifón. ¿Ya sabías que era tan ingeniosa?",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Suscríbete",
+  "texto": "Si te gustó, suscríbete y activa la campana. Y cuéntame en los comentarios: ¿qué objeto quieres que armemos por prueba y error en el próximo video?",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]

@@ -87,3 +87,6 @@ Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin pregun
   (canal 6af68dae62b70b94b0146956, org 6aebf8952a050bbf040f37de), mismo plan y mismos horarios que YouTube.
   Límite Buffer gratis: 10 publicaciones programadas a la vez.
 - Los videos ya programados antes de este cambio (estilo 2D) se dejan como están salvo que el dueño diga otra cosa.
+- Narrativa "prueba y error" (pedido del dueño, 13 nov): construir el objeto desde cero; cada pieza aparece porque
+  la anterior falló ("pongo una caja → sirve pero se llena → le agrego X → ..."). Fallos en rojo, arreglos en verde.
+  Primer video así: v21 inodoro (pipeline7.sh, escenas en remotion/src/three/scenes21.jsx).
