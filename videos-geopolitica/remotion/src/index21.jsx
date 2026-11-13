@@ -27,7 +27,7 @@ const Scene = ({ i, at }) => {
   const n = cap ? Math.max(1, Math.ceil(cl((f - 6) / 10) * cap.length)) : 0;
   return <AbsoluteFill style={{ background: '#f3c9a4' }}>
     <ThreeCanvas width={1920} height={1080} dpr={0.5} gl={{ antialias: false }} camera={{ fov: 40, position: [0, 1, 4], near: 0.02, far: 200 }}>
-      <Lights /><Cam t={t} keys={S.keys} />
+      <Lights /><Cam t={t} keys={S.keys} wob={0.14} />
       {S.three}
     </ThreeCanvas>
     {S.ov}

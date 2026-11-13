@@ -52,13 +52,13 @@ export const Part = ({ geo, color, pos, rot, scale, t = 0.02, xr = 0, map, child
 };
 
 // cámara por llaves: [t, x, y, z, tx, ty, tz] (segundos)
-export const Cam = ({ t, keys, fov }) => {
+export const Cam = ({ t, keys, fov, wob: W = 0.04 }) => {
   const { camera } = useThree();
   let i = 0; while (i < keys.length - 2 && t > keys[i + 1][0]) i++;
   const a = keys[i], b = keys[Math.min(i + 1, keys.length - 1)];
   const u = b[0] === a[0] ? 1 : ease(cl((t - a[0]) / (b[0] - a[0])));
   const L = (k) => lerp(a[k], b[k], u);
-  const wob = Math.sin(t * 0.9) * 0.04;
+  const wob = Math.sin(t * 0.9) * W;
   camera.position.set(L(1) + wob, L(2) + wob * 0.5, L(3));
   if (fov && camera.fov !== fov) { camera.fov = fov; camera.updateProjectionMatrix(); }
   camera.lookAt(L(4), L(5), L(6));

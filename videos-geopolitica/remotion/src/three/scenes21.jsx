@@ -9,7 +9,7 @@ const fo = (t, a, b) => tw(t, a, a + 0.5) * (b === undefined ? 1 : 1 - tw(t, b -
 const ALL = { supply: 1, valve: 1, float: 1, overflow: 1, hole: 1, flap: 1, lever: 1 };
 // cámaras
 const FULL = (d, s = 1) => [[0, 0.8 * s, 0.25, 3.6, 0.25, -0.1, 0], [d * 0.5, 0.25 * s, 0.35, 3.3, 0.25, -0.05, 0], [d, -0.3 * s, 0.2, 3.5, 0.25, -0.1, 0]];
-const UNDER = (d) => [[0, 1.1, -0.2, 2.4, 0.35, -0.55, 0.2], [d * 0.5, 0.6, -0.5, 2.0, 0.3, -0.6, 0.2], [d, -0.1, -0.3, 2.3, 0.3, -0.55, 0.2]];
+const UNDER = (d) => [[0, 1.5, -0.1, 2.6, 0.35, -0.55, 0.2], [d * 0.35, 0.2, -0.75, 1.9, 0.3, -0.6, 0.2], [d * 0.7, -0.7, -0.2, 2.3, 0.3, -0.55, 0.2], [d, 0.9, -0.55, 2.0, 0.3, -0.6, 0.2]];
 const TANKC = (d) => [[0, 0.8, 1.0, 1.6, 0, 0.72, -0.33], [d * 0.5, 0.3, 0.85, 1.3, 0, 0.72, -0.33], [d, -0.5, 1.0, 1.5, 0, 0.72, -0.33]];
 const MID = (d) => [[0, 1.2, 1.0, 2.8, 0.1, 0.45, 0], [d * 0.5, 0.3, 0.9, 2.4, 0.1, 0.45, 0], [d, -0.8, 1.1, 2.7, 0.1, 0.45, 0]];
 const man = (t, x = -1.0, p = {}) => <Human pos={[x, 0, -0.1]} rotY={0.6} s={0.6} t={t} {...p} />;
@@ -44,7 +44,7 @@ export const S21 = {
     };
   },
   titulo: ({ t, d }) => ({
-    keys: [[0, 0.2, 1.0, 4.6, -0.3, 0.6, 0], [d, -0.6, 1.1, 4.2, -0.3, 0.6, 0]],
+    keys: [[0, 1.2, 0.8, 4.6, -0.3, 0.6, 0], [d * 0.5, -1.2, 1.4, 3.6, -0.3, 0.6, 0], [d, 0.8, 0.7, 4.0, -0.3, 0.55, 0]],
     three: <><Room t={t} />{man(t, lerp(-3.2, -0.6, tw(t, 0.3, d * 0.5)), { wave: tw(t, d * 0.55, d * 0.65) })}</>,
     ov: <><Big txt="¿CÓMO FUNCIONA" y={240} size={110} op={tw(t, 0.6, 1.1)} col="#ffffff" /><Big txt="UN INODORO?" y={380} size={130} op={tw(t, 1.0, 1.5)} col="#ffd23d" /><Tag txt="prueba y error" x={960} y={520} op={fo(t, 2)} col={RED} size={50} /></>,
   }),
@@ -72,7 +72,7 @@ export const S21 = {
   curva: ({ t, d }) => {
     const s = t > d * 0.3 ? 1 : 0;
     return {
-      keys: [[0, 1.3, 0.3, 3.5, 0.35, -0.4, 0], [d * 0.5, 0.8, -0.3, 2.6, 0.3, -0.5, 0.2], [d, 0.0, -0.2, 2.5, 0.3, -0.5, 0.2]],
+      keys: [[0, 1.6, 0.4, 3.6, 0.35, -0.4, 0], [d * 0.35, 0.6, -0.6, 2.3, 0.3, -0.5, 0.2], [d * 0.7, -0.8, -0.1, 2.6, 0.3, -0.5, 0.2], [d, 0.9, -0.5, 2.2, 0.3, -0.5, 0.2]],
       three: <><Room t={t} /><group position={[0, s ? (1 - drop(t, d * 0.3, 0.7)) * 2 : 0, 0]}><Drain s={s} trapWater={s ? tw(t, d * 0.45, d * 0.6) : 0} t={t} /></group><Gas t={t} on={1} block={t > d * 0.6 ? 1 : 0} x={t > d * 0.6 ? 0.8 : 0} /></>,
       ov: <><Tag txt="forma de S" x={1400} y={260} op={fo(t, d * 0.35)} /><Tag txt="el agua tapa el paso" x={1400} y={380} op={fo(t, d * 0.65)} col={GREEN} /></>,
     };
@@ -198,7 +198,7 @@ export const S21 = {
     ov: <><Tag txt="tubo lleno" x={1450} y={300} op={fo(t, d * 0.35)} /><Big txt="SIFÓN" x={1450} y={450} op={fo(t, d * 0.55)} col="#46a6f0" size={140} /></>,
   }),
   manguera: ({ t, d }) => ({
-    keys: [[0, 0.2, 0.7, 3.2, 0, 0.4, 0], [d, -0.4, 0.8, 3.0, 0, 0.4, 0]],
+    keys: [[0, 1.2, 0.6, 3.4, 0, 0.4, 0], [d * 0.4, -1.0, 1.1, 2.8, 0, 0.45, 0], [d * 0.75, 0.6, 1.3, 2.6, 0, 0.5, 0], [d, -0.6, 0.7, 3.1, 0, 0.4, 0]],
     three: <><Room t={t} sewer={0} />
       <Part geo={<boxGeometry args={[0.6, 0.7, 0.6]} />} color={B.wood} pos={[-0.8, 0.35, 0.2]} t={0.015} />
       <Bucket pos={[-0.8, 0.7, 0.2]} water={1 - 0.6 * tw(t, d * 0.3, d)} t={t} /><Bucket pos={[0.8, 0, 0.2]} water={0.2 + 0.6 * tw(t, d * 0.3, d)} t={t} />
@@ -218,7 +218,7 @@ export const S21 = {
     ov: <><Tag txt="lavamanos" x={1150} y={560} op={fo(t, d * 0.25)} /><Tag txt="tubo de ventilación" x={1350} y={180} op={fo(t, d * 0.45)} col="#1fb5a5" size={52} /></>,
   }),
   harington: ({ t, d }) => ({
-    keys: [[0, 0.8, 1.0, 3.0, 0, 0.6, 0], [d, -0.8, 1.1, 2.8, 0, 0.6, 0]],
+    keys: [[0, 1.4, 0.8, 3.2, 0, 0.6, 0], [d * 0.4, -0.8, 1.3, 2.6, 0.3, 0.7, 0], [d * 0.75, 0.6, 1.0, 2.2, 0.6, 0.8, 0], [d, -1.2, 0.9, 3.0, 0, 0.6, 0]],
     three: <><Room t={t} sewer={0} /><Bowl xr={0} water={0.3} t={t} /><Part geo={<boxGeometry args={[0.6, 0.5, 0.3]} />} color={B.wood} pos={[0, 1.0, -0.35]} t={0.015} /><Crown pos={[0.9, 1.1 + Math.sin(t * 2) * 0.05, 0.3]} s={0.6} t={t} />
       <Gas t={t} on={tw(t, d * 0.65, d * 0.75)} /></>,
     ov: <><Big txt="1596" x={500} y={300} op={fo(t, 0.5)} col="#ffd23d" size={160} /><Tag txt="John Harington" x={500} y={480} op={fo(t, d * 0.2)} /><Tag txt="sin sello de agua ✗" x={1350} y={850} op={fo(t, d * 0.65)} col={RED} /></>,
@@ -252,7 +252,7 @@ export const S21 = {
     const L = ['hoyo', 'tubo', 'curva', 'tanque', 'flotador', 'rebose', 'compuerta', 'palanca', 'sifón'];
     const k = Math.min(8, Math.floor(t / d * 9.5));
     return {
-      keys: [[0, 0.8, 0.3, 3.6, 0.25, -0.05, 0], [d, -0.5, 0.35, 3.5, 0.25, 0, 0]],
+      keys: [[0, 1.3, 0.3, 3.6, 0.25, -0.05, 0], [d * 0.35, -0.9, 0.6, 3.0, 0.25, 0, 0], [d * 0.7, 0.5, 0.1, 2.7, 0.3, -0.2, 0], [d, -0.8, 0.4, 3.4, 0.25, 0, 0]],
       three: <><Room t={t} />{k >= 1 ? <Drain s={k >= 2 ? 1 : 0} trapWater={k >= 2 ? 1 : 0} siphon={k >= 8 ? 1 : 0} t={t} /> : <Hole />}{k >= 2 ? <Bowl xr={0.6} t={t} /> : null}
         {k >= 3 ? <Tank level={1} on={{ supply: 1, valve: 1, float: k >= 4 ? 1 : 0, overflow: k >= 5 ? 1 : 0, hole: k >= 6 ? 1 : 0, flap: k >= 6 ? 1 : 0, lever: k >= 7 ? 1 : 0 }} t={t} /> : null}</>,
       ov: <>{L.map((s, j) => <Tag key={j} txt={s} x={j < 5 ? 260 : 1660} y={230 + (j % 5) * 130} op={j <= k ? 1 : 0} col={j === k ? RED : INK} size={40} />)}</>,
@@ -264,7 +264,7 @@ export const S21 = {
     ov: <><Tag txt="cada pieza arregla un fallo" x={960} y={880} op={fo(t, d * 0.3)} /></>,
   }),
   pregunta: ({ t, d }) => ({
-    keys: [[0, 1.2, 1.0, 2.6, 0, 0.5, 0], [d, -1.0, 1.2, 2.6, 0, 0.5, 0]],
+    keys: [[0, 1.5, 0.9, 2.8, 0, 0.5, 0], [d * 0.5, -1.4, 1.3, 2.2, 0, 0.55, 0], [d, 1.0, 1.1, 2.0, 0, 0.5, 0]],
     three: <Full t={t} xr={0} bowlXr={0} />,
     ov: <><Big txt="¿?" x={480} y={450} op={fo(t, 0.5)} col="#ffd23d" size={220} /><Tag txt="sin motor · sin electricidad" x={1400} y={300} op={fo(t, d * 0.35)} /></>,
   }),
