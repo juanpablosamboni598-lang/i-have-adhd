@@ -77,7 +77,7 @@ export const Giraffe = ({ pos = [0, 0, 0], rotY = 0, s = 1, t = 0, neck = 0, xr 
     return <group position={[x, bodyY - 0.35, z]} rotation={[sp, 0, sw + fold]}>
       <mesh position={[0, -len / 2, 0]} castShadow scale={[1 + sw2 * 0.9, 1, 1 + sw2 * 0.9]}>
         <cylinderGeometry args={[0.1, 0.075, len, 12]} />
-        <meshToonMaterial color={swell > 0.3 && !front ? '#e8a07a' : P.skin} map={m3} transparent={xr > 0} opacity={1 - 0.8 * xr} depthWrite={xr < 0.5} />
+        <meshToonMaterial color={swell > 0.3 && !front ? '#e8a07a' : P.skin} map={m3} transparent opacity={1 - 0.8 * xr} depthWrite={xr < 0.5} />
         {xr < 0.5 ? <OL t={0.018} /> : null}
       </mesh>
       <Part geo={<cylinderGeometry args={[0.085, 0.09, 0.14, 12]} />} color={P.hoof} pos={[0, -len, 0]} t={0.015} xr={xr * 0.6} />
@@ -89,7 +89,7 @@ export const Giraffe = ({ pos = [0, 0, 0], rotY = 0, s = 1, t = 0, neck = 0, xr 
     <group position={[0, bodyY, 0]} rotation={[0, 0, 0.16 - drink * 0.12 - lie * 0.1]}>
       <mesh castShadow scale={[1.25, 0.72 * (1 + Math.sin(t * 1.5) * 0.01), 0.58]}>
         <sphereGeometry args={[1, 32, 20]} />
-        <meshToonMaterial color={P.skin} map={m1} transparent={xr > 0} opacity={1 - 0.82 * xr} depthWrite={xr < 0.5} />
+        <meshToonMaterial color={P.skin} map={m1} transparent opacity={1 - 0.82 * xr} depthWrite={xr < 0.5} />
         {xr < 0.5 ? <OL t={0.022} /> : null}
       </mesh>
       {/* cola */}
@@ -110,7 +110,7 @@ export const Giraffe = ({ pos = [0, 0, 0], rotY = 0, s = 1, t = 0, neck = 0, xr 
       <group position={[0.98, 0.42, 0]} rotation={[0, 0, nz]}>
         <mesh castShadow position={[0, 1.05, 0]}>
           <cylinderGeometry args={[0.14, 0.24, 2.15, 16]} />
-          <meshToonMaterial color={P.skin} map={m2} transparent={xr > 0} opacity={1 - 0.82 * xr} depthWrite={xr < 0.5} />
+          <meshToonMaterial color={P.skin} map={m2} transparent opacity={1 - 0.82 * xr} depthWrite={xr < 0.5} />
           {xr < 0.5 ? <OL t={0.02} /> : null}
         </mesh>
         {/* crin */}
@@ -130,7 +130,7 @@ export const Giraffe = ({ pos = [0, 0, 0], rotY = 0, s = 1, t = 0, neck = 0, xr 
         <group position={[0, 2.12, 0]} rotation={[0, 0, hr]}>
           <mesh castShadow position={[0.22, 0, 0]} scale={[1, 0.62, 0.62]}>
             <capsuleGeometry args={[0.2, 0.42, 8, 16]} />
-            <meshToonMaterial color={P.skin} transparent={xr > 0} opacity={1 - 0.75 * xr} depthWrite={xr < 0.5} />
+            <meshToonMaterial color={P.skin} transparent opacity={1 - 0.75 * xr} depthWrite={xr < 0.5} />
             {xr < 0.5 ? <OL t={0.018} /> : null}
           </mesh>
           <group rotation={[0, 0, Math.PI / 2]} />

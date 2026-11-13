@@ -44,8 +44,8 @@ export const Part = ({ geo, color, pos, rot, scale, t = 0.02, xr = 0, map, child
   const op = 1 - 0.82 * xr;
   return <mesh position={pos} rotation={rot} scale={scale} castShadow={shadow && xr < 0.3}>
     {geo}
-    {basic ? <meshBasicMaterial color={color} transparent={xr > 0} opacity={op} />
-      : <meshToonMaterial color={color} map={map} transparent={xr > 0} opacity={op} depthWrite={xr < 0.5} />}
+    {basic ? <meshBasicMaterial color={color} transparent opacity={op} />
+      : <meshToonMaterial color={color} map={map} transparent opacity={op} depthWrite={xr < 0.5} />}
     {xr < 0.5 && t > 0 ? <OL t={t} /> : null}
     {children}
   </mesh>;
@@ -105,5 +105,5 @@ export const Flow = ({ pts, t, n = 12, speed = 0.4, color = '#e2483d', r = 0.05,
 
 export const Tube = ({ pts, r = 0.05, color, xr = 0, t = 0.012 }) => {
   const geo = useMemo(() => new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map((p) => new THREE.Vector3(...p))), 40, r, 10, false), [JSON.stringify(pts), r]);
-  return <mesh geometry={geo}><meshToonMaterial color={color} transparent={xr > 0} opacity={1 - 0.6 * xr} /></mesh>;
+  return <mesh geometry={geo}><meshToonMaterial color={color} transparent opacity={1 - 0.6 * xr} /></mesh>;
 };
