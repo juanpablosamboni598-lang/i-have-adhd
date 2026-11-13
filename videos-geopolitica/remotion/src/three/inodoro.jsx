@@ -216,7 +216,7 @@ const Gauge = ({ f }) => {
 export const Inodoro = () => {
   const f = useCurrentFrame();
   return <AbsoluteFill style={{ background: C.wall }}>
-    <ThreeCanvas width={W} height={H} shadows camera={{ fov: 38, position: [0, 1.5, 3.6] }} gl={{ antialias: true }}>
+    <ThreeCanvas width={W} height={H} dpr={0.5} camera={{ fov: 38, position: [0, 1.5, 3.6] }} gl={{ antialias: false }}>
       <CamRig f={f} />
       <ambientLight intensity={1.1} />
       <directionalLight position={[2.5, 4, 3]} intensity={1.6} castShadow shadow-mapSize={[1024, 1024]}
