@@ -76,3 +76,14 @@ Horario actualizado (11 nov 2026, pedido del dueño: "la hora donde más conecta
 - Nunca 2 publicaciones a la misma hora.
 El dueño autoriza programar automáticamente lo que pase el control de calidad y avisar con el enlace.
 Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin preguntar.
+
+### Cambio de estilo y Facebook (13 nov 2026, pedido del dueño)
+- Desde ahora TODOS los videos nuevos (largos y Shorts) se hacen en estilo 3D "armado paso a paso":
+  3D con colores planos y contorno negro, escenario limpio, cortes en rayos X, medidores en vivo,
+  1–3 palabras clave arriba (negro normal, rojo = error/peligro). Se toma solo el ESTILO de la referencia
+  ("Stupy Doo"), no su marca, diseños ni temas. Temas: los del canal (animales/ciencia).
+- Técnica: three.js dentro de Remotion (src/three/, render con --gl=swangle). Prueba: src/three/inodoro.jsx.
+- Los mismos videos se suben también a la página de Facebook "Quatoom" vía Buffer
+  (canal 6af68dae62b70b94b0146956, org 6aebf8952a050bbf040f37de), mismo plan y mismos horarios que YouTube.
+  Límite Buffer gratis: 10 publicaciones programadas a la vez.
+- Los videos ya programados antes de este cambio (estilo 2D) se dejan como están salvo que el dueño diga otra cosa.
