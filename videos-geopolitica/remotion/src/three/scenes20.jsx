@@ -60,7 +60,7 @@ export const S20 = {
     ov: <Tag txt="gravedad ↓" x={560} y={300} op={fo(t, 0.8)} col={RED} />,
   }),
   manguera: ({ t, d }) => ({
-    keys: [[0, 10, 4, 16, 0.8, 4, 0], [d * 0.5, 7, 4.5, 15, 0.8, 4.2, 0], [d, 5, 5, 15, 0.8, 4, 0]],
+    keys: [[0, 12, 3, 15, 0.8, 3.5, 0], [d * 0.35, 6, 6, 13, 0.8, 4.5, 0], [d * 0.7, -2, 5, 14, 0.8, 4.2, 0], [d, -6, 3.5, 13, 0.8, 4, 0]],
     three: <><Savanna t={t} trees={false} /><Building t={t} power={t < d * 0.45 ? 1 : lerp(1, 0.45, tw(t, d * 0.45, d * 0.6))} /></>,
     ov: <><Tag txt="bomba fuerte" x={1300} y={820} op={fo(t, 0.5, d * 0.45)} /><Tag txt="bomba débil" x={1300} y={820} op={fo(t, d * 0.5)} col={RED} /><Big txt="✗" x={1250} y={250} op={fo(t, d * 0.65)} col={RED} size={200} /></>,
   }),
@@ -70,8 +70,8 @@ export const S20 = {
     ov: <><Tag txt="+10 kg" x={1200} y={330} op={fo(t, d * 0.35)} col={RED} size={60} /><Tag txt="60 cm" x={1250} y={460} op={fo(t, d * 0.5)} /></>,
   }),
   pared: ({ t, d }) => ({
-    keys: [[0, 0, 0.3, 7, 0, 0.4, 0], [d * 0.5, 1.5, 1.0, 6, 0, 0.4, 0], [d, 2.5, 0.4, 5, 0, 0.4, 0]],
-    three: <><color attach="background" args={['#f7d9c4']} /><HeartCut t={t} wall={tw(t, d * 0.3, d * 0.6)} rotY={Math.PI + 0.5 + Math.sin(t * 0.35) * 0.35} s={1.3} /></>,
+    keys: [[0, -2, 0.3, 7, 0, 0.4, 0], [d * 0.35, 2, 1.6, 5.5, 0, 0.4, 0], [d * 0.7, 3, -0.5, 4.8, 0, 0.3, 0], [d, -1, 0.8, 4.5, 0, 0.4, 0]],
+    three: <><color attach="background" args={['#f7d9c4']} /><HeartCut t={t} wall={tw(t, d * 0.3, d * 0.6)} rotY={Math.PI + 0.5 + Math.sin(t * 0.5) * 0.7} s={1.3} /></>,
     ov: <Tag txt="músculo grueso" x={1400} y={300} op={fo(t, d * 0.55)} col={RED} />,
   }),
   presion: ({ t, d }) => ({
