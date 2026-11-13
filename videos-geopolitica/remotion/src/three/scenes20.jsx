@@ -80,9 +80,9 @@ export const S20 = {
     ov: <><Big txt="×2" x={960} y={260} op={fo(t, d * 0.5)} col={RED} size={200} /></>,
   }),
   medidor: ({ t, d }) => ({
-    keys: [[0, 3, 3, 9, 0.3, 2.7, 0], [d * 0.5, 2, 2.6, 7, 0.4, 2.4, 0], [d * 0.8, 2, 4.5, 6, 1, 4.4, 0], [d, 1.4, 4.8, 6.5, 1, 4.5, 0]],
+    keys: [[0, 3, 3, 9, 0.3, 2.7, 0], [d * 0.5, 2, 2.6, 7, 0.4, 2.4, 0], [d * 0.75, 2.5, 4.5, 6, 1, 4.4, 0], [d, -0.5, 5.4, 5, 1.2, 4.7, 0]],
     three: <><Savanna t={t} /><G t={t} xr={0.85} flow={1} show={{ vert: 0, heart: 1, art: 1, jug: 0, brain: 1 }} /></>,
-    ov: <><Gauge v={interpolate(t, [0.5, 2.5], [0, 120], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })} label="persona" x={340} y={600} op={tw(t, 0.3, 0.8)} />
+    ov: <><Gauge v={interpolate(t, [0.5, 2.5], [0, 120], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' })} label="persona" x={340 + Math.sin(t * 1.3) * 12} y={600} op={tw(t, 0.3, 0.8)} />
       <Gauge v={t < d * 0.7 ? interpolate(t, [d * 0.25, d * 0.45], [0, 260], { extrapolateLeft: 'clamp', extrapolateRight: 'clamp' }) : lerp(260, 115, tw(t, d * 0.72, d * 0.88))} label={t < d * 0.7 ? 'jirafa: corazón' : 'jirafa: cabeza'} x={1580} y={600} op={tw(t, d * 0.22, d * 0.3)} /></>,
   }),
   arteria: ({ t, d }) => ({
@@ -112,7 +112,7 @@ export const S20 = {
   }),
   valvulas: ({ t, d }) => ({
     keys: [[0, 0, 0, 9, 0, 0, 0], [d * 0.5, 3, 1, 7, 0, 0, 0], [d, 4, -1, 6, 0, 0, 0]],
-    three: <><color attach="background" args={['#d6ecf7']} /><ValveTube t={t} closed={0} s={1.1} /></>,
+    three: <><color attach="background" args={['#d6ecf7']} /><group rotation={[0, t * 0.35, Math.sin(t * 0.7) * 0.12]}><ValveTube t={t} closed={0.12 + 0.12 * Math.sin(t * 3)} s={1.1} /></group></>,
     ov: <><Tag txt="vena yugular" x={960} y={220} op={fo(t, 0.4)} col="#3f7fe0" /><Tag txt="válvulas" x={1450} y={540} op={fo(t, d * 0.5)} /></>,
   }),
   compuertas: ({ t, d }) => ({
@@ -193,9 +193,9 @@ export const S20 = {
     ov: <Tag txt="espinas" x={1450} y={300} op={fo(t, d * 0.3)} col={RED} />,
   }),
   dormir: ({ t, d }) => ({
-    keys: [[0, 3, 2.5, 9, 0, 2, 0], [d * 0.5, 0, 2, 8, 0, 1.5, 0], [d, -2.5, 1.5, 7, 0, 1, 0]],
+    keys: [[0, 3, 2.5, 9, 0, 2, 0], [d * 0.5, 0, 2, 8, 0, 1.5, 0], [d * 0.75, -3, 1.6, 6, 0, 1, 0], [d, -4.5, 3, 4.5, 0.5, 1.1, 0]],
     three: <><Savanna t={t} /><G t={t} lie={tw(t, d * 0.45, d * 0.7)} blink={false} /></>,
-    ov: <><Tag txt="siestas cortas" x={500} y={300} op={fo(t, 0.5, d * 0.45)} /><Tag txt="unos minutos" x={1400} y={300} op={fo(t, d * 0.7)} /><Big txt="z z" x={1250} y={480} op={fo(t, d * 0.75) * (0.6 + 0.4 * Math.sin(t * 3))} col="#ffffff" size={90} /></>,
+    ov: <><Tag txt="siestas cortas" x={500} y={300} op={fo(t, 0.5, d * 0.45)} /><Tag txt="unos minutos" x={1400} y={300} op={fo(t, d * 0.7)} /><Big txt="z z" x={1250 + Math.sin(t * 2) * 30} y={480 - (t % 2) * 40} op={fo(t, d * 0.75) * (0.6 + 0.4 * Math.sin(t * 3))} col="#ffffff" size={90} /></>,
   }),
   leon: ({ t, d }) => ({
     keys: [[0, -8, 2, 6, -4, 1, 0], [d * 0.5, -3, 4, 10, -2, 2, 0], [d, 1.5, 5.5, 4, -6, 1, 0]],
