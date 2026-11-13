@@ -40,7 +40,7 @@ export const S21 = {
         <group position={[0, (1 - drop(t, 0.2, 0.8)) * 3 + up, 0]}><Drain s={1} trapWater={st.siphon ? 0 : 1} siphon={st.siphon} t={t} /></group>
         <group position={[0, (1 - drop(t, 0.5, 0.8)) * 3 + up * 1.2, 0]}><Bowl xr={0.6} swirl={st.swirl} t={t} /></group>
         <group position={[0, (1 - drop(t, 0.8, 0.8)) * 3 + up * 1.4, 0]}><Tank xr={tw(t, 1.6, 2.2) * 0.85} level={st.level} on={ALL} flap={st.flap} handle={st.handle} t={t} fillFlow={st.fill} /></group></>,
-      ov: <><Big txt="DESDE CERO" y={300} op={fo(t, d * 0.66)} col="#ffd23d" size={140} /></>,
+      ov: <><Big txt="¡SIN TRAMPAS!" y={300} op={fo(t, d * 0.66)} col="#ffd23d" size={140} /></>,
     };
   },
   titulo: ({ t, d }) => ({
