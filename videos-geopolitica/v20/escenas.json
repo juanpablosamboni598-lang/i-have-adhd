@@ -1,0 +1,500 @@
+[
+ {
+  "tipo": "apertura",
+  "titulo": "Dos metros de cuello",
+  "texto": "Esta jirafa tiene un problema enorme. Su cerebro está a casi dos metros por encima de su corazón. Y aun así, la sangre tiene que subir hasta allá arriba, en cada latido, sin parar, toda su vida.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.6,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "¿Cómo le llega la sangre al cerebro?",
+  "texto": "Hoy vamos a ver, pieza por pieza, cómo está construida una jirafa por dentro para que eso funcione. Su corazón, sus venas, sus piernas, y el truco que usa para no desmayarse cuando baja a beber agua.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.7,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "altura",
+  "titulo": "El animal más alto",
+  "texto": "Empecemos por las medidas. Un macho adulto puede pasar de cinco metros de altura. Solo el cuello mide cerca de dos metros. Es el animal terrestre más alto del planeta.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "zoom"
+   ]
+  ]
+ },
+ {
+  "tipo": "vertebras",
+  "titulo": "Siete vértebras",
+  "texto": "Y aquí va el primer dato raro. Ese cuello tan largo tiene siete vértebras. Las mismas que el tuyo. La diferencia es que cada una de las suyas puede medir más de veinticinco centímetros.",
+  "sfx": [
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.6,
+    "clink"
+   ]
+  ]
+ },
+ {
+  "tipo": "gravedad",
+  "titulo": "La gravedad",
+  "texto": "El problema es la gravedad. La sangre es líquida y pesa. Empujarla hacia arriba cuesta mucho, igual que subir agua por una manguera hasta un tercer piso.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "manguera",
+  "titulo": "La manguera",
+  "texto": "Si la bomba no empuja con suficiente fuerza, el agua no llega arriba. En la jirafa, eso significaría que el cerebro se queda sin oxígeno. Y sin oxígeno, el cerebro se apaga en segundos.",
+  "sfx": [
+   [
+    0.4,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "corazon",
+  "titulo": "El corazón",
+  "texto": "La solución empieza en el pecho. El corazón de una jirafa adulta puede pesar más de diez kilos y medir unos sesenta centímetros. Es grande, pero no tan grande como crees para un animal de su tamaño.",
+  "sfx": [
+   [
+    0.3,
+    "latido"
+   ],
+   [
+    0.6,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "pared",
+  "titulo": "La pared gruesa",
+  "texto": "Su verdadero secreto está en la pared. El lado izquierdo del corazón, el que empuja la sangre hacia el cuerpo, tiene un músculo muy grueso. Puede llegar a varios centímetros de espesor.",
+  "sfx": [
+   [
+    0.4,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "presion",
+  "titulo": "La presión",
+  "texto": "Gracias a ese músculo, la jirafa tiene una de las presiones de sangre más altas del reino animal. Más o menos el doble que la de una persona sana.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "medidor",
+  "titulo": "Cuánto empuja",
+  "texto": "Mira el medidor. Una persona tiene unos ciento veinte. Una jirafa, a la altura del corazón, puede pasar de doscientos cincuenta. Y aun así, cuando la sangre llega a la cabeza, la presión baja hasta valores parecidos a los nuestros.",
+  "sfx": [
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "arteria",
+  "titulo": "La arteria del cuello",
+  "texto": "La sangre sube por las arterias carótidas, dos tubos que recorren todo el cuello. Sus paredes también son gruesas y fuertes, para aguantar ese empuje sin reventarse.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ],
+   [
+    0.7,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "cerebro",
+  "titulo": "Llega arriba",
+  "texto": "Y así, latido tras latido, la sangre llega al cerebro con la presión justa. Ni muy poca, para no desmayarse, ni demasiada, para no dañarlo.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_bajar",
+  "titulo": "El gran problema",
+  "texto": "Hasta aquí todo bien. Pero hay un momento del día en que todo este sistema se pone a prueba. Cuando la jirafa tiene sed.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "beber",
+  "titulo": "Bajar a beber",
+  "texto": "Para beber, tiene que abrir las patas delanteras y bajar la cabeza hasta el suelo. En un segundo, su cabeza pasa de estar cinco metros arriba a estar más abajo que su corazón.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "gota"
+   ]
+  ]
+ },
+ {
+  "tipo": "peligro_bajar",
+  "titulo": "Demasiada sangre",
+  "texto": "Ahora la gravedad juega al revés. Con toda esa presión, la sangre bajaría de golpe hacia la cabeza. Sería como abrir una llave a todo volumen.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ],
+   [
+    0.7,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "valvulas",
+  "titulo": "Las válvulas",
+  "texto": "Aquí entra el primer truco. La vena yugular, la que baja la sangre desde la cabeza, tiene válvulas en su interior. Son como pequeñas compuertas que dejan pasar la sangre en un solo sentido.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.6,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "compuertas",
+  "titulo": "Se cierran",
+  "texto": "Cuando la cabeza baja, esas compuertas se cierran, y la sangre no puede regresar hacia el cerebro por la vena. Así se evita que la cabeza se llene de sangre.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "red",
+  "titulo": "La red de vasos",
+  "texto": "Además, en la base del cerebro hay una red de vasos sanguíneos muy finos. Los científicos todavía discuten cuánto ayuda, pero se cree que funciona como una esponja que amortigua los cambios de presión.",
+  "sfx": [
+   [
+    0.4,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "subir",
+  "titulo": "Subir otra vez",
+  "texto": "Y luego viene lo contrario. Cuando la jirafa levanta la cabeza de golpe, la sangre tiende a quedarse abajo. Tú sientes algo parecido cuando te paras muy rápido de la cama y te mareas.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "mareo",
+  "titulo": "Sin marearse",
+  "texto": "La jirafa evita ese mareo porque su corazón responde rápido y sus vasos se ajustan. En pocos segundos, la sangre vuelve a llegar arriba con la presión correcta.",
+  "sfx": [
+   [
+    0.4,
+    "latido"
+   ]
+  ]
+ },
+ {
+  "tipo": "despacio",
+  "titulo": "Con cuidado",
+  "texto": "Aun así, las jirafas beben con cuidado y en pocos sorbos. Y no beben todos los días: gran parte del agua la sacan de las hojas que comen.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_piernas",
+  "titulo": "Las piernas",
+  "texto": "Pero si la presión es tan alta, hay otro problema en la parte de abajo. Las piernas.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "hinchazon",
+  "titulo": "Se hincharían",
+  "texto": "Toda esa sangre, empujada con fuerza y además jalada por la gravedad, tendería a escaparse de los vasos y a acumularse en las patas. Se hincharían como globos.",
+  "sfx": [
+   [
+    0.3,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "media",
+  "titulo": "La media de compresión",
+  "texto": "Pero no pasa. La piel de las patas de la jirafa es muy gruesa y está muy apretada, como una media de compresión. Esa presión desde afuera evita que el líquido se acumule.",
+  "sfx": [
+   [
+    0.3,
+    "mecanismo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "traje",
+  "titulo": "Como un traje especial",
+  "texto": "Funciona parecido a las medias que usan algunas personas en vuelos largos, o a los trajes especiales de los pilotos de aviones muy rápidos, que aprietan las piernas para que la sangre no se quede abajo.",
+  "sfx": [
+   [
+    0.4,
+    "motor"
+   ]
+  ]
+ },
+ {
+  "tipo": "arterias_piernas",
+  "titulo": "Arterias fuertes",
+  "texto": "Además, las arterias de sus patas tienen paredes muy gruesas, y en los vasos más finos la presión se controla para que el líquido no se escape.",
+  "sfx": [
+   [
+    0.4,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "puente_genes",
+  "titulo": "En los genes",
+  "texto": "¿Y cómo llegó la jirafa a tener todo esto? La respuesta está escrita en su ADN.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "genes",
+  "titulo": "Los genes del cuello",
+  "texto": "En 2016, unos científicos leyeron el genoma completo de la jirafa. Encontraron cambios en genes relacionados con el crecimiento de los huesos y con el corazón y los vasos sanguíneos.",
+  "sfx": [
+   [
+    0.3,
+    "electrico"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "juntos",
+  "titulo": "Todo junto",
+  "texto": "Es decir, el cuello largo y el sistema para bombear sangre no aparecieron por separado. Fueron cambiando juntos, a lo largo de millones de años.",
+  "sfx": [
+   [
+    0.4,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "lengua",
+  "titulo": "La lengua",
+  "texto": "Y ya que estamos mirando su cabeza, otro dato. Su lengua puede medir unos cuarenta y cinco centímetros, y es de color oscuro. Se cree que ese color la protege del sol, porque pasa mucho tiempo afuera, arrancando hojas.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "acacia",
+  "titulo": "Entre espinas",
+  "texto": "La usa para comer hojas de acacia, un árbol lleno de espinas. Su lengua y su saliva espesa la ayudan a comer sin lastimarse.",
+  "sfx": [
+   [
+    0.4,
+    "mordida"
+   ]
+  ]
+ },
+ {
+  "tipo": "dormir",
+  "titulo": "Dormir de pie",
+  "texto": "Y duermen muy poco. En la naturaleza descansan sobre todo de pie, en siestas cortas. A veces se acuestan y apoyan la cabeza sobre su propio cuerpo, pero solo por unos minutos.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "leon",
+  "titulo": "Siempre alerta",
+  "texto": "Tiene sentido. Una jirafa acostada tarda en levantarse, y los leones lo saben. Estar de pie la ayuda a ver el peligro desde muy lejos.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.8,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "peligro",
+  "titulo": "En peligro",
+  "texto": "Hoy quedan cerca de ciento diecisiete mil jirafas en libertad. En las últimas décadas su número bajó mucho por la caza y por la pérdida de su hábitat. La Unión Internacional para la Conservación de la Naturaleza las considera vulnerables.",
+  "sfx": [
+   [
+    0.4,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuidar",
+  "titulo": "Cómo ayudar",
+  "texto": "Proteger las sabanas donde viven y frenar la caza ilegal son las formas de ayudarlas. Muchas organizaciones trabajan en eso en África.",
+  "sfx": [
+   [
+    0.4,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "En resumen",
+  "texto": "Un corazón con paredes gruesas, presión muy alta, válvulas en las venas, una red de vasos en la cabeza, y piernas con medias de compresión. Así le llega la sangre al cerebro a una jirafa.",
+  "sfx": [
+   [
+    0.2,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "Una pregunta",
+  "texto": "Y ahora piénsalo: si tu cabeza estuviera dos metros por encima de tu corazón, ¿cuántas veces te habrías desmayado hoy?",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "Suscríbete",
+  "texto": "Si te gustó, suscríbete y activa la campana. Y cuéntame en los comentarios: ¿qué animal quieres que armemos pieza por pieza en el próximo video?",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.5,
+    "campana"
+   ]
+  ]
+ }
+]
