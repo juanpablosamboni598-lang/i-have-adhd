@@ -79,7 +79,9 @@ const GLB = ({ file, color, colors = {}, t, outline, outlineColor }) => {
 
 // Uso: <MatcapModel file="nevera.glb" pos={[0,0,0]} scale={1} color="#f4f6f8" />
 //  o   <MatcapModel geo={<boxGeometry args={[1,1,1]} />} color="#e2483d" />
-export const MatcapModel = ({ file, geo, pos = [0, 0, 0], rot = [0, 0, 0], scale = 1, color, colors, t = 0.015, outline = 'hull', outlineColor = '#141018', ...rest }) => {
+export const MatcapModel = ({ file: fileProp, modelPath, geo, pos = [0, 0, 0], rot = [0, 0, 0], scale = 1, color, colors, t = 0.015, outline = 'hull', outlineColor = '#141018', ...rest }) => {
+  // acepta file="x.glb" o modelPath="/models/x.glb"
+  const file = fileProp || (modelPath ? modelPath.replace(/^\/?models\//, '').replace(/^\//, '') : null);
   if (!file) return <MatcapMesh geo={geo} color={color || '#ffffff'} pos={pos} rot={rot} scale={scale} t={t} outline={outline} outlineColor={outlineColor} {...rest} />;
   return <group position={pos} rotation={rot} scale={scale}>
     <Suspense fallback={null}><GLB file={file} color={color} colors={colors} t={t} outline={outline} outlineColor={outlineColor} /></Suspense>
