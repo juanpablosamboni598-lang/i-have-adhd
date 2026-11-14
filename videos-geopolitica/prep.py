@@ -12,9 +12,14 @@ for i, sc in enumerate(esc):
                     '-ar', '44100', '-ac', '2', dst], check=True)
     dur = float(subprocess.check_output(['ffprobe', '-v', 'error', '-show_entries', 'format=duration', '-of', 'csv=p=0', dst]))
     speech = dur - lead - tail
-    words = sc['texto'].split(); w = [len(x) + 3 for x in words]; tot = sum(w); acc = 0; wt = []
-    for word, ww in zip(words, w):
-        wt.append((word, lead + speech * acc / tot)); acc += ww
+    wj = f'{folder}/audio2/a{i:02d}.words.json'
+    if os.path.exists(wj):  # tiempos exactos de edge-tts (WordBoundary), ajustados al tempo
+        tempo = float(os.environ.get('TEMPO', '0.95'))
+        wt = [(wd, lead + st / tempo) for wd, st, _ in json.load(open(wj))]
+    else:  # estimación por longitud de palabra (voces sin tiempos)
+        words = sc['texto'].split(); w = [len(x) + 3 for x in words]; tot = sum(w); acc = 0; wt = []
+        for word, ww in zip(words, w):
+            wt.append((word, lead + speech * acc / tot)); acc += ww
     scenes.append({'start': start, 'dur': dur, 'words': wt}); start += dur; parts.append(dst)
 json.dump({'scenes': scenes, 'total': start}, open(f'{folder}/timeline.json', 'w'), ensure_ascii=False)
 open(f'{folder}/audio3/list.txt', 'w').write(''.join(f"file '{os.path.basename(p)}'\n" for p in parts))

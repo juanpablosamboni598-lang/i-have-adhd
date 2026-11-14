@@ -1,6 +1,11 @@
-"""Sintetiza efectos de sonido (numpy) y arma la pista sfx.wav + ambiente.
-Uso: sfx.py <carpeta>   (lee escenas.json[*].sfx y timeline.json)"""
-import json, os, sys, wave
+"""Efectos de sonido y pista sfx.wav + ambiente.
+Uso: sfx.py <carpeta>   (lee escenas.json[*].sfx y timeline.json)
+Fuente de cada efecto, en orden:
+  1) caché local assets/sfx_cache/<nombre>.wav
+  2) Freesound API v2 (si existe la variable FREESOUND_API_KEY): busca el preview MP3, SOLO licencia
+     Creative Commons 0 (uso comercial libre, sin atribución), lo convierte a WAV y lo guarda en la caché
+  3) el generador sintético de este archivo (siempre disponible, sin red)."""
+import json, os, sys, wave, subprocess, tempfile
 import numpy as np
 
 SR = 44100
@@ -226,6 +231,65 @@ def write(path, x):
         w.setnchannels(2); w.setsampwidth(2); w.setframerate(SR); w.writeframes(st.tobytes())
 
 
+# ---------- efectos reales (Freesound, CC0) con caché ----------
+CACHE = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'assets', 'sfx_cache')
+QUERIES = {  # nombre interno -> búsqueda en Freesound
+    'whoosh': 'whoosh', 'whoosh_largo': 'whoosh long', 'splash': 'water splash', 'impacto': 'impact hit', 'pop': 'pop',
+    'ding': 'ding', 'campana': 'bell ring', 'brillo': 'sparkle', 'agua_flujo': 'water flow', 'burbujas': 'bubbles',
+    'zoom': 'zoom swoosh', 'alarma': 'alarm beep', 'calor': 'sizzle', 'olfatear': 'sniff', 'gota': 'water drop',
+    'chapoteo': 'water splash small', 'onda': 'sonar ping', 'electrico': 'electric zap', 'mordida': 'bite crunch',
+    'corte': 'cut slice', 'clink': 'metal clink', 'mecanismo': 'mechanism click', 'tic': 'clock tick', 'click': 'click',
+    'swish': 'swish', 'motor': 'motor hum', 'fallo': 'fail buzzer', 'bip': 'beep', 'misterio': 'mystery sting',
+    'tension': 'tension riser', 'latido': 'heartbeat',
+}
+_mem = {}
+
+
+def _read_wav(path):
+    with wave.open(path) as w:
+        a = np.frombuffer(w.readframes(w.getnframes()), np.int16).astype(np.float32) / 32768
+        if w.getnchannels() == 2:
+            a = a.reshape(-1, 2).mean(1)
+    return a
+
+
+def freesound(name):
+    """Devuelve el efecto real (np.array) o None. Nunca falla: cualquier error -> None (se usa el sintético)."""
+    if name in _mem:
+        return _mem[name]
+    path = os.path.join(CACHE, name + '.wav')
+    x = None
+    if os.path.exists(path):
+        x = _read_wav(path)
+    elif os.environ.get('FREESOUND_API_KEY') and name in QUERIES:
+        try:
+            import requests
+            key = os.environ['FREESOUND_API_KEY']
+            r = requests.get('https://freesound.org/apiv2/search/text/', timeout=20, params={
+                'query': QUERIES[name], 'filter': 'license:"Creative Commons 0" duration:[0.1 TO 4]',
+                'fields': 'id,name,previews,license,duration', 'sort': 'rating_desc', 'page_size': 5, 'token': key})
+            r.raise_for_status()
+            res = [h for h in r.json().get('results', []) if 'creativecommons.org/publicdomain/zero' in h.get('license', '')]
+            if res:
+                url = res[0]['previews']['preview-hq-mp3']
+                mp3 = requests.get(url, timeout=30, params={'token': key})
+                mp3.raise_for_status()
+                os.makedirs(CACHE, exist_ok=True)
+                with tempfile.NamedTemporaryFile(suffix='.mp3') as tmp:
+                    tmp.write(mp3.content); tmp.flush()
+                    subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', tmp.name, '-t', '3', '-ac', '1', '-ar', str(SR),
+                                    '-af', 'afade=t=out:st=2.6:d=0.4,loudnorm=I=-20:TP=-3', path], check=True)
+                json.dump({'name': name, 'freesound_id': res[0]['id'], 'title': res[0]['name'], 'license': res[0]['license']},
+                          open(path + '.json', 'w'), ensure_ascii=False)
+                x = _read_wav(path)
+        except Exception as e:
+            print('freesound', name, 'falló, uso sintético:', type(e).__name__, file=sys.stderr)
+    if x is not None:
+        x = x * (0.55 / max(1e-6, float(np.abs(x).max())))  # nivel parecido al sintético
+    _mem[name] = x
+    return x
+
+
 def main():
     folder = sys.argv[1]
     esc = json.load(open(os.path.join(folder, 'escenas.json')))
@@ -235,10 +299,12 @@ def main():
     missing = set()
     for sc, s in zip(esc, tl['scenes']):
         for frac, name in sc.get('sfx', []):
-            f = FX.get(name)
-            if not f:
-                missing.add(name); continue
-            x = f()
+            x = freesound(name)
+            if x is None:
+                f = FX.get(name)
+                if not f:
+                    missing.add(name); continue
+                x = f()
             p = int(SR * (s['start'] + frac * s['dur']))
             out[p:p + len(x)] += x[:len(out) - p]
     # ambiente submarino continuo: ruido grave + burbujas ocasionales

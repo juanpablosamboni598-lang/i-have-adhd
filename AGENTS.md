@@ -27,6 +27,7 @@ Agents may read and reference any GitHub issue or pull request. Commenting has n
 | Area | Location | Purpose |
 | --- | --- | --- |
 | Canonical skill | `skills/i-have-adhd/SKILL.md` | The source of truth for the 10 ADHD-friendly response rules. |
+| Video pipeline skill (branch `videos-geopolitica`) | `skills/remotion-three-optimizer/SKILL.md` | CPU-only Remotion + three.js rendering rules for the 3D explainer videos in `videos-geopolitica/`. Not part of the ADHD behavior. |
 | Skill mirror | `.cursor/skills/i-have-adhd/SKILL.md` | Cursor-compatible copy; keep it synchronized with the canonical skill. |
 | Claude and Codex metadata | `.claude-plugin/`, `.codex-plugin/`, `.agents/plugins/` | Plugin manifests and marketplace metadata. |
 | Shared hooks | `hooks/hooks.json`, `hooks/always-on.*` | Hook declarations and cross-platform always-on behavior. |
