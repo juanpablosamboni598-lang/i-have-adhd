@@ -1,0 +1,113 @@
+[
+ {
+  "tipo": "caja",
+  "titulo": "una caja",
+  "texto": "Si pones tu comida en una caja cerrada, ya la tienes guardada. Pero adentro hace el mismo calor que afuera, y en un par de días la leche se corta y la carne huele mal.",
+  "sfx": [
+   [
+    0.1,
+    "clink"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.65,
+    "fallo"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "hielo",
+  "titulo": "un bloque de hielo",
+  "texto": "Así que le metes un bloque de hielo. El hielo se roba el calor de la comida, y todo se enfría. Así funcionaban las neveras de antes.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.4,
+    "brillo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "derrite",
+  "titulo": "se derrite",
+  "texto": "Pero el hielo se derrite. Cada día tienes un charco en el fondo, y tienes que comprar otro bloque y cargarlo hasta tu casa.",
+  "sfx": [
+   [
+    0.15,
+    "gota"
+   ],
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.6,
+    "chapoteo"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "compresor",
+  "titulo": "un motor que aprieta",
+  "texto": "Así que le pones un motor con una bomba que chupa el gas y lo aprieta. Es esa bola negra que hay abajo, atrás de tu nevera. Ese es el compresor.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.75,
+    "motor"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "rejilla",
+  "titulo": "una rejilla atrás",
+  "texto": "Así que lo pasas por un tubo largo, doblado en zigzag, por la espalda de la nevera, al aire libre. Ahí suelta el calor, se enfría, y se vuelve líquido otra vez. Ese es el condensador.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.4,
+    "calor"
+   ],
+   [
+    0.7,
+    "gota"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ }
+]
