@@ -1,0 +1,820 @@
+[
+ {
+  "tipo": "abre",
+  "titulo": "nevera",
+  "texto": "Esto es una nevera. Parece una caja fría y ya, pero por dentro tiene un truco que roba el calor de tu comida y lo tira por la espalda. Vamos a armarla desde cero, pieza por pieza.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.8,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "caja",
+  "titulo": "una caja",
+  "texto": "Si pones tu comida en una caja cerrada, ya la tienes guardada. Pero adentro hace el mismo calor que afuera, y en un par de días la leche se corta y la carne huele mal.",
+  "sfx": [
+   [
+    0.1,
+    "clink"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.65,
+    "fallo"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "hielo",
+  "titulo": "un bloque de hielo",
+  "texto": "Así que le metes un bloque de hielo. El hielo se roba el calor de la comida, y todo se enfría. Así funcionaban las neveras de antes.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.4,
+    "brillo"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "derrite",
+  "titulo": "se derrite",
+  "texto": "Pero el hielo se derrite. Cada día tienes un charco en el fondo, y tienes que comprar otro bloque y cargarlo hasta tu casa.",
+  "sfx": [
+   [
+    0.15,
+    "gota"
+   ],
+   [
+    0.4,
+    "gota"
+   ],
+   [
+    0.6,
+    "chapoteo"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "sudor",
+  "titulo": "el truco del sudor",
+  "texto": "Entonces piensas en otro truco. Cuando sudas y te da el viento, sientes frío. Es porque el agua, al evaporarse, se lleva el calor de tu piel.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "whoosh"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "liquido",
+  "titulo": "un líquido especial",
+  "texto": "Así que en vez de agua usas un líquido especial que hierve a temperaturas muy bajas, bajo cero. Lo metes en unos tubos pegados a las paredes de adentro.",
+  "sfx": [
+   [
+    0.15,
+    "burbujas"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.75,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "evapora",
+  "titulo": "hierve y enfría",
+  "texto": "El líquido hierve dentro de los tubos, se convierte en gas, y al hacerlo le roba el calor a todo lo que hay en la caja. Ese es el evaporador.",
+  "sfx": [
+   [
+    0.15,
+    "burbujas"
+   ],
+   [
+    0.4,
+    "burbujas"
+   ],
+   [
+    0.65,
+    "brillo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "seacaba",
+  "titulo": "se acaba",
+  "texto": "Pero el líquido se gasta. Todo se convierte en gas, el gas se escapa, y la caja se vuelve a calentar. Tendrías que rellenarla cada día.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "fallo"
+   ],
+   [
+    0.8,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "cerrado",
+  "titulo": "un circuito cerrado",
+  "texto": "Así que cierras el circuito. Los tubos ya no tienen salida: el gas se queda adentro, dando vueltas. Ahora hay que convertirlo otra vez en líquido para volver a usarlo.",
+  "sfx": [
+   [
+    0.2,
+    "clink"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.75,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "aprieta",
+  "titulo": "hay que apretarlo",
+  "texto": "Y para que un gas vuelva a ser líquido, hay que apretarlo. Muy fuerte. Como cuando aprietas un globo hasta que ya no cabe más aire.",
+  "sfx": [
+   [
+    0.2,
+    "tension"
+   ],
+   [
+    0.5,
+    "mecanismo"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "compresor",
+  "titulo": "un motor que aprieta",
+  "texto": "Así que le pones un motor con una bomba que chupa el gas y lo aprieta. Es esa bola negra que hay abajo, atrás de tu nevera. Ese es el compresor.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.75,
+    "motor"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "caliente",
+  "titulo": "sale caliente",
+  "texto": "Pero al apretar el gas, se calienta muchísimo. Igual que la bomba de inflar una llanta, que se pone caliente cuando la usas un rato.",
+  "sfx": [
+   [
+    0.2,
+    "calor"
+   ],
+   [
+    0.5,
+    "alarma"
+   ],
+   [
+    0.8,
+    "calor"
+   ]
+  ]
+ },
+ {
+  "tipo": "rejilla",
+  "titulo": "una rejilla atrás",
+  "texto": "Así que lo pasas por un tubo largo, doblado en zigzag, por la espalda de la nevera, al aire libre. Ahí suelta el calor, se enfría, y se vuelve líquido otra vez. Ese es el condensador.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.4,
+    "calor"
+   ],
+   [
+    0.7,
+    "gota"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "espalda",
+  "titulo": "por eso calienta",
+  "texto": "Por eso, si tocas la parte de atrás de tu nevera, está tibia. Ese calor es el que le sacó a tu comida.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "presion",
+  "titulo": "el líquido apretado",
+  "texto": "Pero ahora el líquido sale apretado y tibio. Si entra así a los tubos de adentro, no hierve, y no enfría nada.",
+  "sfx": [
+   [
+    0.25,
+    "tension"
+   ],
+   [
+    0.6,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "capilar",
+  "titulo": "un tubo finito",
+  "texto": "Así que lo haces pasar por un tubo finito, finito, como un cabello. Al salir de ahí, la presión cae de golpe, el líquido se enfría, y ya está listo para hervir otra vez. Ese es el tubo capilar.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.45,
+    "click"
+   ],
+   [
+    0.7,
+    "brillo"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "vuelta",
+  "titulo": "la vuelta completa",
+  "texto": "Y así da la vuelta, sin parar. Hierve adentro y roba calor, el compresor lo aprieta, la rejilla de atrás lo suelta, el tubito lo enfría, y vuelve a empezar.",
+  "sfx": [
+   [
+    0.1,
+    "mecanismo"
+   ],
+   [
+    0.35,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "motor"
+   ],
+   [
+    0.85,
+    "agua_flujo"
+   ]
+  ]
+ },
+ {
+  "tipo": "congela",
+  "titulo": "se congela todo",
+  "texto": "Pero si el compresor nunca se apaga, la caja se enfría y se enfría, hasta que la lechuga se congela y la leche se vuelve hielo.",
+  "sfx": [
+   [
+    0.25,
+    "tension"
+   ],
+   [
+    0.55,
+    "impacto"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "termostato",
+  "titulo": "una perilla",
+  "texto": "Así que le pones una perilla con un sensor. Cuando adentro llega al frío que escogiste, apaga el compresor. Cuando se calienta un poco, lo vuelve a prender. Ese es el termostato.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.7,
+    "click"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "zumbido",
+  "titulo": "el zumbido",
+  "texto": "Por eso tu nevera a veces zumba y a veces se queda callada. No está fallando: es el compresor prendiendo y apagando.",
+  "sfx": [
+   [
+    0.2,
+    "motor"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.85,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "paredes",
+  "titulo": "se escapa el frío",
+  "texto": "Pero las paredes son de lámina, y la lámina deja pasar el calor de afuera. El compresor tiene que trabajar todo el día y gastas mucha luz.",
+  "sfx": [
+   [
+    0.2,
+    "calor"
+   ],
+   [
+    0.5,
+    "alarma"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "espuma",
+  "titulo": "una espuma",
+  "texto": "Así que rellenas las paredes con una espuma llena de burbujitas de aire, que casi no deja pasar el calor. Ese es el aislante.",
+  "sfx": [
+   [
+    0.15,
+    "burbujas"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puerta",
+  "titulo": "la puerta",
+  "texto": "Pero cada vez que cierras la puerta, queda una rendija en el borde, y por ahí se mete el aire caliente.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "iman",
+  "titulo": "un imán de goma",
+  "texto": "Así que le pones a la puerta un borde de goma con un imán por dentro. Al cerrar, el imán la jala y la sella por completo. Ese es el empaque.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.4,
+    "impacto"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "dificil",
+  "titulo": "cuesta abrirla",
+  "texto": "Por eso, justo después de cerrarla, cuesta un poco abrirla otra vez. El aire de adentro se enfría, se encoge, y el empaque queda pegado.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.7,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "oscuro",
+  "titulo": "no ves nada",
+  "texto": "Pero ahora la caja es oscura por dentro. Abres la puerta y no encuentras nada.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "luz",
+  "titulo": "un botoncito",
+  "texto": "Así que le pones un foco, y un botoncito en el borde. Cuando la puerta lo aprieta, el foco se apaga, y cuando abres, se suelta y se prende.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "brillo"
+   ],
+   [
+    0.8,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "frio_baja",
+  "titulo": "el frío baja",
+  "texto": "Ahora otro detalle. El aire frío pesa más que el caliente, así que se va al fondo. Arriba queda más tibio, y abajo más frío.",
+  "sfx": [
+   [
+    0.25,
+    "swish"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "congelador",
+  "titulo": "el congelador",
+  "texto": "Por eso en muchas neveras el congelador va arriba, con los tubos más fríos. El aire helado cae desde ahí y enfría todo lo de abajo.",
+  "sfx": [
+   [
+    0.15,
+    "impacto"
+   ],
+   [
+    0.45,
+    "swish"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "escarcha",
+  "titulo": "se forma escarcha",
+  "texto": "Pero la humedad del aire se pega a los tubos fríos y se vuelve escarcha. Cada vez hay más, como una cobija de hielo, y la nevera enfría menos.",
+  "sfx": [
+   [
+    0.2,
+    "tension"
+   ],
+   [
+    0.55,
+    "gota"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "ventilador",
+  "titulo": "un ventilador",
+  "texto": "Así que pones los tubos escondidos atrás, con un ventilador que mueve el aire frío, y de vez en cuando una resistencia calienta un poquito para derretir la escarcha. Eso es una nevera no frost.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.45,
+    "swish"
+   ],
+   [
+    0.7,
+    "calor"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "charco",
+  "titulo": "el agua de la escarcha",
+  "texto": "Pero toda esa escarcha derretida se vuelve agua, y no puede quedarse adentro. Así que la mandas por un tubito hasta una bandeja que está encima del compresor. El compresor está caliente, y esa agua se evapora sola.",
+  "sfx": [
+   [
+    0.15,
+    "gota"
+   ],
+   [
+    0.4,
+    "agua_flujo"
+   ],
+   [
+    0.7,
+    "calor"
+   ],
+   [
+    0.9,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "cajon",
+  "titulo": "el cajón",
+  "texto": "Pero el aire frío de la nevera es muy seco, y las verduras se arrugan y se ponen blandas en un par de días. Así que les pones un cajón cerrado abajo, que guarda la humedad. Ese es el cajón de verduras.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "fallo"
+   ],
+   [
+    0.75,
+    "clink"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puerta_tibia",
+  "titulo": "la puerta es tibia",
+  "texto": "Pero la puerta es la parte más tibia, porque cada vez que la abres le da el aire de afuera. Así que ahí pones las salsas y las bebidas, y la leche la dejas adentro, en el fondo, donde hace más frío.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.8,
+    "clink"
+   ]
+  ]
+ },
+ {
+  "tipo": "olla",
+  "titulo": "la olla caliente",
+  "texto": "Pero si metes una olla hirviendo, calientas todo lo de alrededor y el compresor trabaja de más. Así que la dejas que suelte el vapor un rato, sin pasarte de un par de horas afuera, y luego la guardas tapada.",
+  "sfx": [
+   [
+    0.2,
+    "calor"
+   ],
+   [
+    0.5,
+    "alarma"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ozono",
+  "titulo": "el gas de antes",
+  "texto": "Y una cosa más. El gas de las neveras antiguas, si se escapaba, dañaba la capa de ozono, que nos protege del sol. Así que en casi todo el mundo se prohibió, y ahora se usan otros gases.",
+  "sfx": [
+   [
+    0.2,
+    "misterio"
+   ],
+   [
+    0.5,
+    "alarma"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pared",
+  "titulo": "pegada a la pared",
+  "texto": "Pero si pegas la nevera contra la pared, la rejilla de atrás no puede soltar su calor. El compresor trabaja el doble y la comida no se enfría bien.",
+  "sfx": [
+   [
+    0.25,
+    "calor"
+   ],
+   [
+    0.55,
+    "alarma"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "espacio",
+  "titulo": "déjale aire",
+  "texto": "Así que le dejas unos centímetros de espacio atrás y a los lados, para que el aire pase y se lleve el calor.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "abrir",
+  "titulo": "no la dejes abierta",
+  "texto": "Y cada vez que dejas la puerta abierta mirando qué comer, el aire frío se cae al piso y entra el caliente. Ciérrala rápido.",
+  "sfx": [
+   [
+    0.25,
+    "swish"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.85,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "repaso",
+  "titulo": "repaso",
+  "texto": "Repasemos. Una caja, un líquido que hierve en los tubos de adentro, un compresor que lo aprieta, una rejilla atrás que suelta el calor, un tubito que lo enfría, un termostato, espuma en las paredes, un imán en la puerta y un foco con botón.",
+  "sfx": [
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ],
+   [
+    0.9,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "así funciona",
+  "texto": "Tu nevera no fabrica frío: le saca el calor a tu comida y lo tira por la espalda. Así funciona.",
+  "sfx": [
+   [
+    0.3,
+    "brillo"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "¿qué armamos?",
+  "texto": "Si te gustó, síguenos, y escribe en los comentarios qué objeto quieres que armemos pieza por pieza.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.6,
+    "campana"
+   ]
+  ]
+ }
+]

@@ -15,6 +15,6 @@ for i in idx:
     if os.path.exists(out) and os.environ.get('FORCE') != '1':
         continue
     t0 = time.time()
-    wav = m.generate(esc[i]['texto'], language_id='es', audio_prompt_path=ref, exaggeration=0.5, cfg_weight=0.5)
+    wav = m.generate(esc[i]['texto'], language_id='es', audio_prompt_path=ref, exaggeration=float(os.environ.get('EXAG', '0.5')), cfg_weight=float(os.environ.get('CFG', '0.5')))
     ta.save(out, wav, m.sr)
     print(i, round(wav.shape[-1] / m.sr, 1), 's audio en', round(time.time() - t0), 's', flush=True)

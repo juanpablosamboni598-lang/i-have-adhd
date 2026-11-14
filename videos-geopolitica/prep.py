@@ -6,7 +6,7 @@ os.makedirs(f'{folder}/audio3', exist_ok=True)
 scenes, start, parts = [], 0.0, []
 for i, sc in enumerate(esc):
     src, dst = f'{folder}/audio2/a{i:02d}.wav', f'{folder}/audio3/b{i:02d}.wav'
-    lead = 0.35 if i > 0 else 0.15; tail = 0.55
+    lead = float(os.environ.get('LEAD', '0.35')) if i > 0 else 0.15; tail = float(os.environ.get('TAIL', '0.55'))
     subprocess.run(['ffmpeg', '-y', '-loglevel', 'error', '-i', src, '-af',
                     f'atempo={os.environ.get("TEMPO", "0.95")},adelay={int(lead*1000)}|{int(lead*1000)},apad=pad_dur={tail}',
                     '-ar', '44100', '-ac', '2', dst], check=True)

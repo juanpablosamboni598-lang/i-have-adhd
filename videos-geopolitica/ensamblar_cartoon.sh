@@ -9,6 +9,7 @@ mkdir -p vonly
 for i in $(seq 0 $((N-1))); do f=$(printf "%s/e%02d.mp4" ${RENDER:-render} $i); ffmpeg -y -loglevel error -i $f -an -c copy $(printf "vonly/e%02d.mp4" $i); printf "file 'vonly/e%02d.mp4'\n" $i; done > vlist.txt
 ffmpeg -y -loglevel error -f concat -safe 0 -i vlist.txt -c copy crudo.mp4
 VF="ass=subs.ass:fontsdir=/usr/share/fonts/opentype/inter"
+[ -n "$NOSUBS" ] && VF="null"
 if [ -n "$VBITRATE" ]; then
   ffmpeg -y -loglevel error -i crudo.mp4 -vf "$VF" -c:v libx264 -preset slow -b:v $VBITRATE -pass 1 -passlogfile x264pass -pix_fmt yuv420p -an -f mp4 /dev/null
   ffmpeg -y -loglevel error -i crudo.mp4 -vf "$VF" -c:v libx264 -preset slow -b:v $VBITRATE -pass 2 -passlogfile x264pass -pix_fmt yuv420p -an mudo.mp4
