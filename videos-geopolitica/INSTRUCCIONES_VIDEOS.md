@@ -95,3 +95,8 @@ Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin pregun
 Ver GUIA_ESTILO_3D.md: fórmula del guion "si pones… pero… así que… ese es el…", voz rápida (~200 ppm, pausas ≤0,2 s,
 EXAG=0.7 CFG=0.3), sombras largas, textos sincronizados con la voz y sin subtítulos (NOSUBS=1), Shorts verticales nativos
 (shorts13/make_short_v.py). Primer video así: v22 nevera (pipeline8.sh). El dueño autorizó subir a YouTube y Facebook con el plan vigente.
+
+### Voz del canal (14 nov 2026, elegida por el dueño)
+Desde v23: **Andrew** (edge-tts, `en-US-AndrewMultilingualNeural`), con `tts/andrew.py <carpeta>` (mismo uso que chatter.py;
+da tiempos exactos por palabra que prep.py usa para los textos sincronizados). Se eligió porque es la más parecida a la voz
+"Luis Vega" de ElevenLabs que le gustó (tono ~115 Hz, ~196 ppm). Chatterbox (tts/chatter.py) queda como alternativa.
