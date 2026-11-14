@@ -90,3 +90,8 @@ Nada fuera de este plan (cambios de títulos, borrar, otros horarios) sin pregun
 - Narrativa "prueba y error" (pedido del dueño, 13 nov): construir el objeto desde cero; cada pieza aparece porque
   la anterior falló ("pongo una caja → sirve pero se llena → le agrego X → ..."). Fallos en rojo, arreglos en verde.
   Primer video así: v21 inodoro (pipeline7.sh, escenas en remotion/src/three/scenes21.jsx).
+
+### Guía completa del estilo (14 nov 2026)
+Ver GUIA_ESTILO_3D.md: fórmula del guion "si pones… pero… así que… ese es el…", voz rápida (~200 ppm, pausas ≤0,2 s,
+EXAG=0.7 CFG=0.3), sombras largas, textos sincronizados con la voz y sin subtítulos (NOSUBS=1), Shorts verticales nativos
+(shorts13/make_short_v.py). Primer video así: v22 nevera (pipeline8.sh). El dueño autorizó subir a YouTube y Facebook con el plan vigente.
