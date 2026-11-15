@@ -104,5 +104,8 @@ da tiempos exactos por palabra que prep.py usa para los textos sincronizados). S
 ### Facebook con videos propios (15 nov 2026, pedido del dueño)
 "En Facebook no subas el mismo video siempre": la página Quatoom deja de recibir copias de los videos de YouTube.
 Para Facebook se hacen videos APARTE, en el estilo de la referencia (3D "prueba y error", fórmula "si pones… pero…
-así que… ese es el…", voz Andrew), sobre curiosidades distintas a las de YouTube. Cantidad, duración y qué hacer con las
-copias ya programadas: según lo que confirme el dueño (ver abajo cuando se defina).
+así que… ese es el…", voz Andrew), sobre curiosidades distintas a las de YouTube. Confirmado por el dueño:
+- 1 video propio por día para Facebook, vertical 9:16, ~2 min, UNA curiosidad armada paso a paso (como la referencia del boiler).
+- Tema distinto al video de YouTube de ese día. Se sube como reel a la página Quatoom (Buffer) tras pasar QC.
+- Las 8 copias de YouTube que estaban programadas en Facebook (inodoro y nevera) se borraron de Buffer el 15 nov.
+- YouTube sigue igual: 1 largo + 3 Shorts por día.
