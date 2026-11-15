@@ -109,3 +109,11 @@ así que… ese es el…", voz Andrew), sobre curiosidades distintas a las de Yo
 - Tema distinto al video de YouTube de ese día. Se sube como reel a la página Quatoom (Buffer) tras pasar QC.
 - Las 8 copias de YouTube que estaban programadas en Facebook (inodoro y nevera) se borraron de Buffer el 15 nov.
 - YouTube sigue igual: 1 largo + 3 Shorts por día.
+
+### Voz clonada del dueño (15 nov 2026)
+El dueño autorizó, por escrito y en su propia grabación: "Autorizo clonar mi propia voz y usarla en todos los videos de mis
+canales (YouTube jxseng y Facebook Quatoom), largos, Shorts y Reels, sin pedirme permiso cada vez."
+- Motor: Qwen3-TTS 0.6B Base (/home/user/tools/qwen-venv), referencia tts/mivoz/ref.wav (13 s). Script de prueba: tts/mivoz/probar.py.
+- La grabación NO se sube al repositorio (está en .gitignore) para que nadie más pueda clonar su voz.
+- Solo para videos de sus canales. Si dice "ya no uses mi voz", volver a Andrew.
+- Pendiente: que el dueño escuche las pruebas y confirme si reemplaza a Andrew.
