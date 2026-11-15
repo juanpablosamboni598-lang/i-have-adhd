@@ -100,3 +100,9 @@ EXAG=0.7 CFG=0.3), sombras largas, textos sincronizados con la voz y sin subtít
 Desde v23: **Andrew** (edge-tts, `en-US-AndrewMultilingualNeural`), con `tts/andrew.py <carpeta>` (mismo uso que chatter.py;
 da tiempos exactos por palabra que prep.py usa para los textos sincronizados). Se eligió porque es la más parecida a la voz
 "Luis Vega" de ElevenLabs que le gustó (tono ~115 Hz, ~196 ppm). Chatterbox (tts/chatter.py) queda como alternativa.
+
+### Facebook con videos propios (15 nov 2026, pedido del dueño)
+"En Facebook no subas el mismo video siempre": la página Quatoom deja de recibir copias de los videos de YouTube.
+Para Facebook se hacen videos APARTE, en el estilo de la referencia (3D "prueba y error", fórmula "si pones… pero…
+así que… ese es el…", voz Andrew), sobre curiosidades distintas a las de YouTube. Cantidad, duración y qué hacer con las
+copias ya programadas: según lo que confirme el dueño (ver abajo cuando se defina).
