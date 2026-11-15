@@ -100,7 +100,7 @@ const Jets = ({ t = 0, on = 0, n = 16, reach = 0.25 }) => on <= 0.01 ? null : <g
 
 // ---------- lavadora ----------
 // on: {shell, panel, door, drum, holes, paddles, tub, motor, belt, valve, hose, press, heater, disp, pump, filter, weights, springs, lock, gasket}
-export const Washer = ({ pos = [0, 0, 0], rotY = 0, t = 0, on = {}, xr = 0, ang = 0, mode = 1, level = 0, dirty = 0, foam = 0, heat = 0,
+export const Washer = ({ pos = [0, 0, 0], rotY = 0, t = 0, on = {}, xr = 0, hiW = 0, ang = 0, mode = 1, level = 0, dirty = 0, foam = 0, heat = 0,
   inflow = 0, drain = 0, jets = 0, shake = 0, open = 0, locked = 0, knob = 0, clothes = 1, dirtCl = 0, slip = 0, press = 0, coin = 0, clog = 0, leak = 0, filterOpen = 0, softener = 0 }) => {
   const sx = shake * Math.sin(t * 38) * 0.03, sz = shake * Math.cos(t * 31) * 0.02;
   const shellOp = 1 - 0.82 * xr;
@@ -154,8 +154,8 @@ export const Washer = ({ pos = [0, 0, 0], rotY = 0, t = 0, on = {}, xr = 0, ang 
         </group> : null}
         {/* contrapesos */}
         {on.weights ? <>
-          <mesh position={[0, R + 0.09, 0.05]} castShadow><boxGeometry args={[0.34, 0.08, 0.14]} /><meshToonMaterial color={K.concrete} /><OL t={0.008} /></mesh>
-          <mesh position={[0, -R - 0.07, 0.17]} castShadow><boxGeometry args={[0.3, 0.06, 0.08]} /><meshToonMaterial color={K.concrete} /><OL t={0.008} /></mesh>
+          <mesh position={[0, R + 0.09, 0.05]} castShadow><boxGeometry args={[0.34, 0.08, 0.14]} /><meshToonMaterial color={hiW ? '#ffb02e' : K.concrete} emissive={hiW ? '#ff7a00' : '#000'} emissiveIntensity={hiW ? 0.5 : 0} /><OL t={hiW ? 0.014 : 0.008} /></mesh>
+          <mesh position={[0, -R - 0.07, 0.17]} castShadow><boxGeometry args={[0.3, 0.06, 0.08]} /><meshToonMaterial color={hiW ? '#ffb02e' : K.concrete} emissive={hiW ? '#ff7a00' : '#000'} emissiveIntensity={hiW ? 0.5 : 0} /><OL t={hiW ? 0.014 : 0.008} /></mesh>
         </> : null}
       </group>
       {/* resortes arriba y amortiguadores abajo */}

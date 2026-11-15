@@ -50,8 +50,9 @@ const Scene = ({ i, at, vert }) => {
 const Thumb = () => <AbsoluteFill style={{ background: '#f3d9b8' }}>
   <ThreeCanvas width={1280} height={720} shadows gl={{ antialias: true }} camera={{ fov: 40, position: [0, 1, 4] }}>
     <Lights23 /><Cam t={0} keys={[[0, 0.85, 0.72, 1.55, 0.42, 0.45, 0]]} />
-    <Laundry /><Washer t={1.3} rotY={-0.35} on={{ drum: 1, holes: 1, paddles: 1, tub: 1, shell: 1, door: 1, motor: 1, belt: 1, valve: 1, hose: 1, heater: 1, pump: 1, filter: 1, weights: 1, springs: 1, gasket: 1, panel: 1 }} xr={0.82} ang={1.3} mode={1} level={0.5} foam={0.7} heat={0.8} />
+    <Laundry /><Washer t={1.3} rotY={-0.35} on={{ drum: 1, holes: 1, paddles: 1, tub: 1, shell: 1, door: 1, motor: 1, belt: 1, valve: 1, hose: 1, heater: 1, pump: 1, filter: 1, weights: 1, springs: 1, gasket: 1, panel: 1 }} xr={0.82} hiW={1} ang={1.3} mode={1} level={0.5} foam={0.7} heat={0.8} />
   </ThreeCanvas>
+  <svg width={1280} height={720} style={{ position: 'absolute', left: 0, top: 0 }}><g stroke="#141018" strokeWidth={26} strokeLinecap="round" fill="none"><path d="M690 300 Q600 250 515 165" /><path d="M515 165 l58 8 M515 165 l8 58" /></g><g stroke="#ff5a3c" strokeWidth={14} strokeLinecap="round" fill="none"><path d="M690 300 Q600 250 515 165" /><path d="M515 165 l58 8 M515 165 l8 58" /></g></svg>
   <div style={{ position: 'absolute', right: 40, top: 80, textAlign: 'right', fontFamily: 'Inter Display, Inter, sans-serif', fontWeight: 900, lineHeight: 0.95, WebkitTextStroke: '8px #141018', paintOrder: 'stroke fill' }}>
     <div style={{ fontSize: 100, color: '#ffffff' }}>¿QUÉ HAY</div>
     <div style={{ fontSize: 100, color: '#ffffff' }}>DENTRO?</div>
