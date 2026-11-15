@@ -1,0 +1,22 @@
+"""Voz del canal: la voz clonada del dueño (Qwen3-TTS 0.6B Base, modo B = con texto de referencia). Autorizado el 15 nov 2026.
+Uso (igual que chatter.py/andrew.py): /home/user/tools/qwen-venv/bin/python tts/mivoz.py <carpeta> [indices...]
+Salida: <carpeta>/audio2/aNN.wav. Los tiempos por palabra los saca después tts/palabras.py (faster-whisper). FORCE=1 rehace."""
+import sys, os, json, time, torch, soundfile as sf
+from qwen_tts import Qwen3TTSModel
+torch.set_num_threads(int(os.environ.get('THREADS', '4')))
+folder = sys.argv[1]
+esc = json.load(open(os.path.join(folder, 'escenas.json')))
+idx = [int(x) for x in sys.argv[2:]] or range(len(esc))
+here = os.path.dirname(os.path.abspath(__file__))
+REF = os.path.join(here, 'mivoz', 'ref.wav')
+REFTXT = ('Autorizo clonar mi propia voz y usarla en todos los videos de mis canales, YouTube jxseng y Facebook Quatoom. '
+          'Largos, shorts y reels, sin pedirme permiso cada vez.')
+out = os.path.join(folder, 'audio2'); os.makedirs(out, exist_ok=True)
+m = Qwen3TTSModel.from_pretrained('Qwen/Qwen3-TTS-12Hz-0.6B-Base', device_map='cpu', dtype=torch.float32, attn_implementation='eager')
+for i in idx:
+    f = os.path.join(out, f'a{i:02d}.wav')
+    if os.path.exists(f) and os.environ.get('FORCE') != '1': continue
+    t0 = time.time()
+    w, sr = m.generate_voice_clone(text=esc[i]['texto'], language='Spanish', ref_audio=REF, ref_text=REFTXT, x_vector_only_mode=False)
+    sf.write(f, w[0], sr)
+    print(i, round(len(w[0]) / sr, 1), 's en', round(time.time() - t0), 's', flush=True)

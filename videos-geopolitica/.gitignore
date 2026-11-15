@@ -14,3 +14,6 @@ remotion/build*/
 pipeline*.log
 tts/mivoz/*.mp3
 tts/mivoz/*.wav
+*/tts.log
+*/pipeline.log
+*/vert/

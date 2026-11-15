@@ -1,0 +1,836 @@
+[
+ {
+  "tipo": "abre",
+  "titulo": "lavadora",
+  "texto": "Esto es una lavadora. Parece una caja que da vueltas y ya, pero por dentro tiene un tambor con huecos, un motor, una bomba y hasta bloques de concreto. Vamos a armarla desde cero.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.8,
+    "mecanismo"
+   ]
+  ]
+ },
+ {
+  "tipo": "balde",
+  "titulo": "un balde",
+  "texto": "Si metes tu ropa sucia en un balde con agua y jabón, ya tienes una lavadora. Pero la mugre no se suelta sola, la ropa se queda ahí flotando y sigue sucia.",
+  "sfx": [
+   [
+    0.1,
+    "chapoteo"
+   ],
+   [
+    0.4,
+    "burbujas"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "frotar",
+  "titulo": "hay que frotarla",
+  "texto": "Así que la frotas con las manos, contra una tabla. El roce despega la mugre y el jabón se la lleva. Así se lavó la ropa durante siglos.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.35,
+    "swish"
+   ],
+   [
+    0.55,
+    "swish"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cansa",
+  "titulo": "te cansas",
+  "texto": "Pero frotar cansa. Una sola cobija te deja los brazos rendidos, y tienes ropa para toda la semana.",
+  "sfx": [
+   [
+    0.25,
+    "tension"
+   ],
+   [
+    0.6,
+    "fallo"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "tambor",
+  "titulo": "un tambor",
+  "texto": "Así que metes la ropa en un tambor acostado, lleno de huequitos, y lo pones a girar. La ropa sube, se cae, se golpea con el agua y se frota sola contra sí misma.",
+  "sfx": [
+   [
+    0.15,
+    "clink"
+   ],
+   [
+    0.4,
+    "mecanismo"
+   ],
+   [
+    0.65,
+    "chapoteo"
+   ],
+   [
+    0.85,
+    "chapoteo"
+   ]
+  ]
+ },
+ {
+  "tipo": "resbala",
+  "titulo": "la ropa resbala",
+  "texto": "Pero la ropa resbala. Se queda abajo, arrastrándose, y no se levanta ni se golpea.",
+  "sfx": [
+   [
+    0.3,
+    "swish"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "paletas",
+  "titulo": "unas aletas",
+  "texto": "Así que le pones unas aletas por dentro del tambor. Al girar, agarran la ropa, la suben hasta arriba y la dejan caer. Esas son las paletas.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "chapoteo"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "chorrea",
+  "titulo": "se sale el agua",
+  "texto": "Pero el tambor está lleno de huecos, y el agua se sale por todos lados. Te inunda el piso.",
+  "sfx": [
+   [
+    0.2,
+    "gota"
+   ],
+   [
+    0.45,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tina",
+  "titulo": "una tina cerrada",
+  "texto": "Así que metes el tambor dentro de otra tina, sin huecos y bien cerrada. El agua pasa entre los dos, pero no se escapa. Esa es la cuba.",
+  "sfx": [
+   [
+    0.15,
+    "impacto"
+   ],
+   [
+    0.45,
+    "clink"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "girar",
+  "titulo": "¿quién lo gira?",
+  "texto": "Pero ahora hay que girar el tambor. Si lo haces con una manivela, otra vez terminas con los brazos rendidos.",
+  "sfx": [
+   [
+    0.25,
+    "mecanismo"
+   ],
+   [
+    0.65,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "motor",
+  "titulo": "un motor",
+  "texto": "Así que le pones un motor abajo, con una correa de goma que agarra una polea grande pegada al tambor. La polea grande hace que gire más despacio pero con más fuerza.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.75,
+    "motor"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "llenar",
+  "titulo": "¿cómo entra el agua?",
+  "texto": "Pero cada vez tienes que llenarla con baldes, y si echas de más, se desborda.",
+  "sfx": [
+   [
+    0.2,
+    "chapoteo"
+   ],
+   [
+    0.55,
+    "agua_flujo"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "valvula",
+  "titulo": "una llave eléctrica",
+  "texto": "Así que la conectas a la llave del agua con una manguera, y pones una llave eléctrica que se abre sola. Esa es la electroválvula.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuanta",
+  "titulo": "¿cuándo para?",
+  "texto": "Pero la válvula no sabe cuándo parar. Abre y abre, y el agua sigue subiendo hasta salirse por la puerta.",
+  "sfx": [
+   [
+    0.25,
+    "agua_flujo"
+   ],
+   [
+    0.55,
+    "alarma"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "presostato",
+  "titulo": "un tubito con aire",
+  "texto": "Así que le pones un tubito que baja hasta el fondo de la tina. Cuando sube el agua, aprieta el aire de adentro, y ese aire empuja un interruptor que cierra la válvula. Ese es el presostato.",
+  "sfx": [
+   [
+    0.15,
+    "burbujas"
+   ],
+   [
+    0.45,
+    "tension"
+   ],
+   [
+    0.7,
+    "click"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fria",
+  "titulo": "el agua fría",
+  "texto": "Pero el agua sale fría de la llave, y con agua fría la grasa no se suelta tan fácil.",
+  "sfx": [
+   [
+    0.3,
+    "misterio"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "resistencia",
+  "titulo": "un alambre caliente",
+  "texto": "Así que le metes abajo un alambre en espiral que se pone caliente con la electricidad, como el de una ducha eléctrica. Esa es la resistencia, y un sensor la apaga cuando el agua llega a la temperatura que escogiste.",
+  "sfx": [
+   [
+    0.15,
+    "calor"
+   ],
+   [
+    0.45,
+    "calor"
+   ],
+   [
+    0.7,
+    "click"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "jabon",
+  "titulo": "¿dónde va el jabón?",
+  "texto": "Pero si echas el jabón directo sobre la ropa, se queda pegado en una bola y deja manchas blancas.",
+  "sfx": [
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.65,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "cajetin",
+  "titulo": "un cajoncito",
+  "texto": "Así que le pones un cajoncito arriba. El agua que entra pasa primero por ahí, disuelve el jabón y lo lleva a la tina ya mezclado. Ese es el dispensador.",
+  "sfx": [
+   [
+    0.15,
+    "clink"
+   ],
+   [
+    0.45,
+    "agua_flujo"
+   ],
+   [
+    0.7,
+    "burbujas"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "sucia",
+  "titulo": "agua sucia",
+  "texto": "Pero cuando terminas de lavar, la tina queda llena de agua gris, con jabón y mugre. Y no tiene por dónde salir.",
+  "sfx": [
+   [
+    0.25,
+    "chapoteo"
+   ],
+   [
+    0.6,
+    "misterio"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "bomba",
+  "titulo": "una bomba",
+  "texto": "Así que le pones una bomba pequeña abajo, que chupa el agua sucia y la manda por una manguera al desagüe. Esa es la bomba de desagüe.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.45,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "moneda",
+  "titulo": "una moneda",
+  "texto": "Pero en los bolsillos siempre se queda algo. Una moneda, un botón, un gancho. Se van con el agua, entran en la bomba y la traban.",
+  "sfx": [
+   [
+    0.2,
+    "clink"
+   ],
+   [
+    0.45,
+    "clink"
+   ],
+   [
+    0.75,
+    "impacto"
+   ],
+   [
+    0.9,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "filtro",
+  "titulo": "una tapita abajo",
+  "texto": "Así que pones un colador antes de la bomba, con una tapita en el frente de la lavadora para abrirlo y sacar lo que se atasca. Ese es el filtro, y casi nadie sabe que existe.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "clink"
+   ],
+   [
+    0.75,
+    "pop"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "mojada",
+  "titulo": "sale empapada",
+  "texto": "Pero la ropa sale chorreando. Pesa el doble, y en el tendedero tarda días en secarse.",
+  "sfx": [
+   [
+    0.25,
+    "gota"
+   ],
+   [
+    0.5,
+    "gota"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "centrifuga",
+  "titulo": "girar rapidísimo",
+  "texto": "Así que pones el tambor a girar rapidísimo, más de mil vueltas por minuto. La ropa se pega contra las paredes y el agua sale disparada por los huequitos. Eso es el centrifugado.",
+  "sfx": [
+   [
+    0.15,
+    "motor"
+   ],
+   [
+    0.4,
+    "whoosh"
+   ],
+   [
+    0.65,
+    "agua_flujo"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "baila",
+  "titulo": "la lavadora baila",
+  "texto": "Pero la ropa nunca queda pareja. Si un lado pesa más, el tambor se tambalea, y la lavadora salta y camina por el piso.",
+  "sfx": [
+   [
+    0.2,
+    "impacto"
+   ],
+   [
+    0.45,
+    "impacto"
+   ],
+   [
+    0.7,
+    "impacto"
+   ],
+   [
+    0.9,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "concreto",
+  "titulo": "bloques de concreto",
+  "texto": "Así que le pegas a la tina unos bloques de concreto, pesadísimos. Con tanto peso, la ropa ya casi no la mueve. Esos son los contrapesos, y por eso una lavadora pesa tanto.",
+  "sfx": [
+   [
+    0.15,
+    "impacto"
+   ],
+   [
+    0.45,
+    "impacto"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "resortes",
+  "titulo": "resortes",
+  "texto": "Pero si la tina está pegada a la carcasa, todo el temblor pasa al piso y suena como un terremoto.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "amortiguar",
+  "titulo": "colgarla",
+  "texto": "Así que la cuelgas de unos resortes arriba y la apoyas en unos pistones abajo, que frenan el rebote. Son los amortiguadores, como los de una moto.",
+  "sfx": [
+   [
+    0.15,
+    "tension"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puerta",
+  "titulo": "abres la puerta",
+  "texto": "Pero si abres la puerta en pleno lavado, se te sale toda el agua, y si la abres girando, te puedes lastimar la mano.",
+  "sfx": [
+   [
+    0.25,
+    "agua_flujo"
+   ],
+   [
+    0.55,
+    "alarma"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "seguro",
+  "titulo": "un seguro",
+  "texto": "Así que le pones un seguro que traba la puerta mientras hay agua o el tambor gira. Por eso suena un clac al empezar, y por eso esperas un rato al final antes de abrir.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "impacto"
+   ],
+   [
+    0.75,
+    "tic"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "goma",
+  "titulo": "el borde se moja",
+  "texto": "Pero entre la puerta y la tina queda una rendija, y por ahí gotea.",
+  "sfx": [
+   [
+    0.3,
+    "gota"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "fuelle",
+  "titulo": "un fuelle de goma",
+  "texto": "Así que le pones un fuelle de goma, como un acordeón, que une la tina con la puerta y se dobla cuando la tina se mueve. Ahí se esconden muchas medias perdidas.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cerebro",
+  "titulo": "¿quién manda?",
+  "texto": "Pero ahora tienes válvula, motor, resistencia, bomba y seguro. Si los prendes a mano, uno por uno, te pasas el día pegado a la lavadora.",
+  "sfx": [
+   [
+    0.2,
+    "click"
+   ],
+   [
+    0.4,
+    "click"
+   ],
+   [
+    0.6,
+    "click"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "programa",
+  "titulo": "una perilla",
+  "texto": "Así que le pones una perilla con un pequeño cerebro. Tú escoges el programa, y él decide cuándo abrir el agua, cuánto girar, cuándo calentar y cuándo exprimir.",
+  "sfx": [
+   [
+    0.15,
+    "click"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.75,
+    "mecanismo"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ciclo",
+  "titulo": "el ciclo completo",
+  "texto": "Y así va: entra el agua por el jabón, calienta, el tambor da vueltas, la bomba saca el agua sucia, entra agua limpia para enjuagar, y al final centrifuga.",
+  "sfx": [
+   [
+    0.1,
+    "agua_flujo"
+   ],
+   [
+    0.35,
+    "calor"
+   ],
+   [
+    0.6,
+    "mecanismo"
+   ],
+   [
+    0.85,
+    "motor"
+   ]
+  ]
+ },
+ {
+  "tipo": "suavizante",
+  "titulo": "el suavizante",
+  "texto": "Y el suavizante tiene su propio cajoncito. El cerebro lo deja para el último enjuague, para que no se vaya con el agua sucia.",
+  "sfx": [
+   [
+    0.2,
+    "clink"
+   ],
+   [
+    0.55,
+    "agua_flujo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "llena",
+  "titulo": "no la llenes",
+  "texto": "Pero si la llenas hasta el tope, la ropa no tiene espacio para subir y caer. No se golpea, no se frota, y sale casi igual de sucia.",
+  "sfx": [
+   [
+    0.25,
+    "tension"
+   ],
+   [
+    0.6,
+    "fallo"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "espacio",
+  "titulo": "deja una mano",
+  "texto": "Así que deja libre más o menos una mano de espacio arriba del tambor, para que la ropa pueda dar sus vueltas.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "repaso",
+  "titulo": "repaso",
+  "texto": "Repasemos. Un tambor con huecos y aletas, una tina cerrada, un motor con correa, una válvula, un presostato, una resistencia, una bomba con filtro, contrapesos de concreto, resortes y un seguro en la puerta.",
+  "sfx": [
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ],
+   [
+    0.9,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "así funciona",
+  "texto": "Tu lavadora no tiene manos: hace que la ropa se frote sola, subiendo y cayendo, miles de veces. Así funciona.",
+  "sfx": [
+   [
+    0.3,
+    "brillo"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "¿qué armamos?",
+  "texto": "Si te gustó, síguenos, y escribe en los comentarios qué objeto quieres que armemos pieza por pieza.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.6,
+    "campana"
+   ]
+  ]
+ }
+]

@@ -1,8 +1,9 @@
 """dataNN.json con frames y tiempos de palabras (relativos a la escena) para textos sincronizados."""
 import json, sys, os
 v = sys.argv[1]
-e = json.load(open(f'../v{v}/escenas.json'))
-tlp = f'../v{v}/timeline.json'
+fd = v if v.startswith('fb') else 'v' + v  # fbNN = videos propios de Facebook
+e = json.load(open(f'../{fd}/escenas.json'))
+tlp = f'../{fd}/timeline.json'
 out = []
 if os.path.exists(tlp):
     t = json.load(open(tlp)); st = [round(s['start'] * 30) for s in t['scenes']] + [round(t['total'] * 30)]
