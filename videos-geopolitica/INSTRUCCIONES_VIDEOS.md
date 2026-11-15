@@ -122,4 +122,4 @@ canales (YouTube jxseng y Facebook Quatoom), largos, Shorts y Reels, sin pedirme
 ### Voz de Marco, amigo del dueño (15 nov 2026)
 Marco grabó con su propia voz: "Yo, Marco, autorizo que clonen mi voz y la usen en los videos de los canales jxseng de YouTube
 y Quatoom de Facebook." Referencia: tts/amigo/ref.wav (11 s, texto de la nevera); prueba en tts/amigo/probar.py.
-La grabación no se sube al repositorio. Solo para videos de esos dos canales. Pendiente: que el dueño confirme si la usamos.
+La grabación no se sube al repositorio. Solo para videos de esos dos canales. ELEGIDA por el dueño el 15 nov como voz del canal desde v23 (tts/mivoz.py, VOZ=marco por defecto).
