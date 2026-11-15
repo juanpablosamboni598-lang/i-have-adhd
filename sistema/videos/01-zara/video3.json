@@ -1,0 +1,25 @@
+{
+  "player": "player2.html",
+  "fps": 30,
+  "duration": 41,
+  "ambience": [
+    {"shape":"star","size":360,"x":-120,"y":-90,"blur":10,"drift":30,"spin":6,"rot":10},
+    {"shape":"star","size":300,"x":830,"y":1640,"blur":14,"drift":26,"spin":-5,"rot":-20},
+    {"shape":"curve","size":520,"x":820,"y":-60,"blur":12,"drift":20,"spin":0,"opacity":0.55}
+  ],
+  "scenes": [
+    {"type":"kinetic","start":0,"end":1.6,"kicker":"un chico dejó la escuela a los","text":"14 años","size":190,"textTop":420,"band":1050,"prop":"shirt","propTop":900,"propSize":520},
+    {"type":"kinetic","start":1.6,"end":3.1,"kicker":"para repartir","text":"camisas","size":170,"textTop":360,"prop":"shirt","propTop":800,"propSize":640,"tilt":-6},
+    {"type":"kinetic","start":3.1,"end":6.35,"kicker":"y creó una de las","text":"marcas más grandes","size":140,"textTop":620,"sub":"del mundo"},
+    {"type":"counter","start":6.35,"end":11.4,"kicker":"Amancio Ortega nació en","from":1900,"to":1936,"label":"en una familia humilde de España","band":700},
+    {"type":"kinetic","start":11.4,"end":14.5,"kicker":"a los 14 trabajaba como","text":"mensajero","size":150,"textTop":330,"band":1060,"prop":"shirt","propTop":860,"propSize":480,"sub":"en una tienda de camisas"},
+    {"type":"kinetic","start":14.5,"end":19.7,"kicker":"vio lo que nadie veía","text":"ropa a la *moda*","size":140,"textTop":330,"band":1080,"prop":"bag","propTop":860,"propSize":480,"sub":"a un precio que pudiera pagar"},
+    {"type":"counter","start":19.7,"end":22.1,"kicker":"en","from":1950,"to":1975,"label":"abrió su primera tienda","band":700},
+    {"type":"letters","start":22.1,"end":28.2,"kicker":"quería llamarla","from":"ZORBA","to":"ZARA","after":"movió las letras… y nació Zara"},
+    {"type":"kinetic","start":28.2,"end":30.0,"kicker":"su secreto fue","text":"la velocidad","size":140,"textTop":330,"band":1000,"prop":"stopwatch","propTop":780,"propSize":520,"spin":220},
+    {"type":"compare","start":30.0,"end":32.4,"kicker":"del boceto a la tienda en","text":"pocas semanas","a":{"label":"otras marcas","value":"meses"},"b":{"label":"Zara","value":"semanas","ratio":0.22}},
+    {"type":"kinetic","start":32.4,"end":34.4,"kicker":"hoy Zara está en casi","text":"100 países","size":150,"textTop":330,"band":1020,"prop":"globe","propTop":860,"propSize":520},
+    {"type":"kinetic","start":34.4,"end":37.5,"kicker":"la lección","text":"escucha a tu cliente *más rápido* que nadie","size":118,"textTop":660},
+    {"type":"end","start":37.5,"script":"Síguenos para más historias de marcas","handle":"@juavxf"}
+  ]
+}

@@ -1,0 +1,178 @@
+{
+ "player": "player2.html",
+ "fps": 30,
+ "duration": 40,
+ "ambience": [
+  {
+   "shape": "star",
+   "size": 360,
+   "x": -120,
+   "y": -90,
+   "blur": 10,
+   "drift": 30,
+   "spin": 6,
+   "rot": 10
+  },
+  {
+   "shape": "star",
+   "size": 300,
+   "x": 830,
+   "y": 1640,
+   "blur": 14,
+   "drift": 26,
+   "spin": -5,
+   "rot": -20
+  },
+  {
+   "shape": "curve",
+   "size": 520,
+   "x": 820,
+   "y": -60,
+   "blur": 12,
+   "drift": 20,
+   "spin": 0,
+   "opacity": 0.55
+  }
+ ],
+ "scenes": [
+  {
+   "type": "kinetic",
+   "start": 0,
+   "end": 3.3,
+   "kicker": "dejó la escuela a los",
+   "text": "14 años",
+   "size": 190,
+   "textTop": 420,
+   "band": 1050,
+   "prop": "shirt",
+   "propTop": 900,
+   "propSize": 520
+  },
+  {
+   "type": "kinetic",
+   "start": 3.3,
+   "end": 6.4,
+   "kicker": "para repartir",
+   "text": "camisas",
+   "size": 170,
+   "textTop": 360,
+   "prop": "shirt",
+   "propTop": 800,
+   "propSize": 640,
+   "tilt": -6
+  },
+  {
+   "type": "kinetic",
+   "start": 6.4,
+   "end": 9.6,
+   "kicker": "y terminó creando",
+   "text": "ZARA",
+   "size": 300,
+   "textTop": 640,
+   "sub": "una de las marcas más grandes del mundo"
+  },
+  {
+   "type": "counter",
+   "start": 9.6,
+   "end": 13,
+   "kicker": "Amancio Ortega nació en",
+   "from": 1900,
+   "to": 1936,
+   "label": "en una familia humilde",
+   "band": 700
+  },
+  {
+   "type": "cardlist",
+   "start": 13,
+   "end": 17.4,
+   "title": "Amancio",
+   "subtitle": "no tenía nada",
+   "items": [
+    "mensajero",
+    "vendedor de camisas",
+    "costurero",
+    "fundador"
+   ]
+  },
+  {
+   "type": "kinetic",
+   "start": 17.4,
+   "end": 21,
+   "kicker": "vio lo que nadie veía",
+   "text": "moda *barata*",
+   "size": 140,
+   "textTop": 330,
+   "band": 1080,
+   "prop": "bag",
+   "propTop": 860,
+   "propSize": 480
+  },
+  {
+   "type": "letters",
+   "start": 21,
+   "end": 26,
+   "kicker": "quería llamarla",
+   "from": "ZORBA",
+   "to": "ZARA",
+   "after": "pero el nombre ya existía…"
+  },
+  {
+   "type": "kinetic",
+   "start": 26,
+   "end": 29.4,
+   "kicker": "su secreto fue",
+   "text": "la velocidad",
+   "size": 140,
+   "textTop": 330,
+   "band": 1000,
+   "prop": "stopwatch",
+   "propTop": 780,
+   "propSize": 520,
+   "spin": 220
+  },
+  {
+   "type": "compare",
+   "start": 29.4,
+   "end": 33,
+   "kicker": "del boceto a la tienda",
+   "text": "semanas",
+   "a": {
+    "label": "otras marcas",
+    "value": "meses"
+   },
+   "b": {
+    "label": "Zara",
+    "value": "semanas",
+    "ratio": 0.22
+   }
+  },
+  {
+   "type": "kinetic",
+   "start": 33,
+   "end": 36,
+   "kicker": "hoy está en casi",
+   "text": "100 países",
+   "size": 150,
+   "textTop": 330,
+   "band": 1020,
+   "prop": "globe",
+   "propTop": 860,
+   "propSize": 520
+  },
+  {
+   "type": "kinetic",
+   "start": 36,
+   "end": 38.6,
+   "kicker": "la lección",
+   "text": "escucha a tu cliente *más rápido*",
+   "size": 118,
+   "textTop": 660
+  },
+  {
+   "type": "end",
+   "start": 38.6,
+   "script": "Historias de marcas",
+   "handle": "@juavxf"
+  }
+ ]
+}
