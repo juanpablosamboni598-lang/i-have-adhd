@@ -117,3 +117,8 @@ canales (YouTube jxseng y Facebook Quatoom), largos, Shorts y Reels, sin pedirme
 - La grabación NO se sube al repositorio (está en .gitignore) para que nadie más pueda clonar su voz.
 - Solo para videos de sus canales. Si dice "ya no uses mi voz", volver a Andrew.
 - Pendiente: que el dueño escuche las pruebas y confirme si reemplaza a Andrew.
+
+### Voz de Marco, amigo del dueño (15 nov 2026)
+Marco grabó con su propia voz: "Yo, Marco, autorizo que clonen mi voz y la usen en los videos de los canales jxseng de YouTube
+y Quatoom de Facebook." Referencia: tts/amigo/ref.wav (11 s, texto de la nevera); prueba en tts/amigo/probar.py.
+La grabación no se sube al repositorio. Solo para videos de esos dos canales. Pendiente: que el dueño confirme si la usamos.

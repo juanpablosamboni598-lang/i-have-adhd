@@ -17,3 +17,5 @@ tts/mivoz/*.wav
 */tts.log
 */pipeline.log
 */vert/
+tts/amigo/*.mp3
+tts/amigo/*.wav
