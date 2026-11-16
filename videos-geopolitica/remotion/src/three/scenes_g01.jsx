@@ -58,7 +58,7 @@ export const SG = {
     three: <><Studio /><PC pos={[0, 0, 0]} t={t} screen={t < d * 0.45 ? '?' : '2027?'} />
       <Stamp pos={[0.62, 0.6, 0.25]} text="RUMOR" sc={pop(t, d * 0.45) * 0.7} />
       <Calendar pos={[-1.1, 0, -0.2]} label={'2027'} s={0.6 * pop(t, d * 0.35)} rotY={0.4} />
-      <group position={[1.05, 0, -0.1]} scale={pop(t, d * 0.75) * 0.7}><Console kind="a" /><Stamp pos={[0, 0.85, 0.1]} text="+1,5 AÑOS" color={P.teal2} sc={0.6} rot={[0, 0, 0]} /></group>
+      <group position={[1.05, 0, -0.1]} scale={pop(t, d * 0.75) * 0.7}><Console kind="a" /></group>
       <Confetti t={t} n={14} /></>,
     caps: [['computador', '¿y en PC?'], ['anunciado', 'no anunciado', R], ['rumor', '2027 = rumor', R], ['medio', 'GTA 5: año y medio después']],
   }),
@@ -66,7 +66,7 @@ export const SG = {
     keys: [[0, 0.8, 0.8, 1.6, 0, 0.35, 0], [d * 0.45, -0.6, 0.6, 1.3, 0, 0.35, 0], [d, 0.5, 0.9, 1.5, 0, 0.4, 0]],
     three: <><Studio /><Coins pos={[-0.45, 0, 0]} n={8} t={t} at={0.3} /><Coins pos={[0.45, 0, 0]} n={10} t={t} at={d * 0.35} color="#e8b730" />
       <Tag pos={[-0.45, 0.6, 0.15]} text="$79.99" sc={pop(t, d * 0.25)} /><Tag pos={[0.45, 0.72, 0.15]} text="$99.99" color="#ffe9a8" sc={pop(t, d * 0.45)} />
-      <group position={[0, 1.0 - tw(t, d * 0.75, d * 0.85) * 0.2, -0.3]}><Tag text="$100" color={P.white} fg={R} sc={pop(t, d * 0.7)} /><Stamp pos={[0, 0, 0.03]} text="✗" sc={pop(t, d * 0.82) * 0.9} rot={[0, 0, 0]} /></group>
+      <group position={[0, 1.0 - tw(t, d * 0.75, d * 0.85) * 0.2, -0.3]}><Tag text="$100" color={P.white} fg={R} sc={pop(t, d * 0.7)} /></group>
       <Confetti t={t} n={16} /></>,
     caps: [['estándar', 'estándar $79,99', G], ['ultimate', 'Ultimate $99,99'], ['cien', '¿$100? no se cumplió', R]],
   }),
@@ -77,7 +77,7 @@ export const SG = {
       <group position={[0, 0.02, 0.35]} rotation={[0, 0, Math.sin(t * 1.5) * 0.08 * (1 - tw(t, d * 0.7, d * 0.8)) + (t > d * 0.8 ? -0.12 : 0)]}>
         <mesh castShadow><boxGeometry args={[1.0, 0.025, 0.08]} /><meshToonMaterial color={P.metal} /></mesh></group>
       <Tag pos={[0.35, 0.62, 0.12]} text="+$20" fg={R} sc={pop(t, d * 0.4) * 0.6} />
-      <Stamp pos={[-0.35, 0.62, 0.12]} text="COMPLETO" color={G} sc={pop(t, d * 0.75) * 0.5} rot={[0, 0, 0]} />
+      
       <Confetti t={t} n={14} /></>,
     caps: [['completo', 'juego completo', G], ['veinte', '+20 dólares'], ['historia', 'solo historia: estándar', G]],
   }),
@@ -85,7 +85,7 @@ export const SG = {
     keys: [[0, 0.0, 0.9, 1.5, 0, 0.75, -0.2], [d * 0.4, 0.6, 0.85, 1.2, 0, 0.75, -0.2], [d * 0.75, -0.6, 0.8, 1.3, 0, 0.7, -0.2], [d, 0.2, 0.95, 1.6, 0, 0.72, -0.2]],
     three: <><Studio /><Clock pos={[0, 0.75, -0.2]} t={t} h={11} m={30} spin={cl(1 - t / (d * 0.4)) * 0.8 + 0.02} s={1.2} />
       <Console pos={[-0.85, 0, 0.1]} kind="a" glow={tw(t, d * 0.4, d * 0.45)} t={t} rotY={0.4} />
-      <Stamp pos={[-0.15, 0.32, 0.25]} text="SIN CONFIRMAR" sc={pop(t, d * 0.55) * 0.5} rot={[0, 0, -0.1]} />
+      
       <Phone pos={[0.85, 0.35, 0.25]} rot={[0, -0.4, 0]} screen={'TIENDA'} fg={P.teal2} s={pop(t, d * 0.78) * 0.8} />
       <Confetti t={t} n={14} /></>,
     caps: [['hora', '¿a qué hora?'], ['medianoche', 'medianoche hora local'], ['confirmar', 'sin confirmar', R], ['tienda', 'revisa tu tienda', G]],
