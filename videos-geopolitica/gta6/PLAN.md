@@ -2,10 +2,12 @@
 
 Estado al 16 nov 2026. Guía: `../HERRAMIENTAS_CANAL_GTA6.md`.
 
+## Canal
+- Nombre: **ViceLeakss** (YouTube). Lo conectó el dueño en **Buffer** el 16 nov 2026: canal `6afb32e4ece6dfde5fe6dec3`, org `6aebf8952a050bbf040f37de`, servicio youtube. No está en Zernio.
+- Descripción obligatoria: "Canal no oficial, sin relación con Rockstar Games."
+
 ## Bloqueos (lo que falta del dueño)
-1. **Audio nuevo de Marco** con la autorización que nombre este canal y unos 15 s hablando normal. Va en `tts/amigo/ref.wav` y no se sube al repo. Sin ese audio no se genera su voz.
-2. **Nombre del canal.** Propuestas sin marcas de Rockstar: "Modo Vice Latino", "Sexta Entrega", "Control y Calle".
-3. **El dueño crea el canal en YouTube y lo conecta a Zernio.** Claude no puede crear canales.
+1. **Audio nuevo de Marco** autorizando su voz para **ViceLeakss**, más unos 15 s hablando normal. Va en `tts/amigo/ref.wav` y no se sube al repo. Sin ese audio no se genera su voz.
 
 ## Datos verificados (búsqueda web, 16 nov 2026)
 | Dato | Estado | Nota |
