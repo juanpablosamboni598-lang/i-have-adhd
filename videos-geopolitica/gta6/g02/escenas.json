@@ -1,0 +1,68 @@
+[
+ {
+  "tipo": "gancho",
+  "titulo": "precio",
+  "texto": "GTA seis no cuesta cien dólares. La edición estándar cuesta setenta y nueve con noventa y nueve, y sale este jueves, diecinueve de noviembre.",
+  "sfx": []
+ },
+ {
+  "tipo": "mito",
+  "titulo": "rumor",
+  "texto": "Durante meses, internet repitió que el juego básico iba a llegar a cien dólares. Era el rumor más compartido, y no se cumplió.",
+  "sfx": []
+ },
+ {
+  "tipo": "ultimate",
+  "titulo": "ultimate",
+  "texto": "La Ultimate sí cuesta noventa y nueve con noventa y nueve. Son veinte dólares más por contenido extra, pero la estándar ya trae el juego completo.",
+  "sfx": []
+ },
+ {
+  "tipo": "retrasos",
+  "titulo": "fecha",
+  "texto": "La fecha se movió como un tren que avisa retraso dos veces. Primero era dos mil veinticinco. Luego, el veintiséis de mayo de dos mil veintiséis. Y en noviembre del año pasado, Rockstar la pasó al diecinueve de noviembre.",
+  "sfx": []
+ },
+ {
+  "tipo": "consolas",
+  "titulo": "consolas",
+  "texto": "Sale solo en PlayStation cinco y en Xbox Series X y Series S. Si tienes una consola de la generación pasada, no lo vas a poder jugar.",
+  "sfx": []
+ },
+ {
+  "tipo": "pc",
+  "titulo": "pc",
+  "texto": "En computador no hay fecha. Rockstar no ha anunciado versión de PC. Se habla de dos mil veintisiete, pero eso es rumor. Con GTA cinco, el PC llegó un año y medio después de las consolas.",
+  "sfx": []
+ },
+ {
+  "tipo": "mapa",
+  "titulo": "leonida",
+  "texto": "La historia pasa en Leonida, un estado inventado e inspirado en Florida, con Vice City como ciudad principal, y dos protagonistas, Lucía y Jason.",
+  "sfx": []
+ },
+ {
+  "tipo": "giro",
+  "titulo": "giro",
+  "texto": "Pero eso no es lo más raro. GTA cinco salió en dos mil trece. Entre un GTA y el siguiente nunca habían pasado más de cinco años. Esta vez pasaron trece.",
+  "sfx": []
+ },
+ {
+  "tipo": "edad",
+  "titulo": "edad",
+  "texto": "Alguien que tenía diez años cuando salió GTA cinco va a jugar GTA seis con veintitrés.",
+  "sfx": []
+ },
+ {
+  "tipo": "dudas",
+  "titulo": "dudas",
+  "texto": "Lo que todavía no está confirmado es la hora exacta de desbloqueo y cuánto pesa. Si ves cifras como doscientos gigas, tómalas como rumor.",
+  "sfx": []
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "cierre",
+  "texto": "Así que libera espacio, revisa la tienda de tu consola, y no le creas a cualquier cifra que circule. Porque, como ya viste, GTA seis no cuesta cien dólares.",
+  "sfx": []
+ }
+]
