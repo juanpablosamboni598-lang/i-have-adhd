@@ -4,7 +4,7 @@ cd /home/user/i-have-adhd/videos-geopolitica
 [ -f tts/amigo/AUTORIZACION_GTA6.txt ] && [ -f tts/amigo/ref_gta6.wav ] || { echo "Falta la autorización nueva de Marco para el canal GTA 6"; exit 1; }
 source <(sed -n '/^log()/,/^}$/p;/^assemble()/,/^}$/p' pipeline3.sh)
 P=$(pgrep -f "tts/mivoz.py gta6/g01"); if [ -n "$P" ]; then while kill -0 $P 2>/dev/null; do sleep 20; done; fi
-VOZ=marco_gta6 THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 >> gta6/g01/tts.log 2>&1
+VOZ=marco_gta6b THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 >> gta6/g01/tts.log 2>&1
 N=$(python3 -c "import json;print(len(json.load(open('gta6/g01/escenas.json'))))")
 [ $(ls gta6/g01/audio2/a*.wav | wc -l) -ge $N ] || { log "g01 voz incompleta"; exit 1; }
 # recorta silencios del principio y del final de cada frase (una sola vez)
@@ -19,7 +19,7 @@ print(' '.join(str(i) for i,x in enumerate(e) if len(json.load(open(f'gta6/g01/a
 PY2
 )
 if [ -n "$MAL" ]; then log "g01 rehaciendo voz de escenas: $MAL"; for i in $MAL; do rm -f gta6/g01/audio2/a$(printf %02d $i).*; done
-  VOZ=marco_gta6 THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 $MAL >> gta6/g01/tts.log 2>&1
+  VOZ=marco_gta6b THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 $MAL >> gta6/g01/tts.log 2>&1
   for i in $MAL; do f=gta6/g01/audio2/a$(printf %02d $i).wav; ffmpeg -v error -y -i "$f" -af "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse" "${f%.wav}_t.wav" && mv "${f%.wav}_t.wav" "$f" && touch "$f.trim"; done
   /home/user/tools/stt-venv/bin/python tts/palabras.py gta6/g01 >> gta6/g01/tts.log 2>&1
 fi

@@ -2,4 +2,5 @@ Autorización de voz de Marco para el canal de YouTube ViceLeakss (GTA 6)
 Recibida: 16 nov 2026, grabación subida por el dueño en la sesión (24 s).
 Transcripción (faster-whisper small): "Yo, Marco, autorizo que clonen mi voz y la usen en los videos del canal de YouTube ViceLeaks."
 Alcance: solo videos de ese canal. Las grabaciones (autorizacion_gta6.wav, ref_gta6.wav) NO se suben al repositorio.
-Referencia de clonación: ref_gta6.wav = segundos 6,2 a 13,85 de la grabación (una frase completa; con dos frases el modelo repetía la última).
+Referencia de clonación (v1): ref_gta6.wav = segundos 6,2 a 13,85 de la grabación (una frase completa; con dos frases el modelo repetía la última).
+Grabación 2 (16 nov 2026, 17 s, texto leído para el canal): ref_gta6b.wav, voz marco_gta6b. Es la que usa el video g01.
