@@ -9,8 +9,16 @@
     "pop"
    ],
    [
+    0.15,
+    "click"
+   ],
+   [
     0.2,
     "swish"
+   ],
+   [
+    0.352,
+    "click"
    ],
    [
     0.42,
@@ -27,6 +35,10 @@
    [
     0.6,
     "clink"
+   ],
+   [
+    0.773,
+    "click"
    ],
    [
     0.78,
@@ -62,6 +74,10 @@
     "pop"
    ],
    [
+    0.137,
+    "click"
+   ],
+   [
     0.2,
     "pop"
    ],
@@ -70,12 +86,24 @@
     "pop"
    ],
    [
+    0.522,
+    "click"
+   ],
+   [
     0.8,
     "fallo"
    ],
    [
+    0.801,
+    "click"
+   ],
+   [
     0.86,
     "swish"
+   ],
+   [
+    0.944,
+    "click"
    ]
   ],
   "caps": [
@@ -103,12 +131,20 @@
   "texto": "La Ultimate sí cuesta noventa y nueve con noventa y nueve. Son veinte dólares más por contenido extra, pero la estándar ya trae el juego completo.",
   "sfx": [
    [
+    0.028,
+    "click"
+   ],
+   [
     0.03,
     "impacto"
    ],
    [
     0.08,
     "impacto"
+   ],
+   [
+    0.45,
+    "click"
    ],
    [
     0.45,
@@ -125,6 +161,10 @@
    [
     0.78,
     "ding"
+   ],
+   [
+    0.93,
+    "click"
    ]
   ],
   "caps": [
@@ -156,12 +196,24 @@
     "motor"
    ],
    [
+    0.096,
+    "click"
+   ],
+   [
     0.32,
     "fallo"
    ],
    [
     0.34,
     "pop"
+   ],
+   [
+    0.352,
+    "click"
+   ],
+   [
+    0.546,
+    "click"
    ],
    [
     0.55,
@@ -174,6 +226,10 @@
    [
     0.86,
     "ding"
+   ],
+   [
+    0.866,
+    "click"
    ]
   ],
   "caps": [
@@ -209,6 +265,14 @@
     "brillo"
    ],
    [
+    0.1,
+    "click"
+   ],
+   [
+    0.253,
+    "click"
+   ],
+   [
     0.3,
     "impacto"
    ],
@@ -219,6 +283,10 @@
    [
     0.68,
     "pop"
+   ],
+   [
+    0.768,
+    "click"
    ],
    [
     0.8,
@@ -246,6 +314,10 @@
   "texto": "En computador no hay fecha. Rockstar no ha anunciado versión de PC. Se habla de dos mil veintisiete, pero eso es rumor. Con GTA cinco, el PC llegó un año y medio después de las consolas.",
   "sfx": [
    [
+    0.019,
+    "click"
+   ],
+   [
     0.15,
     "tic"
    ],
@@ -258,8 +330,16 @@
     "tic"
    ],
    [
+    0.219,
+    "click"
+   ],
+   [
     0.45,
     "bip"
+   ],
+   [
+    0.582,
+    "click"
    ],
    [
     0.68,
@@ -272,6 +352,10 @@
    [
     0.74,
     "tic"
+   ],
+   [
+    0.866,
+    "click"
    ]
   ],
   "caps": [
@@ -303,6 +387,10 @@
     "whoosh_largo"
    ],
    [
+    0.129,
+    "click"
+   ],
+   [
     0.25,
     "tic"
    ],
@@ -315,6 +403,10 @@
     "pop"
    ],
    [
+    0.416,
+    "click"
+   ],
+   [
     0.43,
     "pop"
    ],
@@ -323,8 +415,16 @@
     "pop"
    ],
    [
+    0.496,
+    "click"
+   ],
+   [
     0.72,
     "pop"
+   ],
+   [
+    0.729,
+    "click"
    ],
    [
     0.8,
@@ -356,8 +456,16 @@
   "texto": "Pero eso no es lo más raro. GTA cinco salió en dos mil trece. Entre un GTA y el siguiente nunca habían pasado más de cinco años. Esta vez pasaron trece.",
   "sfx": [
    [
+    0.116,
+    "click"
+   ],
+   [
     0.25,
     "pop"
+   ],
+   [
+    0.273,
+    "click"
    ],
    [
     0.3,
@@ -384,6 +492,10 @@
     "pop"
    ],
    [
+    0.583,
+    "click"
+   ],
+   [
     0.6,
     "pop"
    ],
@@ -398,6 +510,10 @@
    [
     0.87,
     "tic"
+   ],
+   [
+    0.912,
+    "click"
    ],
    [
     0.92,
@@ -433,6 +549,10 @@
     "pop"
    ],
    [
+    0.157,
+    "click"
+   ],
+   [
     0.38,
     "tic"
    ],
@@ -455,6 +575,10 @@
    [
     0.8,
     "brillo"
+   ],
+   [
+    0.866,
+    "click"
    ]
   ],
   "caps": [
@@ -482,8 +606,20 @@
     "tic"
    ],
    [
+    0.115,
+    "click"
+   ],
+   [
+    0.244,
+    "click"
+   ],
+   [
     0.35,
     "electrico"
+   ],
+   [
+    0.48,
+    "click"
    ],
    [
     0.62,
@@ -492,6 +628,10 @@
    [
     0.68,
     "alarma"
+   ],
+   [
+    0.714,
+    "click"
    ],
    [
     0.85,
@@ -523,8 +663,16 @@
   "texto": "Así que libera espacio, revisa la tienda de tu consola, y no le creas a cualquier cifra que circule. Porque, como ya viste, GTA seis no cuesta cien dólares.",
   "sfx": [
    [
+    0.057,
+    "click"
+   ],
+   [
     0.1,
     "swish"
+   ],
+   [
+    0.22,
+    "click"
    ],
    [
     0.25,
@@ -535,12 +683,20 @@
     "pop"
    ],
    [
+    0.465,
+    "click"
+   ],
+   [
     0.72,
     "pop"
    ],
    [
     0.82,
     "swish"
+   ],
+   [
+    0.878,
+    "click"
    ]
   ],
   "caps": [
