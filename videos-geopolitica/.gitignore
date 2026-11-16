@@ -19,3 +19,15 @@ tts/mivoz/*.wav
 */vert/
 tts/amigo/*.mp3
 tts/amigo/*.wav
+# canal GTA 6 (ViceLeakss): carpetas a dos niveles
+gta6/*/render/
+gta6/*/render2/
+gta6/*/audio2/
+gta6/*/audio3/
+gta6/*/crudo.mp4
+gta6/*/mudo.mp4
+gta6/*/vonly/
+gta6/*/vert/
+gta6/*/x264pass*
+gta6/*/tts.log
+gta6/*/pipeline.log
