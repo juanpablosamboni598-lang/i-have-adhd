@@ -1,0 +1,2 @@
+48 fotogramas, diferencia media 15.6, mínima 1.2
+tramos casi iguales: 2 [(44, 4), (46, 5)]

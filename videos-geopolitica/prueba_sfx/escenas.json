@@ -1,0 +1,83 @@
+[
+ {
+  "tipo": "motor",
+  "titulo": "un motor",
+  "texto": "Así que le pones un motor abajo, con una correa de goma que agarra una polea grande pegada al tambor. La polea grande hace que gire más despacio pero con más fuerza.",
+  "sfx": [
+   [
+    0.10824777764108423,
+    "click"
+   ],
+   [
+    0.14993620559054086,
+    "motor"
+   ],
+   [
+    0.25194132749185866,
+    "click"
+   ],
+   [
+    0.4066882273311542,
+    "click"
+   ],
+   [
+    0.4499587212644678,
+    "mecanismo"
+   ],
+   [
+    0.7499812369383947,
+    "motor"
+   ],
+   [
+    0.8999924947753583,
+    "ding"
+   ],
+   [
+    0.9416703667755758,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "llenar",
+  "titulo": "¿cómo entra el agua?",
+  "texto": "Pero cada vez tienes que llenarla con baldes, y si echas de más, se desborda.",
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.19999999999999993,
+    "chapoteo"
+   ],
+   [
+    0.5499999999999998,
+    "agua_flujo"
+   ],
+   [
+    0.6293082108251334,
+    "click"
+   ],
+   [
+    0.8499999999999996,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "valvula",
+  "titulo": "una llave eléctrica",
+  "texto": "Así que la conectas a la llave del agua con una manguera, y pones una llave eléctrica que se abre sola. Esa es la electroválvula.",
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.5765537318104388,
+    "click"
+   ]
+  ]
+ }
+]

@@ -1,0 +1,311 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.39,Sub,,0,0,0,,{\c&H3CC8FF&}GTA{\c&HFFFFFF&} 6 no cuesta cien dólares.
+Dialogue: 0,0:00:00.39,0:00:00.87,Sub,,0,0,0,,GTA {\c&H3CC8FF&}6{\c&HFFFFFF&} no cuesta cien dólares.
+Dialogue: 0,0:00:00.87,0:00:01.19,Sub,,0,0,0,,GTA 6 {\c&H3CC8FF&}no{\c&HFFFFFF&} cuesta cien dólares.
+Dialogue: 0,0:00:01.19,0:00:01.47,Sub,,0,0,0,,GTA 6 no {\c&H3CC8FF&}cuesta{\c&HFFFFFF&} cien dólares.
+Dialogue: 0,0:00:01.47,0:00:01.71,Sub,,0,0,0,,GTA 6 no cuesta {\c&H3CC8FF&}cien{\c&HFFFFFF&} dólares.
+Dialogue: 0,0:00:01.71,0:00:02.39,Sub,,0,0,0,,GTA 6 no cuesta cien {\c&H3CC8FF&}dólares.{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.39,0:00:02.49,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} edición estándar cuesta setenta y
+Dialogue: 0,0:00:02.49,0:00:02.79,Sub,,0,0,0,,La {\c&H3CC8FF&}edición{\c&HFFFFFF&} estándar cuesta setenta y
+Dialogue: 0,0:00:02.79,0:00:03.25,Sub,,0,0,0,,La edición {\c&H3CC8FF&}estándar{\c&HFFFFFF&} cuesta setenta y
+Dialogue: 0,0:00:03.25,0:00:03.57,Sub,,0,0,0,,La edición estándar {\c&H3CC8FF&}cuesta{\c&HFFFFFF&} setenta y
+Dialogue: 0,0:00:03.57,0:00:04.03,Sub,,0,0,0,,La edición estándar cuesta {\c&H3CC8FF&}setenta{\c&HFFFFFF&} y
+Dialogue: 0,0:00:04.03,0:00:04.09,Sub,,0,0,0,,La edición estándar cuesta setenta {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.09,0:00:04.39,Sub,,0,0,0,,{\c&H3CC8FF&}nueve{\c&HFFFFFF&} con noventa y nueve, y
+Dialogue: 0,0:00:04.39,0:00:04.57,Sub,,0,0,0,,nueve {\c&H3CC8FF&}con{\c&HFFFFFF&} noventa y nueve, y
+Dialogue: 0,0:00:04.57,0:00:04.99,Sub,,0,0,0,,nueve con {\c&H3CC8FF&}noventa{\c&HFFFFFF&} y nueve, y
+Dialogue: 0,0:00:04.99,0:00:05.04,Sub,,0,0,0,,nueve con noventa {\c&H3CC8FF&}y{\c&HFFFFFF&} nueve, y
+Dialogue: 0,0:00:05.03,0:00:05.63,Sub,,0,0,0,,nueve con noventa y {\c&H3CC8FF&}nueve,{\c&HFFFFFF&} y
+Dialogue: 0,0:00:05.63,0:00:05.69,Sub,,0,0,0,,nueve con noventa y nueve, {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.69,0:00:05.89,Sub,,0,0,0,,{\c&H3CC8FF&}sale{\c&HFFFFFF&} este jueves, diecinueve de noviembre.
+Dialogue: 0,0:00:05.89,0:00:06.13,Sub,,0,0,0,,sale {\c&H3CC8FF&}este{\c&HFFFFFF&} jueves, diecinueve de noviembre.
+Dialogue: 0,0:00:06.13,0:00:06.69,Sub,,0,0,0,,sale este {\c&H3CC8FF&}jueves,{\c&HFFFFFF&} diecinueve de noviembre.
+Dialogue: 0,0:00:06.69,0:00:07.33,Sub,,0,0,0,,sale este jueves, {\c&H3CC8FF&}diecinueve{\c&HFFFFFF&} de noviembre.
+Dialogue: 0,0:00:07.33,0:00:07.43,Sub,,0,0,0,,sale este jueves, diecinueve {\c&H3CC8FF&}de{\c&HFFFFFF&} noviembre.
+Dialogue: 0,0:00:07.43,0:00:07.53,Sub,,0,0,0,,sale este jueves, diecinueve de {\c&H3CC8FF&}noviembre.{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.05,0:00:08.39,Sub,,0,0,0,,{\c&H3CC8FF&}Durante{\c&HFFFFFF&} meses, internet repitió que el
+Dialogue: 0,0:00:08.39,0:00:08.95,Sub,,0,0,0,,Durante {\c&H3CC8FF&}meses,{\c&HFFFFFF&} internet repitió que el
+Dialogue: 0,0:00:08.95,0:00:09.39,Sub,,0,0,0,,Durante meses, {\c&H3CC8FF&}internet{\c&HFFFFFF&} repitió que el
+Dialogue: 0,0:00:09.39,0:00:10.01,Sub,,0,0,0,,Durante meses, internet {\c&H3CC8FF&}repitió{\c&HFFFFFF&} que el
+Dialogue: 0,0:00:10.01,0:00:10.09,Sub,,0,0,0,,Durante meses, internet repitió {\c&H3CC8FF&}que{\c&HFFFFFF&} el
+Dialogue: 0,0:00:10.09,0:00:10.19,Sub,,0,0,0,,Durante meses, internet repitió que {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.19,0:00:10.35,Sub,,0,0,0,,{\c&H3CC8FF&}juego{\c&HFFFFFF&} básico iba a llegar a
+Dialogue: 0,0:00:10.35,0:00:10.95,Sub,,0,0,0,,juego {\c&H3CC8FF&}básico{\c&HFFFFFF&} iba a llegar a
+Dialogue: 0,0:00:10.95,0:00:11.25,Sub,,0,0,0,,juego básico {\c&H3CC8FF&}iba{\c&HFFFFFF&} a llegar a
+Dialogue: 0,0:00:11.25,0:00:11.37,Sub,,0,0,0,,juego básico iba {\c&H3CC8FF&}a{\c&HFFFFFF&} llegar a
+Dialogue: 0,0:00:11.37,0:00:11.63,Sub,,0,0,0,,juego básico iba a {\c&H3CC8FF&}llegar{\c&HFFFFFF&} a
+Dialogue: 0,0:00:11.63,0:00:11.81,Sub,,0,0,0,,juego básico iba a llegar {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.81,0:00:12.03,Sub,,0,0,0,,{\c&H3CC8FF&}cien{\c&HFFFFFF&} dólares. Era el rumor más
+Dialogue: 0,0:00:12.03,0:00:12.85,Sub,,0,0,0,,cien {\c&H3CC8FF&}dólares.{\c&HFFFFFF&} Era el rumor más
+Dialogue: 0,0:00:12.85,0:00:13.31,Sub,,0,0,0,,cien dólares. {\c&H3CC8FF&}Era{\c&HFFFFFF&} el rumor más
+Dialogue: 0,0:00:13.31,0:00:13.41,Sub,,0,0,0,,cien dólares. Era {\c&H3CC8FF&}el{\c&HFFFFFF&} rumor más
+Dialogue: 0,0:00:13.41,0:00:13.63,Sub,,0,0,0,,cien dólares. Era el {\c&H3CC8FF&}rumor{\c&HFFFFFF&} más
+Dialogue: 0,0:00:13.63,0:00:13.89,Sub,,0,0,0,,cien dólares. Era el rumor {\c&H3CC8FF&}más{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.89,0:00:14.69,Sub,,0,0,0,,{\c&H3CC8FF&}compartido,{\c&HFFFFFF&} y no se cumplió.
+Dialogue: 0,0:00:14.69,0:00:14.75,Sub,,0,0,0,,compartido, {\c&H3CC8FF&}y{\c&HFFFFFF&} no se cumplió.
+Dialogue: 0,0:00:14.75,0:00:14.83,Sub,,0,0,0,,compartido, y {\c&H3CC8FF&}no{\c&HFFFFFF&} se cumplió.
+Dialogue: 0,0:00:14.83,0:00:14.95,Sub,,0,0,0,,compartido, y no {\c&H3CC8FF&}se{\c&HFFFFFF&} cumplió.
+Dialogue: 0,0:00:14.95,0:00:15.00,Sub,,0,0,0,,compartido, y no se {\c&H3CC8FF&}cumplió.{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.48,0:00:15.60,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} Ultimate sí cuesta noventa y
+Dialogue: 0,0:00:15.60,0:00:15.90,Sub,,0,0,0,,La {\c&H3CC8FF&}Ultimate{\c&HFFFFFF&} sí cuesta noventa y
+Dialogue: 0,0:00:15.90,0:00:16.36,Sub,,0,0,0,,La Ultimate {\c&H3CC8FF&}sí{\c&HFFFFFF&} cuesta noventa y
+Dialogue: 0,0:00:16.36,0:00:16.70,Sub,,0,0,0,,La Ultimate sí {\c&H3CC8FF&}cuesta{\c&HFFFFFF&} noventa y
+Dialogue: 0,0:00:16.70,0:00:17.10,Sub,,0,0,0,,La Ultimate sí cuesta {\c&H3CC8FF&}noventa{\c&HFFFFFF&} y
+Dialogue: 0,0:00:17.10,0:00:17.15,Sub,,0,0,0,,La Ultimate sí cuesta noventa {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:17.14,0:00:17.50,Sub,,0,0,0,,{\c&H3CC8FF&}nueve{\c&HFFFFFF&} con noventa y nueve. Son
+Dialogue: 0,0:00:17.50,0:00:17.74,Sub,,0,0,0,,nueve {\c&H3CC8FF&}con{\c&HFFFFFF&} noventa y nueve. Son
+Dialogue: 0,0:00:17.74,0:00:18.36,Sub,,0,0,0,,nueve con {\c&H3CC8FF&}noventa{\c&HFFFFFF&} y nueve. Son
+Dialogue: 0,0:00:18.36,0:00:18.42,Sub,,0,0,0,,nueve con noventa {\c&H3CC8FF&}y{\c&HFFFFFF&} nueve. Son
+Dialogue: 0,0:00:18.42,0:00:18.98,Sub,,0,0,0,,nueve con noventa y {\c&H3CC8FF&}nueve.{\c&HFFFFFF&} Son
+Dialogue: 0,0:00:18.98,0:00:19.18,Sub,,0,0,0,,nueve con noventa y nueve. {\c&H3CC8FF&}Son{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.18,0:00:19.60,Sub,,0,0,0,,{\c&H3CC8FF&}veinte{\c&HFFFFFF&} dólares más por contenido extra,
+Dialogue: 0,0:00:19.60,0:00:19.88,Sub,,0,0,0,,veinte {\c&H3CC8FF&}dólares{\c&HFFFFFF&} más por contenido extra,
+Dialogue: 0,0:00:19.88,0:00:20.16,Sub,,0,0,0,,veinte dólares {\c&H3CC8FF&}más{\c&HFFFFFF&} por contenido extra,
+Dialogue: 0,0:00:20.16,0:00:20.38,Sub,,0,0,0,,veinte dólares más {\c&H3CC8FF&}por{\c&HFFFFFF&} contenido extra,
+Dialogue: 0,0:00:20.38,0:00:20.74,Sub,,0,0,0,,veinte dólares más por {\c&H3CC8FF&}contenido{\c&HFFFFFF&} extra,
+Dialogue: 0,0:00:20.74,0:00:21.50,Sub,,0,0,0,,veinte dólares más por contenido {\c&H3CC8FF&}extra,{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.50,0:00:21.64,Sub,,0,0,0,,{\c&H3CC8FF&}pero{\c&HFFFFFF&} la estándar ya trae el
+Dialogue: 0,0:00:21.64,0:00:21.78,Sub,,0,0,0,,pero {\c&H3CC8FF&}la{\c&HFFFFFF&} estándar ya trae el
+Dialogue: 0,0:00:21.78,0:00:22.24,Sub,,0,0,0,,pero la {\c&H3CC8FF&}estándar{\c&HFFFFFF&} ya trae el
+Dialogue: 0,0:00:22.24,0:00:22.66,Sub,,0,0,0,,pero la estándar {\c&H3CC8FF&}ya{\c&HFFFFFF&} trae el
+Dialogue: 0,0:00:22.66,0:00:22.96,Sub,,0,0,0,,pero la estándar ya {\c&H3CC8FF&}trae{\c&HFFFFFF&} el
+Dialogue: 0,0:00:22.96,0:00:23.06,Sub,,0,0,0,,pero la estándar ya trae {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.06,0:00:23.26,Sub,,0,0,0,,{\c&H3CC8FF&}juego{\c&HFFFFFF&} completo.
+Dialogue: 0,0:00:23.26,0:00:23.46,Sub,,0,0,0,,juego {\c&H3CC8FF&}completo.{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.98,0:00:24.10,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} fecha se movió como un
+Dialogue: 0,0:00:24.10,0:00:24.36,Sub,,0,0,0,,La {\c&H3CC8FF&}fecha{\c&HFFFFFF&} se movió como un
+Dialogue: 0,0:00:24.36,0:00:24.46,Sub,,0,0,0,,La fecha {\c&H3CC8FF&}se{\c&HFFFFFF&} movió como un
+Dialogue: 0,0:00:24.46,0:00:24.74,Sub,,0,0,0,,La fecha se {\c&H3CC8FF&}movió{\c&HFFFFFF&} como un
+Dialogue: 0,0:00:24.74,0:00:24.90,Sub,,0,0,0,,La fecha se movió {\c&H3CC8FF&}como{\c&HFFFFFF&} un
+Dialogue: 0,0:00:24.90,0:00:25.04,Sub,,0,0,0,,La fecha se movió como {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.04,0:00:25.22,Sub,,0,0,0,,{\c&H3CC8FF&}tren{\c&HFFFFFF&} que avisa retraso dos veces.
+Dialogue: 0,0:00:25.22,0:00:25.42,Sub,,0,0,0,,tren {\c&H3CC8FF&}que{\c&HFFFFFF&} avisa retraso dos veces.
+Dialogue: 0,0:00:25.42,0:00:25.68,Sub,,0,0,0,,tren que {\c&H3CC8FF&}avisa{\c&HFFFFFF&} retraso dos veces.
+Dialogue: 0,0:00:25.68,0:00:26.18,Sub,,0,0,0,,tren que avisa {\c&H3CC8FF&}retraso{\c&HFFFFFF&} dos veces.
+Dialogue: 0,0:00:26.18,0:00:26.46,Sub,,0,0,0,,tren que avisa retraso {\c&H3CC8FF&}dos{\c&HFFFFFF&} veces.
+Dialogue: 0,0:00:26.46,0:00:27.04,Sub,,0,0,0,,tren que avisa retraso dos {\c&H3CC8FF&}veces.{\c&HFFFFFF&}
+Dialogue: 0,0:00:27.04,0:00:27.36,Sub,,0,0,0,,{\c&H3CC8FF&}Primero{\c&HFFFFFF&} era dos mil veinticinco. Luego,
+Dialogue: 0,0:00:27.36,0:00:27.52,Sub,,0,0,0,,Primero {\c&H3CC8FF&}era{\c&HFFFFFF&} dos mil veinticinco. Luego,
+Dialogue: 0,0:00:27.52,0:00:27.88,Sub,,0,0,0,,Primero era {\c&H3CC8FF&}dos{\c&HFFFFFF&} mil veinticinco. Luego,
+Dialogue: 0,0:00:27.88,0:00:28.18,Sub,,0,0,0,,Primero era dos {\c&H3CC8FF&}mil{\c&HFFFFFF&} veinticinco. Luego,
+Dialogue: 0,0:00:28.18,0:00:29.36,Sub,,0,0,0,,Primero era dos mil {\c&H3CC8FF&}veinticinco.{\c&HFFFFFF&} Luego,
+Dialogue: 0,0:00:29.36,0:00:29.90,Sub,,0,0,0,,Primero era dos mil veinticinco. {\c&H3CC8FF&}Luego,{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.90,0:00:30.00,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} veintiséis de mayo de dos
+Dialogue: 0,0:00:30.00,0:00:30.42,Sub,,0,0,0,,el {\c&H3CC8FF&}veintiséis{\c&HFFFFFF&} de mayo de dos
+Dialogue: 0,0:00:30.42,0:00:30.56,Sub,,0,0,0,,el veintiséis {\c&H3CC8FF&}de{\c&HFFFFFF&} mayo de dos
+Dialogue: 0,0:00:30.56,0:00:30.78,Sub,,0,0,0,,el veintiséis de {\c&H3CC8FF&}mayo{\c&HFFFFFF&} de dos
+Dialogue: 0,0:00:30.78,0:00:31.06,Sub,,0,0,0,,el veintiséis de mayo {\c&H3CC8FF&}de{\c&HFFFFFF&} dos
+Dialogue: 0,0:00:31.06,0:00:31.22,Sub,,0,0,0,,el veintiséis de mayo de {\c&H3CC8FF&}dos{\c&HFFFFFF&}
+Dialogue: 0,0:00:31.22,0:00:31.38,Sub,,0,0,0,,{\c&H3CC8FF&}mil{\c&HFFFFFF&} veintiséis. Y en noviembre del
+Dialogue: 0,0:00:31.38,0:00:32.34,Sub,,0,0,0,,mil {\c&H3CC8FF&}veintiséis.{\c&HFFFFFF&} Y en noviembre del
+Dialogue: 0,0:00:32.34,0:00:32.42,Sub,,0,0,0,,mil veintiséis. {\c&H3CC8FF&}Y{\c&HFFFFFF&} en noviembre del
+Dialogue: 0,0:00:32.42,0:00:32.52,Sub,,0,0,0,,mil veintiséis. Y {\c&H3CC8FF&}en{\c&HFFFFFF&} noviembre del
+Dialogue: 0,0:00:32.52,0:00:32.92,Sub,,0,0,0,,mil veintiséis. Y en {\c&H3CC8FF&}noviembre{\c&HFFFFFF&} del
+Dialogue: 0,0:00:32.92,0:00:33.02,Sub,,0,0,0,,mil veintiséis. Y en noviembre {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.02,0:00:33.16,Sub,,0,0,0,,{\c&H3CC8FF&}año{\c&HFFFFFF&} pasado, Rockstar la pasó al
+Dialogue: 0,0:00:33.16,0:00:33.90,Sub,,0,0,0,,año {\c&H3CC8FF&}pasado,{\c&HFFFFFF&} Rockstar la pasó al
+Dialogue: 0,0:00:33.90,0:00:34.28,Sub,,0,0,0,,año pasado, {\c&H3CC8FF&}Rockstar{\c&HFFFFFF&} la pasó al
+Dialogue: 0,0:00:34.28,0:00:34.50,Sub,,0,0,0,,año pasado, Rockstar {\c&H3CC8FF&}la{\c&HFFFFFF&} pasó al
+Dialogue: 0,0:00:34.50,0:00:34.80,Sub,,0,0,0,,año pasado, Rockstar la {\c&H3CC8FF&}pasó{\c&HFFFFFF&} al
+Dialogue: 0,0:00:34.80,0:00:35.00,Sub,,0,0,0,,año pasado, Rockstar la pasó {\c&H3CC8FF&}al{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.00,0:00:35.50,Sub,,0,0,0,,{\c&H3CC8FF&}diecinueve{\c&HFFFFFF&} de noviembre.
+Dialogue: 0,0:00:35.50,0:00:35.58,Sub,,0,0,0,,diecinueve {\c&H3CC8FF&}de{\c&HFFFFFF&} noviembre.
+Dialogue: 0,0:00:35.58,0:00:35.74,Sub,,0,0,0,,diecinueve de {\c&H3CC8FF&}noviembre.{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.26,0:00:36.46,Sub,,0,0,0,,{\c&H3CC8FF&}Sale{\c&HFFFFFF&} solo en PlayStation cinco y
+Dialogue: 0,0:00:36.46,0:00:36.72,Sub,,0,0,0,,Sale {\c&H3CC8FF&}solo{\c&HFFFFFF&} en PlayStation cinco y
+Dialogue: 0,0:00:36.72,0:00:36.94,Sub,,0,0,0,,Sale solo {\c&H3CC8FF&}en{\c&HFFFFFF&} PlayStation cinco y
+Dialogue: 0,0:00:36.94,0:00:37.30,Sub,,0,0,0,,Sale solo en {\c&H3CC8FF&}PlayStation{\c&HFFFFFF&} cinco y
+Dialogue: 0,0:00:37.30,0:00:37.80,Sub,,0,0,0,,Sale solo en PlayStation {\c&H3CC8FF&}cinco{\c&HFFFFFF&} y
+Dialogue: 0,0:00:37.80,0:00:38.06,Sub,,0,0,0,,Sale solo en PlayStation cinco {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:38.06,0:00:38.16,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} Xbox Series X y Series
+Dialogue: 0,0:00:38.16,0:00:38.36,Sub,,0,0,0,,en {\c&H3CC8FF&}Xbox{\c&HFFFFFF&} Series X y Series
+Dialogue: 0,0:00:38.36,0:00:38.70,Sub,,0,0,0,,en Xbox {\c&H3CC8FF&}Series{\c&HFFFFFF&} X y Series
+Dialogue: 0,0:00:38.70,0:00:39.18,Sub,,0,0,0,,en Xbox Series {\c&H3CC8FF&}X{\c&HFFFFFF&} y Series
+Dialogue: 0,0:00:39.18,0:00:39.50,Sub,,0,0,0,,en Xbox Series X {\c&H3CC8FF&}y{\c&HFFFFFF&} Series
+Dialogue: 0,0:00:39.50,0:00:39.70,Sub,,0,0,0,,en Xbox Series X y {\c&H3CC8FF&}Series{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.70,0:00:40.36,Sub,,0,0,0,,{\c&H3CC8FF&}S.{\c&HFFFFFF&} Si tienes una consola de
+Dialogue: 0,0:00:40.36,0:00:40.62,Sub,,0,0,0,,S. {\c&H3CC8FF&}Si{\c&HFFFFFF&} tienes una consola de
+Dialogue: 0,0:00:40.62,0:00:40.86,Sub,,0,0,0,,S. Si {\c&H3CC8FF&}tienes{\c&HFFFFFF&} una consola de
+Dialogue: 0,0:00:40.86,0:00:41.02,Sub,,0,0,0,,S. Si tienes {\c&H3CC8FF&}una{\c&HFFFFFF&} consola de
+Dialogue: 0,0:00:41.02,0:00:41.44,Sub,,0,0,0,,S. Si tienes una {\c&H3CC8FF&}consola{\c&HFFFFFF&} de
+Dialogue: 0,0:00:41.44,0:00:41.60,Sub,,0,0,0,,S. Si tienes una consola {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.60,0:00:41.72,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} generación pasada, no lo vas
+Dialogue: 0,0:00:41.72,0:00:42.28,Sub,,0,0,0,,la {\c&H3CC8FF&}generación{\c&HFFFFFF&} pasada, no lo vas
+Dialogue: 0,0:00:42.28,0:00:43.06,Sub,,0,0,0,,la generación {\c&H3CC8FF&}pasada,{\c&HFFFFFF&} no lo vas
+Dialogue: 0,0:00:43.06,0:00:43.14,Sub,,0,0,0,,la generación pasada, {\c&H3CC8FF&}no{\c&HFFFFFF&} lo vas
+Dialogue: 0,0:00:43.14,0:00:43.24,Sub,,0,0,0,,la generación pasada, no {\c&H3CC8FF&}lo{\c&HFFFFFF&} vas
+Dialogue: 0,0:00:43.24,0:00:43.40,Sub,,0,0,0,,la generación pasada, no lo {\c&H3CC8FF&}vas{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.40,0:00:43.52,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} poder jugar.
+Dialogue: 0,0:00:43.52,0:00:43.72,Sub,,0,0,0,,a {\c&H3CC8FF&}poder{\c&HFFFFFF&} jugar.
+Dialogue: 0,0:00:43.72,0:00:43.77,Sub,,0,0,0,,a poder {\c&H3CC8FF&}jugar.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.25,0:00:44.35,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} computador no hay fecha. Rockstar
+Dialogue: 0,0:00:44.35,0:00:44.91,Sub,,0,0,0,,En {\c&H3CC8FF&}computador{\c&HFFFFFF&} no hay fecha. Rockstar
+Dialogue: 0,0:00:44.91,0:00:45.05,Sub,,0,0,0,,En computador {\c&H3CC8FF&}no{\c&HFFFFFF&} hay fecha. Rockstar
+Dialogue: 0,0:00:45.05,0:00:45.17,Sub,,0,0,0,,En computador no {\c&H3CC8FF&}hay{\c&HFFFFFF&} fecha. Rockstar
+Dialogue: 0,0:00:45.17,0:00:45.87,Sub,,0,0,0,,En computador no hay {\c&H3CC8FF&}fecha.{\c&HFFFFFF&} Rockstar
+Dialogue: 0,0:00:45.87,0:00:46.29,Sub,,0,0,0,,En computador no hay fecha. {\c&H3CC8FF&}Rockstar{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.29,0:00:46.65,Sub,,0,0,0,,{\c&H3CC8FF&}no{\c&HFFFFFF&} ha anunciado versión de PC.
+Dialogue: 0,0:00:46.65,0:00:46.73,Sub,,0,0,0,,no {\c&H3CC8FF&}ha{\c&HFFFFFF&} anunciado versión de PC.
+Dialogue: 0,0:00:46.73,0:00:47.15,Sub,,0,0,0,,no ha {\c&H3CC8FF&}anunciado{\c&HFFFFFF&} versión de PC.
+Dialogue: 0,0:00:47.15,0:00:47.43,Sub,,0,0,0,,no ha anunciado {\c&H3CC8FF&}versión{\c&HFFFFFF&} de PC.
+Dialogue: 0,0:00:47.43,0:00:47.59,Sub,,0,0,0,,no ha anunciado versión {\c&H3CC8FF&}de{\c&HFFFFFF&} PC.
+Dialogue: 0,0:00:47.59,0:00:48.79,Sub,,0,0,0,,no ha anunciado versión de {\c&H3CC8FF&}PC.{\c&HFFFFFF&}
+Dialogue: 0,0:00:48.79,0:00:49.03,Sub,,0,0,0,,{\c&H3CC8FF&}Se{\c&HFFFFFF&} habla de dos mil veintisiete,
+Dialogue: 0,0:00:49.03,0:00:49.19,Sub,,0,0,0,,Se {\c&H3CC8FF&}habla{\c&HFFFFFF&} de dos mil veintisiete,
+Dialogue: 0,0:00:49.19,0:00:49.35,Sub,,0,0,0,,Se habla {\c&H3CC8FF&}de{\c&HFFFFFF&} dos mil veintisiete,
+Dialogue: 0,0:00:49.35,0:00:49.49,Sub,,0,0,0,,Se habla de {\c&H3CC8FF&}dos{\c&HFFFFFF&} mil veintisiete,
+Dialogue: 0,0:00:49.49,0:00:49.69,Sub,,0,0,0,,Se habla de dos {\c&H3CC8FF&}mil{\c&HFFFFFF&} veintisiete,
+Dialogue: 0,0:00:49.69,0:00:50.57,Sub,,0,0,0,,Se habla de dos mil {\c&H3CC8FF&}veintisiete,{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.57,0:00:50.71,Sub,,0,0,0,,{\c&H3CC8FF&}pero{\c&HFFFFFF&} eso es rumor. Con GTA
+Dialogue: 0,0:00:50.71,0:00:50.89,Sub,,0,0,0,,pero {\c&H3CC8FF&}eso{\c&HFFFFFF&} es rumor. Con GTA
+Dialogue: 0,0:00:50.89,0:00:51.03,Sub,,0,0,0,,pero eso {\c&H3CC8FF&}es{\c&HFFFFFF&} rumor. Con GTA
+Dialogue: 0,0:00:51.03,0:00:52.17,Sub,,0,0,0,,pero eso es {\c&H3CC8FF&}rumor.{\c&HFFFFFF&} Con GTA
+Dialogue: 0,0:00:52.17,0:00:52.33,Sub,,0,0,0,,pero eso es rumor. {\c&H3CC8FF&}Con{\c&HFFFFFF&} GTA
+Dialogue: 0,0:00:52.33,0:00:52.63,Sub,,0,0,0,,pero eso es rumor. Con {\c&H3CC8FF&}GTA{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.63,0:00:53.39,Sub,,0,0,0,,{\c&H3CC8FF&}cinco,{\c&HFFFFFF&} el PC llegó un año
+Dialogue: 0,0:00:53.39,0:00:53.45,Sub,,0,0,0,,cinco, {\c&H3CC8FF&}el{\c&HFFFFFF&} PC llegó un año
+Dialogue: 0,0:00:53.45,0:00:53.63,Sub,,0,0,0,,cinco, el {\c&H3CC8FF&}PC{\c&HFFFFFF&} llegó un año
+Dialogue: 0,0:00:53.63,0:00:53.93,Sub,,0,0,0,,cinco, el PC {\c&H3CC8FF&}llegó{\c&HFFFFFF&} un año
+Dialogue: 0,0:00:53.93,0:00:54.15,Sub,,0,0,0,,cinco, el PC llegó {\c&H3CC8FF&}un{\c&HFFFFFF&} año
+Dialogue: 0,0:00:54.15,0:00:54.29,Sub,,0,0,0,,cinco, el PC llegó un {\c&H3CC8FF&}año{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.29,0:00:54.39,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} medio después de las consolas.
+Dialogue: 0,0:00:54.39,0:00:54.63,Sub,,0,0,0,,y {\c&H3CC8FF&}medio{\c&HFFFFFF&} después de las consolas.
+Dialogue: 0,0:00:54.63,0:00:54.97,Sub,,0,0,0,,y medio {\c&H3CC8FF&}después{\c&HFFFFFF&} de las consolas.
+Dialogue: 0,0:00:54.97,0:00:55.19,Sub,,0,0,0,,y medio después {\c&H3CC8FF&}de{\c&HFFFFFF&} las consolas.
+Dialogue: 0,0:00:55.19,0:00:55.31,Sub,,0,0,0,,y medio después de {\c&H3CC8FF&}las{\c&HFFFFFF&} consolas.
+Dialogue: 0,0:00:55.31,0:00:55.58,Sub,,0,0,0,,y medio después de las {\c&H3CC8FF&}consolas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.10,0:00:56.22,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} historia pasa en Leonida, un
+Dialogue: 0,0:00:56.22,0:00:56.54,Sub,,0,0,0,,La {\c&H3CC8FF&}historia{\c&HFFFFFF&} pasa en Leonida, un
+Dialogue: 0,0:00:56.54,0:00:56.90,Sub,,0,0,0,,La historia {\c&H3CC8FF&}pasa{\c&HFFFFFF&} en Leonida, un
+Dialogue: 0,0:00:56.90,0:00:57.12,Sub,,0,0,0,,La historia pasa {\c&H3CC8FF&}en{\c&HFFFFFF&} Leonida, un
+Dialogue: 0,0:00:57.12,0:00:57.88,Sub,,0,0,0,,La historia pasa en {\c&H3CC8FF&}Leonida,{\c&HFFFFFF&} un
+Dialogue: 0,0:00:57.88,0:00:57.98,Sub,,0,0,0,,La historia pasa en Leonida, {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.98,0:00:58.24,Sub,,0,0,0,,{\c&H3CC8FF&}estado{\c&HFFFFFF&} inventado e inspirado en Florida,
+Dialogue: 0,0:00:58.24,0:00:58.94,Sub,,0,0,0,,estado {\c&H3CC8FF&}inventado{\c&HFFFFFF&} e inspirado en Florida,
+Dialogue: 0,0:00:58.94,0:00:59.14,Sub,,0,0,0,,estado inventado {\c&H3CC8FF&}e{\c&HFFFFFF&} inspirado en Florida,
+Dialogue: 0,0:00:59.14,0:00:59.58,Sub,,0,0,0,,estado inventado e {\c&H3CC8FF&}inspirado{\c&HFFFFFF&} en Florida,
+Dialogue: 0,0:00:59.58,0:00:59.66,Sub,,0,0,0,,estado inventado e inspirado {\c&H3CC8FF&}en{\c&HFFFFFF&} Florida,
+Dialogue: 0,0:00:59.66,0:01:00.24,Sub,,0,0,0,,estado inventado e inspirado en {\c&H3CC8FF&}Florida,{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.24,0:01:00.36,Sub,,0,0,0,,{\c&H3CC8FF&}con{\c&HFFFFFF&} Vice City como ciudad principal,
+Dialogue: 0,0:01:00.36,0:01:00.52,Sub,,0,0,0,,con {\c&H3CC8FF&}Vice{\c&HFFFFFF&} City como ciudad principal,
+Dialogue: 0,0:01:00.52,0:01:00.82,Sub,,0,0,0,,con Vice {\c&H3CC8FF&}City{\c&HFFFFFF&} como ciudad principal,
+Dialogue: 0,0:01:00.82,0:01:01.20,Sub,,0,0,0,,con Vice City {\c&H3CC8FF&}como{\c&HFFFFFF&} ciudad principal,
+Dialogue: 0,0:01:01.20,0:01:01.44,Sub,,0,0,0,,con Vice City como {\c&H3CC8FF&}ciudad{\c&HFFFFFF&} principal,
+Dialogue: 0,0:01:01.44,0:01:02.22,Sub,,0,0,0,,con Vice City como ciudad {\c&H3CC8FF&}principal,{\c&HFFFFFF&}
+Dialogue: 0,0:01:02.22,0:01:02.30,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} dos protagonistas, Lucía y Jason.
+Dialogue: 0,0:01:02.30,0:01:02.42,Sub,,0,0,0,,y {\c&H3CC8FF&}dos{\c&HFFFFFF&} protagonistas, Lucía y Jason.
+Dialogue: 0,0:01:02.42,0:01:03.42,Sub,,0,0,0,,y dos {\c&H3CC8FF&}protagonistas,{\c&HFFFFFF&} Lucía y Jason.
+Dialogue: 0,0:01:03.42,0:01:03.88,Sub,,0,0,0,,y dos protagonistas, {\c&H3CC8FF&}Lucía{\c&HFFFFFF&} y Jason.
+Dialogue: 0,0:01:03.88,0:01:04.26,Sub,,0,0,0,,y dos protagonistas, Lucía {\c&H3CC8FF&}y{\c&HFFFFFF&} Jason.
+Dialogue: 0,0:01:04.26,0:01:04.42,Sub,,0,0,0,,y dos protagonistas, Lucía y {\c&H3CC8FF&}Jason.{\c&HFFFFFF&}
+Dialogue: 0,0:01:04.94,0:01:05.04,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} eso no es lo más
+Dialogue: 0,0:01:05.04,0:01:05.28,Sub,,0,0,0,,Pero {\c&H3CC8FF&}eso{\c&HFFFFFF&} no es lo más
+Dialogue: 0,0:01:05.28,0:01:05.44,Sub,,0,0,0,,Pero eso {\c&H3CC8FF&}no{\c&HFFFFFF&} es lo más
+Dialogue: 0,0:01:05.44,0:01:05.58,Sub,,0,0,0,,Pero eso no {\c&H3CC8FF&}es{\c&HFFFFFF&} lo más
+Dialogue: 0,0:01:05.58,0:01:05.68,Sub,,0,0,0,,Pero eso no es {\c&H3CC8FF&}lo{\c&HFFFFFF&} más
+Dialogue: 0,0:01:05.68,0:01:05.86,Sub,,0,0,0,,Pero eso no es lo {\c&H3CC8FF&}más{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.86,0:01:06.54,Sub,,0,0,0,,{\c&H3CC8FF&}raro.{\c&HFFFFFF&} GTA cinco salió en dos
+Dialogue: 0,0:01:06.54,0:01:06.86,Sub,,0,0,0,,raro. {\c&H3CC8FF&}GTA{\c&HFFFFFF&} cinco salió en dos
+Dialogue: 0,0:01:06.86,0:01:07.26,Sub,,0,0,0,,raro. GTA {\c&H3CC8FF&}cinco{\c&HFFFFFF&} salió en dos
+Dialogue: 0,0:01:07.26,0:01:07.62,Sub,,0,0,0,,raro. GTA cinco {\c&H3CC8FF&}salió{\c&HFFFFFF&} en dos
+Dialogue: 0,0:01:07.62,0:01:07.76,Sub,,0,0,0,,raro. GTA cinco salió {\c&H3CC8FF&}en{\c&HFFFFFF&} dos
+Dialogue: 0,0:01:07.76,0:01:07.92,Sub,,0,0,0,,raro. GTA cinco salió en {\c&H3CC8FF&}dos{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.92,0:01:08.08,Sub,,0,0,0,,{\c&H3CC8FF&}mil{\c&HFFFFFF&} trece. Entre un GTA y
+Dialogue: 0,0:01:08.08,0:01:08.60,Sub,,0,0,0,,mil {\c&H3CC8FF&}trece.{\c&HFFFFFF&} Entre un GTA y
+Dialogue: 0,0:01:08.60,0:01:08.80,Sub,,0,0,0,,mil trece. {\c&H3CC8FF&}Entre{\c&HFFFFFF&} un GTA y
+Dialogue: 0,0:01:08.80,0:01:08.92,Sub,,0,0,0,,mil trece. Entre {\c&H3CC8FF&}un{\c&HFFFFFF&} GTA y
+Dialogue: 0,0:01:08.92,0:01:09.18,Sub,,0,0,0,,mil trece. Entre un {\c&H3CC8FF&}GTA{\c&HFFFFFF&} y
+Dialogue: 0,0:01:09.18,0:01:09.62,Sub,,0,0,0,,mil trece. Entre un GTA {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.62,0:01:09.72,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} siguiente nunca habían pasado más
+Dialogue: 0,0:01:09.72,0:01:10.04,Sub,,0,0,0,,el {\c&H3CC8FF&}siguiente{\c&HFFFFFF&} nunca habían pasado más
+Dialogue: 0,0:01:10.04,0:01:10.58,Sub,,0,0,0,,el siguiente {\c&H3CC8FF&}nunca{\c&HFFFFFF&} habían pasado más
+Dialogue: 0,0:01:10.58,0:01:10.92,Sub,,0,0,0,,el siguiente nunca {\c&H3CC8FF&}habían{\c&HFFFFFF&} pasado más
+Dialogue: 0,0:01:10.92,0:01:11.16,Sub,,0,0,0,,el siguiente nunca habían {\c&H3CC8FF&}pasado{\c&HFFFFFF&} más
+Dialogue: 0,0:01:11.16,0:01:11.42,Sub,,0,0,0,,el siguiente nunca habían pasado {\c&H3CC8FF&}más{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.42,0:01:11.58,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} cinco años. Esta vez pasaron
+Dialogue: 0,0:01:11.58,0:01:11.84,Sub,,0,0,0,,de {\c&H3CC8FF&}cinco{\c&HFFFFFF&} años. Esta vez pasaron
+Dialogue: 0,0:01:11.84,0:01:12.50,Sub,,0,0,0,,de cinco {\c&H3CC8FF&}años.{\c&HFFFFFF&} Esta vez pasaron
+Dialogue: 0,0:01:12.50,0:01:12.78,Sub,,0,0,0,,de cinco años. {\c&H3CC8FF&}Esta{\c&HFFFFFF&} vez pasaron
+Dialogue: 0,0:01:12.78,0:01:12.98,Sub,,0,0,0,,de cinco años. Esta {\c&H3CC8FF&}vez{\c&HFFFFFF&} pasaron
+Dialogue: 0,0:01:12.98,0:01:13.38,Sub,,0,0,0,,de cinco años. Esta vez {\c&H3CC8FF&}pasaron{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.38,0:01:13.43,Sub,,0,0,0,,{\c&H3CC8FF&}trece.{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.88,0:01:14.20,Sub,,0,0,0,,{\c&H3CC8FF&}Alguien{\c&HFFFFFF&} que tenía diez años cuando
+Dialogue: 0,0:01:14.20,0:01:14.32,Sub,,0,0,0,,Alguien {\c&H3CC8FF&}que{\c&HFFFFFF&} tenía diez años cuando
+Dialogue: 0,0:01:14.32,0:01:14.56,Sub,,0,0,0,,Alguien que {\c&H3CC8FF&}tenía{\c&HFFFFFF&} diez años cuando
+Dialogue: 0,0:01:14.56,0:01:14.78,Sub,,0,0,0,,Alguien que tenía {\c&H3CC8FF&}diez{\c&HFFFFFF&} años cuando
+Dialogue: 0,0:01:14.78,0:01:15.06,Sub,,0,0,0,,Alguien que tenía diez {\c&H3CC8FF&}años{\c&HFFFFFF&} cuando
+Dialogue: 0,0:01:15.06,0:01:15.42,Sub,,0,0,0,,Alguien que tenía diez años {\c&H3CC8FF&}cuando{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.42,0:01:15.82,Sub,,0,0,0,,{\c&H3CC8FF&}salió{\c&HFFFFFF&} GTA cinco va a jugar
+Dialogue: 0,0:01:15.82,0:01:16.06,Sub,,0,0,0,,salió {\c&H3CC8FF&}GTA{\c&HFFFFFF&} cinco va a jugar
+Dialogue: 0,0:01:16.06,0:01:16.52,Sub,,0,0,0,,salió GTA {\c&H3CC8FF&}cinco{\c&HFFFFFF&} va a jugar
+Dialogue: 0,0:01:16.52,0:01:16.96,Sub,,0,0,0,,salió GTA cinco {\c&H3CC8FF&}va{\c&HFFFFFF&} a jugar
+Dialogue: 0,0:01:16.96,0:01:17.04,Sub,,0,0,0,,salió GTA cinco va {\c&H3CC8FF&}a{\c&HFFFFFF&} jugar
+Dialogue: 0,0:01:17.04,0:01:17.24,Sub,,0,0,0,,salió GTA cinco va a {\c&H3CC8FF&}jugar{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.24,0:01:17.58,Sub,,0,0,0,,{\c&H3CC8FF&}GTA{\c&HFFFFFF&} seis con veintitrés.
+Dialogue: 0,0:01:17.58,0:01:17.94,Sub,,0,0,0,,GTA {\c&H3CC8FF&}seis{\c&HFFFFFF&} con veintitrés.
+Dialogue: 0,0:01:17.94,0:01:18.16,Sub,,0,0,0,,GTA seis {\c&H3CC8FF&}con{\c&HFFFFFF&} veintitrés.
+Dialogue: 0,0:01:18.16,0:01:18.45,Sub,,0,0,0,,GTA seis con {\c&H3CC8FF&}veintitrés.{\c&HFFFFFF&}
+Dialogue: 0,0:01:18.97,0:01:19.07,Sub,,0,0,0,,{\c&H3CC8FF&}Lo{\c&HFFFFFF&} que todavía no está confirmado
+Dialogue: 0,0:01:19.07,0:01:19.19,Sub,,0,0,0,,Lo {\c&H3CC8FF&}que{\c&HFFFFFF&} todavía no está confirmado
+Dialogue: 0,0:01:19.19,0:01:19.49,Sub,,0,0,0,,Lo que {\c&H3CC8FF&}todavía{\c&HFFFFFF&} no está confirmado
+Dialogue: 0,0:01:19.49,0:01:19.67,Sub,,0,0,0,,Lo que todavía {\c&H3CC8FF&}no{\c&HFFFFFF&} está confirmado
+Dialogue: 0,0:01:19.67,0:01:19.79,Sub,,0,0,0,,Lo que todavía no {\c&H3CC8FF&}está{\c&HFFFFFF&} confirmado
+Dialogue: 0,0:01:19.79,0:01:20.43,Sub,,0,0,0,,Lo que todavía no está {\c&H3CC8FF&}confirmado{\c&HFFFFFF&}
+Dialogue: 0,0:01:20.43,0:01:20.69,Sub,,0,0,0,,{\c&H3CC8FF&}es{\c&HFFFFFF&} la hora exacta de desbloqueo
+Dialogue: 0,0:01:20.69,0:01:20.85,Sub,,0,0,0,,es {\c&H3CC8FF&}la{\c&HFFFFFF&} hora exacta de desbloqueo
+Dialogue: 0,0:01:20.85,0:01:20.95,Sub,,0,0,0,,es la {\c&H3CC8FF&}hora{\c&HFFFFFF&} exacta de desbloqueo
+Dialogue: 0,0:01:20.95,0:01:21.41,Sub,,0,0,0,,es la hora {\c&H3CC8FF&}exacta{\c&HFFFFFF&} de desbloqueo
+Dialogue: 0,0:01:21.41,0:01:21.49,Sub,,0,0,0,,es la hora exacta {\c&H3CC8FF&}de{\c&HFFFFFF&} desbloqueo
+Dialogue: 0,0:01:21.49,0:01:22.23,Sub,,0,0,0,,es la hora exacta de {\c&H3CC8FF&}desbloqueo{\c&HFFFFFF&}
+Dialogue: 0,0:01:22.23,0:01:22.45,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} cuánto pesa. Si ves cifras
+Dialogue: 0,0:01:22.45,0:01:22.79,Sub,,0,0,0,,y {\c&H3CC8FF&}cuánto{\c&HFFFFFF&} pesa. Si ves cifras
+Dialogue: 0,0:01:22.79,0:01:23.45,Sub,,0,0,0,,y cuánto {\c&H3CC8FF&}pesa.{\c&HFFFFFF&} Si ves cifras
+Dialogue: 0,0:01:23.45,0:01:23.73,Sub,,0,0,0,,y cuánto pesa. {\c&H3CC8FF&}Si{\c&HFFFFFF&} ves cifras
+Dialogue: 0,0:01:23.73,0:01:23.89,Sub,,0,0,0,,y cuánto pesa. Si {\c&H3CC8FF&}ves{\c&HFFFFFF&} cifras
+Dialogue: 0,0:01:23.89,0:01:24.35,Sub,,0,0,0,,y cuánto pesa. Si ves {\c&H3CC8FF&}cifras{\c&HFFFFFF&}
+Dialogue: 0,0:01:24.35,0:01:24.71,Sub,,0,0,0,,{\c&H3CC8FF&}como{\c&HFFFFFF&} doscientos gigas, tómalas como rumor.
+Dialogue: 0,0:01:24.71,0:01:25.27,Sub,,0,0,0,,como {\c&H3CC8FF&}doscientos{\c&HFFFFFF&} gigas, tómalas como rumor.
+Dialogue: 0,0:01:25.27,0:01:25.77,Sub,,0,0,0,,como doscientos {\c&H3CC8FF&}gigas,{\c&HFFFFFF&} tómalas como rumor.
+Dialogue: 0,0:01:25.77,0:01:26.37,Sub,,0,0,0,,como doscientos gigas, {\c&H3CC8FF&}tómalas{\c&HFFFFFF&} como rumor.
+Dialogue: 0,0:01:26.37,0:01:26.63,Sub,,0,0,0,,como doscientos gigas, tómalas {\c&H3CC8FF&}como{\c&HFFFFFF&} rumor.
+Dialogue: 0,0:01:26.63,0:01:26.68,Sub,,0,0,0,,como doscientos gigas, tómalas como {\c&H3CC8FF&}rumor.{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.17,0:01:27.39,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que libera espacio, revisa la
+Dialogue: 0,0:01:27.39,0:01:27.55,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} libera espacio, revisa la
+Dialogue: 0,0:01:27.55,0:01:27.85,Sub,,0,0,0,,Así que {\c&H3CC8FF&}libera{\c&HFFFFFF&} espacio, revisa la
+Dialogue: 0,0:01:27.85,0:01:28.55,Sub,,0,0,0,,Así que libera {\c&H3CC8FF&}espacio,{\c&HFFFFFF&} revisa la
+Dialogue: 0,0:01:28.55,0:01:28.87,Sub,,0,0,0,,Así que libera espacio, {\c&H3CC8FF&}revisa{\c&HFFFFFF&} la
+Dialogue: 0,0:01:28.87,0:01:28.99,Sub,,0,0,0,,Así que libera espacio, revisa {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.99,0:01:29.33,Sub,,0,0,0,,{\c&H3CC8FF&}tienda{\c&HFFFFFF&} de tu consola y no
+Dialogue: 0,0:01:29.33,0:01:29.43,Sub,,0,0,0,,tienda {\c&H3CC8FF&}de{\c&HFFFFFF&} tu consola y no
+Dialogue: 0,0:01:29.43,0:01:29.55,Sub,,0,0,0,,tienda de {\c&H3CC8FF&}tu{\c&HFFFFFF&} consola y no
+Dialogue: 0,0:01:29.55,0:01:30.05,Sub,,0,0,0,,tienda de tu {\c&H3CC8FF&}consola{\c&HFFFFFF&} y no
+Dialogue: 0,0:01:30.05,0:01:30.45,Sub,,0,0,0,,tienda de tu consola {\c&H3CC8FF&}y{\c&HFFFFFF&} no
+Dialogue: 0,0:01:30.45,0:01:30.55,Sub,,0,0,0,,tienda de tu consola y {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.55,0:01:30.63,Sub,,0,0,0,,{\c&H3CC8FF&}le{\c&HFFFFFF&} creas a cualquier cifra que
+Dialogue: 0,0:01:30.63,0:01:30.89,Sub,,0,0,0,,le {\c&H3CC8FF&}creas{\c&HFFFFFF&} a cualquier cifra que
+Dialogue: 0,0:01:30.89,0:01:30.97,Sub,,0,0,0,,le creas {\c&H3CC8FF&}a{\c&HFFFFFF&} cualquier cifra que
+Dialogue: 0,0:01:30.97,0:01:31.15,Sub,,0,0,0,,le creas a {\c&H3CC8FF&}cualquier{\c&HFFFFFF&} cifra que
+Dialogue: 0,0:01:31.15,0:01:31.69,Sub,,0,0,0,,le creas a cualquier {\c&H3CC8FF&}cifra{\c&HFFFFFF&} que
+Dialogue: 0,0:01:31.69,0:01:31.81,Sub,,0,0,0,,le creas a cualquier cifra {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:31.81,0:01:32.63,Sub,,0,0,0,,{\c&H3CC8FF&}circule,{\c&HFFFFFF&} porque como ya viste GTA
+Dialogue: 0,0:01:32.63,0:01:32.83,Sub,,0,0,0,,circule, {\c&H3CC8FF&}porque{\c&HFFFFFF&} como ya viste GTA
+Dialogue: 0,0:01:32.83,0:01:33.03,Sub,,0,0,0,,circule, porque {\c&H3CC8FF&}como{\c&HFFFFFF&} ya viste GTA
+Dialogue: 0,0:01:33.03,0:01:33.17,Sub,,0,0,0,,circule, porque como {\c&H3CC8FF&}ya{\c&HFFFFFF&} viste GTA
+Dialogue: 0,0:01:33.17,0:01:33.53,Sub,,0,0,0,,circule, porque como ya {\c&H3CC8FF&}viste{\c&HFFFFFF&} GTA
+Dialogue: 0,0:01:33.53,0:01:33.95,Sub,,0,0,0,,circule, porque como ya viste {\c&H3CC8FF&}GTA{\c&HFFFFFF&}
+Dialogue: 0,0:01:33.95,0:01:34.41,Sub,,0,0,0,,{\c&H3CC8FF&}6{\c&HFFFFFF&} no cuesta 100 dólares.
+Dialogue: 0,0:01:34.41,0:01:34.79,Sub,,0,0,0,,6 {\c&H3CC8FF&}no{\c&HFFFFFF&} cuesta 100 dólares.
+Dialogue: 0,0:01:34.79,0:01:35.09,Sub,,0,0,0,,6 no {\c&H3CC8FF&}cuesta{\c&HFFFFFF&} 100 dólares.
+Dialogue: 0,0:01:35.09,0:01:35.25,Sub,,0,0,0,,6 no cuesta {\c&H3CC8FF&}100{\c&HFFFFFF&} dólares.
+Dialogue: 0,0:01:35.25,0:01:35.46,Sub,,0,0,0,,6 no cuesta 100 {\c&H3CC8FF&}dólares.{\c&HFFFFFF&}
