@@ -48,7 +48,7 @@ D=gta6/g02
 if [ ! -s $D/gta6_no_cuesta_100.mp4 ]; then
   DUR=$(python3 -c "import json;print(json.load(open('$D/timeline.json'))['total'])")
   BR=$(python3 -c "print(min(1600,int(92e6*8/$DUR/1000)-140))")k
-  NOSUBS=1 RENDER=render2 VBITRATE=$BR SFXVOL=0.765 WVOL=0.595 ./ensamblar_cartoon.sh $D gta6_no_cuesta_100.mp4 1 && python3 qc_video.py $D/gta6_no_cuesta_100.mp4 $D/timeline.json > $D/qc.txt
+  SFXREAL=1 NOSUBS=1 RENDER=render2 VBITRATE=$BR SFXVOL=0.765 WVOL=0.595 ./ensamblar_cartoon.sh $D gta6_no_cuesta_100.mp4 1 && python3 qc_video.py $D/gta6_no_cuesta_100.mp4 $D/timeline.json > $D/qc.txt
   log "g02 ensamblado ($BR): $(tr '\n' ' ' < $D/qc.txt)"
 fi
 (cd remotion && npx remotion still buildg02 THUMB ../gta6/g02/miniatura.jpg --browser-executable=/opt/pw-browsers/chromium --gl=swangle --log=error) || log "g02 miniatura falló"

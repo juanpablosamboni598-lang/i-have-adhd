@@ -90,8 +90,10 @@ export const SG2 = {
       <group position={[1.6, 0, -0.3]} scale={pop(t, d * 0.68) * 0.8}><Console kind="b" color="#5a5d66" op={0.6} /><Strike pos={[0, 0.35, 0.25]} len={0.7} u={tw(t, d * 0.78, d * 0.88)} rot={-0.5} /></group></>,
   }),
   pc: ({ t, d }) => ({
-    keys: [[0, 0.8, 0.8, 2.3, 0, 0.42, 0], [d * 0.45, -0.3, 0.6, 1.8, 0, 0.42, 0], [d, -0.9, 0.75, 2.1, 0, 0.42, 0]],
-    three: <><Shadow r={1} op={0.3} /><Dust t={t} /><PC pos={[0, 0, 0]} screen={t < d * 0.45 ? '?' : '2027?'} fg={C.red} /></>,
+    keys: ORB(d, [0, 0.42, 0], 2.1, 0.75, 0.85, -0.75),
+    three: <><Shadow r={1} op={0.3} /><Dust t={t} n={70} />
+      <group rotation={[0, Math.sin(t * 0.9) * 0.25, 0]} position={[0, Math.sin(t * 1.6) * 0.02, 0]}><PC pos={[0, 0, 0]} screen={t < d * 0.45 ? (Math.floor(t * 2) % 2 ? '?' : ' ?') : '2027?'} fg={Math.floor(t * 2) % 2 ? C.red : C.lime} /></group>
+      {Array.from({ length: 6 }).map((_, k) => { const u = ((t * 0.35 + k / 6) % 1); return <mesh key={k} position={[Math.cos(k * 1.05) * 0.9, 0.2 + u * 1.0, Math.sin(k * 1.05) * 0.5 - 0.2]} scale={0.6 + 0.4 * Math.sin(u * Math.PI)}><sphereGeometry args={[0.03, 12, 8]} /><meshBasicMaterial color={k % 2 ? C.red : C.lime} transparent opacity={Math.sin(u * Math.PI)} /></mesh>; })}</>,
     ov: <><TypeCard t={t} at={d * 0.15} lines={['PC', 'SIN ANUNCIO OFICIAL']} x={110} y={170} out={d * 0.6} />
       <TypeCard t={t} at={d * 0.68} lines={['GTA 5', 'CONSOLAS: 2013', 'PC:       2015']} x={1400} y={170} paper /></>,
   }),

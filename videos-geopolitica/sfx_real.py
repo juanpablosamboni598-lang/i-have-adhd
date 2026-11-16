@@ -7,11 +7,11 @@ Lee escenas.json[*].sfx ([[posición 0-1, nombre], ...]) y timeline.json (con ti
 Escribe <carpeta>/sfx.wav (estéreo 44.1 kHz), el mismo archivo que usa ensamblar_cartoon.sh."""
 import json, os, sys, wave, random
 import numpy as np
-sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+sys.path.insert(0, os.path.dirname(os.path.realpath(__file__)))
 import sfx as SYN  # efectos sintéticos de respaldo
 
 SR = 44100
-LIB = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'sfx_lib')
+LIB = os.path.join(os.path.dirname(os.path.realpath(__file__)), 'sfx_lib')
 IDX = json.load(open(os.path.join(LIB, 'indice.json')))
 # nombre (sfx.py) -> (categoría, palabras clave preferidas, volumen)
 MAP = {
@@ -58,8 +58,9 @@ def main():
     out = np.zeros(int(SR * (total + 4))); rnd = random.Random(7); last = {}; ev = []
     def put(x, at, vol):
         p = int(SR * at); out[p:p + len(x)] += vol * x[:max(0, len(out) - p)]; ev.append(at)
-    for sc, s in zip(esc, tl['scenes']):
-        for frac, name in sc.get('sfx', []):
+    for k, (sc, s) in enumerate(zip(esc, tl['scenes'])):
+        cut = [[0.0, 'whoosh']] if os.environ.get('CUTWHOOSH') and k > 0 else []  # whoosh real en cada corte
+        for frac, name in cut + sc.get('sfx', []):
             at = s['start'] + frac * s['dur']
             if name in MAP:
                 cat, keys, vol = MAP[name]
