@@ -134,6 +134,7 @@ const gradTex = () => {  // 3 bandas de sombra, como cel-shading suave
   _grad = new THREE.DataTexture(d, 3, 1, THREE.RGBAFormat); _grad.minFilter = _grad.magFilter = THREE.NearestFilter; _grad.needsUpdate = true; return _grad;
 };
 // recorre la escena en cada cuadro y aplica papel + bandas a los materiales toon que no tengan textura propia
+const _edgeCache = new Map();
 const _edgeMat = new THREE.LineBasicMaterial({ color: 0x1a1620, transparent: true, opacity: 0.85 });
 export const Dibujo = ({ edges = true, ang = 28 }) => {
   const { scene } = useThree();
@@ -147,9 +148,13 @@ export const Dibujo = ({ edges = true, ang = 28 }) => {
   for (const o of todo) {
     let e = o.userData.edgeObj;
     if (!e || e.userData.src !== o.geometry) {
-      if (e) { o.remove(e); e.geometry.dispose(); }
-      e = new THREE.LineSegments(new THREE.EdgesGeometry(o.geometry, ang), _edgeMat.clone());
-      e.userData.isEdge = 1; e.userData.src = o.geometry; e.raycast = () => {}; o.add(e); o.userData.edgeObj = e;
+      // caché por tipo + parámetros: las geometrías que React recrea con los mismos args reutilizan sus líneas
+      const g = o.geometry, key = g.parameters ? g.type + JSON.stringify(g.parameters) + ang : null;
+      let eg = key && _edgeCache.get(key);
+      if (!eg) { eg = new THREE.EdgesGeometry(g, ang); if (key) { if (_edgeCache.size > 4000) _edgeCache.clear(); _edgeCache.set(key, eg); } }
+      if (e) { o.remove(e); if (!e.userData.cached) e.geometry.dispose(); }
+      e = new THREE.LineSegments(eg, _edgeMat.clone());
+      e.userData.isEdge = 1; e.userData.src = g; e.userData.cached = !!key; e.raycast = () => {}; o.add(e); o.userData.edgeObj = e;
     }
     e.material.opacity = 0.85 * (o.material.opacity ?? 1); e.visible = o.visible && o.material.opacity > 0.12;
   }

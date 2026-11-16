@@ -77,3 +77,15 @@ Medido en la referencia vs. la nuestra:
 ## 6. Estado (14 nov 2026)
 - Programados en YouTube y Facebook: v20 jirafa (14 nov) y v21 inodoro (15 nov), cada uno con 3 Shorts/Reels.
 - Siguiente: v22 con la fórmula "si pones… pero… así que… ese es el…" + voz rápida + mejoras de imagen.
+
+## 7. Estilo dibujado v2 (16 nov 2026, aprobado por el dueño)
+Medido sobre 11 referencias: ver REFERENCIAS_ANALISIS.md. Aplica a TODOS los videos nuevos.
+- Imagen: `<Dibujo />` dentro del ThreeCanvas (grano de papel + trazos de pincel en los materiales toon, sombreado en 3 bandas
+  y líneas de tinta finas en todos los bordes) y `<GranoPapel />` encima del canvas. `globalThis.__OLK = 0.55` (silueta más fina).
+- Render: `dpr={1}` (resolución completa) y `antialias: false`. Unos 2–3,5 s por cuadro según la escena (≈3 h por reel de 2:30).
+  El antialiasing duplica el tiempo y casi no se nota. Blender (Cycles/EEVEE) se probó: 100–125 s por cuadro, descartado.
+- Sin cortinillas (`Wipe`): una sola toma, con la cámara que viaja de pieza en pieza (las referencias casi no tienen cortes).
+- Sonido: `sfx_real.py <carpeta> 2.0` (librería CC0 `sfx_lib/`, ~2 efectos por segundo) en vez de `sfx.py`. SFXVOL 0.765.
+  La música sigue con `musica.py` (le gusta al dueño).
+- Voz: ~200 palabras por minuto, arranca en el segundo 0 y pausas ≤ 0.7 s. Cierre: "Y con esto ya puedes…".
+- Plantilla: `remotion/src/indexpr.jsx` (props de prueba: dpr, aa, edges).

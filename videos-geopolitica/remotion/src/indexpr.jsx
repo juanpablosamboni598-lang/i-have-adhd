@@ -1,5 +1,6 @@
 import React from 'react';
-import { registerRoot, Composition, useCurrentFrame, AbsoluteFill } from 'remotion';
+import { registerRoot, Composition, useCurrentFrame, AbsoluteFill, getInputProps } from 'remotion';
+const P = getInputProps();
 import { ThreeCanvas } from '@remotion/three';
 import d23 from './data23.json';
 import { Cam, INK, cl, Dibujo, GranoPapel } from './three/kit.jsx';
@@ -38,8 +39,8 @@ const Scene = ({ i, at, vert }) => {
   const S = S23[sc.tipo]({ t, d });
   const W = vert ? 1080 : 1920, H = vert ? 1920 : 1080;
   return <AbsoluteFill style={{ background: '#f3d9b8' }}>
-    <ThreeCanvas width={W} height={H} dpr={1} shadows gl={{ antialias: true }} camera={{ fov: vert ? 58 : 40, position: [0, 1, 4], near: 0.02, far: 200 }}>
-      <Dibujo /><Lights23 /><Cam t={t} keys={vert ? vkeys(S.keys) : S.keys} wob={0.12} />
+    <ThreeCanvas width={W} height={H} dpr={P.dpr ?? 1} shadows gl={{ antialias: P.aa ?? false }} camera={{ fov: vert ? 58 : 40, position: [0, 1, 4], near: 0.02, far: 200 }}>
+      <Dibujo edges={P.edges ?? true} /><Lights23 /><Cam t={t} keys={vert ? vkeys(S.keys) : S.keys} wob={0.12} />
       {S.three}
     </ThreeCanvas>
     {vert ? null : S.ov}
@@ -50,7 +51,7 @@ const Scene = ({ i, at, vert }) => {
 
 const Thumb = () => <AbsoluteFill style={{ background: '#f3d9b8' }}>
   <ThreeCanvas width={1280} height={720} shadows gl={{ antialias: true }} camera={{ fov: 40, position: [0, 1, 4] }}>
-    <Dibujo /><Lights23 /><Cam t={0} keys={[[0, 0.85, 0.72, 1.55, 0.42, 0.45, 0]]} />
+    <Dibujo edges={P.edges ?? true} /><Lights23 /><Cam t={0} keys={[[0, 0.85, 0.72, 1.55, 0.42, 0.45, 0]]} />
     <Laundry /><Washer t={1.3} rotY={-0.35} on={{ drum: 1, holes: 1, paddles: 1, tub: 1, shell: 1, door: 1, motor: 1, belt: 1, valve: 1, hose: 1, heater: 1, pump: 1, filter: 1, weights: 1, springs: 1, gasket: 1, panel: 1 }} xr={0.82} hiW={1} ang={1.3} mode={1} level={0.5} foam={0.7} heat={0.8} />
   </ThreeCanvas>
   <svg width={1280} height={720} style={{ position: 'absolute', left: 0, top: 0 }}><g stroke="#141018" strokeWidth={26} strokeLinecap="round" fill="none"><path d="M690 300 Q600 250 515 165" /><path d="M515 165 l58 8 M515 165 l8 58" /></g><g stroke="#ff5a3c" strokeWidth={14} strokeLinecap="round" fill="none"><path d="M690 300 Q600 250 515 165" /><path d="M515 165 l58 8 M515 165 l8 58" /></g></svg>
