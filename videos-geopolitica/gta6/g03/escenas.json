@@ -1,0 +1,1523 @@
+[
+ {
+  "tipo": "gancho",
+  "titulo": "gancho",
+  "texto": "GTA seis no cuesta cien dólares. La edición estándar cuesta setenta y nueve con noventa y nueve, y sale este jueves, diecinueve de noviembre. Hoy te cuento todo lo confirmado, y todo lo que todavía es rumor.",
+  "sfx": [
+   [
+    0.03,
+    "pop"
+   ],
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.42,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "clink"
+   ],
+   [
+    0.55,
+    "clink"
+   ],
+   [
+    0.6,
+    "clink"
+   ],
+   [
+    0.78,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "cuesta",
+    "GTA 6 NO CUESTA ^s$100"
+   ],
+   [
+    "estándar",
+    "^lESTÁNDAR $79,99"
+   ],
+   [
+    "jueves",
+    "ESTE JUEVES ^r19 ^rNOV"
+   ],
+   [
+    "rumor",
+    "DATO ^lvs ^rRUMOR"
+   ]
+  ]
+ },
+ {
+  "tipo": "mito",
+  "titulo": "mito",
+  "texto": "Durante meses, internet repitió que el juego básico iba a llegar a cien dólares. Era el rumor más compartido, salía en videos, en memes y en foros, y al final no se cumplió.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.12,
+    "pop"
+   ],
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.28,
+    "pop"
+   ],
+   [
+    0.8,
+    "fallo"
+   ],
+   [
+    0.86,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "internet",
+    "INTERNET LO REPITIÓ"
+   ],
+   [
+    "básico",
+    "JUEGO BÁSICO: ^r$100"
+   ],
+   [
+    "compartido",
+    "EL RUMOR MÁS COMPARTIDO"
+   ],
+   [
+    "cumplió",
+    "NO SE ^rCUMPLIÓ"
+   ]
+  ]
+ },
+ {
+  "tipo": "ultimate",
+  "titulo": "ultimate",
+  "texto": "La Ultimate sí cuesta noventa y nueve con noventa y nueve. Son veinte dólares más por contenido extra, pero la estándar ya trae el juego completo, con toda la historia.",
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.08,
+    "impacto"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.78,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "ultimate",
+    "ULTIMATE ^b$99,99"
+   ],
+   [
+    "veinte|20",
+    "^l+20 DÓLARES"
+   ],
+   [
+    "completo",
+    "ESTÁNDAR = JUEGO ^lCOMPLETO"
+   ]
+  ]
+ },
+ {
+  "tipo": "cajas",
+  "titulo": "cajas",
+  "texto": "Así que si solo quieres jugar la historia, con la estándar tienes lo que importa. La Ultimate es para quien quiere los extras desde el primer día.",
+  "sfx": [
+   [
+    0.03,
+    "pop"
+   ],
+   [
+    0.3,
+    "brillo"
+   ],
+   [
+    0.6,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "historia",
+    "SOLO LA HISTORIA"
+   ],
+   [
+    "importa",
+    "^lESTÁNDAR BASTA"
+   ],
+   [
+    "extras",
+    "ULTIMATE = ^bEXTRAS"
+   ]
+  ]
+ },
+ {
+  "tipo": "retrasos",
+  "titulo": "retrasos",
+  "texto": "La fecha se movió como un tren que avisa retraso dos veces. Primero era dos mil veinticinco. Luego, el veintiséis de mayo de dos mil veintiséis. Y en noviembre del año pasado, Rockstar la pasó al diecinueve de noviembre.",
+  "sfx": [
+   [
+    0.03,
+    "pop"
+   ],
+   [
+    0.06,
+    "motor"
+   ],
+   [
+    0.32,
+    "fallo"
+   ],
+   [
+    0.34,
+    "pop"
+   ],
+   [
+    0.55,
+    "fallo"
+   ],
+   [
+    0.57,
+    "pop"
+   ],
+   [
+    0.86,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "tren",
+    "UN TREN CON ^rRETRASO"
+   ],
+   [
+    "primero",
+    "^s2025"
+   ],
+   [
+    "mayo",
+    "^s26 ^sMAYO ^s2026"
+   ],
+   [
+    "pasó",
+    "^l19 ^lNOV ^l2026"
+   ]
+  ]
+ },
+ {
+  "tipo": "andenes",
+  "titulo": "andenes",
+  "texto": "Cada retraso se sintió como quedarse en el andén con la maleta lista. Pero esta vez la fecha ya no se movió, y el juego llega este jueves.",
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.56,
+    "motor"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "andén",
+    "EN EL ANDÉN"
+   ],
+   [
+    "movió",
+    "LA FECHA ^lYA ^lNO ^lSE ^lMOVIÓ"
+   ],
+   [
+    "jueves",
+    "LLEGA ESTE ^rJUEVES"
+   ]
+  ]
+ },
+ {
+  "tipo": "consolas",
+  "titulo": "consolas",
+  "texto": "Sale solo en PlayStation cinco y en Xbox Series X y Series S. Son las únicas plataformas confirmadas. Si tienes una consola de la generación pasada, no lo vas a poder jugar.",
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.1,
+    "brillo"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.36,
+    "brillo"
+   ],
+   [
+    0.68,
+    "pop"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "playstation",
+    "^lPLAYSTATION 5"
+   ],
+   [
+    "xbox",
+    "^lXBOX SERIES X Y S"
+   ],
+   [
+    "pasada",
+    "GENERACIÓN PASADA: ^rNO"
+   ]
+  ]
+ },
+ {
+  "tipo": "pc",
+  "titulo": "pc",
+  "texto": "En computador no hay fecha. Rockstar no ha anunciado versión de PC. Se habla de dos mil veintisiete, pero eso es rumor, no una fecha oficial.",
+  "sfx": [
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.18,
+    "tic"
+   ],
+   [
+    0.21,
+    "tic"
+   ],
+   [
+    0.45,
+    "bip"
+   ],
+   [
+    0.68,
+    "tic"
+   ],
+   [
+    0.71,
+    "tic"
+   ],
+   [
+    0.74,
+    "tic"
+   ]
+  ],
+  "caps": [
+   [
+    "computador",
+    "¿Y EN PC?"
+   ],
+   [
+    "anunciado",
+    "^rSIN ANUNCIO"
+   ],
+   [
+    "habla",
+    "2027 = ^rRUMOR"
+   ]
+  ]
+ },
+ {
+  "tipo": "historia_pc",
+  "titulo": "historia_pc",
+  "texto": "Con GTA cinco pasó algo parecido. Salió en consolas en dos mil trece, y al computador llegó año y medio después, en dos mil quince.",
+  "sfx": [
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.58,
+    "pop"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "parecido",
+    "YA PASÓ CON GTA 5"
+   ],
+   [
+    "consolas",
+    "CONSOLAS: ^l2013"
+   ],
+   [
+    "computador",
+    "PC: ^r2015"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapa",
+  "titulo": "mapa",
+  "texto": "La historia pasa en Leonida, un estado inventado e inspirado en Florida, con Vice City como su ciudad principal.",
+  "sfx": [
+   [
+    0.03,
+    "whoosh_largo"
+   ],
+   [
+    0.25,
+    "tic"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.39,
+    "pop"
+   ],
+   [
+    0.43,
+    "pop"
+   ],
+   [
+    0.47,
+    "pop"
+   ],
+   [
+    0.72,
+    "pop"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "leonida",
+    "LEONIDA"
+   ],
+   [
+    "inventado",
+    "ESTADO ^rINVENTADO"
+   ],
+   [
+    "florida",
+    "INSPIRADO EN ^bFLORIDA"
+   ],
+   [
+    "vice",
+    "^rVICE CITY"
+   ]
+  ]
+ },
+ {
+  "tipo": "regiones_a",
+  "titulo": "regiones_a",
+  "texto": "Rockstar confirmó seis regiones. La primera es Vice City, la ciudad de los neones y las playas. Al sur están los Leonida Keys, una cadena de islas unidas por puentes.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "seis|6",
+    "^l6 REGIONES"
+   ],
+   [
+    "vice",
+    "1. ^rVICE CITY"
+   ],
+   [
+    "keys",
+    "2. ^lLEONIDA KEYS"
+   ],
+   [
+    "puentes",
+    "ISLAS CON PUENTES"
+   ]
+  ]
+ },
+ {
+  "tipo": "regiones_b",
+  "titulo": "regiones_b",
+  "texto": "Luego vienen Grassrivers, una zona de pantanos y caimanes, y Port Gellhorn, un puerto venido a menos en la costa.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "grassrivers",
+    "3. ^lGRASSRIVERS"
+   ],
+   [
+    "caimanes",
+    "PANTANOS Y CAIMANES"
+   ],
+   [
+    "gellhorn",
+    "4. ^bPORT GELLHORN"
+   ]
+  ]
+ },
+ {
+  "tipo": "regiones_c",
+  "titulo": "regiones_c",
+  "texto": "Y para cerrar están Ambrosia, una zona de fábricas y campos, y el Parque Nacional Mount Kalaga, con montañas y bosques.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "ambrosia",
+    "5. AMBROSIA"
+   ],
+   [
+    "fábricas",
+    "FÁBRICAS Y CAMPOS"
+   ],
+   [
+    "kalaga",
+    "6. MOUNT KALAGA"
+   ]
+  ]
+ },
+ {
+  "tipo": "tamano",
+  "titulo": "tamano",
+  "texto": "¿Y qué tan grande es el mapa? Rockstar no ha dado una cifra. Hay quien calcula que es dos o tres veces el de GTA cinco, pero eso es una estimación de fans, no un dato oficial.",
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.5,
+    "whoosh"
+   ],
+   [
+    0.75,
+    "fallo"
+   ],
+   [
+    0.8,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "grande",
+    "¿QUÉ TAN GRANDE?"
+   ],
+   [
+    "cifra",
+    "^rSIN CIFRA OFICIAL"
+   ],
+   [
+    "calcula",
+    "¿×2–3? = ^rESTIMACIÓN"
+   ]
+  ]
+ },
+ {
+  "tipo": "protas",
+  "titulo": "protas",
+  "texto": "La historia tiene dos protagonistas, Lucía Caminos y Jason Duval, una pareja que se mete en problemas en Leonida.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.35,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ],
+  "caps": [
+   [
+    "protagonistas",
+    "^lDOS PROTAGONISTAS"
+   ],
+   [
+    "lucía",
+    "^rLUCÍA CAMINOS"
+   ],
+   [
+    "jason",
+    "^bJASON DUVAL"
+   ]
+  ]
+ },
+ {
+  "tipo": "trailer1",
+  "titulo": "trailer1",
+  "texto": "El primer tráiler salió el cinco de diciembre de dos mil veintitrés. Rockstar lo tenía listo para otro día, pero se filtró unas horas antes, así que lo publicó de inmediato.",
+  "sfx": [
+   [
+    0.08,
+    "bip"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.55,
+    "alarma"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ],
+  "caps": [
+   [
+    "tráiler",
+    "TRÁILER 1"
+   ],
+   [
+    "diciembre",
+    "5 DIC 2023"
+   ],
+   [
+    "filtró",
+    "SE ^rFILTRÓ"
+   ],
+   [
+    "inmediato",
+    "LO PUBLICÓ ^lYA"
+   ]
+  ]
+ },
+ {
+  "tipo": "vistas",
+  "titulo": "vistas",
+  "texto": "En sus primeras veinticuatro horas, ese tráiler sumó noventa millones cuatrocientas veintiún mil vistas. Guinness lo registró como la revelación de videojuego más vista en un día.",
+  "sfx": [
+   [
+    0.06,
+    "pop"
+   ],
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.25,
+    "tic"
+   ],
+   [
+    0.35,
+    "tic"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.6,
+    "ding"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ],
+  "caps": [
+   [
+    "primeras",
+    "EN ^l24 ^lHORAS"
+   ],
+   [
+    "vistas",
+    "^l90.421.491 VISTAS"
+   ],
+   [
+    "guinness",
+    "RÉCORD ^lGUINNESS"
+   ]
+  ]
+ },
+ {
+  "tipo": "record",
+  "titulo": "record",
+  "texto": "Con eso superó el récord de un video que no es música, que tenía MrBeast con cincuenta y nueve millones. Pero no alcanzó a BTS, que con Butter llegó a ciento ocho millones.",
+  "sfx": [
+   [
+    0.08,
+    "whoosh"
+   ],
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.32,
+    "whoosh"
+   ],
+   [
+    0.6,
+    "ding"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "superó",
+    "SUPERÓ A ^lMRBEAST"
+   ],
+   [
+    "cincuenta|59",
+    "MRBEAST: 59,4 M"
+   ],
+   [
+    "bts",
+    "PERO ^rBTS: 108,2 M"
+   ]
+  ]
+ },
+ {
+  "tipo": "trailer2",
+  "titulo": "trailer2",
+  "texto": "El segundo tráiler llegó en mayo de dos mil veinticinco y sumó unos setenta y seis millones de vistas en su primer día. Mucho, pero menos que el primero.",
+  "sfx": [
+   [
+    0.08,
+    "whoosh"
+   ],
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "segundo",
+    "TRÁILER 2"
+   ],
+   [
+    "setenta|76",
+    "^b~76 M EN 24 H"
+   ],
+   [
+    "menos",
+    "MENOS QUE EL ^lPRIMERO"
+   ]
+  ]
+ },
+ {
+  "tipo": "filtracion",
+  "titulo": "filtracion",
+  "texto": "Pero la filtración más grande no fue la del tráiler. En septiembre de dos mil veintidós, un hacker publicó más de noventa videos de una versión temprana del juego.",
+  "sfx": [
+   [
+    0.05,
+    "tension"
+   ],
+   [
+    0.35,
+    "electrico"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.65,
+    "pop"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ],
+  "caps": [
+   [
+    "filtración",
+    "LA FILTRACIÓN ^rMÁS ^rGRANDE"
+   ],
+   [
+    "septiembre",
+    "SEPTIEMBRE 2022"
+   ],
+   [
+    "noventa|90",
+    "^r+90 VIDEOS"
+   ],
+   [
+    "temprana",
+    "VERSIÓN TEMPRANA"
+   ]
+  ]
+ },
+ {
+  "tipo": "costo",
+  "titulo": "costo",
+  "texto": "Rockstar le dijo a un tribunal de Londres que esa filtración le costó cinco millones de dólares y miles de horas de trabajo de su equipo.",
+  "sfx": [
+   [
+    0.08,
+    "clink"
+   ],
+   [
+    0.16,
+    "clink"
+   ],
+   [
+    0.24,
+    "clink"
+   ],
+   [
+    0.32,
+    "clink"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.6,
+    "tic"
+   ]
+  ],
+  "caps": [
+   [
+    "tribunal",
+    "ANTE UN TRIBUNAL"
+   ],
+   [
+    "cinco|5",
+    "^r$5 MILLONES"
+   ],
+   [
+    "horas",
+    "MILES DE HORAS"
+   ]
+  ]
+ },
+ {
+  "tipo": "juicio",
+  "titulo": "juicio",
+  "texto": "El responsable era un joven de un grupo de hackers llamado Lapsus. Un juez de Londres ordenó que quedara internado en un hospital de seguridad por tiempo indefinido.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.6,
+    "impacto"
+   ],
+   [
+    0.65,
+    "impacto"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ],
+  "caps": [
+   [
+    "joven",
+    "UN JOVEN HACKER"
+   ],
+   [
+    "lapsus",
+    "GRUPO ^rLAPSUS$"
+   ],
+   [
+    "hospital",
+    "HOSPITAL DE SEGURIDAD"
+   ],
+   [
+    "indefinido",
+    "TIEMPO ^rINDEFINIDO"
+   ]
+  ]
+ },
+ {
+  "tipo": "giro",
+  "titulo": "giro",
+  "texto": "Pero eso no es lo más raro. GTA cinco salió en dos mil trece. Entre un GTA y el siguiente nunca habían pasado más de cinco años. Esta vez pasaron trece.",
+  "sfx": [
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.78,
+    "tension"
+   ],
+   [
+    0.82,
+    "tic"
+   ],
+   [
+    0.87,
+    "tic"
+   ],
+   [
+    0.92,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "raro",
+    "PERO ESO NO ES ^rLO ^rMÁS ^rRARO"
+   ],
+   [
+    "salió",
+    "GTA 5: ^l2013"
+   ],
+   [
+    "nunca",
+    "NUNCA MÁS DE ^l5 ^lAÑOS"
+   ],
+   [
+    "pasaron",
+    "ESTA VEZ: ^r13 ^rAÑOS"
+   ]
+  ]
+ },
+ {
+  "tipo": "saltos",
+  "titulo": "saltos",
+  "texto": "El primer GTA salió en mil novecientos noventa y siete. Luego vinieron el dos, el tres, Vice City, San Andreas, el cuatro y el cinco, casi uno cada dos o tres años.",
+  "sfx": [
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.17,
+    "pop"
+   ],
+   [
+    0.24,
+    "pop"
+   ],
+   [
+    0.31,
+    "pop"
+   ],
+   [
+    0.38,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.52,
+    "pop"
+   ],
+   [
+    0.8,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "primer",
+    "GTA 1: ^l1997"
+   ],
+   [
+    "vinieron",
+    "VICE CITY · SAN ANDREAS · 4 · 5"
+   ],
+   [
+    "cada",
+    "UNO CADA ^l2-3 ^lAÑOS"
+   ]
+  ]
+ },
+ {
+  "tipo": "edad",
+  "titulo": "edad",
+  "texto": "Alguien que tenía diez años cuando salió GTA cinco va a jugar GTA seis con veintitrés.",
+  "sfx": [
+   [
+    0.04,
+    "pop"
+   ],
+   [
+    0.38,
+    "tic"
+   ],
+   [
+    0.46,
+    "tic"
+   ],
+   [
+    0.54,
+    "tic"
+   ],
+   [
+    0.62,
+    "tic"
+   ],
+   [
+    0.7,
+    "tic"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ],
+  "caps": [
+   [
+    "diez",
+    "^l10 AÑOS CON GTA 5"
+   ],
+   [
+    "veintitrés",
+    "^l23 CON GTA 6"
+   ]
+  ]
+ },
+ {
+  "tipo": "ventas",
+  "titulo": "ventas",
+  "texto": "Y mientras tanto, GTA cinco no dejó de venderse. Ya pasó los doscientos treinta millones de copias, y es el juego más vendido de la última década.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.15,
+    "pop"
+   ],
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "dejó",
+    "NO DEJÓ DE VENDERSE"
+   ],
+   [
+    "doscientos|230",
+    "^l+230 MILLONES"
+   ],
+   [
+    "década",
+    "EL MÁS VENDIDO DE LA ^lDÉCADA"
+   ]
+  ]
+ },
+ {
+  "tipo": "ritmo",
+  "titulo": "ritmo",
+  "texto": "Trece años después de salir, todavía vende unos cinco millones de copias cada tres meses. Por eso a Rockstar no le corría prisa sacar el seis.",
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.42,
+    "clink"
+   ],
+   [
+    0.54,
+    "clink"
+   ],
+   [
+    0.66,
+    "clink"
+   ],
+   [
+    0.85,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "trece|13",
+    "13 AÑOS DESPUÉS"
+   ],
+   [
+    "millones",
+    "~^l5 ^lMILLONES"
+   ],
+   [
+    "meses",
+    "CADA 3 MESES"
+   ],
+   [
+    "prisa",
+    "SIN ^rPRISA"
+   ]
+  ]
+ },
+ {
+  "tipo": "dudas",
+  "titulo": "dudas",
+  "texto": "Ahora, lo que todavía no está confirmado. La hora exacta de desbloqueo y cuánto pesa el juego.",
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.35,
+    "electrico"
+   ],
+   [
+    0.62,
+    "pop"
+   ],
+   [
+    0.68,
+    "alarma"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "confirmado",
+    "^rSIN CONFIRMAR"
+   ],
+   [
+    "hora",
+    "HORA EXACTA"
+   ],
+   [
+    "pesa",
+    "CUÁNTO PESA"
+   ]
+  ]
+ },
+ {
+  "tipo": "hora",
+  "titulo": "hora",
+  "texto": "Algunas fuentes dicen que se desbloquea a medianoche, hora local. Eso no lo pude confirmar con fuentes oficiales, así que revísalo en la tienda de tu consola.",
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.12,
+    "tic"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.55,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "medianoche",
+    "¿MEDIANOCHE?"
+   ],
+   [
+    "confirmar",
+    "^rNO CONFIRMADO"
+   ],
+   [
+    "tienda",
+    "REVISA LA ^lTIENDA"
+   ]
+  ]
+ },
+ {
+  "tipo": "peso",
+  "titulo": "peso",
+  "texto": "Y si ves cifras como doscientos gigas, tómalas como rumor. Lo seguro es que es un juego enorme, así que libera espacio antes del jueves.",
+  "sfx": [
+   [
+    0.08,
+    "pop"
+   ],
+   [
+    0.3,
+    "fallo"
+   ],
+   [
+    0.5,
+    "electrico"
+   ],
+   [
+    0.6,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "gigas",
+    "¿200 GB? = ^rRUMOR"
+   ],
+   [
+    "enorme",
+    "UN JUEGO ^lENORME"
+   ],
+   [
+    "libera",
+    "^lLIBERA ESPACIO"
+   ]
+  ]
+ },
+ {
+  "tipo": "spoilers",
+  "titulo": "spoilers",
+  "texto": "Y cuidado con los spoilers. El día del lanzamiento, las redes se van a llenar de escenas de la historia. Silencia palabras clave, apaga las recomendaciones, y juega tú primero.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.09,
+    "pop"
+   ],
+   [
+    0.13,
+    "pop"
+   ],
+   [
+    0.17,
+    "pop"
+   ],
+   [
+    0.21,
+    "pop"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.29,
+    "pop"
+   ],
+   [
+    0.33,
+    "pop"
+   ],
+   [
+    0.37,
+    "pop"
+   ],
+   [
+    0.55,
+    "swish"
+   ],
+   [
+    0.62,
+    "click"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ],
+  "caps": [
+   [
+    "spoilers",
+    "CUIDADO: ^rSPOILERS"
+   ],
+   [
+    "redes",
+    "LAS REDES SE LLENAN"
+   ],
+   [
+    "silencia",
+    "^lSILENCIA PALABRAS"
+   ],
+   [
+    "primero",
+    "JUEGA ^lTÚ PRIMERO"
+   ]
+  ]
+ },
+ {
+  "tipo": "resumen",
+  "titulo": "resumen",
+  "texto": "Resumen: sale este jueves, diecinueve de noviembre, en PlayStation cinco y Xbox Series. La estándar cuesta setenta y nueve con noventa y nueve, y no hay fecha para PC.",
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "impacto"
+   ],
+   [
+    0.25,
+    "impacto"
+   ],
+   [
+    0.55,
+    "ding"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "resumen",
+    "RESUMEN"
+   ],
+   [
+    "playstation",
+    "^lPS5 + XBOX SERIES"
+   ],
+   [
+    "estándar",
+    "ESTÁNDAR ^l$79,99"
+   ],
+   [
+    "fecha",
+    "PC: ^rSIN FECHA"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "cierre",
+  "texto": "Así que libera espacio, revisa la tienda de tu consola, y no le creas a cualquier cifra que circule. Porque, como ya viste, GTA seis no cuesta cien dólares.",
+  "sfx": [
+   [
+    0.1,
+    "swish"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.72,
+    "pop"
+   ],
+   [
+    0.82,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "libera",
+    "^lLIBERA ESPACIO"
+   ],
+   [
+    "tienda",
+    "REVISA TU TIENDA"
+   ],
+   [
+    "cifra",
+    "NO LE CREAS A ^rCUALQUIER ^rCIFRA"
+   ],
+   [
+    "cuesta",
+    "GTA 6 NO CUESTA ^s$100"
+   ]
+  ]
+ }
+]
