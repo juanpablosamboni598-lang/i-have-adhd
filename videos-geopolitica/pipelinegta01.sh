@@ -11,6 +11,18 @@ N=$(python3 -c "import json;print(len(json.load(open('gta6/g01/escenas.json'))))
 for f in gta6/g01/audio2/a*.wav; do [ -f "$f.trim" ] && continue
   ffmpeg -v error -y -i "$f" -af "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse" "${f%.wav}_t.wav" && mv "${f%.wav}_t.wav" "$f" && touch "$f.trim"; done
 /home/user/tools/stt-venv/bin/python tts/palabras.py gta6/g01 >> gta6/g01/tts.log 2>&1
+# control: si whisper oye >20% más palabras que el guion, la voz repitió texto de la referencia -> rehacer esa escena
+MAL=$(python3 - <<'PY2'
+import json
+e=json.load(open('gta6/g01/escenas.json'))
+print(' '.join(str(i) for i,x in enumerate(e) if len(json.load(open(f'gta6/g01/audio2/a{i:02d}.words.json')))>1.2*len(x['texto'].split())+2))
+PY2
+)
+if [ -n "$MAL" ]; then log "g01 rehaciendo voz de escenas: $MAL"; for i in $MAL; do rm -f gta6/g01/audio2/a$(printf %02d $i).*; done
+  VOZ=marco_gta6 THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 $MAL >> gta6/g01/tts.log 2>&1
+  for i in $MAL; do f=gta6/g01/audio2/a$(printf %02d $i).wav; ffmpeg -v error -y -i "$f" -af "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse" "${f%.wav}_t.wav" && mv "${f%.wav}_t.wav" "$f" && touch "$f.trim"; done
+  /home/user/tools/stt-venv/bin/python tts/palabras.py gta6/g01 >> gta6/g01/tts.log 2>&1
+fi
 # velocidad: llevar la voz a ~185 palabras por minuto (entre 1.0 y 1.15)
 TEMPO=$(python3 - <<'PY'
 import json,subprocess,glob
@@ -39,8 +51,8 @@ if [ ! -s $D/lanzamiento.mp4 ]; then
   log "g01 ensamblado ($BR): $(tr '\n' ' ' < $D/qc.txt)"
 fi
 (cd remotion && npx remotion still buildg01 THUMB ../gta6/g01/miniatura.jpg --browser-executable=/opt/pw-browsers/chromium --gl=swangle --log=error) || log "g01 miniatura falló"
-# TODO: índices de escenas verticales y Shorts se fijan cuando esté el guion final (escenas.json)
-for i in $VERT; do
+# escenas verticales nativas para los Shorts: 03 consolas, 04 pc, 05 precio, 06 edición, 07 hora, 08 espacio
+for i in 03 04 05 06 07 08; do
   [ -s gta6/g01/vert/e$i.mp4 ] && continue
   (cd remotion && timeout 3600 npx remotion render buildg01 VG01-$i ../gta6/g01/vert/e$i.mp4 --browser-executable=/opt/pw-browsers/chromium --gl=swangle --concurrency=3 --crf=18 --timeout=120000 --log=error >/dev/null 2>&1) || log "g01 vertical $i falló"
 done
@@ -49,7 +61,9 @@ python3 - <<'PY'
 import json, subprocess
 t = json.load(open('gta6/g01/timeline.json'))['scenes']
 seg = lambda ids: [[round(t[i]['start'], 3), round(t[i]['dur'], 3)] for i in ids]
-S = []  # TODO tras el guion: ('s1_hora','¿A QUÉ HORA','SALE GTA 6?',[..]), ('s2_precio','¿CUÁNTO CUESTA','GTA 6?',[..]), ('s3_pc','¿SALE EN PC?','DATO VS RUMOR',[..])
+S = [('s1_hora', '¿A QUÉ HORA', 'SALE GTA 6?', [7, 8]),
+     ('s2_precio', '¿CUÁNTO CUESTA', 'GTA 6?', [5, 6]),
+     ('s3_pc', '¿SALE EN PC?', 'DATO VS RUMOR', [3, 4])]
 for name, l1, l2, ids in S:
     subprocess.run(['python3', 'shorts13/make_short_v.py', 'gta6/g01/lanzamiento.mp4', f'gta6/shorts01/{name}.mp4', l1, l2, json.dumps(seg(ids))] + [f'gta6/g01/vert/e{i:02d}.mp4' for i in ids], check=True)
 PY

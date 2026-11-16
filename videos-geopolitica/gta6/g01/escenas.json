@@ -1,0 +1,219 @@
+[
+ {
+  "tipo": "abre",
+  "titulo": "lanzamiento",
+  "texto": "GTA seis sale este jueves, diecinueve de noviembre. Después de trece años desde GTA cinco, y de dos retrasos, por fin hay fecha fija. Te cuento qué está confirmado, y qué sigue siendo puro rumor.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.35,
+    "whoosh"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "retrasos",
+  "titulo": "retrasos",
+  "texto": "Primero iba a salir en dos mil veinticinco. Luego lo movieron al veintiséis de mayo de dos mil veintiséis. Y en noviembre del año pasado lo pasaron al diecinueve de noviembre. Esa es la fecha final.",
+  "sfx": [
+   [
+    0.15,
+    "swish"
+   ],
+   [
+    0.45,
+    "fallo"
+   ],
+   [
+    0.75,
+    "fallo"
+   ],
+   [
+    0.92,
+    "campana"
+   ]
+  ]
+ },
+ {
+  "tipo": "mundo",
+  "titulo": "leonida",
+  "texto": "La historia pasa en Leonida, un estado inspirado en Florida, con Vice City como ciudad principal. Y por primera vez en la saga principal, hay una protagonista mujer, Lucía, junto a Jason.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh_largo"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.7,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "consolas",
+  "titulo": "consolas",
+  "texto": "Sale en PlayStation cinco, y en Xbox Series X y Series S. Son las únicas plataformas confirmadas. Si tienes una consola de la generación pasada, no lo vas a poder jugar.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.7,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pc",
+  "titulo": "pc",
+  "texto": "¿Y en computador? Rockstar no ha anunciado versión de PC. Se habla de dos mil veintisiete, pero eso es un rumor, no una fecha oficial. Con GTA cinco, el PC llegó año y medio después.",
+  "sfx": [
+   [
+    0.1,
+    "misterio"
+   ],
+   [
+    0.45,
+    "bip"
+   ],
+   [
+    0.8,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "precio",
+  "titulo": "precio",
+  "texto": "En Estados Unidos, la edición estándar cuesta setenta y nueve con noventa y nueve dólares, y la Ultimate, noventa y nueve con noventa y nueve. El rumor de los cien dólares por la básica no se cumplió.",
+  "sfx": [
+   [
+    0.15,
+    "clink"
+   ],
+   [
+    0.4,
+    "clink"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "edicion",
+  "titulo": "edicion",
+  "texto": "¿Cuál compras? La estándar ya trae el juego completo. La Ultimate cuesta veinte dólares más por contenido extra. Si lo que quieres es la historia, con la estándar tienes lo que importa.",
+  "sfx": [
+   [
+    0.15,
+    "pop"
+   ],
+   [
+    0.45,
+    "mecanismo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "hora",
+  "titulo": "hora",
+  "texto": "¿A qué hora se puede jugar? Algunas fuentes dicen que se desbloquea a medianoche, hora local. Eso no lo pude confirmar con fuentes oficiales, así que revísalo en la tienda de tu consola.",
+  "sfx": [
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.4,
+    "campana"
+   ],
+   [
+    0.75,
+    "misterio"
+   ]
+  ]
+ },
+ {
+  "tipo": "espacio",
+  "titulo": "espacio",
+  "texto": "Prepara espacio en el disco. Circula una cifra de más de doscientos gigas, pero no está confirmada. Lo seguro es que es un juego enorme, así que libera espacio antes del jueves.",
+  "sfx": [
+   [
+    0.15,
+    "electrico"
+   ],
+   [
+    0.5,
+    "alarma"
+   ],
+   [
+    0.85,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "spoilers",
+  "titulo": "spoilers",
+  "texto": "Y cuidado con los spoilers. El día del lanzamiento, las redes se van a llenar de escenas de la historia. Silencia palabras clave, apaga las recomendaciones, y juega tú primero.",
+  "sfx": [
+   [
+    0.1,
+    "alarma"
+   ],
+   [
+    0.5,
+    "swish"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "resumen",
+  "texto": "Resumen: jueves diecinueve, PlayStation cinco y Xbox Series, ochenta dólares la estándar, y PC sin fecha. Lo demás es rumor. ¿Tú lo vas a jugar el primer día? Te leo en los comentarios.",
+  "sfx": [
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ }
+]

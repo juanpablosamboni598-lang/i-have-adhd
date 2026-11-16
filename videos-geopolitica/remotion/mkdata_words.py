@@ -1,7 +1,7 @@
 """dataNN.json con frames y tiempos de palabras (relativos a la escena) para textos sincronizados."""
 import json, sys, os
 v = sys.argv[1]
-fd = v if v.startswith('fb') else 'v' + v  # fbNN = videos propios de Facebook
+fd = v if v.startswith('fb') else ('gta6/' + v if v.startswith('g') else 'v' + v)  # fbNN = Facebook; gNN = canal GTA 6 (ViceLeakss)
 e = json.load(open(f'../{fd}/escenas.json'))
 tlp = f'../{fd}/timeline.json'
 out = []
