@@ -1,0 +1,1005 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.45,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} caja de la caja es
+Dialogue: 0,0:00:00.45,0:00:00.50,Sub,,0,0,0,,La {\c&H3CC8FF&}caja{\c&HFFFFFF&} de la caja es
+Dialogue: 0,0:00:00.45,0:00:00.50,Sub,,0,0,0,,La caja {\c&H3CC8FF&}de{\c&HFFFFFF&} la caja es
+Dialogue: 0,0:00:00.45,0:00:00.50,Sub,,0,0,0,,La caja de {\c&H3CC8FF&}la{\c&HFFFFFF&} caja es
+Dialogue: 0,0:00:00.45,0:00:00.50,Sub,,0,0,0,,La caja de la {\c&H3CC8FF&}caja{\c&HFFFFFF&} es
+Dialogue: 0,0:00:00.45,0:00:00.53,Sub,,0,0,0,,La caja de la caja {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:00:00.53,0:00:00.65,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} lavadora. Parece una caja que
+Dialogue: 0,0:00:00.65,0:00:01.47,Sub,,0,0,0,,una {\c&H3CC8FF&}lavadora.{\c&HFFFFFF&} Parece una caja que
+Dialogue: 0,0:00:01.47,0:00:01.81,Sub,,0,0,0,,una lavadora. {\c&H3CC8FF&}Parece{\c&HFFFFFF&} una caja que
+Dialogue: 0,0:00:01.81,0:00:02.05,Sub,,0,0,0,,una lavadora. Parece {\c&H3CC8FF&}una{\c&HFFFFFF&} caja que
+Dialogue: 0,0:00:02.05,0:00:02.35,Sub,,0,0,0,,una lavadora. Parece una {\c&H3CC8FF&}caja{\c&HFFFFFF&} que
+Dialogue: 0,0:00:02.35,0:00:02.47,Sub,,0,0,0,,una lavadora. Parece una caja {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.47,0:00:02.59,Sub,,0,0,0,,{\c&H3CC8FF&}da{\c&HFFFFFF&} vueltas y ya, pero por
+Dialogue: 0,0:00:02.59,0:00:03.17,Sub,,0,0,0,,da {\c&H3CC8FF&}vueltas{\c&HFFFFFF&} y ya, pero por
+Dialogue: 0,0:00:03.17,0:00:03.31,Sub,,0,0,0,,da vueltas {\c&H3CC8FF&}y{\c&HFFFFFF&} ya, pero por
+Dialogue: 0,0:00:03.31,0:00:03.81,Sub,,0,0,0,,da vueltas y {\c&H3CC8FF&}ya,{\c&HFFFFFF&} pero por
+Dialogue: 0,0:00:03.81,0:00:03.86,Sub,,0,0,0,,da vueltas y ya, {\c&H3CC8FF&}pero{\c&HFFFFFF&} por
+Dialogue: 0,0:00:03.83,0:00:04.01,Sub,,0,0,0,,da vueltas y ya, pero {\c&H3CC8FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.01,0:00:04.25,Sub,,0,0,0,,{\c&H3CC8FF&}dentro{\c&HFFFFFF&} tiene un tambor con huecos,
+Dialogue: 0,0:00:04.25,0:00:04.63,Sub,,0,0,0,,dentro {\c&H3CC8FF&}tiene{\c&HFFFFFF&} un tambor con huecos,
+Dialogue: 0,0:00:04.63,0:00:04.75,Sub,,0,0,0,,dentro tiene {\c&H3CC8FF&}un{\c&HFFFFFF&} tambor con huecos,
+Dialogue: 0,0:00:04.75,0:00:05.09,Sub,,0,0,0,,dentro tiene un {\c&H3CC8FF&}tambor{\c&HFFFFFF&} con huecos,
+Dialogue: 0,0:00:05.09,0:00:05.23,Sub,,0,0,0,,dentro tiene un tambor {\c&H3CC8FF&}con{\c&HFFFFFF&} huecos,
+Dialogue: 0,0:00:05.23,0:00:05.83,Sub,,0,0,0,,dentro tiene un tambor con {\c&H3CC8FF&}huecos,{\c&HFFFFFF&}
+Dialogue: 0,0:00:05.83,0:00:05.93,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} motor, una bomba y hasta
+Dialogue: 0,0:00:05.93,0:00:06.73,Sub,,0,0,0,,un {\c&H3CC8FF&}motor,{\c&HFFFFFF&} una bomba y hasta
+Dialogue: 0,0:00:06.73,0:00:06.83,Sub,,0,0,0,,un motor, {\c&H3CC8FF&}una{\c&HFFFFFF&} bomba y hasta
+Dialogue: 0,0:00:06.83,0:00:07.29,Sub,,0,0,0,,un motor, una {\c&H3CC8FF&}bomba{\c&HFFFFFF&} y hasta
+Dialogue: 0,0:00:07.29,0:00:07.43,Sub,,0,0,0,,un motor, una bomba {\c&H3CC8FF&}y{\c&HFFFFFF&} hasta
+Dialogue: 0,0:00:07.43,0:00:07.59,Sub,,0,0,0,,un motor, una bomba y {\c&H3CC8FF&}hasta{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.59,0:00:07.95,Sub,,0,0,0,,{\c&H3CC8FF&}bloques{\c&HFFFFFF&} de concreto. Vamos a armarla
+Dialogue: 0,0:00:07.95,0:00:08.07,Sub,,0,0,0,,bloques {\c&H3CC8FF&}de{\c&HFFFFFF&} concreto. Vamos a armarla
+Dialogue: 0,0:00:08.07,0:00:08.91,Sub,,0,0,0,,bloques de {\c&H3CC8FF&}concreto.{\c&HFFFFFF&} Vamos a armarla
+Dialogue: 0,0:00:08.91,0:00:09.17,Sub,,0,0,0,,bloques de concreto. {\c&H3CC8FF&}Vamos{\c&HFFFFFF&} a armarla
+Dialogue: 0,0:00:09.17,0:00:09.37,Sub,,0,0,0,,bloques de concreto. Vamos {\c&H3CC8FF&}a{\c&HFFFFFF&} armarla
+Dialogue: 0,0:00:09.37,0:00:09.79,Sub,,0,0,0,,bloques de concreto. Vamos a {\c&H3CC8FF&}armarla{\c&HFFFFFF&}
+Dialogue: 0,0:00:09.79,0:00:09.97,Sub,,0,0,0,,{\c&H3CC8FF&}desde{\c&HFFFFFF&} cero.
+Dialogue: 0,0:00:09.97,0:00:10.04,Sub,,0,0,0,,desde {\c&H3CC8FF&}cero.{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.56,0:00:10.66,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} metes tu ropa sucia en
+Dialogue: 0,0:00:10.66,0:00:10.94,Sub,,0,0,0,,Si {\c&H3CC8FF&}metes{\c&HFFFFFF&} tu ropa sucia en
+Dialogue: 0,0:00:10.94,0:00:11.08,Sub,,0,0,0,,Si metes {\c&H3CC8FF&}tu{\c&HFFFFFF&} ropa sucia en
+Dialogue: 0,0:00:11.08,0:00:11.32,Sub,,0,0,0,,Si metes tu {\c&H3CC8FF&}ropa{\c&HFFFFFF&} sucia en
+Dialogue: 0,0:00:11.32,0:00:11.64,Sub,,0,0,0,,Si metes tu ropa {\c&H3CC8FF&}sucia{\c&HFFFFFF&} en
+Dialogue: 0,0:00:11.64,0:00:11.74,Sub,,0,0,0,,Si metes tu ropa sucia {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:00:11.74,0:00:11.84,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} balde con agua y jabón,
+Dialogue: 0,0:00:11.84,0:00:12.16,Sub,,0,0,0,,un {\c&H3CC8FF&}balde{\c&HFFFFFF&} con agua y jabón,
+Dialogue: 0,0:00:12.16,0:00:12.30,Sub,,0,0,0,,un balde {\c&H3CC8FF&}con{\c&HFFFFFF&} agua y jabón,
+Dialogue: 0,0:00:12.30,0:00:12.54,Sub,,0,0,0,,un balde con {\c&H3CC8FF&}agua{\c&HFFFFFF&} y jabón,
+Dialogue: 0,0:00:12.54,0:00:12.68,Sub,,0,0,0,,un balde con agua {\c&H3CC8FF&}y{\c&HFFFFFF&} jabón,
+Dialogue: 0,0:00:12.68,0:00:13.26,Sub,,0,0,0,,un balde con agua y {\c&H3CC8FF&}jabón,{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.26,0:00:13.54,Sub,,0,0,0,,{\c&H3CC8FF&}ya{\c&HFFFFFF&} tienes una lavadora. Pero la
+Dialogue: 0,0:00:13.54,0:00:13.90,Sub,,0,0,0,,ya {\c&H3CC8FF&}tienes{\c&HFFFFFF&} una lavadora. Pero la
+Dialogue: 0,0:00:13.90,0:00:14.02,Sub,,0,0,0,,ya tienes {\c&H3CC8FF&}una{\c&HFFFFFF&} lavadora. Pero la
+Dialogue: 0,0:00:14.02,0:00:14.84,Sub,,0,0,0,,ya tienes una {\c&H3CC8FF&}lavadora.{\c&HFFFFFF&} Pero la
+Dialogue: 0,0:00:14.84,0:00:15.00,Sub,,0,0,0,,ya tienes una lavadora. {\c&H3CC8FF&}Pero{\c&HFFFFFF&} la
+Dialogue: 0,0:00:15.00,0:00:15.14,Sub,,0,0,0,,ya tienes una lavadora. Pero {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.14,0:00:15.48,Sub,,0,0,0,,{\c&H3CC8FF&}mugre{\c&HFFFFFF&} no se suelta sola, la
+Dialogue: 0,0:00:15.48,0:00:15.64,Sub,,0,0,0,,mugre {\c&H3CC8FF&}no{\c&HFFFFFF&} se suelta sola, la
+Dialogue: 0,0:00:15.64,0:00:15.78,Sub,,0,0,0,,mugre no {\c&H3CC8FF&}se{\c&HFFFFFF&} suelta sola, la
+Dialogue: 0,0:00:15.78,0:00:16.14,Sub,,0,0,0,,mugre no se {\c&H3CC8FF&}suelta{\c&HFFFFFF&} sola, la
+Dialogue: 0,0:00:16.14,0:00:16.70,Sub,,0,0,0,,mugre no se suelta {\c&H3CC8FF&}sola,{\c&HFFFFFF&} la
+Dialogue: 0,0:00:16.70,0:00:16.78,Sub,,0,0,0,,mugre no se suelta sola, {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.78,0:00:17.06,Sub,,0,0,0,,{\c&H3CC8FF&}ropa{\c&HFFFFFF&} se queda ahí flotando y
+Dialogue: 0,0:00:17.06,0:00:17.16,Sub,,0,0,0,,ropa {\c&H3CC8FF&}se{\c&HFFFFFF&} queda ahí flotando y
+Dialogue: 0,0:00:17.16,0:00:17.38,Sub,,0,0,0,,ropa se {\c&H3CC8FF&}queda{\c&HFFFFFF&} ahí flotando y
+Dialogue: 0,0:00:17.38,0:00:17.58,Sub,,0,0,0,,ropa se queda {\c&H3CC8FF&}ahí{\c&HFFFFFF&} flotando y
+Dialogue: 0,0:00:17.58,0:00:18.14,Sub,,0,0,0,,ropa se queda ahí {\c&H3CC8FF&}flotando{\c&HFFFFFF&} y
+Dialogue: 0,0:00:18.14,0:00:18.38,Sub,,0,0,0,,ropa se queda ahí flotando {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.38,0:00:18.58,Sub,,0,0,0,,{\c&H3CC8FF&}sigue{\c&HFFFFFF&} sucia.
+Dialogue: 0,0:00:18.58,0:00:18.72,Sub,,0,0,0,,sigue {\c&H3CC8FF&}sucia.{\c&HFFFFFF&}
+Dialogue: 0,0:00:19.24,0:00:19.56,Sub,,0,0,0,,{\c&H3CC8FF&}La{\c&HFFFFFF&} frotas con las manos, contra
+Dialogue: 0,0:00:19.56,0:00:19.92,Sub,,0,0,0,,La {\c&H3CC8FF&}frotas{\c&HFFFFFF&} con las manos, contra
+Dialogue: 0,0:00:19.92,0:00:20.04,Sub,,0,0,0,,La frotas {\c&H3CC8FF&}con{\c&HFFFFFF&} las manos, contra
+Dialogue: 0,0:00:20.04,0:00:20.18,Sub,,0,0,0,,La frotas con {\c&H3CC8FF&}las{\c&HFFFFFF&} manos, contra
+Dialogue: 0,0:00:20.18,0:00:20.80,Sub,,0,0,0,,La frotas con las {\c&H3CC8FF&}manos,{\c&HFFFFFF&} contra
+Dialogue: 0,0:00:20.80,0:00:21.08,Sub,,0,0,0,,La frotas con las manos, {\c&H3CC8FF&}contra{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.08,0:00:21.26,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} tabla. El roce despega la
+Dialogue: 0,0:00:21.26,0:00:21.96,Sub,,0,0,0,,una {\c&H3CC8FF&}tabla.{\c&HFFFFFF&} El roce despega la
+Dialogue: 0,0:00:21.96,0:00:22.14,Sub,,0,0,0,,una tabla. {\c&H3CC8FF&}El{\c&HFFFFFF&} roce despega la
+Dialogue: 0,0:00:22.14,0:00:22.40,Sub,,0,0,0,,una tabla. El {\c&H3CC8FF&}roce{\c&HFFFFFF&} despega la
+Dialogue: 0,0:00:22.40,0:00:22.82,Sub,,0,0,0,,una tabla. El roce {\c&H3CC8FF&}despega{\c&HFFFFFF&} la
+Dialogue: 0,0:00:22.82,0:00:22.92,Sub,,0,0,0,,una tabla. El roce despega {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:22.92,0:00:23.34,Sub,,0,0,0,,{\c&H3CC8FF&}mugre{\c&HFFFFFF&} y el jabón se la
+Dialogue: 0,0:00:23.34,0:00:23.56,Sub,,0,0,0,,mugre {\c&H3CC8FF&}y{\c&HFFFFFF&} el jabón se la
+Dialogue: 0,0:00:23.56,0:00:23.66,Sub,,0,0,0,,mugre y {\c&H3CC8FF&}el{\c&HFFFFFF&} jabón se la
+Dialogue: 0,0:00:23.66,0:00:24.00,Sub,,0,0,0,,mugre y el {\c&H3CC8FF&}jabón{\c&HFFFFFF&} se la
+Dialogue: 0,0:00:24.00,0:00:24.10,Sub,,0,0,0,,mugre y el jabón {\c&H3CC8FF&}se{\c&HFFFFFF&} la
+Dialogue: 0,0:00:24.10,0:00:24.20,Sub,,0,0,0,,mugre y el jabón se {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:24.20,0:00:24.90,Sub,,0,0,0,,{\c&H3CC8FF&}lleva.{\c&HFFFFFF&} Así se lavó la ropa
+Dialogue: 0,0:00:24.90,0:00:25.10,Sub,,0,0,0,,lleva. {\c&H3CC8FF&}Así{\c&HFFFFFF&} se lavó la ropa
+Dialogue: 0,0:00:25.10,0:00:25.24,Sub,,0,0,0,,lleva. Así {\c&H3CC8FF&}se{\c&HFFFFFF&} lavó la ropa
+Dialogue: 0,0:00:25.24,0:00:25.50,Sub,,0,0,0,,lleva. Así se {\c&H3CC8FF&}lavó{\c&HFFFFFF&} la ropa
+Dialogue: 0,0:00:25.50,0:00:25.56,Sub,,0,0,0,,lleva. Así se lavó {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa
+Dialogue: 0,0:00:25.56,0:00:25.90,Sub,,0,0,0,,lleva. Así se lavó la {\c&H3CC8FF&}ropa{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.90,0:00:26.08,Sub,,0,0,0,,{\c&H3CC8FF&}durante{\c&HFFFFFF&} siglos.
+Dialogue: 0,0:00:26.08,0:00:26.45,Sub,,0,0,0,,durante {\c&H3CC8FF&}siglos.{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.61,0:00:32.75,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que metes la ropa en
+Dialogue: 0,0:00:32.75,0:00:32.91,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} metes la ropa en
+Dialogue: 0,0:00:32.91,0:00:33.25,Sub,,0,0,0,,Así que {\c&H3CC8FF&}metes{\c&HFFFFFF&} la ropa en
+Dialogue: 0,0:00:33.25,0:00:33.41,Sub,,0,0,0,,Así que metes {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa en
+Dialogue: 0,0:00:33.41,0:00:33.77,Sub,,0,0,0,,Así que metes la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} en
+Dialogue: 0,0:00:33.77,0:00:33.99,Sub,,0,0,0,,Así que metes la ropa {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:00:33.99,0:00:34.11,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} tambor acostado, lleno de huequitos,
+Dialogue: 0,0:00:34.11,0:00:34.47,Sub,,0,0,0,,un {\c&H3CC8FF&}tambor{\c&HFFFFFF&} acostado, lleno de huequitos,
+Dialogue: 0,0:00:34.47,0:00:35.19,Sub,,0,0,0,,un tambor {\c&H3CC8FF&}acostado,{\c&HFFFFFF&} lleno de huequitos,
+Dialogue: 0,0:00:35.19,0:00:35.53,Sub,,0,0,0,,un tambor acostado, {\c&H3CC8FF&}lleno{\c&HFFFFFF&} de huequitos,
+Dialogue: 0,0:00:35.53,0:00:35.61,Sub,,0,0,0,,un tambor acostado, lleno {\c&H3CC8FF&}de{\c&HFFFFFF&} huequitos,
+Dialogue: 0,0:00:35.61,0:00:36.37,Sub,,0,0,0,,un tambor acostado, lleno de {\c&H3CC8FF&}huequitos,{\c&HFFFFFF&}
+Dialogue: 0,0:00:36.37,0:00:36.42,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} lo pones a girar. La
+Dialogue: 0,0:00:36.41,0:00:36.53,Sub,,0,0,0,,y {\c&H3CC8FF&}lo{\c&HFFFFFF&} pones a girar. La
+Dialogue: 0,0:00:36.53,0:00:36.81,Sub,,0,0,0,,y lo {\c&H3CC8FF&}pones{\c&HFFFFFF&} a girar. La
+Dialogue: 0,0:00:36.81,0:00:36.93,Sub,,0,0,0,,y lo pones {\c&H3CC8FF&}a{\c&HFFFFFF&} girar. La
+Dialogue: 0,0:00:36.93,0:00:37.59,Sub,,0,0,0,,y lo pones a {\c&H3CC8FF&}girar.{\c&HFFFFFF&} La
+Dialogue: 0,0:00:37.59,0:00:37.75,Sub,,0,0,0,,y lo pones a girar. {\c&H3CC8FF&}La{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.75,0:00:38.01,Sub,,0,0,0,,{\c&H3CC8FF&}ropa{\c&HFFFFFF&} sube, se cae, se golpea
+Dialogue: 0,0:00:38.01,0:00:38.59,Sub,,0,0,0,,ropa {\c&H3CC8FF&}sube,{\c&HFFFFFF&} se cae, se golpea
+Dialogue: 0,0:00:38.59,0:00:38.69,Sub,,0,0,0,,ropa sube, {\c&H3CC8FF&}se{\c&HFFFFFF&} cae, se golpea
+Dialogue: 0,0:00:38.69,0:00:39.31,Sub,,0,0,0,,ropa sube, se {\c&H3CC8FF&}cae,{\c&HFFFFFF&} se golpea
+Dialogue: 0,0:00:39.31,0:00:39.43,Sub,,0,0,0,,ropa sube, se cae, {\c&H3CC8FF&}se{\c&HFFFFFF&} golpea
+Dialogue: 0,0:00:39.43,0:00:39.85,Sub,,0,0,0,,ropa sube, se cae, se {\c&H3CC8FF&}golpea{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.85,0:00:39.97,Sub,,0,0,0,,{\c&H3CC8FF&}con{\c&HFFFFFF&} el agua y se frota
+Dialogue: 0,0:00:39.97,0:00:40.11,Sub,,0,0,0,,con {\c&H3CC8FF&}el{\c&HFFFFFF&} agua y se frota
+Dialogue: 0,0:00:40.11,0:00:40.35,Sub,,0,0,0,,con el {\c&H3CC8FF&}agua{\c&HFFFFFF&} y se frota
+Dialogue: 0,0:00:40.35,0:00:40.59,Sub,,0,0,0,,con el agua {\c&H3CC8FF&}y{\c&HFFFFFF&} se frota
+Dialogue: 0,0:00:40.59,0:00:40.71,Sub,,0,0,0,,con el agua y {\c&H3CC8FF&}se{\c&HFFFFFF&} frota
+Dialogue: 0,0:00:40.71,0:00:41.01,Sub,,0,0,0,,con el agua y se {\c&H3CC8FF&}frota{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.01,0:00:41.29,Sub,,0,0,0,,{\c&H3CC8FF&}sola{\c&HFFFFFF&} contra sí misma.
+Dialogue: 0,0:00:41.29,0:00:41.61,Sub,,0,0,0,,sola {\c&H3CC8FF&}contra{\c&HFFFFFF&} sí misma.
+Dialogue: 0,0:00:41.61,0:00:41.81,Sub,,0,0,0,,sola contra {\c&H3CC8FF&}sí{\c&HFFFFFF&} misma.
+Dialogue: 0,0:00:41.81,0:00:41.86,Sub,,0,0,0,,sola contra sí {\c&H3CC8FF&}misma.{\c&HFFFFFF&}
+Dialogue: 0,0:00:42.34,0:00:42.58,Sub,,0,0,0,,{\c&H3CC8FF&}Para{\c&HFFFFFF&} la ropa resbala, se queda
+Dialogue: 0,0:00:42.58,0:00:42.63,Sub,,0,0,0,,Para {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa resbala, se queda
+Dialogue: 0,0:00:42.58,0:00:42.92,Sub,,0,0,0,,Para la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} resbala, se queda
+Dialogue: 0,0:00:42.92,0:00:43.76,Sub,,0,0,0,,Para la ropa {\c&H3CC8FF&}resbala,{\c&HFFFFFF&} se queda
+Dialogue: 0,0:00:43.76,0:00:43.94,Sub,,0,0,0,,Para la ropa resbala, {\c&H3CC8FF&}se{\c&HFFFFFF&} queda
+Dialogue: 0,0:00:43.94,0:00:44.16,Sub,,0,0,0,,Para la ropa resbala, se {\c&H3CC8FF&}queda{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.16,0:00:44.86,Sub,,0,0,0,,{\c&H3CC8FF&}abajo,{\c&HFFFFFF&} arrastrándose, y no se levanta
+Dialogue: 0,0:00:44.86,0:00:45.90,Sub,,0,0,0,,abajo, {\c&H3CC8FF&}arrastrándose,{\c&HFFFFFF&} y no se levanta
+Dialogue: 0,0:00:45.90,0:00:46.04,Sub,,0,0,0,,abajo, arrastrándose, {\c&H3CC8FF&}y{\c&HFFFFFF&} no se levanta
+Dialogue: 0,0:00:46.04,0:00:46.14,Sub,,0,0,0,,abajo, arrastrándose, y {\c&H3CC8FF&}no{\c&HFFFFFF&} se levanta
+Dialogue: 0,0:00:46.14,0:00:46.26,Sub,,0,0,0,,abajo, arrastrándose, y no {\c&H3CC8FF&}se{\c&HFFFFFF&} levanta
+Dialogue: 0,0:00:46.26,0:00:46.70,Sub,,0,0,0,,abajo, arrastrándose, y no se {\c&H3CC8FF&}levanta{\c&HFFFFFF&}
+Dialogue: 0,0:00:46.70,0:00:46.78,Sub,,0,0,0,,{\c&H3CC8FF&}ni{\c&HFFFFFF&} se golpea.
+Dialogue: 0,0:00:46.78,0:00:46.86,Sub,,0,0,0,,ni {\c&H3CC8FF&}se{\c&HFFFFFF&} golpea.
+Dialogue: 0,0:00:46.86,0:00:47.02,Sub,,0,0,0,,ni se {\c&H3CC8FF&}golpea.{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.14,0:00:50.70,Sub,,0,0,0,,{\c&H3CC8FF&}Al{\c&HFFFFFF&} girar, agarran la ropa, la
+Dialogue: 0,0:00:50.70,0:00:51.46,Sub,,0,0,0,,Al {\c&H3CC8FF&}girar,{\c&HFFFFFF&} agarran la ropa, la
+Dialogue: 0,0:00:51.46,0:00:51.88,Sub,,0,0,0,,Al girar, {\c&H3CC8FF&}agarran{\c&HFFFFFF&} la ropa, la
+Dialogue: 0,0:00:51.88,0:00:51.98,Sub,,0,0,0,,Al girar, agarran {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa, la
+Dialogue: 0,0:00:51.98,0:00:52.76,Sub,,0,0,0,,Al girar, agarran la {\c&H3CC8FF&}ropa,{\c&HFFFFFF&} la
+Dialogue: 0,0:00:52.76,0:00:52.84,Sub,,0,0,0,,Al girar, agarran la ropa, {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:52.84,0:00:53.12,Sub,,0,0,0,,{\c&H3CC8FF&}suben{\c&HFFFFFF&} hasta arriba y la dejan
+Dialogue: 0,0:00:53.12,0:00:53.30,Sub,,0,0,0,,suben {\c&H3CC8FF&}hasta{\c&HFFFFFF&} arriba y la dejan
+Dialogue: 0,0:00:53.30,0:00:53.62,Sub,,0,0,0,,suben hasta {\c&H3CC8FF&}arriba{\c&HFFFFFF&} y la dejan
+Dialogue: 0,0:00:53.62,0:00:53.94,Sub,,0,0,0,,suben hasta arriba {\c&H3CC8FF&}y{\c&HFFFFFF&} la dejan
+Dialogue: 0,0:00:53.94,0:00:54.02,Sub,,0,0,0,,suben hasta arriba y {\c&H3CC8FF&}la{\c&HFFFFFF&} dejan
+Dialogue: 0,0:00:54.02,0:00:54.28,Sub,,0,0,0,,suben hasta arriba y la {\c&H3CC8FF&}dejan{\c&HFFFFFF&}
+Dialogue: 0,0:00:54.28,0:00:54.88,Sub,,0,0,0,,{\c&H3CC8FF&}caer.{\c&HFFFFFF&} Esas son las paletas.
+Dialogue: 0,0:00:54.88,0:00:55.18,Sub,,0,0,0,,caer. {\c&H3CC8FF&}Esas{\c&HFFFFFF&} son las paletas.
+Dialogue: 0,0:00:55.18,0:00:55.34,Sub,,0,0,0,,caer. Esas {\c&H3CC8FF&}son{\c&HFFFFFF&} las paletas.
+Dialogue: 0,0:00:55.34,0:00:55.48,Sub,,0,0,0,,caer. Esas son {\c&H3CC8FF&}las{\c&HFFFFFF&} paletas.
+Dialogue: 0,0:00:55.48,0:00:55.75,Sub,,0,0,0,,caer. Esas son las {\c&H3CC8FF&}paletas.{\c&HFFFFFF&}
+Dialogue: 0,0:00:56.27,0:00:56.37,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} el tambor está lleno de
+Dialogue: 0,0:00:56.37,0:00:56.47,Sub,,0,0,0,,Pero {\c&H3CC8FF&}el{\c&HFFFFFF&} tambor está lleno de
+Dialogue: 0,0:00:56.47,0:00:56.85,Sub,,0,0,0,,Pero el {\c&H3CC8FF&}tambor{\c&HFFFFFF&} está lleno de
+Dialogue: 0,0:00:56.85,0:00:57.13,Sub,,0,0,0,,Pero el tambor {\c&H3CC8FF&}está{\c&HFFFFFF&} lleno de
+Dialogue: 0,0:00:57.13,0:00:57.41,Sub,,0,0,0,,Pero el tambor está {\c&H3CC8FF&}lleno{\c&HFFFFFF&} de
+Dialogue: 0,0:00:57.41,0:00:57.51,Sub,,0,0,0,,Pero el tambor está lleno {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.51,0:00:58.13,Sub,,0,0,0,,{\c&H3CC8FF&}huecos,{\c&HFFFFFF&} y el agua se sale
+Dialogue: 0,0:00:58.13,0:00:58.18,Sub,,0,0,0,,huecos, {\c&H3CC8FF&}y{\c&HFFFFFF&} el agua se sale
+Dialogue: 0,0:00:58.17,0:00:58.29,Sub,,0,0,0,,huecos, y {\c&H3CC8FF&}el{\c&HFFFFFF&} agua se sale
+Dialogue: 0,0:00:58.29,0:00:58.49,Sub,,0,0,0,,huecos, y el {\c&H3CC8FF&}agua{\c&HFFFFFF&} se sale
+Dialogue: 0,0:00:58.49,0:00:58.65,Sub,,0,0,0,,huecos, y el agua {\c&H3CC8FF&}se{\c&HFFFFFF&} sale
+Dialogue: 0,0:00:58.65,0:00:58.87,Sub,,0,0,0,,huecos, y el agua se {\c&H3CC8FF&}sale{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.87,0:00:59.05,Sub,,0,0,0,,{\c&H3CC8FF&}por{\c&HFFFFFF&} todos lados. Te inunda el
+Dialogue: 0,0:00:59.05,0:00:59.29,Sub,,0,0,0,,por {\c&H3CC8FF&}todos{\c&HFFFFFF&} lados. Te inunda el
+Dialogue: 0,0:00:59.29,0:01:00.13,Sub,,0,0,0,,por todos {\c&H3CC8FF&}lados.{\c&HFFFFFF&} Te inunda el
+Dialogue: 0,0:01:00.13,0:01:00.27,Sub,,0,0,0,,por todos lados. {\c&H3CC8FF&}Te{\c&HFFFFFF&} inunda el
+Dialogue: 0,0:01:00.27,0:01:00.57,Sub,,0,0,0,,por todos lados. Te {\c&H3CC8FF&}inunda{\c&HFFFFFF&} el
+Dialogue: 0,0:01:00.57,0:01:00.69,Sub,,0,0,0,,por todos lados. Te inunda {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:01:00.69,0:01:00.74,Sub,,0,0,0,,{\c&H3CC8FF&}piso.{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.18,0:01:01.78,Sub,,0,0,0,,{\c&H3CC8FF&}El{\c&HFFFFFF&} agua pasa entre los dos,
+Dialogue: 0,0:01:01.78,0:01:05.86,Sub,,0,0,0,,El {\c&H3CC8FF&}agua{\c&HFFFFFF&} pasa entre los dos,
+Dialogue: 0,0:01:05.86,0:01:06.16,Sub,,0,0,0,,El agua {\c&H3CC8FF&}pasa{\c&HFFFFFF&} entre los dos,
+Dialogue: 0,0:01:06.16,0:01:06.36,Sub,,0,0,0,,El agua pasa {\c&H3CC8FF&}entre{\c&HFFFFFF&} los dos,
+Dialogue: 0,0:01:06.36,0:01:06.54,Sub,,0,0,0,,El agua pasa entre {\c&H3CC8FF&}los{\c&HFFFFFF&} dos,
+Dialogue: 0,0:01:06.54,0:01:06.90,Sub,,0,0,0,,El agua pasa entre los {\c&H3CC8FF&}dos,{\c&HFFFFFF&}
+Dialogue: 0,0:01:06.90,0:01:07.02,Sub,,0,0,0,,{\c&H3CC8FF&}pero{\c&HFFFFFF&} no se escapa. Esa es
+Dialogue: 0,0:01:07.02,0:01:07.14,Sub,,0,0,0,,pero {\c&H3CC8FF&}no{\c&HFFFFFF&} se escapa. Esa es
+Dialogue: 0,0:01:07.14,0:01:07.26,Sub,,0,0,0,,pero no {\c&H3CC8FF&}se{\c&HFFFFFF&} escapa. Esa es
+Dialogue: 0,0:01:07.26,0:01:07.88,Sub,,0,0,0,,pero no se {\c&H3CC8FF&}escapa.{\c&HFFFFFF&} Esa es
+Dialogue: 0,0:01:07.88,0:01:08.20,Sub,,0,0,0,,pero no se escapa. {\c&H3CC8FF&}Esa{\c&HFFFFFF&} es
+Dialogue: 0,0:01:08.20,0:01:08.38,Sub,,0,0,0,,pero no se escapa. Esa {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:01:08.38,0:01:08.50,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} cuba.
+Dialogue: 0,0:01:08.50,0:01:08.55,Sub,,0,0,0,,la {\c&H3CC8FF&}cuba.{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.04,0:01:09.16,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} ahora hay que girar el
+Dialogue: 0,0:01:09.16,0:01:09.40,Sub,,0,0,0,,Pero {\c&H3CC8FF&}ahora{\c&HFFFFFF&} hay que girar el
+Dialogue: 0,0:01:09.40,0:01:09.60,Sub,,0,0,0,,Pero ahora {\c&H3CC8FF&}hay{\c&HFFFFFF&} que girar el
+Dialogue: 0,0:01:09.60,0:01:09.72,Sub,,0,0,0,,Pero ahora hay {\c&H3CC8FF&}que{\c&HFFFFFF&} girar el
+Dialogue: 0,0:01:09.72,0:01:10.04,Sub,,0,0,0,,Pero ahora hay que {\c&H3CC8FF&}girar{\c&HFFFFFF&} el
+Dialogue: 0,0:01:10.04,0:01:10.12,Sub,,0,0,0,,Pero ahora hay que girar {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:01:10.12,0:01:10.88,Sub,,0,0,0,,{\c&H3CC8FF&}tambor.{\c&HFFFFFF&} Si lo haces con una
+Dialogue: 0,0:01:10.88,0:01:11.00,Sub,,0,0,0,,tambor. {\c&H3CC8FF&}Si{\c&HFFFFFF&} lo haces con una
+Dialogue: 0,0:01:11.00,0:01:11.14,Sub,,0,0,0,,tambor. Si {\c&H3CC8FF&}lo{\c&HFFFFFF&} haces con una
+Dialogue: 0,0:01:11.14,0:01:11.34,Sub,,0,0,0,,tambor. Si lo {\c&H3CC8FF&}haces{\c&HFFFFFF&} con una
+Dialogue: 0,0:01:11.34,0:01:11.54,Sub,,0,0,0,,tambor. Si lo haces {\c&H3CC8FF&}con{\c&HFFFFFF&} una
+Dialogue: 0,0:01:11.54,0:01:11.68,Sub,,0,0,0,,tambor. Si lo haces con {\c&H3CC8FF&}una{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.68,0:01:12.54,Sub,,0,0,0,,{\c&H3CC8FF&}manivela,{\c&HFFFFFF&} otra vez terminas con los
+Dialogue: 0,0:01:12.54,0:01:12.68,Sub,,0,0,0,,manivela, {\c&H3CC8FF&}otra{\c&HFFFFFF&} vez terminas con los
+Dialogue: 0,0:01:12.68,0:01:12.90,Sub,,0,0,0,,manivela, otra {\c&H3CC8FF&}vez{\c&HFFFFFF&} terminas con los
+Dialogue: 0,0:01:12.90,0:01:13.36,Sub,,0,0,0,,manivela, otra vez {\c&H3CC8FF&}terminas{\c&HFFFFFF&} con los
+Dialogue: 0,0:01:13.36,0:01:13.50,Sub,,0,0,0,,manivela, otra vez terminas {\c&H3CC8FF&}con{\c&HFFFFFF&} los
+Dialogue: 0,0:01:13.50,0:01:13.64,Sub,,0,0,0,,manivela, otra vez terminas con {\c&H3CC8FF&}los{\c&HFFFFFF&}
+Dialogue: 0,0:01:13.64,0:01:13.98,Sub,,0,0,0,,{\c&H3CC8FF&}brazos{\c&HFFFFFF&} rendidos.
+Dialogue: 0,0:01:13.98,0:01:14.30,Sub,,0,0,0,,brazos {\c&H3CC8FF&}rendidos.{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.82,0:01:14.98,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones un motor
+Dialogue: 0,0:01:14.98,0:01:15.14,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones un motor
+Dialogue: 0,0:01:15.14,0:01:15.24,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones un motor
+Dialogue: 0,0:01:15.24,0:01:15.52,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} un motor
+Dialogue: 0,0:01:15.52,0:01:15.68,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}un{\c&HFFFFFF&} motor
+Dialogue: 0,0:01:15.68,0:01:15.96,Sub,,0,0,0,,Así que le pones un {\c&H3CC8FF&}motor{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.96,0:01:16.58,Sub,,0,0,0,,{\c&H3CC8FF&}abajo,{\c&HFFFFFF&} con una correa de goma
+Dialogue: 0,0:01:16.58,0:01:16.84,Sub,,0,0,0,,abajo, {\c&H3CC8FF&}con{\c&HFFFFFF&} una correa de goma
+Dialogue: 0,0:01:16.84,0:01:16.98,Sub,,0,0,0,,abajo, con {\c&H3CC8FF&}una{\c&HFFFFFF&} correa de goma
+Dialogue: 0,0:01:16.98,0:01:17.30,Sub,,0,0,0,,abajo, con una {\c&H3CC8FF&}correa{\c&HFFFFFF&} de goma
+Dialogue: 0,0:01:17.30,0:01:17.42,Sub,,0,0,0,,abajo, con una correa {\c&H3CC8FF&}de{\c&HFFFFFF&} goma
+Dialogue: 0,0:01:17.42,0:01:17.74,Sub,,0,0,0,,abajo, con una correa de {\c&H3CC8FF&}goma{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.74,0:01:17.90,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} agarra una polea grande pegada
+Dialogue: 0,0:01:17.90,0:01:18.24,Sub,,0,0,0,,que {\c&H3CC8FF&}agarra{\c&HFFFFFF&} una polea grande pegada
+Dialogue: 0,0:01:18.24,0:01:18.38,Sub,,0,0,0,,que agarra {\c&H3CC8FF&}una{\c&HFFFFFF&} polea grande pegada
+Dialogue: 0,0:01:18.38,0:01:18.78,Sub,,0,0,0,,que agarra una {\c&H3CC8FF&}polea{\c&HFFFFFF&} grande pegada
+Dialogue: 0,0:01:18.78,0:01:19.04,Sub,,0,0,0,,que agarra una polea {\c&H3CC8FF&}grande{\c&HFFFFFF&} pegada
+Dialogue: 0,0:01:19.04,0:01:19.44,Sub,,0,0,0,,que agarra una polea grande {\c&H3CC8FF&}pegada{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.44,0:01:19.56,Sub,,0,0,0,,{\c&H3CC8FF&}al{\c&HFFFFFF&} tambor. La polea grande hace
+Dialogue: 0,0:01:19.56,0:01:20.32,Sub,,0,0,0,,al {\c&H3CC8FF&}tambor.{\c&HFFFFFF&} La polea grande hace
+Dialogue: 0,0:01:20.32,0:01:20.44,Sub,,0,0,0,,al tambor. {\c&H3CC8FF&}La{\c&HFFFFFF&} polea grande hace
+Dialogue: 0,0:01:20.44,0:01:20.78,Sub,,0,0,0,,al tambor. La {\c&H3CC8FF&}polea{\c&HFFFFFF&} grande hace
+Dialogue: 0,0:01:20.78,0:01:21.08,Sub,,0,0,0,,al tambor. La polea {\c&H3CC8FF&}grande{\c&HFFFFFF&} hace
+Dialogue: 0,0:01:21.08,0:01:21.30,Sub,,0,0,0,,al tambor. La polea grande {\c&H3CC8FF&}hace{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.30,0:01:21.48,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} gire más despacio pero con
+Dialogue: 0,0:01:21.48,0:01:21.70,Sub,,0,0,0,,que {\c&H3CC8FF&}gire{\c&HFFFFFF&} más despacio pero con
+Dialogue: 0,0:01:21.70,0:01:21.86,Sub,,0,0,0,,que gire {\c&H3CC8FF&}más{\c&HFFFFFF&} despacio pero con
+Dialogue: 0,0:01:21.86,0:01:22.46,Sub,,0,0,0,,que gire más {\c&H3CC8FF&}despacio{\c&HFFFFFF&} pero con
+Dialogue: 0,0:01:22.46,0:01:22.80,Sub,,0,0,0,,que gire más despacio {\c&H3CC8FF&}pero{\c&HFFFFFF&} con
+Dialogue: 0,0:01:22.80,0:01:23.04,Sub,,0,0,0,,que gire más despacio pero {\c&H3CC8FF&}con{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.04,0:01:23.22,Sub,,0,0,0,,{\c&H3CC8FF&}más{\c&HFFFFFF&} fuerza.
+Dialogue: 0,0:01:23.22,0:01:23.35,Sub,,0,0,0,,más {\c&H3CC8FF&}fuerza.{\c&HFFFFFF&}
+Dialogue: 0,0:01:26.31,0:01:27.41,Sub,,0,0,0,,{\c&H3CC8FF&}Desborda.{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.93,0:01:28.11,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que la conectas a la
+Dialogue: 0,0:01:28.11,0:01:28.27,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} la conectas a la
+Dialogue: 0,0:01:28.27,0:01:28.37,Sub,,0,0,0,,Así que {\c&H3CC8FF&}la{\c&HFFFFFF&} conectas a la
+Dialogue: 0,0:01:28.37,0:01:28.85,Sub,,0,0,0,,Así que la {\c&H3CC8FF&}conectas{\c&HFFFFFF&} a la
+Dialogue: 0,0:01:28.85,0:01:28.95,Sub,,0,0,0,,Así que la conectas {\c&H3CC8FF&}a{\c&HFFFFFF&} la
+Dialogue: 0,0:01:28.95,0:01:29.03,Sub,,0,0,0,,Así que la conectas a {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.03,0:01:29.29,Sub,,0,0,0,,{\c&H3CC8FF&}llave{\c&HFFFFFF&} del agua con una manguera,
+Dialogue: 0,0:01:29.29,0:01:29.45,Sub,,0,0,0,,llave {\c&H3CC8FF&}del{\c&HFFFFFF&} agua con una manguera,
+Dialogue: 0,0:01:29.45,0:01:29.73,Sub,,0,0,0,,llave del {\c&H3CC8FF&}agua{\c&HFFFFFF&} con una manguera,
+Dialogue: 0,0:01:29.73,0:01:29.95,Sub,,0,0,0,,llave del agua {\c&H3CC8FF&}con{\c&HFFFFFF&} una manguera,
+Dialogue: 0,0:01:29.95,0:01:30.13,Sub,,0,0,0,,llave del agua con {\c&H3CC8FF&}una{\c&HFFFFFF&} manguera,
+Dialogue: 0,0:01:30.13,0:01:30.91,Sub,,0,0,0,,llave del agua con una {\c&H3CC8FF&}manguera,{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.91,0:01:31.09,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} pones una llave eléctrica que
+Dialogue: 0,0:01:31.09,0:01:31.35,Sub,,0,0,0,,y {\c&H3CC8FF&}pones{\c&HFFFFFF&} una llave eléctrica que
+Dialogue: 0,0:01:31.35,0:01:31.55,Sub,,0,0,0,,y pones {\c&H3CC8FF&}una{\c&HFFFFFF&} llave eléctrica que
+Dialogue: 0,0:01:31.55,0:01:31.89,Sub,,0,0,0,,y pones una {\c&H3CC8FF&}llave{\c&HFFFFFF&} eléctrica que
+Dialogue: 0,0:01:31.89,0:01:32.47,Sub,,0,0,0,,y pones una llave {\c&H3CC8FF&}eléctrica{\c&HFFFFFF&} que
+Dialogue: 0,0:01:32.47,0:01:32.73,Sub,,0,0,0,,y pones una llave eléctrica {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.73,0:01:32.87,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} abre sola. Esa es la
+Dialogue: 0,0:01:32.87,0:01:33.05,Sub,,0,0,0,,se {\c&H3CC8FF&}abre{\c&HFFFFFF&} sola. Esa es la
+Dialogue: 0,0:01:33.05,0:01:33.73,Sub,,0,0,0,,se abre {\c&H3CC8FF&}sola.{\c&HFFFFFF&} Esa es la
+Dialogue: 0,0:01:33.73,0:01:34.01,Sub,,0,0,0,,se abre sola. {\c&H3CC8FF&}Esa{\c&HFFFFFF&} es la
+Dialogue: 0,0:01:34.01,0:01:34.13,Sub,,0,0,0,,se abre sola. Esa {\c&H3CC8FF&}es{\c&HFFFFFF&} la
+Dialogue: 0,0:01:34.13,0:01:34.25,Sub,,0,0,0,,se abre sola. Esa es {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.25,0:01:34.66,Sub,,0,0,0,,{\c&H3CC8FF&}electroválvula.{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.18,0:01:35.30,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} la válvula no sabe cuándo
+Dialogue: 0,0:01:35.30,0:01:35.44,Sub,,0,0,0,,Pero {\c&H3CC8FF&}la{\c&HFFFFFF&} válvula no sabe cuándo
+Dialogue: 0,0:01:35.44,0:01:35.80,Sub,,0,0,0,,Pero la {\c&H3CC8FF&}válvula{\c&HFFFFFF&} no sabe cuándo
+Dialogue: 0,0:01:35.80,0:01:35.96,Sub,,0,0,0,,Pero la válvula {\c&H3CC8FF&}no{\c&HFFFFFF&} sabe cuándo
+Dialogue: 0,0:01:35.96,0:01:36.16,Sub,,0,0,0,,Pero la válvula no {\c&H3CC8FF&}sabe{\c&HFFFFFF&} cuándo
+Dialogue: 0,0:01:36.16,0:01:36.52,Sub,,0,0,0,,Pero la válvula no sabe {\c&H3CC8FF&}cuándo{\c&HFFFFFF&}
+Dialogue: 0,0:01:36.52,0:01:37.10,Sub,,0,0,0,,{\c&H3CC8FF&}parar.{\c&HFFFFFF&} Abre y abre, y el
+Dialogue: 0,0:01:37.10,0:01:37.50,Sub,,0,0,0,,parar. {\c&H3CC8FF&}Abre{\c&HFFFFFF&} y abre, y el
+Dialogue: 0,0:01:37.50,0:01:37.64,Sub,,0,0,0,,parar. Abre {\c&H3CC8FF&}y{\c&HFFFFFF&} abre, y el
+Dialogue: 0,0:01:37.64,0:01:38.18,Sub,,0,0,0,,parar. Abre y {\c&H3CC8FF&}abre,{\c&HFFFFFF&} y el
+Dialogue: 0,0:01:38.18,0:01:38.24,Sub,,0,0,0,,parar. Abre y abre, {\c&H3CC8FF&}y{\c&HFFFFFF&} el
+Dialogue: 0,0:01:38.24,0:01:38.38,Sub,,0,0,0,,parar. Abre y abre, y {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:01:38.38,0:01:38.62,Sub,,0,0,0,,{\c&H3CC8FF&}agua{\c&HFFFFFF&} sigue subiendo hasta salirse por
+Dialogue: 0,0:01:38.62,0:01:39.00,Sub,,0,0,0,,agua {\c&H3CC8FF&}sigue{\c&HFFFFFF&} subiendo hasta salirse por
+Dialogue: 0,0:01:39.00,0:01:39.52,Sub,,0,0,0,,agua sigue {\c&H3CC8FF&}subiendo{\c&HFFFFFF&} hasta salirse por
+Dialogue: 0,0:01:39.52,0:01:39.72,Sub,,0,0,0,,agua sigue subiendo {\c&H3CC8FF&}hasta{\c&HFFFFFF&} salirse por
+Dialogue: 0,0:01:39.72,0:01:40.18,Sub,,0,0,0,,agua sigue subiendo hasta {\c&H3CC8FF&}salirse{\c&HFFFFFF&} por
+Dialogue: 0,0:01:40.18,0:01:40.34,Sub,,0,0,0,,agua sigue subiendo hasta salirse {\c&H3CC8FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.34,0:01:40.44,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} puerta.
+Dialogue: 0,0:01:40.44,0:01:40.49,Sub,,0,0,0,,la {\c&H3CC8FF&}puerta.{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.96,0:01:41.08,Sub,,0,0,0,,{\c&H3CC8FF&}Para{\c&HFFFFFF&} el rey, se puede hacer
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,Para {\c&H3CC8FF&}el{\c&HFFFFFF&} rey, se puede hacer
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,Para el {\c&H3CC8FF&}rey,{\c&HFFFFFF&} se puede hacer
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,Para el rey, {\c&H3CC8FF&}se{\c&HFFFFFF&} puede hacer
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,Para el rey, se {\c&H3CC8FF&}puede{\c&HFFFFFF&} hacer
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,Para el rey, se puede {\c&H3CC8FF&}hacer{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} rey en el suelo. Así
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,un {\c&H3CC8FF&}rey{\c&HFFFFFF&} en el suelo. Así
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,un rey {\c&H3CC8FF&}en{\c&HFFFFFF&} el suelo. Así
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,un rey en {\c&H3CC8FF&}el{\c&HFFFFFF&} suelo. Así
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,un rey en el {\c&H3CC8FF&}suelo.{\c&HFFFFFF&} Así
+Dialogue: 0,0:01:41.08,0:01:41.13,Sub,,0,0,0,,un rey en el suelo. {\c&H3CC8FF&}Así{\c&HFFFFFF&}
+Dialogue: 0,0:01:41.10,0:01:41.28,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} le pones un tubito que
+Dialogue: 0,0:01:41.28,0:01:41.38,Sub,,0,0,0,,que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones un tubito que
+Dialogue: 0,0:01:41.38,0:01:41.66,Sub,,0,0,0,,que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} un tubito que
+Dialogue: 0,0:01:41.66,0:01:41.78,Sub,,0,0,0,,que le pones {\c&H3CC8FF&}un{\c&HFFFFFF&} tubito que
+Dialogue: 0,0:01:41.78,0:01:42.18,Sub,,0,0,0,,que le pones un {\c&H3CC8FF&}tubito{\c&HFFFFFF&} que
+Dialogue: 0,0:01:42.18,0:01:42.32,Sub,,0,0,0,,que le pones un tubito {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.32,0:01:42.58,Sub,,0,0,0,,{\c&H3CC8FF&}baja{\c&HFFFFFF&} hasta el fondo de la
+Dialogue: 0,0:01:42.58,0:01:42.84,Sub,,0,0,0,,baja {\c&H3CC8FF&}hasta{\c&HFFFFFF&} el fondo de la
+Dialogue: 0,0:01:42.84,0:01:42.98,Sub,,0,0,0,,baja hasta {\c&H3CC8FF&}el{\c&HFFFFFF&} fondo de la
+Dialogue: 0,0:01:42.98,0:01:43.20,Sub,,0,0,0,,baja hasta el {\c&H3CC8FF&}fondo{\c&HFFFFFF&} de la
+Dialogue: 0,0:01:43.20,0:01:43.34,Sub,,0,0,0,,baja hasta el fondo {\c&H3CC8FF&}de{\c&HFFFFFF&} la
+Dialogue: 0,0:01:43.34,0:01:43.46,Sub,,0,0,0,,baja hasta el fondo de {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:43.46,0:01:44.12,Sub,,0,0,0,,{\c&H3CC8FF&}tina.{\c&HFFFFFF&} Cuando sube el agua, aprieta
+Dialogue: 0,0:01:44.12,0:01:44.34,Sub,,0,0,0,,tina. {\c&H3CC8FF&}Cuando{\c&HFFFFFF&} sube el agua, aprieta
+Dialogue: 0,0:01:44.34,0:01:44.68,Sub,,0,0,0,,tina. Cuando {\c&H3CC8FF&}sube{\c&HFFFFFF&} el agua, aprieta
+Dialogue: 0,0:01:44.68,0:01:44.80,Sub,,0,0,0,,tina. Cuando sube {\c&H3CC8FF&}el{\c&HFFFFFF&} agua, aprieta
+Dialogue: 0,0:01:44.80,0:01:45.24,Sub,,0,0,0,,tina. Cuando sube el {\c&H3CC8FF&}agua,{\c&HFFFFFF&} aprieta
+Dialogue: 0,0:01:45.24,0:01:45.58,Sub,,0,0,0,,tina. Cuando sube el agua, {\c&H3CC8FF&}aprieta{\c&HFFFFFF&}
+Dialogue: 0,0:01:45.58,0:01:45.74,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} aire de adentro, y ese
+Dialogue: 0,0:01:45.74,0:01:45.96,Sub,,0,0,0,,el {\c&H3CC8FF&}aire{\c&HFFFFFF&} de adentro, y ese
+Dialogue: 0,0:01:45.96,0:01:46.10,Sub,,0,0,0,,el aire {\c&H3CC8FF&}de{\c&HFFFFFF&} adentro, y ese
+Dialogue: 0,0:01:46.10,0:01:46.76,Sub,,0,0,0,,el aire de {\c&H3CC8FF&}adentro,{\c&HFFFFFF&} y ese
+Dialogue: 0,0:01:46.76,0:01:46.96,Sub,,0,0,0,,el aire de adentro, {\c&H3CC8FF&}y{\c&HFFFFFF&} ese
+Dialogue: 0,0:01:46.96,0:01:47.10,Sub,,0,0,0,,el aire de adentro, y {\c&H3CC8FF&}ese{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.10,0:01:47.40,Sub,,0,0,0,,{\c&H3CC8FF&}aire{\c&HFFFFFF&} empuja un interruptor que cierra
+Dialogue: 0,0:01:47.40,0:01:47.84,Sub,,0,0,0,,aire {\c&H3CC8FF&}empuja{\c&HFFFFFF&} un interruptor que cierra
+Dialogue: 0,0:01:47.84,0:01:47.96,Sub,,0,0,0,,aire empuja {\c&H3CC8FF&}un{\c&HFFFFFF&} interruptor que cierra
+Dialogue: 0,0:01:47.96,0:01:48.58,Sub,,0,0,0,,aire empuja un {\c&H3CC8FF&}interruptor{\c&HFFFFFF&} que cierra
+Dialogue: 0,0:01:48.58,0:01:48.84,Sub,,0,0,0,,aire empuja un interruptor {\c&H3CC8FF&}que{\c&HFFFFFF&} cierra
+Dialogue: 0,0:01:48.84,0:01:49.20,Sub,,0,0,0,,aire empuja un interruptor que {\c&H3CC8FF&}cierra{\c&HFFFFFF&}
+Dialogue: 0,0:01:49.20,0:01:49.34,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} válvula. Ese es el presostato.
+Dialogue: 0,0:01:49.34,0:01:50.28,Sub,,0,0,0,,la {\c&H3CC8FF&}válvula.{\c&HFFFFFF&} Ese es el presostato.
+Dialogue: 0,0:01:50.28,0:01:50.70,Sub,,0,0,0,,la válvula. {\c&H3CC8FF&}Ese{\c&HFFFFFF&} es el presostato.
+Dialogue: 0,0:01:50.70,0:01:50.86,Sub,,0,0,0,,la válvula. Ese {\c&H3CC8FF&}es{\c&HFFFFFF&} el presostato.
+Dialogue: 0,0:01:50.86,0:01:50.96,Sub,,0,0,0,,la válvula. Ese es {\c&H3CC8FF&}el{\c&HFFFFFF&} presostato.
+Dialogue: 0,0:01:50.96,0:01:51.23,Sub,,0,0,0,,la válvula. Ese es el {\c&H3CC8FF&}presostato.{\c&HFFFFFF&}
+Dialogue: 0,0:01:51.75,0:01:51.91,Sub,,0,0,0,,{\c&H3CC8FF&}El{\c&HFFFFFF&} agua sale fría de la
+Dialogue: 0,0:01:51.91,0:01:52.13,Sub,,0,0,0,,El {\c&H3CC8FF&}agua{\c&HFFFFFF&} sale fría de la
+Dialogue: 0,0:01:52.13,0:01:52.41,Sub,,0,0,0,,El agua {\c&H3CC8FF&}sale{\c&HFFFFFF&} fría de la
+Dialogue: 0,0:01:52.41,0:01:52.83,Sub,,0,0,0,,El agua sale {\c&H3CC8FF&}fría{\c&HFFFFFF&} de la
+Dialogue: 0,0:01:52.83,0:01:52.91,Sub,,0,0,0,,El agua sale fría {\c&H3CC8FF&}de{\c&HFFFFFF&} la
+Dialogue: 0,0:01:52.91,0:01:53.01,Sub,,0,0,0,,El agua sale fría de {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.01,0:01:53.55,Sub,,0,0,0,,{\c&H3CC8FF&}llave,{\c&HFFFFFF&} y con agua fría la
+Dialogue: 0,0:01:53.55,0:01:53.60,Sub,,0,0,0,,llave, {\c&H3CC8FF&}y{\c&HFFFFFF&} con agua fría la
+Dialogue: 0,0:01:53.59,0:01:53.73,Sub,,0,0,0,,llave, y {\c&H3CC8FF&}con{\c&HFFFFFF&} agua fría la
+Dialogue: 0,0:01:53.73,0:01:53.89,Sub,,0,0,0,,llave, y con {\c&H3CC8FF&}agua{\c&HFFFFFF&} fría la
+Dialogue: 0,0:01:53.89,0:01:54.29,Sub,,0,0,0,,llave, y con agua {\c&H3CC8FF&}fría{\c&HFFFFFF&} la
+Dialogue: 0,0:01:54.29,0:01:54.39,Sub,,0,0,0,,llave, y con agua fría {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:54.39,0:01:54.73,Sub,,0,0,0,,{\c&H3CC8FF&}grasa{\c&HFFFFFF&} no se suelta tan fácil.
+Dialogue: 0,0:01:54.73,0:01:54.99,Sub,,0,0,0,,grasa {\c&H3CC8FF&}no{\c&HFFFFFF&} se suelta tan fácil.
+Dialogue: 0,0:01:54.99,0:01:55.11,Sub,,0,0,0,,grasa no {\c&H3CC8FF&}se{\c&HFFFFFF&} suelta tan fácil.
+Dialogue: 0,0:01:55.11,0:01:55.43,Sub,,0,0,0,,grasa no se {\c&H3CC8FF&}suelta{\c&HFFFFFF&} tan fácil.
+Dialogue: 0,0:01:55.43,0:01:55.63,Sub,,0,0,0,,grasa no se suelta {\c&H3CC8FF&}tan{\c&HFFFFFF&} fácil.
+Dialogue: 0,0:01:55.63,0:01:55.68,Sub,,0,0,0,,grasa no se suelta tan {\c&H3CC8FF&}fácil.{\c&HFFFFFF&}
+Dialogue: 0,0:01:56.17,0:01:56.31,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le metes abajo un
+Dialogue: 0,0:01:56.31,0:01:56.45,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le metes abajo un
+Dialogue: 0,0:01:56.45,0:01:56.53,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} metes abajo un
+Dialogue: 0,0:01:56.53,0:01:56.81,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}metes{\c&HFFFFFF&} abajo un
+Dialogue: 0,0:01:56.81,0:01:57.01,Sub,,0,0,0,,Así que le metes {\c&H3CC8FF&}abajo{\c&HFFFFFF&} un
+Dialogue: 0,0:01:57.01,0:01:57.23,Sub,,0,0,0,,Así que le metes abajo {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:01:57.23,0:01:57.57,Sub,,0,0,0,,{\c&H3CC8FF&}alambre{\c&HFFFFFF&} en espiral que se pone
+Dialogue: 0,0:01:57.57,0:01:57.75,Sub,,0,0,0,,alambre {\c&H3CC8FF&}en{\c&HFFFFFF&} espiral que se pone
+Dialogue: 0,0:01:57.75,0:01:58.17,Sub,,0,0,0,,alambre en {\c&H3CC8FF&}espiral{\c&HFFFFFF&} que se pone
+Dialogue: 0,0:01:58.17,0:01:58.31,Sub,,0,0,0,,alambre en espiral {\c&H3CC8FF&}que{\c&HFFFFFF&} se pone
+Dialogue: 0,0:01:58.31,0:01:58.43,Sub,,0,0,0,,alambre en espiral que {\c&H3CC8FF&}se{\c&HFFFFFF&} pone
+Dialogue: 0,0:01:58.43,0:01:58.61,Sub,,0,0,0,,alambre en espiral que se {\c&H3CC8FF&}pone{\c&HFFFFFF&}
+Dialogue: 0,0:01:58.61,0:01:59.01,Sub,,0,0,0,,{\c&H3CC8FF&}caliente{\c&HFFFFFF&} con la electricidad, como el
+Dialogue: 0,0:01:59.01,0:01:59.19,Sub,,0,0,0,,caliente {\c&H3CC8FF&}con{\c&HFFFFFF&} la electricidad, como el
+Dialogue: 0,0:01:59.19,0:01:59.29,Sub,,0,0,0,,caliente con {\c&H3CC8FF&}la{\c&HFFFFFF&} electricidad, como el
+Dialogue: 0,0:01:59.29,0:02:00.03,Sub,,0,0,0,,caliente con la {\c&H3CC8FF&}electricidad,{\c&HFFFFFF&} como el
+Dialogue: 0,0:02:00.03,0:02:00.35,Sub,,0,0,0,,caliente con la electricidad, {\c&H3CC8FF&}como{\c&HFFFFFF&} el
+Dialogue: 0,0:02:00.35,0:02:00.47,Sub,,0,0,0,,caliente con la electricidad, como {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:02:00.47,0:02:00.59,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} una ducha eléctrica. Esa es
+Dialogue: 0,0:02:00.59,0:02:00.77,Sub,,0,0,0,,de {\c&H3CC8FF&}una{\c&HFFFFFF&} ducha eléctrica. Esa es
+Dialogue: 0,0:02:00.77,0:02:01.09,Sub,,0,0,0,,de una {\c&H3CC8FF&}ducha{\c&HFFFFFF&} eléctrica. Esa es
+Dialogue: 0,0:02:01.09,0:02:02.13,Sub,,0,0,0,,de una ducha {\c&H3CC8FF&}eléctrica.{\c&HFFFFFF&} Esa es
+Dialogue: 0,0:02:02.13,0:02:02.51,Sub,,0,0,0,,de una ducha eléctrica. {\c&H3CC8FF&}Esa{\c&HFFFFFF&} es
+Dialogue: 0,0:02:02.51,0:02:02.81,Sub,,0,0,0,,de una ducha eléctrica. Esa {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.81,0:02:02.95,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} resistencia, y un sensor la
+Dialogue: 0,0:02:02.95,0:02:03.97,Sub,,0,0,0,,la {\c&H3CC8FF&}resistencia,{\c&HFFFFFF&} y un sensor la
+Dialogue: 0,0:02:03.97,0:02:04.05,Sub,,0,0,0,,la resistencia, {\c&H3CC8FF&}y{\c&HFFFFFF&} un sensor la
+Dialogue: 0,0:02:04.05,0:02:04.17,Sub,,0,0,0,,la resistencia, y {\c&H3CC8FF&}un{\c&HFFFFFF&} sensor la
+Dialogue: 0,0:02:04.17,0:02:04.43,Sub,,0,0,0,,la resistencia, y un {\c&H3CC8FF&}sensor{\c&HFFFFFF&} la
+Dialogue: 0,0:02:04.43,0:02:04.63,Sub,,0,0,0,,la resistencia, y un sensor {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.63,0:02:04.99,Sub,,0,0,0,,{\c&H3CC8FF&}apaga{\c&HFFFFFF&} cuando el agua llega a
+Dialogue: 0,0:02:04.99,0:02:05.23,Sub,,0,0,0,,apaga {\c&H3CC8FF&}cuando{\c&HFFFFFF&} el agua llega a
+Dialogue: 0,0:02:05.23,0:02:05.41,Sub,,0,0,0,,apaga cuando {\c&H3CC8FF&}el{\c&HFFFFFF&} agua llega a
+Dialogue: 0,0:02:05.41,0:02:05.59,Sub,,0,0,0,,apaga cuando el {\c&H3CC8FF&}agua{\c&HFFFFFF&} llega a
+Dialogue: 0,0:02:05.59,0:02:05.87,Sub,,0,0,0,,apaga cuando el agua {\c&H3CC8FF&}llega{\c&HFFFFFF&} a
+Dialogue: 0,0:02:05.87,0:02:06.01,Sub,,0,0,0,,apaga cuando el agua llega {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.01,0:02:06.06,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} temperatura que escogiste.
+Dialogue: 0,0:02:06.05,0:02:06.49,Sub,,0,0,0,,la {\c&H3CC8FF&}temperatura{\c&HFFFFFF&} que escogiste.
+Dialogue: 0,0:02:06.49,0:02:06.75,Sub,,0,0,0,,la temperatura {\c&H3CC8FF&}que{\c&HFFFFFF&} escogiste.
+Dialogue: 0,0:02:06.75,0:02:06.98,Sub,,0,0,0,,la temperatura que {\c&H3CC8FF&}escogiste.{\c&HFFFFFF&}
+Dialogue: 0,0:02:07.50,0:02:07.62,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} si echas el jabón directo
+Dialogue: 0,0:02:07.62,0:02:07.76,Sub,,0,0,0,,Pero {\c&H3CC8FF&}si{\c&HFFFFFF&} echas el jabón directo
+Dialogue: 0,0:02:07.76,0:02:08.06,Sub,,0,0,0,,Pero si {\c&H3CC8FF&}echas{\c&HFFFFFF&} el jabón directo
+Dialogue: 0,0:02:08.06,0:02:08.16,Sub,,0,0,0,,Pero si echas {\c&H3CC8FF&}el{\c&HFFFFFF&} jabón directo
+Dialogue: 0,0:02:08.16,0:02:08.48,Sub,,0,0,0,,Pero si echas el {\c&H3CC8FF&}jabón{\c&HFFFFFF&} directo
+Dialogue: 0,0:02:08.48,0:02:08.88,Sub,,0,0,0,,Pero si echas el jabón {\c&H3CC8FF&}directo{\c&HFFFFFF&}
+Dialogue: 0,0:02:08.88,0:02:09.04,Sub,,0,0,0,,{\c&H3CC8FF&}sobre{\c&HFFFFFF&} la ropa, se queda pegado
+Dialogue: 0,0:02:09.04,0:02:09.20,Sub,,0,0,0,,sobre {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa, se queda pegado
+Dialogue: 0,0:02:09.20,0:02:09.80,Sub,,0,0,0,,sobre la {\c&H3CC8FF&}ropa,{\c&HFFFFFF&} se queda pegado
+Dialogue: 0,0:02:09.80,0:02:10.02,Sub,,0,0,0,,sobre la ropa, {\c&H3CC8FF&}se{\c&HFFFFFF&} queda pegado
+Dialogue: 0,0:02:10.02,0:02:10.20,Sub,,0,0,0,,sobre la ropa, se {\c&H3CC8FF&}queda{\c&HFFFFFF&} pegado
+Dialogue: 0,0:02:10.20,0:02:10.64,Sub,,0,0,0,,sobre la ropa, se queda {\c&H3CC8FF&}pegado{\c&HFFFFFF&}
+Dialogue: 0,0:02:10.64,0:02:10.74,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} una bola y deja manchas
+Dialogue: 0,0:02:10.74,0:02:10.88,Sub,,0,0,0,,en {\c&H3CC8FF&}una{\c&HFFFFFF&} bola y deja manchas
+Dialogue: 0,0:02:10.88,0:02:11.14,Sub,,0,0,0,,en una {\c&H3CC8FF&}bola{\c&HFFFFFF&} y deja manchas
+Dialogue: 0,0:02:11.14,0:02:11.40,Sub,,0,0,0,,en una bola {\c&H3CC8FF&}y{\c&HFFFFFF&} deja manchas
+Dialogue: 0,0:02:11.40,0:02:11.60,Sub,,0,0,0,,en una bola y {\c&H3CC8FF&}deja{\c&HFFFFFF&} manchas
+Dialogue: 0,0:02:11.60,0:02:11.96,Sub,,0,0,0,,en una bola y deja {\c&H3CC8FF&}manchas{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.96,0:02:12.18,Sub,,0,0,0,,{\c&H3CC8FF&}blancas.{\c&HFFFFFF&}
+Dialogue: 0,0:02:12.70,0:02:12.82,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones un cajoncito
+Dialogue: 0,0:02:12.82,0:02:12.94,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones un cajoncito
+Dialogue: 0,0:02:12.94,0:02:13.06,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones un cajoncito
+Dialogue: 0,0:02:13.06,0:02:13.34,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} un cajoncito
+Dialogue: 0,0:02:13.34,0:02:13.48,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}un{\c&HFFFFFF&} cajoncito
+Dialogue: 0,0:02:13.48,0:02:13.92,Sub,,0,0,0,,Así que le pones un {\c&H3CC8FF&}cajoncito{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.92,0:02:14.62,Sub,,0,0,0,,{\c&H3CC8FF&}arriba.{\c&HFFFFFF&} El agua que entra pasa
+Dialogue: 0,0:02:14.62,0:02:14.76,Sub,,0,0,0,,arriba. {\c&H3CC8FF&}El{\c&HFFFFFF&} agua que entra pasa
+Dialogue: 0,0:02:14.76,0:02:14.94,Sub,,0,0,0,,arriba. El {\c&H3CC8FF&}agua{\c&HFFFFFF&} que entra pasa
+Dialogue: 0,0:02:14.94,0:02:15.08,Sub,,0,0,0,,arriba. El agua {\c&H3CC8FF&}que{\c&HFFFFFF&} entra pasa
+Dialogue: 0,0:02:15.08,0:02:15.24,Sub,,0,0,0,,arriba. El agua que {\c&H3CC8FF&}entra{\c&HFFFFFF&} pasa
+Dialogue: 0,0:02:15.24,0:02:15.52,Sub,,0,0,0,,arriba. El agua que entra {\c&H3CC8FF&}pasa{\c&HFFFFFF&}
+Dialogue: 0,0:02:15.52,0:02:15.86,Sub,,0,0,0,,{\c&H3CC8FF&}primero{\c&HFFFFFF&} por ahí, disuelve el jabón
+Dialogue: 0,0:02:15.86,0:02:16.12,Sub,,0,0,0,,primero {\c&H3CC8FF&}por{\c&HFFFFFF&} ahí, disuelve el jabón
+Dialogue: 0,0:02:16.12,0:02:16.62,Sub,,0,0,0,,primero por {\c&H3CC8FF&}ahí,{\c&HFFFFFF&} disuelve el jabón
+Dialogue: 0,0:02:16.62,0:02:17.00,Sub,,0,0,0,,primero por ahí, {\c&H3CC8FF&}disuelve{\c&HFFFFFF&} el jabón
+Dialogue: 0,0:02:17.00,0:02:17.08,Sub,,0,0,0,,primero por ahí, disuelve {\c&H3CC8FF&}el{\c&HFFFFFF&} jabón
+Dialogue: 0,0:02:17.08,0:02:17.52,Sub,,0,0,0,,primero por ahí, disuelve el {\c&H3CC8FF&}jabón{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.52,0:02:17.70,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} lo lleva a la tina
+Dialogue: 0,0:02:17.70,0:02:17.82,Sub,,0,0,0,,y {\c&H3CC8FF&}lo{\c&HFFFFFF&} lleva a la tina
+Dialogue: 0,0:02:17.82,0:02:18.04,Sub,,0,0,0,,y lo {\c&H3CC8FF&}lleva{\c&HFFFFFF&} a la tina
+Dialogue: 0,0:02:18.04,0:02:18.18,Sub,,0,0,0,,y lo lleva {\c&H3CC8FF&}a{\c&HFFFFFF&} la tina
+Dialogue: 0,0:02:18.18,0:02:18.28,Sub,,0,0,0,,y lo lleva a {\c&H3CC8FF&}la{\c&HFFFFFF&} tina
+Dialogue: 0,0:02:18.28,0:02:18.60,Sub,,0,0,0,,y lo lleva a la {\c&H3CC8FF&}tina{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.60,0:02:18.78,Sub,,0,0,0,,{\c&H3CC8FF&}ya{\c&HFFFFFF&} mezclado. Ese es el dispensador.
+Dialogue: 0,0:02:18.78,0:02:19.78,Sub,,0,0,0,,ya {\c&H3CC8FF&}mezclado.{\c&HFFFFFF&} Ese es el dispensador.
+Dialogue: 0,0:02:19.78,0:02:20.06,Sub,,0,0,0,,ya mezclado. {\c&H3CC8FF&}Ese{\c&HFFFFFF&} es el dispensador.
+Dialogue: 0,0:02:20.06,0:02:20.30,Sub,,0,0,0,,ya mezclado. Ese {\c&H3CC8FF&}es{\c&HFFFFFF&} el dispensador.
+Dialogue: 0,0:02:20.30,0:02:20.42,Sub,,0,0,0,,ya mezclado. Ese es {\c&H3CC8FF&}el{\c&HFFFFFF&} dispensador.
+Dialogue: 0,0:02:20.42,0:02:20.69,Sub,,0,0,0,,ya mezclado. Ese es el {\c&H3CC8FF&}dispensador.{\c&HFFFFFF&}
+Dialogue: 0,0:02:21.21,0:02:21.31,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} cuando terminas de lavar, la
+Dialogue: 0,0:02:21.31,0:02:21.47,Sub,,0,0,0,,Pero {\c&H3CC8FF&}cuando{\c&HFFFFFF&} terminas de lavar, la
+Dialogue: 0,0:02:21.47,0:02:22.01,Sub,,0,0,0,,Pero cuando {\c&H3CC8FF&}terminas{\c&HFFFFFF&} de lavar, la
+Dialogue: 0,0:02:22.01,0:02:22.11,Sub,,0,0,0,,Pero cuando terminas {\c&H3CC8FF&}de{\c&HFFFFFF&} lavar, la
+Dialogue: 0,0:02:22.11,0:02:22.63,Sub,,0,0,0,,Pero cuando terminas de {\c&H3CC8FF&}lavar,{\c&HFFFFFF&} la
+Dialogue: 0,0:02:22.63,0:02:22.73,Sub,,0,0,0,,Pero cuando terminas de lavar, {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:02:22.73,0:02:22.93,Sub,,0,0,0,,{\c&H3CC8FF&}tina{\c&HFFFFFF&} queda llena de agua gris,
+Dialogue: 0,0:02:22.93,0:02:23.11,Sub,,0,0,0,,tina {\c&H3CC8FF&}queda{\c&HFFFFFF&} llena de agua gris,
+Dialogue: 0,0:02:23.11,0:02:23.51,Sub,,0,0,0,,tina queda {\c&H3CC8FF&}llena{\c&HFFFFFF&} de agua gris,
+Dialogue: 0,0:02:23.51,0:02:23.65,Sub,,0,0,0,,tina queda llena {\c&H3CC8FF&}de{\c&HFFFFFF&} agua gris,
+Dialogue: 0,0:02:23.65,0:02:23.83,Sub,,0,0,0,,tina queda llena de {\c&H3CC8FF&}agua{\c&HFFFFFF&} gris,
+Dialogue: 0,0:02:23.83,0:02:24.41,Sub,,0,0,0,,tina queda llena de agua {\c&H3CC8FF&}gris,{\c&HFFFFFF&}
+Dialogue: 0,0:02:24.41,0:02:24.55,Sub,,0,0,0,,{\c&H3CC8FF&}con{\c&HFFFFFF&} jabón y mugre. Y no
+Dialogue: 0,0:02:24.55,0:02:24.89,Sub,,0,0,0,,con {\c&H3CC8FF&}jabón{\c&HFFFFFF&} y mugre. Y no
+Dialogue: 0,0:02:24.89,0:02:24.99,Sub,,0,0,0,,con jabón {\c&H3CC8FF&}y{\c&HFFFFFF&} mugre. Y no
+Dialogue: 0,0:02:24.99,0:02:25.51,Sub,,0,0,0,,con jabón y {\c&H3CC8FF&}mugre.{\c&HFFFFFF&} Y no
+Dialogue: 0,0:02:25.51,0:02:25.69,Sub,,0,0,0,,con jabón y mugre. {\c&H3CC8FF&}Y{\c&HFFFFFF&} no
+Dialogue: 0,0:02:25.69,0:02:25.79,Sub,,0,0,0,,con jabón y mugre. Y {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:02:25.79,0:02:26.09,Sub,,0,0,0,,{\c&H3CC8FF&}tiene{\c&HFFFFFF&} por dónde salir.
+Dialogue: 0,0:02:26.09,0:02:26.37,Sub,,0,0,0,,tiene {\c&H3CC8FF&}por{\c&HFFFFFF&} dónde salir.
+Dialogue: 0,0:02:26.37,0:02:26.65,Sub,,0,0,0,,tiene por {\c&H3CC8FF&}dónde{\c&HFFFFFF&} salir.
+Dialogue: 0,0:02:26.65,0:02:26.78,Sub,,0,0,0,,tiene por dónde {\c&H3CC8FF&}salir.{\c&HFFFFFF&}
+Dialogue: 0,0:02:27.30,0:02:27.46,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones una bomba
+Dialogue: 0,0:02:27.46,0:02:27.62,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones una bomba
+Dialogue: 0,0:02:27.62,0:02:27.72,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones una bomba
+Dialogue: 0,0:02:27.72,0:02:28.02,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} una bomba
+Dialogue: 0,0:02:28.02,0:02:28.22,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}una{\c&HFFFFFF&} bomba
+Dialogue: 0,0:02:28.22,0:02:28.60,Sub,,0,0,0,,Así que le pones una {\c&H3CC8FF&}bomba{\c&HFFFFFF&}
+Dialogue: 0,0:02:28.60,0:02:28.86,Sub,,0,0,0,,{\c&H3CC8FF&}pequeña{\c&HFFFFFF&} abajo, que chupa el agua
+Dialogue: 0,0:02:28.86,0:02:29.48,Sub,,0,0,0,,pequeña {\c&H3CC8FF&}abajo,{\c&HFFFFFF&} que chupa el agua
+Dialogue: 0,0:02:29.48,0:02:29.54,Sub,,0,0,0,,pequeña abajo, {\c&H3CC8FF&}que{\c&HFFFFFF&} chupa el agua
+Dialogue: 0,0:02:29.54,0:02:29.80,Sub,,0,0,0,,pequeña abajo, que {\c&H3CC8FF&}chupa{\c&HFFFFFF&} el agua
+Dialogue: 0,0:02:29.80,0:02:29.92,Sub,,0,0,0,,pequeña abajo, que chupa {\c&H3CC8FF&}el{\c&HFFFFFF&} agua
+Dialogue: 0,0:02:29.92,0:02:30.12,Sub,,0,0,0,,pequeña abajo, que chupa el {\c&H3CC8FF&}agua{\c&HFFFFFF&}
+Dialogue: 0,0:02:30.12,0:02:30.62,Sub,,0,0,0,,{\c&H3CC8FF&}sucia{\c&HFFFFFF&} y la manda por una
+Dialogue: 0,0:02:30.62,0:02:30.80,Sub,,0,0,0,,sucia {\c&H3CC8FF&}y{\c&HFFFFFF&} la manda por una
+Dialogue: 0,0:02:30.80,0:02:30.92,Sub,,0,0,0,,sucia y {\c&H3CC8FF&}la{\c&HFFFFFF&} manda por una
+Dialogue: 0,0:02:30.92,0:02:31.30,Sub,,0,0,0,,sucia y la {\c&H3CC8FF&}manda{\c&HFFFFFF&} por una
+Dialogue: 0,0:02:31.30,0:02:31.44,Sub,,0,0,0,,sucia y la manda {\c&H3CC8FF&}por{\c&HFFFFFF&} una
+Dialogue: 0,0:02:31.44,0:02:31.58,Sub,,0,0,0,,sucia y la manda por {\c&H3CC8FF&}una{\c&HFFFFFF&}
+Dialogue: 0,0:02:31.58,0:02:32.02,Sub,,0,0,0,,{\c&H3CC8FF&}manguera{\c&HFFFFFF&} al desagüe. Esa es la
+Dialogue: 0,0:02:32.02,0:02:32.08,Sub,,0,0,0,,manguera {\c&H3CC8FF&}al{\c&HFFFFFF&} desagüe. Esa es la
+Dialogue: 0,0:02:32.08,0:02:32.96,Sub,,0,0,0,,manguera al {\c&H3CC8FF&}desagüe.{\c&HFFFFFF&} Esa es la
+Dialogue: 0,0:02:32.96,0:02:33.22,Sub,,0,0,0,,manguera al desagüe. {\c&H3CC8FF&}Esa{\c&HFFFFFF&} es la
+Dialogue: 0,0:02:33.22,0:02:33.32,Sub,,0,0,0,,manguera al desagüe. Esa {\c&H3CC8FF&}es{\c&HFFFFFF&} la
+Dialogue: 0,0:02:33.32,0:02:33.44,Sub,,0,0,0,,manguera al desagüe. Esa es {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:02:33.44,0:02:33.78,Sub,,0,0,0,,{\c&H3CC8FF&}bomba{\c&HFFFFFF&} de desagüe.
+Dialogue: 0,0:02:33.78,0:02:33.86,Sub,,0,0,0,,bomba {\c&H3CC8FF&}de{\c&HFFFFFF&} desagüe.
+Dialogue: 0,0:02:33.86,0:02:34.03,Sub,,0,0,0,,bomba de {\c&H3CC8FF&}desagüe.{\c&HFFFFFF&}
+Dialogue: 0,0:02:34.55,0:02:34.65,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} en los bolsillos, siempre se
+Dialogue: 0,0:02:34.65,0:02:34.75,Sub,,0,0,0,,Pero {\c&H3CC8FF&}en{\c&HFFFFFF&} los bolsillos, siempre se
+Dialogue: 0,0:02:34.75,0:02:34.87,Sub,,0,0,0,,Pero en {\c&H3CC8FF&}los{\c&HFFFFFF&} bolsillos, siempre se
+Dialogue: 0,0:02:34.87,0:02:35.61,Sub,,0,0,0,,Pero en los {\c&H3CC8FF&}bolsillos,{\c&HFFFFFF&} siempre se
+Dialogue: 0,0:02:35.61,0:02:36.01,Sub,,0,0,0,,Pero en los bolsillos, {\c&H3CC8FF&}siempre{\c&HFFFFFF&} se
+Dialogue: 0,0:02:36.01,0:02:36.21,Sub,,0,0,0,,Pero en los bolsillos, siempre {\c&H3CC8FF&}se{\c&HFFFFFF&}
+Dialogue: 0,0:02:36.21,0:02:36.39,Sub,,0,0,0,,{\c&H3CC8FF&}queda{\c&HFFFFFF&} algo. Una moneda, un botón,
+Dialogue: 0,0:02:36.39,0:02:37.11,Sub,,0,0,0,,queda {\c&H3CC8FF&}algo.{\c&HFFFFFF&} Una moneda, un botón,
+Dialogue: 0,0:02:37.11,0:02:37.31,Sub,,0,0,0,,queda algo. {\c&H3CC8FF&}Una{\c&HFFFFFF&} moneda, un botón,
+Dialogue: 0,0:02:37.31,0:02:38.09,Sub,,0,0,0,,queda algo. Una {\c&H3CC8FF&}moneda,{\c&HFFFFFF&} un botón,
+Dialogue: 0,0:02:38.09,0:02:38.19,Sub,,0,0,0,,queda algo. Una moneda, {\c&H3CC8FF&}un{\c&HFFFFFF&} botón,
+Dialogue: 0,0:02:38.19,0:02:39.07,Sub,,0,0,0,,queda algo. Una moneda, un {\c&H3CC8FF&}botón,{\c&HFFFFFF&}
+Dialogue: 0,0:02:39.07,0:02:39.19,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} gancho. Se van con el
+Dialogue: 0,0:02:39.19,0:02:39.99,Sub,,0,0,0,,un {\c&H3CC8FF&}gancho.{\c&HFFFFFF&} Se van con el
+Dialogue: 0,0:02:39.99,0:02:40.15,Sub,,0,0,0,,un gancho. {\c&H3CC8FF&}Se{\c&HFFFFFF&} van con el
+Dialogue: 0,0:02:40.15,0:02:40.29,Sub,,0,0,0,,un gancho. Se {\c&H3CC8FF&}van{\c&HFFFFFF&} con el
+Dialogue: 0,0:02:40.29,0:02:40.43,Sub,,0,0,0,,un gancho. Se van {\c&H3CC8FF&}con{\c&HFFFFFF&} el
+Dialogue: 0,0:02:40.43,0:02:40.59,Sub,,0,0,0,,un gancho. Se van con {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:02:40.59,0:02:41.23,Sub,,0,0,0,,{\c&H3CC8FF&}agua,{\c&HFFFFFF&} entran en la bomba y
+Dialogue: 0,0:02:41.23,0:02:41.55,Sub,,0,0,0,,agua, {\c&H3CC8FF&}entran{\c&HFFFFFF&} en la bomba y
+Dialogue: 0,0:02:41.55,0:02:41.67,Sub,,0,0,0,,agua, entran {\c&H3CC8FF&}en{\c&HFFFFFF&} la bomba y
+Dialogue: 0,0:02:41.67,0:02:41.77,Sub,,0,0,0,,agua, entran en {\c&H3CC8FF&}la{\c&HFFFFFF&} bomba y
+Dialogue: 0,0:02:41.77,0:02:42.21,Sub,,0,0,0,,agua, entran en la {\c&H3CC8FF&}bomba{\c&HFFFFFF&} y
+Dialogue: 0,0:02:42.21,0:02:42.29,Sub,,0,0,0,,agua, entran en la bomba {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.29,0:02:42.39,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} traban.
+Dialogue: 0,0:02:42.39,0:02:42.44,Sub,,0,0,0,,la {\c&H3CC8FF&}traban.{\c&HFFFFFF&}
+Dialogue: 0,0:02:42.96,0:02:43.42,Sub,,0,0,0,,{\c&H3CC8FF&}Pones{\c&HFFFFFF&} un colador antes de la
+Dialogue: 0,0:02:43.42,0:02:43.58,Sub,,0,0,0,,Pones {\c&H3CC8FF&}un{\c&HFFFFFF&} colador antes de la
+Dialogue: 0,0:02:43.58,0:02:43.94,Sub,,0,0,0,,Pones un {\c&H3CC8FF&}colador{\c&HFFFFFF&} antes de la
+Dialogue: 0,0:02:43.94,0:02:44.16,Sub,,0,0,0,,Pones un colador {\c&H3CC8FF&}antes{\c&HFFFFFF&} de la
+Dialogue: 0,0:02:44.16,0:02:44.32,Sub,,0,0,0,,Pones un colador antes {\c&H3CC8FF&}de{\c&HFFFFFF&} la
+Dialogue: 0,0:02:44.32,0:02:44.42,Sub,,0,0,0,,Pones un colador antes de {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:02:44.42,0:02:44.96,Sub,,0,0,0,,{\c&H3CC8FF&}bomba,{\c&HFFFFFF&} con una tapita en el
+Dialogue: 0,0:02:44.96,0:02:45.16,Sub,,0,0,0,,bomba, {\c&H3CC8FF&}con{\c&HFFFFFF&} una tapita en el
+Dialogue: 0,0:02:45.16,0:02:45.34,Sub,,0,0,0,,bomba, con {\c&H3CC8FF&}una{\c&HFFFFFF&} tapita en el
+Dialogue: 0,0:02:45.34,0:02:45.76,Sub,,0,0,0,,bomba, con una {\c&H3CC8FF&}tapita{\c&HFFFFFF&} en el
+Dialogue: 0,0:02:45.76,0:02:45.84,Sub,,0,0,0,,bomba, con una tapita {\c&H3CC8FF&}en{\c&HFFFFFF&} el
+Dialogue: 0,0:02:45.84,0:02:45.94,Sub,,0,0,0,,bomba, con una tapita en {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:02:45.94,0:02:46.14,Sub,,0,0,0,,{\c&H3CC8FF&}frente{\c&HFFFFFF&} de la lavadora para abrirlo
+Dialogue: 0,0:02:46.14,0:02:46.34,Sub,,0,0,0,,frente {\c&H3CC8FF&}de{\c&HFFFFFF&} la lavadora para abrirlo
+Dialogue: 0,0:02:46.34,0:02:46.42,Sub,,0,0,0,,frente de {\c&H3CC8FF&}la{\c&HFFFFFF&} lavadora para abrirlo
+Dialogue: 0,0:02:46.42,0:02:46.84,Sub,,0,0,0,,frente de la {\c&H3CC8FF&}lavadora{\c&HFFFFFF&} para abrirlo
+Dialogue: 0,0:02:46.84,0:02:47.04,Sub,,0,0,0,,frente de la lavadora {\c&H3CC8FF&}para{\c&HFFFFFF&} abrirlo
+Dialogue: 0,0:02:47.04,0:02:47.48,Sub,,0,0,0,,frente de la lavadora para {\c&H3CC8FF&}abrirlo{\c&HFFFFFF&}
+Dialogue: 0,0:02:47.48,0:02:47.70,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} sacar lo que se atasca.
+Dialogue: 0,0:02:47.70,0:02:47.90,Sub,,0,0,0,,y {\c&H3CC8FF&}sacar{\c&HFFFFFF&} lo que se atasca.
+Dialogue: 0,0:02:47.90,0:02:48.12,Sub,,0,0,0,,y sacar {\c&H3CC8FF&}lo{\c&HFFFFFF&} que se atasca.
+Dialogue: 0,0:02:48.12,0:02:48.22,Sub,,0,0,0,,y sacar lo {\c&H3CC8FF&}que{\c&HFFFFFF&} se atasca.
+Dialogue: 0,0:02:48.22,0:02:48.34,Sub,,0,0,0,,y sacar lo que {\c&H3CC8FF&}se{\c&HFFFFFF&} atasca.
+Dialogue: 0,0:02:48.34,0:02:49.14,Sub,,0,0,0,,y sacar lo que se {\c&H3CC8FF&}atasca.{\c&HFFFFFF&}
+Dialogue: 0,0:02:49.14,0:02:49.42,Sub,,0,0,0,,{\c&H3CC8FF&}Ese{\c&HFFFFFF&} es el filtro, y casi
+Dialogue: 0,0:02:49.42,0:02:49.54,Sub,,0,0,0,,Ese {\c&H3CC8FF&}es{\c&HFFFFFF&} el filtro, y casi
+Dialogue: 0,0:02:49.54,0:02:49.66,Sub,,0,0,0,,Ese es {\c&H3CC8FF&}el{\c&HFFFFFF&} filtro, y casi
+Dialogue: 0,0:02:49.66,0:02:50.26,Sub,,0,0,0,,Ese es el {\c&H3CC8FF&}filtro,{\c&HFFFFFF&} y casi
+Dialogue: 0,0:02:50.26,0:02:50.32,Sub,,0,0,0,,Ese es el filtro, {\c&H3CC8FF&}y{\c&HFFFFFF&} casi
+Dialogue: 0,0:02:50.32,0:02:50.52,Sub,,0,0,0,,Ese es el filtro, y {\c&H3CC8FF&}casi{\c&HFFFFFF&}
+Dialogue: 0,0:02:50.52,0:02:50.92,Sub,,0,0,0,,{\c&H3CC8FF&}nadie{\c&HFFFFFF&} sabe que existe.
+Dialogue: 0,0:02:50.92,0:02:51.24,Sub,,0,0,0,,nadie {\c&H3CC8FF&}sabe{\c&HFFFFFF&} que existe.
+Dialogue: 0,0:02:51.24,0:02:51.42,Sub,,0,0,0,,nadie sabe {\c&H3CC8FF&}que{\c&HFFFFFF&} existe.
+Dialogue: 0,0:02:51.42,0:02:51.47,Sub,,0,0,0,,nadie sabe que {\c&H3CC8FF&}existe.{\c&HFFFFFF&}
+Dialogue: 0,0:02:51.99,0:02:52.09,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} la ropa sale chorreando. Pesa
+Dialogue: 0,0:02:52.09,0:02:52.23,Sub,,0,0,0,,Pero {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa sale chorreando. Pesa
+Dialogue: 0,0:02:52.23,0:02:52.55,Sub,,0,0,0,,Pero la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} sale chorreando. Pesa
+Dialogue: 0,0:02:52.55,0:02:52.75,Sub,,0,0,0,,Pero la ropa {\c&H3CC8FF&}sale{\c&HFFFFFF&} chorreando. Pesa
+Dialogue: 0,0:02:52.75,0:02:53.75,Sub,,0,0,0,,Pero la ropa sale {\c&H3CC8FF&}chorreando.{\c&HFFFFFF&} Pesa
+Dialogue: 0,0:02:53.75,0:02:54.03,Sub,,0,0,0,,Pero la ropa sale chorreando. {\c&H3CC8FF&}Pesa{\c&HFFFFFF&}
+Dialogue: 0,0:02:54.03,0:02:54.17,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} doble, y en el tendedero
+Dialogue: 0,0:02:54.17,0:02:54.79,Sub,,0,0,0,,el {\c&H3CC8FF&}doble,{\c&HFFFFFF&} y en el tendedero
+Dialogue: 0,0:02:54.79,0:02:54.87,Sub,,0,0,0,,el doble, {\c&H3CC8FF&}y{\c&HFFFFFF&} en el tendedero
+Dialogue: 0,0:02:54.87,0:02:54.97,Sub,,0,0,0,,el doble, y {\c&H3CC8FF&}en{\c&HFFFFFF&} el tendedero
+Dialogue: 0,0:02:54.97,0:02:55.07,Sub,,0,0,0,,el doble, y en {\c&H3CC8FF&}el{\c&HFFFFFF&} tendedero
+Dialogue: 0,0:02:55.07,0:02:55.53,Sub,,0,0,0,,el doble, y en el {\c&H3CC8FF&}tendedero{\c&HFFFFFF&}
+Dialogue: 0,0:02:55.53,0:02:55.83,Sub,,0,0,0,,{\c&H3CC8FF&}tarda{\c&HFFFFFF&} días en secarse.
+Dialogue: 0,0:02:55.83,0:02:56.09,Sub,,0,0,0,,tarda {\c&H3CC8FF&}días{\c&HFFFFFF&} en secarse.
+Dialogue: 0,0:02:56.09,0:02:56.39,Sub,,0,0,0,,tarda días {\c&H3CC8FF&}en{\c&HFFFFFF&} secarse.
+Dialogue: 0,0:02:56.39,0:02:56.57,Sub,,0,0,0,,tarda días en {\c&H3CC8FF&}secarse.{\c&HFFFFFF&}
+Dialogue: 0,0:02:57.09,0:02:57.23,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que pones el tambor a
+Dialogue: 0,0:02:57.23,0:02:57.35,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} pones el tambor a
+Dialogue: 0,0:02:57.35,0:02:57.61,Sub,,0,0,0,,Así que {\c&H3CC8FF&}pones{\c&HFFFFFF&} el tambor a
+Dialogue: 0,0:02:57.61,0:02:57.75,Sub,,0,0,0,,Así que pones {\c&H3CC8FF&}el{\c&HFFFFFF&} tambor a
+Dialogue: 0,0:02:57.75,0:02:58.13,Sub,,0,0,0,,Así que pones el {\c&H3CC8FF&}tambor{\c&HFFFFFF&} a
+Dialogue: 0,0:02:58.13,0:02:58.21,Sub,,0,0,0,,Así que pones el tambor {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:02:58.21,0:02:58.49,Sub,,0,0,0,,{\c&H3CC8FF&}girar{\c&HFFFFFF&} rapidísimo, más de mil vueltas
+Dialogue: 0,0:02:58.49,0:02:59.39,Sub,,0,0,0,,girar {\c&H3CC8FF&}rapidísimo,{\c&HFFFFFF&} más de mil vueltas
+Dialogue: 0,0:02:59.39,0:02:59.57,Sub,,0,0,0,,girar rapidísimo, {\c&H3CC8FF&}más{\c&HFFFFFF&} de mil vueltas
+Dialogue: 0,0:02:59.57,0:02:59.73,Sub,,0,0,0,,girar rapidísimo, más {\c&H3CC8FF&}de{\c&HFFFFFF&} mil vueltas
+Dialogue: 0,0:02:59.73,0:02:59.87,Sub,,0,0,0,,girar rapidísimo, más de {\c&H3CC8FF&}mil{\c&HFFFFFF&} vueltas
+Dialogue: 0,0:02:59.87,0:03:00.29,Sub,,0,0,0,,girar rapidísimo, más de mil {\c&H3CC8FF&}vueltas{\c&HFFFFFF&}
+Dialogue: 0,0:03:00.29,0:03:00.45,Sub,,0,0,0,,{\c&H3CC8FF&}por{\c&HFFFFFF&} minuto. La ropa se pega
+Dialogue: 0,0:03:00.45,0:03:01.21,Sub,,0,0,0,,por {\c&H3CC8FF&}minuto.{\c&HFFFFFF&} La ropa se pega
+Dialogue: 0,0:03:01.21,0:03:01.31,Sub,,0,0,0,,por minuto. {\c&H3CC8FF&}La{\c&HFFFFFF&} ropa se pega
+Dialogue: 0,0:03:01.31,0:03:01.55,Sub,,0,0,0,,por minuto. La {\c&H3CC8FF&}ropa{\c&HFFFFFF&} se pega
+Dialogue: 0,0:03:01.55,0:03:01.67,Sub,,0,0,0,,por minuto. La ropa {\c&H3CC8FF&}se{\c&HFFFFFF&} pega
+Dialogue: 0,0:03:01.67,0:03:01.85,Sub,,0,0,0,,por minuto. La ropa se {\c&H3CC8FF&}pega{\c&HFFFFFF&}
+Dialogue: 0,0:03:01.85,0:03:02.13,Sub,,0,0,0,,{\c&H3CC8FF&}contra{\c&HFFFFFF&} las paredes y el agua
+Dialogue: 0,0:03:02.13,0:03:02.35,Sub,,0,0,0,,contra {\c&H3CC8FF&}las{\c&HFFFFFF&} paredes y el agua
+Dialogue: 0,0:03:02.35,0:03:02.85,Sub,,0,0,0,,contra las {\c&H3CC8FF&}paredes{\c&HFFFFFF&} y el agua
+Dialogue: 0,0:03:02.85,0:03:03.11,Sub,,0,0,0,,contra las paredes {\c&H3CC8FF&}y{\c&HFFFFFF&} el agua
+Dialogue: 0,0:03:03.11,0:03:03.23,Sub,,0,0,0,,contra las paredes y {\c&H3CC8FF&}el{\c&HFFFFFF&} agua
+Dialogue: 0,0:03:03.23,0:03:03.41,Sub,,0,0,0,,contra las paredes y el {\c&H3CC8FF&}agua{\c&HFFFFFF&}
+Dialogue: 0,0:03:03.41,0:03:03.61,Sub,,0,0,0,,{\c&H3CC8FF&}sale{\c&HFFFFFF&} disparada por los huequitos. Eso
+Dialogue: 0,0:03:03.61,0:03:04.17,Sub,,0,0,0,,sale {\c&H3CC8FF&}disparada{\c&HFFFFFF&} por los huequitos. Eso
+Dialogue: 0,0:03:04.17,0:03:04.33,Sub,,0,0,0,,sale disparada {\c&H3CC8FF&}por{\c&HFFFFFF&} los huequitos. Eso
+Dialogue: 0,0:03:04.33,0:03:04.47,Sub,,0,0,0,,sale disparada por {\c&H3CC8FF&}los{\c&HFFFFFF&} huequitos. Eso
+Dialogue: 0,0:03:04.47,0:03:05.37,Sub,,0,0,0,,sale disparada por los {\c&H3CC8FF&}huequitos.{\c&HFFFFFF&} Eso
+Dialogue: 0,0:03:05.37,0:03:05.61,Sub,,0,0,0,,sale disparada por los huequitos. {\c&H3CC8FF&}Eso{\c&HFFFFFF&}
+Dialogue: 0,0:03:05.61,0:03:05.77,Sub,,0,0,0,,{\c&H3CC8FF&}es{\c&HFFFFFF&} el centrifugado.
+Dialogue: 0,0:03:05.77,0:03:05.89,Sub,,0,0,0,,es {\c&H3CC8FF&}el{\c&HFFFFFF&} centrifugado.
+Dialogue: 0,0:03:05.89,0:03:06.27,Sub,,0,0,0,,es el {\c&H3CC8FF&}centrifugado.{\c&HFFFFFF&}
+Dialogue: 0,0:03:06.79,0:03:06.91,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} la ropa nunca queda pareja.
+Dialogue: 0,0:03:06.91,0:03:07.05,Sub,,0,0,0,,Pero {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa nunca queda pareja.
+Dialogue: 0,0:03:07.05,0:03:07.39,Sub,,0,0,0,,Pero la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} nunca queda pareja.
+Dialogue: 0,0:03:07.39,0:03:07.77,Sub,,0,0,0,,Pero la ropa {\c&H3CC8FF&}nunca{\c&HFFFFFF&} queda pareja.
+Dialogue: 0,0:03:07.77,0:03:08.19,Sub,,0,0,0,,Pero la ropa nunca {\c&H3CC8FF&}queda{\c&HFFFFFF&} pareja.
+Dialogue: 0,0:03:08.19,0:03:08.95,Sub,,0,0,0,,Pero la ropa nunca queda {\c&H3CC8FF&}pareja.{\c&HFFFFFF&}
+Dialogue: 0,0:03:08.95,0:03:09.13,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} un lado pesa más, el
+Dialogue: 0,0:03:09.13,0:03:09.25,Sub,,0,0,0,,Si {\c&H3CC8FF&}un{\c&HFFFFFF&} lado pesa más, el
+Dialogue: 0,0:03:09.25,0:03:09.39,Sub,,0,0,0,,Si un {\c&H3CC8FF&}lado{\c&HFFFFFF&} pesa más, el
+Dialogue: 0,0:03:09.39,0:03:09.77,Sub,,0,0,0,,Si un lado {\c&H3CC8FF&}pesa{\c&HFFFFFF&} más, el
+Dialogue: 0,0:03:09.77,0:03:10.19,Sub,,0,0,0,,Si un lado pesa {\c&H3CC8FF&}más,{\c&HFFFFFF&} el
+Dialogue: 0,0:03:10.19,0:03:10.27,Sub,,0,0,0,,Si un lado pesa más, {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:03:10.27,0:03:10.65,Sub,,0,0,0,,{\c&H3CC8FF&}tambor{\c&HFFFFFF&} se tambalea, y la lavadora
+Dialogue: 0,0:03:10.65,0:03:10.79,Sub,,0,0,0,,tambor {\c&H3CC8FF&}se{\c&HFFFFFF&} tambalea, y la lavadora
+Dialogue: 0,0:03:10.79,0:03:11.57,Sub,,0,0,0,,tambor se {\c&H3CC8FF&}tambalea,{\c&HFFFFFF&} y la lavadora
+Dialogue: 0,0:03:11.57,0:03:11.77,Sub,,0,0,0,,tambor se tambalea, {\c&H3CC8FF&}y{\c&HFFFFFF&} la lavadora
+Dialogue: 0,0:03:11.77,0:03:11.85,Sub,,0,0,0,,tambor se tambalea, y {\c&H3CC8FF&}la{\c&HFFFFFF&} lavadora
+Dialogue: 0,0:03:11.85,0:03:12.23,Sub,,0,0,0,,tambor se tambalea, y la {\c&H3CC8FF&}lavadora{\c&HFFFFFF&}
+Dialogue: 0,0:03:12.23,0:03:12.71,Sub,,0,0,0,,{\c&H3CC8FF&}salta{\c&HFFFFFF&} y camina por el piso.
+Dialogue: 0,0:03:12.71,0:03:12.89,Sub,,0,0,0,,salta {\c&H3CC8FF&}y{\c&HFFFFFF&} camina por el piso.
+Dialogue: 0,0:03:12.89,0:03:13.25,Sub,,0,0,0,,salta y {\c&H3CC8FF&}camina{\c&HFFFFFF&} por el piso.
+Dialogue: 0,0:03:13.25,0:03:13.39,Sub,,0,0,0,,salta y camina {\c&H3CC8FF&}por{\c&HFFFFFF&} el piso.
+Dialogue: 0,0:03:13.39,0:03:13.51,Sub,,0,0,0,,salta y camina por {\c&H3CC8FF&}el{\c&HFFFFFF&} piso.
+Dialogue: 0,0:03:13.51,0:03:13.56,Sub,,0,0,0,,salta y camina por el {\c&H3CC8FF&}piso.{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.06,0:03:14.22,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pegas a la
+Dialogue: 0,0:03:14.22,0:03:14.36,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pegas a la
+Dialogue: 0,0:03:14.36,0:03:14.46,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pegas a la
+Dialogue: 0,0:03:14.46,0:03:14.76,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pegas{\c&HFFFFFF&} a la
+Dialogue: 0,0:03:14.76,0:03:14.88,Sub,,0,0,0,,Así que le pegas {\c&H3CC8FF&}a{\c&HFFFFFF&} la
+Dialogue: 0,0:03:14.88,0:03:14.94,Sub,,0,0,0,,Así que le pegas a {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:03:14.94,0:03:15.26,Sub,,0,0,0,,{\c&H3CC8FF&}tina{\c&HFFFFFF&} unos bloques de concreto, pesadísimos.
+Dialogue: 0,0:03:15.26,0:03:15.54,Sub,,0,0,0,,tina {\c&H3CC8FF&}unos{\c&HFFFFFF&} bloques de concreto, pesadísimos.
+Dialogue: 0,0:03:15.54,0:03:15.92,Sub,,0,0,0,,tina unos {\c&H3CC8FF&}bloques{\c&HFFFFFF&} de concreto, pesadísimos.
+Dialogue: 0,0:03:15.92,0:03:16.04,Sub,,0,0,0,,tina unos bloques {\c&H3CC8FF&}de{\c&HFFFFFF&} concreto, pesadísimos.
+Dialogue: 0,0:03:16.04,0:03:16.74,Sub,,0,0,0,,tina unos bloques de {\c&H3CC8FF&}concreto,{\c&HFFFFFF&} pesadísimos.
+Dialogue: 0,0:03:16.74,0:03:17.88,Sub,,0,0,0,,tina unos bloques de concreto, {\c&H3CC8FF&}pesadísimos.{\c&HFFFFFF&}
+Dialogue: 0,0:03:17.88,0:03:18.02,Sub,,0,0,0,,{\c&H3CC8FF&}Con{\c&HFFFFFF&} tanto peso, la ropa ya
+Dialogue: 0,0:03:18.02,0:03:18.30,Sub,,0,0,0,,Con {\c&H3CC8FF&}tanto{\c&HFFFFFF&} peso, la ropa ya
+Dialogue: 0,0:03:18.30,0:03:19.08,Sub,,0,0,0,,Con tanto {\c&H3CC8FF&}peso,{\c&HFFFFFF&} la ropa ya
+Dialogue: 0,0:03:19.08,0:03:19.18,Sub,,0,0,0,,Con tanto peso, {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa ya
+Dialogue: 0,0:03:19.18,0:03:19.58,Sub,,0,0,0,,Con tanto peso, la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} ya
+Dialogue: 0,0:03:19.58,0:03:19.86,Sub,,0,0,0,,Con tanto peso, la ropa {\c&H3CC8FF&}ya{\c&HFFFFFF&}
+Dialogue: 0,0:03:19.86,0:03:20.14,Sub,,0,0,0,,{\c&H3CC8FF&}casi{\c&HFFFFFF&} no la mueve. Esos son
+Dialogue: 0,0:03:20.14,0:03:20.40,Sub,,0,0,0,,casi {\c&H3CC8FF&}no{\c&HFFFFFF&} la mueve. Esos son
+Dialogue: 0,0:03:20.40,0:03:20.52,Sub,,0,0,0,,casi no {\c&H3CC8FF&}la{\c&HFFFFFF&} mueve. Esos son
+Dialogue: 0,0:03:20.52,0:03:21.34,Sub,,0,0,0,,casi no la {\c&H3CC8FF&}mueve.{\c&HFFFFFF&} Esos son
+Dialogue: 0,0:03:21.34,0:03:21.64,Sub,,0,0,0,,casi no la mueve. {\c&H3CC8FF&}Esos{\c&HFFFFFF&} son
+Dialogue: 0,0:03:21.64,0:03:21.84,Sub,,0,0,0,,casi no la mueve. Esos {\c&H3CC8FF&}son{\c&HFFFFFF&}
+Dialogue: 0,0:03:21.84,0:03:21.96,Sub,,0,0,0,,{\c&H3CC8FF&}los{\c&HFFFFFF&} contrapesos, y por eso una
+Dialogue: 0,0:03:21.96,0:03:22.84,Sub,,0,0,0,,los {\c&H3CC8FF&}contrapesos,{\c&HFFFFFF&} y por eso una
+Dialogue: 0,0:03:22.84,0:03:22.90,Sub,,0,0,0,,los contrapesos, {\c&H3CC8FF&}y{\c&HFFFFFF&} por eso una
+Dialogue: 0,0:03:22.90,0:03:23.08,Sub,,0,0,0,,los contrapesos, y {\c&H3CC8FF&}por{\c&HFFFFFF&} eso una
+Dialogue: 0,0:03:23.08,0:03:23.30,Sub,,0,0,0,,los contrapesos, y por {\c&H3CC8FF&}eso{\c&HFFFFFF&} una
+Dialogue: 0,0:03:23.30,0:03:23.60,Sub,,0,0,0,,los contrapesos, y por eso {\c&H3CC8FF&}una{\c&HFFFFFF&}
+Dialogue: 0,0:03:23.60,0:03:23.98,Sub,,0,0,0,,{\c&H3CC8FF&}lavadora{\c&HFFFFFF&} pesa tanto.
+Dialogue: 0,0:03:23.98,0:03:24.34,Sub,,0,0,0,,lavadora {\c&H3CC8FF&}pesa{\c&HFFFFFF&} tanto.
+Dialogue: 0,0:03:24.34,0:03:24.39,Sub,,0,0,0,,lavadora pesa {\c&H3CC8FF&}tanto.{\c&HFFFFFF&}
+Dialogue: 0,0:03:24.79,0:03:24.91,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} si la tina está pegada
+Dialogue: 0,0:03:24.91,0:03:25.03,Sub,,0,0,0,,Pero {\c&H3CC8FF&}si{\c&HFFFFFF&} la tina está pegada
+Dialogue: 0,0:03:25.03,0:03:25.17,Sub,,0,0,0,,Pero si {\c&H3CC8FF&}la{\c&HFFFFFF&} tina está pegada
+Dialogue: 0,0:03:25.17,0:03:25.41,Sub,,0,0,0,,Pero si la {\c&H3CC8FF&}tina{\c&HFFFFFF&} está pegada
+Dialogue: 0,0:03:25.41,0:03:25.59,Sub,,0,0,0,,Pero si la tina {\c&H3CC8FF&}está{\c&HFFFFFF&} pegada
+Dialogue: 0,0:03:25.59,0:03:26.03,Sub,,0,0,0,,Pero si la tina está {\c&H3CC8FF&}pegada{\c&HFFFFFF&}
+Dialogue: 0,0:03:26.03,0:03:26.11,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} la carcasa, todo el temblor
+Dialogue: 0,0:03:26.11,0:03:26.19,Sub,,0,0,0,,a {\c&H3CC8FF&}la{\c&HFFFFFF&} carcasa, todo el temblor
+Dialogue: 0,0:03:26.19,0:03:26.79,Sub,,0,0,0,,a la {\c&H3CC8FF&}carcasa,{\c&HFFFFFF&} todo el temblor
+Dialogue: 0,0:03:26.79,0:03:27.27,Sub,,0,0,0,,a la carcasa, {\c&H3CC8FF&}todo{\c&HFFFFFF&} el temblor
+Dialogue: 0,0:03:27.27,0:03:27.43,Sub,,0,0,0,,a la carcasa, todo {\c&H3CC8FF&}el{\c&HFFFFFF&} temblor
+Dialogue: 0,0:03:27.43,0:03:27.85,Sub,,0,0,0,,a la carcasa, todo el {\c&H3CC8FF&}temblor{\c&HFFFFFF&}
+Dialogue: 0,0:03:27.85,0:03:28.11,Sub,,0,0,0,,{\c&H3CC8FF&}pasa{\c&HFFFFFF&} al piso y suena como
+Dialogue: 0,0:03:28.11,0:03:28.33,Sub,,0,0,0,,pasa {\c&H3CC8FF&}al{\c&HFFFFFF&} piso y suena como
+Dialogue: 0,0:03:28.33,0:03:28.65,Sub,,0,0,0,,pasa al {\c&H3CC8FF&}piso{\c&HFFFFFF&} y suena como
+Dialogue: 0,0:03:28.65,0:03:28.89,Sub,,0,0,0,,pasa al piso {\c&H3CC8FF&}y{\c&HFFFFFF&} suena como
+Dialogue: 0,0:03:28.89,0:03:29.17,Sub,,0,0,0,,pasa al piso y {\c&H3CC8FF&}suena{\c&HFFFFFF&} como
+Dialogue: 0,0:03:29.17,0:03:29.35,Sub,,0,0,0,,pasa al piso y suena {\c&H3CC8FF&}como{\c&HFFFFFF&}
+Dialogue: 0,0:03:29.35,0:03:29.49,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} terremoto.
+Dialogue: 0,0:03:29.49,0:03:29.64,Sub,,0,0,0,,un {\c&H3CC8FF&}terremoto.{\c&HFFFFFF&}
+Dialogue: 0,0:03:35.08,0:03:37.43,Sub,,0,0,0,,{\c&H3CC8FF&}¡Suscríbete!{\c&HFFFFFF&}
+Dialogue: 0,0:03:37.95,0:03:38.05,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} si abres la puerta en
+Dialogue: 0,0:03:38.05,0:03:38.17,Sub,,0,0,0,,Pero {\c&H3CC8FF&}si{\c&HFFFFFF&} abres la puerta en
+Dialogue: 0,0:03:38.17,0:03:38.41,Sub,,0,0,0,,Pero si {\c&H3CC8FF&}abres{\c&HFFFFFF&} la puerta en
+Dialogue: 0,0:03:38.41,0:03:38.53,Sub,,0,0,0,,Pero si abres {\c&H3CC8FF&}la{\c&HFFFFFF&} puerta en
+Dialogue: 0,0:03:38.53,0:03:38.75,Sub,,0,0,0,,Pero si abres la {\c&H3CC8FF&}puerta{\c&HFFFFFF&} en
+Dialogue: 0,0:03:38.75,0:03:38.99,Sub,,0,0,0,,Pero si abres la puerta {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:03:38.99,0:03:39.25,Sub,,0,0,0,,{\c&H3CC8FF&}pleno{\c&HFFFFFF&} lavado, se te sale toda
+Dialogue: 0,0:03:39.25,0:03:39.99,Sub,,0,0,0,,pleno {\c&H3CC8FF&}lavado,{\c&HFFFFFF&} se te sale toda
+Dialogue: 0,0:03:39.99,0:03:40.09,Sub,,0,0,0,,pleno lavado, {\c&H3CC8FF&}se{\c&HFFFFFF&} te sale toda
+Dialogue: 0,0:03:40.09,0:03:40.23,Sub,,0,0,0,,pleno lavado, se {\c&H3CC8FF&}te{\c&HFFFFFF&} sale toda
+Dialogue: 0,0:03:40.23,0:03:40.43,Sub,,0,0,0,,pleno lavado, se te {\c&H3CC8FF&}sale{\c&HFFFFFF&} toda
+Dialogue: 0,0:03:40.43,0:03:40.83,Sub,,0,0,0,,pleno lavado, se te sale {\c&H3CC8FF&}toda{\c&HFFFFFF&}
+Dialogue: 0,0:03:40.83,0:03:40.97,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} agua, y si la abres
+Dialogue: 0,0:03:40.97,0:03:41.47,Sub,,0,0,0,,el {\c&H3CC8FF&}agua,{\c&HFFFFFF&} y si la abres
+Dialogue: 0,0:03:41.47,0:03:41.55,Sub,,0,0,0,,el agua, {\c&H3CC8FF&}y{\c&HFFFFFF&} si la abres
+Dialogue: 0,0:03:41.55,0:03:41.65,Sub,,0,0,0,,el agua, y {\c&H3CC8FF&}si{\c&HFFFFFF&} la abres
+Dialogue: 0,0:03:41.65,0:03:41.79,Sub,,0,0,0,,el agua, y si {\c&H3CC8FF&}la{\c&HFFFFFF&} abres
+Dialogue: 0,0:03:41.79,0:03:42.03,Sub,,0,0,0,,el agua, y si la {\c&H3CC8FF&}abres{\c&HFFFFFF&}
+Dialogue: 0,0:03:42.03,0:03:42.75,Sub,,0,0,0,,{\c&H3CC8FF&}girando,{\c&HFFFFFF&} te puedes lastimar la mano.
+Dialogue: 0,0:03:42.75,0:03:42.87,Sub,,0,0,0,,girando, {\c&H3CC8FF&}te{\c&HFFFFFF&} puedes lastimar la mano.
+Dialogue: 0,0:03:42.87,0:03:43.11,Sub,,0,0,0,,girando, te {\c&H3CC8FF&}puedes{\c&HFFFFFF&} lastimar la mano.
+Dialogue: 0,0:03:43.11,0:03:43.53,Sub,,0,0,0,,girando, te puedes {\c&H3CC8FF&}lastimar{\c&HFFFFFF&} la mano.
+Dialogue: 0,0:03:43.53,0:03:43.69,Sub,,0,0,0,,girando, te puedes lastimar {\c&H3CC8FF&}la{\c&HFFFFFF&} mano.
+Dialogue: 0,0:03:43.69,0:03:43.74,Sub,,0,0,0,,girando, te puedes lastimar la {\c&H3CC8FF&}mano.{\c&HFFFFFF&}
+Dialogue: 0,0:03:44.18,0:03:44.34,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones un seguro
+Dialogue: 0,0:03:44.34,0:03:44.46,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones un seguro
+Dialogue: 0,0:03:44.46,0:03:44.56,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones un seguro
+Dialogue: 0,0:03:44.56,0:03:44.84,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} un seguro
+Dialogue: 0,0:03:44.84,0:03:44.98,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}un{\c&HFFFFFF&} seguro
+Dialogue: 0,0:03:44.98,0:03:45.28,Sub,,0,0,0,,Así que le pones un {\c&H3CC8FF&}seguro{\c&HFFFFFF&}
+Dialogue: 0,0:03:45.28,0:03:45.48,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} traba la puerta mientras hay
+Dialogue: 0,0:03:45.48,0:03:45.76,Sub,,0,0,0,,que {\c&H3CC8FF&}traba{\c&HFFFFFF&} la puerta mientras hay
+Dialogue: 0,0:03:45.76,0:03:45.84,Sub,,0,0,0,,que traba {\c&H3CC8FF&}la{\c&HFFFFFF&} puerta mientras hay
+Dialogue: 0,0:03:45.84,0:03:46.16,Sub,,0,0,0,,que traba la {\c&H3CC8FF&}puerta{\c&HFFFFFF&} mientras hay
+Dialogue: 0,0:03:46.16,0:03:46.42,Sub,,0,0,0,,que traba la puerta {\c&H3CC8FF&}mientras{\c&HFFFFFF&} hay
+Dialogue: 0,0:03:46.42,0:03:46.76,Sub,,0,0,0,,que traba la puerta mientras {\c&H3CC8FF&}hay{\c&HFFFFFF&}
+Dialogue: 0,0:03:46.76,0:03:47.08,Sub,,0,0,0,,{\c&H3CC8FF&}agua{\c&HFFFFFF&} o el tambor gira. Por
+Dialogue: 0,0:03:47.08,0:03:47.38,Sub,,0,0,0,,agua {\c&H3CC8FF&}o{\c&HFFFFFF&} el tambor gira. Por
+Dialogue: 0,0:03:47.38,0:03:47.50,Sub,,0,0,0,,agua o {\c&H3CC8FF&}el{\c&HFFFFFF&} tambor gira. Por
+Dialogue: 0,0:03:47.50,0:03:47.80,Sub,,0,0,0,,agua o el {\c&H3CC8FF&}tambor{\c&HFFFFFF&} gira. Por
+Dialogue: 0,0:03:47.80,0:03:48.48,Sub,,0,0,0,,agua o el tambor {\c&H3CC8FF&}gira.{\c&HFFFFFF&} Por
+Dialogue: 0,0:03:48.48,0:03:48.66,Sub,,0,0,0,,agua o el tambor gira. {\c&H3CC8FF&}Por{\c&HFFFFFF&}
+Dialogue: 0,0:03:48.66,0:03:48.84,Sub,,0,0,0,,{\c&H3CC8FF&}eso{\c&HFFFFFF&} suena un clac al empezar,
+Dialogue: 0,0:03:48.84,0:03:49.16,Sub,,0,0,0,,eso {\c&H3CC8FF&}suena{\c&HFFFFFF&} un clac al empezar,
+Dialogue: 0,0:03:49.16,0:03:49.34,Sub,,0,0,0,,eso suena {\c&H3CC8FF&}un{\c&HFFFFFF&} clac al empezar,
+Dialogue: 0,0:03:49.34,0:03:49.56,Sub,,0,0,0,,eso suena un {\c&H3CC8FF&}clac{\c&HFFFFFF&} al empezar,
+Dialogue: 0,0:03:49.56,0:03:49.68,Sub,,0,0,0,,eso suena un clac {\c&H3CC8FF&}al{\c&HFFFFFF&} empezar,
+Dialogue: 0,0:03:49.68,0:03:50.38,Sub,,0,0,0,,eso suena un clac al {\c&H3CC8FF&}empezar,{\c&HFFFFFF&}
+Dialogue: 0,0:03:50.38,0:03:50.46,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} por eso esperas un rato
+Dialogue: 0,0:03:50.46,0:03:50.58,Sub,,0,0,0,,y {\c&H3CC8FF&}por{\c&HFFFFFF&} eso esperas un rato
+Dialogue: 0,0:03:50.58,0:03:50.78,Sub,,0,0,0,,y por {\c&H3CC8FF&}eso{\c&HFFFFFF&} esperas un rato
+Dialogue: 0,0:03:50.78,0:03:51.26,Sub,,0,0,0,,y por eso {\c&H3CC8FF&}esperas{\c&HFFFFFF&} un rato
+Dialogue: 0,0:03:51.26,0:03:51.40,Sub,,0,0,0,,y por eso esperas {\c&H3CC8FF&}un{\c&HFFFFFF&} rato
+Dialogue: 0,0:03:51.40,0:03:51.68,Sub,,0,0,0,,y por eso esperas un {\c&H3CC8FF&}rato{\c&HFFFFFF&}
+Dialogue: 0,0:03:51.68,0:03:51.78,Sub,,0,0,0,,{\c&H3CC8FF&}al{\c&HFFFFFF&} final antes de abrir.
+Dialogue: 0,0:03:51.78,0:03:52.02,Sub,,0,0,0,,al {\c&H3CC8FF&}final{\c&HFFFFFF&} antes de abrir.
+Dialogue: 0,0:03:52.02,0:03:52.42,Sub,,0,0,0,,al final {\c&H3CC8FF&}antes{\c&HFFFFFF&} de abrir.
+Dialogue: 0,0:03:52.42,0:03:52.60,Sub,,0,0,0,,al final antes {\c&H3CC8FF&}de{\c&HFFFFFF&} abrir.
+Dialogue: 0,0:03:52.60,0:03:52.65,Sub,,0,0,0,,al final antes de {\c&H3CC8FF&}abrir.{\c&HFFFFFF&}
+Dialogue: 0,0:03:53.03,0:03:53.08,Sub,,0,0,0,,{\c&H3CC8FF&}Gracias{\c&HFFFFFF&} por ver el video.
+Dialogue: 0,0:03:53.03,0:03:53.09,Sub,,0,0,0,,Gracias {\c&H3CC8FF&}por{\c&HFFFFFF&} ver el video.
+Dialogue: 0,0:03:53.09,0:03:53.23,Sub,,0,0,0,,Gracias por {\c&H3CC8FF&}ver{\c&HFFFFFF&} el video.
+Dialogue: 0,0:03:53.23,0:03:54.05,Sub,,0,0,0,,Gracias por ver {\c&H3CC8FF&}el{\c&HFFFFFF&} video.
+Dialogue: 0,0:03:54.05,0:03:56.08,Sub,,0,0,0,,Gracias por ver el {\c&H3CC8FF&}video.{\c&HFFFFFF&}
+Dialogue: 0,0:03:56.60,0:03:56.76,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones un fuelle
+Dialogue: 0,0:03:56.76,0:03:56.92,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones un fuelle
+Dialogue: 0,0:03:56.92,0:03:57.02,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones un fuelle
+Dialogue: 0,0:03:57.02,0:03:57.34,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} un fuelle
+Dialogue: 0,0:03:57.34,0:03:57.50,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}un{\c&HFFFFFF&} fuelle
+Dialogue: 0,0:03:57.50,0:03:57.86,Sub,,0,0,0,,Así que le pones un {\c&H3CC8FF&}fuelle{\c&HFFFFFF&}
+Dialogue: 0,0:03:57.86,0:03:58.00,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} goma, como un acordeón, que
+Dialogue: 0,0:03:58.00,0:03:58.48,Sub,,0,0,0,,de {\c&H3CC8FF&}goma,{\c&HFFFFFF&} como un acordeón, que
+Dialogue: 0,0:03:58.48,0:03:58.66,Sub,,0,0,0,,de goma, {\c&H3CC8FF&}como{\c&HFFFFFF&} un acordeón, que
+Dialogue: 0,0:03:58.66,0:03:58.82,Sub,,0,0,0,,de goma, como {\c&H3CC8FF&}un{\c&HFFFFFF&} acordeón, que
+Dialogue: 0,0:03:58.82,0:03:59.62,Sub,,0,0,0,,de goma, como un {\c&H3CC8FF&}acordeón,{\c&HFFFFFF&} que
+Dialogue: 0,0:03:59.62,0:03:59.82,Sub,,0,0,0,,de goma, como un acordeón, {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:03:59.82,0:03:59.96,Sub,,0,0,0,,{\c&H3CC8FF&}une{\c&HFFFFFF&} la tina con la puerta
+Dialogue: 0,0:03:59.96,0:04:00.12,Sub,,0,0,0,,une {\c&H3CC8FF&}la{\c&HFFFFFF&} tina con la puerta
+Dialogue: 0,0:04:00.12,0:04:00.36,Sub,,0,0,0,,une la {\c&H3CC8FF&}tina{\c&HFFFFFF&} con la puerta
+Dialogue: 0,0:04:00.36,0:04:00.54,Sub,,0,0,0,,une la tina {\c&H3CC8FF&}con{\c&HFFFFFF&} la puerta
+Dialogue: 0,0:04:00.54,0:04:00.66,Sub,,0,0,0,,une la tina con {\c&H3CC8FF&}la{\c&HFFFFFF&} puerta
+Dialogue: 0,0:04:00.66,0:04:00.94,Sub,,0,0,0,,une la tina con la {\c&H3CC8FF&}puerta{\c&HFFFFFF&}
+Dialogue: 0,0:04:00.94,0:04:01.20,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} se dobla cuando la tina
+Dialogue: 0,0:04:01.20,0:04:01.32,Sub,,0,0,0,,y {\c&H3CC8FF&}se{\c&HFFFFFF&} dobla cuando la tina
+Dialogue: 0,0:04:01.32,0:04:01.62,Sub,,0,0,0,,y se {\c&H3CC8FF&}dobla{\c&HFFFFFF&} cuando la tina
+Dialogue: 0,0:04:01.62,0:04:01.78,Sub,,0,0,0,,y se dobla {\c&H3CC8FF&}cuando{\c&HFFFFFF&} la tina
+Dialogue: 0,0:04:01.78,0:04:02.00,Sub,,0,0,0,,y se dobla cuando {\c&H3CC8FF&}la{\c&HFFFFFF&} tina
+Dialogue: 0,0:04:02.00,0:04:02.22,Sub,,0,0,0,,y se dobla cuando la {\c&H3CC8FF&}tina{\c&HFFFFFF&}
+Dialogue: 0,0:04:02.22,0:04:02.34,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} mueve. Ahí se esconden muchas
+Dialogue: 0,0:04:02.34,0:04:03.04,Sub,,0,0,0,,se {\c&H3CC8FF&}mueve.{\c&HFFFFFF&} Ahí se esconden muchas
+Dialogue: 0,0:04:03.04,0:04:03.24,Sub,,0,0,0,,se mueve. {\c&H3CC8FF&}Ahí{\c&HFFFFFF&} se esconden muchas
+Dialogue: 0,0:04:03.24,0:04:03.38,Sub,,0,0,0,,se mueve. Ahí {\c&H3CC8FF&}se{\c&HFFFFFF&} esconden muchas
+Dialogue: 0,0:04:03.38,0:04:03.76,Sub,,0,0,0,,se mueve. Ahí se {\c&H3CC8FF&}esconden{\c&HFFFFFF&} muchas
+Dialogue: 0,0:04:03.76,0:04:04.12,Sub,,0,0,0,,se mueve. Ahí se esconden {\c&H3CC8FF&}muchas{\c&HFFFFFF&}
+Dialogue: 0,0:04:04.12,0:04:04.56,Sub,,0,0,0,,{\c&H3CC8FF&}medias{\c&HFFFFFF&} perdidas.
+Dialogue: 0,0:04:04.56,0:04:04.82,Sub,,0,0,0,,medias {\c&H3CC8FF&}perdidas.{\c&HFFFFFF&}
+Dialogue: 0,0:04:05.34,0:04:05.46,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} ahora tienes válvula, motor, resistencia,
+Dialogue: 0,0:04:05.46,0:04:05.66,Sub,,0,0,0,,Pero {\c&H3CC8FF&}ahora{\c&HFFFFFF&} tienes válvula, motor, resistencia,
+Dialogue: 0,0:04:05.66,0:04:05.92,Sub,,0,0,0,,Pero ahora {\c&H3CC8FF&}tienes{\c&HFFFFFF&} válvula, motor, resistencia,
+Dialogue: 0,0:04:05.92,0:04:06.72,Sub,,0,0,0,,Pero ahora tienes {\c&H3CC8FF&}válvula,{\c&HFFFFFF&} motor, resistencia,
+Dialogue: 0,0:04:06.72,0:04:07.50,Sub,,0,0,0,,Pero ahora tienes válvula, {\c&H3CC8FF&}motor,{\c&HFFFFFF&} resistencia,
+Dialogue: 0,0:04:07.50,0:04:08.48,Sub,,0,0,0,,Pero ahora tienes válvula, motor, {\c&H3CC8FF&}resistencia,{\c&HFFFFFF&}
+Dialogue: 0,0:04:08.48,0:04:08.92,Sub,,0,0,0,,{\c&H3CC8FF&}bomba{\c&HFFFFFF&} y seguro. Si los prendes
+Dialogue: 0,0:04:08.92,0:04:09.24,Sub,,0,0,0,,bomba {\c&H3CC8FF&}y{\c&HFFFFFF&} seguro. Si los prendes
+Dialogue: 0,0:04:09.24,0:04:09.98,Sub,,0,0,0,,bomba y {\c&H3CC8FF&}seguro.{\c&HFFFFFF&} Si los prendes
+Dialogue: 0,0:04:09.98,0:04:10.12,Sub,,0,0,0,,bomba y seguro. {\c&H3CC8FF&}Si{\c&HFFFFFF&} los prendes
+Dialogue: 0,0:04:10.12,0:04:10.26,Sub,,0,0,0,,bomba y seguro. Si {\c&H3CC8FF&}los{\c&HFFFFFF&} prendes
+Dialogue: 0,0:04:10.26,0:04:10.60,Sub,,0,0,0,,bomba y seguro. Si los {\c&H3CC8FF&}prendes{\c&HFFFFFF&}
+Dialogue: 0,0:04:10.60,0:04:10.68,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} mano, uno por uno, te
+Dialogue: 0,0:04:10.68,0:04:11.18,Sub,,0,0,0,,a {\c&H3CC8FF&}mano,{\c&HFFFFFF&} uno por uno, te
+Dialogue: 0,0:04:11.18,0:04:11.32,Sub,,0,0,0,,a mano, {\c&H3CC8FF&}uno{\c&HFFFFFF&} por uno, te
+Dialogue: 0,0:04:11.32,0:04:11.50,Sub,,0,0,0,,a mano, uno {\c&H3CC8FF&}por{\c&HFFFFFF&} uno, te
+Dialogue: 0,0:04:11.50,0:04:12.14,Sub,,0,0,0,,a mano, uno por {\c&H3CC8FF&}uno,{\c&HFFFFFF&} te
+Dialogue: 0,0:04:12.14,0:04:12.22,Sub,,0,0,0,,a mano, uno por uno, {\c&H3CC8FF&}te{\c&HFFFFFF&}
+Dialogue: 0,0:04:12.22,0:04:12.56,Sub,,0,0,0,,{\c&H3CC8FF&}pasas{\c&HFFFFFF&} el día pegado a la
+Dialogue: 0,0:04:12.56,0:04:12.70,Sub,,0,0,0,,pasas {\c&H3CC8FF&}el{\c&HFFFFFF&} día pegado a la
+Dialogue: 0,0:04:12.70,0:04:12.86,Sub,,0,0,0,,pasas el {\c&H3CC8FF&}día{\c&HFFFFFF&} pegado a la
+Dialogue: 0,0:04:12.86,0:04:13.24,Sub,,0,0,0,,pasas el día {\c&H3CC8FF&}pegado{\c&HFFFFFF&} a la
+Dialogue: 0,0:04:13.24,0:04:13.30,Sub,,0,0,0,,pasas el día pegado {\c&H3CC8FF&}a{\c&HFFFFFF&} la
+Dialogue: 0,0:04:13.30,0:04:13.36,Sub,,0,0,0,,pasas el día pegado a {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:04:13.36,0:04:13.49,Sub,,0,0,0,,{\c&H3CC8FF&}lavadora.{\c&HFFFFFF&}
+Dialogue: 0,0:04:14.01,0:04:14.13,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} que le pones una perilla
+Dialogue: 0,0:04:14.13,0:04:14.25,Sub,,0,0,0,,Así {\c&H3CC8FF&}que{\c&HFFFFFF&} le pones una perilla
+Dialogue: 0,0:04:14.25,0:04:14.37,Sub,,0,0,0,,Así que {\c&H3CC8FF&}le{\c&HFFFFFF&} pones una perilla
+Dialogue: 0,0:04:14.37,0:04:14.61,Sub,,0,0,0,,Así que le {\c&H3CC8FF&}pones{\c&HFFFFFF&} una perilla
+Dialogue: 0,0:04:14.61,0:04:14.77,Sub,,0,0,0,,Así que le pones {\c&H3CC8FF&}una{\c&HFFFFFF&} perilla
+Dialogue: 0,0:04:14.77,0:04:15.23,Sub,,0,0,0,,Así que le pones una {\c&H3CC8FF&}perilla{\c&HFFFFFF&}
+Dialogue: 0,0:04:15.23,0:04:15.41,Sub,,0,0,0,,{\c&H3CC8FF&}con{\c&HFFFFFF&} un pequeño cerebro. Tú escoges
+Dialogue: 0,0:04:15.41,0:04:15.53,Sub,,0,0,0,,con {\c&H3CC8FF&}un{\c&HFFFFFF&} pequeño cerebro. Tú escoges
+Dialogue: 0,0:04:15.53,0:04:15.77,Sub,,0,0,0,,con un {\c&H3CC8FF&}pequeño{\c&HFFFFFF&} cerebro. Tú escoges
+Dialogue: 0,0:04:15.77,0:04:16.81,Sub,,0,0,0,,con un pequeño {\c&H3CC8FF&}cerebro.{\c&HFFFFFF&} Tú escoges
+Dialogue: 0,0:04:16.81,0:04:16.91,Sub,,0,0,0,,con un pequeño cerebro. {\c&H3CC8FF&}Tú{\c&HFFFFFF&} escoges
+Dialogue: 0,0:04:16.91,0:04:17.27,Sub,,0,0,0,,con un pequeño cerebro. Tú {\c&H3CC8FF&}escoges{\c&HFFFFFF&}
+Dialogue: 0,0:04:17.27,0:04:17.39,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} programa, y él decide cuándo
+Dialogue: 0,0:04:17.39,0:04:18.17,Sub,,0,0,0,,el {\c&H3CC8FF&}programa,{\c&HFFFFFF&} y él decide cuándo
+Dialogue: 0,0:04:18.17,0:04:18.22,Sub,,0,0,0,,el programa, {\c&H3CC8FF&}y{\c&HFFFFFF&} él decide cuándo
+Dialogue: 0,0:04:18.21,0:04:18.31,Sub,,0,0,0,,el programa, y {\c&H3CC8FF&}él{\c&HFFFFFF&} decide cuándo
+Dialogue: 0,0:04:18.31,0:04:18.55,Sub,,0,0,0,,el programa, y él {\c&H3CC8FF&}decide{\c&HFFFFFF&} cuándo
+Dialogue: 0,0:04:18.55,0:04:19.05,Sub,,0,0,0,,el programa, y él decide {\c&H3CC8FF&}cuándo{\c&HFFFFFF&}
+Dialogue: 0,0:04:19.05,0:04:19.23,Sub,,0,0,0,,{\c&H3CC8FF&}abrir{\c&HFFFFFF&} el agua, cuánto girar, cuándo
+Dialogue: 0,0:04:19.23,0:04:19.45,Sub,,0,0,0,,abrir {\c&H3CC8FF&}el{\c&HFFFFFF&} agua, cuánto girar, cuándo
+Dialogue: 0,0:04:19.45,0:04:20.03,Sub,,0,0,0,,abrir el {\c&H3CC8FF&}agua,{\c&HFFFFFF&} cuánto girar, cuándo
+Dialogue: 0,0:04:20.03,0:04:20.39,Sub,,0,0,0,,abrir el agua, {\c&H3CC8FF&}cuánto{\c&HFFFFFF&} girar, cuándo
+Dialogue: 0,0:04:20.39,0:04:21.05,Sub,,0,0,0,,abrir el agua, cuánto {\c&H3CC8FF&}girar,{\c&HFFFFFF&} cuándo
+Dialogue: 0,0:04:21.05,0:04:21.31,Sub,,0,0,0,,abrir el agua, cuánto girar, {\c&H3CC8FF&}cuándo{\c&HFFFFFF&}
+Dialogue: 0,0:04:21.31,0:04:21.75,Sub,,0,0,0,,{\c&H3CC8FF&}calentar{\c&HFFFFFF&} y cuándo exprimir.
+Dialogue: 0,0:04:21.75,0:04:21.99,Sub,,0,0,0,,calentar {\c&H3CC8FF&}y{\c&HFFFFFF&} cuándo exprimir.
+Dialogue: 0,0:04:21.99,0:04:22.25,Sub,,0,0,0,,calentar y {\c&H3CC8FF&}cuándo{\c&HFFFFFF&} exprimir.
+Dialogue: 0,0:04:22.25,0:04:22.41,Sub,,0,0,0,,calentar y cuándo {\c&H3CC8FF&}exprimir.{\c&HFFFFFF&}
+Dialogue: 0,0:04:22.93,0:04:23.05,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} así va. Entra el agua
+Dialogue: 0,0:04:23.05,0:04:23.17,Sub,,0,0,0,,Y {\c&H3CC8FF&}así{\c&HFFFFFF&} va. Entra el agua
+Dialogue: 0,0:04:23.17,0:04:23.75,Sub,,0,0,0,,Y así {\c&H3CC8FF&}va.{\c&HFFFFFF&} Entra el agua
+Dialogue: 0,0:04:23.75,0:04:24.07,Sub,,0,0,0,,Y así va. {\c&H3CC8FF&}Entra{\c&HFFFFFF&} el agua
+Dialogue: 0,0:04:24.07,0:04:24.21,Sub,,0,0,0,,Y así va. Entra {\c&H3CC8FF&}el{\c&HFFFFFF&} agua
+Dialogue: 0,0:04:24.21,0:04:24.45,Sub,,0,0,0,,Y así va. Entra el {\c&H3CC8FF&}agua{\c&HFFFFFF&}
+Dialogue: 0,0:04:24.45,0:04:24.69,Sub,,0,0,0,,{\c&H3CC8FF&}por{\c&HFFFFFF&} el jabón, calienta, el tambor
+Dialogue: 0,0:04:24.69,0:04:24.77,Sub,,0,0,0,,por {\c&H3CC8FF&}el{\c&HFFFFFF&} jabón, calienta, el tambor
+Dialogue: 0,0:04:24.77,0:04:25.45,Sub,,0,0,0,,por el {\c&H3CC8FF&}jabón,{\c&HFFFFFF&} calienta, el tambor
+Dialogue: 0,0:04:25.45,0:04:26.17,Sub,,0,0,0,,por el jabón, {\c&H3CC8FF&}calienta,{\c&HFFFFFF&} el tambor
+Dialogue: 0,0:04:26.17,0:04:26.23,Sub,,0,0,0,,por el jabón, calienta, {\c&H3CC8FF&}el{\c&HFFFFFF&} tambor
+Dialogue: 0,0:04:26.23,0:04:26.55,Sub,,0,0,0,,por el jabón, calienta, el {\c&H3CC8FF&}tambor{\c&HFFFFFF&}
+Dialogue: 0,0:04:26.55,0:04:26.65,Sub,,0,0,0,,{\c&H3CC8FF&}da{\c&HFFFFFF&} vueltas, la bomba saca el
+Dialogue: 0,0:04:26.65,0:04:27.47,Sub,,0,0,0,,da {\c&H3CC8FF&}vueltas,{\c&HFFFFFF&} la bomba saca el
+Dialogue: 0,0:04:27.47,0:04:27.53,Sub,,0,0,0,,da vueltas, {\c&H3CC8FF&}la{\c&HFFFFFF&} bomba saca el
+Dialogue: 0,0:04:27.53,0:04:27.79,Sub,,0,0,0,,da vueltas, la {\c&H3CC8FF&}bomba{\c&HFFFFFF&} saca el
+Dialogue: 0,0:04:27.79,0:04:28.07,Sub,,0,0,0,,da vueltas, la bomba {\c&H3CC8FF&}saca{\c&HFFFFFF&} el
+Dialogue: 0,0:04:28.07,0:04:28.15,Sub,,0,0,0,,da vueltas, la bomba saca {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:04:28.15,0:04:28.31,Sub,,0,0,0,,{\c&H3CC8FF&}agua{\c&HFFFFFF&} sucia, entra agua limpia para
+Dialogue: 0,0:04:28.31,0:04:28.97,Sub,,0,0,0,,agua {\c&H3CC8FF&}sucia,{\c&HFFFFFF&} entra agua limpia para
+Dialogue: 0,0:04:28.97,0:04:29.21,Sub,,0,0,0,,agua sucia, {\c&H3CC8FF&}entra{\c&HFFFFFF&} agua limpia para
+Dialogue: 0,0:04:29.21,0:04:29.51,Sub,,0,0,0,,agua sucia, entra {\c&H3CC8FF&}agua{\c&HFFFFFF&} limpia para
+Dialogue: 0,0:04:29.51,0:04:29.91,Sub,,0,0,0,,agua sucia, entra agua {\c&H3CC8FF&}limpia{\c&HFFFFFF&} para
+Dialogue: 0,0:04:29.91,0:04:30.07,Sub,,0,0,0,,agua sucia, entra agua limpia {\c&H3CC8FF&}para{\c&HFFFFFF&}
+Dialogue: 0,0:04:30.07,0:04:30.89,Sub,,0,0,0,,{\c&H3CC8FF&}enjuagar,{\c&HFFFFFF&} y al final centrifuga.
+Dialogue: 0,0:04:30.89,0:04:30.94,Sub,,0,0,0,,enjuagar, {\c&H3CC8FF&}y{\c&HFFFFFF&} al final centrifuga.
+Dialogue: 0,0:04:30.91,0:04:31.01,Sub,,0,0,0,,enjuagar, y {\c&H3CC8FF&}al{\c&HFFFFFF&} final centrifuga.
+Dialogue: 0,0:04:31.01,0:04:31.27,Sub,,0,0,0,,enjuagar, y al {\c&H3CC8FF&}final{\c&HFFFFFF&} centrifuga.
+Dialogue: 0,0:04:31.27,0:04:31.63,Sub,,0,0,0,,enjuagar, y al final {\c&H3CC8FF&}centrifuga.{\c&HFFFFFF&}
+Dialogue: 0,0:04:32.15,0:04:32.23,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} el suavizante tiene su propio
+Dialogue: 0,0:04:32.23,0:04:32.33,Sub,,0,0,0,,Y {\c&H3CC8FF&}el{\c&HFFFFFF&} suavizante tiene su propio
+Dialogue: 0,0:04:32.33,0:04:32.93,Sub,,0,0,0,,Y el {\c&H3CC8FF&}suavizante{\c&HFFFFFF&} tiene su propio
+Dialogue: 0,0:04:32.93,0:04:33.23,Sub,,0,0,0,,Y el suavizante {\c&H3CC8FF&}tiene{\c&HFFFFFF&} su propio
+Dialogue: 0,0:04:33.23,0:04:33.43,Sub,,0,0,0,,Y el suavizante tiene {\c&H3CC8FF&}su{\c&HFFFFFF&} propio
+Dialogue: 0,0:04:33.43,0:04:33.65,Sub,,0,0,0,,Y el suavizante tiene su {\c&H3CC8FF&}propio{\c&HFFFFFF&}
+Dialogue: 0,0:04:33.65,0:04:34.71,Sub,,0,0,0,,{\c&H3CC8FF&}cajoncito.{\c&HFFFFFF&} El cerebro lo deja para
+Dialogue: 0,0:04:34.71,0:04:34.91,Sub,,0,0,0,,cajoncito. {\c&H3CC8FF&}El{\c&HFFFFFF&} cerebro lo deja para
+Dialogue: 0,0:04:34.91,0:04:35.37,Sub,,0,0,0,,cajoncito. El {\c&H3CC8FF&}cerebro{\c&HFFFFFF&} lo deja para
+Dialogue: 0,0:04:35.37,0:04:35.65,Sub,,0,0,0,,cajoncito. El cerebro {\c&H3CC8FF&}lo{\c&HFFFFFF&} deja para
+Dialogue: 0,0:04:35.65,0:04:35.87,Sub,,0,0,0,,cajoncito. El cerebro lo {\c&H3CC8FF&}deja{\c&HFFFFFF&} para
+Dialogue: 0,0:04:35.87,0:04:36.07,Sub,,0,0,0,,cajoncito. El cerebro lo deja {\c&H3CC8FF&}para{\c&HFFFFFF&}
+Dialogue: 0,0:04:36.07,0:04:36.21,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} último enjuague, para que no
+Dialogue: 0,0:04:36.21,0:04:36.43,Sub,,0,0,0,,el {\c&H3CC8FF&}último{\c&HFFFFFF&} enjuague, para que no
+Dialogue: 0,0:04:36.43,0:04:37.23,Sub,,0,0,0,,el último {\c&H3CC8FF&}enjuague,{\c&HFFFFFF&} para que no
+Dialogue: 0,0:04:37.23,0:04:37.49,Sub,,0,0,0,,el último enjuague, {\c&H3CC8FF&}para{\c&HFFFFFF&} que no
+Dialogue: 0,0:04:37.49,0:04:37.63,Sub,,0,0,0,,el último enjuague, para {\c&H3CC8FF&}que{\c&HFFFFFF&} no
+Dialogue: 0,0:04:37.63,0:04:37.77,Sub,,0,0,0,,el último enjuague, para que {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:04:37.77,0:04:37.89,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} vaya con el agua sucia.
+Dialogue: 0,0:04:37.89,0:04:38.07,Sub,,0,0,0,,se {\c&H3CC8FF&}vaya{\c&HFFFFFF&} con el agua sucia.
+Dialogue: 0,0:04:38.07,0:04:38.27,Sub,,0,0,0,,se vaya {\c&H3CC8FF&}con{\c&HFFFFFF&} el agua sucia.
+Dialogue: 0,0:04:38.27,0:04:38.37,Sub,,0,0,0,,se vaya con {\c&H3CC8FF&}el{\c&HFFFFFF&} agua sucia.
+Dialogue: 0,0:04:38.37,0:04:38.51,Sub,,0,0,0,,se vaya con el {\c&H3CC8FF&}agua{\c&HFFFFFF&} sucia.
+Dialogue: 0,0:04:38.51,0:04:38.56,Sub,,0,0,0,,se vaya con el agua {\c&H3CC8FF&}sucia.{\c&HFFFFFF&}
+Dialogue: 0,0:04:39.05,0:04:39.15,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} si la llenas hasta el
+Dialogue: 0,0:04:39.15,0:04:39.27,Sub,,0,0,0,,Pero {\c&H3CC8FF&}si{\c&HFFFFFF&} la llenas hasta el
+Dialogue: 0,0:04:39.27,0:04:39.41,Sub,,0,0,0,,Pero si {\c&H3CC8FF&}la{\c&HFFFFFF&} llenas hasta el
+Dialogue: 0,0:04:39.41,0:04:39.73,Sub,,0,0,0,,Pero si la {\c&H3CC8FF&}llenas{\c&HFFFFFF&} hasta el
+Dialogue: 0,0:04:39.73,0:04:39.93,Sub,,0,0,0,,Pero si la llenas {\c&H3CC8FF&}hasta{\c&HFFFFFF&} el
+Dialogue: 0,0:04:39.93,0:04:40.07,Sub,,0,0,0,,Pero si la llenas hasta {\c&H3CC8FF&}el{\c&HFFFFFF&}
+Dialogue: 0,0:04:40.07,0:04:40.77,Sub,,0,0,0,,{\c&H3CC8FF&}tope,{\c&HFFFFFF&} la ropa no tiene espacio
+Dialogue: 0,0:04:40.77,0:04:40.83,Sub,,0,0,0,,tope, {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa no tiene espacio
+Dialogue: 0,0:04:40.83,0:04:41.11,Sub,,0,0,0,,tope, la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} no tiene espacio
+Dialogue: 0,0:04:41.11,0:04:41.25,Sub,,0,0,0,,tope, la ropa {\c&H3CC8FF&}no{\c&HFFFFFF&} tiene espacio
+Dialogue: 0,0:04:41.25,0:04:41.43,Sub,,0,0,0,,tope, la ropa no {\c&H3CC8FF&}tiene{\c&HFFFFFF&} espacio
+Dialogue: 0,0:04:41.43,0:04:41.77,Sub,,0,0,0,,tope, la ropa no tiene {\c&H3CC8FF&}espacio{\c&HFFFFFF&}
+Dialogue: 0,0:04:41.77,0:04:42.07,Sub,,0,0,0,,{\c&H3CC8FF&}para{\c&HFFFFFF&} subir y caer. No se
+Dialogue: 0,0:04:42.07,0:04:42.31,Sub,,0,0,0,,para {\c&H3CC8FF&}subir{\c&HFFFFFF&} y caer. No se
+Dialogue: 0,0:04:42.31,0:04:42.47,Sub,,0,0,0,,para subir {\c&H3CC8FF&}y{\c&HFFFFFF&} caer. No se
+Dialogue: 0,0:04:42.47,0:04:43.09,Sub,,0,0,0,,para subir y {\c&H3CC8FF&}caer.{\c&HFFFFFF&} No se
+Dialogue: 0,0:04:43.09,0:04:43.29,Sub,,0,0,0,,para subir y caer. {\c&H3CC8FF&}No{\c&HFFFFFF&} se
+Dialogue: 0,0:04:43.29,0:04:43.43,Sub,,0,0,0,,para subir y caer. No {\c&H3CC8FF&}se{\c&HFFFFFF&}
+Dialogue: 0,0:04:43.43,0:04:44.33,Sub,,0,0,0,,{\c&H3CC8FF&}golpea,{\c&HFFFFFF&} no se frota, y sale
+Dialogue: 0,0:04:44.33,0:04:44.43,Sub,,0,0,0,,golpea, {\c&H3CC8FF&}no{\c&HFFFFFF&} se frota, y sale
+Dialogue: 0,0:04:44.43,0:04:44.55,Sub,,0,0,0,,golpea, no {\c&H3CC8FF&}se{\c&HFFFFFF&} frota, y sale
+Dialogue: 0,0:04:44.55,0:04:45.27,Sub,,0,0,0,,golpea, no se {\c&H3CC8FF&}frota,{\c&HFFFFFF&} y sale
+Dialogue: 0,0:04:45.27,0:04:45.32,Sub,,0,0,0,,golpea, no se frota, {\c&H3CC8FF&}y{\c&HFFFFFF&} sale
+Dialogue: 0,0:04:45.31,0:04:45.49,Sub,,0,0,0,,golpea, no se frota, y {\c&H3CC8FF&}sale{\c&HFFFFFF&}
+Dialogue: 0,0:04:45.49,0:04:45.71,Sub,,0,0,0,,{\c&H3CC8FF&}casi{\c&HFFFFFF&} igual de sucia.
+Dialogue: 0,0:04:45.71,0:04:46.07,Sub,,0,0,0,,casi {\c&H3CC8FF&}igual{\c&HFFFFFF&} de sucia.
+Dialogue: 0,0:04:46.07,0:04:46.21,Sub,,0,0,0,,casi igual {\c&H3CC8FF&}de{\c&HFFFFFF&} sucia.
+Dialogue: 0,0:04:46.21,0:04:46.27,Sub,,0,0,0,,casi igual de {\c&H3CC8FF&}sucia.{\c&HFFFFFF&}
+Dialogue: 0,0:04:46.79,0:04:47.03,Sub,,0,0,0,,{\c&H3CC8FF&}Para{\c&HFFFFFF&} que la ropa pueda dar
+Dialogue: 0,0:04:47.03,0:04:50.71,Sub,,0,0,0,,Para {\c&H3CC8FF&}que{\c&HFFFFFF&} la ropa pueda dar
+Dialogue: 0,0:04:50.71,0:04:50.81,Sub,,0,0,0,,Para que {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa pueda dar
+Dialogue: 0,0:04:50.81,0:04:51.13,Sub,,0,0,0,,Para que la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} pueda dar
+Dialogue: 0,0:04:51.13,0:04:51.33,Sub,,0,0,0,,Para que la ropa {\c&H3CC8FF&}pueda{\c&HFFFFFF&} dar
+Dialogue: 0,0:04:51.33,0:04:51.57,Sub,,0,0,0,,Para que la ropa pueda {\c&H3CC8FF&}dar{\c&HFFFFFF&}
+Dialogue: 0,0:04:51.57,0:04:51.75,Sub,,0,0,0,,{\c&H3CC8FF&}sus{\c&HFFFFFF&} vueltas.
+Dialogue: 0,0:04:51.75,0:04:51.98,Sub,,0,0,0,,sus {\c&H3CC8FF&}vueltas.{\c&HFFFFFF&}
+Dialogue: 0,0:04:52.50,0:04:53.50,Sub,,0,0,0,,{\c&H3CC8FF&}Repasemos.{\c&HFFFFFF&} Un tambor con huecos y
+Dialogue: 0,0:04:53.50,0:04:53.58,Sub,,0,0,0,,Repasemos. {\c&H3CC8FF&}Un{\c&HFFFFFF&} tambor con huecos y
+Dialogue: 0,0:04:53.58,0:04:53.88,Sub,,0,0,0,,Repasemos. Un {\c&H3CC8FF&}tambor{\c&HFFFFFF&} con huecos y
+Dialogue: 0,0:04:53.88,0:04:54.02,Sub,,0,0,0,,Repasemos. Un tambor {\c&H3CC8FF&}con{\c&HFFFFFF&} huecos y
+Dialogue: 0,0:04:54.02,0:04:54.40,Sub,,0,0,0,,Repasemos. Un tambor con {\c&H3CC8FF&}huecos{\c&HFFFFFF&} y
+Dialogue: 0,0:04:54.40,0:04:54.50,Sub,,0,0,0,,Repasemos. Un tambor con huecos {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:04:54.50,0:04:55.28,Sub,,0,0,0,,{\c&H3CC8FF&}aletas,{\c&HFFFFFF&} una tina cerrada, un motor
+Dialogue: 0,0:04:55.28,0:04:55.38,Sub,,0,0,0,,aletas, {\c&H3CC8FF&}una{\c&HFFFFFF&} tina cerrada, un motor
+Dialogue: 0,0:04:55.38,0:04:55.64,Sub,,0,0,0,,aletas, una {\c&H3CC8FF&}tina{\c&HFFFFFF&} cerrada, un motor
+Dialogue: 0,0:04:55.64,0:04:56.38,Sub,,0,0,0,,aletas, una tina {\c&H3CC8FF&}cerrada,{\c&HFFFFFF&} un motor
+Dialogue: 0,0:04:56.38,0:04:56.46,Sub,,0,0,0,,aletas, una tina cerrada, {\c&H3CC8FF&}un{\c&HFFFFFF&} motor
+Dialogue: 0,0:04:56.46,0:04:56.70,Sub,,0,0,0,,aletas, una tina cerrada, un {\c&H3CC8FF&}motor{\c&HFFFFFF&}
+Dialogue: 0,0:04:56.70,0:04:56.88,Sub,,0,0,0,,{\c&H3CC8FF&}con{\c&HFFFFFF&} correa, una válvula, un presostato,
+Dialogue: 0,0:04:56.88,0:04:57.68,Sub,,0,0,0,,con {\c&H3CC8FF&}correa,{\c&HFFFFFF&} una válvula, un presostato,
+Dialogue: 0,0:04:57.68,0:04:57.80,Sub,,0,0,0,,con correa, {\c&H3CC8FF&}una{\c&HFFFFFF&} válvula, un presostato,
+Dialogue: 0,0:04:57.80,0:04:58.56,Sub,,0,0,0,,con correa, una {\c&H3CC8FF&}válvula,{\c&HFFFFFF&} un presostato,
+Dialogue: 0,0:04:58.56,0:04:58.61,Sub,,0,0,0,,con correa, una válvula, {\c&H3CC8FF&}un{\c&HFFFFFF&} presostato,
+Dialogue: 0,0:04:58.60,0:04:59.56,Sub,,0,0,0,,con correa, una válvula, un {\c&H3CC8FF&}presostato,{\c&HFFFFFF&}
+Dialogue: 0,0:04:59.56,0:04:59.66,Sub,,0,0,0,,{\c&H3CC8FF&}una{\c&HFFFFFF&} resistencia, una bomba con filtro,
+Dialogue: 0,0:04:59.66,0:05:00.64,Sub,,0,0,0,,una {\c&H3CC8FF&}resistencia,{\c&HFFFFFF&} una bomba con filtro,
+Dialogue: 0,0:05:00.64,0:05:00.74,Sub,,0,0,0,,una resistencia, {\c&H3CC8FF&}una{\c&HFFFFFF&} bomba con filtro,
+Dialogue: 0,0:05:00.74,0:05:01.04,Sub,,0,0,0,,una resistencia, una {\c&H3CC8FF&}bomba{\c&HFFFFFF&} con filtro,
+Dialogue: 0,0:05:01.04,0:05:01.14,Sub,,0,0,0,,una resistencia, una bomba {\c&H3CC8FF&}con{\c&HFFFFFF&} filtro,
+Dialogue: 0,0:05:01.14,0:05:01.78,Sub,,0,0,0,,una resistencia, una bomba con {\c&H3CC8FF&}filtro,{\c&HFFFFFF&}
+Dialogue: 0,0:05:01.78,0:05:02.32,Sub,,0,0,0,,{\c&H3CC8FF&}contrapesos{\c&HFFFFFF&} de concreto, resortes y un
+Dialogue: 0,0:05:02.32,0:05:02.42,Sub,,0,0,0,,contrapesos {\c&H3CC8FF&}de{\c&HFFFFFF&} concreto, resortes y un
+Dialogue: 0,0:05:02.42,0:05:03.22,Sub,,0,0,0,,contrapesos de {\c&H3CC8FF&}concreto,{\c&HFFFFFF&} resortes y un
+Dialogue: 0,0:05:03.22,0:05:03.88,Sub,,0,0,0,,contrapesos de concreto, {\c&H3CC8FF&}resortes{\c&HFFFFFF&} y un
+Dialogue: 0,0:05:03.88,0:05:04.04,Sub,,0,0,0,,contrapesos de concreto, resortes {\c&H3CC8FF&}y{\c&HFFFFFF&} un
+Dialogue: 0,0:05:04.04,0:05:04.14,Sub,,0,0,0,,contrapesos de concreto, resortes y {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:05:04.14,0:05:04.38,Sub,,0,0,0,,{\c&H3CC8FF&}seguro{\c&HFFFFFF&} en la puerta.
+Dialogue: 0,0:05:04.38,0:05:04.52,Sub,,0,0,0,,seguro {\c&H3CC8FF&}en{\c&HFFFFFF&} la puerta.
+Dialogue: 0,0:05:04.52,0:05:04.58,Sub,,0,0,0,,seguro en {\c&H3CC8FF&}la{\c&HFFFFFF&} puerta.
+Dialogue: 0,0:05:04.58,0:05:04.63,Sub,,0,0,0,,seguro en la {\c&H3CC8FF&}puerta.{\c&HFFFFFF&}
+Dialogue: 0,0:05:05.12,0:05:05.18,Sub,,0,0,0,,{\c&H3CC8FF&}Tu{\c&HFFFFFF&} lavadora no tiene manos. Hace
+Dialogue: 0,0:05:05.18,0:05:05.60,Sub,,0,0,0,,Tu {\c&H3CC8FF&}lavadora{\c&HFFFFFF&} no tiene manos. Hace
+Dialogue: 0,0:05:05.60,0:05:05.86,Sub,,0,0,0,,Tu lavadora {\c&H3CC8FF&}no{\c&HFFFFFF&} tiene manos. Hace
+Dialogue: 0,0:05:05.86,0:05:06.08,Sub,,0,0,0,,Tu lavadora no {\c&H3CC8FF&}tiene{\c&HFFFFFF&} manos. Hace
+Dialogue: 0,0:05:06.08,0:05:06.82,Sub,,0,0,0,,Tu lavadora no tiene {\c&H3CC8FF&}manos.{\c&HFFFFFF&} Hace
+Dialogue: 0,0:05:06.82,0:05:07.12,Sub,,0,0,0,,Tu lavadora no tiene manos. {\c&H3CC8FF&}Hace{\c&HFFFFFF&}
+Dialogue: 0,0:05:07.12,0:05:07.26,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} la ropa se frote sola,
+Dialogue: 0,0:05:07.26,0:05:07.38,Sub,,0,0,0,,que {\c&H3CC8FF&}la{\c&HFFFFFF&} ropa se frote sola,
+Dialogue: 0,0:05:07.38,0:05:07.70,Sub,,0,0,0,,que la {\c&H3CC8FF&}ropa{\c&HFFFFFF&} se frote sola,
+Dialogue: 0,0:05:07.70,0:05:07.82,Sub,,0,0,0,,que la ropa {\c&H3CC8FF&}se{\c&HFFFFFF&} frote sola,
+Dialogue: 0,0:05:07.82,0:05:08.08,Sub,,0,0,0,,que la ropa se {\c&H3CC8FF&}frote{\c&HFFFFFF&} sola,
+Dialogue: 0,0:05:08.08,0:05:08.64,Sub,,0,0,0,,que la ropa se frote {\c&H3CC8FF&}sola,{\c&HFFFFFF&}
+Dialogue: 0,0:05:08.64,0:05:09.06,Sub,,0,0,0,,{\c&H3CC8FF&}subiendo{\c&HFFFFFF&} y cayendo, miles de veces.
+Dialogue: 0,0:05:09.06,0:05:09.28,Sub,,0,0,0,,subiendo {\c&H3CC8FF&}y{\c&HFFFFFF&} cayendo, miles de veces.
+Dialogue: 0,0:05:09.28,0:05:09.98,Sub,,0,0,0,,subiendo y {\c&H3CC8FF&}cayendo,{\c&HFFFFFF&} miles de veces.
+Dialogue: 0,0:05:09.98,0:05:10.24,Sub,,0,0,0,,subiendo y cayendo, {\c&H3CC8FF&}miles{\c&HFFFFFF&} de veces.
+Dialogue: 0,0:05:10.24,0:05:10.44,Sub,,0,0,0,,subiendo y cayendo, miles {\c&H3CC8FF&}de{\c&HFFFFFF&} veces.
+Dialogue: 0,0:05:10.44,0:05:11.04,Sub,,0,0,0,,subiendo y cayendo, miles de {\c&H3CC8FF&}veces.{\c&HFFFFFF&}
+Dialogue: 0,0:05:11.04,0:05:11.22,Sub,,0,0,0,,{\c&H3CC8FF&}Así{\c&HFFFFFF&} funciona.
+Dialogue: 0,0:05:11.22,0:05:11.53,Sub,,0,0,0,,Así {\c&H3CC8FF&}funciona.{\c&HFFFFFF&}
+Dialogue: 0,0:05:12.05,0:05:12.15,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} te gustó, síguenos, y escribe
+Dialogue: 0,0:05:12.15,0:05:12.25,Sub,,0,0,0,,Si {\c&H3CC8FF&}te{\c&HFFFFFF&} gustó, síguenos, y escribe
+Dialogue: 0,0:05:12.25,0:05:12.91,Sub,,0,0,0,,Si te {\c&H3CC8FF&}gustó,{\c&HFFFFFF&} síguenos, y escribe
+Dialogue: 0,0:05:12.91,0:05:13.67,Sub,,0,0,0,,Si te gustó, {\c&H3CC8FF&}síguenos,{\c&HFFFFFF&} y escribe
+Dialogue: 0,0:05:13.67,0:05:13.75,Sub,,0,0,0,,Si te gustó, síguenos, {\c&H3CC8FF&}y{\c&HFFFFFF&} escribe
+Dialogue: 0,0:05:13.75,0:05:14.09,Sub,,0,0,0,,Si te gustó, síguenos, y {\c&H3CC8FF&}escribe{\c&HFFFFFF&}
+Dialogue: 0,0:05:14.09,0:05:14.23,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} los comentarios qué objeto quieres
+Dialogue: 0,0:05:14.23,0:05:14.33,Sub,,0,0,0,,en {\c&H3CC8FF&}los{\c&HFFFFFF&} comentarios qué objeto quieres
+Dialogue: 0,0:05:14.33,0:05:14.85,Sub,,0,0,0,,en los {\c&H3CC8FF&}comentarios{\c&HFFFFFF&} qué objeto quieres
+Dialogue: 0,0:05:14.85,0:05:15.21,Sub,,0,0,0,,en los comentarios {\c&H3CC8FF&}qué{\c&HFFFFFF&} objeto quieres
+Dialogue: 0,0:05:15.21,0:05:15.61,Sub,,0,0,0,,en los comentarios qué {\c&H3CC8FF&}objeto{\c&HFFFFFF&} quieres
+Dialogue: 0,0:05:15.61,0:05:15.91,Sub,,0,0,0,,en los comentarios qué objeto {\c&H3CC8FF&}quieres{\c&HFFFFFF&}
+Dialogue: 0,0:05:15.91,0:05:16.17,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} armemos pieza por pieza.
+Dialogue: 0,0:05:16.17,0:05:16.55,Sub,,0,0,0,,que {\c&H3CC8FF&}armemos{\c&HFFFFFF&} pieza por pieza.
+Dialogue: 0,0:05:16.55,0:05:16.95,Sub,,0,0,0,,que armemos {\c&H3CC8FF&}pieza{\c&HFFFFFF&} por pieza.
+Dialogue: 0,0:05:16.95,0:05:17.07,Sub,,0,0,0,,que armemos pieza {\c&H3CC8FF&}por{\c&HFFFFFF&} pieza.
+Dialogue: 0,0:05:17.07,0:05:17.16,Sub,,0,0,0,,que armemos pieza por {\c&H3CC8FF&}pieza.{\c&HFFFFFF&}
