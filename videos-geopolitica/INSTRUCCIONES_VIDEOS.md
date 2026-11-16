@@ -123,3 +123,5 @@ canales (YouTube jxseng y Facebook Quatoom), largos, Shorts y Reels, sin pedirme
 Marco grabó con su propia voz: "Yo, Marco, autorizo que clonen mi voz y la usen en los videos de los canales jxseng de YouTube
 y Quatoom de Facebook." Referencia: tts/amigo/ref.wav (11 s, texto de la nevera); prueba en tts/amigo/probar.py.
 La grabación no se sube al repositorio. Solo para videos de esos dos canales. ELEGIDA por el dueño el 15 nov como voz del canal desde v23 (tts/mivoz.py, VOZ=marco por defecto).
+
+- **Límite de reels en Facebook (Buffer): 90 s máximo.** Apuntar a 80–88 s de guion (~250 palabras). Si sale más largo, acelerar ≤5% con setpts/atempo (como fb01/candado_fb.mp4).
