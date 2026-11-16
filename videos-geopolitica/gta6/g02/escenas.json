@@ -3,66 +3,563 @@
   "tipo": "gancho",
   "titulo": "precio",
   "texto": "GTA seis no cuesta cien dólares. La edición estándar cuesta setenta y nueve con noventa y nueve, y sale este jueves, diecinueve de noviembre.",
-  "sfx": []
+  "sfx": [
+   [
+    0.03,
+    "pop"
+   ],
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.42,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "clink"
+   ],
+   [
+    0.55,
+    "clink"
+   ],
+   [
+    0.6,
+    "clink"
+   ],
+   [
+    0.78,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "cuesta",
+    "GTA 6 NO CUESTA ^s$100"
+   ],
+   [
+    "estándar",
+    "^lESTÁNDAR $79,99"
+   ],
+   [
+    "jueves",
+    "ESTE JUEVES ^r19 ^rNOV"
+   ]
+  ]
  },
  {
   "tipo": "mito",
   "titulo": "rumor",
   "texto": "Durante meses, internet repitió que el juego básico iba a llegar a cien dólares. Era el rumor más compartido, y no se cumplió.",
-  "sfx": []
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.12,
+    "pop"
+   ],
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.28,
+    "pop"
+   ],
+   [
+    0.8,
+    "fallo"
+   ],
+   [
+    0.86,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "internet",
+    "INTERNET LO REPITIÓ"
+   ],
+   [
+    "cien",
+    "JUEGO BÁSICO: ^r$100"
+   ],
+   [
+    "compartido",
+    "EL RUMOR MÁS COMPARTIDO"
+   ],
+   [
+    "cumplió",
+    "NO SE ^rCUMPLIÓ"
+   ]
+  ]
  },
  {
   "tipo": "ultimate",
   "titulo": "ultimate",
   "texto": "La Ultimate sí cuesta noventa y nueve con noventa y nueve. Son veinte dólares más por contenido extra, pero la estándar ya trae el juego completo.",
-  "sfx": []
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.08,
+    "impacto"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.78,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "ultimate",
+    "ULTIMATE ^b$99,99"
+   ],
+   [
+    "veinte",
+    "^l+20 DÓLARES"
+   ],
+   [
+    "completo",
+    "ESTÁNDAR = JUEGO ^lCOMPLETO"
+   ]
+  ]
  },
  {
   "tipo": "retrasos",
   "titulo": "fecha",
   "texto": "La fecha se movió como un tren que avisa retraso dos veces. Primero era dos mil veinticinco. Luego, el veintiséis de mayo de dos mil veintiséis. Y en noviembre del año pasado, Rockstar la pasó al diecinueve de noviembre.",
-  "sfx": []
+  "sfx": [
+   [
+    0.03,
+    "pop"
+   ],
+   [
+    0.06,
+    "motor"
+   ],
+   [
+    0.32,
+    "fallo"
+   ],
+   [
+    0.34,
+    "pop"
+   ],
+   [
+    0.55,
+    "fallo"
+   ],
+   [
+    0.57,
+    "pop"
+   ],
+   [
+    0.86,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "tren",
+    "UN TREN CON ^rRETRASO"
+   ],
+   [
+    "veinticinco",
+    "^s2025"
+   ],
+   [
+    "mayo",
+    "^s26 ^sMAYO ^s2026"
+   ],
+   [
+    "pasó",
+    "^l19 ^lNOV ^l2026"
+   ]
+  ]
  },
  {
   "tipo": "consolas",
   "titulo": "consolas",
   "texto": "Sale solo en PlayStation cinco y en Xbox Series X y Series S. Si tienes una consola de la generación pasada, no lo vas a poder jugar.",
-  "sfx": []
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.1,
+    "brillo"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.36,
+    "brillo"
+   ],
+   [
+    0.68,
+    "pop"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "playstation",
+    "^lPLAYSTATION 5"
+   ],
+   [
+    "xbox",
+    "^lXBOX SERIES X Y S"
+   ],
+   [
+    "pasada",
+    "GENERACIÓN PASADA: ^rNO"
+   ]
+  ]
  },
  {
   "tipo": "pc",
   "titulo": "pc",
   "texto": "En computador no hay fecha. Rockstar no ha anunciado versión de PC. Se habla de dos mil veintisiete, pero eso es rumor. Con GTA cinco, el PC llegó un año y medio después de las consolas.",
-  "sfx": []
+  "sfx": [
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.18,
+    "tic"
+   ],
+   [
+    0.21,
+    "tic"
+   ],
+   [
+    0.45,
+    "bip"
+   ],
+   [
+    0.68,
+    "tic"
+   ],
+   [
+    0.71,
+    "tic"
+   ],
+   [
+    0.74,
+    "tic"
+   ]
+  ],
+  "caps": [
+   [
+    "computador",
+    "¿Y EN PC?"
+   ],
+   [
+    "anunciado",
+    "^rSIN ANUNCIO"
+   ],
+   [
+    "rumor",
+    "2027 = ^rRUMOR"
+   ],
+   [
+    "medio",
+    "GTA 5: PC ^lAÑO ^lY ^lMEDIO DESPUÉS"
+   ]
+  ]
  },
  {
   "tipo": "mapa",
   "titulo": "leonida",
   "texto": "La historia pasa en Leonida, un estado inventado e inspirado en Florida, con Vice City como ciudad principal, y dos protagonistas, Lucía y Jason.",
-  "sfx": []
+  "sfx": [
+   [
+    0.03,
+    "whoosh_largo"
+   ],
+   [
+    0.25,
+    "tic"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.39,
+    "pop"
+   ],
+   [
+    0.43,
+    "pop"
+   ],
+   [
+    0.47,
+    "pop"
+   ],
+   [
+    0.72,
+    "pop"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ],
+  "caps": [
+   [
+    "leonida",
+    "LEONIDA"
+   ],
+   [
+    "florida",
+    "INSPIRADO EN ^bFLORIDA"
+   ],
+   [
+    "vice",
+    "VICE CITY"
+   ],
+   [
+    "protagonistas",
+    "^rDOS PROTAGONISTAS"
+   ]
+  ]
  },
  {
   "tipo": "giro",
   "titulo": "giro",
   "texto": "Pero eso no es lo más raro. GTA cinco salió en dos mil trece. Entre un GTA y el siguiente nunca habían pasado más de cinco años. Esta vez pasaron trece.",
-  "sfx": []
+  "sfx": [
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.35,
+    "pop"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.78,
+    "tension"
+   ],
+   [
+    0.82,
+    "tic"
+   ],
+   [
+    0.87,
+    "tic"
+   ],
+   [
+    0.92,
+    "ding"
+   ]
+  ],
+  "caps": [
+   [
+    "raro",
+    "PERO ESO NO ES ^rLO ^rMÁS ^rRARO"
+   ],
+   [
+    "salió",
+    "GTA 5: ^l2013"
+   ],
+   [
+    "nunca",
+    "NUNCA MÁS DE ^l5 ^lAÑOS"
+   ],
+   [
+    "pasaron",
+    "ESTA VEZ: ^r13 ^rAÑOS"
+   ]
+  ]
  },
  {
   "tipo": "edad",
   "titulo": "edad",
   "texto": "Alguien que tenía diez años cuando salió GTA cinco va a jugar GTA seis con veintitrés.",
-  "sfx": []
+  "sfx": [
+   [
+    0.04,
+    "pop"
+   ],
+   [
+    0.38,
+    "tic"
+   ],
+   [
+    0.46,
+    "tic"
+   ],
+   [
+    0.54,
+    "tic"
+   ],
+   [
+    0.62,
+    "tic"
+   ],
+   [
+    0.7,
+    "tic"
+   ],
+   [
+    0.8,
+    "brillo"
+   ]
+  ],
+  "caps": [
+   [
+    "diez",
+    "^l10 AÑOS CON GTA 5"
+   ],
+   [
+    "veintitrés",
+    "^l23 CON GTA 6"
+   ]
+  ]
  },
  {
   "tipo": "dudas",
   "titulo": "dudas",
   "texto": "Lo que todavía no está confirmado es la hora exacta de desbloqueo y cuánto pesa. Si ves cifras como doscientos gigas, tómalas como rumor.",
-  "sfx": []
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.35,
+    "electrico"
+   ],
+   [
+    0.62,
+    "pop"
+   ],
+   [
+    0.68,
+    "alarma"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ],
+  "caps": [
+   [
+    "confirmado",
+    "^rSIN CONFIRMAR"
+   ],
+   [
+    "hora",
+    "HORA EXACTA"
+   ],
+   [
+    "pesa",
+    "CUÁNTO PESA"
+   ],
+   [
+    "doscientos",
+    "¿200 GB? = ^rRUMOR"
+   ]
+  ]
  },
  {
   "tipo": "cierre",
   "titulo": "cierre",
   "texto": "Así que libera espacio, revisa la tienda de tu consola, y no le creas a cualquier cifra que circule. Porque, como ya viste, GTA seis no cuesta cien dólares.",
-  "sfx": []
+  "sfx": [
+   [
+    0.1,
+    "swish"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.72,
+    "pop"
+   ],
+   [
+    0.82,
+    "swish"
+   ]
+  ],
+  "caps": [
+   [
+    "libera",
+    "^lLIBERA ESPACIO"
+   ],
+   [
+    "tienda",
+    "REVISA TU TIENDA"
+   ],
+   [
+    "cifra",
+    "NO LE CREAS A ^rCUALQUIER ^rCIFRA"
+   ],
+   [
+    "cuesta",
+    "GTA 6 NO CUESTA ^s$100"
+   ]
+  ]
  }
 ]
