@@ -1,0 +1,11 @@
+{"video": "r01.mp4", "dur": 162.5, "cortes": 8, "cortes_por_s": 0.049, "seg_por_corte": 20.31, "cambio_visual_medio": 25.98, "pct_quieto": 15.7, "onsets_perc": 395, "onsets_por_s": 2.43, "lufs": -17.3, "lra": 2.2}
+{"video": "r02.mp4", "dur": 168.8, "cortes": 2, "cortes_por_s": 0.012, "seg_por_corte": 84.42, "cambio_visual_medio": 17.04, "pct_quieto": 20.8, "onsets_perc": 340, "onsets_por_s": 2.01, "lufs": -17.3, "lra": 2.0}
+{"video": "r03.mp4", "dur": 160.5, "cortes": 0, "cortes_por_s": 0.0, "seg_por_corte": 160.5, "cambio_visual_medio": 26.38, "pct_quieto": 13.8, "onsets_perc": 304, "onsets_por_s": 1.89, "lufs": -17.3, "lra": 2.0}
+{"video": "r04.mp4", "dur": 169.7, "cortes": 0, "cortes_por_s": 0.0, "seg_por_corte": 169.7, "cambio_visual_medio": 11.56, "pct_quieto": 19.5, "onsets_perc": 363, "onsets_por_s": 2.14, "lufs": -17.6, "lra": 2.3}
+{"video": "r05.mp4", "dur": 150.8, "cortes": 1, "cortes_por_s": 0.007, "seg_por_corte": 150.77, "cambio_visual_medio": 14.41, "pct_quieto": 29.9, "onsets_perc": 328, "onsets_por_s": 2.18, "lufs": -17.4, "lra": 2.2}
+{"video": "r06.mp4", "dur": 142.0, "cortes": 0, "cortes_por_s": 0.0, "seg_por_corte": 142.03, "cambio_visual_medio": 10.95, "pct_quieto": 23.0, "onsets_perc": 305, "onsets_por_s": 2.15, "lufs": -17.3, "lra": 2.0}
+{"video": "r07.mp4", "dur": 143.0, "cortes": 4, "cortes_por_s": 0.028, "seg_por_corte": 35.75, "cambio_visual_medio": 10.37, "pct_quieto": 30.2, "onsets_perc": 242, "onsets_por_s": 1.69, "lufs": -17.5, "lra": 2.1}
+{"video": "r08.mp4", "dur": 146.4, "cortes": 9, "cortes_por_s": 0.061, "seg_por_corte": 16.26, "cambio_visual_medio": 15.49, "pct_quieto": 30.5, "onsets_perc": 321, "onsets_por_s": 2.19, "lufs": -17.2, "lra": 2.0}
+{"video": "r09.mp4", "dur": 140.4, "cortes": 0, "cortes_por_s": 0.0, "seg_por_corte": 140.37, "cambio_visual_medio": 10.71, "pct_quieto": 23.6, "onsets_perc": 254, "onsets_por_s": 1.81, "lufs": -17.4, "lra": 1.8}
+{"video": "r10.mp4", "dur": 156.0, "cortes": 0, "cortes_por_s": 0.0, "seg_por_corte": 156.0, "cambio_visual_medio": 10.52, "pct_quieto": 27.0, "onsets_perc": 338, "onsets_por_s": 2.17, "lufs": -17.4, "lra": 2.1}
+{"video": "r11.mp4", "dur": 138.5, "cortes": 3, "cortes_por_s": 0.022, "seg_por_corte": 46.16, "cambio_visual_medio": 15.76, "pct_quieto": 12.7, "onsets_perc": 291, "onsets_por_s": 2.1, "lufs": -17.0, "lra": 1.9}
