@@ -17,6 +17,10 @@ VOCES = {
     'marco_gta6': (os.path.join(here, 'amigo', 'ref_gta6.wav'),
               'El GTA seis saldrá en diecinueve de noviembre y será uno de los lanzamientos más grandes de la historia del gaming '
               'y de los videojuegos.'),
+    # ViceLeakss, grabación 2 (16 nov 2026, 17 s, texto leído para el canal)
+    'marco_gta6b': (os.path.join(here, 'amigo', 'ref_gta6b.wav'),
+              '¿Sabías que GTA seis sale de este jueves? Llevamos años esperando y por fin hay fecha. Pero ojo, no todo lo que ves '
+              'en internet es verdad, hay datos confirmados y hay puros rumores. Así que hoy te cuento cuál es cuál, rapidito y sin enredos. ¡Vamos!'),
     'dueno': (os.path.join(here, 'mivoz', 'ref.wav'),
               'Autorizo clonar mi propia voz y usarla en todos los videos de mis canales, YouTube jxseng y Facebook Quatoom. '
               'Largos, shorts y reels, sin pedirme permiso cada vez.'),
