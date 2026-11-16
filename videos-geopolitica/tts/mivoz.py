@@ -13,6 +13,10 @@ VOCES = {
     'marco': (os.path.join(here, 'amigo', 'ref.wav'),
               'Si pones una caja con hielo en la cocina, ya tienes una nevera. Pero el hielo se derrite en dos días, así que le metes '
               'un tubo con gas que se lleva el calor para afuera. Ese es el compresor.'),
+    # Solo para el canal ViceLeakss (GTA 6): autorización grabada el 16 nov 2026 (ver amigo/AUTORIZACION_GTA6.txt).
+    'marco_gta6': (os.path.join(here, 'amigo', 'ref_gta6.wav'),
+              'El GTA seis saldrá en diecinueve de noviembre y será uno de los lanzamientos más grandes de la historia del gaming '
+              'y de los videojuegos.'),
     'dueno': (os.path.join(here, 'mivoz', 'ref.wav'),
               'Autorizo clonar mi propia voz y usarla en todos los videos de mis canales, YouTube jxseng y Facebook Quatoom. '
               'Largos, shorts y reels, sin pedirme permiso cada vez.'),

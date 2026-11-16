@@ -1,10 +1,10 @@
 #!/bin/bash
 # GTA 6 g01 (lanzamiento) con la voz de Marco (requiere su autorización NUEVA para este canal en tts/amigo/ref.wav). Copia de pipeline9.sh.
 cd /home/user/i-have-adhd/videos-geopolitica
-[ -f tts/amigo/AUTORIZACION_GTA6.txt ] && [ -f tts/amigo/ref.wav ] || { echo "Falta la autorización nueva de Marco para el canal GTA 6"; exit 1; }
+[ -f tts/amigo/AUTORIZACION_GTA6.txt ] && [ -f tts/amigo/ref_gta6.wav ] || { echo "Falta la autorización nueva de Marco para el canal GTA 6"; exit 1; }
 source <(sed -n '/^log()/,/^}$/p;/^assemble()/,/^}$/p' pipeline3.sh)
 P=$(pgrep -f "tts/mivoz.py gta6/g01"); if [ -n "$P" ]; then while kill -0 $P 2>/dev/null; do sleep 20; done; fi
-THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 >> gta6/g01/tts.log 2>&1
+VOZ=marco_gta6 THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py gta6/g01 >> gta6/g01/tts.log 2>&1
 N=$(python3 -c "import json;print(len(json.load(open('gta6/g01/escenas.json'))))")
 [ $(ls gta6/g01/audio2/a*.wav | wc -l) -ge $N ] || { log "g01 voz incompleta"; exit 1; }
 # recorta silencios del principio y del final de cada frase (una sola vez)
