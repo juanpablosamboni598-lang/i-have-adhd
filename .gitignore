@@ -8,3 +8,6 @@ videos-geopolitica/pipeline.log
 videos-geopolitica/*/qc.txt
 videos-geopolitica/prueba3d/
 videos-geopolitica/v*/vert/
+videos-geopolitica/prueba_estilo/*.wav
+videos-geopolitica/prueba_estilo/*.mp4
+videos-geopolitica/remotion/buildpr/

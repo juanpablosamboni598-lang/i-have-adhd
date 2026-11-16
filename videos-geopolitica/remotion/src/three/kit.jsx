@@ -31,7 +31,7 @@ export const OL = ({ t = 0.02, color = INK }) => {
   });
   const c = new THREE.Color(color);
   return <mesh ref={ref} renderOrder={-1}>
-    <shaderMaterial side={THREE.BackSide} uniforms={{ th: { value: t }, col: { value: c } }}
+    <shaderMaterial side={THREE.BackSide} uniforms={{ th: { value: t * (globalThis.__OLK || 1) }, col: { value: c } }}
       vertexShader={`uniform float th; void main(){ vec3 p = position + normalize(normal) * th; gl_Position = projectionMatrix * modelViewMatrix * vec4(p,1.0); }`}
       fragmentShader={`uniform vec3 col; void main(){ gl_FragColor = vec4(col,1.0); }`} />
   </mesh>;
@@ -107,3 +107,56 @@ export const Tube = ({ pts, r = 0.05, color, xr = 0, t = 0.012 }) => {
   const geo = useMemo(() => new THREE.TubeGeometry(new THREE.CatmullRomCurve3(pts.map((p) => new THREE.Vector3(...p))), 40, r, 10, false), [JSON.stringify(pts), r]);
   return <mesh geometry={geo}><meshToonMaterial color={color} transparent opacity={1 - 0.6 * xr} /></mesh>;
 };
+
+// ===== Estilo "dibujado" (referencias 16 nov): grano de papel + trazos de acuarela en todas las superficies =====
+let _paper = null;
+export const paperTex = () => {
+  if (_paper) return _paper;
+  const N = 512, c = document.createElement('canvas'); c.width = N; c.height = N;
+  const g = c.getContext('2d'); let s = 11; const rnd = () => (s = (s * 16807) % 2147483647) / 2147483647;
+  g.fillStyle = '#ffffff'; g.fillRect(0, 0, N, N);
+  // trazos largos verticales casi transparentes (pincel seco)
+  for (let k = 0; k < 900; k++) {
+    const x = rnd() * N, y = rnd() * N, h = 20 + rnd() * 120, w = 0.6 + rnd() * 2.2, a = 0.05 + rnd() * 0.1;
+    g.fillStyle = `rgba(60,55,70,${a})`; g.fillRect(x, y, w, h); g.fillRect(x, y - N, w, h);
+  }
+  // grano fino
+  const img = g.getImageData(0, 0, N, N), d = img.data;
+  for (let p = 0; p < d.length; p += 4) { const v = (rnd() - 0.5) * 26; d[p] += v; d[p + 1] += v; d[p + 2] += v; }
+  g.putImageData(img, 0, 0);
+  _paper = new THREE.CanvasTexture(c); _paper.wrapS = _paper.wrapT = THREE.RepeatWrapping; _paper.repeat.set(2, 2);
+  _paper.colorSpace = THREE.SRGBColorSpace; return _paper;
+};
+let _grad = null;
+const gradTex = () => {  // 3 bandas de sombra, como cel-shading suave
+  if (_grad) return _grad;
+  const d = new Uint8Array([90, 90, 90, 255, 175, 175, 175, 255, 255, 255, 255, 255]);
+  _grad = new THREE.DataTexture(d, 3, 1, THREE.RGBAFormat); _grad.minFilter = _grad.magFilter = THREE.NearestFilter; _grad.needsUpdate = true; return _grad;
+};
+// recorre la escena en cada cuadro y aplica papel + bandas a los materiales toon que no tengan textura propia
+const _edgeMat = new THREE.LineBasicMaterial({ color: 0x1a1620, transparent: true, opacity: 0.85 });
+export const Dibujo = ({ edges = true, ang = 28 }) => {
+  const { scene } = useThree();
+  const todo = [];
+  scene.traverse((o) => {
+    const m = o.material; if (!m || Array.isArray(m)) return;
+    if (m.isMeshToonMaterial && !m.userData.dib) { if (!m.map) m.map = paperTex(); m.gradientMap = gradTex(); m.needsUpdate = true; m.userData.dib = 1; }
+    // líneas de tinta finas en los bordes (pliegues > ang grados), una vez por geometría
+    if (edges && o.isMesh && m.isMeshToonMaterial && o.geometry && !o.userData.isEdge) todo.push(o);
+  });
+  for (const o of todo) {
+    let e = o.userData.edgeObj;
+    if (!e || e.userData.src !== o.geometry) {
+      if (e) { o.remove(e); e.geometry.dispose(); }
+      e = new THREE.LineSegments(new THREE.EdgesGeometry(o.geometry, ang), _edgeMat.clone());
+      e.userData.isEdge = 1; e.userData.src = o.geometry; e.raycast = () => {}; o.add(e); o.userData.edgeObj = e;
+    }
+    e.material.opacity = 0.85 * (o.material.opacity ?? 1); e.visible = o.visible && o.material.opacity > 0.12;
+  }
+  return null;
+};
+// capa de grano encima de todo (HTML), multiplicada
+export const GranoPapel = ({ op = 0.16 }) => <svg width="100%" height="100%" style={{ position: 'absolute', inset: 0, mixBlendMode: 'multiply', opacity: op, pointerEvents: 'none' }}>
+  <filter id="gp"><feTurbulence type="fractalNoise" baseFrequency="0.85" numOctaves="3" seed="4" /><feColorMatrix type="saturate" values="0" /></filter>
+  <rect width="100%" height="100%" filter="url(#gp)" />
+</svg>;
