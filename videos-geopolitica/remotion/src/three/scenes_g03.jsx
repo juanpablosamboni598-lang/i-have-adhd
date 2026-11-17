@@ -37,14 +37,18 @@ const regiones = (from) => ({ t, d }) => ({
 const tl2 = (years, hiFrom, hiTo, colors) => ({ t, d }) => {
   const u = tw(t, 0.3, d * 0.6), hi = hiFrom ? tw(t, d * 0.6, d * 0.85) : 0, X = (y) => -1.5 + (y - years[0]) / (years[years.length - 1] - years[0]) * 3;
   return {
-    keys: [[0, -0.6, 0.4, 4.0, -0.3, 0.2, 0], [d * 0.5, 0, 0.5, 3.8, 0, 0.2, 0], [d, 0.6, 0.45, 3.9, 0.3, 0.2, 0]],
-    three: <><Dust t={t} /><group position={[0, 0.2, 0]} scale={1.25}><Timeline years={years} gapFrom={hiFrom} gapTo={hiTo} u={u} hi={hi} />
+    keys: [[0, -1.4, 0.5, 3.4, -0.4, 0.4, 0], [d * 0.5, 0, 0.7, 4.0, 0, 0.45, 0], [d, 1.4, 0.55, 3.5, 0.4, 0.4, 0]],
+    three: <><Dust t={t} n={90} /><Clock pos={[0, 1.05, -0.9]} t={t} spin={3} s={1.5} /><group position={[0, 0.2, 0]} scale={1.25}><Timeline years={years} gapFrom={hiFrom} gapTo={hiTo} u={u} hi={hi} />
       {years.map((y, k) => <Label key={k} pos={[X(y), k % 2 ? 0.2 : -0.2, 0]} s={String(y)} col={colors[y] || C.text} w={0.62} h={0.22} sc={cl((u - (X(y) + 1.5) / 3 * 0.92) * 8) * 0.75} />)}</group></>,
   };
 };
 
 export const SG3 = {
   ...SG2,
+  // más movimiento que en g02 (aquí las escenas duran más y el control de calidad marcaba tramos quietos)
+  consolas: (p) => ({ ...SG2.consolas(p), keys: ORB(p.d, [0, 0.4, 0], 2.1, 0.85, 1.1, -1.1) }),
+  pc: (p) => ({ ...SG2.pc(p), keys: ORB(p.d, [0, 0.42, 0], 2.0, 0.75, 1.2, -1.1) }),
+  giro: (p) => { const S = SG2.giro(p); return { ...S, three: <>{S.three}<Clock pos={[-0.2, 1.15, -0.9]} t={p.t} spin={4} s={1.4} /></> }; },
   cajas: ({ t, d }) => ({
     keys: ORB(d, [0, 0.35, 0], 2.0, 0.7, -0.5, 0.5),
     three: <><Plate r={1.0} /><Dust t={t} />
