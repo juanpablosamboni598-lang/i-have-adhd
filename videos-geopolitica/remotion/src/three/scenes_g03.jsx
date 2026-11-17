@@ -104,7 +104,7 @@ export const SG3 = {
   }),
   trailer2: ({ t, d }) => ({
     keys: [[0, 0.6, 0.9, 2.6, 0, 0.6, 0], [d * 0.5, -0.4, 1.0, 2.5, 0, 0.6, 0], [d, 0.3, 0.95, 2.7, 0, 0.6, 0]],
-    three: <><Dust t={t} /><Bars t={t} at={0.3} maxv={90.4} gap={0.9} items={[['TRÁILER 1', 90.4, C.lime], ['TRÁILER 2', 75.9, C.blue]]} /></>,
+    three: <><Dust t={t} /><Bars t={t} at={0.3} maxv={125} gap={0.9} items={[['TRÁILER 1', 90.4, C.lime], ['TRÁILER 2', 75.9, C.blue]]} /></>,
     ov: <TypeCard t={t} at={d * 0.1} lines={['TRÁILER 2', 'MAYO 2025']} x={110} y={170} />,
   }),
   filtracion: ({ t, d }) => ({

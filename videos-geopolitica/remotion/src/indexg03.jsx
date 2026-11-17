@@ -70,12 +70,12 @@ const Thumb = () => <AbsoluteFill style={{ background: C.bg }}>
   <ThreeCanvas width={1280} height={720} gl={{ antialias: true }} camera={{ fov: 40, position: [0, 1, 4] }}>
     <color attach="background" args={[C.bg]} /><Cam t={0} keys={[[0, 0.35, 0.85, 3.4, 0.55, 0.62, 0]]} />
     <Plate r={1.1} pos={[-0.6, 0, 0]} /><Dust t={3} />
-    <group position={[-0.65, 0.68, 0]} rotation={[0, 0.3, -0.06]} scale={1.15}><PriceTag text="19 NOV" color={C.lime} /></group>
+    <group position={[-0.95, 0.68, 0]} rotation={[0, 0.3, -0.06]} scale={1.0}><PriceTag text="19 NOV" color={C.lime} /></group>
   </ThreeCanvas>
   <div style={{ position: 'absolute', right: 40, top: 90, textAlign: 'right', fontFamily: FONT, fontWeight: 900, lineHeight: 0.98, transform: 'scaleX(1.05)', transformOrigin: 'right' }}>
     <div style={{ fontSize: 96, color: C.text }}>GTA 6</div>
     <div style={{ fontSize: 96, color: C.text }}>TODO LO</div>
-    <div style={{ fontSize: 112, color: C.red }}>CONFIRMADO</div>
+    <div style={{ fontSize: 84, color: C.red }}>CONFIRMADO</div>
     <div style={{ fontSize: 46, color: C.lime, fontFamily: '"JetBrains Mono", monospace', marginTop: 16 }}>DATO vs RUMOR</div>
   </div>
   <Grain f={3} />
