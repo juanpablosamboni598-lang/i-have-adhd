@@ -1,0 +1,290 @@
+[
+ {
+  "tipo": "gancho",
+  "titulo": "con nada",
+  "texto": "Un termo mantiene el café caliente todo el día, y la limonada fría también. Y lo hace con nada. Literalmente, con vacío.",
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.5,
+    "swish"
+   ],
+   [
+    0.85,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "abre",
+  "titulo": "una botella",
+  "texto": "Si pones café caliente en una botella de vidrio, ya tienes dónde llevarlo. Pero en una hora está tibio.",
+  "sfx": [
+   [
+    0.2,
+    "agua_flujo"
+   ],
+   [
+    0.5,
+    "clink"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tres",
+  "titulo": "tres maneras",
+  "texto": "El calor se escapa de tres maneras: tocando, de molécula en molécula; moviéndose con el aire, que sube caliente y se lo lleva; y como luz invisible, que sale para todos lados.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "doble",
+  "titulo": "pared doble",
+  "texto": "Así que haces la botella doble, una adentro de otra, con un espacio entre las dos.",
+  "sfx": [
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "aire",
+  "titulo": "el aire",
+  "texto": "Pero ese espacio tiene aire, y el aire todavía pasa calor de una pared a la otra.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "vacio",
+  "titulo": "el vacío",
+  "texto": "Así que le sacas el aire a ese espacio. Sin moléculas, no hay nada que lleve el calor, ni tocando ni moviéndose. Ese es el vacío.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.55,
+    "mecanismo"
+   ],
+   [
+    0.88,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "luz",
+  "titulo": "luz invisible",
+  "texto": "Pero el calor todavía se escapa como luz invisible, la misma que sientes en la cara cuando te acercas a una brasa.",
+  "sfx": [
+   [
+    0.3,
+    "electrico"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "espejo",
+  "titulo": "el espejo",
+  "texto": "Así que plateas las paredes por dentro, como un espejo, y esa luz rebota de vuelta hacia el café. Por eso los termos de vidrio brillan por dentro.",
+  "sfx": [
+   [
+    0.25,
+    "brillo"
+   ],
+   [
+    0.55,
+    "swish"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "prueba",
+  "titulo": "tócalo",
+  "texto": "Haz la prueba: con el café hirviendo adentro, toca el termo por fuera. Está casi a la temperatura del cuarto. Ese calor que tu mano no siente es justo el que se quedó adentro.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.6,
+    "tension"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuello",
+  "titulo": "el cuello",
+  "texto": "Pero las dos paredes tienen que unirse en algún lado, en el cuello. Y por ahí el calor sí pasa, tocando.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "tapa",
+  "titulo": "la tapa",
+  "texto": "Así que haces el cuello delgado, y lo tapas con un corcho o un tapón de plástico, que pasan muy poco calor. Aun así, por la tapa es por donde más se enfría.",
+  "sfx": [
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.55,
+    "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "frio",
+  "titulo": "al revés",
+  "texto": "Y como al termo no le importa si el calor quiere salir o entrar, funciona al revés: el hielo de adentro tarda muchísimo en derretirse.",
+  "sfx": [
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.6,
+    "clink"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fragil",
+  "titulo": "frágil",
+  "texto": "Pero el vidrio al vacío es frágil. Si se cae y se rompe la pared de adentro, oyes un tintineo, y deja de servir. Por eso hoy la mayoría son de acero inoxidable doble, también al vacío, que aguanta los golpes.",
+  "sfx": [
+   [
+    0.2,
+    "impacto"
+   ],
+   [
+    0.45,
+    "clink"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "historia",
+  "titulo": "1892",
+  "texto": "El invento es de 1892. El químico escocés James Dewar lo diseñó para guardar gases muy fríos en su laboratorio. Años después, una empresa alemana lo vendió para el café, con el nombre Thermos.",
+  "sfx": [
+   [
+    0.15,
+    "pop"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.85,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "truco",
+  "titulo": "el truco",
+  "texto": "Un truco: antes de servir, échale agua caliente un minuto y bótala. Así las paredes no le roban calor al café.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ],
+   [
+    0.6,
+    "chapoteo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "así funciona",
+  "texto": "Dos paredes, vacío en medio, espejo por dentro y una buena tapa. Y con esto ya entiendes cómo funciona tu termo.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.5,
+    "brillo"
+   ],
+   [
+    0.85,
+    "campana"
+   ]
+  ]
+ }
+]

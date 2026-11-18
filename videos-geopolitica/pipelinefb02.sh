@@ -14,7 +14,7 @@ TEMPO=$(python3 - <<PY
 import json,subprocess,glob
 e=json.load(open('$F/escenas.json')); w=sum(len(x['texto'].split()) for x in e)
 d=sum(float(subprocess.check_output(['ffprobe','-v','error','-show_entries','format=duration','-of','csv=p=0',f])) for f in sorted(glob.glob('$F/audio2/a*.wav')))
-print(round(min(1.15,max(1.0,190/(w/d*60))),3))
+print(round(min(1.15,max(0.9,190/(w/d*60))),3))
 PY
 )
 log "$F voz lista, tempo $TEMPO"

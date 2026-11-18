@@ -43,6 +43,8 @@ export const S24 = {
     caps: [['agua', 'casi toda la comida tiene agua'], ['positiva', 'un lado positivo'], ['negativa', 'y otro negativo'], ['imán', 'como un imán chiquito', G]] }),
   gira: ({ t, d }) => ({ keys: go('mol', 'mol', d), three: <><K /><group position={[0, 0, 0.15]}>{mols(t, tw(t, 0.3, 1) * 0.9)}</group></>,
     caps: [['voltearse', 'se voltean'], ['millones', 'miles de millones de veces'], ['calor', 'ese roce es calor', R]] }),
+  frecuencia: ({ t, d }) => ({ keys: go('mol', 'mol', d), three: <><K /><group position={[0, 0, 0.15]}>{mols(t, 0.6)}</group></>,
+    caps: [['natural', '¿la frecuencia del agua?'], ['es', 'no lo es', R], ['banda', 'una banda permitida', G]] }),
   profundo: ({ t, d }) => ({ keys: go('mol', 'food', d), three: <><K /><Microwave t={t} door={1} xr={0.85} heat={tw(t, 0.3, d * 0.6)} depth={0.9} cut={1} /></>,
     caps: [['mito', 'aquí está el mito', R], ['centro', 'no llegan al centro', R], ['centímetros', 'de 1 a 3 centímetros', G]] }),
   conduccion: ({ t, d }) => ({ keys: go('food', 'food2', d), three: <><K /><Microwave t={t} door={1} xr={0.85} heat={0.9} depth={0.9 - tw(t, d * 0.2, d) * 0.6} cut={1} /></>,

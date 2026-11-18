@@ -228,9 +228,28 @@
   ]
  },
  {
+  "tipo": "frecuencia",
+  "titulo": "otro mito",
+  "texto": "Y de paso, otro mito: mucha gente dice que esa frecuencia es la frecuencia natural del agua. No lo es. Se escogió porque es una banda que se permite usar en hornos y máquinas sin estorbar las comunicaciones, y porque la onda alcanza a entrar un poco en la comida antes de gastarse.",
+  "sfx": [
+   [
+    0.2,
+    "tension"
+   ],
+   [
+    0.55,
+    "fallo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
   "tipo": "profundo",
   "titulo": "un par de centímetros",
-  "texto": "Pero aquí está el mito. Esas ondas no llegan hasta el centro de la comida. En los alimentos con mucha agua, la mayor parte de la energía se queda en los primeros uno a tres centímetros.",
+  "texto": "Pero aquí está el mito principal. Esas ondas no llegan hasta el centro de la comida. En los alimentos con mucha agua, la mayor parte de la energía se queda en los primeros uno a tres centímetros.",
   "sfx": [
    [
     0.2,

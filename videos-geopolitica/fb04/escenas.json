@@ -1,0 +1,283 @@
+[
+ {
+  "tipo": "gancho",
+  "titulo": "91 grados",
+  "texto": "En Bogotá, el agua hierve a unos noventa y un grados, no a cien. Por eso los fríjoles tardan una eternidad, y por eso existe la olla a presión.",
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.45,
+    "burbujas"
+   ],
+   [
+    0.85,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "abre",
+  "titulo": "una olla",
+  "texto": "Si pones agua en una olla con tapa, encima del fogón, ya tienes una olla. Pero el agua hierve, y por más fuego que le metas, no pasa de cien grados. Y arriba en la montaña, ni siquiera llega a eso.",
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ],
+   [
+    0.45,
+    "burbujas"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "aire",
+  "titulo": "el aire",
+  "texto": "Eso pasa porque el aire empuja la superficie del agua. Mientras menos aire tenga encima, más fácil se escapa como vapor, y hierve más frío.",
+  "sfx": [
+   [
+    0.2,
+    "whoosh"
+   ],
+   [
+    0.55,
+    "burbujas"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tapa",
+  "titulo": "la tapa",
+  "texto": "Así que le pones una tapa que cierre duro, para que el vapor no se escape. El vapor se acumula, empuja el agua desde arriba, y ahora el agua tiene que calentarse más para poder hervir.",
+  "sfx": [
+   [
+    0.15,
+    "clink"
+   ],
+   [
+    0.5,
+    "burbujas"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "grados",
+  "titulo": "120 grados",
+  "texto": "Con una atmósfera de presión de más, el agua hierve a unos ciento veinte grados. Y esos veinte grados de más cocinan los fríjoles en mucho menos tiempo.",
+  "sfx": [
+   [
+    0.25,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "brillo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fuga",
+  "titulo": "se escapa",
+  "texto": "Pero la tapa no queda perfecta, y el vapor se escapa silbando por los bordes.",
+  "sfx": [
+   [
+    0.3,
+    "whoosh"
+   ],
+   [
+    0.75,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "empaque",
+  "titulo": "el empaque",
+  "texto": "Así que le pones un anillo de caucho alrededor de la tapa, que se aplasta y sella. Ese es el empaque.",
+  "sfx": [
+   [
+    0.25,
+    "click"
+   ],
+   [
+    0.6,
+    "mecanismo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "revienta",
+  "titulo": "puede reventar",
+  "texto": "Pero si el vapor se sigue acumulando sin salida, la presión sube y sube, y la olla puede reventar.",
+  "sfx": [
+   [
+    0.25,
+    "tension"
+   ],
+   [
+    0.6,
+    "alarma"
+   ],
+   [
+    0.85,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "pito",
+  "titulo": "el pito",
+  "texto": "Así que le pones arriba un tubito con una pesita encima. Cuando la presión llega al punto justo, levanta la pesita, sale un chorrito de vapor, y la pesita baja. Por eso la olla hace chu chu chu. Esa es la válvula reguladora, o el pito.",
+  "sfx": [
+   [
+    0.2,
+    "mecanismo"
+   ],
+   [
+    0.45,
+    "whoosh"
+   ],
+   [
+    0.65,
+    "whoosh"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tapado",
+  "titulo": "se tapa",
+  "texto": "Pero si un fríjol o un pedazo de cáscara tapa ese tubito, el vapor ya no tiene por dónde salir.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.75,
+    "tension"
+   ]
+  ]
+ },
+ {
+  "tipo": "seguridad",
+  "titulo": "la de seguridad",
+  "texto": "Así que le pones una segunda salida, un tapón que se dispara si la presión pasa del límite. Esa es la válvula de seguridad.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.6,
+    "impacto"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "abrir",
+  "titulo": "no la abras",
+  "texto": "Pero si alguien abre la tapa con la olla llena de presión, el agua a ciento veinte grados se vuelve vapor de golpe y sale disparada.",
+  "sfx": [
+   [
+    0.3,
+    "click"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "seguro",
+  "titulo": "el seguro",
+  "texto": "Así que la tapa tiene un seguro: mientras hay presión adentro, no deja girarla. Primero dejas que se enfríe o sacas el vapor por la válvula, y luego abres.",
+  "sfx": [
+   [
+    0.25,
+    "mecanismo"
+   ],
+   [
+    0.55,
+    "whoosh"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "llena",
+  "titulo": "la rayita",
+  "texto": "Y nunca la llenes hasta arriba. Los granos crecen y hacen espuma, y pueden tapar las válvulas. Por eso adentro tiene una rayita que marca hasta dónde llenar.",
+  "sfx": [
+   [
+    0.25,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "fallo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "así funciona",
+  "texto": "Una tapa que encierra el vapor, un empaque que sella, una pesita que regula y una válvula de seguridad. Y con esto ya entiendes la olla a presión de tu casa.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.5,
+    "brillo"
+   ],
+   [
+    0.85,
+    "campana"
+   ]
+  ]
+ }
+]
