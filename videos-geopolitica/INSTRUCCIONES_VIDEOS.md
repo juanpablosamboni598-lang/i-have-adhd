@@ -160,3 +160,8 @@ Canal de YouTube jxseng ("Xseng") y página de Facebook Quatoom: curiosidades de
 - **Ritmo:** calendario completo. El dueño deja trabajar toda la noche; las tareas largas van encadenadas en segundo plano.
 - **Permiso:** programar automáticamente según el calendario todo lo que pase la revisión (punto 4) y avisar con los enlaces.
 - Los Shorts viejos de menos de 2 min no cumplen la duración nueva: no se vuelven a usar.
+
+### 6. Cambio de ritmo (18 nov 2026, mensaje del dueño)
+"Sube los video ahora y después los subes ya sabes como 5-6 horas": cada video se publica apenas pase la revisión,
+dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Reemplaza el calendario fijo A/B mientras el render vaya lento.
+- 18 nov 3:09 pm: fb03 cremallera publicada (YouTube + Facebook).
