@@ -1,0 +1,560 @@
+[
+ {
+  "tipo": "gancho",
+  "titulo": "de adentro",
+  "texto": "Casi todos creemos que el microondas calienta la comida de adentro hacia afuera. Es falso. Y la prueba está en ese centro helado que te encuentras cuando partes un plato recalentado.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.5,
+    "swish"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "anio",
+  "titulo": "1945",
+  "texto": "Esta historia empieza en 1945, en Massachusetts, en un laboratorio de la empresa Raytheon. La Segunda Guerra Mundial acababa de terminar, y Raytheon fabricaba miles de piezas para los radares.",
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ],
+   [
+    0.5,
+    "mecanismo"
+   ],
+   [
+    0.85,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "spencer",
+  "titulo": "Percy Spencer",
+  "texto": "Uno de sus ingenieros se llamaba Percy Spencer. Había dejado la escuela muy joven y aprendió electrónica por su cuenta, hasta volverse uno de los expertos en magnetrones, el tubo que genera las ondas del radar.",
+  "sfx": [
+   [
+    0.2,
+    "click"
+   ],
+   [
+    0.55,
+    "electrico"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "chocolate",
+  "titulo": "la barra",
+  "texto": "La versión más contada dice que un día, trabajando junto a un magnetrón encendido, notó que una barra de chocolate que llevaba en el bolsillo se había derretido. Algunas fuentes ponen ese día en 1946, y nadie lo dejó escrito con fecha exacta.",
+  "sfx": [
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.6,
+    "gota"
+   ],
+   [
+    0.85,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "patente",
+  "titulo": "la patente",
+  "texto": "Lo que sí está escrito es la patente. El 8 de octubre de 1945, Spencer pidió patentar un método para cocinar alimentos con microondas. Se la aprobaron en 1950, con el número dos millones cuatrocientos noventa y cinco mil cuatrocientos veintinueve.",
+  "sfx": [
+   [
+    0.2,
+    "papel"
+   ],
+   [
+    0.55,
+    "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "radarange",
+  "titulo": "el Radarange",
+  "texto": "El primer horno de microondas salió en 1947 y se llamó Radarange. Medía casi lo mismo que una persona, pesaba unos trescientos cuarenta kilos y costaba alrededor de cinco mil dólares. Era para restaurantes, barcos y trenes, no para tu cocina.",
+  "sfx": [
+   [
+    0.2,
+    "impacto"
+   ],
+   [
+    0.5,
+    "mecanismo"
+   ],
+   [
+    0.85,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "amana",
+  "titulo": "1967",
+  "texto": "El microondas de mesa llegó en 1967, de la marca Amana, que Raytheon había comprado. Costaba cuatrocientos noventa y cinco dólares. Desde ahí empezó a entrar a las casas.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.55,
+    "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "caja",
+  "titulo": "una caja",
+  "texto": "Ahora, ¿cómo funciona? Si pones comida en una caja de metal y le metes ondas de radio de la frecuencia justa, ya tienes un microondas. Pero las ondas tienen que salir de algún lado.",
+  "sfx": [
+   [
+    0.15,
+    "impacto"
+   ],
+   [
+    0.5,
+    "swish"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "magnetron",
+  "titulo": "el magnetrón",
+  "texto": "Así que le pones atrás un magnetrón, el mismo tubo del radar. Le entra electricidad y sale una onda que sube y baja dos mil cuatrocientos cincuenta millones de veces por segundo.",
+  "sfx": [
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.5,
+    "mecanismo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "guia",
+  "titulo": "la guía",
+  "texto": "Pero si la onda sale para cualquier lado, se pierde. Así que la mandas por un tubo de metal que la lleva hasta la caja. Esa es la guía de onda.",
+  "sfx": [
+   [
+    0.25,
+    "swish"
+   ],
+   [
+    0.6,
+    "whoosh"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "agua",
+  "titulo": "el agua",
+  "texto": "Y ahora lo importante: casi toda la comida tiene agua. Cada molécula de agua tiene un lado con carga positiva y otro con carga negativa, como un imán chiquito.",
+  "sfx": [
+   [
+    0.2,
+    "burbujas"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "gira",
+  "titulo": "se voltea",
+  "texto": "Cuando la onda pasa, empuja esas moléculas a voltearse para un lado y para el otro, miles de millones de veces por segundo. Se frotan entre ellas, y ese roce es calor.",
+  "sfx": [
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.5,
+    "burbujas"
+   ],
+   [
+    0.85,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "profundo",
+  "titulo": "un par de centímetros",
+  "texto": "Pero aquí está el mito. Esas ondas no llegan hasta el centro de la comida. En los alimentos con mucha agua, la mayor parte de la energía se queda en los primeros uno a tres centímetros.",
+  "sfx": [
+   [
+    0.2,
+    "tension"
+   ],
+   [
+    0.55,
+    "swish"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "conduccion",
+  "titulo": "de afuera hacia adentro",
+  "texto": "Lo de adentro se calienta después, como en una olla: el calor pasa de la capa de afuera hacia el centro, despacito. Eso se llama conducción.",
+  "sfx": [
+   [
+    0.25,
+    "burbujas"
+   ],
+   [
+    0.6,
+    "gota"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "helado",
+  "titulo": "el centro helado",
+  "texto": "Por eso, si recalientas un plato grande y hondo, la orilla quema y el centro sigue frío. En un plato pequeño o delgado, las ondas alcanzan casi todo, y por eso parece que calentó por dentro.",
+  "sfx": [
+   [
+    0.2,
+    "fallo"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "reposar",
+  "titulo": "reposar",
+  "texto": "Por eso las instrucciones dicen: deja reposar un minuto. No es para que se enfríe. Es para que el calor de afuera tenga tiempo de llegar al centro.",
+  "sfx": [
+   [
+    0.25,
+    "tic"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puntos",
+  "titulo": "puntos fríos",
+  "texto": "Pero hay otro problema. Adentro de la caja, las ondas rebotan en las paredes y se cruzan. En unos puntos se suman y calientan mucho, y en otros se cancelan y casi no calientan.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "tension"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "plato",
+  "titulo": "el plato que gira",
+  "texto": "Así que pones el plato a girar, para que cada parte de la comida pase por los puntos calientes. Ese es el plato giratorio. Algunos modelos, en cambio, mueven las ondas con un ventilador de metal escondido.",
+  "sfx": [
+   [
+    0.2,
+    "mecanismo"
+   ],
+   [
+    0.55,
+    "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "puerta",
+  "titulo": "la rejilla",
+  "texto": "Y si las ondas rebotan en el metal, ¿por qué no se salen por el vidrio de la puerta? Porque detrás del vidrio hay una rejilla de metal con huequitos mucho más pequeños que la onda. La luz pasa, la onda no.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.55,
+    "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "metal",
+  "titulo": "chispas",
+  "texto": "Entonces, ¿por qué un tenedor saca chispas si las paredes también son de metal? Porque las paredes son lisas, y las puntas del tenedor juntan la electricidad en un solo punto, hasta que salta una chispa por el aire.",
+  "sfx": [
+   [
+    0.2,
+    "clink"
+   ],
+   [
+    0.55,
+    "electrico"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "huevo",
+  "titulo": "el huevo",
+  "texto": "Y por eso un huevo con cáscara puede explotar. El agua de adentro se vuelve vapor, la cáscara no lo deja salir, y la presión lo revienta. Por eso se recomienda no calentar huevos enteros con cáscara.",
+  "sfx": [
+   [
+    0.2,
+    "burbujas"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "debate",
+  "titulo": "el debate",
+  "texto": "Y aquí viene el debate que todos hemos oído en la casa: ¿el microondas es peligroso?",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.8,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "radiactivo",
+  "titulo": "no es radiactivo",
+  "texto": "Primero, lo que dice la ciencia. Las microondas son radiación no ionizante: no tienen energía para romper moléculas ni para volver radiactiva la comida. La FDA, la agencia de Estados Unidos, lo dice así: la energía se vuelve calor cuando la comida la absorbe.",
+  "sfx": [
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.55,
+    "brillo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "fuga",
+  "titulo": "la fuga",
+  "texto": "Y hay una regla. En Estados Unidos, un microondas nuevo no puede dejar escapar más de un milivatio por centímetro cuadrado a cinco centímetros de la puerta, y durante toda su vida, nunca más de cinco.",
+  "sfx": [
+   [
+    0.2,
+    "click"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "riesgos",
+  "titulo": "los riesgos reales",
+  "texto": "Pero el otro lado también tiene razón en algo. Los riesgos reales existen, solo que son otros: quemaduras con recipientes o comida muy caliente, y agua que se sobrecalienta en una taza lisa y salta de golpe cuando la mueves.",
+  "sfx": [
+   [
+    0.2,
+    "fallo"
+   ],
+   [
+    0.55,
+    "chapoteo"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "danada",
+  "titulo": "puerta dañada",
+  "texto": "Y si la puerta no cierra bien, o la bisagra o el empaque están dañados, la FDA recomienda no usarlo y mandarlo a revisar.",
+  "sfx": [
+   [
+    0.3,
+    "tension"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "nutrientes",
+  "titulo": "los nutrientes",
+  "texto": "¿Y los nutrientes? Otro mito dice que el microondas los destruye. Los estudios muestran algo más aburrido: depende del alimento. Como cocina rápido y con poca agua, muchas veces conserva tanto o más que hervir.",
+  "sfx": [
+   [
+    0.2,
+    "burbujas"
+   ],
+   [
+    0.55,
+    "pop"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "repaso",
+  "titulo": "repaso",
+  "texto": "Repasemos. Un magnetrón que fabrica la onda, una guía que la lleva, el agua de la comida que se voltea y se calienta, y un plato que gira para repartir el calor.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.7,
+    "pop"
+   ],
+   [
+    0.9,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "mito",
+  "titulo": "el mito",
+  "texto": "Y el mito, desmentido: el microondas no calienta de adentro hacia afuera. Calienta la capa de afuera, y el resto lo hace el tiempo.",
+  "sfx": [
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "tu turno",
+  "texto": "Y ahora te toca a ti: ¿qué otro mito de la cocina quieres que pongamos a prueba? Escríbelo en los comentarios.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.8,
+    "campana"
+   ]
+  ]
+ }
+]

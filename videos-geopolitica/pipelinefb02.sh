@@ -29,6 +29,6 @@ for pass in 1 2 3; do
 done
 [ $(ls $F/render2/e*.mp4 | wc -l) -ge $N ] || { log "$F render incompleto"; exit 1; }
 log "$F render listo"
-RENDER=render2 VBITRATE=6000k SFXREAL=1 SFXDENS=2.0 SFXVOL=0.9 NOSUBS=1 ./ensamblar_cartoon.sh $F $OUT 3 && python3 qc_video.py $F/$OUT $F/timeline.json > $F/qc.txt
+RENDER=render2 VBITRATE=4500k SFXREAL=1 SFXDENS=2.0 SFXVOL=0.9 NOSUBS=1 ./ensamblar_cartoon.sh $F $OUT 3 && python3 qc_video.py $F/$OUT $F/timeline.json > $F/qc.txt
 log "$F listo: $(tr '\n' ' ' < $F/qc.txt) duración $(ffprobe -v error -show_entries format=duration -of csv=p=0 $F/$OUT)"
 log "FIN$ID"
