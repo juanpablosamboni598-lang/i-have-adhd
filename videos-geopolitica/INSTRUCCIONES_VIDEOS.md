@@ -165,3 +165,4 @@ Canal de YouTube jxseng ("Xseng") y página de Facebook Quatoom: curiosidades de
 "Sube los video ahora y después los subes ya sabes como 5-6 horas": cada video se publica apenas pase la revisión,
 dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Reemplaza el calendario fijo A/B mientras el render vaya lento.
 - 18 nov 3:09 pm: fb03 cremallera publicada (YouTube + Facebook).
+- 18 nov 8:30 pm: fb02 ducha programada (YouTube Zernio 6afe257286f299bac8429554, Facebook Buffer 6afe257601ba7c5e79183ecf).
