@@ -18,6 +18,8 @@ html,body{width:1080px;height:1920px;overflow:hidden;background:#000}
 .gris .bg{background:radial-gradient(ellipse 75% 60% at 50% 50%,#DEDEDE 0%,#CFCFCF 55%,#333132 120%)}
 .gris .grid{position:absolute;inset:0;background-image:linear-gradient(rgba(150,150,150,.28) 1px,transparent 1px),linear-gradient(90deg,rgba(150,150,150,.28) 1px,transparent 1px);background-size:90px 90px}
 .vig{position:absolute;inset:0;pointer-events:none}
+.negro .bg{background:#070707}.negro .vig{background:radial-gradient(ellipse 75% 65% at 50% 48%,transparent 40%,rgba(0,0,0,.8) 100%)}.negro .w{color:#fff}
+.sweep{position:absolute;top:-20%;bottom:-20%;width:45%;background:linear-gradient(90deg,transparent,rgba(255,255,255,.55),transparent);transform:skewX(-18deg);mix-blend-mode:overlay;pointer-events:none}
 .oscuro .vig{background:radial-gradient(ellipse 70% 60% at 50% 50%,transparent 40%,rgba(0,0,0,.65) 100%)}
 .claro .vig{background:radial-gradient(ellipse 80% 70% at 50% 50%,transparent 60%,rgba(0,0,0,.06) 100%)}
 .bok{position:absolute;border-radius:50%;background:#CACAC7;filter:blur(7px)}
@@ -87,8 +89,8 @@ window.setup=(v)=>{
 function buildItem(it,cam,s){
   let e;
   if(it.type==='img'){e=el('div','obj',cam,`<img src="${it.src}">`);e.style.width=(it.w*W)+'px';if(it.flip)e.firstChild.style.transform='scaleX(-1)';
-    e.firstChild.style.filter=`drop-shadow(0 ${s.bg==='oscuro'?30:26}px 40px rgba(0,0,0,${s.bg==='oscuro'?.7:.35}))`}
-  else if(it.type==='card'){e=el('div','card',cam,`<img src="${it.src}"${it.color?' style="filter:contrast(1.1) saturate(1.15)"':''}>`);e.style.width=(it.w*W)+'px';e.style.height=(it.h*W)+'px'}
+    e.firstChild.style.filter=`${it.dim!=null?`brightness(${it.dim}) `:''}drop-shadow(0 ${s.bg==='oscuro'?30:26}px 40px rgba(0,0,0,${s.bg==='oscuro'?.7:.35}))`}
+  else if(it.type==='card'){e=el('div','card',cam,`<img src="${it.src}"${it.color?' style="filter:contrast(1.1) saturate(1.15)"':''}>${it.sweep?'<div class="sweep"></div>':''}`);if(it.full)e.style.borderRadius='0';if(it.sweep)e._sw=e.querySelector('.sweep');e.style.width=(it.w*W)+'px';e.style.height=(it.h*W)+'px'}
   else if(it.type==='ring'){e=el('div','obj',cam);const d=it.w*W;e.style.width=e.style.height=(d+70)+'px';
     e.innerHTML=`<svg width="${d+70}" height="${d+70}" style="position:absolute;inset:0"><circle cx="${(d+70)/2}" cy="${(d+70)/2}" r="${d/2+24}" fill="none" stroke="${s.bg==='oscuro'?'#fff':'#111'}" stroke-width="4" stroke-dasharray="14 12"/></svg><div class="ring" style="left:35px;top:35px;width:${d}px;height:${d}px"><img src="${it.src}" style="object-position:${it.pos||'50% 30%'}"></div>`;e._svg=e.firstChild}
   else if(it.type==='box'){e=el('div','obj',cam,`<div class="box" style="position:relative;font-size:${it.size||150}px">${it.text}</div>`)}
@@ -136,6 +138,7 @@ function placeItem(e,t,S,camP){
     e.style.left=(cx-w/2)+'px';e.style.top=(cy-h/2)+'px';e.style.transform=`translate(${(1-eo(q))*1200}px,0) scaleX(${1+(1-q)*0.4})`;e.style.opacity=1;return}
   if(it.type==='dots'){const q=cl((t-at)/0.9);const cs=60+200*eo(q);e._c.style.width=e._c.style.height=cs+'px';e._c.style.left=(500-cs/2)+'px';e._c.style.top=(500-cs/2)+'px';
     e._dots.forEach(d=>{const qq=eo(cl((t-at-0.25-d._ri*0.35)/0.6));const r=d._r*qq;d.style.left=(500+Math.cos(d._a+t*.05)*r-d._sz/2)+'px';d.style.top=(500+Math.sin(d._a+t*.05)*r-d._sz/2)+'px';d.style.opacity=qq})}
+  if(e._sw){const q=cl((t-(it.sweepAt??at))/(it.sweepDur||1.2));e._sw.style.left=(-60+q*170)+'%'}
   if(it.type==='stroke'){e._p.style.strokeDashoffset=e._len*(1-eio(cl((t-at)/0.45)))}
   e.style.left=(cx-w/2)+'px';e.style.top=(cy-h/2)+'px';
   e.style.transform=`translate(${dx}px,${dy}px) rotate(${rot}deg) scale(${sc})`;

@@ -129,7 +129,23 @@ def bubbles():
         out[i:i + len(p)] += p
     return norm(out)
 
-GEN = dict(skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
+
+def drone(d=10.0):
+    t = t_(d); lfo = 0.6 + 0.4 * np.sin(2 * np.pi * 0.11 * t)
+    tone = sum(np.sin(2 * np.pi * f * t + ph) * g for f, ph, g in [(41.2, 0, 1), (61.7, 1.3, .55), (82.4, .4, .3), (123.5, 2.1, .12)])
+    air = lp(noise(d), 0.01) * 0.6
+    e = np.minimum(1, t / 1.5) * np.minimum(1, (d - t) / 0.4)
+    return norm((tone + air) * lfo * e)
+
+def heartbeat(n=6, gap=0.8):
+    out = np.zeros(int((n * gap + 0.6) * SR))
+    for k in range(n):
+        for off, g in [(0, 1.0), (0.18, 0.7)]:
+            dd = 0.25; tt = t_(dd); b = np.sin(2 * np.pi * np.cumsum(55 * np.exp(-8 * tt) + 30) / SR) * env(dd, 0.003, 14) * g
+            i = int((k * gap + off) * SR); out[i:i + len(b)] += b
+    return norm(out)
+
+GEN = dict(drone=drone, heartbeat=heartbeat, skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
            punch=punch, shutter=shutter, swoosh=swoosh, pop=pop, thud=thud, scribble=scribble, stamp=stamp, slot=slot,
            riser=riser, bubbles=bubbles)
 
@@ -138,7 +154,7 @@ if __name__ == "__main__":
     out = np.zeros(int((total + 1.5) * SR))
     for e in ev:
         tt, kind, vol = e[0], e[1], e[2]
-        s = GEN[kind]() * vol; i = int(max(0, tt) * SR)
+        s = (GEN[kind](*e[3:]) if len(e) > 3 else GEN[kind]()) * vol; i = int(max(0, tt) * SR)
         out[i:i + len(s)] += s[:len(out) - i]
     out = out[:int(total * SR)]
     out = out / max(1.0, np.max(np.abs(out)) / 0.9)
