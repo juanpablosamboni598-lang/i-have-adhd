@@ -154,3 +154,9 @@ Canal de YouTube jxseng ("Xseng") y página de Facebook Quatoom: curiosidades de
 ### 4. Antes de publicar
 - Revisar la duración, el formato, los datos y que no haya marcas de agua.
 - Si algo falla, NO subir y avisar al dueño.
+
+### 5. Decisiones del dueño (18 nov 2026)
+- **Facebook:** los Shorts de 2–3 min se suben como video normal de la página (Buffer `type: post`), no como Reel (Buffer limita los Reels a 90 s).
+- **Ritmo:** calendario completo. El dueño deja trabajar toda la noche; las tareas largas van encadenadas en segundo plano.
+- **Permiso:** programar automáticamente según el calendario todo lo que pase la revisión (punto 4) y avisar con los enlaces.
+- Los Shorts viejos de menos de 2 min no cumplen la duración nueva: no se vuelven a usar.
