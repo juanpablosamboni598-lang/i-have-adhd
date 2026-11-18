@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8">
+<!-- Teaser de lanzamiento (recreación Massif Gym): render determinista, window.renderAt(t). Modo transparente para overlays finales. -->
+<style>
+@font-face{font-family:MK;src:url(../fonts/Montserrat-Black.ttf)}
+@font-face{font-family:MB;src:url(../fonts/Montserrat-Bold.ttf)}
+*{margin:0;padding:0;box-sizing:border-box}
+html,body{width:1080px;height:1920px;overflow:hidden}
+body.solid{background:#000}body.clear{background:transparent}
+.t{position:absolute;left:0;right:0;text-align:center;color:#fff;font-family:MK;text-transform:uppercase;white-space:nowrap}
+#intro .t{font-size:108px;line-height:.92}
+.ln{display:block}
+#wm{position:absolute;display:flex;flex-direction:column;align-items:center;gap:6px}
+#wm svg{width:44px;height:44px}#wm span{font:16px/1 MB;color:#fff;letter-spacing:.02em}
+.stack{position:absolute;left:0;right:0;text-align:center}
+.row{font:118px/1 MK;color:transparent;-webkit-text-stroke:3px #fff;height:126px;display:block}
+.row.f{color:#fff;-webkit-text-stroke:0}
+#endtxt{position:absolute;left:0;right:0;text-align:center;color:#fff}
+#endtxt .a{font:44px/1 MK;letter-spacing:.01em}
+#endtxt .b{font:126px/.86 MK;letter-spacing:-.01em}
+#endtxt .c{font:40px/1.15 MK}
+#dim{position:absolute;inset:0;background:#000}
+#ig{position:absolute;left:50%;top:49%;transform:translate(-50%,-50%);display:flex;flex-direction:column;align-items:center;gap:22px}
+#ig svg{width:150px;height:150px}#ig span{font:30px/1 MK;color:#fff}
+#grain{position:absolute;inset:0;width:1080px;height:1920px;pointer-events:none;opacity:.06;mix-blend-mode:screen}
+</style></head><body>
+<div id="root"></div>
+<canvas id="grain" width="540" height="960"></canvas>
+<script>
+const W=1080,H=1920,cl=x=>Math.max(0,Math.min(1,x)),eo=p=>1-Math.pow(1-p,3),eio=p=>p<.5?4*p*p*p:1-Math.pow(-2*p+2,3)/2;
+const IG=(fill)=>`<svg viewBox="0 0 64 64"><defs><linearGradient id="g" x1="0" y1="1" x2="1" y2="0"><stop offset="0" stop-color="#FEDA75"/><stop offset=".35" stop-color="#FA7E1E"/><stop offset=".6" stop-color="#D62976"/><stop offset=".85" stop-color="#962FBF"/><stop offset="1" stop-color="#4F5BD5"/></linearGradient></defs>
+<rect x="4" y="4" width="56" height="56" rx="16" fill="none" stroke="${fill}" stroke-width="6"/><circle cx="32" cy="32" r="12" fill="none" stroke="${fill}" stroke-width="6"/><circle cx="47" cy="17" r="3.6" fill="${fill}"/></svg>`;
+let M,noise=[],R;
+const $=id=>document.getElementById(id);
+window.setup=(v)=>{M=v.mode||'intro';document.body.className=M==='intro'?'solid':'clear';R=$('root');
+  if(M==='intro'){R.innerHTML=`<div id="intro">
+   <div class="t" id="t1" style="top:${.405*H}px"><span class="ln" id="l1">ALGO GRANDE</span><span class="ln" id="l2">ACABA DE</span><span class="ln" id="l3">LLEGAR</span></div>
+   <div class="t" id="t2" style="top:${.43*H}px;font-size:96px">PROYECTO</div>
+   <div class="t" id="t3" style="top:${.43*H}px;font-size:110px">26 11 2026</div>
+   <div class="t" id="t3b" style="top:${.43*H}px;font-size:110px">26 11 2026</div>
+   <div class="t" id="t4" style="top:${.43*H}px;font-size:100px">ESTÁS</div>
+   <div class="t" id="t5" style="top:${.43*H}px;font-size:100px">LISTO</div>
+   <div class="stack" id="st">${[...Array(15)].map(()=>`<span class="row">READY?</span>`).join('')}</div>
+   <div class="t" id="t6" style="top:${.405*H}px;font-size:100px;line-height:.92"><span class="ln">¿LISTO PARA</span><span class="ln">SUPERAR TUS</span><span class="ln">LÍMITES?</span></div>
+  </div><div id="wm"><div id="wmi"></div><span>@MASSIFGYM10</span></div>`}
+  else{R.innerHTML=`<div id="dim"></div><div id="endtxt" style="top:${.385*H}px"><div class="a">ALMAGUER</div><div class="b">MASSIF</div><div class="b">GYM</div><div class="c" style="margin-top:14px">26/11/2026<br>6:00 PM</div></div>
+   <div id="ig"><div id="igi"></div><span>@MASSIFGYM10</span></div>`}
+  const g=$('grain'),cx=g.getContext('2d');
+  for(let k=0;k<6;k++){const id=cx.createImageData(540,960);for(let i=0;i<id.data.length;i+=4){const v=Math.random()*255;id.data[i]=id.data[i+1]=id.data[i+2]=v;id.data[i+3]=255}noise.push(id)}
+  if(M!=='intro')g.style.display='none';
+};
+function show(id,on,css){const e=$(id);e.style.display=on?'block':'none';if(on&&css)Object.assign(e.style,css)}
+
+function intro(t){
+  const on1=t<6.1;show('t1',on1);
+  if(on1){[['l1',0,'ALGO GRANDE'],['l2',.12,'ACABA DE'],['l3',.24,'LLEGAR']].forEach(([id,d,txt])=>{const q=eo(cl((t-d)/1.35));const e=$(id);
+      let track=(1-q)*0.55,x=-(1-q)*560;
+      if(t>4.45){track=cl((t-4.45)/0.9)*0.9;if(t>4.95)txt=txt.replace(/[^ ]/g,'·')}
+      e.textContent=txt;e.style.letterSpacing=track+'em';e.style.transform=`translateX(${x}px)`;e.style.opacity=t<d?0:1});
+    let s=1;if(t>2.4)s=1-0.42*eio(cl((t-2.4)/1.6));if(t>4.45)s*=1-0.35*cl((t-4.45)/0.9);
+    $('t1').style.transform=`scale(${s})`;$('t1').style.opacity=t>5.2?1-cl((t-5.2)/0.85):1}
+  show('t2',t>=7.0&&t<8.0,{opacity:eo(cl((t-7)/0.15)),filter:`blur(${(1-cl((t-7)/0.15))*14}px)`});
+  const on3=t>=8.0&&t<13.15;show('t3',on3);show('t3b',on3&&t>11.6);
+  if(on3){const e=$('t3'),b=$('t3b');let y=0,bl=0,op=eo(cl((t-8)/0.15));
+    if(t>11.6){const f=Math.floor(t*30);const odd=f%3!==0;y=odd?(f%2?-34:30):0;bl=odd?7:0;op*=1-cl((t-12.2)/0.95);
+      b.style.transform=`translateY(${-y*1.6}px)`;b.style.filter='blur(9px)';b.style.opacity=odd?op*0.6:0}
+    e.style.transform=`translateY(${y}px)`;e.style.filter=bl?`blur(${bl}px)`:(t<8.15?`blur(${(1-cl((t-8)/0.15))*14}px)`:'none');e.style.opacity=op}
+  const on4=t>=13.2&&t<13.85;show('t4',on4);if(on4){const f=Math.floor(t*30);$('t4').innerHTML=f%4<2?'ESTÁS':'EST<span style="opacity:.25">A</span>S'}
+  show('t5',t>=13.85&&t<14.15);
+  const on5=t>=14.15&&t<15.05;show('st',on5);
+  if(on5){const q=(t-14.15)/0.9,rowH=126,n=15,total=n*rowH;const y=-total*0.55+q*(H+total*0.6);
+    $('st').style.top=y+'px';const rows=$('st').children;for(let i=0;i<n;i++){const cy=y+i*rowH+rowH/2;rows[i].className='row'+(Math.abs(cy-H*0.475)<rowH/2?' f':'')}}
+  show('t6',t>=15.1&&t<17.0,{opacity:t>16.85?1-cl((t-16.85)/0.15):1});
+  const wm=$('wm'),top=t<9.9;wm.style.left=((top?.885:.11)*W-40)+'px';wm.style.top=((top?.245:.57)*H)+'px';
+  $('wmi').innerHTML=IG(t>2.0&&t<4.0?'url(#g)':'#fff');wm.style.opacity=t<0.2?0:1;
+}
+function outro(t){
+  const a=cl((t-33.7)/0.12),e=$('endtxt');e.style.opacity=t<36.3?a:1-cl((t-36.3)/0.15)*0.82;e.style.filter=a<1?`blur(${(1-a)*12}px)`:'none';
+  e.style.transform=`scale(${1+0.02*cl((t-33.7)/2.6)})`;
+  $('dim').style.opacity=t<36.3?0:0.62*cl((t-36.3)/0.15);
+  $('ig').style.opacity=t<36.3?0:cl((t-36.3)/0.1);
+  $('igi').innerHTML=IG(t>36.38&&t<36.62?'url(#g)':'#fff');
+}
+window.renderAt=(t)=>{if(M==='intro'){intro(t);$('grain').getContext('2d').putImageData(noise[Math.floor(t*30)%noise.length],0,0)}else outro(t)};
+</script></body></html>
