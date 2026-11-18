@@ -145,7 +145,11 @@ def heartbeat(n=6, gap=0.8):
             i = int((k * gap + off) * SR); out[i:i + len(b)] += b
     return norm(out)
 
-GEN = dict(drone=drone, heartbeat=heartbeat, skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
+def key():
+    d = 0.04; c = norm(hp(noise(d), 0.5)) * env(d, 0.0003, 180) + np.sin(2*np.pi*rng.uniform(1800,2600)*t_(d))*env(d,0.0003,220)*0.4
+    return norm(c)
+
+GEN = dict(key=key, drone=drone, heartbeat=heartbeat, skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
            punch=punch, shutter=shutter, swoosh=swoosh, pop=pop, thud=thud, scribble=scribble, stamp=stamp, slot=slot,
            riser=riser, bubbles=bubbles)
 
