@@ -1,0 +1,211 @@
+[
+ {
+  "tipo": "abre",
+  "titulo": "una ducha",
+  "texto": "Si pones un tubo de agua fría y a la punta le enroscas una regadera, ya tienes una ducha. Pero el agua sale helada, y bañarse así duele.",
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.35,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "resistencia",
+  "titulo": "la resistencia",
+  "texto": "Así que le metes adentro un alambre enrollado que se calienta con la electricidad. El agua pasa pegada a él y se calienta. Esa es la resistencia.",
+  "sfx": [
+   [
+    0.15,
+    "electrico"
+   ],
+   [
+    0.45,
+    "agua_flujo"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "seca",
+  "titulo": "se quema",
+  "texto": "Pero si alguien prende la ducha sin agua, el alambre se calienta sin nada que lo enfríe, y en segundos se quema.",
+  "sfx": [
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "diafragma",
+  "titulo": "el diafragma",
+  "texto": "Así que le pones una tapita de caucho que el agua empuja hacia arriba. Solo cuando corre el agua, la tapita junta dos contactos y deja pasar la corriente. Por eso suena clac al abrir la llave. Ese es el diafragma.",
+  "sfx": [
+   [
+    0.15,
+    "agua_flujo"
+   ],
+   [
+    0.45,
+    "click"
+   ],
+   [
+    0.65,
+    "click"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tibia",
+  "titulo": "sale tibia",
+  "texto": "Pero en tierra fría, a veces el agua apenas sale tibia.",
+  "sfx": [
+   [
+    0.3,
+    "agua_flujo"
+   ],
+   [
+    0.8,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "poca",
+  "titulo": "menos agua",
+  "texto": "Así que cierras un poco la llave. Pasa menos agua por el mismo alambre, y cada gota se lleva más calor.",
+  "sfx": [
+   [
+    0.2,
+    "mecanismo"
+   ],
+   [
+    0.5,
+    "gota"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "perilla",
+  "titulo": "la perilla",
+  "texto": "Pero en tierra caliente sale hirviendo. Así que el alambre tiene dos tramos, y una perilla escoge por dónde pasa la corriente: uno calienta más para el invierno, y otro menos para el verano.",
+  "sfx": [
+   [
+    0.15,
+    "fallo"
+   ],
+   [
+    0.45,
+    "click"
+   ],
+   [
+    0.7,
+    "mecanismo"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tierra",
+  "titulo": "peligro",
+  "texto": "Pero agua y electricidad juntas son peligrosas. Si un cable se pela, la regadera puede quedar con corriente.",
+  "sfx": [
+   [
+    0.25,
+    "electrico"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "polo",
+  "titulo": "polo a tierra",
+  "texto": "Así que le pones un cable verde que va directo a la tierra. Si algo falla, la corriente se va por ahí y no por ti. Ese es el polo a tierra.",
+  "sfx": [
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.55,
+    "electrico"
+   ],
+   [
+    0.9,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "breaker",
+  "titulo": "su breaker",
+  "texto": "Y como gasta tanto como cuarenta bombillos viejos, va con su propio breaker.",
+  "sfx": [
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.7,
+    "click"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "así funciona",
+  "texto": "Un alambre que calienta, una tapita que lo prende, una perilla y un polo a tierra. Y con esto ya entiendes la ducha eléctrica de tu casa.",
+  "sfx": [
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.5,
+    "brillo"
+   ],
+   [
+    0.85,
+    "campana"
+   ]
+  ]
+ }
+]
