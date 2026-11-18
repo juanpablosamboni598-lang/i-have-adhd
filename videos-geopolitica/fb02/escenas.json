@@ -1,19 +1,38 @@
 [
  {
+  "tipo": "gancho",
+  "titulo": "una tapita",
+  "texto": "Tu ducha eléctrica tiene adentro una tapita de caucho que decide si te bañas con agua caliente o helada. Vamos a armarla desde cero.",
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.4,
+    "click"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ },
+ {
   "tipo": "abre",
   "titulo": "una ducha",
   "texto": "Si pones un tubo de agua fría y a la punta le enroscas una regadera, ya tienes una ducha. Pero el agua sale helada, y bañarse así duele.",
   "sfx": [
    [
-    0.05,
-    "impacto"
-   ],
-   [
-    0.35,
+    0.1,
     "agua_flujo"
    ],
    [
-    0.8,
+    0.5,
+    "gota"
+   ],
+   [
+    0.85,
     "fallo"
    ]
   ]
@@ -21,7 +40,7 @@
  {
   "tipo": "resistencia",
   "titulo": "la resistencia",
-  "texto": "Así que le metes adentro un alambre enrollado que se calienta con la electricidad. El agua pasa pegada a él y se calienta. Esa es la resistencia.",
+  "texto": "Así que le metes adentro un alambre enrollado que se calienta con la electricidad, como el de una estufa. El agua pasa pegada a él y se calienta. Esa es la resistencia.",
   "sfx": [
    [
     0.15,
@@ -59,7 +78,7 @@
  {
   "tipo": "diafragma",
   "titulo": "el diafragma",
-  "texto": "Así que le pones una tapita de caucho que el agua empuja hacia arriba. Solo cuando corre el agua, la tapita junta dos contactos y deja pasar la corriente. Por eso suena clac al abrir la llave. Ese es el diafragma.",
+  "texto": "Así que le pones una tapita de caucho que el agua empuja hacia arriba. Solo cuando corre el agua, la tapita junta dos contactos y deja pasar la corriente. Por eso suena clac al abrir la llave, y se apaga sola al cerrarla. Ese es el diafragma.",
   "sfx": [
    [
     0.15,
@@ -80,9 +99,28 @@
   ]
  },
  {
+  "tipo": "presion",
+  "titulo": "poca presión",
+  "texto": "Pero si en tu casa el agua llega con muy poca presión, la tapita no alcanza a subir. Sale un chorrito, y la ducha nunca se prende.",
+  "sfx": [
+   [
+    0.25,
+    "gota"
+   ],
+   [
+    0.55,
+    "tension"
+   ],
+   [
+    0.85,
+    "fallo"
+   ]
+  ]
+ },
+ {
   "tipo": "tibia",
   "titulo": "sale tibia",
-  "texto": "Pero en tierra fría, a veces el agua apenas sale tibia.",
+  "texto": "Y en tierra fría, a veces el agua apenas sale tibia.",
   "sfx": [
    [
     0.3,
@@ -97,7 +135,7 @@
  {
   "tipo": "poca",
   "titulo": "menos agua",
-  "texto": "Así que cierras un poco la llave. Pasa menos agua por el mismo alambre, y cada gota se lleva más calor.",
+  "texto": "Así que cierras un poco la llave. Pasa menos agua por el mismo alambre, y cada gota se lleva más calor. Ojo: si la cierras demasiado, la tapita baja y la ducha se apaga.",
   "sfx": [
    [
     0.2,
@@ -109,7 +147,7 @@
    ],
    [
     0.85,
-    "ding"
+    "click"
    ]
   ]
  },
@@ -133,6 +171,25 @@
    [
     0.9,
     "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cal",
+  "titulo": "el sarro",
+  "texto": "Con los meses, el agua deja una costra blanca en los huequitos de la regadera, y el chorro sale torcido. Es sarro, y se quita dejando la regadera en vinagre.",
+  "sfx": [
+   [
+    0.2,
+    "gota"
+   ],
+   [
+    0.55,
+    "fallo"
+   ],
+   [
+    0.85,
+    "burbujas"
    ]
   ]
  },
@@ -177,15 +234,38 @@
  {
   "tipo": "breaker",
   "titulo": "su breaker",
-  "texto": "Y como gasta tanto como cuarenta bombillos viejos, va con su propio breaker.",
+  "texto": "Y como gasta tanto como cuarenta bombillos viejos, va con su propio breaker. Por eso una ducha de cinco minutos gasta la mitad de luz que una de diez.",
   "sfx": [
    [
     0.3,
     "pop"
    ],
    [
-    0.7,
+    0.6,
     "click"
+   ],
+   [
+    0.85,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cambio",
+  "titulo": "el repuesto",
+  "texto": "Y cuando el alambre por fin se quema, no hay que botar la ducha: la resistencia se vende sola y se cambia en minutos, siempre con el breaker abajo.",
+  "sfx": [
+   [
+    0.25,
+    "mecanismo"
+   ],
+   [
+    0.6,
+    "click"
+   ],
+   [
+    0.9,
+    "ding"
    ]
   ]
  },

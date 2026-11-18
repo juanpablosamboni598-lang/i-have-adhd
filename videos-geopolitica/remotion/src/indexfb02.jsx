@@ -24,6 +24,17 @@ const Caps = ({ caps = [], words = [], t, vert }) => {
     {shown.map((w, k) => <span key={k} style={{ display: 'inline-block', marginRight: 18, transform: `translateY(${(1 - cl((t - cur.at - k * 0.12) / 0.15)) * 14}px)`, opacity: cl((t - cur.at - k * 0.12) / 0.12) }}>{w}</span>)}
   </div>;
 };
+// subtítulos grandes abajo: 3 palabras a la vez, la palabra que suena en amarillo
+const Subs = ({ words = [], t }) => {
+  if (!words.length) return null;
+  let k = words.findIndex((w, j) => t < (words[j + 1] ? words[j + 1][1] : 1e9) && t >= w[1] - 0.05);
+  if (k < 0) { if (t < words[0][1]) return null; k = words.length - 1; }
+  const g = Math.floor(k / 3) * 3, chunk = words.slice(g, g + 3);
+  return <div style={{ position: 'absolute', top: 1380, width: '100%', textAlign: 'center', fontFamily: 'Inter Display, Inter, sans-serif', fontWeight: 900, fontSize: 92, lineHeight: 1.05,
+    WebkitTextStroke: '10px #141018', paintOrder: 'stroke fill', letterSpacing: -1 }}>
+    {chunk.map(([w], j) => <span key={j} style={{ display: 'inline-block', margin: '0 14px', color: g + j === k ? '#ffd23d' : '#ffffff', transform: g + j === k ? 'scale(1.08)' : 'none' }}>{w.replace(/[.,]/g, '')}</span>)}
+  </div>;
+};
 const Wipe = ({ f, i }) => {
   if (f > 9) return null;
   const u = f / 9;
@@ -45,6 +56,7 @@ const Scene = ({ i, at, vert }) => {
     </ThreeCanvas>
     {S.ov}
     <Caps caps={S.caps} words={sc.words} t={t} vert={vert} />
+    <Subs words={sc.words} t={t} />
     <GranoPapel />
   </AbsoluteFill>;
 };

@@ -82,7 +82,7 @@ export const Gauge = ({ v = 0, pos = [-0.24, 1.5, -0.12] }) => {
 
 // la ducha eléctrica
 export const Shower = ({ t = 0, xr = 0, coil = 0, heat = 0, mode = 'inv', burn = 0, flow = 0, warm = 0, lift = 0, knob = 0,
-  ground = 0, leak = 0, panel = 1, lever = 1, cable = 1, steam = 0 }) => {
+  ground = 0, leak = 0, panel = 1, lever = 1, cable = 1, steam = 0, crust = 0, crooked = 0, coilOut = 0 }) => {
   const hA = useMemo(() => helix(BY - 0.085, BY - 0.005, 4, 0.048), []);
   const hB = useMemo(() => helix(BY + 0.005, BY + 0.06, 3, 0.048), []);
   const glowA = heat * (mode === 'inv' || mode === 'all' ? 1 : 0.15), glowB = heat * (mode === 'ver' || mode === 'inv' || mode === 'all' ? 1 : 0.15);
@@ -105,11 +105,12 @@ export const Shower = ({ t = 0, xr = 0, coil = 0, heat = 0, mode = 'inv', burn =
     <Part geo={<cylinderGeometry args={[0.03, 0.04, 0.06, 24]} />} color={C.white} pos={[0, BY - 0.18, BZ]} t={0.005} />
     <Part geo={<cylinderGeometry args={[0.12, 0.1, 0.03, 48]} />} color={C.white} pos={[0, HEADY, BZ]} t={0.006} />
     {Array.from({ length: 24 }).map((_, k) => { const a = k * 2.399, r = 0.02 + (k % 6) * 0.015; return <mesh key={k} position={[Math.cos(a) * r, HEADY - 0.016, BZ + Math.sin(a) * r]} rotation={[Math.PI / 2, 0, 0]}><circleGeometry args={[0.005, 8]} /><meshBasicMaterial color="#8a949b" transparent side={THREE.DoubleSide} /></mesh>; })}
+    {crust > 0 ? Array.from({ length: 14 }).map((_, k) => { const a = k * 2.399, r = 0.02 + (k % 6) * 0.015; return <mesh key={'c' + k} position={[Math.cos(a) * r, HEADY - 0.017, BZ + Math.sin(a) * r]} scale={[1, 0.4, 1]}><sphereGeometry args={[0.009 * cl(crust) + 0.001, 8, 6]} /><meshToonMaterial color="#f4f1e6" transparent /></mesh>; }) : null}
     {/* interior: cámara de agua, resistencia, diafragma y contactos */}
     {xr > 0.3 ? <group position={[0, 0, BZ]}>
       <mesh position={[0, BY - 0.02, 0]}><cylinderGeometry args={[0.065, 0.065, 0.2, 32, 1, true]} /><meshToonMaterial color="#ffffff" transparent opacity={0.3} side={THREE.DoubleSide} depthWrite={false} /><OL t={0.003} /></mesh>
       {flow > 0.05 ? <mesh position={[0, BY - 0.03, 0]}><cylinderGeometry args={[0.06, 0.06, 0.17 * cl(flow * 1.5), 32]} /><meshToonMaterial color={new THREE.Color(C.water).lerp(new THREE.Color('#ffc59a'), warm * 0.6)} transparent opacity={0.45} depthWrite={false} /></mesh> : null}
-      {coil > 0 ? <group scale={[1, cl(coil), 1]} position={[0, (1 - cl(coil)) * BY, 0]}>
+      {coil > 0 ? <group scale={[1, cl(coil), 1]} position={[coilOut * 0.35, (1 - cl(coil)) * BY + coilOut * 0.05, coilOut * 0.25]}>
         <mesh geometry={hA}><meshToonMaterial color={cw(glowA)} emissive={new THREE.Color('#ff3a00')} emissiveIntensity={glowA * 0.6} transparent /></mesh>
         <mesh geometry={hB}><meshToonMaterial color={cw(glowB)} emissive={new THREE.Color('#ff3a00')} emissiveIntensity={glowB * 0.6} transparent /></mesh>
       </group> : null}
@@ -120,7 +121,7 @@ export const Shower = ({ t = 0, xr = 0, coil = 0, heat = 0, mode = 'inv', burn =
       {lift > 0.95 && heat > 0.05 ? <Sparks t={t} at={[0, BY + 0.128, 0]} n={4} r={0.03} col="#ffd23d" /> : null}
     </group> : null}
     {/* agua, vapor, humo */}
-    <Drops t={t} flow={flow} warm={warm} />
+    <group rotation={[0, 0, crooked * 0.35]} position={[crooked * 0.1, crooked * 0.03, 0]}><Drops t={t} flow={flow} warm={warm} /></group>
     {steam > 0 ? <Puffs t={t} y={HEADY - 0.45} col="#ffffff" op={0.35 * steam} spread={0.15} rise={0.4} /> : null}
     {burn > 0 ? <Puffs t={t} y={BY + 0.12} col="#4a4a4a" op={0.6 * burn} spread={0.06} rise={0.45} n={10} /> : null}
     {leak > 0 ? <Sparks t={t} at={[0, HEADY - 0.05, BZ]} n={8} r={0.16} /> : null}

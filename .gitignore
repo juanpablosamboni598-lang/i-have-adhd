@@ -15,3 +15,9 @@ videos-geopolitica/remotion/buildpr/
 videos-geopolitica/prueba_sfx/sep/
 videos-geopolitica/sfx_lib/_raw/
 videos-geopolitica/lavadora_sfx/sep/
+videos-geopolitica/fb0*/audio2/
+videos-geopolitica/fb0*/audio3/
+videos-geopolitica/fb0*/render2/
+videos-geopolitica/fb0*/vonly/
+videos-geopolitica/fb0*/*.wav
+videos-geopolitica/fb0*/x264pass*

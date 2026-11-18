@@ -11,15 +11,48 @@ const P = {
   top: [0.2, 1.98, 0.42, 0, 1.86, BZ], mid: [0.5, 1.75, 1.05, 0, 1.62, -0.1],
   head: [0.42, 1.5, 0.85, 0, 1.45, -0.1], knob: [0.18, 1.86, 0.42, 0.06, 1.8, BZ],
   wall: [0.25, 1.85, 1.35, 0.02, 1.8, -0.2], wall2: [-0.35, 1.85, 1.2, -0.1, 1.8, -0.2],
-  panel: [0.55, 2.15, 0.65, 0.35, 2.05, -0.22], end: [0.7, 1.75, 1.7, 0.08, 1.7, -0.1],
+  panel: [0.55, 2.15, 0.65, 0.35, 2.05, -0.22], top2: [-0.22, 1.95, 0.45, 0, 1.84, BZ], head2: [0.3, 1.3, 0.55, 0, 1.55, BZ], hook: [0.12, 1.9, 0.3, 0, 1.85, BZ], end: [0.7, 1.75, 1.7, 0.08, 1.7, -0.1],
 };
 // camino: de pose a pose con un punto intermedio suave
 const go = (a, b, d) => [[0, ...P[a]], [d * 0.5, ...P[a].map((v, k) => lerp(v, P[b][k], 0.55))], [d, ...P[b]]];
 // número del medidor (HTML, abajo a la derecha)
-const Temp = ({ v, show = 1 }) => show ? <div style={{ position: 'absolute', right: 70, bottom: 260, fontFamily: 'Inter Display, Inter, sans-serif', fontWeight: 900, fontSize: 64,
+const Temp = ({ v, show = 1 }) => show ? <div style={{ position: 'absolute', right: 70, top: 380, fontFamily: 'Inter Display, Inter, sans-serif', fontWeight: 900, fontSize: 64,
   color: v > 0.7 ? R : v > 0.35 ? '#e08a1f' : '#3d7ee0', textShadow: '0 4px 0 rgba(255,255,255,0.8)' }}>{Math.round(lerp(14, 52, cl(v)))} °C</div> : null;
 
 export const SFB02 = {
+  gancho: ({ t, d }) => {
+    const lift = tw(t, 0.4, 0.8);
+    return {
+      keys: go('hook', 'far', d),
+      three: <><Bath tap={1} /><Shower t={t} xr={0.85 * (1 - tw(t, d * 0.7, d))} coil={1} heat={lift} mode="all" flow={tw(t, 0.2, 0.6)} warm={lift} lift={lift} /><Gauge v={lift * 0.7} /></>,
+      caps: [['tapita', 'una tapita de caucho', G], ['caliente', 'caliente', R], ['helada', 'o helada'], ['cero', 'desde cero']],
+    };
+  },
+  presion: ({ t, d }) => {
+    const l = 0.35 + Math.sin(t * 6) * 0.05;
+    return {
+      keys: go('top', 'top2', d),
+      three: <><Bath tap={1} /><Shower t={t} xr={0.85} coil={1} heat={0} mode="all" flow={0.12} warm={0} lift={l} /><Gauge v={0.0} /></>,
+      ov: <Temp v={0} />,
+      caps: [['presión', 'muy poca presión', R], ['subir', 'la tapita no sube', R], ['prende', 'nunca se prende', R]],
+    };
+  },
+  cal: ({ t, d }) => {
+    const c = tw(t, 0.3, d * 0.45), clean = tw(t, d * 0.75, d * 0.95);
+    return {
+      keys: go('knob', 'head2', d),
+      three: <><Bath tap={1} /><Shower t={t} coil={1} heat={0.8} mode="inv" flow={1} warm={0.6} lift={1} crust={c * (1 - clean)} crooked={c * (1 - clean)} /><Gauge v={0.6} /></>,
+      caps: [['costra', 'una costra blanca'], ['torcido', 'sale torcido', R], ['sarro', 'es sarro', R], ['vinagre', 'con vinagre', G]],
+    };
+  },
+  cambio: ({ t, d }) => {
+    const out = tw(t, d * 0.3, d * 0.5) * (1 - tw(t, d * 0.6, d * 0.8)), burnt = t < d * 0.55 ? 1 : 0;
+    return {
+      keys: go('panel', 'inner', d),
+      three: <><Bath tap={0} /><Shower t={t} xr={tw(t, d * 0.15, d * 0.3) * 0.85} coil={1} heat={0} burn={burnt * 0.6} mode="all" flow={0} lift={0} coilOut={out} lever={t < d * 0.2 ? 1 : 0} /><Gauge v={0.0} /></>,
+      caps: [['botar', 'no hay que botarla', G], ['sola', 'se vende sola'], ['minutos', 'se cambia en minutos'], ['breaker', 'con el breaker abajo', R]],
+    };
+  },
   abre: ({ t, d }) => ({
     keys: go('far', 'far2', d),
     three: <><Bath tap={tw(t, 0.3, 1.0)} /><Shower t={t} flow={tw(t, 0.6, 1.4)} /><Gauge v={0.0} /></>,
@@ -51,7 +84,7 @@ export const SFB02 = {
     };
   },
   tibia: ({ t, d }) => ({
-    keys: go('top', 'mid', d),
+    keys: go('top2', 'mid', d),
     three: <><Bath tap={1} /><Shower t={t} xr={0.85 - tw(t, d * 0.3, d) * 0.5} coil={1} heat={0.5} mode="all" flow={1} warm={0.3} lift={1} /><Gauge v={0.35} /></>,
     ov: <Temp v={0.35} />,
     caps: [['fría', 'en tierra fría'], ['tibia', 'apenas tibia', R]],
@@ -77,7 +110,7 @@ export const SFB02 = {
     };
   },
   tierra: ({ t, d }) => ({
-    keys: go('knob', 'wall', d),
+    keys: go('head2', 'wall', d),
     three: <><Bath tap={1} /><Shower t={t} xr={0.85 * (1 - tw(t, 0, d * 0.4))} coil={1} heat={0.8} mode="inv" flow={1} warm={0.6} lift={1} leak={tw(t, d * 0.5, d * 0.55)} /><Gauge v={0.6} /></>,
     caps: [['electricidad', 'agua y electricidad', R], ['pela', 'si un cable se pela', R], ['corriente', 'queda con corriente', R]],
   }),
@@ -95,7 +128,7 @@ export const SFB02 = {
     caps: [['bombillos', 'cuarenta bombillos'], ['breaker', 'su propio breaker', G]],
   }),
   cierre: ({ t, d }) => ({
-    keys: go('panel', 'end', d),
+    keys: go('inner', 'end', d),
     three: <><Bath tap={1} /><Shower t={t} xr={0.85 * tw(t, 0.2, d * 0.35)} coil={1} heat={0.8} mode="inv" flow={1} warm={0.7} lift={1} ground={1} panel={1} steam={1} /><Gauge v={0.7} /></>,
     ov: <Temp v={0.7} />,
     caps: [['alambre', 'un alambre que calienta'], ['tapita', 'una tapita que lo prende'], ['perilla', 'una perilla'], ['tierra', 'y un polo a tierra'], ['entiendes', 'así funciona', G]],
