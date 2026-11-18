@@ -125,3 +125,32 @@ y Quatoom de Facebook." Referencia: tts/amigo/ref.wav (11 s, texto de la nevera)
 La grabación no se sube al repositorio. Solo para videos de esos dos canales. ELEGIDA por el dueño el 15 nov como voz del canal desde v23 (tts/mivoz.py, VOZ=marco por defecto).
 
 - **Límite de reels en Facebook (Buffer): 90 s máximo.** Apuntar a 80–88 s de guion (~250 palabras). Si sale más largo, acelerar ≤5% con setpts/atempo (como fb01/candado_fb.mp4).
+
+
+## PLAN VIGENTE (18 nov 2026, reemplaza los planes de publicación anteriores)
+Canal de YouTube jxseng ("Xseng") y página de Facebook Quatoom: curiosidades de ciencia, historia e ingeniería, en español.
+
+### 1. Videos largos (solo YouTube)
+- 5 a 9 minutos, horizontal 16:9. Formato inspirado en Stupy Doo, pero nunca copiar sus temas ni sus guiones.
+- Título: una afirmación que rompa una creencia común.
+- Empieza con una historia real con fecha, lugar y personaje.
+- Luego explica cómo funciona, da los dos lados del debate y desmiente un mito.
+- Cierra con una pregunta para los comentarios.
+- Descripción: emojis, 3–5 datos clave, fuentes reales (autor, año, publicación) y 5 hashtags.
+- Verificar cada dato. Si no hay fuente, el dato no va.
+
+### 2. Shorts de objetos (YouTube Shorts y Facebook Reels)
+- Cómo funciona un objeto cotidiano (candado, microondas, cremallera, inodoro…).
+- 2 a 3 minutos (máximo 3:00), vertical 9:16.
+- Gancho en los primeros 2 segundos.
+- Subtítulos GRANDES y voz en off (ya no NOSUBS).
+
+### 3. Calendario (hora de Colombia), alternando A, B, A, B…
+- Día A (con video largo): Short a las 8:00 a. m., largo a las 12:00 p. m. y Short a las 5:00 p. m.
+- Día B (sin video largo): Shorts a las 7:00 a. m., 1:00 p. m. y 7:00 p. m.
+- Siempre al menos 6 horas entre un Short y el siguiente.
+  Revisado: día A 9 h; día B 6 h; de la noche a la mañana 13–14 h.
+
+### 4. Antes de publicar
+- Revisar la duración, el formato, los datos y que no haya marcas de agua.
+- Si algo falla, NO subir y avisar al dueño.
