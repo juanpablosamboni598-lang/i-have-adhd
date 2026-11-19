@@ -177,3 +177,4 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - Personaje y marca propios: no copiar su personaje, su chihuahua ni su "puerta".
 - Render del termo (3D, estilo anterior) pausado.
 - 19 nov: personaje oficial = Xeno v3 (versión seria). Archivos: personaje/personaje.py, personaje/svg/, personaje/hoja_personaje.png. Las v1 y v2 quedan solo como referencia.
+- 19 nov 2:13 pm: v25 '¿Qué pasaría si te congelaran 1.000 años?' (estilo Xeno 2D) publicado. YouTube https://www.youtube.com/watch?v=959hfETHGq8 (Zernio 6aff4a4aa94949aaffb1c417); Facebook Buffer 6aff5128e62825b98901975d (2:42 pm).
