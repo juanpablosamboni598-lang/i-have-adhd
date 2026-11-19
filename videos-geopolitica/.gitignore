@@ -32,3 +32,4 @@ gta6/*/x264pass*
 gta6/*/tts.log
 gta6/*/pipeline.log
 !sfx_lib/**/*.wav
+tts/amigo/comp/
