@@ -1,0 +1,780 @@
+[
+ {
+  "tipo": "pantalla",
+  "titulo": "0_pantalla",
+  "texto": "GTA seis ya salió, y no a todo el mundo le está funcionando. Hoy te cuento los errores que más se están reportando, y qué puedes hacer con cada uno.",
+  "p": {
+   "scr": "!",
+   "lines": [
+    "DÍA 1",
+    "19 NOV 2026"
+   ]
+  },
+  "caps": [
+   [
+    "salió",
+    "GTA 6 ^lYA ^lSALIÓ"
+   ],
+   [
+    "funcionando",
+    "PERO ^rNO ^rA ^rTODOS ^rLES ^rFUNCIONA"
+   ],
+   [
+    "errores",
+    "LOS ERRORES MÁS REPORTADOS"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "bip"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.45,
+    "alarma"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "reloj",
+  "titulo": "1_reloj",
+  "texto": "Primero, lo que no es un error. El juego se desbloquea a medianoche, hora local de cada país. Si lo abriste antes, no te iba a dejar jugar.",
+  "p": {
+   "tag": "00:00",
+   "lines": [
+    "MEDIANOCHE",
+    "HORA LOCAL"
+   ]
+  },
+  "caps": [
+   [
+    "error",
+    "LO QUE ^lNO ES UN ERROR"
+   ],
+   [
+    "medianoche",
+    "^lMEDIANOCHE"
+   ],
+   [
+    "local",
+    "HORA ^lLOCAL"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.65,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "disco",
+  "titulo": "2_disco",
+  "texto": "Error número uno, en PlayStation cinco. Según varios reportes, Sony hizo obligatoria la actualización catorce punto veintitrés del sistema. Si tu consola no la tiene, el juego no arranca.",
+  "p": {
+   "tag": "14.23",
+   "fill": [
+    0.2,
+    1.0
+   ],
+   "lines": [
+    "PS5",
+    "SISTEMA 14.23"
+   ]
+  },
+  "caps": [
+   [
+    "uno",
+    "ERROR ^r#1: PS5"
+   ],
+   [
+    "obligatoria",
+    "ACTUALIZACIÓN ^rOBLIGATORIA"
+   ],
+   [
+    "catorce|14",
+    "SISTEMA ^l14.23"
+   ],
+   [
+    "arranca",
+    "SIN ELLA ^rNO ^rARRANCA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "disco",
+  "titulo": "3_disco",
+  "texto": "Además, Sony pidió instalar un parche de un poco más de un giga antes de jugar. Así que revisa las actualizaciones, de la consola y del juego.",
+  "p": {
+   "tag": "+1 GB",
+   "fill": [
+    0.1,
+    0.9
+   ],
+   "lines": [
+    "PARCHE",
+    "DEL JUEGO"
+   ]
+  },
+  "caps": [
+   [
+    "parche",
+    "^lPARCHE ~1,3 GB"
+   ],
+   [
+    "revisa",
+    "REVISA ^lACTUALIZACIONES"
+   ],
+   [
+    "consola",
+    "CONSOLA ^l+ JUEGO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "consola",
+  "titulo": "4_consola",
+  "texto": "Y ojo, se reportó una caída de PlayStation Network horas antes del lanzamiento. Si ves un aviso de mantenimiento, el problema no es tu consola.",
+  "p": {
+   "strike": "a",
+   "lines": [
+    "PSN",
+    "CAÍDA REPORTADA"
+   ]
+  },
+  "caps": [
+   [
+    "caída",
+    "CAÍDA DE ^rPSN"
+   ],
+   [
+    "mantenimiento",
+    "AVISO DE MANTENIMIENTO"
+   ],
+   [
+    "problema",
+    "NO ES ^lTU ^lCONSOLA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.1,
+    "brillo"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "consola",
+  "titulo": "5_consola",
+  "texto": "En Xbox, el error más común es el mensaje de problema temporal de red. Lo que recomiendan es revisar la página de estado de Xbox, apagar la consola por completo, y marcarla como tu Xbox principal.",
+  "p": {
+   "strike": "",
+   "lines": [
+    "XBOX",
+    "¿PROBLEMA DE RED?"
+   ]
+  },
+  "caps": [
+   [
+    "xbox",
+    "XBOX: ^rPROBLEMA DE RED"
+   ],
+   [
+    "estado",
+    "1. REVISA EL ^lESTADO"
+   ],
+   [
+    "apagar",
+    "2. ^lAPAGADO COMPLETO"
+   ],
+   [
+    "principal",
+    "3. XBOX ^lPRINCIPAL"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.1,
+    "brillo"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "pantalla",
+  "titulo": "6_pantalla",
+  "texto": "Ahora, lo más grave. Hay jugadores en PlayStation y en Xbox que reportan cierres inesperados, y algunos tuvieron que repetir misiones.",
+  "p": {
+   "scr": "X",
+   "lines": [
+    "CIERRES",
+    "PS5 + XBOX"
+   ]
+  },
+  "caps": [
+   [
+    "grave",
+    "LO MÁS ^rGRAVE"
+   ],
+   [
+    "cierres",
+    "CIERRES ^rINESPERADOS"
+   ],
+   [
+    "repetir",
+    "REPETIR ^rMISIONES"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "bip"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.45,
+    "alarma"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "reloj",
+  "titulo": "7_reloj",
+  "texto": "Rockstar no ha dicho cada cuánto guarda el juego automáticamente, ni ha confirmado la causa de los cierres. Tampoco hay un parche anunciado.",
+  "p": {
+   "tag": "?",
+   "lines": [
+    "ROCKSTAR:",
+    "SIN CAUSA NI PARCHE"
+   ]
+  },
+  "caps": [
+   [
+    "automáticamente",
+    "AUTOGUARDADO: ^r¿CADA ^rCUÁNTO?"
+   ],
+   [
+    "causa",
+    "CAUSA: ^rSIN ^rCONFIRMAR"
+   ],
+   [
+    "parche",
+    "PARCHE: ^rNO ^rANUNCIADO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.1,
+    "tic"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.65,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "ranuras",
+  "titulo": "8_ranuras",
+  "texto": "Mientras tanto, el consejo es simple. Guarda a mano, y en varias ranuras distintas. Si el juego se cierra, entra a cargar partida, y elige la más reciente.",
+  "p": {
+   "lines": [
+    "GUARDA A MANO",
+    "EN VARIAS RANURAS"
+   ]
+  },
+  "caps": [
+   [
+    "consejo",
+    "EL CONSEJO"
+   ],
+   [
+    "mano",
+    "^lGUARDA ^lA ^lMANO"
+   ],
+   [
+    "ranuras",
+    "EN ^lVARIAS ^lRANURAS"
+   ],
+   [
+    "cargar",
+    "CARGAR ^lLA ^lMÁS ^lRECIENTE"
+   ]
+  ],
+  "sfx": [
+   [
+    0.08,
+    "pop"
+   ],
+   [
+    0.14,
+    "pop"
+   ],
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.26,
+    "pop"
+   ],
+   [
+    0.32,
+    "pop"
+   ],
+   [
+    0.38,
+    "pop"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "pantalla",
+  "titulo": "9_pantalla",
+  "texto": "Pero eso no es lo más raro. El caso más compartido es el de un streamer que dijo haber perdido diez horas. Y no está claro si fue un cierre del juego, o si la consola se apagó.",
+  "p": {
+   "scr": "10 H",
+   "lines": [
+    "¿CIERRE O",
+    "CONSOLA APAGADA?"
+   ]
+  },
+  "caps": [
+   [
+    "raro",
+    "PERO ESO NO ES ^rLO ^rMÁS ^rRARO"
+   ],
+   [
+    "diez|10",
+    "^r10 ^rHORAS PERDIDAS"
+   ],
+   [
+    "claro",
+    "^rNO ESTÁ CLARO"
+   ],
+   [
+    "apagó",
+    "¿CIERRE O ^rAPAGADO?"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "bip"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.45,
+    "alarma"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "caja",
+  "titulo": "10_caja",
+  "texto": "Otro problema son los códigos que vienen en la caja. Hay reportes de códigos que no se pueden canjear, o que no se leen bien.",
+  "p": {
+   "label": "CÓDIGO",
+   "strike": 1,
+   "lines": [
+    "CÓDIGOS DE CAJA"
+   ]
+  },
+  "caps": [
+   [
+    "códigos",
+    "CÓDIGOS DE ^rLA ^rCAJA"
+   ],
+   [
+    "canjear",
+    "^rNO SE CANJEAN"
+   ],
+   [
+    "leen",
+    "O ^rNO SE LEEN"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.35,
+    "fallo"
+   ],
+   [
+    0.6,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "caja",
+  "titulo": "11_caja",
+  "texto": "Y en Xbox, esos códigos no se pueden pasar de una cuenta a otra. Así que canjéalo en la cuenta donde vas a jugar.",
+  "p": {
+   "label": "XBOX",
+   "strike": 0,
+   "lines": [
+    "1 CÓDIGO",
+    "= 1 CUENTA"
+   ]
+  },
+  "caps": [
+   [
+    "cuenta",
+    "^rNO SE PASAN ENTRE CUENTAS"
+   ],
+   [
+    "canjéalo",
+    "CANJÉALO DONDE ^lVAS ^lA ^lJUGAR"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.35,
+    "fallo"
+   ],
+   [
+    0.6,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "disco",
+  "titulo": "12_disco",
+  "texto": "Y el espacio. Los reportes hablan de unos doscientos doce gigas de descarga, y recomiendan tener unos doscientos cincuenta libres. Rockstar no publicó la cifra exacta por consola.",
+  "p": {
+   "tag": "~212 GB",
+   "fill": [
+    0.3,
+    0.97
+   ],
+   "lines": [
+    "NO OFICIAL",
+    "POR CONSOLA"
+   ]
+  },
+  "caps": [
+   [
+    "espacio",
+    "¿CUÁNTO ESPACIO?"
+   ],
+   [
+    "doscientos|212",
+    "~^l212 ^lGB (REPORTES)"
+   ],
+   [
+    "libres",
+    "TEN ^l~250 ^lGB LIBRES"
+   ],
+   [
+    "exacta",
+    "CIFRA OFICIAL: ^rNO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "electrico"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "ranuras",
+  "titulo": "13_ranuras",
+  "texto": "Resumen. En PlayStation, actualiza la consola y el juego. En Xbox, reinicia por completo y revisa el estado de la red. En las dos, guarda a mano, y en varias ranuras.",
+  "p": {
+   "lines": [
+    "PS5: ACTUALIZA",
+    "XBOX: REINICIA",
+    "AMBAS: GUARDA"
+   ]
+  },
+  "caps": [
+   [
+    "resumen",
+    "RESUMEN"
+   ],
+   [
+    "playstation",
+    "PS5: ^lACTUALIZA"
+   ],
+   [
+    "xbox",
+    "XBOX: ^lREINICIA"
+   ],
+   [
+    "dos",
+    "LAS DOS: ^lGUARDA ^lA ^lMANO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.08,
+    "pop"
+   ],
+   [
+    0.14,
+    "pop"
+   ],
+   [
+    0.2,
+    "pop"
+   ],
+   [
+    0.26,
+    "pop"
+   ],
+   [
+    0.32,
+    "pop"
+   ],
+   [
+    0.38,
+    "pop"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "spoilers",
+  "titulo": "14_spoilers",
+  "texto": "Y si todavía no has empezado, cuidado con los spoilers. Silencia palabras clave, y juega tú primero.",
+  "p": {},
+  "caps": [
+   [
+    "spoilers",
+    "CUIDADO: ^rSPOILERS"
+   ],
+   [
+    "silencia",
+    "^lSILENCIA PALABRAS"
+   ],
+   [
+    "primero",
+    "JUEGA ^lTÚ PRIMERO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.09,
+    "pop"
+   ],
+   [
+    0.13,
+    "pop"
+   ],
+   [
+    0.17,
+    "pop"
+   ],
+   [
+    0.21,
+    "pop"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.29,
+    "pop"
+   ],
+   [
+    0.33,
+    "pop"
+   ],
+   [
+    0.37,
+    "pop"
+   ],
+   [
+    0.55,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "pantalla",
+  "titulo": "15_pantalla",
+  "texto": "Si te pasó otro error, déjalo en los comentarios y lo revisamos. Porque GTA seis ya salió, pero no a todo el mundo le está funcionando.",
+  "p": {
+   "scr": "?",
+   "lines": [
+    "¿OTRO ERROR?",
+    "COMENTA ↓"
+   ]
+  },
+  "caps": [
+   [
+    "comentarios",
+    "¿OTRO ERROR? ^lCOMÉNTALO"
+   ],
+   [
+    "salió",
+    "GTA 6 ^lYA ^lSALIÓ"
+   ],
+   [
+    "funcionando",
+    "PERO ^rNO ^rA ^rTODOS ^rLES ^rFUNCIONA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "bip"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.45,
+    "alarma"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ }
+]
