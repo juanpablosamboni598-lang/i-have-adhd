@@ -44,6 +44,7 @@ const Grain = ({ f }) => <svg width="100%" height="100%" style={{ position: 'abs
   <rect width="100%" height="100%" filter={`url(#g${f % 8})`} />
 </svg>;
 
+const MOV = { pantalla: 1, estrellas: 1, consola: 1, nota: 1 };
 const Scene = ({ i, at }) => {
   const f0 = useCurrentFrame();
   const sc = D[i];
@@ -57,7 +58,8 @@ const Scene = ({ i, at }) => {
     <ThreeCanvas width={1920} height={1080} dpr={0.5} gl={{ antialias: false }} camera={{ fov: 40, position: [0, 1, 4], near: 0.02, far: 200 }}>
       <color attach="background" args={[C.bg]} />
       <Cam t={t} keys={S.keys} wob={0.08} />
-      <group scale={0.0001 + g}>{S.three}</group>
+      {/* escenas que quedaban casi quietas: giro lento extra */}
+      <group scale={0.0001 + g} rotation={[0, MOV[sc.tipo] ? Math.sin(t * 1.1) * 0.45 : 0, 0]} position={[MOV[sc.tipo] ? Math.sin(t * 0.7) * 0.15 : 0, 0, 0]}>{S.three}</group>
       <Bridge sc={(1 - g) * (g < 0.999 ? 1 : 0)} pos={tgt} />
     </ThreeCanvas>
     <div style={{ position: 'absolute', inset: 0, opacity: g }}>{S.ov || null}</div>
