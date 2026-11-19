@@ -59,7 +59,7 @@ const Scene = ({ i, at }) => {
       <color attach="background" args={[C.bg]} />
       <Cam t={t} keys={S.keys} wob={0.08} />
       {/* escenas que quedaban casi quietas: giro lento extra */}
-      <group scale={0.0001 + g} rotation={[0, MOV[sc.tipo] ? Math.sin(t * 1.1) * 0.45 : 0, 0]} position={[MOV[sc.tipo] ? Math.sin(t * 0.7) * 0.15 : 0, 0, 0]}>{S.three}</group>
+      <group scale={(0.0001 + g) * (MOV[sc.tipo] ? 0.95 + 0.12 * t / d : 1)} rotation={[0, MOV[sc.tipo] ? Math.sin(t * 1.1) * 0.45 : 0, 0]} position={[MOV[sc.tipo] ? Math.sin(t * 0.7) * 0.15 : 0, 0, 0]}>{S.three}</group>
       <Bridge sc={(1 - g) * (g < 0.999 ? 1 : 0)} pos={tgt} />
     </ThreeCanvas>
     <div style={{ position: 'absolute', inset: 0, opacity: g }}>{S.ov || null}</div>

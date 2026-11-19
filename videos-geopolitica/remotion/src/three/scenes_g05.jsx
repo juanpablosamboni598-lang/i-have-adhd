@@ -39,6 +39,18 @@ const Star = ({ pos, s, on, t }) => s <= 0.01 ? null : <mesh position={pos} scal
 
 export const SG5 = {
   ...SG4,
+  // pantalla con más vida: texto fijo que late, chispas grandes que suben y orbitan
+  pantalla: ({ t, d, p }) => ({
+    keys: ORB(d, [0, 0.45, 0], 2.0, 0.75, 0.9, -0.9),
+    three: <><Shadow r={1} op={0.3} /><Dust t={t} n={70} />
+      <group rotation={[0, Math.sin(t * 0.9) * 0.25, 0]} position={[0, Math.sin(t * 1.6) * 0.02, 0]} scale={1 + Math.sin(t * 2.3) * 0.04}>
+        <PC screen={Math.sin(t * 5.3) > -0.85 ? p.scr : ' '} fg={C.red} /></group>
+      {Array.from({ length: 10 }).map((_, k) => { const u = ((t * 0.27 + k / 10) % 1); const a = k * 0.63 + t * 0.6; return <mesh key={k} position={[Math.cos(a) * 1.0, 0.1 + u * 1.2, Math.sin(a) * 0.6 - 0.1]}><sphereGeometry args={[0.05, 12, 8]} /><meshBasicMaterial color={k % 2 ? C.red : C.lime} transparent opacity={Math.sin(u * Math.PI)} /></mesh>; })}</>,
+    ov: <Card t={t} d={d} lines={p.lines} />,
+  }),
+  // consola: la misma de g04 más chispas que orbitan, para que no quede oscura y quieta
+  consola: (a) => { const s = SG4.consola(a), t = a.t;
+    return { ...s, three: <>{s.three}{Array.from({ length: 10 }).map((_, k) => { const u = ((t * 0.27 + k / 10) % 1); const g = k * 0.63 + t * 0.6; return <mesh key={`s${k}`} position={[Math.cos(g) * 1.0, 0.1 + u * 1.1, Math.sin(g) * 0.6]}><sphereGeometry args={[0.05, 12, 8]} /><meshBasicMaterial color={k % 2 ? C.red : C.lime} transparent opacity={Math.sin(u * Math.PI)} /></mesh>; })}</> }; },
   nota: ({ t, d, p }) => ({
     keys: ORB(d, [0, 0.5, 0], 2.9, 0.75, 0.6, -0.6),
     three: <><Plate r={1.0} /><Dust t={t} n={70} />
