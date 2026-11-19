@@ -168,3 +168,4 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - 18 nov 8:30 pm: fb02 ducha programada (YouTube Zernio 6afe257286f299bac8429554, Facebook Buffer 6afe257601ba7c5e79183ecf).
 - 19 nov 2:00 am: fb04 olla programada (YouTube Zernio 6afe71f3c5cf315f436087b9, Facebook Buffer 6afe76c63802f5b9fc679704).
 - 19 nov 2:00 am: fb04 olla publicada (YouTube + Facebook).
+- 19 nov 9:11 am: v24 microondas publicado (YouTube https://www.youtube.com/watch?v=OZ8_NZd6s1o, Zernio 6aff03870ee779b25de47337; Facebook Buffer 6aff0c6603dff68ab464c942 a las 9:49 am).
