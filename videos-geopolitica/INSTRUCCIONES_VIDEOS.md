@@ -176,3 +176,4 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - Misma familia: Pecas Explica, ¿Y Si? en Español, Supongamos.
 - Personaje y marca propios: no copiar su personaje, su chihuahua ni su "puerta".
 - Render del termo (3D, estilo anterior) pausado.
+- 19 nov: personaje oficial = Xeno v3 (versión seria). Archivos: personaje/personaje.py, personaje/svg/, personaje/hoja_personaje.png. Las v1 y v2 quedan solo como referencia.
