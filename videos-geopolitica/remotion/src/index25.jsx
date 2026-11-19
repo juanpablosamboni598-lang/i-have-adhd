@@ -56,9 +56,9 @@ const BigText = ({ x = 960, y = 540, txt, size = 150, c = '#FFD23F', t, at = 0.2
 };
 const Moneda = ({ x, y, r = 40 }) => <g><circle cx={x} cy={y} r={r} fill="#F2B134" stroke={OUT} strokeWidth="4" /><circle cx={x} cy={y} r={r * 0.72} fill="none" stroke="#C98E1E" strokeWidth="4" />
   <text x={x} y={y + r * 0.35} textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize={r} fill="#8A5A0C">$</text></g>;
-const Billete = ({ x, y, s = 1, r = 0 }) => <g transform={`translate(${x} ${y}) rotate(${r}) scale(${s})`}>
+const Billete = ({ x, y, s = 1, r = 0, val = '100' }) => <g transform={`translate(${x} ${y}) rotate(${r}) scale(${s})`}>
   <rect x="-110" y="-50" width="220" height="100" rx="10" fill="#8CCB8A" stroke={OUT} strokeWidth="4" /><circle cx="0" cy="0" r="30" fill="#BDE3B6" stroke={OUT} strokeWidth="3" />
-  <text x="0" y="12" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="34" fill="#2F6B2D">100</text></g>;
+  <text x="0" y="12" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="34" fill="#2F6B2D">{val}</text></g>;
 const Rana = ({ x, y, s = 1, frozen = 0, t }) => <g transform={`translate(${x} ${y}) scale(${s})`}>
   <ellipse cx="0" cy="40" rx="150" ry="20" fill="#000" opacity="0.15" />
   <path d="M-130 30 Q-140 -60 -60 -90 Q0 -110 60 -90 Q140 -60 130 30Z" fill={frozen > 0.5 ? '#9CC9D9' : '#6DBA5C'} stroke={OUT} strokeWidth="5" />
@@ -320,6 +320,31 @@ const SC = {
     <Xeno x={820} y={960} s={0.95} exp="serio" pose="sostiene" t={t} look={4} />
     <BigText x={520} y={230} txt="TÉRMINOS Y CONDICIONES" size={64} t={t} at={d * 0.55} stroke={8} />
   </> }; },
+  musculos: ({ t }) => ({ bg: <Boveda t={t} />, fg: <>
+    <Capsula x={620} y={880} s={0.55} frost={0.5} inner={null} />
+    <g transform={`rotate(${Math.sin(t * 3.2) * 7} 1060 940)`}><Xeno x={1060} y={940} s={0.8} exp="preocupado" pose="shock" t={t} /></g>
+    {[0, 1, 2].map((k) => <path key={k} d={`M${980 + k * 60} ${960 + Math.sin(t * 8 + k) * 6} q10 -12 20 0`} stroke="#9EE7FF" strokeWidth="5" fill="none" />)}
+  </> }),
+  estrellas: ({ t }) => { const st = [[520, 300], [640, 360], [760, 330], [700, 480], [860, 600], [600, 620], [1220, 260], [1320, 340], [1420, 300], [1360, 470]];
+    const ln = [[0, 1], [1, 2], [1, 3], [3, 4], [3, 5], [6, 7], [7, 8], [7, 9]];
+    return { bg: <><Sky a="#0A1430" b="#22365E" />{Array.from({ length: 90 }).map((_, k) => <circle key={k} cx={(k * 211) % W} cy={(k * 97) % 760} r={1 + (k % 3) * 0.7} fill="#fff" opacity={0.4 + 0.3 * Math.sin(t * 2 + k)} />)}</>, fg: <>
+      {ln.map(([a, b], k) => <line key={k} x1={st[a][0]} y1={st[a][1]} x2={st[a][0] + (st[b][0] - st[a][0]) * app(t, 0.4 + k * 0.15, 0.5)} y2={st[a][1] + (st[b][1] - st[a][1]) * app(t, 0.4 + k * 0.15, 0.5)} stroke="#9EE7FF" strokeWidth="4" opacity="0.8" />)}
+      {st.map(([x, y], k) => <circle key={k} cx={x} cy={y} r="11" fill="#FFF6C9" stroke="#FFD23F" strokeWidth="3" />)}
+      <path d="M-40 900 L400 820 L900 870 L1400 800 L1960 880 L1960 1080 L-40 1080Z" fill="#1B2A44" />
+      <Xeno x={960} y={1000} s={0.55} exp="sonrisa" t={t} look={0} />
+    </> }; },
+  inflacion: ({ t, d }) => ({ bg: <rect width={W} height={H} fill="#24324A" />, fg: <>
+    <Billete x={520} y={540} s={1.6} r={-4} val="1" /><text x="520" y="420" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="64" fill="#fff">1913</text>
+    <path d="M760 540 L1000 540" stroke="#FFD23F" strokeWidth="14" /><path d="M1000 510 L1050 540 L1000 570Z" fill="#FFD23F" />
+    {Array.from({ length: 12 }).map((_, k) => <g key={k} opacity={app(t, 0.6 + k * 0.12, 0.2)}><Billete x={1300 + (k % 3) * 40} y={720 - k * 22} s={1.1} r={(k % 2 ? 4 : -4)} val="1" /></g>)}
+    <BigText x={1560} y={380} txt="×30" size={150} t={t} at={d * 0.4} />
+  </> }),
+  guardias: ({ t, d }) => { const k = Math.min(3, Math.floor(t / (d / 4))); const u = (t % (d / 4)) / (d / 4);
+    return { bg: <Boveda t={t} />, fg: <>
+      <Capsula x={760} y={880} s={0.6} frost={0.7} fill={0.9} inner={<Xeno x={0} y={-40} s={0.92} exp="cerrado" t={t} bob={false} />} />
+      <Person x={1500 - 360 * ease(cl(u * 2))} y={920} s={0.62} exp="pensativo" pose="sostiene" t={t} pin={false} flip {...FUT[k]} />
+      <BigText x={1400} y={300} txt={['SIGLO XXII', 'SIGLO XXV', 'SIGLO XXVIII', 'SIGLO XXXI'][k]} size={90} c="#9EE7FF" t={u * d / 4 + 0.01} at={0} stroke={10} />
+    </> }; },
   cierre: ({ t }) => ({ bg: <><Sky a="#7FD3E6" b="#E9F7F2" /><Monserrate fut /><Floor y={860} c="#5A6B80" /></>, fg: <>
     <Xeno x={760} y={980} s={1.15} exp="sonrisa" pose="explica" t={t} />
     <Burbuja x={1360} y={360} w={520} h={170} txt="¿Firmarías?" size={70} t={t} at={0.6} />

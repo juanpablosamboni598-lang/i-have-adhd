@@ -364,6 +364,24 @@
   ]
  },
  {
+  "tipo": "musculos",
+  "titulo": "musculos",
+  "texto": "Intentas levantarte y tus piernas casi no responden. Algo parecido pasa en el espacio: muchos astronautas, al volver de seis meses en la Estación Espacial, necesitan ayuda para caminar los primeros días.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": "3026",
+   "med": null,
+   "dato": "Tras 6 meses en el espacio, muchos astronautas necesitan ayuda para caminar"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
   "tipo": "bogota_3026",
   "titulo": "bogota_3026",
   "texto": "Sales. Los cerros siguen ahí. Monserrate sigue ahí. Pero el resto… cambió.",
@@ -463,6 +481,24 @@
    "anio": "3026",
    "med": null,
    "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "estrellas",
+  "titulo": "estrellas",
+  "texto": "Pero esa noche miras al cielo… y hay algo que no cambió: las estrellas. En mil años, las constelaciones se ven prácticamente iguales. Por fin, algo conocido.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": "En mil años las constelaciones casi no cambian"
   },
   "sfx": [
    [
@@ -598,6 +634,24 @@
   ]
  },
  {
+  "tipo": "inflacion",
+  "titulo": "inflacion",
+  "texto": "Y aunque tu banco existiera, la inflación se lo comería todo. Un dólar de mil novecientos trece hoy vale como unos treinta dólares. Imagina mil años.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 5 · ¿ERES RICO?",
+   "anio": "3026",
+   "med": null,
+   "dato": "Un dólar de 1913 equivale a unos 30 dólares de hoy (EE. UU.)"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
   "tipo": "contrato_zoom",
   "titulo": "contrato_zoom",
   "texto": "Vuelves a la bóveda. Buscas tu contrato. Una sola página. Y ahí está, en letra diminuta: \"El voluntario será despertado solo cuando la medicina pueda revivirlo sin ningún riesgo\".",
@@ -648,6 +702,24 @@
    [
     0.8,
     "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "guardias",
+  "titulo": "guardias",
+  "texto": "Cada siglo, alguien nuevo revisó tu cápsula, leyó la misma página… y decidió esperar un poco más.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 6 · LA PÁGINA QUE NO LEÍSTE",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
    ]
   ]
  },
