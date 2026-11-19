@@ -149,7 +149,44 @@ def key():
     d = 0.04; c = norm(hp(noise(d), 0.5)) * env(d, 0.0003, 180) + np.sin(2*np.pi*rng.uniform(1800,2600)*t_(d))*env(d,0.0003,220)*0.4
     return norm(c)
 
-GEN = dict(key=key, drone=drone, heartbeat=heartbeat, skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
+
+def uiclick():
+    d = 0.03; c = norm(hp(noise(d), 0.6)) * env(d, 0.0002, 260) * 0.6 + np.sin(2*np.pi*4200*t_(d)) * env(d, 0.0002, 300)
+    return norm(c)
+
+def tickrun(n=12, dur=1.0):
+    out = np.zeros(int((dur + 0.1) * SR))
+    for k in range(n):
+        tt = dur * (1 - (1 - k / n) ** 2)  # se frena al final
+        c = np.sin(2*np.pi*3600*t_(0.012)) * env(0.012, 0.0002, 400)
+        i = int(tt * SR); out[i:i + len(c)] += c * (0.6 + 0.4 * k / n)
+    return norm(out)
+
+def shimmer():
+    d = 0.6; t = t_(d); out = norm(hp(noise(d), 0.8)) * 0.15 * np.exp(-5 * t)
+    for k in range(10):
+        f = rng.uniform(5000, 9000); st = rng.uniform(0, 0.35); g = t_(0.2)
+        i = int(st * SR); out[i:i+len(g)] += np.sin(2*np.pi*f*g) * np.exp(-25*g) * rng.uniform(.3, 1)
+    return norm(out * np.minimum(1, t * 40))
+
+def subdrop():
+    d = 1.1; t = t_(d); f = 70 * np.exp(-2.2 * t) + 32
+    s = np.tanh(2.2 * np.sin(2*np.pi*np.cumsum(f)/SR)) * env(d, 0.004, 3.2)
+    return norm(s)
+
+def airup(d=0.7):
+    t = t_(d); a = 0.01 + 0.35 * (t / d) ** 2
+    return norm(lp_var(noise(d), a) * (t / d) ** 1.6)
+
+def airdown(d=0.45):
+    t = t_(d); a = 0.36 - 0.34 * (t / d)
+    return norm(lp_var(noise(d), a) * np.exp(-4 * t) * np.minimum(1, t * 30))
+
+def swell(d=0.8):
+    t = t_(d); x = lp(noise(d), 0.15) + 0.4 * np.sin(2*np.pi*220*t) * (t/d)
+    return norm(x * (t / d) ** 3)
+
+GEN = dict(uiclick=uiclick, tickrun=tickrun, shimmer=shimmer, subdrop=subdrop, airup=airup, airdown=airdown, swell=swell, key=key, drone=drone, heartbeat=heartbeat, skate=skate, squeak=squeak, coins=coins, clink=clink, impact=impact, whoosh=whoosh, tape=tape, ticks=ticks,
            punch=punch, shutter=shutter, swoosh=swoosh, pop=pop, thud=thud, scribble=scribble, stamp=stamp, slot=slot,
            riser=riser, bubbles=bubbles)
 
