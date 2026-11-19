@@ -1,0 +1,447 @@
+[Script Info]
+ScriptType: v4.00+
+PlayResX: 1920
+PlayResY: 1080
+
+[V4+ Styles]
+Format: Name, Fontname, Fontsize, PrimaryColour, SecondaryColour, OutlineColour, BackColour, Bold, Italic, Underline, StrikeOut, ScaleX, ScaleY, Spacing, Angle, BorderStyle, Outline, Shadow, Alignment, MarginL, MarginR, MarginV, Encoding
+Style: Sub,Inter ExtraBold,54,&H00FFFFFF,&H00FFFFFF,&H00000000,&H00000000,0,0,0,0,100,100,0,0,3,14,0,2,80,80,70,1
+Style: Marca,Inter Medium,24,&H90D8C0B0,&H90D8C0B0,&H00000000,&H00000000,0,0,0,0,100,100,0,0,1,0,0,3,40,40,30,1
+
+[Events]
+Format: Layer, Start, End, Style, Name, MarginL, MarginR, MarginV, Effect, Text
+Dialogue: 0,0:00:00.15,0:00:00.35,Sub,,0,0,0,,{\c&H3CC8FF&}GTA{\c&HFFFFFF&} seis ya salió, y no
+Dialogue: 0,0:00:00.35,0:00:00.77,Sub,,0,0,0,,GTA {\c&H3CC8FF&}seis{\c&HFFFFFF&} ya salió, y no
+Dialogue: 0,0:00:00.77,0:00:01.03,Sub,,0,0,0,,GTA seis {\c&H3CC8FF&}ya{\c&HFFFFFF&} salió, y no
+Dialogue: 0,0:00:01.03,0:00:01.65,Sub,,0,0,0,,GTA seis ya {\c&H3CC8FF&}salió,{\c&HFFFFFF&} y no
+Dialogue: 0,0:00:01.65,0:00:01.75,Sub,,0,0,0,,GTA seis ya salió, {\c&H3CC8FF&}y{\c&HFFFFFF&} no
+Dialogue: 0,0:00:01.75,0:00:01.85,Sub,,0,0,0,,GTA seis ya salió, y {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:00:01.85,0:00:01.95,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} todo el mundo le está
+Dialogue: 0,0:00:01.95,0:00:02.17,Sub,,0,0,0,,a {\c&H3CC8FF&}todo{\c&HFFFFFF&} el mundo le está
+Dialogue: 0,0:00:02.17,0:00:02.31,Sub,,0,0,0,,a todo {\c&H3CC8FF&}el{\c&HFFFFFF&} mundo le está
+Dialogue: 0,0:00:02.31,0:00:02.49,Sub,,0,0,0,,a todo el {\c&H3CC8FF&}mundo{\c&HFFFFFF&} le está
+Dialogue: 0,0:00:02.49,0:00:02.61,Sub,,0,0,0,,a todo el mundo {\c&H3CC8FF&}le{\c&HFFFFFF&} está
+Dialogue: 0,0:00:02.61,0:00:02.79,Sub,,0,0,0,,a todo el mundo le {\c&H3CC8FF&}está{\c&HFFFFFF&}
+Dialogue: 0,0:00:02.79,0:00:03.69,Sub,,0,0,0,,{\c&H3CC8FF&}funcionando.{\c&HFFFFFF&} Hoy te cuento los errores
+Dialogue: 0,0:00:03.69,0:00:03.89,Sub,,0,0,0,,funcionando. {\c&H3CC8FF&}Hoy{\c&HFFFFFF&} te cuento los errores
+Dialogue: 0,0:00:03.89,0:00:04.01,Sub,,0,0,0,,funcionando. Hoy {\c&H3CC8FF&}te{\c&HFFFFFF&} cuento los errores
+Dialogue: 0,0:00:04.01,0:00:04.25,Sub,,0,0,0,,funcionando. Hoy te {\c&H3CC8FF&}cuento{\c&HFFFFFF&} los errores
+Dialogue: 0,0:00:04.25,0:00:04.35,Sub,,0,0,0,,funcionando. Hoy te cuento {\c&H3CC8FF&}los{\c&HFFFFFF&} errores
+Dialogue: 0,0:00:04.35,0:00:04.75,Sub,,0,0,0,,funcionando. Hoy te cuento los {\c&H3CC8FF&}errores{\c&HFFFFFF&}
+Dialogue: 0,0:00:04.75,0:00:04.87,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} más se están reportando, y
+Dialogue: 0,0:00:04.87,0:00:05.05,Sub,,0,0,0,,que {\c&H3CC8FF&}más{\c&HFFFFFF&} se están reportando, y
+Dialogue: 0,0:00:05.05,0:00:05.21,Sub,,0,0,0,,que más {\c&H3CC8FF&}se{\c&HFFFFFF&} están reportando, y
+Dialogue: 0,0:00:05.21,0:00:05.33,Sub,,0,0,0,,que más se {\c&H3CC8FF&}están{\c&HFFFFFF&} reportando, y
+Dialogue: 0,0:00:05.33,0:00:06.15,Sub,,0,0,0,,que más se están {\c&H3CC8FF&}reportando,{\c&HFFFFFF&} y
+Dialogue: 0,0:00:06.15,0:00:06.20,Sub,,0,0,0,,que más se están reportando, {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:06.19,0:00:06.29,Sub,,0,0,0,,{\c&H3CC8FF&}qué{\c&HFFFFFF&} puedes hacer con cada uno.
+Dialogue: 0,0:00:06.29,0:00:06.55,Sub,,0,0,0,,qué {\c&H3CC8FF&}puedes{\c&HFFFFFF&} hacer con cada uno.
+Dialogue: 0,0:00:06.55,0:00:06.77,Sub,,0,0,0,,qué puedes {\c&H3CC8FF&}hacer{\c&HFFFFFF&} con cada uno.
+Dialogue: 0,0:00:06.77,0:00:06.97,Sub,,0,0,0,,qué puedes hacer {\c&H3CC8FF&}con{\c&HFFFFFF&} cada uno.
+Dialogue: 0,0:00:06.97,0:00:07.17,Sub,,0,0,0,,qué puedes hacer con {\c&H3CC8FF&}cada{\c&HFFFFFF&} uno.
+Dialogue: 0,0:00:07.17,0:00:07.22,Sub,,0,0,0,,qué puedes hacer con cada {\c&H3CC8FF&}uno.{\c&HFFFFFF&}
+Dialogue: 0,0:00:07.63,0:00:08.07,Sub,,0,0,0,,{\c&H3CC8FF&}Primero,{\c&HFFFFFF&} lo que no es un
+Dialogue: 0,0:00:08.07,0:00:08.13,Sub,,0,0,0,,Primero, {\c&H3CC8FF&}lo{\c&HFFFFFF&} que no es un
+Dialogue: 0,0:00:08.13,0:00:08.25,Sub,,0,0,0,,Primero, lo {\c&H3CC8FF&}que{\c&HFFFFFF&} no es un
+Dialogue: 0,0:00:08.25,0:00:08.35,Sub,,0,0,0,,Primero, lo que {\c&H3CC8FF&}no{\c&HFFFFFF&} es un
+Dialogue: 0,0:00:08.35,0:00:08.47,Sub,,0,0,0,,Primero, lo que no {\c&H3CC8FF&}es{\c&HFFFFFF&} un
+Dialogue: 0,0:00:08.47,0:00:08.57,Sub,,0,0,0,,Primero, lo que no es {\c&H3CC8FF&}un{\c&HFFFFFF&}
+Dialogue: 0,0:00:08.57,0:00:09.29,Sub,,0,0,0,,{\c&H3CC8FF&}error.{\c&HFFFFFF&} El juego se desbloquea a
+Dialogue: 0,0:00:09.29,0:00:09.55,Sub,,0,0,0,,error. {\c&H3CC8FF&}El{\c&HFFFFFF&} juego se desbloquea a
+Dialogue: 0,0:00:09.55,0:00:09.79,Sub,,0,0,0,,error. El {\c&H3CC8FF&}juego{\c&HFFFFFF&} se desbloquea a
+Dialogue: 0,0:00:09.79,0:00:09.95,Sub,,0,0,0,,error. El juego {\c&H3CC8FF&}se{\c&HFFFFFF&} desbloquea a
+Dialogue: 0,0:00:09.95,0:00:10.53,Sub,,0,0,0,,error. El juego se {\c&H3CC8FF&}desbloquea{\c&HFFFFFF&} a
+Dialogue: 0,0:00:10.53,0:00:10.58,Sub,,0,0,0,,error. El juego se desbloquea {\c&H3CC8FF&}a{\c&HFFFFFF&}
+Dialogue: 0,0:00:10.57,0:00:11.39,Sub,,0,0,0,,{\c&H3CC8FF&}medianoche,{\c&HFFFFFF&} hora local de cada país.
+Dialogue: 0,0:00:11.39,0:00:11.61,Sub,,0,0,0,,medianoche, {\c&H3CC8FF&}hora{\c&HFFFFFF&} local de cada país.
+Dialogue: 0,0:00:11.61,0:00:11.93,Sub,,0,0,0,,medianoche, hora {\c&H3CC8FF&}local{\c&HFFFFFF&} de cada país.
+Dialogue: 0,0:00:11.93,0:00:12.29,Sub,,0,0,0,,medianoche, hora local {\c&H3CC8FF&}de{\c&HFFFFFF&} cada país.
+Dialogue: 0,0:00:12.29,0:00:12.53,Sub,,0,0,0,,medianoche, hora local de {\c&H3CC8FF&}cada{\c&HFFFFFF&} país.
+Dialogue: 0,0:00:12.53,0:00:13.49,Sub,,0,0,0,,medianoche, hora local de cada {\c&H3CC8FF&}país.{\c&HFFFFFF&}
+Dialogue: 0,0:00:13.49,0:00:13.73,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} lo abriste antes, no te
+Dialogue: 0,0:00:13.73,0:00:13.87,Sub,,0,0,0,,Si {\c&H3CC8FF&}lo{\c&HFFFFFF&} abriste antes, no te
+Dialogue: 0,0:00:13.87,0:00:14.19,Sub,,0,0,0,,Si lo {\c&H3CC8FF&}abriste{\c&HFFFFFF&} antes, no te
+Dialogue: 0,0:00:14.19,0:00:14.87,Sub,,0,0,0,,Si lo abriste {\c&H3CC8FF&}antes,{\c&HFFFFFF&} no te
+Dialogue: 0,0:00:14.87,0:00:15.01,Sub,,0,0,0,,Si lo abriste antes, {\c&H3CC8FF&}no{\c&HFFFFFF&} te
+Dialogue: 0,0:00:15.01,0:00:15.13,Sub,,0,0,0,,Si lo abriste antes, no {\c&H3CC8FF&}te{\c&HFFFFFF&}
+Dialogue: 0,0:00:15.13,0:00:15.23,Sub,,0,0,0,,{\c&H3CC8FF&}iba{\c&HFFFFFF&} a dejar jugar.
+Dialogue: 0,0:00:15.23,0:00:15.31,Sub,,0,0,0,,iba {\c&H3CC8FF&}a{\c&HFFFFFF&} dejar jugar.
+Dialogue: 0,0:00:15.31,0:00:15.47,Sub,,0,0,0,,iba a {\c&H3CC8FF&}dejar{\c&HFFFFFF&} jugar.
+Dialogue: 0,0:00:15.47,0:00:15.52,Sub,,0,0,0,,iba a dejar {\c&H3CC8FF&}jugar.{\c&HFFFFFF&}
+Dialogue: 0,0:00:16.04,0:00:16.32,Sub,,0,0,0,,{\c&H3CC8FF&}Error{\c&HFFFFFF&} número uno, en PlayStation cinco.
+Dialogue: 0,0:00:16.32,0:00:16.52,Sub,,0,0,0,,Error {\c&H3CC8FF&}número{\c&HFFFFFF&} uno, en PlayStation cinco.
+Dialogue: 0,0:00:16.52,0:00:17.22,Sub,,0,0,0,,Error número {\c&H3CC8FF&}uno,{\c&HFFFFFF&} en PlayStation cinco.
+Dialogue: 0,0:00:17.22,0:00:17.34,Sub,,0,0,0,,Error número uno, {\c&H3CC8FF&}en{\c&HFFFFFF&} PlayStation cinco.
+Dialogue: 0,0:00:17.34,0:00:17.66,Sub,,0,0,0,,Error número uno, en {\c&H3CC8FF&}PlayStation{\c&HFFFFFF&} cinco.
+Dialogue: 0,0:00:17.66,0:00:18.76,Sub,,0,0,0,,Error número uno, en PlayStation {\c&H3CC8FF&}cinco.{\c&HFFFFFF&}
+Dialogue: 0,0:00:18.76,0:00:19.04,Sub,,0,0,0,,{\c&H3CC8FF&}Según{\c&HFFFFFF&} varios reportes, Sony hizo obligatoria
+Dialogue: 0,0:00:19.04,0:00:19.22,Sub,,0,0,0,,Según {\c&H3CC8FF&}varios{\c&HFFFFFF&} reportes, Sony hizo obligatoria
+Dialogue: 0,0:00:19.22,0:00:20.02,Sub,,0,0,0,,Según varios {\c&H3CC8FF&}reportes,{\c&HFFFFFF&} Sony hizo obligatoria
+Dialogue: 0,0:00:20.02,0:00:20.28,Sub,,0,0,0,,Según varios reportes, {\c&H3CC8FF&}Sony{\c&HFFFFFF&} hizo obligatoria
+Dialogue: 0,0:00:20.28,0:00:20.62,Sub,,0,0,0,,Según varios reportes, Sony {\c&H3CC8FF&}hizo{\c&HFFFFFF&} obligatoria
+Dialogue: 0,0:00:20.62,0:00:21.20,Sub,,0,0,0,,Según varios reportes, Sony hizo {\c&H3CC8FF&}obligatoria{\c&HFFFFFF&}
+Dialogue: 0,0:00:21.20,0:00:21.36,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} actualización catorce punto veintitrés del
+Dialogue: 0,0:00:21.36,0:00:21.98,Sub,,0,0,0,,la {\c&H3CC8FF&}actualización{\c&HFFFFFF&} catorce punto veintitrés del
+Dialogue: 0,0:00:21.98,0:00:22.40,Sub,,0,0,0,,la actualización {\c&H3CC8FF&}catorce{\c&HFFFFFF&} punto veintitrés del
+Dialogue: 0,0:00:22.40,0:00:22.56,Sub,,0,0,0,,la actualización catorce {\c&H3CC8FF&}punto{\c&HFFFFFF&} veintitrés del
+Dialogue: 0,0:00:22.56,0:00:23.14,Sub,,0,0,0,,la actualización catorce punto {\c&H3CC8FF&}veintitrés{\c&HFFFFFF&} del
+Dialogue: 0,0:00:23.14,0:00:23.26,Sub,,0,0,0,,la actualización catorce punto veintitrés {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:23.26,0:00:24.22,Sub,,0,0,0,,{\c&H3CC8FF&}sistema.{\c&HFFFFFF&} Si tu consola no la
+Dialogue: 0,0:00:24.22,0:00:24.40,Sub,,0,0,0,,sistema. {\c&H3CC8FF&}Si{\c&HFFFFFF&} tu consola no la
+Dialogue: 0,0:00:24.40,0:00:24.52,Sub,,0,0,0,,sistema. Si {\c&H3CC8FF&}tu{\c&HFFFFFF&} consola no la
+Dialogue: 0,0:00:24.52,0:00:24.96,Sub,,0,0,0,,sistema. Si tu {\c&H3CC8FF&}consola{\c&HFFFFFF&} no la
+Dialogue: 0,0:00:24.96,0:00:25.16,Sub,,0,0,0,,sistema. Si tu consola {\c&H3CC8FF&}no{\c&HFFFFFF&} la
+Dialogue: 0,0:00:25.16,0:00:25.26,Sub,,0,0,0,,sistema. Si tu consola no {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:00:25.26,0:00:25.86,Sub,,0,0,0,,{\c&H3CC8FF&}tiene,{\c&HFFFFFF&} el juego no arranca.
+Dialogue: 0,0:00:25.86,0:00:25.98,Sub,,0,0,0,,tiene, {\c&H3CC8FF&}el{\c&HFFFFFF&} juego no arranca.
+Dialogue: 0,0:00:25.98,0:00:26.18,Sub,,0,0,0,,tiene, el {\c&H3CC8FF&}juego{\c&HFFFFFF&} no arranca.
+Dialogue: 0,0:00:26.18,0:00:26.36,Sub,,0,0,0,,tiene, el juego {\c&H3CC8FF&}no{\c&HFFFFFF&} arranca.
+Dialogue: 0,0:00:26.36,0:00:26.43,Sub,,0,0,0,,tiene, el juego no {\c&H3CC8FF&}arranca.{\c&HFFFFFF&}
+Dialogue: 0,0:00:26.95,0:00:27.45,Sub,,0,0,0,,{\c&H3CC8FF&}Sony{\c&HFFFFFF&} pidió instalar un parche de
+Dialogue: 0,0:00:27.45,0:00:28.37,Sub,,0,0,0,,Sony {\c&H3CC8FF&}pidió{\c&HFFFFFF&} instalar un parche de
+Dialogue: 0,0:00:28.37,0:00:28.73,Sub,,0,0,0,,Sony pidió {\c&H3CC8FF&}instalar{\c&HFFFFFF&} un parche de
+Dialogue: 0,0:00:28.73,0:00:28.91,Sub,,0,0,0,,Sony pidió instalar {\c&H3CC8FF&}un{\c&HFFFFFF&} parche de
+Dialogue: 0,0:00:28.91,0:00:29.35,Sub,,0,0,0,,Sony pidió instalar un {\c&H3CC8FF&}parche{\c&HFFFFFF&} de
+Dialogue: 0,0:00:29.35,0:00:29.47,Sub,,0,0,0,,Sony pidió instalar un parche {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:29.47,0:00:29.61,Sub,,0,0,0,,{\c&H3CC8FF&}un{\c&HFFFFFF&} poco más de un giga
+Dialogue: 0,0:00:29.61,0:00:29.79,Sub,,0,0,0,,un {\c&H3CC8FF&}poco{\c&HFFFFFF&} más de un giga
+Dialogue: 0,0:00:29.79,0:00:30.03,Sub,,0,0,0,,un poco {\c&H3CC8FF&}más{\c&HFFFFFF&} de un giga
+Dialogue: 0,0:00:30.03,0:00:30.19,Sub,,0,0,0,,un poco más {\c&H3CC8FF&}de{\c&HFFFFFF&} un giga
+Dialogue: 0,0:00:30.19,0:00:30.29,Sub,,0,0,0,,un poco más de {\c&H3CC8FF&}un{\c&HFFFFFF&} giga
+Dialogue: 0,0:00:30.29,0:00:30.71,Sub,,0,0,0,,un poco más de un {\c&H3CC8FF&}giga{\c&HFFFFFF&}
+Dialogue: 0,0:00:30.71,0:00:31.05,Sub,,0,0,0,,{\c&H3CC8FF&}antes{\c&HFFFFFF&} de jugar. Así que revisa
+Dialogue: 0,0:00:31.05,0:00:31.19,Sub,,0,0,0,,antes {\c&H3CC8FF&}de{\c&HFFFFFF&} jugar. Así que revisa
+Dialogue: 0,0:00:31.19,0:00:31.97,Sub,,0,0,0,,antes de {\c&H3CC8FF&}jugar.{\c&HFFFFFF&} Así que revisa
+Dialogue: 0,0:00:31.97,0:00:32.25,Sub,,0,0,0,,antes de jugar. {\c&H3CC8FF&}Así{\c&HFFFFFF&} que revisa
+Dialogue: 0,0:00:32.25,0:00:32.41,Sub,,0,0,0,,antes de jugar. Así {\c&H3CC8FF&}que{\c&HFFFFFF&} revisa
+Dialogue: 0,0:00:32.41,0:00:32.83,Sub,,0,0,0,,antes de jugar. Así que {\c&H3CC8FF&}revisa{\c&HFFFFFF&}
+Dialogue: 0,0:00:32.83,0:00:32.97,Sub,,0,0,0,,{\c&H3CC8FF&}las{\c&HFFFFFF&} actualizaciones, de la consola y
+Dialogue: 0,0:00:32.97,0:00:34.01,Sub,,0,0,0,,las {\c&H3CC8FF&}actualizaciones,{\c&HFFFFFF&} de la consola y
+Dialogue: 0,0:00:34.01,0:00:34.17,Sub,,0,0,0,,las actualizaciones, {\c&H3CC8FF&}de{\c&HFFFFFF&} la consola y
+Dialogue: 0,0:00:34.17,0:00:34.27,Sub,,0,0,0,,las actualizaciones, de {\c&H3CC8FF&}la{\c&HFFFFFF&} consola y
+Dialogue: 0,0:00:34.27,0:00:34.81,Sub,,0,0,0,,las actualizaciones, de la {\c&H3CC8FF&}consola{\c&HFFFFFF&} y
+Dialogue: 0,0:00:34.81,0:00:35.11,Sub,,0,0,0,,las actualizaciones, de la consola {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.11,0:00:35.23,Sub,,0,0,0,,{\c&H3CC8FF&}del{\c&HFFFFFF&} juego.
+Dialogue: 0,0:00:35.23,0:00:35.28,Sub,,0,0,0,,del {\c&H3CC8FF&}juego.{\c&HFFFFFF&}
+Dialogue: 0,0:00:35.78,0:00:35.90,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} ojo, se reportó una caída
+Dialogue: 0,0:00:35.90,0:00:36.30,Sub,,0,0,0,,Y {\c&H3CC8FF&}ojo,{\c&HFFFFFF&} se reportó una caída
+Dialogue: 0,0:00:36.30,0:00:36.38,Sub,,0,0,0,,Y ojo, {\c&H3CC8FF&}se{\c&HFFFFFF&} reportó una caída
+Dialogue: 0,0:00:36.38,0:00:36.82,Sub,,0,0,0,,Y ojo, se {\c&H3CC8FF&}reportó{\c&HFFFFFF&} una caída
+Dialogue: 0,0:00:36.82,0:00:36.94,Sub,,0,0,0,,Y ojo, se reportó {\c&H3CC8FF&}una{\c&HFFFFFF&} caída
+Dialogue: 0,0:00:36.94,0:00:37.24,Sub,,0,0,0,,Y ojo, se reportó una {\c&H3CC8FF&}caída{\c&HFFFFFF&}
+Dialogue: 0,0:00:37.24,0:00:37.40,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} PlayStation Network horas antes del
+Dialogue: 0,0:00:37.40,0:00:37.70,Sub,,0,0,0,,de {\c&H3CC8FF&}PlayStation{\c&HFFFFFF&} Network horas antes del
+Dialogue: 0,0:00:37.70,0:00:38.40,Sub,,0,0,0,,de PlayStation {\c&H3CC8FF&}Network{\c&HFFFFFF&} horas antes del
+Dialogue: 0,0:00:38.40,0:00:38.82,Sub,,0,0,0,,de PlayStation Network {\c&H3CC8FF&}horas{\c&HFFFFFF&} antes del
+Dialogue: 0,0:00:38.82,0:00:39.14,Sub,,0,0,0,,de PlayStation Network horas {\c&H3CC8FF&}antes{\c&HFFFFFF&} del
+Dialogue: 0,0:00:39.14,0:00:39.32,Sub,,0,0,0,,de PlayStation Network horas antes {\c&H3CC8FF&}del{\c&HFFFFFF&}
+Dialogue: 0,0:00:39.32,0:00:40.36,Sub,,0,0,0,,{\c&H3CC8FF&}lanzamiento.{\c&HFFFFFF&} Si ves un aviso de
+Dialogue: 0,0:00:40.36,0:00:40.58,Sub,,0,0,0,,lanzamiento. {\c&H3CC8FF&}Si{\c&HFFFFFF&} ves un aviso de
+Dialogue: 0,0:00:40.58,0:00:40.74,Sub,,0,0,0,,lanzamiento. Si {\c&H3CC8FF&}ves{\c&HFFFFFF&} un aviso de
+Dialogue: 0,0:00:40.74,0:00:40.90,Sub,,0,0,0,,lanzamiento. Si ves {\c&H3CC8FF&}un{\c&HFFFFFF&} aviso de
+Dialogue: 0,0:00:40.90,0:00:41.16,Sub,,0,0,0,,lanzamiento. Si ves un {\c&H3CC8FF&}aviso{\c&HFFFFFF&} de
+Dialogue: 0,0:00:41.16,0:00:41.30,Sub,,0,0,0,,lanzamiento. Si ves un aviso {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:41.30,0:00:42.28,Sub,,0,0,0,,{\c&H3CC8FF&}mantenimiento,{\c&HFFFFFF&} el problema no es tu
+Dialogue: 0,0:00:42.28,0:00:42.40,Sub,,0,0,0,,mantenimiento, {\c&H3CC8FF&}el{\c&HFFFFFF&} problema no es tu
+Dialogue: 0,0:00:42.40,0:00:42.74,Sub,,0,0,0,,mantenimiento, el {\c&H3CC8FF&}problema{\c&HFFFFFF&} no es tu
+Dialogue: 0,0:00:42.74,0:00:43.12,Sub,,0,0,0,,mantenimiento, el problema {\c&H3CC8FF&}no{\c&HFFFFFF&} es tu
+Dialogue: 0,0:00:43.12,0:00:43.26,Sub,,0,0,0,,mantenimiento, el problema no {\c&H3CC8FF&}es{\c&HFFFFFF&} tu
+Dialogue: 0,0:00:43.26,0:00:43.38,Sub,,0,0,0,,mantenimiento, el problema no es {\c&H3CC8FF&}tu{\c&HFFFFFF&}
+Dialogue: 0,0:00:43.38,0:00:43.52,Sub,,0,0,0,,{\c&H3CC8FF&}consola.{\c&HFFFFFF&}
+Dialogue: 0,0:00:44.04,0:00:44.18,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} Xbox, el error más común
+Dialogue: 0,0:00:44.18,0:00:45.00,Sub,,0,0,0,,En {\c&H3CC8FF&}Xbox,{\c&HFFFFFF&} el error más común
+Dialogue: 0,0:00:45.00,0:00:45.14,Sub,,0,0,0,,En Xbox, {\c&H3CC8FF&}el{\c&HFFFFFF&} error más común
+Dialogue: 0,0:00:45.14,0:00:45.30,Sub,,0,0,0,,En Xbox, el {\c&H3CC8FF&}error{\c&HFFFFFF&} más común
+Dialogue: 0,0:00:45.30,0:00:45.54,Sub,,0,0,0,,En Xbox, el error {\c&H3CC8FF&}más{\c&HFFFFFF&} común
+Dialogue: 0,0:00:45.54,0:00:45.76,Sub,,0,0,0,,En Xbox, el error más {\c&H3CC8FF&}común{\c&HFFFFFF&}
+Dialogue: 0,0:00:45.76,0:00:45.96,Sub,,0,0,0,,{\c&H3CC8FF&}es{\c&HFFFFFF&} el mensaje de problema temporal
+Dialogue: 0,0:00:45.96,0:00:46.06,Sub,,0,0,0,,es {\c&H3CC8FF&}el{\c&HFFFFFF&} mensaje de problema temporal
+Dialogue: 0,0:00:46.06,0:00:46.44,Sub,,0,0,0,,es el {\c&H3CC8FF&}mensaje{\c&HFFFFFF&} de problema temporal
+Dialogue: 0,0:00:46.44,0:00:46.56,Sub,,0,0,0,,es el mensaje {\c&H3CC8FF&}de{\c&HFFFFFF&} problema temporal
+Dialogue: 0,0:00:46.56,0:00:46.82,Sub,,0,0,0,,es el mensaje de {\c&H3CC8FF&}problema{\c&HFFFFFF&} temporal
+Dialogue: 0,0:00:46.82,0:00:47.28,Sub,,0,0,0,,es el mensaje de problema {\c&H3CC8FF&}temporal{\c&HFFFFFF&}
+Dialogue: 0,0:00:47.28,0:00:47.48,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} red. Lo que recomiendan es
+Dialogue: 0,0:00:47.48,0:00:48.16,Sub,,0,0,0,,de {\c&H3CC8FF&}red.{\c&HFFFFFF&} Lo que recomiendan es
+Dialogue: 0,0:00:48.16,0:00:48.40,Sub,,0,0,0,,de red. {\c&H3CC8FF&}Lo{\c&HFFFFFF&} que recomiendan es
+Dialogue: 0,0:00:48.40,0:00:48.50,Sub,,0,0,0,,de red. Lo {\c&H3CC8FF&}que{\c&HFFFFFF&} recomiendan es
+Dialogue: 0,0:00:48.50,0:00:49.16,Sub,,0,0,0,,de red. Lo que {\c&H3CC8FF&}recomiendan{\c&HFFFFFF&} es
+Dialogue: 0,0:00:49.16,0:00:49.32,Sub,,0,0,0,,de red. Lo que recomiendan {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:00:49.32,0:00:49.76,Sub,,0,0,0,,{\c&H3CC8FF&}revisar{\c&HFFFFFF&} la página de estado de
+Dialogue: 0,0:00:49.76,0:00:49.88,Sub,,0,0,0,,revisar {\c&H3CC8FF&}la{\c&HFFFFFF&} página de estado de
+Dialogue: 0,0:00:49.88,0:00:50.18,Sub,,0,0,0,,revisar la {\c&H3CC8FF&}página{\c&HFFFFFF&} de estado de
+Dialogue: 0,0:00:50.18,0:00:50.42,Sub,,0,0,0,,revisar la página {\c&H3CC8FF&}de{\c&HFFFFFF&} estado de
+Dialogue: 0,0:00:50.42,0:00:50.66,Sub,,0,0,0,,revisar la página de {\c&H3CC8FF&}estado{\c&HFFFFFF&} de
+Dialogue: 0,0:00:50.66,0:00:50.84,Sub,,0,0,0,,revisar la página de estado {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:00:50.84,0:00:51.46,Sub,,0,0,0,,{\c&H3CC8FF&}Xbox,{\c&HFFFFFF&} apagar la consola por completo,
+Dialogue: 0,0:00:51.46,0:00:51.86,Sub,,0,0,0,,Xbox, {\c&H3CC8FF&}apagar{\c&HFFFFFF&} la consola por completo,
+Dialogue: 0,0:00:51.86,0:00:51.96,Sub,,0,0,0,,Xbox, apagar {\c&H3CC8FF&}la{\c&HFFFFFF&} consola por completo,
+Dialogue: 0,0:00:51.96,0:00:52.40,Sub,,0,0,0,,Xbox, apagar la {\c&H3CC8FF&}consola{\c&HFFFFFF&} por completo,
+Dialogue: 0,0:00:52.40,0:00:52.56,Sub,,0,0,0,,Xbox, apagar la consola {\c&H3CC8FF&}por{\c&HFFFFFF&} completo,
+Dialogue: 0,0:00:52.56,0:00:53.34,Sub,,0,0,0,,Xbox, apagar la consola por {\c&H3CC8FF&}completo,{\c&HFFFFFF&}
+Dialogue: 0,0:00:53.34,0:00:53.42,Sub,,0,0,0,,{\c&H3CC8FF&}y{\c&HFFFFFF&} marcarla como tu Xbox principal.
+Dialogue: 0,0:00:53.42,0:00:53.92,Sub,,0,0,0,,y {\c&H3CC8FF&}marcarla{\c&HFFFFFF&} como tu Xbox principal.
+Dialogue: 0,0:00:53.92,0:00:54.12,Sub,,0,0,0,,y marcarla {\c&H3CC8FF&}como{\c&HFFFFFF&} tu Xbox principal.
+Dialogue: 0,0:00:54.12,0:00:54.30,Sub,,0,0,0,,y marcarla como {\c&H3CC8FF&}tu{\c&HFFFFFF&} Xbox principal.
+Dialogue: 0,0:00:54.30,0:00:54.68,Sub,,0,0,0,,y marcarla como tu {\c&H3CC8FF&}Xbox{\c&HFFFFFF&} principal.
+Dialogue: 0,0:00:54.68,0:00:55.04,Sub,,0,0,0,,y marcarla como tu Xbox {\c&H3CC8FF&}principal.{\c&HFFFFFF&}
+Dialogue: 0,0:00:55.56,0:00:55.80,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} ahora, lo más grave. Hay
+Dialogue: 0,0:00:55.80,0:00:56.04,Sub,,0,0,0,,Y {\c&H3CC8FF&}ahora,{\c&HFFFFFF&} lo más grave. Hay
+Dialogue: 0,0:00:56.04,0:00:56.14,Sub,,0,0,0,,Y ahora, {\c&H3CC8FF&}lo{\c&HFFFFFF&} más grave. Hay
+Dialogue: 0,0:00:56.14,0:00:56.32,Sub,,0,0,0,,Y ahora, lo {\c&H3CC8FF&}más{\c&HFFFFFF&} grave. Hay
+Dialogue: 0,0:00:56.32,0:00:56.98,Sub,,0,0,0,,Y ahora, lo más {\c&H3CC8FF&}grave.{\c&HFFFFFF&} Hay
+Dialogue: 0,0:00:56.98,0:00:57.14,Sub,,0,0,0,,Y ahora, lo más grave. {\c&H3CC8FF&}Hay{\c&HFFFFFF&}
+Dialogue: 0,0:00:57.14,0:00:57.56,Sub,,0,0,0,,{\c&H3CC8FF&}jugadores{\c&HFFFFFF&} en PlayStation y en Xbox
+Dialogue: 0,0:00:57.56,0:00:57.76,Sub,,0,0,0,,jugadores {\c&H3CC8FF&}en{\c&HFFFFFF&} PlayStation y en Xbox
+Dialogue: 0,0:00:57.76,0:00:58.14,Sub,,0,0,0,,jugadores en {\c&H3CC8FF&}PlayStation{\c&HFFFFFF&} y en Xbox
+Dialogue: 0,0:00:58.14,0:00:58.56,Sub,,0,0,0,,jugadores en PlayStation {\c&H3CC8FF&}y{\c&HFFFFFF&} en Xbox
+Dialogue: 0,0:00:58.56,0:00:58.64,Sub,,0,0,0,,jugadores en PlayStation y {\c&H3CC8FF&}en{\c&HFFFFFF&} Xbox
+Dialogue: 0,0:00:58.64,0:00:58.92,Sub,,0,0,0,,jugadores en PlayStation y en {\c&H3CC8FF&}Xbox{\c&HFFFFFF&}
+Dialogue: 0,0:00:58.92,0:00:59.34,Sub,,0,0,0,,{\c&H3CC8FF&}que{\c&HFFFFFF&} reportan cierres inesperados, y algunos
+Dialogue: 0,0:00:59.34,0:00:59.86,Sub,,0,0,0,,que {\c&H3CC8FF&}reportan{\c&HFFFFFF&} cierres inesperados, y algunos
+Dialogue: 0,0:00:59.86,0:01:00.26,Sub,,0,0,0,,que reportan {\c&H3CC8FF&}cierres{\c&HFFFFFF&} inesperados, y algunos
+Dialogue: 0,0:01:00.26,0:01:01.26,Sub,,0,0,0,,que reportan cierres {\c&H3CC8FF&}inesperados,{\c&HFFFFFF&} y algunos
+Dialogue: 0,0:01:01.26,0:01:01.32,Sub,,0,0,0,,que reportan cierres inesperados, {\c&H3CC8FF&}y{\c&HFFFFFF&} algunos
+Dialogue: 0,0:01:01.32,0:01:01.62,Sub,,0,0,0,,que reportan cierres inesperados, y {\c&H3CC8FF&}algunos{\c&HFFFFFF&}
+Dialogue: 0,0:01:01.62,0:01:02.20,Sub,,0,0,0,,{\c&H3CC8FF&}tuvieron{\c&HFFFFFF&} que repetir misiones.
+Dialogue: 0,0:01:02.20,0:01:02.32,Sub,,0,0,0,,tuvieron {\c&H3CC8FF&}que{\c&HFFFFFF&} repetir misiones.
+Dialogue: 0,0:01:02.32,0:01:02.76,Sub,,0,0,0,,tuvieron que {\c&H3CC8FF&}repetir{\c&HFFFFFF&} misiones.
+Dialogue: 0,0:01:02.76,0:01:02.99,Sub,,0,0,0,,tuvieron que repetir {\c&H3CC8FF&}misiones.{\c&HFFFFFF&}
+Dialogue: 0,0:01:03.51,0:01:03.97,Sub,,0,0,0,,{\c&H3CC8FF&}Rockstar{\c&HFFFFFF&} no ha dicho cada cuánto
+Dialogue: 0,0:01:03.97,0:01:04.27,Sub,,0,0,0,,Rockstar {\c&H3CC8FF&}no{\c&HFFFFFF&} ha dicho cada cuánto
+Dialogue: 0,0:01:04.27,0:01:04.35,Sub,,0,0,0,,Rockstar no {\c&H3CC8FF&}ha{\c&HFFFFFF&} dicho cada cuánto
+Dialogue: 0,0:01:04.35,0:01:04.59,Sub,,0,0,0,,Rockstar no ha {\c&H3CC8FF&}dicho{\c&HFFFFFF&} cada cuánto
+Dialogue: 0,0:01:04.59,0:01:04.91,Sub,,0,0,0,,Rockstar no ha dicho {\c&H3CC8FF&}cada{\c&HFFFFFF&} cuánto
+Dialogue: 0,0:01:04.91,0:01:05.33,Sub,,0,0,0,,Rockstar no ha dicho cada {\c&H3CC8FF&}cuánto{\c&HFFFFFF&}
+Dialogue: 0,0:01:05.33,0:01:05.61,Sub,,0,0,0,,{\c&H3CC8FF&}guarda{\c&HFFFFFF&} el juego automáticamente, ni ha
+Dialogue: 0,0:01:05.61,0:01:05.66,Sub,,0,0,0,,guarda {\c&H3CC8FF&}el{\c&HFFFFFF&} juego automáticamente, ni ha
+Dialogue: 0,0:01:05.63,0:01:05.85,Sub,,0,0,0,,guarda el {\c&H3CC8FF&}juego{\c&HFFFFFF&} automáticamente, ni ha
+Dialogue: 0,0:01:05.85,0:01:07.19,Sub,,0,0,0,,guarda el juego {\c&H3CC8FF&}automáticamente,{\c&HFFFFFF&} ni ha
+Dialogue: 0,0:01:07.19,0:01:07.43,Sub,,0,0,0,,guarda el juego automáticamente, {\c&H3CC8FF&}ni{\c&HFFFFFF&} ha
+Dialogue: 0,0:01:07.43,0:01:07.53,Sub,,0,0,0,,guarda el juego automáticamente, ni {\c&H3CC8FF&}ha{\c&HFFFFFF&}
+Dialogue: 0,0:01:07.53,0:01:08.13,Sub,,0,0,0,,{\c&H3CC8FF&}confirmado{\c&HFFFFFF&} la causa de los cierres.
+Dialogue: 0,0:01:08.13,0:01:08.33,Sub,,0,0,0,,confirmado {\c&H3CC8FF&}la{\c&HFFFFFF&} causa de los cierres.
+Dialogue: 0,0:01:08.33,0:01:08.59,Sub,,0,0,0,,confirmado la {\c&H3CC8FF&}causa{\c&HFFFFFF&} de los cierres.
+Dialogue: 0,0:01:08.59,0:01:08.77,Sub,,0,0,0,,confirmado la causa {\c&H3CC8FF&}de{\c&HFFFFFF&} los cierres.
+Dialogue: 0,0:01:08.77,0:01:08.87,Sub,,0,0,0,,confirmado la causa de {\c&H3CC8FF&}los{\c&HFFFFFF&} cierres.
+Dialogue: 0,0:01:08.87,0:01:09.81,Sub,,0,0,0,,confirmado la causa de los {\c&H3CC8FF&}cierres.{\c&HFFFFFF&}
+Dialogue: 0,0:01:09.81,0:01:10.35,Sub,,0,0,0,,{\c&H3CC8FF&}Tampoco{\c&HFFFFFF&} hay un parche anunciado.
+Dialogue: 0,0:01:10.35,0:01:10.65,Sub,,0,0,0,,Tampoco {\c&H3CC8FF&}hay{\c&HFFFFFF&} un parche anunciado.
+Dialogue: 0,0:01:10.65,0:01:10.75,Sub,,0,0,0,,Tampoco hay {\c&H3CC8FF&}un{\c&HFFFFFF&} parche anunciado.
+Dialogue: 0,0:01:10.75,0:01:11.07,Sub,,0,0,0,,Tampoco hay un {\c&H3CC8FF&}parche{\c&HFFFFFF&} anunciado.
+Dialogue: 0,0:01:11.07,0:01:11.31,Sub,,0,0,0,,Tampoco hay un parche {\c&H3CC8FF&}anunciado.{\c&HFFFFFF&}
+Dialogue: 0,0:01:11.83,0:01:12.11,Sub,,0,0,0,,{\c&H3CC8FF&}Mientras{\c&HFFFFFF&} tanto, el consejo es simple.
+Dialogue: 0,0:01:12.11,0:01:12.63,Sub,,0,0,0,,Mientras {\c&H3CC8FF&}tanto,{\c&HFFFFFF&} el consejo es simple.
+Dialogue: 0,0:01:12.63,0:01:12.73,Sub,,0,0,0,,Mientras tanto, {\c&H3CC8FF&}el{\c&HFFFFFF&} consejo es simple.
+Dialogue: 0,0:01:12.73,0:01:13.27,Sub,,0,0,0,,Mientras tanto, el {\c&H3CC8FF&}consejo{\c&HFFFFFF&} es simple.
+Dialogue: 0,0:01:13.27,0:01:13.51,Sub,,0,0,0,,Mientras tanto, el consejo {\c&H3CC8FF&}es{\c&HFFFFFF&} simple.
+Dialogue: 0,0:01:13.51,0:01:14.31,Sub,,0,0,0,,Mientras tanto, el consejo es {\c&H3CC8FF&}simple.{\c&HFFFFFF&}
+Dialogue: 0,0:01:14.31,0:01:14.69,Sub,,0,0,0,,{\c&H3CC8FF&}Guarda{\c&HFFFFFF&} a mano, y en varias
+Dialogue: 0,0:01:14.69,0:01:14.74,Sub,,0,0,0,,Guarda {\c&H3CC8FF&}a{\c&HFFFFFF&} mano, y en varias
+Dialogue: 0,0:01:14.73,0:01:15.19,Sub,,0,0,0,,Guarda a {\c&H3CC8FF&}mano,{\c&HFFFFFF&} y en varias
+Dialogue: 0,0:01:15.19,0:01:15.27,Sub,,0,0,0,,Guarda a mano, {\c&H3CC8FF&}y{\c&HFFFFFF&} en varias
+Dialogue: 0,0:01:15.27,0:01:15.41,Sub,,0,0,0,,Guarda a mano, y {\c&H3CC8FF&}en{\c&HFFFFFF&} varias
+Dialogue: 0,0:01:15.41,0:01:15.61,Sub,,0,0,0,,Guarda a mano, y en {\c&H3CC8FF&}varias{\c&HFFFFFF&}
+Dialogue: 0,0:01:15.61,0:01:16.07,Sub,,0,0,0,,{\c&H3CC8FF&}ranuras{\c&HFFFFFF&} distintas. Si el juego se
+Dialogue: 0,0:01:16.07,0:01:17.17,Sub,,0,0,0,,ranuras {\c&H3CC8FF&}distintas.{\c&HFFFFFF&} Si el juego se
+Dialogue: 0,0:01:17.17,0:01:17.37,Sub,,0,0,0,,ranuras distintas. {\c&H3CC8FF&}Si{\c&HFFFFFF&} el juego se
+Dialogue: 0,0:01:17.37,0:01:17.47,Sub,,0,0,0,,ranuras distintas. Si {\c&H3CC8FF&}el{\c&HFFFFFF&} juego se
+Dialogue: 0,0:01:17.47,0:01:17.65,Sub,,0,0,0,,ranuras distintas. Si el {\c&H3CC8FF&}juego{\c&HFFFFFF&} se
+Dialogue: 0,0:01:17.65,0:01:17.83,Sub,,0,0,0,,ranuras distintas. Si el juego {\c&H3CC8FF&}se{\c&HFFFFFF&}
+Dialogue: 0,0:01:17.83,0:01:18.41,Sub,,0,0,0,,{\c&H3CC8FF&}cierra,{\c&HFFFFFF&} entra a cargar partida, y
+Dialogue: 0,0:01:18.41,0:01:18.63,Sub,,0,0,0,,cierra, {\c&H3CC8FF&}entra{\c&HFFFFFF&} a cargar partida, y
+Dialogue: 0,0:01:18.63,0:01:18.77,Sub,,0,0,0,,cierra, entra {\c&H3CC8FF&}a{\c&HFFFFFF&} cargar partida, y
+Dialogue: 0,0:01:18.77,0:01:19.03,Sub,,0,0,0,,cierra, entra a {\c&H3CC8FF&}cargar{\c&HFFFFFF&} partida, y
+Dialogue: 0,0:01:19.03,0:01:19.61,Sub,,0,0,0,,cierra, entra a cargar {\c&H3CC8FF&}partida,{\c&HFFFFFF&} y
+Dialogue: 0,0:01:19.61,0:01:19.67,Sub,,0,0,0,,cierra, entra a cargar partida, {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:01:19.67,0:01:19.97,Sub,,0,0,0,,{\c&H3CC8FF&}elige{\c&HFFFFFF&} la más reciente.
+Dialogue: 0,0:01:19.97,0:01:20.11,Sub,,0,0,0,,elige {\c&H3CC8FF&}la{\c&HFFFFFF&} más reciente.
+Dialogue: 0,0:01:20.11,0:01:20.37,Sub,,0,0,0,,elige la {\c&H3CC8FF&}más{\c&HFFFFFF&} reciente.
+Dialogue: 0,0:01:20.37,0:01:20.58,Sub,,0,0,0,,elige la más {\c&H3CC8FF&}reciente.{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.10,0:01:21.22,Sub,,0,0,0,,{\c&H3CC8FF&}Pero{\c&HFFFFFF&} eso no es lo más
+Dialogue: 0,0:01:21.22,0:01:21.40,Sub,,0,0,0,,Pero {\c&H3CC8FF&}eso{\c&HFFFFFF&} no es lo más
+Dialogue: 0,0:01:21.40,0:01:21.54,Sub,,0,0,0,,Pero eso {\c&H3CC8FF&}no{\c&HFFFFFF&} es lo más
+Dialogue: 0,0:01:21.54,0:01:21.62,Sub,,0,0,0,,Pero eso no {\c&H3CC8FF&}es{\c&HFFFFFF&} lo más
+Dialogue: 0,0:01:21.62,0:01:21.70,Sub,,0,0,0,,Pero eso no es {\c&H3CC8FF&}lo{\c&HFFFFFF&} más
+Dialogue: 0,0:01:21.70,0:01:21.84,Sub,,0,0,0,,Pero eso no es lo {\c&H3CC8FF&}más{\c&HFFFFFF&}
+Dialogue: 0,0:01:21.84,0:01:22.54,Sub,,0,0,0,,{\c&H3CC8FF&}raro.{\c&HFFFFFF&} El caso más compartido es
+Dialogue: 0,0:01:22.54,0:01:22.74,Sub,,0,0,0,,raro. {\c&H3CC8FF&}El{\c&HFFFFFF&} caso más compartido es
+Dialogue: 0,0:01:22.74,0:01:22.98,Sub,,0,0,0,,raro. El {\c&H3CC8FF&}caso{\c&HFFFFFF&} más compartido es
+Dialogue: 0,0:01:22.98,0:01:23.18,Sub,,0,0,0,,raro. El caso {\c&H3CC8FF&}más{\c&HFFFFFF&} compartido es
+Dialogue: 0,0:01:23.18,0:01:23.76,Sub,,0,0,0,,raro. El caso más {\c&H3CC8FF&}compartido{\c&HFFFFFF&} es
+Dialogue: 0,0:01:23.76,0:01:23.98,Sub,,0,0,0,,raro. El caso más compartido {\c&H3CC8FF&}es{\c&HFFFFFF&}
+Dialogue: 0,0:01:23.98,0:01:24.12,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} de un streamer que dijo
+Dialogue: 0,0:01:24.12,0:01:24.22,Sub,,0,0,0,,el {\c&H3CC8FF&}de{\c&HFFFFFF&} un streamer que dijo
+Dialogue: 0,0:01:24.22,0:01:24.32,Sub,,0,0,0,,el de {\c&H3CC8FF&}un{\c&HFFFFFF&} streamer que dijo
+Dialogue: 0,0:01:24.32,0:01:24.74,Sub,,0,0,0,,el de un {\c&H3CC8FF&}streamer{\c&HFFFFFF&} que dijo
+Dialogue: 0,0:01:24.74,0:01:24.86,Sub,,0,0,0,,el de un streamer {\c&H3CC8FF&}que{\c&HFFFFFF&} dijo
+Dialogue: 0,0:01:24.86,0:01:25.14,Sub,,0,0,0,,el de un streamer que {\c&H3CC8FF&}dijo{\c&HFFFFFF&}
+Dialogue: 0,0:01:25.14,0:01:25.44,Sub,,0,0,0,,{\c&H3CC8FF&}haber{\c&HFFFFFF&} perdido diez horas. Y no
+Dialogue: 0,0:01:25.44,0:01:25.94,Sub,,0,0,0,,haber {\c&H3CC8FF&}perdido{\c&HFFFFFF&} diez horas. Y no
+Dialogue: 0,0:01:25.94,0:01:26.12,Sub,,0,0,0,,haber perdido {\c&H3CC8FF&}diez{\c&HFFFFFF&} horas. Y no
+Dialogue: 0,0:01:26.12,0:01:26.78,Sub,,0,0,0,,haber perdido diez {\c&H3CC8FF&}horas.{\c&HFFFFFF&} Y no
+Dialogue: 0,0:01:26.78,0:01:27.00,Sub,,0,0,0,,haber perdido diez horas. {\c&H3CC8FF&}Y{\c&HFFFFFF&} no
+Dialogue: 0,0:01:27.00,0:01:27.12,Sub,,0,0,0,,haber perdido diez horas. Y {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:01:27.12,0:01:27.26,Sub,,0,0,0,,{\c&H3CC8FF&}está{\c&HFFFFFF&} claro si fue un cierre
+Dialogue: 0,0:01:27.26,0:01:27.52,Sub,,0,0,0,,está {\c&H3CC8FF&}claro{\c&HFFFFFF&} si fue un cierre
+Dialogue: 0,0:01:27.52,0:01:27.74,Sub,,0,0,0,,está claro {\c&H3CC8FF&}si{\c&HFFFFFF&} fue un cierre
+Dialogue: 0,0:01:27.74,0:01:27.94,Sub,,0,0,0,,está claro si {\c&H3CC8FF&}fue{\c&HFFFFFF&} un cierre
+Dialogue: 0,0:01:27.94,0:01:28.00,Sub,,0,0,0,,está claro si fue {\c&H3CC8FF&}un{\c&HFFFFFF&} cierre
+Dialogue: 0,0:01:28.00,0:01:28.32,Sub,,0,0,0,,está claro si fue un {\c&H3CC8FF&}cierre{\c&HFFFFFF&}
+Dialogue: 0,0:01:28.32,0:01:28.42,Sub,,0,0,0,,{\c&H3CC8FF&}del{\c&HFFFFFF&} juego, o si la consola
+Dialogue: 0,0:01:28.42,0:01:28.98,Sub,,0,0,0,,del {\c&H3CC8FF&}juego,{\c&HFFFFFF&} o si la consola
+Dialogue: 0,0:01:28.98,0:01:29.06,Sub,,0,0,0,,del juego, {\c&H3CC8FF&}o{\c&HFFFFFF&} si la consola
+Dialogue: 0,0:01:29.06,0:01:29.16,Sub,,0,0,0,,del juego, o {\c&H3CC8FF&}si{\c&HFFFFFF&} la consola
+Dialogue: 0,0:01:29.16,0:01:29.26,Sub,,0,0,0,,del juego, o si {\c&H3CC8FF&}la{\c&HFFFFFF&} consola
+Dialogue: 0,0:01:29.26,0:01:29.66,Sub,,0,0,0,,del juego, o si la {\c&H3CC8FF&}consola{\c&HFFFFFF&}
+Dialogue: 0,0:01:29.66,0:01:29.78,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} apagó.
+Dialogue: 0,0:01:29.78,0:01:29.83,Sub,,0,0,0,,se {\c&H3CC8FF&}apagó.{\c&HFFFFFF&}
+Dialogue: 0,0:01:30.26,0:01:30.52,Sub,,0,0,0,,{\c&H3CC8FF&}Otro{\c&HFFFFFF&} problema son los códigos que
+Dialogue: 0,0:01:30.52,0:01:30.90,Sub,,0,0,0,,Otro {\c&H3CC8FF&}problema{\c&HFFFFFF&} son los códigos que
+Dialogue: 0,0:01:30.90,0:01:31.20,Sub,,0,0,0,,Otro problema {\c&H3CC8FF&}son{\c&HFFFFFF&} los códigos que
+Dialogue: 0,0:01:31.20,0:01:31.36,Sub,,0,0,0,,Otro problema son {\c&H3CC8FF&}los{\c&HFFFFFF&} códigos que
+Dialogue: 0,0:01:31.36,0:01:31.86,Sub,,0,0,0,,Otro problema son los {\c&H3CC8FF&}códigos{\c&HFFFFFF&} que
+Dialogue: 0,0:01:31.86,0:01:32.14,Sub,,0,0,0,,Otro problema son los códigos {\c&H3CC8FF&}que{\c&HFFFFFF&}
+Dialogue: 0,0:01:32.14,0:01:32.44,Sub,,0,0,0,,{\c&H3CC8FF&}vienen{\c&HFFFFFF&} en la caja. Hay reportes
+Dialogue: 0,0:01:32.44,0:01:32.62,Sub,,0,0,0,,vienen {\c&H3CC8FF&}en{\c&HFFFFFF&} la caja. Hay reportes
+Dialogue: 0,0:01:32.62,0:01:32.72,Sub,,0,0,0,,vienen en {\c&H3CC8FF&}la{\c&HFFFFFF&} caja. Hay reportes
+Dialogue: 0,0:01:32.72,0:01:33.48,Sub,,0,0,0,,vienen en la {\c&H3CC8FF&}caja.{\c&HFFFFFF&} Hay reportes
+Dialogue: 0,0:01:33.48,0:01:33.80,Sub,,0,0,0,,vienen en la caja. {\c&H3CC8FF&}Hay{\c&HFFFFFF&} reportes
+Dialogue: 0,0:01:33.80,0:01:34.34,Sub,,0,0,0,,vienen en la caja. Hay {\c&H3CC8FF&}reportes{\c&HFFFFFF&}
+Dialogue: 0,0:01:34.34,0:01:34.44,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} códigos que no se pueden
+Dialogue: 0,0:01:34.44,0:01:34.90,Sub,,0,0,0,,de {\c&H3CC8FF&}códigos{\c&HFFFFFF&} que no se pueden
+Dialogue: 0,0:01:34.90,0:01:35.14,Sub,,0,0,0,,de códigos {\c&H3CC8FF&}que{\c&HFFFFFF&} no se pueden
+Dialogue: 0,0:01:35.14,0:01:35.34,Sub,,0,0,0,,de códigos que {\c&H3CC8FF&}no{\c&HFFFFFF&} se pueden
+Dialogue: 0,0:01:35.34,0:01:35.48,Sub,,0,0,0,,de códigos que no {\c&H3CC8FF&}se{\c&HFFFFFF&} pueden
+Dialogue: 0,0:01:35.48,0:01:35.74,Sub,,0,0,0,,de códigos que no se {\c&H3CC8FF&}pueden{\c&HFFFFFF&}
+Dialogue: 0,0:01:35.74,0:01:36.42,Sub,,0,0,0,,{\c&H3CC8FF&}canjear,{\c&HFFFFFF&} o que no se leen
+Dialogue: 0,0:01:36.42,0:01:36.78,Sub,,0,0,0,,canjear, {\c&H3CC8FF&}o{\c&HFFFFFF&} que no se leen
+Dialogue: 0,0:01:36.78,0:01:36.98,Sub,,0,0,0,,canjear, o {\c&H3CC8FF&}que{\c&HFFFFFF&} no se leen
+Dialogue: 0,0:01:36.98,0:01:37.12,Sub,,0,0,0,,canjear, o que {\c&H3CC8FF&}no{\c&HFFFFFF&} se leen
+Dialogue: 0,0:01:37.12,0:01:37.26,Sub,,0,0,0,,canjear, o que no {\c&H3CC8FF&}se{\c&HFFFFFF&} leen
+Dialogue: 0,0:01:37.26,0:01:37.50,Sub,,0,0,0,,canjear, o que no se {\c&H3CC8FF&}leen{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.50,0:01:37.55,Sub,,0,0,0,,{\c&H3CC8FF&}bien.{\c&HFFFFFF&}
+Dialogue: 0,0:01:37.96,0:01:38.06,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} en Xbox, esos códigos no
+Dialogue: 0,0:01:38.06,0:01:38.12,Sub,,0,0,0,,Y {\c&H3CC8FF&}en{\c&HFFFFFF&} Xbox, esos códigos no
+Dialogue: 0,0:01:38.12,0:01:38.70,Sub,,0,0,0,,Y en {\c&H3CC8FF&}Xbox,{\c&HFFFFFF&} esos códigos no
+Dialogue: 0,0:01:38.70,0:01:38.82,Sub,,0,0,0,,Y en Xbox, {\c&H3CC8FF&}esos{\c&HFFFFFF&} códigos no
+Dialogue: 0,0:01:38.82,0:01:39.30,Sub,,0,0,0,,Y en Xbox, esos {\c&H3CC8FF&}códigos{\c&HFFFFFF&} no
+Dialogue: 0,0:01:39.30,0:01:39.62,Sub,,0,0,0,,Y en Xbox, esos códigos {\c&H3CC8FF&}no{\c&HFFFFFF&}
+Dialogue: 0,0:01:39.62,0:01:39.76,Sub,,0,0,0,,{\c&H3CC8FF&}se{\c&HFFFFFF&} pueden pasar de una cuenta
+Dialogue: 0,0:01:39.76,0:01:39.98,Sub,,0,0,0,,se {\c&H3CC8FF&}pueden{\c&HFFFFFF&} pasar de una cuenta
+Dialogue: 0,0:01:39.98,0:01:40.28,Sub,,0,0,0,,se pueden {\c&H3CC8FF&}pasar{\c&HFFFFFF&} de una cuenta
+Dialogue: 0,0:01:40.28,0:01:40.46,Sub,,0,0,0,,se pueden pasar {\c&H3CC8FF&}de{\c&HFFFFFF&} una cuenta
+Dialogue: 0,0:01:40.46,0:01:40.58,Sub,,0,0,0,,se pueden pasar de {\c&H3CC8FF&}una{\c&HFFFFFF&} cuenta
+Dialogue: 0,0:01:40.58,0:01:40.84,Sub,,0,0,0,,se pueden pasar de una {\c&H3CC8FF&}cuenta{\c&HFFFFFF&}
+Dialogue: 0,0:01:40.84,0:01:41.00,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} otra, así que canjéalo en
+Dialogue: 0,0:01:41.00,0:01:41.48,Sub,,0,0,0,,a {\c&H3CC8FF&}otra,{\c&HFFFFFF&} así que canjéalo en
+Dialogue: 0,0:01:41.48,0:01:41.62,Sub,,0,0,0,,a otra, {\c&H3CC8FF&}así{\c&HFFFFFF&} que canjéalo en
+Dialogue: 0,0:01:41.62,0:01:41.76,Sub,,0,0,0,,a otra, así {\c&H3CC8FF&}que{\c&HFFFFFF&} canjéalo en
+Dialogue: 0,0:01:41.76,0:01:42.24,Sub,,0,0,0,,a otra, así que {\c&H3CC8FF&}canjéalo{\c&HFFFFFF&} en
+Dialogue: 0,0:01:42.24,0:01:42.34,Sub,,0,0,0,,a otra, así que canjéalo {\c&H3CC8FF&}en{\c&HFFFFFF&}
+Dialogue: 0,0:01:42.34,0:01:42.42,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} cuenta donde vas a jugar.
+Dialogue: 0,0:01:42.42,0:01:42.72,Sub,,0,0,0,,la {\c&H3CC8FF&}cuenta{\c&HFFFFFF&} donde vas a jugar.
+Dialogue: 0,0:01:42.72,0:01:43.10,Sub,,0,0,0,,la cuenta {\c&H3CC8FF&}donde{\c&HFFFFFF&} vas a jugar.
+Dialogue: 0,0:01:43.10,0:01:43.34,Sub,,0,0,0,,la cuenta donde {\c&H3CC8FF&}vas{\c&HFFFFFF&} a jugar.
+Dialogue: 0,0:01:43.34,0:01:43.46,Sub,,0,0,0,,la cuenta donde vas {\c&H3CC8FF&}a{\c&HFFFFFF&} jugar.
+Dialogue: 0,0:01:43.46,0:01:43.51,Sub,,0,0,0,,la cuenta donde vas a {\c&H3CC8FF&}jugar.{\c&HFFFFFF&}
+Dialogue: 0,0:01:43.94,0:01:44.08,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} el espacio. Los reportes hablan
+Dialogue: 0,0:01:44.08,0:01:44.20,Sub,,0,0,0,,Y {\c&H3CC8FF&}el{\c&HFFFFFF&} espacio. Los reportes hablan
+Dialogue: 0,0:01:44.20,0:01:45.18,Sub,,0,0,0,,Y el {\c&H3CC8FF&}espacio.{\c&HFFFFFF&} Los reportes hablan
+Dialogue: 0,0:01:45.18,0:01:45.30,Sub,,0,0,0,,Y el espacio. {\c&H3CC8FF&}Los{\c&HFFFFFF&} reportes hablan
+Dialogue: 0,0:01:45.30,0:01:45.90,Sub,,0,0,0,,Y el espacio. Los {\c&H3CC8FF&}reportes{\c&HFFFFFF&} hablan
+Dialogue: 0,0:01:45.90,0:01:46.28,Sub,,0,0,0,,Y el espacio. Los reportes {\c&H3CC8FF&}hablan{\c&HFFFFFF&}
+Dialogue: 0,0:01:46.28,0:01:46.40,Sub,,0,0,0,,{\c&H3CC8FF&}de{\c&HFFFFFF&} unos doscientos doce gigas de
+Dialogue: 0,0:01:46.40,0:01:46.54,Sub,,0,0,0,,de {\c&H3CC8FF&}unos{\c&HFFFFFF&} doscientos doce gigas de
+Dialogue: 0,0:01:46.54,0:01:47.26,Sub,,0,0,0,,de unos {\c&H3CC8FF&}doscientos{\c&HFFFFFF&} doce gigas de
+Dialogue: 0,0:01:47.26,0:01:47.54,Sub,,0,0,0,,de unos doscientos {\c&H3CC8FF&}doce{\c&HFFFFFF&} gigas de
+Dialogue: 0,0:01:47.54,0:01:47.88,Sub,,0,0,0,,de unos doscientos doce {\c&H3CC8FF&}gigas{\c&HFFFFFF&} de
+Dialogue: 0,0:01:47.88,0:01:47.94,Sub,,0,0,0,,de unos doscientos doce gigas {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:01:47.94,0:01:48.72,Sub,,0,0,0,,{\c&H3CC8FF&}descarga,{\c&HFFFFFF&} y recomiendan tener unos doscientos
+Dialogue: 0,0:01:48.72,0:01:48.78,Sub,,0,0,0,,descarga, {\c&H3CC8FF&}y{\c&HFFFFFF&} recomiendan tener unos doscientos
+Dialogue: 0,0:01:48.78,0:01:49.30,Sub,,0,0,0,,descarga, y {\c&H3CC8FF&}recomiendan{\c&HFFFFFF&} tener unos doscientos
+Dialogue: 0,0:01:49.30,0:01:49.60,Sub,,0,0,0,,descarga, y recomiendan {\c&H3CC8FF&}tener{\c&HFFFFFF&} unos doscientos
+Dialogue: 0,0:01:49.60,0:01:49.92,Sub,,0,0,0,,descarga, y recomiendan tener {\c&H3CC8FF&}unos{\c&HFFFFFF&} doscientos
+Dialogue: 0,0:01:49.92,0:01:50.64,Sub,,0,0,0,,descarga, y recomiendan tener unos {\c&H3CC8FF&}doscientos{\c&HFFFFFF&}
+Dialogue: 0,0:01:50.64,0:01:51.26,Sub,,0,0,0,,{\c&H3CC8FF&}cincuenta{\c&HFFFFFF&} libres. Rockstar no publicó la
+Dialogue: 0,0:01:51.26,0:01:52.04,Sub,,0,0,0,,cincuenta {\c&H3CC8FF&}libres.{\c&HFFFFFF&} Rockstar no publicó la
+Dialogue: 0,0:01:52.04,0:01:52.66,Sub,,0,0,0,,cincuenta libres. {\c&H3CC8FF&}Rockstar{\c&HFFFFFF&} no publicó la
+Dialogue: 0,0:01:52.66,0:01:53.00,Sub,,0,0,0,,cincuenta libres. Rockstar {\c&H3CC8FF&}no{\c&HFFFFFF&} publicó la
+Dialogue: 0,0:01:53.00,0:01:53.42,Sub,,0,0,0,,cincuenta libres. Rockstar no {\c&H3CC8FF&}publicó{\c&HFFFFFF&} la
+Dialogue: 0,0:01:53.42,0:01:53.52,Sub,,0,0,0,,cincuenta libres. Rockstar no publicó {\c&H3CC8FF&}la{\c&HFFFFFF&}
+Dialogue: 0,0:01:53.52,0:01:53.82,Sub,,0,0,0,,{\c&H3CC8FF&}cifra{\c&HFFFFFF&} exacta por consola.
+Dialogue: 0,0:01:53.82,0:01:54.28,Sub,,0,0,0,,cifra {\c&H3CC8FF&}exacta{\c&HFFFFFF&} por consola.
+Dialogue: 0,0:01:54.28,0:01:54.52,Sub,,0,0,0,,cifra exacta {\c&H3CC8FF&}por{\c&HFFFFFF&} consola.
+Dialogue: 0,0:01:54.52,0:01:54.69,Sub,,0,0,0,,cifra exacta por {\c&H3CC8FF&}consola.{\c&HFFFFFF&}
+Dialogue: 0,0:01:55.21,0:01:55.91,Sub,,0,0,0,,{\c&H3CC8FF&}En{\c&HFFFFFF&} PlayStation, actualiza la consola y
+Dialogue: 0,0:01:55.91,0:01:57.37,Sub,,0,0,0,,En {\c&H3CC8FF&}PlayStation,{\c&HFFFFFF&} actualiza la consola y
+Dialogue: 0,0:01:57.37,0:01:57.89,Sub,,0,0,0,,En PlayStation, {\c&H3CC8FF&}actualiza{\c&HFFFFFF&} la consola y
+Dialogue: 0,0:01:57.89,0:01:57.99,Sub,,0,0,0,,En PlayStation, actualiza {\c&H3CC8FF&}la{\c&HFFFFFF&} consola y
+Dialogue: 0,0:01:57.99,0:01:58.47,Sub,,0,0,0,,En PlayStation, actualiza la {\c&H3CC8FF&}consola{\c&HFFFFFF&} y
+Dialogue: 0,0:01:58.47,0:01:58.73,Sub,,0,0,0,,En PlayStation, actualiza la consola {\c&H3CC8FF&}y{\c&HFFFFFF&}
+Dialogue: 0,0:01:58.73,0:01:58.83,Sub,,0,0,0,,{\c&H3CC8FF&}el{\c&HFFFFFF&} juego. En Xbox, reinicia por
+Dialogue: 0,0:01:58.83,0:01:59.69,Sub,,0,0,0,,el {\c&H3CC8FF&}juego.{\c&HFFFFFF&} En Xbox, reinicia por
+Dialogue: 0,0:01:59.69,0:01:59.85,Sub,,0,0,0,,el juego. {\c&H3CC8FF&}En{\c&HFFFFFF&} Xbox, reinicia por
+Dialogue: 0,0:01:59.85,0:02:00.43,Sub,,0,0,0,,el juego. En {\c&H3CC8FF&}Xbox,{\c&HFFFFFF&} reinicia por
+Dialogue: 0,0:02:00.43,0:02:00.81,Sub,,0,0,0,,el juego. En Xbox, {\c&H3CC8FF&}reinicia{\c&HFFFFFF&} por
+Dialogue: 0,0:02:00.81,0:02:00.95,Sub,,0,0,0,,el juego. En Xbox, reinicia {\c&H3CC8FF&}por{\c&HFFFFFF&}
+Dialogue: 0,0:02:00.95,0:02:01.37,Sub,,0,0,0,,{\c&H3CC8FF&}completo{\c&HFFFFFF&} y revisa el estado de
+Dialogue: 0,0:02:01.37,0:02:01.67,Sub,,0,0,0,,completo {\c&H3CC8FF&}y{\c&HFFFFFF&} revisa el estado de
+Dialogue: 0,0:02:01.67,0:02:01.99,Sub,,0,0,0,,completo y {\c&H3CC8FF&}revisa{\c&HFFFFFF&} el estado de
+Dialogue: 0,0:02:01.99,0:02:02.09,Sub,,0,0,0,,completo y revisa {\c&H3CC8FF&}el{\c&HFFFFFF&} estado de
+Dialogue: 0,0:02:02.09,0:02:02.33,Sub,,0,0,0,,completo y revisa el {\c&H3CC8FF&}estado{\c&HFFFFFF&} de
+Dialogue: 0,0:02:02.33,0:02:02.47,Sub,,0,0,0,,completo y revisa el estado {\c&H3CC8FF&}de{\c&HFFFFFF&}
+Dialogue: 0,0:02:02.47,0:02:02.59,Sub,,0,0,0,,{\c&H3CC8FF&}la{\c&HFFFFFF&} red. En las dos, guarda
+Dialogue: 0,0:02:02.59,0:02:03.31,Sub,,0,0,0,,la {\c&H3CC8FF&}red.{\c&HFFFFFF&} En las dos, guarda
+Dialogue: 0,0:02:03.31,0:02:03.43,Sub,,0,0,0,,la red. {\c&H3CC8FF&}En{\c&HFFFFFF&} las dos, guarda
+Dialogue: 0,0:02:03.43,0:02:03.57,Sub,,0,0,0,,la red. En {\c&H3CC8FF&}las{\c&HFFFFFF&} dos, guarda
+Dialogue: 0,0:02:03.57,0:02:04.21,Sub,,0,0,0,,la red. En las {\c&H3CC8FF&}dos,{\c&HFFFFFF&} guarda
+Dialogue: 0,0:02:04.21,0:02:04.49,Sub,,0,0,0,,la red. En las dos, {\c&H3CC8FF&}guarda{\c&HFFFFFF&}
+Dialogue: 0,0:02:04.49,0:02:04.54,Sub,,0,0,0,,{\c&H3CC8FF&}a{\c&HFFFFFF&} mano y en varias ranuras.
+Dialogue: 0,0:02:04.51,0:02:04.79,Sub,,0,0,0,,a {\c&H3CC8FF&}mano{\c&HFFFFFF&} y en varias ranuras.
+Dialogue: 0,0:02:04.79,0:02:05.17,Sub,,0,0,0,,a mano {\c&H3CC8FF&}y{\c&HFFFFFF&} en varias ranuras.
+Dialogue: 0,0:02:05.17,0:02:05.33,Sub,,0,0,0,,a mano y {\c&H3CC8FF&}en{\c&HFFFFFF&} varias ranuras.
+Dialogue: 0,0:02:05.33,0:02:05.51,Sub,,0,0,0,,a mano y en {\c&H3CC8FF&}varias{\c&HFFFFFF&} ranuras.
+Dialogue: 0,0:02:05.51,0:02:05.74,Sub,,0,0,0,,a mano y en varias {\c&H3CC8FF&}ranuras.{\c&HFFFFFF&}
+Dialogue: 0,0:02:06.26,0:02:06.34,Sub,,0,0,0,,{\c&H3CC8FF&}Y{\c&HFFFFFF&} si todavía no has empezado,
+Dialogue: 0,0:02:06.34,0:02:06.39,Sub,,0,0,0,,Y {\c&H3CC8FF&}si{\c&HFFFFFF&} todavía no has empezado,
+Dialogue: 0,0:02:06.38,0:02:06.74,Sub,,0,0,0,,Y si {\c&H3CC8FF&}todavía{\c&HFFFFFF&} no has empezado,
+Dialogue: 0,0:02:06.74,0:02:06.86,Sub,,0,0,0,,Y si todavía {\c&H3CC8FF&}no{\c&HFFFFFF&} has empezado,
+Dialogue: 0,0:02:06.86,0:02:06.96,Sub,,0,0,0,,Y si todavía no {\c&H3CC8FF&}has{\c&HFFFFFF&} empezado,
+Dialogue: 0,0:02:06.96,0:02:07.66,Sub,,0,0,0,,Y si todavía no has {\c&H3CC8FF&}empezado,{\c&HFFFFFF&}
+Dialogue: 0,0:02:07.66,0:02:07.86,Sub,,0,0,0,,{\c&H3CC8FF&}cuidado{\c&HFFFFFF&} con los spoilers. Silencia palabras
+Dialogue: 0,0:02:07.86,0:02:08.10,Sub,,0,0,0,,cuidado {\c&H3CC8FF&}con{\c&HFFFFFF&} los spoilers. Silencia palabras
+Dialogue: 0,0:02:08.10,0:02:08.24,Sub,,0,0,0,,cuidado con {\c&H3CC8FF&}los{\c&HFFFFFF&} spoilers. Silencia palabras
+Dialogue: 0,0:02:08.24,0:02:08.98,Sub,,0,0,0,,cuidado con los {\c&H3CC8FF&}spoilers.{\c&HFFFFFF&} Silencia palabras
+Dialogue: 0,0:02:08.98,0:02:09.32,Sub,,0,0,0,,cuidado con los spoilers. {\c&H3CC8FF&}Silencia{\c&HFFFFFF&} palabras
+Dialogue: 0,0:02:09.32,0:02:09.58,Sub,,0,0,0,,cuidado con los spoilers. Silencia {\c&H3CC8FF&}palabras{\c&HFFFFFF&}
+Dialogue: 0,0:02:09.58,0:02:10.32,Sub,,0,0,0,,{\c&H3CC8FF&}clave,{\c&HFFFFFF&} y juega tú primero.
+Dialogue: 0,0:02:10.32,0:02:10.37,Sub,,0,0,0,,clave, {\c&H3CC8FF&}y{\c&HFFFFFF&} juega tú primero.
+Dialogue: 0,0:02:10.36,0:02:10.74,Sub,,0,0,0,,clave, y {\c&H3CC8FF&}juega{\c&HFFFFFF&} tú primero.
+Dialogue: 0,0:02:10.74,0:02:10.90,Sub,,0,0,0,,clave, y juega {\c&H3CC8FF&}tú{\c&HFFFFFF&} primero.
+Dialogue: 0,0:02:10.90,0:02:11.00,Sub,,0,0,0,,clave, y juega tú {\c&H3CC8FF&}primero.{\c&HFFFFFF&}
+Dialogue: 0,0:02:11.52,0:02:11.68,Sub,,0,0,0,,{\c&H3CC8FF&}Si{\c&HFFFFFF&} te pasó otro error, déjalo
+Dialogue: 0,0:02:11.68,0:02:11.82,Sub,,0,0,0,,Si {\c&H3CC8FF&}te{\c&HFFFFFF&} pasó otro error, déjalo
+Dialogue: 0,0:02:11.82,0:02:12.00,Sub,,0,0,0,,Si te {\c&H3CC8FF&}pasó{\c&HFFFFFF&} otro error, déjalo
+Dialogue: 0,0:02:12.00,0:02:12.22,Sub,,0,0,0,,Si te pasó {\c&H3CC8FF&}otro{\c&HFFFFFF&} error, déjalo
+Dialogue: 0,0:02:12.22,0:02:12.72,Sub,,0,0,0,,Si te pasó otro {\c&H3CC8FF&}error,{\c&HFFFFFF&} déjalo
+Dialogue: 0,0:02:12.72,0:02:13.02,Sub,,0,0,0,,Si te pasó otro error, {\c&H3CC8FF&}déjalo{\c&HFFFFFF&}
+Dialogue: 0,0:02:13.02,0:02:13.07,Sub,,0,0,0,,{\c&H3CC8FF&}en{\c&HFFFFFF&} los comentarios y lo revisamos.
+Dialogue: 0,0:02:13.06,0:02:13.18,Sub,,0,0,0,,en {\c&H3CC8FF&}los{\c&HFFFFFF&} comentarios y lo revisamos.
+Dialogue: 0,0:02:13.18,0:02:13.58,Sub,,0,0,0,,en los {\c&H3CC8FF&}comentarios{\c&HFFFFFF&} y lo revisamos.
+Dialogue: 0,0:02:13.58,0:02:13.92,Sub,,0,0,0,,en los comentarios {\c&H3CC8FF&}y{\c&HFFFFFF&} lo revisamos.
+Dialogue: 0,0:02:13.92,0:02:14.02,Sub,,0,0,0,,en los comentarios y {\c&H3CC8FF&}lo{\c&HFFFFFF&} revisamos.
+Dialogue: 0,0:02:14.02,0:02:14.92,Sub,,0,0,0,,en los comentarios y lo {\c&H3CC8FF&}revisamos.{\c&HFFFFFF&}
+Dialogue: 0,0:02:14.92,0:02:15.16,Sub,,0,0,0,,{\c&H3CC8FF&}Porque{\c&HFFFFFF&} GTA seis ya salió, pero
+Dialogue: 0,0:02:15.16,0:02:15.46,Sub,,0,0,0,,Porque {\c&H3CC8FF&}GTA{\c&HFFFFFF&} seis ya salió, pero
+Dialogue: 0,0:02:15.46,0:02:15.92,Sub,,0,0,0,,Porque GTA {\c&H3CC8FF&}seis{\c&HFFFFFF&} ya salió, pero
+Dialogue: 0,0:02:15.92,0:02:16.26,Sub,,0,0,0,,Porque GTA seis {\c&H3CC8FF&}ya{\c&HFFFFFF&} salió, pero
+Dialogue: 0,0:02:16.26,0:02:16.94,Sub,,0,0,0,,Porque GTA seis ya {\c&H3CC8FF&}salió,{\c&HFFFFFF&} pero
+Dialogue: 0,0:02:16.94,0:02:17.12,Sub,,0,0,0,,Porque GTA seis ya salió, {\c&H3CC8FF&}pero{\c&HFFFFFF&}
+Dialogue: 0,0:02:17.12,0:02:17.30,Sub,,0,0,0,,{\c&H3CC8FF&}no{\c&HFFFFFF&} a todo el mundo le
+Dialogue: 0,0:02:17.30,0:02:17.46,Sub,,0,0,0,,no {\c&H3CC8FF&}a{\c&HFFFFFF&} todo el mundo le
+Dialogue: 0,0:02:17.46,0:02:17.68,Sub,,0,0,0,,no a {\c&H3CC8FF&}todo{\c&HFFFFFF&} el mundo le
+Dialogue: 0,0:02:17.68,0:02:17.80,Sub,,0,0,0,,no a todo {\c&H3CC8FF&}el{\c&HFFFFFF&} mundo le
+Dialogue: 0,0:02:17.80,0:02:18.06,Sub,,0,0,0,,no a todo el {\c&H3CC8FF&}mundo{\c&HFFFFFF&} le
+Dialogue: 0,0:02:18.06,0:02:18.32,Sub,,0,0,0,,no a todo el mundo {\c&H3CC8FF&}le{\c&HFFFFFF&}
+Dialogue: 0,0:02:18.32,0:02:18.52,Sub,,0,0,0,,{\c&H3CC8FF&}está{\c&HFFFFFF&} funcionando.
+Dialogue: 0,0:02:18.52,0:02:18.79,Sub,,0,0,0,,está {\c&H3CC8FF&}funcionando.{\c&HFFFFFF&}

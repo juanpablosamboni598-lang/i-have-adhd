@@ -70,7 +70,7 @@ const Thumb = () => <AbsoluteFill style={{ background: C.bg }}>
   <ThreeCanvas width={1280} height={720} gl={{ antialias: true }} camera={{ fov: 40, position: [0, 1, 4] }}>
     <color attach="background" args={[C.bg]} /><Cam t={0} keys={[[0, 0.35, 0.85, 3.4, 0.55, 0.62, 0]]} />
     <Plate r={1.1} pos={[-0.6, 0, 0]} /><Dust t={3} />
-    <group position={[-0.95, 0.68, 0]} rotation={[0, 0.3, -0.06]} scale={1.0}><PriceTag text="ERROR" color={C.red} fg={C.text} /></group>
+    <group position={[-0.75, 0.62, 0]} rotation={[0, 0.3, -0.06]} scale={0.85}><PriceTag text="ERROR" color={C.red} fg={C.text} /></group>
   </ThreeCanvas>
   <div style={{ position: 'absolute', right: 40, top: 90, textAlign: 'right', fontFamily: FONT, fontWeight: 900, lineHeight: 0.98, transform: 'scaleX(1.05)', transformOrigin: 'right' }}>
     <div style={{ fontSize: 96, color: C.text }}>¿GTA 6 NO</div>
