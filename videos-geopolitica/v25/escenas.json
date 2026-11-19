@@ -1,0 +1,694 @@
+[
+ {
+  "tipo": "gancho_capsula",
+  "titulo": "gancho_capsula",
+  "texto": "Te pagaron cien dólares por dormir una noche en una cápsula de hielo. Firmaste sin leer. Como todos.",
+  "voz": "narr",
+  "p": {
+   "esc": null,
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.6,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "despierta",
+  "titulo": "despierta",
+  "texto": "Y cuando abres los ojos… han pasado mil años.",
+  "voz": "susp",
+  "p": {
+   "esc": null,
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "bogota_3026",
+  "titulo": "bogota_3026",
+  "texto": "Bogotá sigue ahí, pero ya no es tu Bogotá. Nadie entiende lo que dices, y tu banco ya no existe.",
+  "voz": "narr",
+  "p": {
+   "esc": null,
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "pregunta",
+  "titulo": "pregunta",
+  "texto": "Y hay una pregunta que nadie te quiere responder: ¿por qué nadie te despertó?",
+  "voz": "susp",
+  "p": {
+   "esc": null,
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "contrato",
+  "titulo": "contrato",
+  "texto": "La respuesta está en la página que no leíste. Y al final de este video la vas a leer conmigo.",
+  "voz": "susp",
+  "p": {
+   "esc": null,
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "bogota_2026",
+  "titulo": "bogota_2026",
+  "texto": "Bogotá, año dos mil veintiséis. Un laboratorio pequeño busca voluntarios: una noche, cien dólares, cero riesgo.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "firma",
+  "titulo": "firma",
+  "texto": "Tú necesitas los cien dólares. Así que firmas.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.6,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "capsula_llena",
+  "titulo": "capsula_llena",
+  "texto": "La cápsula baja tu temperatura y te llena de un líquido que evita que te vuelvas hielo.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "cristales",
+  "titulo": "cristales",
+  "texto": "Porque ese es el verdadero problema: el agua de tus células, al congelarse, forma cristales filosos que las rompen por dentro.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.6,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "rana",
+  "titulo": "rana",
+  "texto": "La rana de bosque de Norteamérica se congela casi por completo cada invierno. Su corazón se detiene. En primavera se descongela… y sigue saltando.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": "La rana de bosque sobrevive congelada todo el invierno"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "rana_azucar",
+  "titulo": "rana_azucar",
+  "texto": "Su truco: llena sus células de azúcar, que funciona como anticongelante.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": "El azúcar actúa como anticongelante en sus células"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "tardigrado",
+  "titulo": "tardigrado",
+  "texto": "En dos mil dieciséis, científicos japoneses revivieron tardígrados que llevaban treinta años congelados.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": "Japón, 2016: tardígrados revividos tras 30 años congelados"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "gusano",
+  "titulo": "gusano",
+  "texto": "Y en dos mil veintitrés revivieron gusanos diminutos que llevaban cuarenta y seis mil años en el hielo de Siberia.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": "2023: gusanos revividos tras 46.000 años en Siberia"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "nitrogeno",
+  "titulo": "nitrogeno",
+  "texto": "¿Y los humanos? Desde mil novecientos sesenta y siete hay personas guardadas en nitrógeno líquido. A ninguna la han revivido todavía.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": 0,
+   "dato": "Desde 1967: ninguna persona criopreservada ha sido revivida"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierra_ojos",
+  "titulo": "cierra_ojos",
+  "texto": "Pero esto es un \"¿qué pasaría si…?\". Así que la cápsula funciona. Cierras los ojos. Una noche.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 1 · LA CÁPSULA",
+   "anio": "2026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "boveda",
+  "titulo": "boveda",
+  "texto": "Abres los ojos. Frío. Silencio. No estás en el laboratorio. Estás en una bóveda enorme, llena de estantes con cajitas.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "semillas",
+  "titulo": "semillas",
+  "texto": "Semillas. Millones de semillas.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "svalbard",
+  "titulo": "svalbard",
+  "texto": "Esto existe. En Noruega, dentro de una montaña helada, hay una bóveda con más de un millón de muestras de semillas del mundo, guardadas por si un día las necesitamos.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": null,
+   "med": null,
+   "dato": "Svalbard, Noruega: más de 1 millón de muestras de semillas"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "etiqueta",
+  "titulo": "etiqueta",
+  "texto": "En tu cápsula hay una etiqueta: \"Muestra humana cero cero uno. No abrir hasta cumplir la condición del contrato\". ¿Qué condición?",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": null,
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "fecha",
+  "titulo": "fecha",
+  "texto": "La pantalla dice la fecha: año tres mil veintiséis.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 2 · DESPERTAR",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.5,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "bogota_3026",
+  "titulo": "bogota_3026",
+  "texto": "Sales. Los cerros siguen ahí. Monserrate sigue ahí. Pero el resto… cambió.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "nadie_nota",
+  "titulo": "nadie_nota",
+  "texto": "Y hay cosas que cambiaron aunque nadie las note.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "luna",
+  "titulo": "luna",
+  "texto": "La Luna se aleja de la Tierra unos tres coma ocho centímetros cada año. En mil años, son treinta y ocho metros.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": "La Luna se aleja 3,8 cm por año: 38 m en mil años"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "dia",
+  "titulo": "dia",
+  "texto": "Los días se alargan. La Tierra gira un poquito más lento cada siglo. En mil años, tu día dura unas dos centésimas de segundo más.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": "En mil años el día dura unas 0,02 s más"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "continentes",
+  "titulo": "continentes",
+  "texto": "Y Suramérica se movió. Los continentes se desplazan unos centímetros al año: en mil años, Bogotá está unas decenas de metros más lejos de África.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": "Suramérica se aleja de África unos centímetros por año"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "mapas",
+  "titulo": "mapas",
+  "texto": "Tú no lo notas. Pero tus mapas ya están mal.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 3 · LA NUEVA BOGOTÁ",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "idioma",
+  "titulo": "idioma",
+  "texto": "Le preguntas a alguien: \"¿Qué año es?\". Te mira como si hablaras otro idioma. Porque hablas otro idioma.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 4 · NADIE TE ENTIENDE",
+   "anio": "3026",
+   "med": 15,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "glosas",
+  "titulo": "glosas",
+  "texto": "Hace unos mil años, un monje escribió en el margen de un libro unas de las primeras palabras de lo que hoy llamamos español: \"Cono ajutorio de nuestro dueno, dueno Christo\".",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 4 · NADIE TE ENTIENDE",
+   "anio": "3026",
+   "med": 15,
+   "dato": "Glosas Emilianenses: de las primeras palabras escritas en español"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "museo",
+  "titulo": "museo",
+  "texto": "Lo puedes medio leer… pero suena rarísimo. Pues así suenas tú en tres mil veintiséis. Tu \"parce, qué más\" es una pieza de museo.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 4 · NADIE TE ENTIENDE",
+   "anio": "3026",
+   "med": 15,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "banco",
+  "titulo": "banco",
+  "texto": "Buena noticia: tus cien dólares siguen en el banco. Si ganaron un cuatro por ciento al año durante mil años, con interés compuesto… serían más de diez trillones de dólares.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 5 · ¿ERES RICO?",
+   "anio": "3026",
+   "med": null,
+   "dato": "100 dólares al 4 % durante mil años: más de 10 trillones"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planeta",
+  "titulo": "planeta",
+  "texto": "Más dinero que todo el planeta.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 5 · ¿ERES RICO?",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.4,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "banco_antiguo",
+  "titulo": "banco_antiguo",
+  "texto": "Mala noticia: los bancos no duran mil años. El banco más antiguo que sigue abierto es italiano y abrió en mil cuatrocientos setenta y dos. Le faltan siglos para llegar a tu cuenta.",
+  "voz": "dato",
+  "p": {
+   "esc": "ESCENARIO 5 · ¿ERES RICO?",
+   "anio": "3026",
+   "med": null,
+   "dato": "El banco más antiguo aún abierto es de 1472 (Italia)"
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "quiebra",
+  "titulo": "quiebra",
+  "texto": "Tu banco quebró hace siglos. Tus cien dólares… son un recuerdo.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 5 · ¿ERES RICO?",
+   "anio": "3026",
+   "med": 0,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.5,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "contrato_zoom",
+  "titulo": "contrato_zoom",
+  "texto": "Vuelves a la bóveda. Buscas tu contrato. Una sola página. Y ahí está, en letra diminuta: \"El voluntario será despertado solo cuando la medicina pueda revivirlo sin ningún riesgo\".",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 6 · LA PÁGINA QUE NO LEÍSTE",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "una_noche",
+  "titulo": "una_noche",
+  "texto": "Una noche… si todo salía perfecto. Mil años… porque nada salía perfecto.",
+  "voz": "susp",
+  "p": {
+   "esc": "ESCENARIO 6 · LA PÁGINA QUE NO LEÍSTE",
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "siglos",
+  "titulo": "siglos",
+  "texto": "Nadie se olvidó de ti. La bóveda cumplió el contrato al pie de la letra. Esperó, siglo tras siglo, hasta que despertarte fuera cien por ciento seguro.",
+  "voz": "narr",
+  "p": {
+   "esc": "ESCENARIO 6 · LA PÁGINA QUE NO LEÍSTE",
+   "anio": "3026",
+   "med": 100,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.8,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "leer_tyc",
+  "titulo": "leer_tyc",
+  "texto": "Así que lo primero que haces en el año tres mil veintiséis no es comer, ni pasear, ni buscar a nadie. Es leer los términos y condiciones. Todos. Hasta el final.",
+  "voz": "narr",
+  "p": {
+   "esc": null,
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "cierre",
+  "titulo": "cierre",
+  "texto": "Y tú… ¿firmarías? ¿Cien dólares por una noche… que podría durar mil años? Cuéntamelo en los comentarios.",
+  "voz": "narr",
+  "p": {
+   "esc": null,
+   "anio": "3026",
+   "med": null,
+   "dato": null
+  },
+  "sfx": [
+   [
+    0.1,
+    "swish"
+   ],
+   [
+    0.9,
+    "pop"
+   ]
+  ]
+ }
+]
