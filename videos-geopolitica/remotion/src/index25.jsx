@@ -381,11 +381,15 @@ const Scene = ({ i, at }) => {
   const f = at !== undefined ? Math.round(sc.frames * at) : f0;
   const t = f / 30, d = sc.frames / 30;
   const S = (SC[sc.tipo] || SC.pregunta)({ t, d });
-  const z = 1 + 0.06 * (t / d), zb = 1 + 0.03 * (t / d), px = (i % 2 ? -1 : 1) * 18 * (t / d);
+  // cámara: cortes de plano cada ~3,5 s (general → medio a un lado → medio al otro), con zoom lento dentro de cada plano
+  const SH = 3.5, k = Math.floor(t / SH), u = (t - k * SH) / SH, dir = i % 2 ? -1 : 1;
+  const shot = d < 4.5 ? 0 : k % 3;
+  const z0 = [1.0, 1.14, 1.09][shot], fx = [0, 130 * dir, -120 * dir][shot], fy = [0, -30, 20][shot];
+  const z = z0 + 0.05 * u, zb = 1 + (z - 1) * 0.6, px = fx * -1 + dir * 26 * u;
   return <AbsoluteFill style={{ background: '#0B1222', overflow: 'hidden' }}>
     <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ position: 'absolute' }}>
-      <g transform={`translate(${W / 2 + px * 0.5} ${H / 2}) scale(${zb}) translate(${-W / 2} ${-H / 2})`}>{S.bg}</g>
-      <g transform={`translate(${W / 2 + px} ${H / 2}) scale(${z}) translate(${-W / 2} ${-H / 2})`}>{S.fg}</g>
+      <g transform={`translate(${W / 2 + px * 0.5} ${H / 2 + fy * 0.5}) scale(${zb}) translate(${-W / 2} ${-H / 2})`}>{S.bg}</g>
+      <g transform={`translate(${W / 2 + px} ${H / 2 + fy}) scale(${z}) translate(${-W / 2} ${-H / 2})`}>{S.fg}</g>
       <defs><radialGradient id="vig" cx="50%" cy="50%" r="72%"><stop offset="0.6" stopColor="#000" stopOpacity="0" /><stop offset="1" stopColor="#000" stopOpacity="0.38" /></radialGradient></defs>
       <rect width={W} height={H} fill="url(#vig)" />
     </svg>
