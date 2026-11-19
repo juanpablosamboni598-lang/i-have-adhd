@@ -1,10 +1,10 @@
-// ViceLeakss g05 (16:9, errores del día 1) con el estilo de las referencias: fondo #0B0B10 con grano, 3D semitono, textos palabra por palabra.
+// ViceLeakss g05 (16:9, 99 en Metacritic) con el estilo de las referencias: fondo #0B0B10 con grano, 3D semitono, textos palabra por palabra.
 import React from 'react';
 import { registerRoot, Composition, useCurrentFrame, AbsoluteFill } from 'remotion';
 import { ThreeCanvas } from '@remotion/three';
 import D from './datag05.json';
 import { Cam, cl, tw } from './three/kit.jsx';
-import { C, Bridge, PriceTag, Strike, Plate, Dust } from './three/world_g02.jsx';
+import { C, Bridge, PriceTag, Strike, Plate, Dust, Sign } from './three/world_g02.jsx';
 import { SG5 } from './three/scenes_g05.jsx';
 
 const norm = (s) => s.toLowerCase().normalize('NFD').replace(/[̀-ͯ]/g, '').replace(/[^a-zñ0-9]/g, '');
@@ -70,7 +70,10 @@ const Thumb = () => <AbsoluteFill style={{ background: C.bg }}>
   <ThreeCanvas width={1280} height={720} gl={{ antialias: true }} camera={{ fov: 40, position: [0, 1, 4] }}>
     <color attach="background" args={[C.bg]} /><Cam t={0} keys={[[0, 0.35, 0.85, 3.4, 0.55, 0.62, 0]]} />
     <Plate r={1.1} pos={[-0.6, 0, 0]} /><Dust t={3} />
-    <group position={[-0.75, 0.62, 0]} rotation={[0, 0.3, -0.06]} scale={0.85}><PriceTag text="99" color={C.lime} /></group>
+    <group position={[-1.2, 0.5, -0.45]} rotation={[0, 0.45, 0.12]} scale={0.6}><PriceTag text="30 FPS" color={C.red} fg={C.text} /></group>
+    <group position={[-0.6, 0, 0.1]} rotation={[0, 0.3, -0.04]} scale={1.45}>
+      <mesh position={[0, 0.3, 0]}><boxGeometry args={[0.03, 0.6, 0.03]} /><meshBasicMaterial color={C.gray} /></mesh>
+      <PriceTag pos={[0, 0.72, 0]} text="99" color={C.lime} w={0.75} /></group>
   </ThreeCanvas>
   <div style={{ position: 'absolute', right: 40, top: 90, textAlign: 'right', fontFamily: FONT, fontWeight: 900, lineHeight: 0.98, transform: 'scaleX(1.05)', transformOrigin: 'right' }}>
     <div style={{ fontSize: 96, color: C.text }}>GTA 6:</div>
