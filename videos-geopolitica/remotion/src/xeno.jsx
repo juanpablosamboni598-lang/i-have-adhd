@@ -69,7 +69,8 @@ const ARMS = {
 
 // Persona completa. jacket/tee/pants: colores; pin: el "?" de Xeno.
 export const Person = ({ x = 960, y = 900, s = 1, exp = 'neutral', pose = 'normal', t = 0, flip = false, jacket = '#3A4A63', jacketD = '#2A374B',
-  tee = '#ECEFF3', pants = '#1F2430', pin = true, hair = 'xeno', look = 0, bob = true, wave = 0 }) => {
+  tee = '#ECEFF3', pants = '#1F2430', pin = true, hair = 'xeno', look = 0, bob = true, wave = 0, coat = false }) => {
+  if (coat) { jacket = '#F4F7FA'; jacketD = '#D5DEE7'; }
   const by = bob ? Math.sin(t * 2.2) * 3 : 0;
   const [a1, a2] = ARMS[pose] || ARMS.normal;
   const a2w = pose === 'saluda' ? [a2[0], a2[1], a2[2] + Math.sin(t * 9) * 14 * wave, a2[3], a2[4] + Math.sin(t * 9) * 18, a2[5]] : a2;
@@ -87,6 +88,8 @@ export const Person = ({ x = 960, y = 900, s = 1, exp = 'neutral', pose = 'norma
       <path d="M136 214 Q200 194 264 214 L270 398 Q238 404 222 400 L216 212 L184 212 L178 400 Q162 404 130 398Z" fill={jacket} stroke={OUT} strokeWidth="4" strokeLinejoin="round" />
       <path d="M184 210 L172 246 L190 232Z M216 210 L228 246 L210 232Z" fill={jacketD} stroke={OUT} strokeWidth="3" strokeLinejoin="round" />
       <path d="M130 384 Q150 392 178 390 M222 390 Q250 392 270 384" fill="none" stroke={jacketD} strokeWidth="9" />
+      {coat && <path d="M130 396 L126 470 L178 470 L178 400 Z M222 400 L222 470 L274 470 L270 396Z" fill={jacket} stroke={OUT} strokeWidth="4" strokeLinejoin="round" />}
+      {coat && <rect x="236" y="300" width="22" height="26" rx="3" fill="#5CC8F0" opacity="0.8" />}
       {pin && <g><circle cx="246" cy="250" r="10" fill="#F2B134" stroke={OUT} strokeWidth="3" />
         <text x="246" y="256" textAnchor="middle" fontFamily="Arial Black, Arial" fontWeight="900" fontSize="15" fill={OUT}>?</text></g>}
       {pose === 'pensando' ? <><Arm d={arm(a1)} c={jacket} /><Hand x={a1[4]} y={a1[5]} />{head}<Arm d={arm(a2w)} c={jacket} /><Hand x={a2w[4]} y={a2w[5]} /></>
