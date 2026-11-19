@@ -167,3 +167,4 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - 18 nov 3:09 pm: fb03 cremallera publicada (YouTube + Facebook).
 - 18 nov 8:30 pm: fb02 ducha programada (YouTube Zernio 6afe257286f299bac8429554, Facebook Buffer 6afe257601ba7c5e79183ecf).
 - 19 nov 2:00 am: fb04 olla programada (YouTube Zernio 6afe71f3c5cf315f436087b9, Facebook Buffer 6afe76c63802f5b9fc679704).
+- 19 nov 2:00 am: fb04 olla publicada (YouTube + Facebook).
