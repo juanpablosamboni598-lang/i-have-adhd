@@ -1,105 +1,88 @@
-"""Xeno v2: estilo de la referencia (cabeza negra redonda, ojos blancos grandes, buzo), con rasgos propios:
-rizo en forma de "?" y buzo mostaza con capucha."""
-HEAD, OUT = '#16161C', '#0E0E12'
-HOOD, HOODD, STR, PANTS, SHOE, ACC = '#F5B82E', '#D6951A', '#FFF6E0', '#2B2D42', '#FAFAFA', '#E63946'
-W = 5
+"""Xeno v3 (serio): silueta negra estilo referencia con proporciones de adulto, ojos almendrados,
+chaqueta bomber gris azulado, camiseta blanca, jean oscuro. Sello discreto: pin "?" en el pecho."""
+OUT = '#0E0E12'
+JACK, JACKD, TEE, PANTS, SHOE, PIN = '#3A4A63', '#2A374B', '#ECEFF3', '#1F2430', '#E9E9E9', '#F2B134'
+BROW = '#11141B'
+W = 4
 
 def defs():
-    return ('<defs><radialGradient id="hl" gradientUnits="userSpaceOnUse" cx="160" cy="130" r="190">'
-            '<stop offset="0" stop-color="#3A3A46"/><stop offset=".45" stop-color="#1C1C24"/><stop offset="1" stop-color="#0E0E12"/>'
+    return ('<defs><radialGradient id="hl" gradientUnits="userSpaceOnUse" cx="178" cy="78" r="120">'
+            '<stop offset="0" stop-color="#5A6680"/><stop offset=".55" stop-color="#2E3646"/><stop offset="1" stop-color="#1A1F2A"/>'
             '</radialGradient></defs>')
 
+def almond(x, y, w, h, lid=0):
+    return f'M{x-w} {y} Q{x} {y-h-lid} {x+w} {y} Q{x} {y+h*0.85} {x-w} {y}Z'
+
 def eyes(e):
-    s = []
-    if e == 'feliz':
-        for x in (160, 240):
-            s.append(f'<path d="M{x-26} 190 Q{x} 154 {x+26} 190 Q{x} 172 {x-26} 190Z" fill="#fff"/>')
-        return ''.join(s)
-    rx, ry, pr, dx, dy = 30, 38, 12, 0, 2
-    if e == 'sorprendido': rx, ry, pr = 34, 44, 8
-    if e == 'asustado': rx, ry, pr, dy = 32, 40, 7, 6
-    if e == 'pensativo': dx, dy = -10, -14
-    if e == 'picaro': ry, dx = 22, 8
-    if e == 'enojado': ry = 28
-    for x in (160, 240):
-        s.append(f'<ellipse cx="{x}" cy="178" rx="{rx}" ry="{ry}" fill="#fff"/>')
-        s.append(f'<circle cx="{x+dx}" cy="{180+dy}" r="{pr}" fill="{OUT}"/>')
-        s.append(f'<circle cx="{x+dx+4}" cy="{175+dy}" r="{max(3,pr//3)}" fill="#fff"/>')
-    if e in ('enojado', 'picaro'):
-        for x, sgn in ((160, 1), (240, -1)):
-            top = 146 if e == 'enojado' else 150
-            a, b = (top, top + 16) if (sgn > 0) == (e == 'enojado') else (top + 16, top)
-            s.append(f'<path d="M{x-36} {a} L{x+36} {b} L{x+36} 120 L{x-36} 120Z" fill="url(#hl)"/>')
-    return ''.join(s)
-
-def brows(e):
-    d = {'neutral': ((134,128,184,124),(216,124,266,128)),
-         'feliz': ((134,124,184,116),(216,116,266,124)),
-         'sorprendido': ((136,112,184,100),(216,100,264,112)),
-         'asustado': ((136,130,184,112),(216,112,264,130)),
-         'pensativo': ((136,134,184,130),(216,108,264,116)),
-         'picaro': ((136,130,184,128),(216,114,264,124)),
-         'enojado': ((136,124,188,144),(212,144,264,124))}[e]
-    return ''.join(f'<line x1="{a}" y1="{b}" x2="{c}" y2="{f}" stroke="#5A5A68" stroke-width="9" stroke-linecap="round"/>' for a,b,c,f in d)
-
-def mouth(e):
-    return {'neutral': '<path d="M182 252 Q200 262 218 252" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>',
-            'feliz': '<path d="M164 240 Q200 296 236 240 Q200 252 164 240Z" fill="#fff"/><path d="M180 262 Q200 286 220 262 Q200 270 180 262Z" fill="#E63946"/>',
-            'sorprendido': '<ellipse cx="200" cy="258" rx="15" ry="20" fill="#fff"/><ellipse cx="200" cy="262" rx="9" ry="12" fill="#E63946"/>',
-            'asustado': '<path d="M170 258 q7.5 -10 15 0 t15 0 t15 0 t15 0" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>',
-            'pensativo': '<path d="M188 258 L218 250" stroke="#fff" stroke-width="6" stroke-linecap="round"/>',
-            'picaro': '<path d="M178 250 Q206 270 226 244" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>',
-            'enojado': '<path d="M180 262 Q200 246 220 262" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round"/>'}[e]
-
-def extras(e):
+    cfg = {'neutral': (21, 12, 6, 0, 0), 'serio': (21, 10, 6, 0, 0), 'esceptico': (21, 11, 6, 2, 0),
+           'sorprendido': (22, 16, 5, 0, 0), 'preocupado': (21, 13, 5, 0, 2), 'pensativo': (21, 12, 6, -6, -3),
+           'sonrisa': (21, 10, 6, 0, 0)}[e]
+    w, h, pr, dx, dy = cfg
     s = ''
-    if e in ('feliz', 'sorprendido', 'picaro', 'neutral'):
-        s += '<ellipse cx="124" cy="230" rx="18" ry="10" fill="#FF4D6D" opacity=".75"/><ellipse cx="276" cy="230" rx="18" ry="10" fill="#FF4D6D" opacity=".75"/>'
-    if e == 'asustado':
-        s += f'<path d="M298 118 q16 26 0 38 q-16 -12 0 -38Z" fill="#7CC8FF" stroke="{OUT}" stroke-width="3"/>'
-    if e == 'pensativo':
-        s += f'<text x="300" y="96" font-family="Arial Black,Arial" font-weight="900" font-size="60" fill="#FFD23F" stroke="{OUT}" stroke-width="4">?</text>'
-    if e == 'sorprendido':
-        s += '<g stroke="#FFD23F" stroke-width="8" stroke-linecap="round"><line x1="66" y1="96" x2="90" y2="116"/><line x1="334" y1="96" x2="310" y2="116"/><line x1="200" y1="6" x2="200" y2="28"/></g>'
-    if e == 'enojado':
-        s += '<path d="M296 104 l14 -14 m-14 0 l14 14" stroke="#E63946" stroke-width="7" stroke-linecap="round"/>'
+    for i, x in enumerate((172, 228)):
+        hh = h - 3 if (e == 'esceptico' and i == 0) else h
+        s += f'<path d="{almond(x, 112, w, hh)}" fill="#F4F4F6"/>'
+        s += f'<circle cx="{x+dx}" cy="{112+dy}" r="{pr}" fill="{OUT}"/>'
+        s += f'<circle cx="{x+dx+2}" cy="{110+dy}" r="1.8" fill="#fff"/>'
     return s
 
+def brows(e):
+    d = {'neutral': ((152,94,190,92),(210,92,248,94)),
+         'serio': ((152,96,190,100),(210,100,248,96)),
+         'esceptico': ((152,98,190,98),(210,86,248,92)),
+         'sorprendido': ((152,84,190,80),(210,80,248,84)),
+         'preocupado': ((152,98,190,88),(210,88,248,98)),
+         'pensativo': ((152,98,190,96),(210,88,248,92)),
+         'sonrisa': ((152,94,190,92),(210,92,248,94))}[e]
+    return ''.join(f'<path d="M{a} {b} L{c} {f}" stroke="{BROW}" stroke-width="7" stroke-linecap="round"/>' for a, b, c, f in d)
+
+def mouth(e):
+    c = '#E6E6EA'
+    return {'neutral': f'<path d="M188 150 L212 150" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+            'serio': f'<path d="M186 152 Q200 149 214 152" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+            'esceptico': f'<path d="M186 152 Q202 150 216 146" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+            'sorprendido': f'<ellipse cx="200" cy="153" rx="6" ry="8" fill="{c}"/>',
+            'preocupado': f'<path d="M186 154 Q200 147 214 154" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+            'pensativo': f'<path d="M190 152 L214 149" stroke="{c}" stroke-width="4" stroke-linecap="round"/>',
+            'sonrisa': f'<path d="M184 148 Q202 160 218 146" fill="none" stroke="{c}" stroke-width="4" stroke-linecap="round"/>'}[e]
+
 def head(e):
-    curl = (f'<path d="M170 50 C160 2 250 -4 246 34 C244 54 212 52 208 62" fill="none" stroke="{OUT}" stroke-width="18" stroke-linecap="round"/>')
-    return (curl + f'<circle cx="200" cy="188" r="116" fill="url(#hl)" stroke="{OUT}" stroke-width="{W}"/>'
-            + brows(e) + eyes(e) + mouth(e) + extras(e))
+    hair = (f'<path d="M126 92 Q128 30 200 28 Q266 28 276 86 Q262 58 222 52 Q236 62 232 70 Q206 50 160 60 Q138 68 126 92Z" '
+            f'fill="#11141B" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>')
+    ears = ''.join(f'<ellipse cx="{x}" cy="116" rx="9" ry="15" fill="url(#hl)" stroke="{OUT}" stroke-width="{W}"/>' for x in (122, 278))
+    face = f'<ellipse cx="200" cy="108" rx="78" ry="86" fill="url(#hl)" stroke="{OUT}" stroke-width="{W}"/>'
+    return ears + face + hair + brows(e) + eyes(e) + mouth(e)
 
 def arm(x0, y0, x1, y1, x2, y2):
-    return (f'<path d="M{x0} {y0} Q{x1} {y1} {x2} {y2}" fill="none" stroke="{OUT}" stroke-width="36" stroke-linecap="round"/>'
-            f'<path d="M{x0} {y0} Q{x1} {y1} {x2} {y2}" fill="none" stroke="{HOOD}" stroke-width="25" stroke-linecap="round"/>'
-            f'<circle cx="{x2}" cy="{y2}" r="17" fill="url(#hl)" stroke="{OUT}" stroke-width="{W}"/>')
+    return (f'<path d="M{x0} {y0} Q{x1} {y1} {x2} {y2}" fill="none" stroke="{OUT}" stroke-width="32" stroke-linecap="round"/>'
+            f'<path d="M{x0} {y0} Q{x1} {y1} {x2} {y2}" fill="none" stroke="{JACK}" stroke-width="23" stroke-linecap="round"/>'
+            f'<ellipse cx="{x2}" cy="{y2}" rx="11" ry="13" fill="#262D3B" stroke="{OUT}" stroke-width="{W}"/>')
 
 def body(pose):
-    arms = {'normal': arm(146, 336, 114, 404, 120, 462) + arm(254, 336, 286, 404, 280, 462),
-            'pensando': arm(146, 336, 114, 404, 120, 462) + arm(254, 336, 304, 366, 236, 300),
-            'shock': arm(146, 336, 78, 306, 68, 226) + arm(254, 336, 322, 306, 332, 226),
-            'explica': arm(146, 336, 114, 404, 120, 462) + arm(254, 336, 332, 336, 362, 272)}[pose]
-    legs = ''.join(f'<path d="M{x} 470 L{x} 556" stroke="{OUT}" stroke-width="34" stroke-linecap="round"/>'
-                   f'<path d="M{x} 470 L{x} 556" stroke="{PANTS}" stroke-width="22" stroke-linecap="round"/>' for x in (174, 226))
-    shoes = ''.join(f'<path d="M{x-30} 578 Q{x-30} 552 {x} 552 Q{x+34} 552 {x+34} 578Z" fill="{SHOE}" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>'
-                    f'<path d="M{x-24} 568 L{x+28} 568" stroke="{ACC}" stroke-width="5"/>' for x in (166, 234))
-    torso = (f'<path d="M132 318 Q200 292 268 318 L278 470 Q200 490 122 470 Z" fill="{HOOD}" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>'
-             # capucha detrás del cuello
-             f'<path d="M140 316 Q200 270 260 316 Q236 300 200 300 Q164 300 140 316Z" fill="{HOODD}" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>'
-             # cordones
-             f'<path d="M186 306 L182 360 M214 306 L218 360" stroke="{STR}" stroke-width="5" stroke-linecap="round"/>'
-             f'<circle cx="182" cy="362" r="5" fill="{STR}"/><circle cx="218" cy="362" r="5" fill="{STR}"/>'
-             # bolsillo canguro
-             f'<path d="M156 410 L244 410 L256 452 L144 452 Z" fill="{HOODD}" stroke="{OUT}" stroke-width="4" stroke-linejoin="round"/>'
-             f'<path d="M126 462 Q200 480 274 462" fill="none" stroke="{HOODD}" stroke-width="10"/>')
-    return legs + shoes + torso + arms
+    A = {'normal': arm(140, 222, 120, 300, 128, 382) + arm(260, 222, 280, 300, 272, 382),
+         'explica': arm(140, 222, 120, 300, 128, 382) + arm(260, 222, 320, 262, 336, 210),
+         'pensando': arm(140, 222, 120, 300, 128, 382) + arm(260, 222, 290, 260, 222, 166),
+         'brazos': arm(140, 222, 150, 300, 238, 292) + arm(260, 222, 250, 300, 162, 290)}[pose]
+    legs = ''.join(f'<path d="M{x} 396 L{x+dx} 560" stroke="{OUT}" stroke-width="34" stroke-linecap="round"/>'
+                   f'<path d="M{x} 396 L{x+dx} 560" stroke="{PANTS}" stroke-width="25" stroke-linecap="round"/>' for x, dx in ((182, -4), (218, 4)))
+    shoes = ''.join(f'<path d="M{x-24} 580 Q{x-22} 556 {x+2} 556 Q{x+30} 558 {x+32} 580Z" fill="{SHOE}" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>'
+                    f'<path d="M{x-22} 573 L{x+30} 573" stroke="#9AA0AA" stroke-width="3"/>' for x in (172, 228))
+    neck = f'<rect x="186" y="186" width="28" height="22" fill="#262D3B" stroke="{OUT}" stroke-width="{W}"/>'
+    tee = f'<path d="M176 204 L224 204 L230 390 L170 390Z" fill="{TEE}" stroke="{OUT}" stroke-width="{W}"/>'
+    jacket = (f'<path d="M136 214 Q200 194 264 214 L270 398 Q238 404 222 400 L216 212 L184 212 L178 400 Q162 404 130 398Z" '
+              f'fill="{JACK}" stroke="{OUT}" stroke-width="{W}" stroke-linejoin="round"/>'
+              f'<path d="M184 210 L172 246 L190 232Z M216 210 L228 246 L210 232Z" fill="{JACKD}" stroke="{OUT}" stroke-width="3" stroke-linejoin="round"/>'
+              f'<path d="M130 384 Q150 392 178 390 M222 390 Q250 392 270 384" fill="none" stroke="{JACKD}" stroke-width="9"/>'
+              f'<path d="M150 300 L172 296 M228 296 L250 300" stroke="{JACKD}" stroke-width="4" stroke-linecap="round"/>'
+              f'<circle cx="246" cy="250" r="10" fill="{PIN}" stroke="{OUT}" stroke-width="3"/>'
+              f'<text x="246" y="256" text-anchor="middle" font-family="Arial Black,Arial" font-weight="900" font-size="15" fill="{OUT}">?</text>')
+    return legs + shoes + neck + tee + jacket + A
 
 def personaje(e='neutral', pose='normal'):
     b = body(pose)
     if pose == 'pensando':
-        split = b.rfind('<path d="M254 336')
-        return b[:split] + head(e) + b[split:]
+        k = b.rfind('<path d="M260 222')
+        return b[:k] + head(e) + b[k:]
     return b + head(e)
 
 def svg(inner, w=400, h=600, vb='0 0 400 600'):
@@ -108,25 +91,26 @@ def svg(inner, w=400, h=600, vb='0 0 400 600'):
 if __name__ == '__main__':
     import os
     os.makedirs('svg', exist_ok=True)
-    EXP = ['neutral', 'feliz', 'sorprendido', 'asustado', 'pensativo', 'picaro', 'enojado']
-    POSES = [('normal', 'neutral'), ('explica', 'feliz'), ('pensando', 'pensativo'), ('shock', 'asustado')]
-    for e in EXP: open(f'svg/cara_{e}.svg', 'w').write(svg(head(e), 400, 330, '60 -10 280 330'))
+    EXP = ['neutral', 'serio', 'esceptico', 'pensativo', 'sorprendido', 'preocupado', 'sonrisa']
+    POSES = [('normal', 'neutral'), ('explica', 'sonrisa'), ('pensando', 'pensativo'), ('brazos', 'esceptico')]
+    for f in os.listdir('svg'): os.remove(os.path.join('svg', f))
+    for e in EXP: open(f'svg/cara_{e}.svg', 'w').write(svg(head(e), 300, 240, '100 10 200 200'))
     for p, e in POSES: open(f'svg/pose_{p}.svg', 'w').write(svg(personaje(e, p)))
-    g = ['<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#5B2EFF"/><stop offset="1" stop-color="#FF4FA3"/></linearGradient></defs>',
-         '<rect width="1920" height="1080" fill="#FFF8EC"/>',
-         '<rect x="30" y="30" width="560" height="1020" rx="40" fill="url(#bg)"/>',
+    g = ['<defs><linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1E2A3A"/><stop offset="1" stop-color="#0F1620"/></linearGradient></defs>',
+         '<rect width="1920" height="1080" fill="#F3F1EC"/>',
+         '<rect x="30" y="30" width="560" height="1020" rx="28" fill="url(#bg)"/>',
          f'<text x="640" y="90" font-family="Arial Black,Arial" font-weight="900" font-size="64" fill="{OUT}">XENO</text>',
          '<text x="640" y="132" font-family="Arial" font-size="28" fill="#555">Personaje de jxseng · ¿Qué pasaría si…?</text>',
-         f'<g transform="translate(30,190) scale(1.4)">{personaje("picaro", "explica")}</g>']
+         f'<g transform="translate(-10,130) scale(1.55)">{personaje("serio", "brazos")}</g>']
     for i, e in enumerate(EXP):
-        x, y = 640 + (i % 4) * 190, 160 + (i // 4) * 235
-        g.append(f'<g transform="translate({x},{y}) scale(.55)"><g transform="translate(-60,10)">{head(e)}</g></g>')
-        g.append(f'<text x="{x+77}" y="{y+215}" text-anchor="middle" font-family="Arial" font-weight="700" font-size="22" fill="{OUT}">{e}</text>')
+        x, y = 640 + (i % 4) * 190, 165 + (i // 4) * 230
+        g.append(f'<g transform="translate({x},{y}) scale(.9)"><g transform="translate(-100,-10)">{head(e)}</g></g>')
+        g.append(f'<text x="{x+90}" y="{y+205}" text-anchor="middle" font-family="Arial" font-weight="700" font-size="22" fill="{OUT}">{e}</text>')
     for i, (p, e) in enumerate(POSES):
-        x = 640 + i * 180
-        g.append(f'<g transform="translate({x},655) scale(.6)">{personaje(e, p)}</g>')
-        g.append(f'<text x="{x+120}" y="1040" text-anchor="middle" font-family="Arial" font-weight="700" font-size="22" fill="{OUT}">{p}</text>')
-    for i, (c, n) in enumerate([(HEAD, 'cabeza'), (HOOD, 'buzo'), (HOODD, 'capucha'), (PANTS, 'pantalón'), (ACC, 'acento'), ('#FF4D6D', 'cachetes')]):
+        x = 630 + i * 185
+        g.append(f'<g transform="translate({x},640) scale(.63)">{personaje(e, p)}</g>')
+        g.append(f'<text x="{x+126}" y="1040" text-anchor="middle" font-family="Arial" font-weight="700" font-size="22" fill="{OUT}">{p}</text>')
+    for i, (c, n) in enumerate([('#2E3646', 'cabeza'), (JACK, 'chaqueta'), (TEE, 'camiseta'), (PANTS, 'jean'), (PIN, 'pin ?'), (BROW, 'cejas')]):
         y = 190 + i * 110
         g.append(f'<rect x="1440" y="{y}" width="80" height="80" rx="14" fill="{c}" stroke="{OUT}" stroke-width="4"/>')
         g.append(f'<text x="1540" y="{y+36}" font-family="Arial" font-weight="700" font-size="26" fill="{OUT}">{n}</text>')
