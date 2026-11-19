@@ -1,6 +1,6 @@
 # g05: GTA 6 sacó 99. ¿De verdad es el mejor juego de la historia?
 
-Video largo (~6:40) · Archivo: gta6_99_metacritic.mp4 · Miniatura: miniatura.jpg
+Video largo (~6:40) · Archivo: gta6_99_metacritic.mp4 · Miniatura: miniatura_final.jpg (imagen del dueño + texto del canal)
 
 ## Título
 GTA 6 sacó 99 en Metacritic: ¿de verdad es el mejor juego de la historia? (reseñas, quejas y guía)
