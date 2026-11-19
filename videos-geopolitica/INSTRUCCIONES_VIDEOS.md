@@ -169,3 +169,10 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - 19 nov 2:00 am: fb04 olla programada (YouTube Zernio 6afe71f3c5cf315f436087b9, Facebook Buffer 6afe76c63802f5b9fc679704).
 - 19 nov 2:00 am: fb04 olla publicada (YouTube + Facebook).
 - 19 nov 9:11 am: v24 microondas publicado (YouTube https://www.youtube.com/watch?v=OZ8_NZd6s1o, Zernio 6aff03870ee779b25de47337; Facebook Buffer 6aff0c6603dff68ab464c942 a las 9:49 am).
+
+### 7. Estilo elegido (19 nov 2026, decisión del dueño)
+- Referencia: canal "¿Y Si Abrimos?" (creado el 4 nov 2026). Estilo A: monigote 2D con humor, formato "¿Qué pasaría si…?".
+- Datos NexLev: 3,04K subs; "¿Qué pasaría si los humanos nunca hubieran inventado la ropa?" 479K vistas (14:14); "¿Y si fueras invisible 24 horas?" 1,1K vistas en 5 días (18:13).
+- Misma familia: Pecas Explica, ¿Y Si? en Español, Supongamos.
+- Personaje y marca propios: no copiar su personaje, su chihuahua ni su "puerta".
+- Render del termo (3D, estilo anterior) pausado.
