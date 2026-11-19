@@ -191,7 +191,7 @@ const SC = {
   </> }),
   nitrogeno: ({ t }) => ({ bg: <><rect width={W} height={H} fill="#D7DEE6" /><Floor y={860} c="#AEB9C6" /></>, fg: <>
     {[460, 760, 1060, 1360].map((x, k) => <g key={x}><Tanque x={x} y={860} s={1.1} />{Array.from({ length: 3 }).map((_, j) => <circle key={j} cx={x + Math.sin(t * 2 + j + k) * 20} cy={480 - ((t * 40 + j * 40) % 140)} r={18 + j * 6} fill="#fff" opacity={0.5 - j * 0.12} />)}</g>)}
-    <BigText x={960} y={370} txt="1967" size={150} t={t} at={0.3} />
+    <BigText x={960} y={450} txt="1967" size={150} t={t} at={0.3} />
   </> }),
   cierra_ojos: ({ t, d }) => ({ bg: <Lab />, fg: <>
     <Capsula x={960} frost={0.8} fill={0.92} inner={<Xeno x={0} y={-40} s={0.92} exp={t > d * 0.55 ? 'cerrado' : 'neutral'} t={t} />} />
@@ -383,7 +383,7 @@ const Scene = ({ i, at }) => {
   const S = (SC[sc.tipo] || SC.pregunta)({ t, d });
   // cámara: cortes de plano cada ~3,5 s (general → medio a un lado → medio al otro), con zoom lento dentro de cada plano
   const SH = 3.5, k = Math.floor(t / SH), u = (t - k * SH) / SH, dir = i % 2 ? -1 : 1;
-  const shot = d < 4.5 ? 0 : k % 3;
+  const shot = d < 4.5 || sc.tipo === 'una_noche' ? 0 : k % 3;
   const z0 = [1.0, 1.14, 1.09][shot], fx = [0, 130 * dir, -120 * dir][shot], fy = [0, -30, 20][shot];
   const z = z0 + 0.05 * u, zb = 1 + (z - 1) * 0.6, px = fx * -1 + dir * 26 * u;
   return <AbsoluteFill style={{ background: '#0B1222', overflow: 'hidden' }}>
