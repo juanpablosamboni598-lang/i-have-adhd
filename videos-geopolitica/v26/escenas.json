@@ -1,0 +1,808 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Imagina que mañana te despiertas, vas al baño… y no hay inodoro. ¿Dónde está? No hay tubo, no hay cisterna, no hay nada. Porque en este mundo, nadie lo inventó.",
+  "planos": [
+   {
+    "v": "pg:cuarto:despierta",
+    "f": "Imagina que mañana te despiertas,"
+   },
+   {
+    "v": "pd:baño_vacio",
+    "f": "vas al baño… y no hay inodoro."
+   },
+   {
+    "v": "pp:sorprendido:azul",
+    "f": "¿Dónde está?"
+   },
+   {
+    "v": "pd:hueco",
+    "f": "No hay tubo, no hay cisterna, no hay nada."
+   },
+   {
+    "v": "pg:calle_sucia",
+    "f": "Porque en este mundo, nadie lo inventó."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Las ciudades huelen tan mal que la gente camina con pañuelos en la nariz. Las enfermedades se esparcen por el agua. Y tú tienes una sola pregunta: ¿cómo sobrevive la humanidad sin algo tan simple? Al final del video vas a saber por qué este invento salvó más vidas que casi cualquier medicina.",
+  "planos": [
+   {
+    "v": "pg:calle_ventanas",
+    "f": "Las ciudades huelen tan mal que la gente camina con pañuelos en la nariz."
+   },
+   {
+    "v": "pd:bacteria",
+    "f": "Las enfermedades se esparcen por el agua."
+   },
+   {
+    "v": "pp:preocupado:verde",
+    "f": "Y tú tienes una sola pregunta:"
+   },
+   {
+    "v": "pd:rollo",
+    "f": "¿cómo sobrevive la humanidad sin algo tan simple?"
+   },
+   {
+    "v": "pp:pensativo:ambar",
+    "f": "Al final del video vas a saber por qué este invento salvó más vidas que casi cualquier medicina."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Qué pasaría si nunca se hubiera inventado el inodoro?",
+  "planos": [
+   {
+    "v": "tit",
+    "f": "¿Qué pasaría si nunca se hubiera inventado el inodoro?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 1 · LA CALLE",
+  "voz": "narr",
+  "texto": "Escenario uno: la calle.",
+  "planos": [
+   {
+    "v": "card:1:LA CALLE",
+    "f": "Escenario uno: la calle."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 1 · LA CALLE",
+   "med": 40,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 1 · LA CALLE",
+  "voz": "narr",
+  "texto": "Sin inodoros, todo lo que tu cuerpo desecha tiene que ir a alguna parte. Una persona produce unos ciento treinta gramos al día. Casi cincuenta kilos al año. Multiplica eso por los millones que viven en una ciudad. Exacto.",
+  "planos": [
+   {
+    "v": "pg:calle_sucia",
+    "f": "Sin inodoros, todo lo que tu cuerpo desecha tiene que ir a alguna parte."
+   },
+   {
+    "v": "inf:130 g:al día",
+    "f": "Una persona produce unos ciento treinta gramos al día."
+   },
+   {
+    "v": "inf:50 kg:al año",
+    "f": "Casi cincuenta kilos al año."
+   },
+   {
+    "v": "pg:multitud",
+    "f": "Multiplica eso por los millones que viven en una ciudad."
+   },
+   {
+    "v": "pp:asustado:verde",
+    "f": "Exacto."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 1 · LA CALLE",
+   "med": 55,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 1 · LA CALLE",
+  "voz": "dato",
+  "texto": "Esto no es fantasía. En la Edimburgo del siglo dieciocho, la gente vaciaba sus bacinillas por la ventana. Antes gritaban \"gardyloo\", del francés: \"¡Cuidado con el agua!\". Si no te movías rápido, te caía encima.",
+  "planos": [
+   {
+    "v": "ficha:edimburgo",
+    "f": "Esto no es fantasía. En la Edimburgo del siglo dieciocho, la gente vaciaba sus bacinillas por la ventana."
+   },
+   {
+    "v": "pd:bacinilla",
+    "f": "Antes gritaban \"gardyloo\", del francés:"
+   },
+   {
+    "v": "pp:sorprendido:ambar",
+    "f": "\"¡Cuidado con el agua!\"."
+   },
+   {
+    "v": "pg:calle_ventanas",
+    "f": "Si no te movías rápido, te caía encima."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 1 · LA CALLE",
+   "med": 70,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 1 · LA CALLE",
+  "voz": "narr",
+  "texto": "Los zapatos de tacón no nacieron solo por moda: servían para no hundir los pies en la mugre de la calle. Bueno, eso dicen. Los historiadores todavía discuten. Lo que no se discute es el olor.",
+  "planos": [
+   {
+    "v": "pd:zapatos",
+    "f": "Los zapatos de tacón no nacieron solo por moda:"
+   },
+   {
+    "v": "pg:calle_sucia",
+    "f": "servían para no hundir los pies en la mugre de la calle."
+   },
+   {
+    "v": "pp:esceptico:ambar",
+    "f": "Bueno, eso dicen. Los historiadores todavía discuten."
+   },
+   {
+    "v": "inf:OLOR:insoportable",
+    "f": "Lo que no se discute es el olor."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 1 · LA CALLE",
+   "med": 80,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 2 · EL AGUA",
+  "voz": "narr",
+  "texto": "Escenario dos: el agua.",
+  "planos": [
+   {
+    "v": "card:2:EL AGUA",
+    "f": "Escenario dos: el agua."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 2 · EL AGUA",
+   "med": 80,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 2 · EL AGUA",
+  "voz": "narr",
+  "texto": "El problema no es solo el olor. Es lo que llega al agua que tomas. Ahí viven bacterias como la del cólera. Y nadie sabía que estaban ahí.",
+  "planos": [
+   {
+    "v": "pg:rio",
+    "f": "El problema no es solo el olor."
+   },
+   {
+    "v": "pd:gota",
+    "f": "Es lo que llega al agua que tomas."
+   },
+   {
+    "v": "pd:bacteria",
+    "f": "Ahí viven bacterias como la del cólera."
+   },
+   {
+    "v": "pp:preocupado:azul",
+    "f": "Y nadie sabía que estaban ahí."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 2 · EL AGUA",
+   "med": 85,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 2 · EL AGUA",
+  "voz": "dato",
+  "texto": "Londres, mil ochocientos cincuenta y cuatro. Un médico llamado John Snow marca en un mapa cada casa con muertos por cólera. Los puntos se amontonan alrededor de una sola bomba de agua. Snow convence a las autoridades de quitarle la manija. Y los casos empiezan a bajar.",
+  "planos": [
+   {
+    "v": "ficha:snow",
+    "f": "Londres, mil ochocientos cincuenta y cuatro. Un médico llamado John Snow marca en un mapa cada casa con muertos por cólera."
+   },
+   {
+    "v": "pd:mapa_puntos",
+    "f": "Los puntos se amontonan alrededor de una sola bomba de agua."
+   },
+   {
+    "v": "pd:bomba",
+    "f": "Snow convence a las autoridades de quitarle la manija."
+   },
+   {
+    "v": "inf:↓:los casos bajan",
+    "f": "Y los casos empiezan a bajar."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 2 · EL AGUA",
+   "med": 85,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 2 · EL AGUA",
+  "voz": "narr",
+  "texto": "En nuestro mundo sin inodoros, ese mapa nunca deja de llenarse. Hoy, incluso con inodoros, las enfermedades diarreicas matan a más de mil niños al día en el mundo. Casi siempre donde no hay saneamiento.",
+  "planos": [
+   {
+    "v": "pp:pensativo:azul",
+    "f": "En nuestro mundo sin inodoros, ese mapa nunca deja de llenarse."
+   },
+   {
+    "v": "inf:1.000+:niños al día",
+    "f": "Hoy, incluso con inodoros, las enfermedades diarreicas matan a más de mil niños al día en el mundo."
+   },
+   {
+    "v": "pg:aldea",
+    "f": "Casi siempre donde no hay saneamiento."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 2 · EL AGUA",
+   "med": 90,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 3 · EL GRAN HEDOR",
+  "voz": "narr",
+  "texto": "Escenario tres: el gran hedor.",
+  "planos": [
+   {
+    "v": "card:3:EL GRAN HEDOR",
+    "f": "Escenario tres: el gran hedor."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 3 · EL GRAN HEDOR",
+   "med": 90,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 3 · EL GRAN HEDOR",
+  "voz": "dato",
+  "texto": "Verano de mil ochocientos cincuenta y ocho. El río Támesis está tan lleno de desechos que Londres no aguanta el olor. En el Parlamento cuelgan cortinas empapadas en químicos para poder trabajar. Lo llamaron el Gran Hedor.",
+  "planos": [
+   {
+    "v": "ficha:hedor",
+    "f": "Verano de mil ochocientos cincuenta y ocho. El río Támesis está tan lleno de desechos que Londres no aguanta el olor."
+   },
+   {
+    "v": "pg:parlamento",
+    "f": "En el Parlamento cuelgan cortinas empapadas en químicos para poder trabajar."
+   },
+   {
+    "v": "pp:asustado:ambar",
+    "f": "Lo llamaron el Gran Hedor."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 3 · EL GRAN HEDOR",
+   "med": 100,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 3 · EL GRAN HEDOR",
+  "voz": "dato",
+  "texto": "Y por fin los políticos aprueban algo enorme: un ingeniero, Joseph Bazalgette, construye cientos de kilómetros de alcantarillas. Más de mil ochocientos kilómetros de tubos bajo las calles. El cólera desaparece de Londres pocos años después.",
+  "planos": [
+   {
+    "v": "pd:planos",
+    "f": "Y por fin los políticos aprueban algo enorme:"
+   },
+   {
+    "v": "pg:tunel",
+    "f": "un ingeniero, Joseph Bazalgette, construye cientos de kilómetros de alcantarillas."
+   },
+   {
+    "v": "inf:1.800 km:de alcantarillas",
+    "f": "Más de mil ochocientos kilómetros de tubos bajo las calles."
+   },
+   {
+    "v": "pp:sonrisa:ambar",
+    "f": "El cólera desaparece de Londres pocos años después."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 3 · EL GRAN HEDOR",
+   "med": 60,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 3 · EL GRAN HEDOR",
+  "voz": "narr",
+  "texto": "Pero en nuestro mundo no hay inodoros que conectar. Sin inodoro, el alcantarillado no tiene sentido. Así que el Gran Hedor… nunca termina.",
+  "planos": [
+   {
+    "v": "pp:esceptico:azul",
+    "f": "Pero en nuestro mundo no hay inodoros que conectar."
+   },
+   {
+    "v": "pd:tubo",
+    "f": "Sin inodoro, el alcantarillado no tiene sentido."
+   },
+   {
+    "v": "pg:calle_sucia",
+    "f": "Así que el Gran Hedor… nunca termina."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 3 · EL GRAN HEDOR",
+   "med": 95,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 4 · TU CASA",
+  "voz": "narr",
+  "texto": "Escenario cuatro: tu casa.",
+  "planos": [
+   {
+    "v": "card:4:TU CASA",
+    "f": "Escenario cuatro: tu casa."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 4 · TU CASA",
+   "med": 95,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 4 · TU CASA",
+  "voz": "narr",
+  "texto": "Son las tres de la mañana y tienes que ir al baño. Tu opción: una bacinilla debajo de la cama. Y por la mañana, alguien tiene que vaciarla.",
+  "planos": [
+   {
+    "v": "pg:cuarto_noche",
+    "f": "Son las tres de la mañana y tienes que ir al baño."
+   },
+   {
+    "v": "pd:bacinilla",
+    "f": "Tu opción: una bacinilla debajo de la cama."
+   },
+   {
+    "v": "pp:preocupado:ambar",
+    "f": "Y por la mañana, alguien tiene que vaciarla."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 4 · TU CASA",
+   "med": 95,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 4 · TU CASA",
+  "voz": "dato",
+  "texto": "En la Inglaterra de los Tudor existía un oficio para eso: los gong farmers, que limpiaban los pozos negros de noche. Trabajaban de noche porque nadie soportaba verlos, ni olerlos, de día. Dicen que pagaban bien… por razones obvias.",
+  "planos": [
+   {
+    "v": "ficha:gong",
+    "f": "En la Inglaterra de los Tudor existía un oficio para eso: los gong farmers, que limpiaban los pozos negros de noche."
+   },
+   {
+    "v": "pg:noche_trabajo",
+    "f": "Trabajaban de noche porque nadie soportaba verlos, ni olerlos, de día."
+   },
+   {
+    "v": "inf:$$:oficio bien pagado",
+    "f": "Dicen que pagaban bien… por razones obvias."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 4 · TU CASA",
+   "med": 95,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 4 · TU CASA",
+  "voz": "dato",
+  "texto": "Y en el Japón del período Edo, los desechos se vendían como abono para los cultivos. Los dueños de las casas cobraban por ellos. Sí: había gente que hacía negocio con lo que tú tiras.",
+  "planos": [
+   {
+    "v": "ficha:edo",
+    "f": "Y en el Japón del período Edo, los desechos se vendían como abono para los cultivos."
+   },
+   {
+    "v": "pd:cultivo",
+    "f": "Los dueños de las casas cobraban por ellos."
+   },
+   {
+    "v": "pp:sorprendido:verde",
+    "f": "Sí: había gente que hacía negocio con lo que tú tiras."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 4 · TU CASA",
+   "med": 90,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+  "voz": "narr",
+  "texto": "Escenario cinco: ¿quién lo inventó?",
+  "planos": [
+   {
+    "v": "card:5:¿QUIÉN LO INVENTÓ?",
+    "f": "Escenario cinco: ¿quién lo inventó?"
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+   "med": 95,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+  "voz": "dato",
+  "texto": "Los romanos ya tenían letrinas públicas con agua corriendo por debajo. Y en vez de papel, usaban una esponja en un palo. Varios historiadores creen que era compartida.",
+  "planos": [
+   {
+    "v": "ficha:roma",
+    "f": "Los romanos ya tenían letrinas públicas con agua corriendo por debajo."
+   },
+   {
+    "v": "pd:esponja",
+    "f": "Y en vez de papel, usaban una esponja en un palo."
+   },
+   {
+    "v": "pp:asustado:verde",
+    "f": "Varios historiadores creen que era compartida."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+   "med": 90,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+  "voz": "dato",
+  "texto": "En mil quinientos noventa y seis, John Harington diseña un inodoro con descarga para la reina Isabel primera. Y en mil setecientos setenta y cinco, Alexander Cumming patenta la curva en forma de S. Esa curva deja un poco de agua siempre adentro, que bloquea el olor de la alcantarilla. Un tubo doblado. Eso fue todo.",
+  "planos": [
+   {
+    "v": "ficha:harington",
+    "f": "En mil quinientos noventa y seis, John Harington diseña un inodoro con descarga para la reina Isabel primera."
+   },
+   {
+    "v": "pd:sifon",
+    "f": "Y en mil setecientos setenta y cinco, Alexander Cumming patenta la curva en forma de S."
+   },
+   {
+    "v": "pd:inodoro_corte",
+    "f": "Esa curva deja un poco de agua siempre adentro, que bloquea el olor de la alcantarilla."
+   },
+   {
+    "v": "pp:sorprendido:ambar",
+    "f": "Un tubo doblado. Eso fue todo."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 5 · ¿QUIÉN LO INVENTÓ?",
+   "med": 50,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 6 · EL MUNDO REAL",
+  "voz": "narr",
+  "texto": "Escenario seis: el mundo real.",
+  "planos": [
+   {
+    "v": "card:6:EL MUNDO REAL",
+    "f": "Escenario seis: el mundo real."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 6 · EL MUNDO REAL",
+   "med": 50,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 6 · EL MUNDO REAL",
+  "voz": "dato",
+  "texto": "Aquí viene lo incómodo: cerca de tres mil quinientos millones de personas no tienen saneamiento seguro. Y más de cuatrocientos millones todavía hacen sus necesidades al aire libre. Para ellas, este video no es un \"¿qué pasaría si?\". Es su día a día.",
+  "planos": [
+   {
+    "v": "pp:serio:azul",
+    "f": "Aquí viene lo incómodo:"
+   },
+   {
+    "v": "inf:3.500 millones:sin saneamiento seguro",
+    "f": "cerca de tres mil quinientos millones de personas no tienen saneamiento seguro."
+   },
+   {
+    "v": "inf:400+ millones:al aire libre",
+    "f": "Y más de cuatrocientos millones todavía hacen sus necesidades al aire libre."
+   },
+   {
+    "v": "pg:aldea",
+    "f": "Para ellas, este video no es un \"¿qué pasaría si?\". Es su día a día."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 6 · EL MUNDO REAL",
+   "med": 70,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 6 · EL MUNDO REAL",
+  "voz": "dato",
+  "texto": "En dos mil siete, lectores de una revista médica británica votaron el mayor avance médico desde mil ochocientos cuarenta. Ganó por encima de los antibióticos y las vacunas: el saneamiento. El inodoro y el agua limpia.",
+  "planos": [
+   {
+    "v": "ficha:bmj",
+    "f": "En dos mil siete, lectores de una revista médica británica votaron el mayor avance médico desde mil ochocientos cuarenta."
+   },
+   {
+    "v": "pd:trofeo",
+    "f": "Ganó por encima de los antibióticos y las vacunas:"
+   },
+   {
+    "v": "pd:inodoro",
+    "f": "el saneamiento. El inodoro y el agua limpia."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 6 · EL MUNDO REAL",
+   "med": 30,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Así que la próxima vez que bajes la cadena, acuérdate de que ese tubo doblado te salvó la vida. Y cuéntame en los comentarios: ¿qué invento \"aburrido\" crees que salvó al mundo?",
+  "planos": [
+   {
+    "v": "pg:baño_moderno",
+    "f": "Así que la próxima vez que bajes la cadena,"
+   },
+   {
+    "v": "pp:sonrisa:ambar",
+    "f": "acuérdate de que ese tubo doblado te salvó la vida."
+   },
+   {
+    "v": "pd:rollo",
+    "f": "Y cuéntame en los comentarios:"
+   },
+   {
+    "v": "pp:explica:ambar",
+    "f": "¿qué invento \"aburrido\" crees que salvó al mundo?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": 0,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ }
+]
