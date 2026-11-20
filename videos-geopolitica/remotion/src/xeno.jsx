@@ -76,7 +76,8 @@ export const Person = ({ x = 960, y = 900, s = 1, exp = 'neutral', pose = 'norma
   const a2w = pose === 'saluda' ? [a2[0], a2[1], a2[2] + Math.sin(t * 9) * 14 * wave, a2[3], a2[4] + Math.sin(t * 9) * 18, a2[5]] : a2;
   const arm = (a) => `M${a[0]} ${a[1]} Q${a[2]} ${a[3]} ${a[4]} ${a[5]}`;
   const head = <g transform={`translate(0 ${by * 0.6})`}><Head exp={exp} t={t} hair={hair} look={look} /></g>;
-  return <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s}) translate(-200 -580)`}>
+  return <g className="chr"><ellipse cx={x} cy={y + 2} rx={95 * s} ry={16 * s} fill="#0B1020" opacity="0.22" />
+  <g transform={`translate(${x} ${y}) scale(${flip ? -s : s} ${s}) translate(-200 -580)`}>
     {[[182, -4], [218, 4]].map(([lx, dx]) => <g key={lx}>
       <path d={`M${lx} 396 L${lx + dx} 560`} stroke={OUT} strokeWidth="34" strokeLinecap="round" />
       <path d={`M${lx} 396 L${lx + dx} 560`} stroke={pants} strokeWidth="25" strokeLinecap="round" />
@@ -95,7 +96,7 @@ export const Person = ({ x = 960, y = 900, s = 1, exp = 'neutral', pose = 'norma
       {pose === 'pensando' ? <><Arm d={arm(a1)} c={jacket} /><Hand x={a1[4]} y={a1[5]} />{head}<Arm d={arm(a2w)} c={jacket} /><Hand x={a2w[4]} y={a2w[5]} /></>
         : <>{head}<Arm d={arm(a1)} c={jacket} /><Hand x={a1[4]} y={a1[5]} /><Arm d={arm(a2w)} c={jacket} /><Hand x={a2w[4]} y={a2w[5]} /></>}
     </g>
-  </g>;
+  </g></g>;
 };
 
 export const Xeno = (p) => <Person {...p} />;
