@@ -772,6 +772,41 @@
  },
  {
   "tipo": "planos",
+  "titulo": "ESCENARIO 6 · EL MUNDO REAL",
+  "voz": "dato",
+  "texto": "Por cierto: desde dos mil trece, la ONU celebra cada diecinueve de noviembre el Día Mundial del Retrete. Suena a chiste, pero no lo es. La meta de la ONU es que todo el mundo tenga un baño seguro para el año dos mil treinta. Y al ritmo actual, esa meta no se va a cumplir.",
+  "planos": [
+   {
+    "v": "inf:19 NOV:Día Mundial del Retrete",
+    "f": "Por cierto: desde dos mil trece, la ONU celebra cada diecinueve de noviembre el Día Mundial del Retrete."
+   },
+   {
+    "v": "pp:serio:azul",
+    "f": "Suena a chiste, pero no lo es."
+   },
+   {
+    "v": "pg:aldea",
+    "f": "La meta de la ONU es que todo el mundo tenga un baño seguro para el año dos mil treinta."
+   },
+   {
+    "v": "pp:pensativo:ambar",
+    "f": "Y al ritmo actual, esa meta no se va a cumplir."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 6 · EL MUNDO REAL",
+   "med": 20,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
   "titulo": "",
   "voz": "narr",
   "texto": "Así que la próxima vez que bajes la cadena, acuérdate de que ese tubo doblado te salvó la vida. Y cuéntame en los comentarios: ¿qué invento \"aburrido\" crees que salvó al mundo?",

@@ -130,6 +130,12 @@ esc('dato', E5, [
   ('pd:trofeo', 'Ganó por encima de los antibióticos y las vacunas:'),
   ('pd:inodoro', 'el saneamiento. El inodoro y el agua limpia.'),
 ], med=30)
+esc('dato', E5, [
+  ('inf:19 NOV:Día Mundial del Retrete', 'Por cierto: desde dos mil trece, la ONU celebra cada diecinueve de noviembre el Día Mundial del Retrete.'),
+  ('pp:serio:azul', 'Suena a chiste, pero no lo es.'),
+  ('pg:aldea', 'La meta de la ONU es que todo el mundo tenga un baño seguro para el año dos mil treinta.'),
+  ('pp:pensativo:ambar', 'Y al ritmo actual, esa meta no se va a cumplir.'),
+], med=20)
 # ---------- CIERRE ----------
 esc('narr', None, [
   ('pg:baño_moderno', 'Así que la próxima vez que bajes la cadena,'),

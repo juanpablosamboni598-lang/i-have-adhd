@@ -209,8 +209,22 @@ const Scene = ({ i, at }) => {
     {!S.card && <Subs sc={sc} t={t} pl={pl} />}
   </AbsoluteFill>;
 };
+const Thumb = () => <AbsoluteFill style={{ background: '#2A1A12' }}>
+  <svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+    <BlurG s={6}>{LUG.calle_sucia(1.5)}</BlurG>
+    <rect width={W} height={H} fill="#3A1E10" opacity="0.35" />
+    <Glow x={1380} y={520} r={560} c="#FFD58A" o={0.55} />
+    <g transform="translate(1390 1210) scale(2.1) translate(-960 -900)"><Xeno x={960} y={900} s={1} exp="sorprendido" pose="shock" t={0} bob={false} /></g>
+    <g transform="translate(470 860)"><Inodoro x={0} y={150} s={1.25} />
+      <circle cx="0" cy="-80" r="230" fill="none" stroke="#E5383B" strokeWidth="40" /><path d="M-163 -243 L163 83" stroke="#E5383B" strokeWidth="40" strokeLinecap="round" /></g>
+    <text x="70" y="250" fontFamily={FONT} fontWeight="900" fontSize="250" fill="#FACA4F" stroke={OUT} strokeWidth="24" paintOrder="stroke">SIN</text>
+    <text x="70" y="470" fontFamily={FONT} fontWeight="900" fontSize="200" fill="#fff" stroke={OUT} strokeWidth="22" paintOrder="stroke">INODORO</text>
+    <Grade c="#FFB46B" o={0.12} /><Vignette o={0.5} />
+  </svg>
+</AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V26-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
+  <Composition id="THUMB" component={Thumb} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="SHEET" component={Sheet} defaultProps={{ at: 0.5 }} durationInFrames={D.length} fps={30} width={W} height={H} />
 </>);

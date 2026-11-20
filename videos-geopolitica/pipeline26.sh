@@ -18,6 +18,7 @@ print(round(min(1.1,max(0.88,150/(w/d*60))),3))
 PY
 )
 log "$F voz lista, tempo $TEMPO"
+[ "$TEMPO" = "0.88" ] || { log "tempo cambió: re-render completo"; rm -f $F/render2/e*.mp4; }
 TEMPO=$TEMPO LEAD=0.05 TAIL=0.25 python3 prep.py $F
 (cd remotion && python3 mkdata_words.py 26 && rm -rf build26 && timeout 900 npx remotion bundle src/index26.jsx --out-dir build26 --log=error)
 mkdir -p $F/render2
@@ -29,6 +30,6 @@ for pass in 1 2; do
 done
 [ $(ls $F/render2/e*.mp4 | wc -l) -ge $N ] || { log "$F render incompleto"; exit 1; }
 log "$F render listo"
-MUSVOL=0.2 RENDER=render2 VBITRATE=2600k SFXREAL=1 SFXDENS=1.6 SFXVOL=0.8 NOSUBS=1 ./ensamblar_cartoon.sh $F $OUT 3 && python3 qc_video.py $F/$OUT $F/timeline.json > $F/qc.txt
+MUSVOL=0.2 RENDER=render2 VBITRATE=2200k SFXREAL=1 SFXDENS=1.6 SFXVOL=0.8 NOSUBS=1 ./ensamblar_cartoon.sh $F $OUT 3 && python3 qc_video.py $F/$OUT $F/timeline.json > $F/qc.txt
 log "$F listo: $(tr '\n' ' ' < $F/qc.txt) duración $(ffprobe -v error -show_entries format=duration -of csv=p=0 $F/$OUT)"
 log "FIN$ID"
