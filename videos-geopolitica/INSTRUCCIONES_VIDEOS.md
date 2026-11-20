@@ -178,3 +178,4 @@ dejando 5–6 h desde la publicación anterior (YouTube + Facebook a la vez). Re
 - Render del termo (3D, estilo anterior) pausado.
 - 19 nov: personaje oficial = Xeno v3 (versión seria). Archivos: personaje/personaje.py, personaje/svg/, personaje/hoja_personaje.png. Las v1 y v2 quedan solo como referencia.
 - 19 nov 2:13 pm: v25 '¿Qué pasaría si te congelaran 1.000 años?' (estilo Xeno 2D) publicado. YouTube https://www.youtube.com/watch?v=959hfETHGq8 (Zernio 6aff4a4aa94949aaffb1c417); Facebook Buffer 6aff5128e62825b98901975d (2:42 pm).
+- 20 nov 10:02 am: v25 rehecho con kit 2D v2 y vuelto a subir a YouTube https://www.youtube.com/watch?v=EwKBWFmVnfk (Zernio 6b0060ebddc706911ae10447). La versión 1 (959hfETHGq8) sigue publicada hasta que el dueño decida.
