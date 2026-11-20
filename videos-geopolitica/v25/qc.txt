@@ -1,2 +1,2 @@
-163 fotogramas, diferencia media 33.1, mínima 2.8
+163 fotogramas, diferencia media 32.4, mínima 2.6
 tramos casi iguales: 0 []
