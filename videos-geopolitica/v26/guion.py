@@ -136,6 +136,50 @@ esc('dato', E5, [
   ('pg:aldea', 'La meta de la ONU es que todo el mundo tenga un baño seguro para el año dos mil treinta.'),
   ('pp:pensativo:ambar', 'Y al ritmo actual, esa meta no se va a cumplir.'),
 ], med=20)
+# ---------- ESCENARIO 7 ----------
+E7 = 'ESCENARIO 7 · LOS MITOS'
+esc('narr', E7, [('card:7:LOS MITOS', 'Escenario siete: los mitos.')], med=20, flash=True)
+esc('dato', E7, [
+  ('ficha:crapper', 'Seguro escuchaste que el inodoro lo inventó un tal Thomas Crapper.'),
+  ('pp:esceptico:ambar', 'Falso.'),
+  ('pd:patentes', 'Crapper fue un plomero de Londres que mejoró piezas del inodoro y lo vendió muchísimo, pero no lo inventó.'),
+  ('pp:sonrisa:ambar', 'Y la palabra en inglés "crap" ya existía antes que él.'),
+], med=20)
+esc('dato', E7, [
+  ('pd:mazorca', 'Otro dato: el papel higiénico es mucho más nuevo que el inodoro.'),
+  ('ficha:gayetty', 'En mil ochocientos cincuenta y siete, Joseph Gayetty empezó a vender en Estados Unidos el primer papel higiénico empacado.'),
+  ('pd:catalogo', 'Antes, en muchas casas rurales se usaban mazorcas de maíz, periódicos viejos o páginas de catálogos.'),
+  ('pp:asustado:ambar', 'Sí. Páginas de catálogos.'),
+], med=20)
+# ---------- ESCENARIO 8 ----------
+E8 = 'ESCENARIO 8 · EL ESPACIO'
+esc('narr', E8, [('card:8:EL ESPACIO', 'Escenario ocho: el espacio.')], med=20, flash=True)
+esc('dato', E8, [
+  ('pg:nave', 'Ahora imagina ir al baño sin gravedad.'),
+  ('ficha:apolo', 'En las misiones Apolo, los astronautas usaban bolsas de plástico pegadas al cuerpo.'),
+  ('pp:sorprendido:azul', 'Y en una de ellas, la tripulación encontró algo flotando dentro de la cápsula.'),
+  ('pd:flotando', 'Nadie quiso admitir que era suyo. Quedó grabado en las transcripciones de la NASA.'),
+], med=30)
+esc('dato', E8, [
+  ('pd:inodoro_espacial', 'Hoy, en la Estación Espacial Internacional, el inodoro funciona con aire que succiona en vez de agua.'),
+  ('pd:reciclaje', 'Y la orina se recicla: se filtra y se convierte otra vez en agua para beber.'),
+  ('inf:98 %:del agua se recupera', 'En dos mil veintitrés, la NASA logró recuperar cerca del noventa y ocho por ciento del agua a bordo.'),
+  ('pp:sonrisa:azul', 'El café de mañana es el café de ayer.'),
+], med=20)
+# ---------- ESCENARIO 9 ----------
+E9 = 'ESCENARIO 9 · EL FUTURO'
+esc('narr', E9, [('card:9:EL FUTURO', 'Escenario nueve: el futuro.')], med=10, flash=True)
+esc('dato', E9, [
+  ('pp:pensativo:azul', 'El problema es que construir alcantarillas en todo el planeta cuesta una fortuna.'),
+  ('ficha:gates', 'Por eso, en dos mil once, la Fundación Gates lanzó un reto: reinventar el inodoro.'),
+  ('pd:inodoro_futuro', 'Inodoros que no necesitan alcantarilla: tratan los desechos ahí mismo y los convierten en agua limpia y abono.'),
+  ('pp:sorprendido:verde', 'Ya existen prototipos. El reto ahora es que sean baratos.'),
+], med=10)
+esc('dato', E9, [
+  ('pd:washlet', 'Y en Japón, el inodoro ya es casi una computadora: asiento caliente, chorro de agua, secador y hasta música para disimular ruidos.'),
+  ('inf:80 %+:de los hogares en Japón', 'Según encuestas del gobierno japonés, más del ochenta por ciento de los hogares tiene uno.'),
+  ('pp:esceptico:ambar', 'Mientras tanto, la mitad del mundo todavía espera un baño seguro.'),
+], med=10)
 # ---------- CIERRE ----------
 esc('narr', None, [
   ('pg:baño_moderno', 'Así que la próxima vez que bajes la cadena,'),

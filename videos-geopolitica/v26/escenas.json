@@ -807,6 +807,281 @@
  },
  {
   "tipo": "planos",
+  "titulo": "ESCENARIO 7 · LOS MITOS",
+  "voz": "narr",
+  "texto": "Escenario siete: los mitos.",
+  "planos": [
+   {
+    "v": "card:7:LOS MITOS",
+    "f": "Escenario siete: los mitos."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 7 · LOS MITOS",
+   "med": 20,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 7 · LOS MITOS",
+  "voz": "dato",
+  "texto": "Seguro escuchaste que el inodoro lo inventó un tal Thomas Crapper. Falso. Crapper fue un plomero de Londres que mejoró piezas del inodoro y lo vendió muchísimo, pero no lo inventó. Y la palabra en inglés \"crap\" ya existía antes que él.",
+  "planos": [
+   {
+    "v": "ficha:crapper",
+    "f": "Seguro escuchaste que el inodoro lo inventó un tal Thomas Crapper."
+   },
+   {
+    "v": "pp:esceptico:ambar",
+    "f": "Falso."
+   },
+   {
+    "v": "pd:patentes",
+    "f": "Crapper fue un plomero de Londres que mejoró piezas del inodoro y lo vendió muchísimo, pero no lo inventó."
+   },
+   {
+    "v": "pp:sonrisa:ambar",
+    "f": "Y la palabra en inglés \"crap\" ya existía antes que él."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 7 · LOS MITOS",
+   "med": 20,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 7 · LOS MITOS",
+  "voz": "dato",
+  "texto": "Otro dato: el papel higiénico es mucho más nuevo que el inodoro. En mil ochocientos cincuenta y siete, Joseph Gayetty empezó a vender en Estados Unidos el primer papel higiénico empacado. Antes, en muchas casas rurales se usaban mazorcas de maíz, periódicos viejos o páginas de catálogos. Sí. Páginas de catálogos.",
+  "planos": [
+   {
+    "v": "pd:mazorca",
+    "f": "Otro dato: el papel higiénico es mucho más nuevo que el inodoro."
+   },
+   {
+    "v": "ficha:gayetty",
+    "f": "En mil ochocientos cincuenta y siete, Joseph Gayetty empezó a vender en Estados Unidos el primer papel higiénico empacado."
+   },
+   {
+    "v": "pd:catalogo",
+    "f": "Antes, en muchas casas rurales se usaban mazorcas de maíz, periódicos viejos o páginas de catálogos."
+   },
+   {
+    "v": "pp:asustado:ambar",
+    "f": "Sí. Páginas de catálogos."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 7 · LOS MITOS",
+   "med": 20,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 8 · EL ESPACIO",
+  "voz": "narr",
+  "texto": "Escenario ocho: el espacio.",
+  "planos": [
+   {
+    "v": "card:8:EL ESPACIO",
+    "f": "Escenario ocho: el espacio."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 8 · EL ESPACIO",
+   "med": 20,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 8 · EL ESPACIO",
+  "voz": "dato",
+  "texto": "Ahora imagina ir al baño sin gravedad. En las misiones Apolo, los astronautas usaban bolsas de plástico pegadas al cuerpo. Y en una de ellas, la tripulación encontró algo flotando dentro de la cápsula. Nadie quiso admitir que era suyo. Quedó grabado en las transcripciones de la NASA.",
+  "planos": [
+   {
+    "v": "pg:nave",
+    "f": "Ahora imagina ir al baño sin gravedad."
+   },
+   {
+    "v": "ficha:apolo",
+    "f": "En las misiones Apolo, los astronautas usaban bolsas de plástico pegadas al cuerpo."
+   },
+   {
+    "v": "pp:sorprendido:azul",
+    "f": "Y en una de ellas, la tripulación encontró algo flotando dentro de la cápsula."
+   },
+   {
+    "v": "pd:flotando",
+    "f": "Nadie quiso admitir que era suyo. Quedó grabado en las transcripciones de la NASA."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 8 · EL ESPACIO",
+   "med": 30,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 8 · EL ESPACIO",
+  "voz": "dato",
+  "texto": "Hoy, en la Estación Espacial Internacional, el inodoro funciona con aire que succiona en vez de agua. Y la orina se recicla: se filtra y se convierte otra vez en agua para beber. En dos mil veintitrés, la NASA logró recuperar cerca del noventa y ocho por ciento del agua a bordo. El café de mañana es el café de ayer.",
+  "planos": [
+   {
+    "v": "pd:inodoro_espacial",
+    "f": "Hoy, en la Estación Espacial Internacional, el inodoro funciona con aire que succiona en vez de agua."
+   },
+   {
+    "v": "pd:reciclaje",
+    "f": "Y la orina se recicla: se filtra y se convierte otra vez en agua para beber."
+   },
+   {
+    "v": "inf:98 %:del agua se recupera",
+    "f": "En dos mil veintitrés, la NASA logró recuperar cerca del noventa y ocho por ciento del agua a bordo."
+   },
+   {
+    "v": "pp:sonrisa:azul",
+    "f": "El café de mañana es el café de ayer."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 8 · EL ESPACIO",
+   "med": 20,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 9 · EL FUTURO",
+  "voz": "narr",
+  "texto": "Escenario nueve: el futuro.",
+  "planos": [
+   {
+    "v": "card:9:EL FUTURO",
+    "f": "Escenario nueve: el futuro."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 9 · EL FUTURO",
+   "med": 10,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 9 · EL FUTURO",
+  "voz": "dato",
+  "texto": "El problema es que construir alcantarillas en todo el planeta cuesta una fortuna. Por eso, en dos mil once, la Fundación Gates lanzó un reto: reinventar el inodoro. Inodoros que no necesitan alcantarilla: tratan los desechos ahí mismo y los convierten en agua limpia y abono. Ya existen prototipos. El reto ahora es que sean baratos.",
+  "planos": [
+   {
+    "v": "pp:pensativo:azul",
+    "f": "El problema es que construir alcantarillas en todo el planeta cuesta una fortuna."
+   },
+   {
+    "v": "ficha:gates",
+    "f": "Por eso, en dos mil once, la Fundación Gates lanzó un reto: reinventar el inodoro."
+   },
+   {
+    "v": "pd:inodoro_futuro",
+    "f": "Inodoros que no necesitan alcantarilla: tratan los desechos ahí mismo y los convierten en agua limpia y abono."
+   },
+   {
+    "v": "pp:sorprendido:verde",
+    "f": "Ya existen prototipos. El reto ahora es que sean baratos."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 9 · EL FUTURO",
+   "med": 10,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "ESCENARIO 9 · EL FUTURO",
+  "voz": "dato",
+  "texto": "Y en Japón, el inodoro ya es casi una computadora: asiento caliente, chorro de agua, secador y hasta música para disimular ruidos. Según encuestas del gobierno japonés, más del ochenta por ciento de los hogares tiene uno. Mientras tanto, la mitad del mundo todavía espera un baño seguro.",
+  "planos": [
+   {
+    "v": "pd:washlet",
+    "f": "Y en Japón, el inodoro ya es casi una computadora: asiento caliente, chorro de agua, secador y hasta música para disimular ruidos."
+   },
+   {
+    "v": "inf:80 %+:de los hogares en Japón",
+    "f": "Según encuestas del gobierno japonés, más del ochenta por ciento de los hogares tiene uno."
+   },
+   {
+    "v": "pp:esceptico:ambar",
+    "f": "Mientras tanto, la mitad del mundo todavía espera un baño seguro."
+   }
+  ],
+  "p": {
+   "esc": "ESCENARIO 9 · EL FUTURO",
+   "med": 10,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
   "titulo": "",
   "voz": "narr",
   "texto": "Así que la próxima vez que bajes la cadena, acuérdate de que ese tubo doblado te salvó la vida. Y cuéntame en los comentarios: ¿qué invento \"aburrido\" crees que salvó al mundo?",
