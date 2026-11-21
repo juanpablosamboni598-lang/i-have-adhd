@@ -203,7 +203,7 @@ const Scene = ({ i, at }) => {
   </AbsoluteFill>;
 };
 const Thumb = () => <AbsoluteFill style={{ background: '#16121F' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-  {SETS.salon(1).bg}<rect width={W} height={H} fill="#2A1A3A" opacity="0.35" />
+  {SETS.salon(1).bg}<rect width={W} height={H} fill="#FF7AB0" opacity="0.12" /><Glow x={1430} y={180} r={420} c="#FF9AC8" o={0.6} />
   <Char k="S" exp="sonrojado" pose="manos" x={1430} y={560} s={1.05} t={0.4} /><Corazon x={1430} y={150} val="?" t={1} s={1.5} />
   <Char k="X" exp="sorprendido" x={520} y={720} s={1.45} t={0.2} />
   {[0, 1, 2].map((k) => <g key={k} transform={`translate(${120 + k * 70} ${170 - k * 20}) rotate(${-18 + k * 8})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
