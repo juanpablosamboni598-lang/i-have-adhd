@@ -1,0 +1,727 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Imagina que mañana te despiertas y, sobre la cabeza de cada persona, ves un número. Un corazoncito con un porcentaje. Ese número dice cuánto te quiere esa persona. Suena genial… hasta que ves el número de la chica que te gusta.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5;cu",
+    "f": "Imagina que mañana te despiertas"
+   },
+   {
+    "v": "calle;M=normal@0.25;K=normal@0.75;n:M=?;n:K=?",
+    "f": "y, sobre la cabeza de cada persona, ves un número."
+   },
+   {
+    "v": "neutro;ui:corazon;n:0=73",
+    "f": "Un corazoncito con un porcentaje."
+   },
+   {
+    "v": "neutro;X=sorprendido@0.5;cu",
+    "f": "Ese número dice cuánto te quiere esa persona."
+   },
+   {
+    "v": "salon;S=normal@0.62;X=sonrojado@0.3",
+    "f": "Suena genial…"
+   },
+   {
+    "v": "salon;S=normal@0.55;n:S=?;cu",
+    "f": "hasta que ves el número de la chica que te gusta."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Qué pasaría si pudieras ver quién está enamorado de ti?",
+  "planos": [
+   {
+    "v": "tit",
+    "f": "¿Qué pasaría si pudieras ver quién está enamorado de ti?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": true
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Abres los ojos. Te frotas la cara. Bajas a la cocina y ahí está tu mamá, haciendo el desayuno. Sobre su cabeza flota un corazón rosado que dice: cien por ciento. Parpadeas. Sigue ahí. Tu perro entra corriendo: cien por ciento. Tu hermano menor te roba la última galleta: cuarenta y dos por ciento. Y bajando.",
+  "planos": [
+   {
+    "v": "cuarto;X=pensando@0.5",
+    "f": "Abres los ojos. Te frotas la cara."
+   },
+   {
+    "v": "cocina;M=riendo@0.62!saluda;X=normal@0.25",
+    "f": "Bajas a la cocina y ahí está tu mamá, haciendo el desayuno."
+   },
+   {
+    "v": "cocina;M=riendo@0.5;n:M=100;cu",
+    "f": "Sobre su cabeza flota un corazón rosado que dice: cien por ciento."
+   },
+   {
+    "v": "cocina;X=sorprendido@0.5;cu",
+    "f": "Parpadeas. Sigue ahí."
+   },
+   {
+    "v": "cocina;P=riendo@0.55;n:P=100",
+    "f": "Tu perro entra corriendo: cien por ciento."
+   },
+   {
+    "v": "cocina;H=riendo@0.4;X=enojado@0.72;n:H=42",
+    "f": "Tu hermano menor te roba la última galleta: cuarenta y dos por ciento. Y bajando."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "—Mamá… ¿tú ves eso? —¿Ver qué, mi amor? Come, que llegas tarde. Vale. Solo lo ves tú.",
+  "planos": [
+   {
+    "v": "cocina;X=sorprendido@0.3;M=normal@0.68",
+    "f": "—Mamá… ¿tú ves eso?"
+   },
+   {
+    "v": "cocina;M=riendo@0.5;cu",
+    "f": "—¿Ver qué, mi amor? Come, que llegas tarde."
+   },
+   {
+    "v": "cocina;X=pensando@0.5;cu",
+    "f": "Vale. Solo lo ves tú."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En la calle es todavía más raro. El señor del puesto de periódicos: setenta y uno. La vecina que siempre te saluda: ochenta. El chico que te empujó en tercer grado: tres. Te das cuenta de que este poder es peligroso. Porque ahora vas a saber la verdad sobre todo el mundo.",
+  "planos": [
+   {
+    "v": "calle;K=riendo@0.6;X=normal@0.25;n:K=71",
+    "f": "En la calle es todavía más raro. El señor del puesto de periódicos: setenta y uno."
+   },
+   {
+    "v": "calle;M=riendo@0.55!saluda;n:M=80",
+    "f": "La vecina que siempre te saluda: ochenta."
+   },
+   {
+    "v": "calle;MT=enojado@0.6;X=preocupado@0.25;n:MT=3",
+    "f": "El chico que te empujó en tercer grado: tres."
+   },
+   {
+    "v": "calle;X=pensando@0.5;cu",
+    "f": "Te das cuenta de que este poder es peligroso."
+   },
+   {
+    "v": "calle;X=preocupado@0.5",
+    "f": "Porque ahora vas a saber la verdad sobre todo el mundo."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En la entrada del colegio es un festival de números. La pareja que se besa en las escaleras: él, noventa y nueve; ella, cincuenta y uno. Uy. El chico popular, Mateo, pasa a tu lado sin mirarte: cero. No es odio. Es que ni sabe que existes. La directora te mira por encima de las gafas: cuarenta. Bastante bien para alguien que te ha castigado tres veces. Y solo hay una persona cuyo número te importa de verdad.",
+  "planos": [
+   {
+    "v": "entrada;K=sonrojado@0.3;M=sonrojado@0.7;n:K=99;n:M=51",
+    "f": "En la entrada del colegio es un festival de números. La pareja que se besa en las escaleras: él, noventa y nueve; ella, cincuenta y uno. Uy."
+   },
+   {
+    "v": "entrada;MT=normal@0.6;X=preocupado@0.25;n:MT=0",
+    "f": "El chico popular, Mateo, pasa a tu lado sin mirarte: cero."
+   },
+   {
+    "v": "entrada;X=pensando@0.5;cu",
+    "f": "No es odio. Es que ni sabe que existes."
+   },
+   {
+    "v": "entrada;D=enojado@0.6;n:D=40",
+    "f": "La directora te mira por encima de las gafas: cuarenta."
+   },
+   {
+    "v": "entrada;X=riendo@0.5;cu",
+    "f": "Bastante bien para alguien que te ha castigado tres veces."
+   },
+   {
+    "v": "entrada;X=sonrojado@0.5;fx:brillo",
+    "f": "Y solo hay una persona cuyo número te importa de verdad."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Llegas al salón. Ella está junto a la ventana, como siempre, dibujando en su cuaderno. Pinza de estrella. Cárdigan lila. Respiras. Miras encima de su cabeza. Y el número… no se ve. En vez de un porcentaje hay unos signos de interrogación que parpadean. Como si el sistema se hubiera trabado.",
+  "planos": [
+   {
+    "v": "salon;S=normal@0.6;X=sonrojado@0.22",
+    "f": "Llegas al salón. Ella está junto a la ventana, como siempre, dibujando en su cuaderno."
+   },
+   {
+    "v": "salon;S=sonrojado@0.5;cu",
+    "f": "Pinza de estrella. Cárdigan lila."
+   },
+   {
+    "v": "salon;X=normal@0.5;cu",
+    "f": "Respiras. Miras encima de su cabeza."
+   },
+   {
+    "v": "salon;S=normal@0.5;n:S=?;cu",
+    "f": "Y el número… no se ve."
+   },
+   {
+    "v": "salon;S=normal@0.5;n:S=?",
+    "f": "En vez de un porcentaje hay unos signos de interrogación que parpadean."
+   },
+   {
+    "v": "salon;X=sorprendido@0.5;cu",
+    "f": "Como si el sistema se hubiera trabado."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Te frotas los ojos. Miras a tu profesor: doce por ciento, qué novedad. Miras otra vez a Sofía. Interrogación. Interrogación. Interrogación. ¿Qué significa eso? ¿Que no le importas? ¿Que el poder está roto?",
+  "planos": [
+   {
+    "v": "salon;T=enojado@0.6;X=pensando@0.25;n:T=12",
+    "f": "Te frotas los ojos. Miras a tu profesor: doce por ciento, qué novedad."
+   },
+   {
+    "v": "salon;S=normal@0.5;n:S=?;cu",
+    "f": "Miras otra vez a Sofía. Interrogación. Interrogación. Interrogación."
+   },
+   {
+    "v": "salon;X=preocupado@0.5;cu",
+    "f": "¿Qué significa eso? ¿Que no le importas?"
+   },
+   {
+    "v": "salon;X=pensando@0.5",
+    "f": "¿Que el poder está roto?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Decides investigar como un científico. Si el número cambia según lo que hace la gente, tal vez puedas hacerlo aparecer. Prueba uno: le prestas un lápiz. Interrogación. Prueba dos: le cuentas tu mejor chiste. Ella se ríe un poquito. El símbolo parpadea más rápido… pero no cambia.",
+  "planos": [
+   {
+    "v": "salon;X=pensando@0.5;ui:EXPERIMENTO",
+    "f": "Decides investigar como un científico."
+   },
+   {
+    "v": "salon;X=normal@0.5;ui:HIPÓTESIS",
+    "f": "Si el número cambia según lo que hace la gente, tal vez puedas hacerlo aparecer."
+   },
+   {
+    "v": "salon;X=sonrojado@0.3;S=sorprendido@0.68;n:S=?;ui:PRUEBA 1",
+    "f": "Prueba uno: le prestas un lápiz. Interrogación."
+   },
+   {
+    "v": "salon;X=riendo@0.3;S=riendo@0.68;n:S=?;ui:PRUEBA 2",
+    "f": "Prueba dos: le cuentas tu mejor chiste. Ella se ríe un poquito."
+   },
+   {
+    "v": "salon;S=riendo@0.5;n:S=?;cu",
+    "f": "El símbolo parpadea más rápido… pero no cambia."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Prueba tres: intentas hacerte el interesante apoyándote en la pared… y la pared resulta ser una puerta que alguien abre. Te caes al pasillo delante de todo el mundo. El número de media clase sube. De pura risa. El de Sofía sigue sin aparecer.",
+  "planos": [
+   {
+    "v": "pasillo;X=normal@0.4;ui:PRUEBA 3",
+    "f": "Prueba tres: intentas hacerte el interesante apoyándote en la pared…"
+   },
+   {
+    "v": "pasillo;X=sorprendido@0.5;fx:caida",
+    "f": "y la pared resulta ser una puerta que alguien abre. Te caes al pasillo delante de todo el mundo."
+   },
+   {
+    "v": "pasillo;C=riendo@0.25;MT=riendo@0.75;n:C=+;n:MT=+",
+    "f": "El número de media clase sube. De pura risa."
+   },
+   {
+    "v": "salon;S=normal@0.5;n:S=?;cu",
+    "f": "El de Sofía sigue sin aparecer."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Prueba cuatro, la desesperada: le escribes un poema en una servilleta. Rimas \"Sofía\" con \"todavía\", \"alegría\" y, sin saber por qué, \"lavandería\". Ella lo lee. Lo dobla con cuidado. Y lo guarda dentro de su cuaderno. Interrogación. Pero esta vez, por un segundo, juras que viste un número asomarse antes de esconderse otra vez.",
+  "planos": [
+   {
+    "v": "salon;X=sonrojado@0.5;fx:poema;ui:PRUEBA 4",
+    "f": "Prueba cuatro, la desesperada: le escribes un poema en una servilleta."
+   },
+   {
+    "v": "neutro;fx:poema",
+    "f": "Rimas \"Sofía\" con \"todavía\", \"alegría\" y, sin saber por qué, \"lavandería\"."
+   },
+   {
+    "v": "salon;S=sonrojado@0.5;cu",
+    "f": "Ella lo lee. Lo dobla con cuidado. Y lo guarda dentro de su cuaderno."
+   },
+   {
+    "v": "salon;S=sonrojado@0.5;n:S=?!;cu",
+    "f": "Interrogación. Pero esta vez, por un segundo, juras que viste un número asomarse antes de esconderse otra vez."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En el almuerzo se sienta a tu lado Camila, tu amiga desde el kínder. La que te presta los apuntes. La que se acuerda de tu cumpleaños antes que tú. Miras sobre su cabeza por pura costumbre. Noventa y cinco por ciento. Te atragantas con el jugo.",
+  "planos": [
+   {
+    "v": "comedor;C=riendo@0.62;X=normal@0.3",
+    "f": "En el almuerzo se sienta a tu lado Camila, tu amiga desde el kínder."
+   },
+   {
+    "v": "comedor;C=riendo@0.5;cu",
+    "f": "La que te presta los apuntes. La que se acuerda de tu cumpleaños antes que tú."
+   },
+   {
+    "v": "comedor;C=normal@0.5;n:C=?",
+    "f": "Miras sobre su cabeza por pura costumbre."
+   },
+   {
+    "v": "comedor;C=normal@0.5;n:C=95;cu",
+    "f": "Noventa y cinco por ciento."
+   },
+   {
+    "v": "comedor;X=sorprendido@0.5;cu",
+    "f": "Te atragantas con el jugo."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Noventa y cinco? ¿Camila? Ella sigue hablando de un videojuego como si nada. Y de repente lo entiendes: esta persona lleva años queriéndote… y nunca te diste cuenta. Ahora tienes un problema mucho más grande que un número que no aparece.",
+  "planos": [
+   {
+    "v": "comedor;X=sorprendido@0.3;C=riendo@0.68;n:C=95",
+    "f": "¿Noventa y cinco? ¿Camila? Ella sigue hablando de un videojuego como si nada."
+   },
+   {
+    "v": "comedor;X=pensando@0.5;cu",
+    "f": "Y de repente lo entiendes: esta persona lleva años queriéndote… y nunca te diste cuenta."
+   },
+   {
+    "v": "comedor;X=preocupado@0.5",
+    "f": "Ahora tienes un problema mucho más grande que un número que no aparece."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Esa noche no duermes. Miras al techo. Por un lado está Sofía, con su misterio. Por el otro está Camila, que te quiere de verdad. Y entiendes algo incómodo: has pasado todo el día tratando de cambiar lo que otros sienten por ti… en vez de ser honesto con lo que sientes tú.",
+  "planos": [
+   {
+    "v": "noche;X=pensando@0.5",
+    "f": "Esa noche no duermes. Miras al techo."
+   },
+   {
+    "v": "neutro;S=normal@0.3;C=riendo@0.7;n:S=?;n:C=95",
+    "f": "Por un lado está Sofía, con su misterio. Por el otro está Camila, que te quiere de verdad."
+   },
+   {
+    "v": "noche;X=preocupado@0.5;cu",
+    "f": "Y entiendes algo incómodo: has pasado todo el día tratando de cambiar lo que otros sienten por ti…"
+   },
+   {
+    "v": "noche;X=pensando@0.5;cu",
+    "f": "en vez de ser honesto con lo que sientes tú."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Abres el chat de Sofía y escribes \"hola\". Lo borras. Escribes \"¿estás despierta?\". Lo borras. Escribes un párrafo entero. Lo borras también. A las tres de la mañana te llega un mensaje. Es de ella: \"¿Mañana me ayudas con el trabajo de ciencias? Tú explicas bonito\". Lees \"explicas bonito\" catorce veces. Decides hacer dos cosas difíciles mañana.",
+  "planos": [
+   {
+    "v": "noche;X=pensando@0.5;fx:chat",
+    "f": "Abres el chat de Sofía y escribes \"hola\". Lo borras."
+   },
+   {
+    "v": "neutro;fx:chat",
+    "f": "Escribes \"¿estás despierta?\". Lo borras. Escribes un párrafo entero. Lo borras también."
+   },
+   {
+    "v": "noche;X=sorprendido@0.5;fx:chat",
+    "f": "A las tres de la mañana te llega un mensaje. Es de ella:"
+   },
+   {
+    "v": "neutro;fx:chat",
+    "f": "\"¿Mañana me ayudas con el trabajo de ciencias? Tú explicas bonito\"."
+   },
+   {
+    "v": "noche;X=sonrojado@0.5;cu",
+    "f": "Lees \"explicas bonito\" catorce veces."
+   },
+   {
+    "v": "noche;X=normal@0.5",
+    "f": "Decides hacer dos cosas difíciles mañana."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Primero hablas con Camila. Le dices la verdad, con cuidado: que es tu mejor amiga, que es increíble, y que tu corazón está con otra persona. Ella baja la mirada. El número no baja. Sigue en noventa y cinco. —Ya lo sabía, tonto —dice sonriendo—. Se te nota desde lejos. Ve a hablarle. Y ahí entiendes que querer a alguien no siempre significa tenerlo. A veces significa empujarlo hacia lo que lo hace feliz.",
+  "planos": [
+   {
+    "v": "patio;X=normal@0.3;C=normal@0.68",
+    "f": "Primero hablas con Camila."
+   },
+   {
+    "v": "patio;X=preocupado@0.5;cu",
+    "f": "Le dices la verdad, con cuidado: que es tu mejor amiga, que es increíble,"
+   },
+   {
+    "v": "patio;X=sonrojado@0.5;cu",
+    "f": "y que tu corazón está con otra persona."
+   },
+   {
+    "v": "patio;C=llorando@0.5;n:C=95;cu",
+    "f": "Ella baja la mirada. El número no baja. Sigue en noventa y cinco."
+   },
+   {
+    "v": "patio;C=riendo@0.5;cu",
+    "f": "—Ya lo sabía, tonto —dice sonriendo—. Se te nota desde lejos. Ve a hablarle."
+   },
+   {
+    "v": "patio;X=pensando@0.3;C=riendo@0.68",
+    "f": "Y ahí entiendes que querer a alguien no siempre significa tenerlo."
+   },
+   {
+    "v": "patio;C=riendo@0.5!saluda",
+    "f": "A veces significa empujarlo hacia lo que lo hace feliz."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Encuentras a Sofía en la biblioteca. Esta vez no haces trucos. Te sientas y le dices: —Me gustas. Desde hace meses. Y no sé si yo te gusto, pero quería que lo supieras. Silencio. Ella cierra el cuaderno. Te lo pasa. Está lleno de dibujos tuyos: en clase, en el pasillo, cayéndote por la puerta.",
+  "planos": [
+   {
+    "v": "biblio;S=normal@0.65;X=normal@0.28",
+    "f": "Encuentras a Sofía en la biblioteca. Esta vez no haces trucos."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5;cu",
+    "f": "Te sientas y le dices: —Me gustas. Desde hace meses."
+   },
+   {
+    "v": "biblio;X=preocupado@0.5;cu",
+    "f": "Y no sé si yo te gusto, pero quería que lo supieras."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;cu",
+    "f": "Silencio. Ella cierra el cuaderno. Te lo pasa."
+   },
+   {
+    "v": "neutro;fx:dibujos",
+    "f": "Está lleno de dibujos tuyos: en clase, en el pasillo, cayéndote por la puerta."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "—Mi número no te salía, ¿verdad? —pregunta ella. Te quedas helado. —Es que yo tampoco sabía qué sentía —dice—. Hasta hoy. Miras sobre su cabeza. Los signos de interrogación tiemblan… y se convierten en un número. Pero antes de que puedas leerlo, ella te tapa los ojos con las manos. —Algunas cosas —dice— es mejor descubrirlas sin poderes.",
+  "planos": [
+   {
+    "v": "biblio;S=pensando@0.5;n:S=?;cu",
+    "f": "—Mi número no te salía, ¿verdad? —pregunta ella."
+   },
+   {
+    "v": "biblio;X=sorprendido@0.5;cu",
+    "f": "Te quedas helado."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;cu",
+    "f": "—Es que yo tampoco sabía qué sentía —dice—. Hasta hoy."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;n:S=glitch;cu",
+    "f": "Miras sobre su cabeza. Los signos de interrogación tiemblan… y se convierten en un número."
+   },
+   {
+    "v": "biblio;S=riendo@0.62!saluda;X=sorprendido@0.3",
+    "f": "Pero antes de que puedas leerlo, ella te tapa los ojos con las manos."
+   },
+   {
+    "v": "biblio;S=riendo@0.5;cu",
+    "f": "—Algunas cosas —dice— es mejor descubrirlas sin poderes."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "A la mañana siguiente te despiertas. Los números ya no están. El poder desapareció. Pero no lo necesitas. Porque ahora sabes que lo importante no es cuánto te quieren los demás… sino tener el valor de decir lo que sientes. Y tú, si pudieras ver ese número, ¿de quién lo mirarías primero? Te leo en los comentarios.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5",
+    "f": "A la mañana siguiente te despiertas. Los números ya no están. El poder desapareció."
+   },
+   {
+    "v": "calle;X=riendo@0.5",
+    "f": "Pero no lo necesitas."
+   },
+   {
+    "v": "patio;X=riendo@0.32;S=riendo@0.68;fx:brillo",
+    "f": "Porque ahora sabes que lo importante no es cuánto te quieren los demás…"
+   },
+   {
+    "v": "patio;X=sonrojado@0.5;cu",
+    "f": "sino tener el valor de decir lo que sientes."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;ui:¿DE QUIÉN LO MIRARÍAS?",
+    "f": "Y tú, si pudieras ver ese número, ¿de quién lo mirarías primero? Te leo en los comentarios."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ }
+]
