@@ -15,3 +15,4 @@ scene_of = lambda s: max(i for i, x in enumerate(tl) if x['start'] <= s)
 bad = [(k * 2, scene_of(k * 2)) for k in range(len(diff) - 1) if diff[k] < thr and diff[k + 1] < thr]
 print(f'{len(fs)} fotogramas, diferencia media {np.mean(diff):.1f}, mínima {min(diff):.1f}')
 print('tramos casi iguales:', len(bad), bad)
+import shutil; shutil.rmtree(d, ignore_errors=True)
