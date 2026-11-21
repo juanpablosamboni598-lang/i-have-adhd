@@ -22,6 +22,8 @@ Vale. Solo lo ves tú.
 ## 3. EL CAMINO A CLASE (1:10)
 En la calle es todavía más raro. El señor del puesto de periódicos: setenta y uno. La vecina que siempre te saluda: ochenta. El chico que te empujó en tercer grado: tres.
 Te das cuenta de que este poder es peligroso. Porque ahora vas a saber la verdad sobre todo el mundo.
+En la entrada del colegio es un festival de números. La pareja que se besa en las escaleras: él, noventa y nueve; ella, cincuenta y uno. Uy. El chico popular, Mateo, pasa a tu lado sin mirarte: cero. No es odio. Es que ni sabe que existes.
+La directora te mira por encima de las gafas: cuarenta. Bastante bien para alguien que te ha castigado tres veces.
 Y solo hay una persona cuyo número te importa de verdad.
 
 ## 4. SOFÍA (1:50)
@@ -39,6 +41,9 @@ Prueba uno: le prestas un lápiz. Interrogación.
 Prueba dos: le cuentas tu mejor chiste. Ella se ríe un poquito. El símbolo parpadea más rápido… pero no cambia.
 Prueba tres: intentas hacerte el interesante apoyándote en la pared… y la pared resulta ser una puerta que alguien abre. Te caes al pasillo delante de todo el mundo.
 El número de media clase sube. De pura risa.
+Prueba cuatro, la desesperada: le escribes un poema en una servilleta. Rimas "Sofía" con "todavía", "alegría" y, sin saber por qué, "lavandería".
+Ella lo lee. Lo dobla con cuidado. Y lo guarda dentro de su cuaderno.
+Interrogación. Pero esta vez, por un segundo, juras que viste un número asomarse antes de esconderse otra vez.
 El de Sofía sigue sin aparecer.
 
 ## 6. CAMILA (3:30)
@@ -54,6 +59,9 @@ Ahora tienes un problema mucho más grande que un número que no aparece.
 Esa noche no duermes. Miras al techo.
 Por un lado está Sofía, con su misterio. Por el otro está Camila, que te quiere de verdad.
 Y entiendes algo incómodo: has pasado todo el día tratando de cambiar lo que otros sienten por ti… en vez de ser honesto con lo que sientes tú.
+Abres el chat de Sofía y escribes "hola". Lo borras. Escribes "¿estás despierta?". Lo borras. Escribes un párrafo entero. Lo borras también.
+A las tres de la mañana te llega un mensaje. Es de ella: "¿Mañana me ayudas con el trabajo de ciencias? Tú explicas bonito".
+Lees "explicas bonito" catorce veces.
 Decides hacer dos cosas difíciles mañana.
 
 ## 8. LA CONVERSACIÓN CON CAMILA (4:50)
