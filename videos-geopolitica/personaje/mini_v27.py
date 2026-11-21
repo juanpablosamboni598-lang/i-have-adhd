@@ -1,7 +1,8 @@
 """Miniatura v27 estilo primer plano (Xeno 2.0 + inodoro brillante). Uso: python3 mini_v27.py [texto] > x.svg"""
 import sys
 import os
-if os.environ.get("PALITO"): from palito import head, body, HOOD, OUT, SKIN
+if os.environ.get("ALTO"): from alto import head, body, HOOD, OUT, SKIN
+elif os.environ.get("PALITO"): from palito import head, body, HOOD, OUT, SKIN
 elif os.environ.get("ADULTO"): from adulto import head, body, HOOD, OUT, SKIN
 elif os.environ.get("STICK"): from stick import head, body, HOOD, OUT, SKIN
 else: from xeno2 import head, body, HOOD, OUT, SKIN
@@ -50,7 +51,9 @@ for k in range(16):
     o.append(star(1290 + d*math.cos(a), 470 + d*math.sin(a)*0.8, random.uniform(14, 34), random.choice(['#FFFFFF', '#FFF3B0', '#FFD23F'])))
 # corazón
 o.append('<g transform="translate(1640 200) rotate(14) scale(2.2)"><path d="M0 18 C-30 -6 -24 -34 0 -22 C24 -34 30 -6 0 18Z" fill="#FF4F7B" stroke="#1A1220" stroke-width="4"/><circle cx="-10" cy="-16" r="5" fill="#fff" opacity="0.8"/></g>')
-if os.environ.get("PALITO"):
+if os.environ.get("ALTO"):
+    o.append(f'<g transform="translate(730 200) rotate(5) scale(1.0)" filter="url(#sh)">{body("abraza")}{head("sorprendido")}</g>')
+elif os.environ.get("PALITO"):
     from palito import BLK, LW
     L = f'stroke="{BLK}" stroke-width="{LW}" stroke-linecap="round" stroke-linejoin="round" fill="none"'
     g = (f'<path d="M0 80 L-10 470" {L}/><path d="M-10 470 L-110 840 L-150 846" {L}/><path d="M-10 470 L70 840 L110 846" {L}/>'
