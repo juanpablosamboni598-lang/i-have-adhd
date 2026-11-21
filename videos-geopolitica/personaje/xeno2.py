@@ -111,21 +111,22 @@ def face(x, y, sc, exp, label):
             f'<g transform="translate(0 0) scale({sc})">{head(exp)}</g>'
             f'<text x="0" y="150" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="26" fill="#3A2E48">{label}</text></g>')
 
-W, H = 2400, 1350
-out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
-       '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4E6"/><stop offset="1" stop-color="#F3E6FF"/></linearGradient></defs>',
-       f'<rect width="{W}" height="{H}" fill="url(#bg)"/>',
-       f'<text x="60" y="100" font-family="Inter,Arial" font-weight="900" font-size="72" fill="{OUT}">XENO 2.0</text>',
-       f'<text x="60" y="150" font-family="Inter,Arial" font-weight="700" font-size="30" fill="#6A5A7A">Personaje oficial de jxseng · gafas de laboratorio + sudadera naranja "?"</text>',
-       char(330, 640, 1.25, 'normal'), char(760, 640, 1.25, 'riendo', 'saluda'),
-       '<text x="330" y="1290" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="28" fill="#3A2E48">FRENTE</text>',
-       '<text x="760" y="1290" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="28" fill="#3A2E48">SALUDO</text>']
-labels = [('sorprendido', 'SORPRENDIDO'), ('sonrojado', 'SONROJADO'), ('riendo', 'RIENDO'),
-          ('llorando', 'LLORANDO'), ('enojado', 'ENOJADO'), ('pensando', 'PENSANDO')]
-for i, (e, l) in enumerate(labels):
-    out.append(face(1260 + (i % 3) * 360, 470 + (i // 3) * 400, 0.78, e, l))
-# paleta
-for i, (c, n) in enumerate([(HOOD, '#FF7A1A'), (GOG, '#FFD23F'), (SKIN, '#C98A5A'), (HAIR, '#1B1B24'), ('#9FE3FF', '#9FE3FF')]):
-    out.append(f'<circle cx="{1140 + i*230}" cy="1250" r="34" fill="{c}" stroke="{OUT}" stroke-width="4"/><text x="{1186 + i*230}" y="1260" font-family="Inter,Arial" font-weight="700" font-size="24" fill="#3A2E48">{n}</text>')
-out.append('</svg>')
-print(''.join(out))
+if __name__ == '__main__':
+    W, H = 2400, 1350
+    out = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
+           '<defs><linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#FFF4E6"/><stop offset="1" stop-color="#F3E6FF"/></linearGradient></defs>',
+           f'<rect width="{W}" height="{H}" fill="url(#bg)"/>',
+           f'<text x="60" y="100" font-family="Inter,Arial" font-weight="900" font-size="72" fill="{OUT}">XENO 2.0</text>',
+           f'<text x="60" y="150" font-family="Inter,Arial" font-weight="700" font-size="30" fill="#6A5A7A">Personaje oficial de jxseng · gafas de laboratorio + sudadera naranja "?"</text>',
+           char(330, 640, 1.25, 'normal'), char(760, 640, 1.25, 'riendo', 'saluda'),
+           '<text x="330" y="1290" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="28" fill="#3A2E48">FRENTE</text>',
+           '<text x="760" y="1290" text-anchor="middle" font-family="Inter,Arial" font-weight="800" font-size="28" fill="#3A2E48">SALUDO</text>']
+    labels = [('sorprendido', 'SORPRENDIDO'), ('sonrojado', 'SONROJADO'), ('riendo', 'RIENDO'),
+              ('llorando', 'LLORANDO'), ('enojado', 'ENOJADO'), ('pensando', 'PENSANDO')]
+    for i, (e, l) in enumerate(labels):
+        out.append(face(1260 + (i % 3) * 360, 470 + (i // 3) * 400, 0.78, e, l))
+    # paleta
+    for i, (c, n) in enumerate([(HOOD, '#FF7A1A'), (GOG, '#FFD23F'), (SKIN, '#C98A5A'), (HAIR, '#1B1B24'), ('#9FE3FF', '#9FE3FF')]):
+        out.append(f'<circle cx="{1140 + i*230}" cy="1250" r="34" fill="{c}" stroke="{OUT}" stroke-width="4"/><text x="{1186 + i*230}" y="1260" font-family="Inter,Arial" font-weight="700" font-size="24" fill="#3A2E48">{n}</text>')
+    out.append('</svg>')
+    print(''.join(out))
