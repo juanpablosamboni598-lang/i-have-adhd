@@ -1,6 +1,8 @@
 """Miniatura v27 estilo primer plano (Xeno 2.0 + inodoro brillante). Uso: python3 mini_v27.py [texto] > x.svg"""
 import sys
-from xeno2 import head, body, HOOD, OUT, SKIN
+import os
+if os.environ.get("STICK"): from stick import head, body, HOOD, OUT, SKIN
+else: from xeno2 import head, body, HOOD, OUT, SKIN
 txt = len(sys.argv) > 1
 W, H = 1920, 1080
 o = [f'<svg xmlns="http://www.w3.org/2000/svg" width="{W}" height="{H}" viewBox="0 0 {W} {H}">',
