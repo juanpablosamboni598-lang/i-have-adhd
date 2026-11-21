@@ -146,7 +146,9 @@ const shotOf = (pl, lt, ld, si) => {
     if (o.fx === 'caida' && c.k === 'X') { const u = eo((lt - 0.5) / 0.55); return { c, node: <g key={i}><Caida t={lt} x={x} y={y + 830 * s} s={s} /><g transform={`rotate(${-80 * u} ${x} ${y + 830 * s}) translate(${u * -60} 0)`}><Char k={c.k} exp={u > 0.1 ? 'sorprendido' : ex} pose={pz} x={x} y={y} s={s} t={lt} ph={i} /></g></g>, x, y }; }
     return { c, node: <Char key={i} k={c.k} exp={ex} pose={pz} x={x} y={y} s={s} t={lt} ph={i * 1.3} flip={!cu && c.x > 0.55 && c.k !== 'S' && c.k !== 'C' && c.k !== 'M' && c.k !== 'D' ? false : false} />, x, y }; });
   const hearts = []; Object.entries(o.nums).forEach(([k, val]) => { if (k === '0') { hearts.push(<Corazon key="h0" x={960} y={480} val={val} t={lt} s={2.2} />); return; }
-    const it = items.find((q) => q.c.k === k); if (!it) return; const hy = it.y + (k === 'P' ? -260 : -300) * s - (cu ? 40 : 60); hearts.push(<Corazon key={k} x={it.x} y={Math.max(120, hy)} val={val} t={lt} s={cu ? 1.25 : 0.95} />); });
+    const it = items.find((q) => q.c.k === k); if (!it) return;
+    if (cu) { hearts.push(<Corazon key={k} x={it.x + 380} y={300} val={val} t={lt} s={1.3} />); return; }
+    const hy = it.y + (k === 'P' ? -260 : -300) * s - 60; hearts.push(<Corazon key={k} x={it.x} y={Math.max(230, hy)} val={val} t={lt} s={0.95} />); });
   let fxNode = null;
   if (o.fx === 'poema' && !o.chars.length) fxNode = <Poema t={lt} />;
   if (o.fx === 'poema' && o.chars.length) fxNode = <g transform="translate(560 160) scale(0.45)"><Poema t={lt} /></g>;
