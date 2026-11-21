@@ -1,7 +1,8 @@
 """Miniatura v27 estilo primer plano (Xeno 2.0 + inodoro brillante). Uso: python3 mini_v27.py [texto] > x.svg"""
 import sys
 import os
-if os.environ.get("ADULTO"): from adulto import head, body, HOOD, OUT, SKIN
+if os.environ.get("PALITO"): from palito import head, body, HOOD, OUT, SKIN
+elif os.environ.get("ADULTO"): from adulto import head, body, HOOD, OUT, SKIN
 elif os.environ.get("STICK"): from stick import head, body, HOOD, OUT, SKIN
 else: from xeno2 import head, body, HOOD, OUT, SKIN
 txt = len(sys.argv) > 1
@@ -49,10 +50,17 @@ for k in range(16):
     o.append(star(1290 + d*math.cos(a), 470 + d*math.sin(a)*0.8, random.uniform(14, 34), random.choice(['#FFFFFF', '#FFF3B0', '#FFD23F'])))
 # corazón
 o.append('<g transform="translate(1640 200) rotate(14) scale(2.2)"><path d="M0 18 C-30 -6 -24 -34 0 -22 C24 -34 30 -6 0 18Z" fill="#FF4F7B" stroke="#1A1220" stroke-width="4"/><circle cx="-10" cy="-16" r="5" fill="#fff" opacity="0.8"/></g>')
-# Xeno 2.0 primerísimo plano (cabeza enorme + hombros), mejilla contra el inodoro
-o.append(f'<g transform="translate(640 650) rotate(8) scale(3.1)" filter="url(#sh)"><g transform="translate(0 40)">{body()}</g>{head("sorprendido")}</g>')
-# mano abrazando el inodoro
-o.append(f'<g transform="translate(1000 760) rotate(-20)"><path d="M-160 60 Q-40 40 40 -10" stroke="{OUT}" stroke-width="130" stroke-linecap="round" fill="none"/><path d="M-160 60 Q-40 40 40 -10" stroke="{HOOD}" stroke-width="112" stroke-linecap="round" fill="none"/><ellipse cx="70" cy="-30" rx="70" ry="58" fill="{SKIN}" stroke="{OUT}" stroke-width="12"/></g>')
+if os.environ.get("PALITO"):
+    from palito import BLK, LW
+    L = f'stroke="{BLK}" stroke-width="{LW}" stroke-linecap="round" stroke-linejoin="round" fill="none"'
+    g = (f'<path d="M0 80 L-10 470" {L}/><path d="M-10 470 L-110 840 L-150 846" {L}/><path d="M-10 470 L70 840 L110 846" {L}/>'
+         f'<path d="M0 170 Q220 120 430 250" {L}/><path d="M0 170 Q200 300 440 360" {L}/>'
+         f'<path d="M-46 112 Q0 140 46 112 L48 140 Q0 168 -48 140Z" fill="{HOOD}" stroke="#B94C08" stroke-width="4"/>'
+         f'<path d="M-30 140 L-80 250 L-52 254 L-12 150Z" fill="{HOOD}" stroke="#B94C08" stroke-width="4"/>')
+    o.append(f'<g transform="translate(620 170) rotate(6) scale(1.05)" filter="url(#sh)">{g}{head("sorprendido")}</g>')
+else:
+    o.append(f'<g transform="translate(640 650) rotate(8) scale(3.1)" filter="url(#sh)"><g transform="translate(0 40)">{body()}</g>{head("sorprendido")}</g>')
+    o.append(f'<g transform="translate(1000 760) rotate(-20)"><path d="M-160 60 Q-40 40 40 -10" stroke="{OUT}" stroke-width="130" stroke-linecap="round" fill="none"/><path d="M-160 60 Q-40 40 40 -10" stroke="{HOOD}" stroke-width="112" stroke-linecap="round" fill="none"/><ellipse cx="70" cy="-30" rx="70" ry="58" fill="{SKIN}" stroke="{OUT}" stroke-width="12"/></g>')
 # frasco de pastillas cayendo
 o.append(f'<g transform="translate(330 900) rotate(-28)" filter="url(#sh)"><rect x="-60" y="-90" width="120" height="170" rx="18" fill="#FF8A3D" opacity="0.92" stroke="{OUT}" stroke-width="8"/><rect x="-70" y="-120" width="140" height="44" rx="10" fill="#fff" stroke="{OUT}" stroke-width="8"/><rect x="-48" y="-40" width="96" height="70" rx="8" fill="#fff" stroke="{OUT}" stroke-width="5"/><path d="M-20 -6 H20 M0 -26 V14" stroke="#E8344A" stroke-width="12" stroke-linecap="round"/></g>')
 for (x, y, r) in [(200, 820, 18), (250, 1000, 14), (430, 1030, 16)]:
