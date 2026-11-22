@@ -16,3 +16,13 @@ Rendered 0/1
 Rendered 0/1
 Rendered 1/1
 [05:52] FIN-GTA06
+[06:32] g06 render listo
+ok .
+ok musica.wav
+sfx ok 317.5 s; faltan: []
+sfx real ok 317.5 s; efectos 606 (1.91/s)
+efectos reales: ganancia 1.3317
+duration=317.500000
+size=71680918
+[06:39] g06 ensamblado (1600k): 159 fotogramas, diferencia media 10.8, mínima 2.1 tramos casi iguales: 1 [(282, 28)] 
+[06:39] FIN-GTA06
