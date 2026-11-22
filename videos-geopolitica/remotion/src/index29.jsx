@@ -231,14 +231,30 @@ const Scene = ({ i, at }) => {
   </AbsoluteFill>;
 };
 const Thumb = () => <AbsoluteFill style={{ background: '#16121F' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-  <BlurG s={9}>{SETS.biblio(1).bg}</BlurG><rect width={W} height={H} fill="#3A1A4A" opacity="0.35" /><Glow x={1180} y={420} r={560} c="#FF9AC8" o={0.6} />
-  <Char k="S" exp="sorprendido" pose="manos" x={1240} y={560} s={1.45} t={0.4} />
-  <Char k="X" exp="sonrojado" x={640} y={540} s={1.45} t={0.2} inv />
-  <g transform="translate(900 300)"><path d="M0 0 C40 -30 90 -10 70 30" stroke="#8FE8FF" strokeWidth="10" fill="none" strokeLinecap="round" /><path d="M20 40 C60 20 100 40 84 74" stroke="#8FE8FF" strokeWidth="8" fill="none" strokeLinecap="round" opacity="0.7" /></g>
-  <g transform="translate(1560 170) rotate(12) scale(2)"><path d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" fill="#FF4F7B" stroke={OUT} strokeWidth="4" /></g>
-  {[0, 1, 2].map((k) => <g key={k} transform={`translate(${1700 + k * 60} ${420 - k * 18}) rotate(${-14 + k * 10})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
-  <text x="960" y="1010" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="124" fill="#FFD23F" stroke={OUT} strokeWidth="22" paintOrder="stroke">¿QUIÉN DIJO ESO?</text>
-  <Vignette o={0.45} /></svg></AbsoluteFill>;
+  <BlurG s={10}>{SETS.biblio(1).bg}</BlurG><rect width={W} height={H} fill="#3A1A4A" opacity="0.32" />
+  <BlurG s={16}>{Array.from({ length: 16 }).map((_, k) => <circle key={k} cx={(k * 331) % W} cy={(k * 173) % 700} r={30 + (k % 4) * 22} fill={k % 2 ? '#FFB8D8' : '#FFE2A0'} opacity={0.18 + (k % 3) * 0.06} />)}</BlurG>
+  {[0, 1, 2].map((k) => <path key={k} d={`M${1500 + k * 120} 0 L${1100 + k * 200} 1080 L${1180 + k * 200} 1080 L${1560 + k * 120} 0Z`} fill="#FFF0D0" opacity="0.07" />)}
+  <Glow x={1240} y={430} r={600} c="#FF9AC8" o={0.55} /><Glow x={640} y={430} r={420} c="#8FE8FF" o={0.35} />
+  <Char k="S" exp="sorprendido" pose="manos" x={1250} y={560} s={1.45} t={0.4} />
+  <g transform="translate(1250 520)">{[-1, 1].map((d) => <g key={d}>{[0, 1, 2].map((k) => <path key={k} d={`M${d * 70 + k * 12 * d} 30 l${-6 * d} 14`} stroke="#E04868" strokeWidth="4" />)}</g>)}</g>
+  <path d="M1405 300 q14 22 0 36 q-14 -14 0 -36Z" fill="#8FD8FF" stroke={OUT} strokeWidth="3" />
+  <Char k="X" exp="sonrojado" x={650} y={545} s={1.45} t={0.2} inv />
+  <g transform="translate(905 300)">{[0, 1, 2].map((k) => <path key={k} d={`M${k * 26} ${k * 14} c ${30 + k * 10} -22 ${70 + k * 14} -6 ${54 + k * 10} 26`} stroke="#8FE8FF" strokeWidth={9 - k * 2} fill="none" strokeLinecap="round" opacity={1 - k * 0.25} />)}</g>
+  <g transform="translate(1000 240) rotate(-8)"><rect x="-10" y="-46" width="250" height="64" rx="32" fill="#0E1A2A" opacity="0.75" stroke="#8FE8FF" strokeWidth="3" /><text x="115" y="-4" textAnchor="middle" fontFamily={FONT} fontStyle="italic" fontWeight="800" fontSize="36" fill="#CFF6FF">…aquí estoy…</text></g>
+  {[[860, 200, 22], [520, 160, 16], [800, 520, 14], [470, 470, 18], [960, 600, 12]].map(([x, y, r], k) => <path key={k} transform={`translate(${x} ${y})`} d={`M0 ${-r} Q0 0 ${r} 0 Q0 0 0 ${r} Q0 0 ${-r} 0 Q0 0 0 ${-r}Z`} fill="#E8FBFF" />)}
+  <g transform="translate(1560 160) rotate(12) scale(1.9)"><path d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" fill="#FF4F7B" stroke={OUT} strokeWidth="4" /><path d="M-22 -32 q-14 6 -14 24" stroke="#fff" strokeWidth="6" fill="none" strokeLinecap="round" opacity="0.7" /></g>
+  <g transform="translate(1440 300) rotate(-14) scale(0.7)"><path d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" fill="#FF8AB0" stroke={OUT} strokeWidth="5" /></g>
+  {[0, 1, 2].map((k) => <g key={k} transform={`translate(${1730 + k * 60} ${430 - k * 18}) rotate(${-14 + k * 10})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
+  <g transform="translate(0 0)"><rect x="-40" y="800" width="2000" height="300" fill="#6A4430" /><rect x="-40" y="790" width="2000" height="26" fill="#8A5A3A" stroke={OUT} strokeWidth="5" />
+    <g transform="translate(1420 840) rotate(-6)"><rect x="-200" y="-40" width="400" height="230" rx="10" fill="#FFFDF6" stroke={OUT} strokeWidth="6" /><rect x="-6" y="-40" width="12" height="230" fill="#E8E0D0" />
+      <g transform="translate(-100 60) scale(0.42)" style={{ filter: 'grayscale(1) contrast(1.3)' }}><Raw html={CH.X.h.sonrojado} /></g>
+      <path d="M60 30 q20 -20 40 0 q20 20 40 0 M60 70 h90 M60 100 h70" stroke="#9A94B8" strokeWidth="5" fill="none" strokeLinecap="round" /><path d="M150 130 C135 115 145 100 160 110 C175 100 185 115 170 130 L160 140Z" fill="#FF4F7B" /></g>
+    <g transform="translate(1180 900) rotate(28)"><rect x="-8" y="-90" width="16" height="170" fill="#FFD23F" stroke={OUT} strokeWidth="4" /><path d="M-8 80 L0 104 L8 80Z" fill="#E8C8A0" stroke={OUT} strokeWidth="3" /></g>
+    {[0, 1, 2].map((k) => <rect key={k} x={1700 + k * 6} y={770 - k * 46} width="200" height="44" rx="6" fill={['#4C7CC8', '#C8584A', '#E8A23A'][k]} stroke={OUT} strokeWidth="4" />)}
+    <g transform="translate(1820 560)"><rect x="-10" y="40" width="20" height="190" fill="#3A2A22" /><path d="M-80 40 L80 40 L54 -40 L-54 -40Z" fill="#7CC07A" stroke={OUT} strokeWidth="5" /><Glow x={0} y={60} r={300} c="#FFE2A0" o={0.6} /></g></g>
+  <BlurG s={8}><rect x="-60" y="860" width="420" height="260" rx="20" fill="#3A2418" /><rect x="40" y="820" width="260" height="60" rx="8" fill="#5A7CC0" /></BlurG>
+  <text x="960" y="1020" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="124" fill="#FFD23F" stroke={OUT} strokeWidth="22" paintOrder="stroke" style={{ filter: 'drop-shadow(0 0 18px rgba(255,160,200,0.7))' }}>¿QUIÉN DIJO ESO?</text>
+  <Vignette o={0.5} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V29-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
