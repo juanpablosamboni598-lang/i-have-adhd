@@ -5,7 +5,7 @@ F=v28; B=/tmp/claude-0/-home-user-i-have-adhd/b44a631c-aa93-5a06-8553-5375e2a18d
 log(){ echo "[$(date -u +%H:%M)] $*"; }
 N=$(python3 -c "import json;print(len(json.load(open('$F/escenas.json'))))")
 until grep -q FIN_TTS $F/tts.log 2>/dev/null; do sleep 30; done
-VOZ=marco2 MODEL=1.7B THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py $F >> $F/tts.log 2>&1
+VOZ=marco3 MODEL=1.7B THREADS=4 /home/user/tools/qwen-venv/bin/python tts/mivoz.py $F >> $F/tts.log 2>&1
 [ $(ls $F/audio2/a*.wav | wc -l) -ge $N ] || { log "voz incompleta"; exit 1; }
 for f in $F/audio2/a*.wav; do [ -f "$f.trim" ] && continue
   ffmpeg -v error -y -i "$f" -af "silenceremove=start_periods=1:start_threshold=-45dB,areverse,silenceremove=start_periods=1:start_threshold=-45dB,areverse" "${f%.wav}_t.wav" && mv "${f%.wav}_t.wav" "$f" && touch "$f.trim"; done
