@@ -197,15 +197,19 @@ const SC = {
     return <Tag key={i} x={960 + Math.sin(t * 1.2 + i) * 20} y={300 + i * 150} txt={txt} col={K(col)} fg={col === 'lime' ? C.bg : C.text} s={s} rot={(i % 2 ? 3 : -3) + Math.sin(t + i) * 2} fs={56} />; })}</>,
 };
 
+const MOV = { figura: 1, chat: 1, contador: 1 };
 const Scene = ({ i, at }) => {
   const f0 = useCurrentFrame(); const sc = D[i];
   const f = at !== undefined ? Math.round(sc.frames * at) : f0; const t = f / 30, d = sc.frames / 30;
   const g = Math.min(tw(t, 0, 0.3), 1 - tw(t, d - 0.3, d));
   // cámara 2D: acercamiento lento + deriva, distinto en cada escena
-  const z = 1 + 0.08 * (t / d), dx = Math.sin(t * 0.5 + i) * 24, dy = Math.cos(t * 0.4 + i) * 14;
+  // escenas que el control de calidad marcó casi quietas: cámara más amplia + franjas que se mueven
+  const mv = MOV[sc.tipo] ? 1 : 0;
+  const z = 1 + (mv ? 0.22 : 0.08) * (t / d), dx = Math.sin(t * 0.5 + i) * (mv ? 110 : 24), dy = Math.cos(t * 0.4 + i) * (mv ? 40 : 14), rot = mv ? Math.sin(t * 0.45) * 2.5 : 0;
   return <AbsoluteFill style={{ background: C.bg }}>
     <svg viewBox="0 0 1920 1080" width={1920} height={1080} style={{ position: 'absolute', inset: 0 }}>
-      <g transform={`translate(${960 + dx},${560 + dy}) scale(${z * (0.92 + 0.08 * g)}) translate(-960,-560)`} opacity={g}>{SC[sc.tipo]({ t, d, p: sc.p || {} })}</g>
+      {mv ? <g opacity={0.09 * g}>{Array.from({ length: 14 }).map((_, k) => { const x = ((k * 220 + t * 140) % 3080) - 580; return <rect key={k} x={x} y={-200} width={70 + (k % 3) * 40} height={1500} fill={[C.red, C.blue, C.lime][k % 3]} transform={`rotate(18 ${x} 540)`} />; })}</g> : null}
+      <g transform={`translate(${960 + dx},${560 + dy}) rotate(${rot}) scale(${z * (0.92 + 0.08 * g)}) translate(-960,-560)`} opacity={g}>{SC[sc.tipo]({ t, d, p: sc.p || {} })}</g>
       <circle cx={960} cy={560} r={P((1 - g) * 40)} fill={C.red} opacity={g < 0.999 ? 1 : 0} />
     </svg>
     <div style={{ position: 'absolute', inset: 0, opacity: g }}><Card t={t} d={d} lines={sc.p && sc.p.lines} paper={sc.tipo === 'juez' || sc.tipo === 'dinero'} /></div>
@@ -216,7 +220,9 @@ const Scene = ({ i, at }) => {
 
 const Thumb = () => { const t = 1.2;
   return <AbsoluteFill style={{ background: C.bg }}>
-    <svg viewBox="0 0 1280 720" width={1280} height={720} style={{ position: 'absolute', inset: 0 }}><g transform="scale(0.6667) translate(-260,0)">{SC.cuarto({ t, d: 6, p: { scr: 'GTA 6' } })}</g></svg>
+    <svg viewBox="0 0 1280 720" width={1280} height={720} style={{ position: 'absolute', inset: 0 }}><rect x={0} y={585} width={1280} height={135} fill="#101116" />
+      <circle cx={430} cy={420} r={330} fill={C.red} opacity={0.12} />
+      <g transform="scale(0.78) translate(-560,-130)">{SC.cuarto({ t, d: 6, p: { scr: '90' } })}</g></svg>
     <div style={{ position: 'absolute', right: 40, top: 80, textAlign: 'right', fontFamily: FONT, fontWeight: 900, lineHeight: 0.98 }}>
       <div style={{ fontSize: 92, color: C.text }}>FILTRÓ</div><div style={{ fontSize: 92, color: C.red }}>GTA 6</div><div style={{ fontSize: 92, color: C.text }}>A LOS 17</div>
       <div style={{ fontSize: 44, color: C.lime, fontFamily: MONO, marginTop: 16 }}>DESDE UN HOTEL</div></div>
