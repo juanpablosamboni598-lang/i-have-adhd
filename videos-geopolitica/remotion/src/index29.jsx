@@ -231,11 +231,13 @@ const Scene = ({ i, at }) => {
   </AbsoluteFill>;
 };
 const Thumb = () => <AbsoluteFill style={{ background: '#16121F' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-  {SETS.cocina(1).bg}<rect width={W} height={H} fill="#7AD8FF" opacity="0.1" />
-  <Char k="H" exp="sorprendido" x={1450} y={560} s={1.1} t={0.3} />
-  <Char k="X" exp="riendo" x={560} y={640} s={1.25} t={0.2} inv /><Tostada x={820} y={640} t={0.4} />
-  {[0, 1, 2].map((k) => <g key={k} transform={`translate(${1700 + k * 60} ${170 - k * 18}) rotate(${-14 + k * 10})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
-  <text x="960" y="1010" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="128" fill="#8FE8FF" stroke={OUT} strokeWidth="22" paintOrder="stroke">¡SOY INVISIBLE!</text>
+  <BlurG s={9}>{SETS.biblio(1).bg}</BlurG><rect width={W} height={H} fill="#3A1A4A" opacity="0.35" /><Glow x={1180} y={420} r={560} c="#FF9AC8" o={0.6} />
+  <Char k="S" exp="sorprendido" pose="manos" x={1240} y={560} s={1.45} t={0.4} />
+  <Char k="X" exp="sonrojado" x={640} y={540} s={1.45} t={0.2} inv />
+  <g transform="translate(900 300)"><path d="M0 0 C40 -30 90 -10 70 30" stroke="#8FE8FF" strokeWidth="10" fill="none" strokeLinecap="round" /><path d="M20 40 C60 20 100 40 84 74" stroke="#8FE8FF" strokeWidth="8" fill="none" strokeLinecap="round" opacity="0.7" /></g>
+  <g transform="translate(1560 170) rotate(12) scale(2)"><path d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" fill="#FF4F7B" stroke={OUT} strokeWidth="4" /></g>
+  {[0, 1, 2].map((k) => <g key={k} transform={`translate(${1700 + k * 60} ${420 - k * 18}) rotate(${-14 + k * 10})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
+  <text x="960" y="1010" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="124" fill="#FFD23F" stroke={OUT} strokeWidth="22" paintOrder="stroke">¿QUIÉN DIJO ESO?</text>
   <Vignette o={0.45} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
