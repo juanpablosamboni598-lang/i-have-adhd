@@ -1,2 +1,2 @@
-159 fotogramas, diferencia media 9.0, mínima 2.1
-tramos casi iguales: 6 [(98, 10), (142, 15), (148, 16), (226, 24), (228, 24), (282, 28)]
+159 fotogramas, diferencia media 10.8, mínima 2.1
+tramos casi iguales: 1 [(282, 28)]

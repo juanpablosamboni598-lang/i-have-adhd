@@ -197,7 +197,7 @@ const SC = {
     return <Tag key={i} x={960 + Math.sin(t * 1.2 + i) * 20} y={300 + i * 150} txt={txt} col={K(col)} fg={col === 'lime' ? C.bg : C.text} s={s} rot={(i % 2 ? 3 : -3) + Math.sin(t + i) * 2} fs={56} />; })}</>,
 };
 
-const MOV = { figura: 1, chat: 1, contador: 1 };
+const MOV = { figura: 1, chat: 1, contador: 1, balanza2: 1 };
 const Scene = ({ i, at }) => {
   const f0 = useCurrentFrame(); const sc = D[i];
   const f = at !== undefined ? Math.round(sc.frames * at) : f0; const t = f / 30, d = sc.frames / 30;
