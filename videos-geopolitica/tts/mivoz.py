@@ -28,13 +28,22 @@ VOCES = {
               'Pero hay un dato que sí lo es. La Luna se aleja de la Tierra casi cuatro centímetros cada año. En mil años, esos son treinta y ocho metros… ¡treinta y ocho metros! Nadie lo notaría, excepto tú.'),
     'marco_susp': (os.path.join(here, 'amigo', 'ref_susp.wav'),
               'Y lo peor todavía no ha pasado, porque alguien te dejó congelado. A propósito. Al final del video vas a saber quién fue. Y no lo vas a creer.'),
+    # Marco, grabación 3 (22 nov 2026, 6:39 min de entrenamiento, texto_entrenamiento_marco.md): muestras más limpias por tono.
+    'marco3_narr': (os.path.join(here, 'amigo', 'ref3_narr.wav'),
+              'Imagina que mañana te despiertas y todo es diferente. La luz entra por la ventana, el café huele igual que siempre, pero algo no encaja. Bajas a la cocina. Tu mamá está preparando el desayuno, como cada mañana. Tu perro mueve la cola. Tu hermano te roba la última galleta. Todo parece normal. Pero no lo es.'),
+    'marco3_dato': (os.path.join(here, 'amigo', 'ref3_dato.wav'),
+              'Una persona parpadea unas quince o veinte veces por minuto. Eso son más de veinte mil parpadeos al día. El corazón late, en promedio, unas cien mil veces al día y bombea cerca de siete mil litros de sangre. La Tierra está a ciento cincuenta millones de kilómetros del Sol. La luz tarda ocho minutos y veinte segundos en llegar hasta aquí.'),
+    'marco3_susp': (os.path.join(here, 'amigo', 'ref3_susp.wav'),
+              'Esa noche no pudiste dormir. Algo se movía en el pasillo. Escuchaste pasos. Uno… dos… tres. Luego, silencio. La puerta de tu cuarto se abrió apenas un centímetro. Contuviste la respiración. Y entonces, desde la oscuridad, alguien dijo tu nombre.'),
     'dueno': (os.path.join(here, 'mivoz', 'ref.wav'),
               'Autorizo clonar mi propia voz y usarla en todos los videos de mis canales, YouTube jxseng y Facebook Quatoom. '
               'Largos, shorts y reels, sin pedirme permiso cada vez.'),
 }
 VOZ = os.environ.get('VOZ', 'marco')  # VOZ=marco2: cada escena elige su muestra con el campo "voz" (narr/dato/susp)
 def ref_de(sc):
-    return VOCES[f"marco_{sc.get('voz', 'narr')}"] if VOZ == 'marco2' else VOCES[VOZ]
+    if VOZ in ('marco2', 'marco3'):
+        return VOCES[f"{'marco' if VOZ == 'marco2' else 'marco3'}_{sc.get('voz', 'narr')}"]
+    return VOCES[VOZ]
 out = os.path.join(folder, 'audio2'); os.makedirs(out, exist_ok=True)
 m = Qwen3TTSModel.from_pretrained(f"Qwen/Qwen3-TTS-12Hz-{os.environ.get('MODEL', '0.6B')}-Base", device_map='cpu', dtype=torch.float32, attn_implementation='eager')
 for i in idx:
