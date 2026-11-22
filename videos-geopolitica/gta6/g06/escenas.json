@@ -1,0 +1,1557 @@
+[
+ {
+  "tipo": "cuarto",
+  "titulo": "0_cuarto",
+  "texto": "En dos mil veintidós, un adolescente de diecisiete años estaba encerrado en un cuarto de hotel, vigilado por la policía y sin computador. Desde ese cuarto, logró algo que nadie había logrado. Robó GTA seis. Y lo hizo con el televisor del hotel.",
+  "p": {
+   "scr": "?",
+   "lines": [
+    "SEPTIEMBRE 2022"
+   ]
+  },
+  "caps": [
+   [
+    "diecisiete|17",
+    "^r17 AÑOS"
+   ],
+   [
+    "hotel",
+    "UN ^bCUARTO ^bDE ^bHOTEL"
+   ],
+   [
+    "computador",
+    "^sCOMPUTADOR"
+   ],
+   [
+    "robo",
+    "ROBÓ ^rGTA ^r6"
+   ],
+   [
+    "televisor",
+    "CON ^lEL ^lTELEVISOR"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.4,
+    "bip"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "titulo",
+  "titulo": "1_titulo",
+  "texto": "Esta es la historia de la filtración más grande de la historia de los videojuegos. Y de cómo terminó.",
+  "p": {
+   "head": "LA FILTRACIÓN",
+   "sub": "GTA 6 · 2022"
+  },
+  "caps": [
+   [
+    "filtracion",
+    "LA ^rFILTRACIÓN"
+   ],
+   [
+    "grande",
+    "MÁS ^rGRANDE"
+   ],
+   [
+    "termino",
+    "¿CÓMO ^lTERMINÓ?"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.2,
+    "brillo"
+   ],
+   [
+    0.6,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "calendario",
+  "titulo": "2_calendario",
+  "texto": "Domingo, dieciocho de septiembre de dos mil veintidós. Rockstar llevaba años sin mostrar nada de GTA seis. Ni un tráiler. Ni una imagen. Solo un anuncio de una línea, meses antes, que decía que el juego estaba en desarrollo.",
+  "p": {
+   "day": "18",
+   "month": "SEP",
+   "year": "2022"
+  },
+  "caps": [
+   [
+    "dieciocho|18",
+    "^b18 ^bSEP ^b2022"
+   ],
+   [
+    "nada",
+    "^rNADA"
+   ],
+   [
+    "trailer",
+    "^sTRÁILER"
+   ],
+   [
+    "desarrollo",
+    "\"EN ^lDESARROLLO\""
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "foro",
+  "titulo": "3_foro",
+  "texto": "Esa noche, en un foro de fans muy conocido, apareció una publicación. Un usuario nuevo subió noventa videos. Eran clips cortos, con colores raros y textos de prueba en la pantalla.",
+  "p": {
+   "to": 90,
+   "user": "usuario_nuevo",
+   "lines": [
+    "90 CLIPS",
+    "VERSIÓN DE PRUEBA"
+   ]
+  },
+  "caps": [
+   [
+    "foro",
+    "UN ^bFORO ^bDE ^bFANS"
+   ],
+   [
+    "nuevo",
+    "UN USUARIO ^rNUEVO"
+   ],
+   [
+    "noventa|90",
+    "^r90 ^rVIDEOS"
+   ],
+   [
+    "prueba",
+    "TEXTOS ^lDE ^lPRUEBA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "bip"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.4,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.6,
+    "pop"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tv",
+  "titulo": "4_tv",
+  "texto": "En los videos se veía una ciudad con palmeras, letreros de neón y patrullas. La gente la reconoció al instante. Era Vice City.",
+  "p": {
+   "scr": "VICE",
+   "lines": [
+    "¿VICE CITY?"
+   ]
+  },
+  "caps": [
+   [
+    "palmeras",
+    "PALMERAS ^bY ^bNEÓN"
+   ],
+   [
+    "patrullas",
+    "^rPATRULLAS"
+   ],
+   [
+    "instante",
+    "AL ^lINSTANTE"
+   ],
+   [
+    "vice",
+    "^lVICE ^lCITY"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "electrico"
+   ],
+   [
+    0.2,
+    "bip"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "duo2",
+  "titulo": "5_duo2",
+  "texto": "Y había algo más. Por primera vez en un GTA moderno, uno de los protagonistas era una mujer. Dos personajes, un hombre y una mujer, robando juntos una cafetería.",
+  "p": {
+   "lines": [
+    "2 PROTAGONISTAS"
+   ]
+  },
+  "caps": [
+   [
+    "algo",
+    "ALGO ^bMÁS"
+   ],
+   [
+    "mujer",
+    "UNA ^lPROTAGONISTA"
+   ],
+   [
+    "juntos",
+    "^bJUNTOS"
+   ],
+   [
+    "cafeteria",
+    "UN ^rROBO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.15,
+    "pop"
+   ],
+   [
+    0.4,
+    "brillo"
+   ],
+   [
+    0.7,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "contador",
+  "titulo": "6_contador",
+  "texto": "Internet explotó. En pocas horas, los clips estaban en todas partes. Los fans no sabían si creer, y muchos pensaron que era falso.",
+  "p": {
+   "to": 90,
+   "suffix": " CLIPS",
+   "lines": [
+    "TODO INTERNET"
+   ]
+  },
+  "caps": [
+   [
+    "exploto",
+    "INTERNET ^rEXPLOTÓ"
+   ],
+   [
+    "horas",
+    "EN ^rHORAS"
+   ],
+   [
+    "falso",
+    "¿^bFALSO?"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ],
+   [
+    0.2,
+    "tic"
+   ],
+   [
+    0.35,
+    "tic"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "titular",
+  "titulo": "7_titular",
+  "texto": "Pero al día siguiente, Rockstar habló. Confirmó que alguien había entrado sin permiso a su red y se había llevado información confidencial, incluidos esos videos. Dijo que estaba extremadamente decepcionada.",
+  "p": {
+   "head": "ES REAL",
+   "sub": "ROCKSTAR CONFIRMA EL ACCESO"
+  },
+  "caps": [
+   [
+    "rockstar",
+    "ROCKSTAR ^bHABLÓ"
+   ],
+   [
+    "permiso",
+    "ENTRÓ ^rSIN ^rPERMISO"
+   ],
+   [
+    "confidencial",
+    "INFORMACIÓN ^rCONFIDENCIAL"
+   ],
+   [
+    "decepcionada",
+    "\"^rEXTREMADAMENTE ^rDECEPCIONADA\""
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "impacto"
+   ],
+   [
+    0.25,
+    "swish"
+   ],
+   [
+    0.6,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "pantalla",
+  "titulo": "8_pantalla",
+  "texto": "Los videos eran reales. Pero eran de una versión muy temprana del juego. Rockstar aclaró que eso no iba a retrasar el desarrollo, y pidió que la gente esperara el juego de verdad.",
+  "p": {
+   "scr": "BETA",
+   "lines": [
+    "VERSIÓN TEMPRANA",
+    "NO ES EL FINAL"
+   ]
+  },
+  "caps": [
+   [
+    "reales",
+    "^lERAN ^lREALES"
+   ],
+   [
+    "temprana",
+    "VERSIÓN ^rTEMPRANA"
+   ],
+   [
+    "retrasar",
+    "^sRETRASO"
+   ],
+   [
+    "verdad",
+    "EL JUEGO ^lDE ^lVERDAD"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "bip"
+   ],
+   [
+    0.1,
+    "pop"
+   ],
+   [
+    0.45,
+    "fallo"
+   ],
+   [
+    0.8,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "borrar",
+  "titulo": "9_borrar",
+  "texto": "Take Two, la dueña de Rockstar, empezó a pedir que se borraran los clips de todas partes. Pero ya era tarde. Ya se habían visto millones de veces.",
+  "p": {
+   "n": 9
+  },
+  "caps": [
+   [
+    "take",
+    "^bTAKE-TWO"
+   ],
+   [
+    "borraran",
+    "BORRAR ^rTODO"
+   ],
+   [
+    "tarde",
+    "YA ERA ^rTARDE"
+   ],
+   [
+    "millones",
+    "^rMILLONES ^rDE ^rVECES"
+   ]
+  ],
+  "sfx": [
+   [
+    0.15,
+    "fallo"
+   ],
+   [
+    0.21,
+    "pop"
+   ],
+   [
+    0.27,
+    "pop"
+   ],
+   [
+    0.33,
+    "fallo"
+   ],
+   [
+    0.39,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.51,
+    "fallo"
+   ],
+   [
+    0.57,
+    "pop"
+   ],
+   [
+    0.63,
+    "pop"
+   ],
+   [
+    0.69,
+    "fallo"
+   ]
+  ]
+ },
+ {
+  "tipo": "figura",
+  "titulo": "10_figura",
+  "texto": "Entonces vino la pregunta que todos se hacían. ¿Quién había sido? ¿Un empleado molesto? ¿Un grupo de hackers profesionales? La respuesta era mucho más rara.",
+  "p": {
+   "tag": "?"
+  },
+  "caps": [
+   [
+    "quien",
+    "^r¿QUIÉN?"
+   ],
+   [
+    "empleado",
+    "¿UN ^bEMPLEADO?"
+   ],
+   [
+    "profesionales",
+    "¿^bPROFESIONALES?"
+   ],
+   [
+    "rara",
+    "MUCHO ^lMÁS ^lRARA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "figura",
+  "titulo": "11_figura",
+  "texto": "Era un adolescente británico de diecisiete años. Formaba parte de Lapsus, un grupo que ya había atacado a empresas enormes de tecnología.",
+  "p": {
+   "tag": "17"
+  },
+  "caps": [
+   [
+    "adolescente",
+    "UN ^rADOLESCENTE"
+   ],
+   [
+    "diecisiete|17",
+    "^r17 AÑOS"
+   ],
+   [
+    "lapsus",
+    "GRUPO ^bLAPSUS$"
+   ],
+   [
+    "enormes",
+    "EMPRESAS ^lENORMES"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "red",
+  "titulo": "12_red",
+  "texto": "Y aquí viene lo increíble. Cuando entró a Rockstar, ya lo habían arrestado antes por otros ataques. Estaba en libertad bajo fianza, y le habían quitado su computador portátil.",
+  "p": {
+   "labels": [
+    "NVIDIA",
+    "BT / EE",
+    "ROCKSTAR"
+   ]
+  },
+  "caps": [
+   [
+    "increible",
+    "LO ^lINCREÍBLE"
+   ],
+   [
+    "arrestado",
+    "YA LO HABÍAN ^rARRESTADO"
+   ],
+   [
+    "fianza",
+    "BAJO ^bFIANZA"
+   ],
+   [
+    "portatil",
+    "SIN ^rPORTÁTIL"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "electrico"
+   ],
+   [
+    0.3,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.7,
+    "alarma"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuarto",
+  "titulo": "13_cuarto",
+  "texto": "Por su seguridad, la policía lo había alojado en un hotel cerca de Oxford, en Inglaterra. Sin computador, en teoría no podía hacer nada.",
+  "p": {
+   "scr": " ",
+   "lines": [
+    "HOTEL",
+    "BAJO PROTECCIÓN"
+   ]
+  },
+  "caps": [
+   [
+    "seguridad",
+    "POR SU ^bSEGURIDAD"
+   ],
+   [
+    "oxford",
+    "CERCA DE ^bOXFORD"
+   ],
+   [
+    "teoria",
+    "EN ^rTEORÍA"
+   ],
+   [
+    "nada",
+    "^rNADA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.4,
+    "bip"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ },
+ {
+  "tipo": "kit",
+  "titulo": "14_kit",
+  "texto": "Pero según se contó en el juicio, usó lo que tenía a mano. Un dispositivo de streaming, de esos que se conectan al televisor. Un teclado. Un mouse. Y un celular.",
+  "p": {
+   "items": [
+    "TV",
+    "STICK",
+    "TECLADO",
+    "MOUSE",
+    "CELULAR"
+   ]
+  },
+  "caps": [
+   [
+    "juicio",
+    "SEGÚN ^bEL ^bJUICIO"
+   ],
+   [
+    "streaming",
+    "UN ^lSTICK ^lDE ^lTV"
+   ],
+   [
+    "teclado",
+    "^lTECLADO"
+   ],
+   [
+    "celular",
+    "^lCELULAR"
+   ]
+  ],
+  "sfx": [
+   [
+    0.08,
+    "pop"
+   ],
+   [
+    0.22,
+    "pop"
+   ],
+   [
+    0.36,
+    "pop"
+   ],
+   [
+    0.5,
+    "pop"
+   ],
+   [
+    0.64,
+    "pop"
+   ],
+   [
+    0.85,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "chat",
+  "titulo": "15_chat",
+  "texto": "Con eso, entró a la aplicación de mensajes interna de Rockstar, donde trabajan sus empleados. Y desde adentro, sacó los videos.",
+  "p": {
+   "msgs": [
+    [
+     "equipo",
+     "subí el clip nuevo"
+    ],
+    [
+     "equipo",
+     "revisen la build"
+    ],
+    [
+     "???",
+     "hola"
+    ],
+    [
+     "???",
+     "tengo los videos"
+    ]
+   ]
+  },
+  "caps": [
+   [
+    "mensajes",
+    "EL ^bCHAT ^bINTERNO"
+   ],
+   [
+    "empleados",
+    "DE LOS ^bEMPLEADOS"
+   ],
+   [
+    "adentro",
+    "DESDE ^rADENTRO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "bip"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.65,
+    "pop"
+   ],
+   [
+    0.85,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "chat",
+  "titulo": "16_chat",
+  "texto": "Según la fiscalía, no se quedó ahí. Escribió en los canales de la empresa, y amenazó con publicar también el código del juego si no le respondían.",
+  "p": {
+   "msgs": [
+    [
+     "???",
+     "respondan"
+    ],
+    [
+     "???",
+     "o publico el código"
+    ],
+    [
+     "sistema",
+     "acceso cerrado"
+    ]
+   ]
+  },
+  "caps": [
+   [
+    "fiscalia",
+    "SEGÚN ^bLA ^bFISCALÍA"
+   ],
+   [
+    "canales",
+    "ESCRIBIÓ ^rADENTRO"
+   ],
+   [
+    "codigo",
+    "EL ^rCÓDIGO ^rDEL ^rJUEGO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "bip"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.65,
+    "pop"
+   ],
+   [
+    0.85,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "sirena",
+  "titulo": "17_sirena",
+  "texto": "Unos días después de la filtración, la policía de Londres lo arrestó otra vez en Oxfordshire. Esta vez, la cosa iba en serio.",
+  "p": {
+   "lines": [
+    "SEPTIEMBRE 2022",
+    "ARRESTO"
+   ]
+  },
+  "caps": [
+   [
+    "dias",
+    "DÍAS DESPUÉS"
+   ],
+   [
+    "londres",
+    "POLICÍA ^bDE ^bLONDRES"
+   ],
+   [
+    "otra",
+    "^rOTRA ^rVEZ"
+   ],
+   [
+    "serio",
+    "EN ^rSERIO"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "alarma"
+   ],
+   [
+    0.35,
+    "alarma"
+   ],
+   [
+    0.7,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "dinero",
+  "titulo": "18_dinero",
+  "texto": "¿Cuánto le costó a Rockstar? En el juicio, la empresa dijo que el ataque le costó unos cinco millones de dólares, y miles de horas de trabajo de su equipo.",
+  "p": {
+   "to": 5,
+   "suffix": " M US$",
+   "lines": [
+    "SEGÚN ROCKSTAR",
+    "EN EL JUICIO"
+   ]
+  },
+  "caps": [
+   [
+    "costo",
+    "¿CUÁNTO ^rCOSTÓ?"
+   ],
+   [
+    "cinco|5",
+    "^r~US$5 ^rMILLONES"
+   ],
+   [
+    "horas",
+    "^rMILES ^rDE ^rHORAS"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "clink"
+   ],
+   [
+    0.3,
+    "clink"
+   ],
+   [
+    0.45,
+    "tic"
+   ],
+   [
+    0.7,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuarto2",
+  "titulo": "19_cuarto2",
+  "texto": "Y hay un costo que no se mide en dinero. Durante años, cada persona del equipo trabajó sabiendo que su juego había salido a la luz antes de tiempo, en su peor versión.",
+  "p": {
+   "lines": [
+    "AÑOS DE TRABAJO"
+   ]
+  },
+  "caps": [
+   [
+    "dinero",
+    "NO ^bSE ^bMIDE"
+   ],
+   [
+    "equipo",
+    "EL ^bEQUIPO"
+   ],
+   [
+    "peor",
+    "SU ^rPEOR ^rVERSIÓN"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "tic"
+   ],
+   [
+    0.3,
+    "tic"
+   ],
+   [
+    0.55,
+    "tic"
+   ],
+   [
+    0.8,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "juez",
+  "titulo": "20_juez",
+  "texto": "Llegó el juicio. Pero antes, los médicos dijeron que no estaba en condiciones de enfrentarlo, por un diagnóstico de autismo. Así que el jurado no decidía si era culpable. Solo si había hecho los actos.",
+  "p": {
+   "text": "¿LO HIZO?",
+   "lines": [
+    "2023"
+   ]
+  },
+  "caps": [
+   [
+    "juicio",
+    "EL ^bJUICIO"
+   ],
+   [
+    "condiciones",
+    "NO ^rAPTO"
+   ],
+   [
+    "culpable",
+    "^sCULPABLE"
+   ],
+   [
+    "actos",
+    "SOLO ^lLOS ^lACTOS"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.35,
+    "impacto"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.85,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "juez",
+  "titulo": "21_juez",
+  "texto": "En agosto de dos mil veintitrés, el jurado decidió que sí. Él había hecho los ataques, incluido el de Rockstar.",
+  "p": {
+   "text": "SÍ",
+   "lines": [
+    "AGOSTO 2023"
+   ]
+  },
+  "caps": [
+   [
+    "agosto",
+    "^bAGOSTO ^b2023"
+   ],
+   [
+    "si",
+    "^lSÍ"
+   ],
+   [
+    "rockstar",
+    "INCLUIDO ^rROCKSTAR"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.35,
+    "impacto"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.85,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "juez",
+  "titulo": "22_juez",
+  "texto": "Y en diciembre llegó la decisión final. El juez dijo que seguía siendo un riesgo, porque había dicho que quería volver a hackear apenas pudiera. Lo envió a un hospital seguro, sin fecha de salida, hasta que los médicos dijeran lo contrario.",
+  "p": {
+   "text": "∞",
+   "lines": [
+    "DICIEMBRE 2023"
+   ]
+  },
+  "caps": [
+   [
+    "diciembre",
+    "^bDICIEMBRE ^b2023"
+   ],
+   [
+    "riesgo",
+    "UN ^rRIESGO"
+   ],
+   [
+    "hackear",
+    "VOLVER ^rA ^rHACKEAR"
+   ],
+   [
+    "hospital",
+    "HOSPITAL ^bSEGURO"
+   ],
+   [
+    "fecha",
+    "^rSIN ^rFECHA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "impacto"
+   ],
+   [
+    0.35,
+    "impacto"
+   ],
+   [
+    0.6,
+    "tic"
+   ],
+   [
+    0.85,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "calendario",
+  "titulo": "23_calendario",
+  "texto": "Pero la historia no terminó ahí. Según reportes de este año, salió de ese hospital, y su caso volvió a los tribunales. Mientras hago este video, ese proceso sigue.",
+  "p": {
+   "day": "?",
+   "month": "2026",
+   "year": "EN PROCESO"
+  },
+  "caps": [
+   [
+    "termino",
+    "NO ^rTERMINÓ"
+   ],
+   [
+    "reportes",
+    "SEGÚN ^bREPORTES"
+   ],
+   [
+    "tribunales",
+    "VOLVIÓ ^bA ^bTRIBUNALES"
+   ],
+   [
+    "sigue",
+    "^lSIGUE"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "figura",
+  "titulo": "24_figura",
+  "texto": "Y las filtraciones siguieron persiguiendo a Rockstar. En octubre de dos mil veinticinco, la empresa despidió a más de treinta empleados en Reino Unido y Canadá. Rockstar dijo que habían compartido información confidencial en un foro público.",
+  "p": {
+   "tag": "+30"
+  },
+  "caps": [
+   [
+    "persiguiendo",
+    "LAS FILTRACIONES ^rSIGUIERON"
+   ],
+   [
+    "octubre",
+    "^bOCTUBRE ^b2025"
+   ],
+   [
+    "treinta|30",
+    "^r+30 ^rDESPEDIDOS"
+   ],
+   [
+    "confidencial",
+    "SEGÚN ROCKSTAR: ^rFILTRARON"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.3,
+    "impacto"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "chat",
+  "titulo": "25_chat",
+  "texto": "Pero un sindicato británico dice otra cosa. Según el sindicato, ese foro era un grupo privado donde hablaban de sus condiciones de trabajo, y llevó el caso a los tribunales. Las dos versiones siguen enfrentadas.",
+  "p": {
+   "msgs": [
+    [
+     "rockstar",
+     "filtraron información"
+    ],
+    [
+     "sindicato",
+     "era un chat privado"
+    ],
+    [
+     "sistema",
+     "caso en tribunales"
+    ]
+   ]
+  },
+  "caps": [
+   [
+    "sindicato",
+    "EL ^bSINDICATO"
+   ],
+   [
+    "privado",
+    "UN GRUPO ^bPRIVADO"
+   ],
+   [
+    "condiciones",
+    "CONDICIONES ^lDE ^lTRABAJO"
+   ],
+   [
+    "enfrentadas",
+    "DOS ^rVERSIONES"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "bip"
+   ],
+   [
+    0.25,
+    "pop"
+   ],
+   [
+    0.45,
+    "pop"
+   ],
+   [
+    0.65,
+    "pop"
+   ],
+   [
+    0.85,
+    "pop"
+   ]
+  ]
+ },
+ {
+  "tipo": "calendario",
+  "titulo": "26_calendario",
+  "texto": "Mientras tanto, el juego se retrasó dos veces. Primero, de dos mil veinticinco a mayo de dos mil veintiséis. Y después, al diecinueve de noviembre de dos mil veintiséis, el día en que por fin salió.",
+  "p": {
+   "day": "19",
+   "month": "NOV",
+   "year": "2026"
+  },
+  "caps": [
+   [
+    "retraso",
+    "SE ^rRETRASÓ"
+   ],
+   [
+    "mayo",
+    "^s2025 → ^sMAYO ^s2026"
+   ],
+   [
+    "diecinueve|19",
+    "^l19 ^lNOV ^l2026"
+   ],
+   [
+    "salio",
+    "POR FIN ^lSALIÓ"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.2,
+    "swish"
+   ],
+   [
+    0.5,
+    "tic"
+   ],
+   [
+    0.75,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "tv",
+  "titulo": "27_tv",
+  "texto": "Ahora, lo curioso. Aquellos clips de dos mil veintidós, que muchos creyeron falsos, mostraban justo lo que después confirmó el tráiler. Vice City. Y una pareja protagonista, Jason y Lucía.",
+  "p": {
+   "scr": "2022",
+   "lines": [
+    "LO QUE SE VIO",
+    "ERA REAL"
+   ]
+  },
+  "caps": [
+   [
+    "curioso",
+    "LO ^lCURIOSO"
+   ],
+   [
+    "falsos",
+    "^sFALSOS"
+   ],
+   [
+    "trailer",
+    "EL ^bTRÁILER"
+   ],
+   [
+    "vice",
+    "^lVICE ^lCITY"
+   ],
+   [
+    "lucia",
+    "^rJASON ^bY ^bLUCÍA"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "electrico"
+   ],
+   [
+    0.2,
+    "bip"
+   ],
+   [
+    0.6,
+    "brillo"
+   ]
+  ]
+ },
+ {
+  "tipo": "contador",
+  "titulo": "28_contador",
+  "texto": "Y hasta el primer tráiler, en diciembre de dos mil veintitrés, se filtró. Una copia apareció en redes horas antes, y Rockstar lo tuvo que publicar antes de tiempo. Aun así, rompió récords de vistas en su primer día.",
+  "p": {
+   "to": 90,
+   "suffix": " M",
+   "lines": [
+    "~90 M DE VISTAS",
+    "EN 24 H (REPORTADO)"
+   ]
+  },
+  "caps": [
+   [
+    "primer",
+    "EL ^bPRIMER ^bTRÁILER"
+   ],
+   [
+    "filtro",
+    "TAMBIÉN ^rSE ^rFILTRÓ"
+   ],
+   [
+    "antes",
+    "^rANTES ^rDE ^rTIEMPO"
+   ],
+   [
+    "records|record",
+    "^lRÉCORD ^lDE ^lVISTAS"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ],
+   [
+    0.2,
+    "tic"
+   ],
+   [
+    0.35,
+    "tic"
+   ],
+   [
+    0.6,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "balanza2",
+  "titulo": "29_balanza2",
+  "texto": "Y aquí está el giro. Rockstar dijo en dos mil veintidós que la filtración no cambiaría nada. Y, a su manera, tuvo razón: el juego salió completo, cuatro años después, y la crítica le dio noventa y nueve.",
+  "p": {
+   "a": "2022",
+   "b": "2026"
+  },
+  "caps": [
+   [
+    "giro",
+    "EL ^lGIRO"
+   ],
+   [
+    "nada",
+    "\"NO CAMBIA ^lNADA\""
+   ],
+   [
+    "completo",
+    "^lCOMPLETO"
+   ],
+   [
+    "noventa|99",
+    "^l99 EN METACRITIC"
+   ]
+  ],
+  "sfx": [
+   [
+    0.05,
+    "pop"
+   ],
+   [
+    0.4,
+    "whoosh"
+   ],
+   [
+    0.55,
+    "brillo"
+   ],
+   [
+    0.8,
+    "ding"
+   ]
+  ]
+ },
+ {
+  "tipo": "lista2",
+  "titulo": "30_lista2",
+  "texto": "La lección es simple. Lo que se filtra casi nunca es el juego final. Son piezas sueltas, sin terminar, sacadas de contexto. Por eso, cuando veas una filtración, tómala como lo que es: un rumor, hasta que el estudio lo confirme.",
+  "p": {
+   "items": [
+    [
+     "PIEZAS SUELTAS",
+     "red"
+    ],
+    [
+     "SIN TERMINAR",
+     "red"
+    ],
+    [
+     "SIN CONTEXTO",
+     "red"
+    ],
+    [
+     "= RUMOR",
+     "lime"
+    ]
+   ]
+  },
+  "caps": [
+   [
+    "leccion",
+    "LA ^bLECCIÓN"
+   ],
+   [
+    "final",
+    "^sJUEGO ^sFINAL"
+   ],
+   [
+    "contexto",
+    "SIN ^rCONTEXTO"
+   ],
+   [
+    "rumor",
+    "FILTRACIÓN = ^rRUMOR"
+   ],
+   [
+    "confirme",
+    "HASTA QUE ^lSE ^lCONFIRME"
+   ]
+  ],
+  "sfx": [
+   [
+    0.08,
+    "pop"
+   ],
+   [
+    0.26,
+    "pop"
+   ],
+   [
+    0.44,
+    "pop"
+   ],
+   [
+    0.62,
+    "pop"
+   ],
+   [
+    0.85,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "cuarto",
+  "titulo": "31_cuarto",
+  "texto": "Cuéntame en los comentarios: ¿tú viste esos clips en dos mil veintidós? Porque todo empezó con un adolescente de diecisiete años, encerrado en un cuarto de hotel, frente a un televisor.",
+  "p": {
+   "scr": "?",
+   "lines": [
+    "¿LOS VISTE?"
+   ]
+  },
+  "caps": [
+   [
+    "comentarios",
+    "^bCOMENTARIOS"
+   ],
+   [
+    "viste",
+    "¿TÚ ^lLOS ^lVISTE?"
+   ],
+   [
+    "diecisiete|17",
+    "^r17 AÑOS"
+   ],
+   [
+    "televisor",
+    "FRENTE A ^lUN ^lTELEVISOR"
+   ]
+  ],
+  "sfx": [
+   [
+    0.03,
+    "whoosh"
+   ],
+   [
+    0.15,
+    "tic"
+   ],
+   [
+    0.4,
+    "bip"
+   ],
+   [
+    0.7,
+    "tic"
+   ]
+  ]
+ }
+]
