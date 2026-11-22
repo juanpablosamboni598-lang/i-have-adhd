@@ -1,0 +1,634 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Imagina que te despiertas, te miras al espejo… y no hay nadie. Eres invisible. Solo por veinticuatro horas. ¿Qué harías primero?",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5;cu",
+    "f": "Imagina que te despiertas, te miras al espejo…"
+   },
+   {
+    "v": "cuarto;fx:espejo",
+    "f": "y no hay nadie."
+   },
+   {
+    "v": "cuarto;X=sorprendido@0.5~inv;cu",
+    "f": "Eres invisible."
+   },
+   {
+    "v": "neutro;ui:24 HORAS",
+    "f": "Solo por veinticuatro horas."
+   },
+   {
+    "v": "neutro;X=pensando@0.5~inv",
+    "f": "¿Qué harías primero?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Qué pasaría si fueras invisible por 24 horas?",
+  "planos": [
+   {
+    "v": "tit",
+    "f": "¿Qué pasaría si fueras invisible por 24 horas?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": true,
+   "reloj": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Suena la alarma. Te estiras. Vas al baño medio dormido. Y en el espejo… solo está la pared. Te tocas la cara. Sí, ahí está. Pero no se ve. Por suerte, la ropa también desapareció. Eso hubiera sido un problema.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5",
+    "f": "Suena la alarma. Te estiras. Vas al baño medio dormido."
+   },
+   {
+    "v": "cuarto;fx:espejo",
+    "f": "Y en el espejo… solo está la pared."
+   },
+   {
+    "v": "cuarto;X=sorprendido@0.5~inv;cu",
+    "f": "Te tocas la cara. Sí, ahí está. Pero no se ve."
+   },
+   {
+    "v": "cuarto;X=pensando@0.5~inv",
+    "f": "Por suerte, la ropa también desapareció. Eso hubiera sido un problema."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "23:59"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Tu mamá abre la puerta: —¡Arriba, que llegas tarde! Mira la cama vacía. Mira debajo de la cama. —¿Ya se fue este niño sin desayunar? Estás a medio metro de ella. Aguantas la risa.",
+  "planos": [
+   {
+    "v": "cuarto;M=normal@0.62!saluda;X=normal@0.28~inv",
+    "f": "Tu mamá abre la puerta: —¡Arriba, que llegas tarde!"
+   },
+   {
+    "v": "cuarto;M=sorprendido@0.5;cu",
+    "f": "Mira la cama vacía. Mira debajo de la cama."
+   },
+   {
+    "v": "cuarto;M=enojado@0.5;cu",
+    "f": "—¿Ya se fue este niño sin desayunar?"
+   },
+   {
+    "v": "cuarto;X=riendo@0.5~inv;cu",
+    "f": "Estás a medio metro de ella. Aguantas la risa."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "23:40"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Pero tu perro no se deja engañar. Te huele. Le ladra al aire durante cinco minutos seguidos. —¿Y a este perro qué le pasa? —dice tu mamá.",
+  "planos": [
+   {
+    "v": "cocina;P=sorprendido@0.6;X=normal@0.25~inv",
+    "f": "Pero tu perro no se deja engañar. Te huele."
+   },
+   {
+    "v": "cocina;P=enojado@0.5",
+    "f": "Le ladra al aire durante cinco minutos seguidos."
+   },
+   {
+    "v": "cocina;M=pensando@0.6;P=enojado@0.3",
+    "f": "—¿Y a este perro qué le pasa? —dice tu mamá."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "23:20"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Tienes hambre. Agarras una tostada. Tu hermano levanta la vista y ve una tostada flotando en el aire. Una tostada. Flotando. Mordiéndose sola. —¡Mamá! ¡La tostada está embrujada! —Deja de inventar y come. Primer punto para el poder.",
+  "planos": [
+   {
+    "v": "cocina;X=normal@0.35~inv;fx:tostada",
+    "f": "Tienes hambre. Agarras una tostada."
+   },
+   {
+    "v": "cocina;H=sorprendido@0.62;X=normal@0.3~inv;fx:tostada",
+    "f": "Tu hermano levanta la vista y ve una tostada flotando en el aire."
+   },
+   {
+    "v": "cocina;H=sorprendido@0.5;cu",
+    "f": "Una tostada. Flotando. Mordiéndose sola."
+   },
+   {
+    "v": "cocina;H=llorando@0.4;M=enojado@0.7",
+    "f": "—¡Mamá! ¡La tostada está embrujada! —Deja de inventar y come."
+   },
+   {
+    "v": "cocina;X=riendo@0.5~inv;cu",
+    "f": "Primer punto para el poder."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "23:05"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En la calle te das cuenta de algo: nadie te ve, así que nadie te juzga. Bailas en la acera. Haces caras. Cantas en voz alta. El señor del kiosco escucha una canción que sale de la nada y se persigna. Una paloma camina directo hacia ti, choca con tu zapato y se queda mirándote como si hubiera visto un fantasma. Llegas al colegio. La directora vigila la puerta como siempre. Pasas a su lado tarde, sin uniforme completo, y no pasa nada. Nada.",
+  "planos": [
+   {
+    "v": "calle;X=riendo@0.5~inv",
+    "f": "En la calle te das cuenta de algo: nadie te ve, así que nadie te juzga."
+   },
+   {
+    "v": "calle;X=riendo@0.5~inv;cu",
+    "f": "Bailas en la acera. Haces caras. Cantas en voz alta."
+   },
+   {
+    "v": "calle;K=sorprendido@0.6;X=riendo@0.25~inv",
+    "f": "El señor del kiosco escucha una canción que sale de la nada y se persigna."
+   },
+   {
+    "v": "calle;X=riendo@0.5~inv",
+    "f": "Una paloma camina directo hacia ti, choca con tu zapato y se queda mirándote como si hubiera visto un fantasma."
+   },
+   {
+    "v": "entrada;D=enojado@0.6;X=normal@0.25~inv",
+    "f": "Llegas al colegio. La directora vigila la puerta como siempre."
+   },
+   {
+    "v": "entrada;X=riendo@0.5~inv;cu",
+    "f": "Pasas a su lado tarde, sin uniforme completo, y no pasa nada. Nada."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "22:30"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En clase el profesor pasa lista. Dice tu nombre. Nadie responde. —Ausente. Otra vez. Y entonces lo ves: sobre su escritorio, las respuestas del examen de mañana. Nadie te vería. Nadie lo sabría nunca. Lo piensas un segundo… y te alejas del escritorio. Ser invisible no te convierte en otra persona. Solo hace más fácil que se note quién eres de verdad.",
+  "planos": [
+   {
+    "v": "salon;T=normal@0.6;X=normal@0.25~inv",
+    "f": "En clase el profesor pasa lista. Dice tu nombre. Nadie responde."
+   },
+   {
+    "v": "salon;T=enojado@0.5;cu;ui:AUSENTE",
+    "f": "—Ausente. Otra vez."
+   },
+   {
+    "v": "salon;X=pensando@0.5~inv;fx:examen",
+    "f": "Y entonces lo ves: sobre su escritorio, las respuestas del examen de mañana."
+   },
+   {
+    "v": "salon;X=pensando@0.5~inv;cu",
+    "f": "Nadie te vería. Nadie lo sabría nunca."
+   },
+   {
+    "v": "salon;X=normal@0.5~inv",
+    "f": "Lo piensas un segundo… y te alejas del escritorio."
+   },
+   {
+    "v": "salon;X=riendo@0.5~inv;cu",
+    "f": "Ser invisible no te convierte en otra persona. Solo hace más fácil que se note quién eres de verdad."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "20:15"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Claro que no todo es tan noble. Hay que aprovechar un poco. Le escondes la tiza al profesor. Él busca en su bolsillo, en el escritorio, debajo de la silla. Se la devuelves justo delante de él, sobre el libro. El profesor la mira, se quita las gafas, se las vuelve a poner… y decide que mejor hoy da clase sin tiza. Media clase se ríe sin saber de qué. Y tú te ríes más fuerte que todos, porque nadie te escucha.",
+  "planos": [
+   {
+    "v": "salon;T=normal@0.6;X=riendo@0.25~inv",
+    "f": "Claro que no todo es tan noble. Hay que aprovechar un poco."
+   },
+   {
+    "v": "salon;T=sorprendido@0.5;cu",
+    "f": "Le escondes la tiza al profesor. Él busca en su bolsillo, en el escritorio, debajo de la silla."
+   },
+   {
+    "v": "salon;X=riendo@0.5~inv;cu",
+    "f": "Se la devuelves justo delante de él, sobre el libro."
+   },
+   {
+    "v": "salon;T=sorprendido@0.6;X=riendo@0.25~inv",
+    "f": "El profesor la mira, se quita las gafas, se las vuelve a poner… y decide que mejor hoy da clase sin tiza."
+   },
+   {
+    "v": "salon;C=riendo@0.4;MT=riendo@0.72",
+    "f": "Media clase se ríe sin saber de qué. Y tú te ríes más fuerte que todos, porque nadie te escucha."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "19:30"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En el almuerzo descubres el lado malo: no puedes comprar comida. Intentas pedir una pizza. La señora de la cafetería escucha una voz, grita y cierra la ventanilla. Te sientas junto a Camila, como siempre. Ella deja un pedazo de pan en tu lugar vacío, por costumbre. Te lo comes. Ella mira el plato vacío, frunce el ceño… y sonríe como si supiera algo. —Qué raro —dice—. Juraría que hoy estás aquí.",
+  "planos": [
+   {
+    "v": "comedor;X=normal@0.5~inv",
+    "f": "En el almuerzo descubres el lado malo: no puedes comprar comida."
+   },
+   {
+    "v": "comedor;X=preocupado@0.5~inv;cu",
+    "f": "Intentas pedir una pizza. La señora de la cafetería escucha una voz, grita y cierra la ventanilla."
+   },
+   {
+    "v": "comedor;C=normal@0.62;X=normal@0.28~inv",
+    "f": "Te sientas junto a Camila, como siempre. Ella deja un pedazo de pan en tu lugar vacío, por costumbre."
+   },
+   {
+    "v": "comedor;X=sonrojado@0.5~inv;cu",
+    "f": "Te lo comes. Ella mira el plato vacío, frunce el ceño… y sonríe como si supiera algo."
+   },
+   {
+    "v": "comedor;C=pensando@0.5;cu",
+    "f": "—Qué raro —dice—. Juraría que hoy estás aquí."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "18:50"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En el pasillo pasa algo que no esperabas: escuchas lo que dicen de ti cuando no estás. Mateo, el popular, dice: —El de la gorra es buena gente. El otro día me ayudó con mates. Mateo. Sabe que existes. Camila mira tu silla vacía y dice: —Qué raro que no vino. Le voy a escribir. Tu celular vibra en tu bolsillo. \"¿Estás bien?\". Es ella.",
+  "planos": [
+   {
+    "v": "pasillo;MT=normal@0.3;C=normal@0.68;X=normal@0.5~inv",
+    "f": "En el pasillo pasa algo que no esperabas: escuchas lo que dicen de ti cuando no estás."
+   },
+   {
+    "v": "pasillo;MT=riendo@0.5;cu",
+    "f": "Mateo, el popular, dice: —El de la gorra es buena gente. El otro día me ayudó con mates."
+   },
+   {
+    "v": "pasillo;X=sorprendido@0.5~inv;cu",
+    "f": "Mateo. Sabe que existes."
+   },
+   {
+    "v": "pasillo;C=preocupado@0.5;cu",
+    "f": "Camila mira tu silla vacía y dice: —Qué raro que no vino. Le voy a escribir."
+   },
+   {
+    "v": "pasillo;X=sonrojado@0.5~inv",
+    "f": "Tu celular vibra en tu bolsillo. \"¿Estás bien?\". Es ella."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "17:40"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En la biblioteca está Sofía, en la mesa de siempre, dibujando. Te acercas despacio. Por primera vez puedes mirar su cuaderno sin que lo cierre de golpe. Es un dibujo tuyo. Con la gorra. Sonriendo. Ella suspira y dice bajito: —Ojalá hubiera venido hoy. Sin pensarlo, respondes: —Aquí estoy. Sofía da un salto, mira a todos lados… y no ve a nadie. Sales corriendo antes de arruinarlo más.",
+  "planos": [
+   {
+    "v": "biblio;S=normal@0.62;X=normal@0.28~inv",
+    "f": "En la biblioteca está Sofía, en la mesa de siempre, dibujando."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5~inv",
+    "f": "Te acercas despacio. Por primera vez puedes mirar su cuaderno sin que lo cierre de golpe."
+   },
+   {
+    "v": "neutro;fx:dibujos",
+    "f": "Es un dibujo tuyo. Con la gorra. Sonriendo."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;cu",
+    "f": "Ella suspira y dice bajito: —Ojalá hubiera venido hoy."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5~inv;cu",
+    "f": "Sin pensarlo, respondes: —Aquí estoy."
+   },
+   {
+    "v": "biblio;S=sorprendido@0.5;cu",
+    "f": "Sofía da un salto, mira a todos lados… y no ve a nadie."
+   },
+   {
+    "v": "biblio;X=preocupado@0.5~inv",
+    "f": "Sales corriendo antes de arruinarlo más."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "14:20"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Por la tarde, la gracia se acaba. Nadie te habla. Nadie te mira. Comes solo. Caminas solo. Y empiezas a pensar: ¿y si no vuelvo? ¿Y si me quedo así para siempre? Escuchas a tu mamá llamando a tus amigos, preguntando por ti, con la voz cada vez más nerviosa. Le gritas que estás ahí. Que estás bien. Pero ella no te escucha. O no quiere creer lo que escucha. Ser invisible sonaba increíble. Hasta que entiendes que lo mejor de existir es que alguien te vea.",
+  "planos": [
+   {
+    "v": "noche;X=preocupado@0.5~inv",
+    "f": "Por la tarde, la gracia se acaba."
+   },
+   {
+    "v": "noche;X=pensando@0.5~inv;cu",
+    "f": "Nadie te habla. Nadie te mira. Comes solo. Caminas solo."
+   },
+   {
+    "v": "noche;X=preocupado@0.5~inv;cu",
+    "f": "Y empiezas a pensar: ¿y si no vuelvo? ¿Y si me quedo así para siempre?"
+   },
+   {
+    "v": "cuarto;M=preocupado@0.5;cu",
+    "f": "Escuchas a tu mamá llamando a tus amigos, preguntando por ti, con la voz cada vez más nerviosa."
+   },
+   {
+    "v": "cuarto;X=llorando@0.5~inv;cu",
+    "f": "Le gritas que estás ahí. Que estás bien. Pero ella no te escucha. O no quiere creer lo que escucha."
+   },
+   {
+    "v": "neutro;ui:¿Y SI NO VUELVO?",
+    "f": "Ser invisible sonaba increíble. Hasta que entiendes que lo mejor de existir es que alguien te vea."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "08:00"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "De regreso a casa ves a tu hermano jugando con una pelota cerca de la calle. La pelota rueda hacia la pista. Él corre detrás sin mirar. Un carro viene a toda velocidad. No lo piensas. Corres más rápido que nunca y lo jalas hacia la acera. El carro pasa a centímetros. Tu hermano mira alrededor, temblando, sin entender quién lo salvó. Y dice, bajito: —Gracias… seas quien seas.",
+  "planos": [
+   {
+    "v": "calle;H=riendo@0.4;X=normal@0.75~inv",
+    "f": "De regreso a casa ves a tu hermano jugando con una pelota cerca de la calle."
+   },
+   {
+    "v": "calle;H=riendo@0.5;fx:pelota",
+    "f": "La pelota rueda hacia la pista. Él corre detrás sin mirar."
+   },
+   {
+    "v": "calle;H=sorprendido@0.5;cu",
+    "f": "Un carro viene a toda velocidad."
+   },
+   {
+    "v": "calle;X=enojado@0.5~inv;cu",
+    "f": "No lo piensas. Corres más rápido que nunca y lo jalas hacia la acera."
+   },
+   {
+    "v": "calle;H=llorando@0.5;cu",
+    "f": "El carro pasa a centímetros. Tu hermano mira alrededor, temblando, sin entender quién lo salvó."
+   },
+   {
+    "v": "calle;H=llorando@0.4;X=llorando@0.7~inv",
+    "f": "Y dice, bajito: —Gracias… seas quien seas."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "04:10"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Esa noche te sientas en tu cama a esperar. Once y cincuenta y nueve. Tres… dos… uno… Un cosquilleo te recorre el cuerpo. Miras tus manos. Ahí están. Bajas corriendo y abrazas a tu mamá tan fuerte que casi se le cae el café. Tu perro, por fin, deja de ladrarle al aire.",
+  "planos": [
+   {
+    "v": "noche;X=pensando@0.5~inv",
+    "f": "Esa noche te sientas en tu cama a esperar."
+   },
+   {
+    "v": "noche;fx:cuenta",
+    "f": "Once y cincuenta y nueve. Tres… dos… uno…"
+   },
+   {
+    "v": "noche;X=sorprendido@0.5;fx:brillo",
+    "f": "Un cosquilleo te recorre el cuerpo. Miras tus manos. Ahí están."
+   },
+   {
+    "v": "cuarto;M=llorando@0.62!saluda;X=riendo@0.3",
+    "f": "Bajas corriendo y abrazas a tu mamá tan fuerte que casi se le cae el café."
+   },
+   {
+    "v": "cocina;P=riendo@0.5",
+    "f": "Tu perro, por fin, deja de ladrarle al aire."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": "00:00"
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Al día siguiente le respondes a Camila. Le das las gracias a Mateo. Y a Sofía le dices: —Ayer sí vine. Solo que no me viste. Ella se ríe sin entender nada. Pero sonríe. Porque no necesitas ser invisible para descubrir quién te quiere. Solo necesitas fijarte. Y tú, si fueras invisible por veinticuatro horas, ¿qué harías primero? Te leo en los comentarios.",
+  "planos": [
+   {
+    "v": "salon;X=riendo@0.3;C=riendo@0.68",
+    "f": "Al día siguiente le respondes a Camila. Le das las gracias a Mateo."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.3;S=sonrojado@0.68",
+    "f": "Y a Sofía le dices: —Ayer sí vine. Solo que no me viste."
+   },
+   {
+    "v": "biblio;S=riendo@0.5;cu",
+    "f": "Ella se ríe sin entender nada. Pero sonríe."
+   },
+   {
+    "v": "patio;X=riendo@0.5;fx:brillo",
+    "f": "Porque no necesitas ser invisible para descubrir quién te quiere. Solo necesitas fijarte."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;ui:¿QUÉ HARÍAS TÚ?",
+    "f": "Y tú, si fueras invisible por veinticuatro horas, ¿qué harías primero? Te leo en los comentarios."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "reloj": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ }
+]
