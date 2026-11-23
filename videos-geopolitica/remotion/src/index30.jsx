@@ -255,12 +255,22 @@ const Scene = ({ i, at }) => {
   </AbsoluteFill>;
 };
 const Thumb = () => <AbsoluteFill style={{ background: '#16121F' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
-  <BlurG s={8}>{SETS.calle(1).bg}</BlurG><rect width={W} height={H} fill="#FF7AB0" opacity="0.12" /><Glow x={1280} y={420} r={560} c="#FF9AC8" o={0.55} />
-  <Char k="S" exp="sorprendido" pose="manos" x={1300} y={560} s={1.4} t={0.4} />
-  <Char k="X" exp="sonrojado" x={600} y={560} s={1.4} t={0.2} /><g transform="translate(880 520) scale(1.3) rotate(-20)"><Tostada x={0} y={0} t={0.3} /></g>
-  {[0, 1, 2].map((k) => <g key={k} transform={`translate(${120 + k * 70} ${170 - k * 20}) rotate(${-18 + k * 8})`}><rect x="-16" y="-80" width="32" height="110" rx="14" fill="#E8344A" stroke={OUT} strokeWidth="7" /><circle cx="0" cy="62" r="18" fill="#E8344A" stroke={OUT} strokeWidth="7" /></g>)}
-  <text x="960" y="1010" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="128" fill="#FFD23F" stroke={OUT} strokeWidth="22" paintOrder="stroke">¿HOLA… TOSTADA?</text>
-  <Vignette o={0.45} /></svg></AbsoluteFill>;
+  <defs><linearGradient id="atar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stopColor="#FF9A7A" /><stop offset="0.55" stopColor="#FFC2A0" /><stop offset="1" stopColor="#FF8AB8" /></linearGradient></defs>
+  <rect width={W} height={H} fill="url(#atar)" /><circle cx="960" cy="640" r="260" fill="#FFE9B0" opacity="0.8" /><Glow x={960} y={600} r={700} c="#FFE2B0" o={0.7} />
+  <BlurG s={6}>{[[0, 300, '#E88A7A'], [330, 240, '#F0A08A'], [1500, 280, '#E88A9A'], [1720, 220, '#F0A8A0']].map(([x, h, c], k) => <rect key={k} x={x} y={1080 - h - 260} width="320" height={h + 260} fill={c} opacity="0.75" />)}</BlurG>
+  <BlurG s={14}>{Array.from({ length: 18 }).map((_, k) => <circle key={k} cx={(k * 331) % W} cy={(k * 197) % 900} r={24 + (k % 4) * 18} fill={k % 2 ? '#FFF0F6' : '#FFE2A0'} opacity={0.35} />)}</BlurG>
+  {Array.from({ length: 22 }).map((_, k) => <ellipse key={k} cx={(k * 257 + 90) % W} cy={(k * 149 + 60) % 1000} rx="14" ry="8" fill="#FFB8D0" stroke="#E88AA8" strokeWidth="2" transform={`rotate(${k * 37} ${(k * 257 + 90) % W} ${(k * 149 + 60) % 1000})`} />)}
+  <Char k="X" exp="sonrojado" x={600} y={600} s={1.55} t={0.2} />
+  <Char k="S" exp="sonrojado" pose="manos" x={1320} y={600} s={1.55} t={0.5} />
+  <g transform="translate(960 870) rotate(-3)"><rect x="-230" y="-120" width="460" height="230" rx="12" fill="#FFFDF6" stroke={OUT} strokeWidth="7" /><rect x="-6" y="-120" width="12" height="230" fill="#E8E0D0" />
+    <g transform="translate(-110 -10) scale(0.4)" style={{ filter: 'grayscale(1) contrast(1.3)' }}><Raw html={CH.X.h.sonrojado} /></g><path d="M110 20 C80 -10 100 -40 120 -22 C140 -40 160 -10 130 20 L120 30Z" fill="#FF4F7B" />
+    <ellipse cx="-250" cy="0" rx="34" ry="30" fill="url(#skA_X)" stroke={OUT} strokeWidth="6" /><ellipse cx="250" cy="0" rx="32" ry="28" fill="url(#skA_S)" stroke={OUT} strokeWidth="6" /></g>
+  <g transform="translate(960 330)"><Glow x={0} y={0} r={240} c="#FF7AB0" o={0.6} /><path d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" transform="scale(2.6)" fill="#FF4F7B" stroke={OUT} strokeWidth="2.5" /><path d="M-50 -110 q-30 14 -30 50" stroke="#fff" strokeWidth="12" fill="none" strokeLinecap="round" opacity="0.7" /></g>
+  {[[820, 200, 0.5], [1110, 180, 0.6], [760, 420, 0.4], [1180, 440, 0.45]].map(([x, y, sc], k) => <path key={k} transform={`translate(${x} ${y}) scale(${sc})`} d="M0 36 C-60 -10 -48 -70 0 -44 C48 -70 60 -10 0 36Z" fill="#FF8AB0" stroke={OUT} strokeWidth="5" />)}
+  {[[700, 140, 20], [1250, 150, 16], [880, 520, 12], [1060, 540, 14], [520, 300, 14], [1420, 300, 18]].map(([x, y, r], k) => <path key={k} transform={`translate(${x} ${y})`} d={`M0 ${-r} Q0 0 ${r} 0 Q0 0 0 ${r} Q0 0 ${-r} 0 Q0 0 0 ${-r}Z`} fill="#FFFFFF" />)}
+  <g transform="translate(1600 900) rotate(18) scale(0.9)"><Tostada x={0} y={0} t={0.3} /></g>
+  <text x="960" y="1050" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="118" fill="#FFD23F" stroke={OUT} strokeWidth="20" paintOrder="stroke" style={{ filter: 'drop-shadow(0 0 16px rgba(255,120,180,0.8))' }}>¿HOLA… TOSTADA?</text>
+  <Vignette o={0.35} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V30-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
