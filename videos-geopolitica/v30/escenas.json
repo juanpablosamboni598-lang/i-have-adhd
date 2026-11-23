@@ -1,0 +1,605 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Imagina esto. Llevas seis meses enamorado de Sofía. Seis meses mirándola de lejos en la biblioteca. Seis meses ensayando un \"hola\" que nunca dices. Sabes qué libros lee. Sabes que se sienta junto a la ventana. Sabes que dibuja cuando cree que nadie la ve. Y hoy, por fin, la vas a ver frente a frente. El problema es que hoy… todo te va a salir mal.",
+  "planos": [
+   {
+    "v": "biblio;S=normal@0.62;X=sonrojado@0.28",
+    "f": "Imagina esto. Llevas seis meses enamorado de Sofía."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5;cu",
+    "f": "Seis meses mirándola de lejos en la biblioteca. Seis meses ensayando un \"hola\" que nunca dices."
+   },
+   {
+    "v": "biblio;S=normal@0.5;cu",
+    "f": "Sabes qué libros lee. Sabes que se sienta junto a la ventana. Sabes que dibuja cuando cree que nadie la ve."
+   },
+   {
+    "v": "neutro;X=normal@0.5",
+    "f": "Y hoy, por fin, la vas a ver frente a frente."
+   },
+   {
+    "v": "neutro;X=sorprendido@0.5;cu",
+    "f": "El problema es que hoy… todo te va a salir mal."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "0%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Qué pasaría si te encontraras con tu crush en el peor momento?",
+  "planos": [
+   {
+    "v": "tit",
+    "f": "¿Qué pasaría si te encontraras con tu crush en el peor momento?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": true,
+   "chip": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Suena la alarma. Son las siete y cuarenta. Tu clase empieza a las ocho. Saltas de la cama como si el piso quemara. Te pones lo primero que encuentras: la gorra de siempre, la sudadera verde… y un calcetín de cada color. Sales corriendo con una tostada en la boca, como en las películas. Solo que en las películas no te muerde un perro la mochila.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5;fx:alarma",
+    "f": "Suena la alarma. Son las siete y cuarenta. Tu clase empieza a las ocho."
+   },
+   {
+    "v": "cuarto;X=sorprendido@0.5;cu",
+    "f": "Saltas de la cama como si el piso quemara."
+   },
+   {
+    "v": "cuarto;X=normal@0.5",
+    "f": "Te pones lo primero que encuentras: la gorra de siempre, la sudadera verde…"
+   },
+   {
+    "v": "neutro;fx:calcetines",
+    "f": "y un calcetín de cada color."
+   },
+   {
+    "v": "cocina;X=normal@0.4;fx:tostada",
+    "f": "Sales corriendo con una tostada en la boca, como en las películas."
+   },
+   {
+    "v": "cocina;P=enojado@0.6;X=sorprendido@0.25",
+    "f": "Solo que en las películas no te muerde un perro la mochila."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "10%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Doblas la esquina a toda velocidad y… ¡pum! Chocas con alguien. Libros por el suelo. Tu tostada vuela en cámara lenta… y aterriza, con la mantequilla hacia abajo, sobre un zapato blanco. Levantas la mirada. Pinza de estrella. Pelo largo. Cárdigan lila. Es Sofía.",
+  "planos": [
+   {
+    "v": "calle;X=sorprendido@0.4",
+    "f": "Doblas la esquina a toda velocidad y…"
+   },
+   {
+    "v": "calle;fx:choque",
+    "f": "¡pum! Chocas con alguien. Libros por el suelo."
+   },
+   {
+    "v": "calle;fx:tostada",
+    "f": "Tu tostada vuela en cámara lenta… y aterriza, con la mantequilla hacia abajo, sobre un zapato blanco."
+   },
+   {
+    "v": "calle;S=sorprendido@0.5;cu",
+    "f": "Levantas la mirada. Pinza de estrella. Pelo largo. Cárdigan lila."
+   },
+   {
+    "v": "calle;S=sorprendido@0.5",
+    "f": "Es Sofía."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "35%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Tu cerebro, que ensayó este momento quinientas veces, decide apagarse. Lo único que sale de tu boca es: —Hola… tostada. Ella te mira. Tú miras la tostada. La tostada no dice nada.",
+  "planos": [
+   {
+    "v": "calle;X=sorprendido@0.5;cu",
+    "f": "Tu cerebro, que ensayó este momento quinientas veces, decide apagarse."
+   },
+   {
+    "v": "calle;X=sonrojado@0.5;cu",
+    "f": "Lo único que sale de tu boca es: —Hola… tostada."
+   },
+   {
+    "v": "calle;S=pensando@0.62;X=sonrojado@0.28",
+    "f": "Ella te mira. Tú miras la tostada."
+   },
+   {
+    "v": "neutro;fx:tostada",
+    "f": "La tostada no dice nada."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "55%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Te agachas para recoger sus libros. Ella también. Sus cabezas chocan. —¡Perdón! —¡No, perdón tú! —No, yo dije perdón primero… Y ahí, entre los libros, ves algo: un cuaderno con dibujos. Muy buenos. De un chico con gorra. No le ves la cara al dibujo. Pero la gorra… se parece mucho a la tuya. Antes de que puedas preguntar, ella lo guarda rapidísimo, roja como un tomate, y se va. Tú te quedas en la acera con media tostada y una sola pregunta: ¿era yo?",
+  "planos": [
+   {
+    "v": "calle;X=preocupado@0.3;S=sorprendido@0.68",
+    "f": "Te agachas para recoger sus libros. Ella también. Sus cabezas chocan."
+   },
+   {
+    "v": "calle;S=sonrojado@0.5;cu",
+    "f": "—¡Perdón! —¡No, perdón tú! —No, yo dije perdón primero…"
+   },
+   {
+    "v": "neutro;fx:dibujos",
+    "f": "Y ahí, entre los libros, ves algo: un cuaderno con dibujos. Muy buenos. De un chico con gorra."
+   },
+   {
+    "v": "calle;X=pensando@0.5;cu",
+    "f": "No le ves la cara al dibujo. Pero la gorra… se parece mucho a la tuya."
+   },
+   {
+    "v": "calle;S=sonrojado@0.5;cu",
+    "f": "Antes de que puedas preguntar, ella lo guarda rapidísimo, roja como un tomate, y se va."
+   },
+   {
+    "v": "calle;X=pensando@0.5;fx:tostada",
+    "f": "Tú te quedas en la acera con media tostada y una sola pregunta: ¿era yo?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "60%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Llegas tarde a clase. Todos te miran. El profesor dice: —Hoy hacemos el trabajo en parejas. Y como llegaste tarde, te toca con la única que queda libre. Te das la vuelta. Es Sofía. Te sientas a su lado. Tu pierna empieza a temblar sola. Tu mano suda tanto que el lápiz se te resbala tres veces. Ella te pasa un pañuelo sin decir nada. Y sonríe un poquito. Ese \"poquito\" te dura toda la semana.",
+  "planos": [
+   {
+    "v": "salon;T=enojado@0.6;X=preocupado@0.25",
+    "f": "Llegas tarde a clase. Todos te miran."
+   },
+   {
+    "v": "salon;T=normal@0.5;cu",
+    "f": "El profesor dice: —Hoy hacemos el trabajo en parejas. Y como llegaste tarde, te toca con la única que queda libre."
+   },
+   {
+    "v": "salon;S=normal@0.5;cu",
+    "f": "Te das la vuelta. Es Sofía."
+   },
+   {
+    "v": "salon;X=preocupado@0.3;S=normal@0.68",
+    "f": "Te sientas a su lado. Tu pierna empieza a temblar sola."
+   },
+   {
+    "v": "salon;X=preocupado@0.5;cu",
+    "f": "Tu mano suda tanto que el lápiz se te resbala tres veces."
+   },
+   {
+    "v": "salon;S=riendo@0.5;cu",
+    "f": "Ella te pasa un pañuelo sin decir nada. Y sonríe un poquito."
+   },
+   {
+    "v": "salon;X=sonrojado@0.5;fx:brillo",
+    "f": "Ese \"poquito\" te dura toda la semana."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "65%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Para impresionarla, decides hablar de algo interesante. Te acuerdas de un video de ciencia y empiezas a explicar, muy seguro, cómo los pulpos tienen tres corazones. Hablas tan rápido y tan emocionado que no te das cuenta de que estás gritando. Toda la clase se queda en silencio. El profesor te mira: —¿Terminaste? Y desde el fondo alguien grita: —¡Se le nota que le gusta! Quieres que la Tierra te trague. Pero miras a Sofía… y no se está riendo de ti. Está tapándose la boca para no reírse contigo.",
+  "planos": [
+   {
+    "v": "salon;X=riendo@0.4",
+    "f": "Para impresionarla, decides hablar de algo interesante."
+   },
+   {
+    "v": "salon;X=riendo@0.5;cu;ui:3 CORAZONES",
+    "f": "Te acuerdas de un video de ciencia y empiezas a explicar, muy seguro, cómo los pulpos tienen tres corazones."
+   },
+   {
+    "v": "salon;X=riendo@0.5;cu",
+    "f": "Hablas tan rápido y tan emocionado que no te das cuenta de que estás gritando."
+   },
+   {
+    "v": "salon;T=enojado@0.6;X=sorprendido@0.25",
+    "f": "Toda la clase se queda en silencio. El profesor te mira: —¿Terminaste?"
+   },
+   {
+    "v": "salon;MT=riendo@0.5;cu",
+    "f": "Y desde el fondo alguien grita: —¡Se le nota que le gusta!"
+   },
+   {
+    "v": "salon;X=llorando@0.5;cu",
+    "f": "Quieres que la Tierra te trague."
+   },
+   {
+    "v": "salon;S=riendo@0.5;cu",
+    "f": "Pero miras a Sofía… y no se está riendo de ti. Está tapándose la boca para no reírse contigo."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "90%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Para terminar el trabajo, quedan en la cafetería de la esquina. Llegas veinte minutos antes. Practicas cómo sentarte. Cómo sostener la taza. Cómo parecer normal. Ella llega, se sienta, y lo primero que haces es tirar tu chocolate caliente encima de la mesa. Encima de tus apuntes. Encima de tu dignidad. Pero en vez de enojarse, Sofía saca su cuaderno para salvar la hoja… y sin querer lo deja abierto. Ahí están otra vez: la biblioteca, el parque, el chico de la gorra comiendo una tostada.",
+  "planos": [
+   {
+    "v": "comedor;X=normal@0.5",
+    "f": "Para terminar el trabajo, quedan en la cafetería de la esquina."
+   },
+   {
+    "v": "comedor;X=pensando@0.5;cu",
+    "f": "Llegas veinte minutos antes. Practicas cómo sentarte. Cómo sostener la taza. Cómo parecer normal."
+   },
+   {
+    "v": "comedor;S=normal@0.62;X=sorprendido@0.3;fx:chocolate",
+    "f": "Ella llega, se sienta, y lo primero que haces es tirar tu chocolate caliente encima de la mesa."
+   },
+   {
+    "v": "comedor;X=llorando@0.5;cu",
+    "f": "Encima de tus apuntes. Encima de tu dignidad."
+   },
+   {
+    "v": "comedor;S=sorprendido@0.5;cu",
+    "f": "Pero en vez de enojarse, Sofía saca su cuaderno para salvar la hoja… y sin querer lo deja abierto."
+   },
+   {
+    "v": "neutro;fx:dibujos",
+    "f": "Ahí están otra vez: la biblioteca, el parque, el chico de la gorra comiendo una tostada."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "95%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "—¿Ese… soy yo? —preguntas. Ella cierra el cuaderno de golpe: —Es… un personaje. Inventado. Muy feo. —Ah. Bueno. Tiene buena gorra. Por primera vez se ríen los dos al mismo tiempo. Y descubres que a ella también le gustan los documentales de animales raros, que odia las aceitunas y que también ensaya conversaciones en el espejo. Por un rato se te olvida que estás nervioso.",
+  "planos": [
+   {
+    "v": "comedor;X=sorprendido@0.5;cu",
+    "f": "—¿Ese… soy yo? —preguntas."
+   },
+   {
+    "v": "comedor;S=sonrojado@0.5;cu",
+    "f": "Ella cierra el cuaderno de golpe: —Es… un personaje. Inventado. Muy feo."
+   },
+   {
+    "v": "comedor;X=riendo@0.5;cu",
+    "f": "—Ah. Bueno. Tiene buena gorra."
+   },
+   {
+    "v": "comedor;X=riendo@0.3;S=riendo@0.68;fx:brillo",
+    "f": "Por primera vez se ríen los dos al mismo tiempo."
+   },
+   {
+    "v": "comedor;S=riendo@0.5;cu",
+    "f": "Y descubres que a ella también le gustan los documentales de animales raros, que odia las aceitunas y que también ensaya conversaciones en el espejo."
+   },
+   {
+    "v": "comedor;X=sonrojado@0.5",
+    "f": "Por un rato se te olvida que estás nervioso."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "40%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "A la salida, la ves hablando con Mateo, el capitán del equipo de fútbol. Él le da una carta. Tu corazón se cae al piso. Decides que ya está. Que no tienes oportunidad. Te pones los audífonos y caminas a casa bajo una lluvia que empezó justo en ese momento, porque claro, el universo también quiere drama.",
+  "planos": [
+   {
+    "v": "patio;S=normal@0.62;MT=sonrojado@0.3",
+    "f": "A la salida, la ves hablando con Mateo, el capitán del equipo de fútbol."
+   },
+   {
+    "v": "patio;MT=sonrojado@0.5;fx:carta;cu",
+    "f": "Él le da una carta."
+   },
+   {
+    "v": "patio;X=llorando@0.5;cu",
+    "f": "Tu corazón se cae al piso."
+   },
+   {
+    "v": "calle;X=llorando@0.5;fx:lluvia",
+    "f": "Decides que ya está. Que no tienes oportunidad."
+   },
+   {
+    "v": "calle;X=preocupado@0.5;fx:lluvia",
+    "f": "Te pones los audífonos y caminas a casa bajo una lluvia que empezó justo en ese momento, porque claro, el universo también quiere drama."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "70%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Al día siguiente encuentras algo dentro de tu casillero. Una hoja doblada. Un dibujo. Un chico con gorra, con una tostada en la boca, chocando con una chica con pinza de estrella. Abajo dice: \"La carta de Mateo era para mi amiga. Él es muy tímido. Como tú.\" \"Posdata: los pulpos sí tienen tres corazones. Lo busqué.\"",
+  "planos": [
+   {
+    "v": "pasillo;X=preocupado@0.5",
+    "f": "Al día siguiente encuentras algo dentro de tu casillero. Una hoja doblada."
+   },
+   {
+    "v": "neutro;fx:dibujos",
+    "f": "Un dibujo. Un chico con gorra, con una tostada en la boca, chocando con una chica con pinza de estrella."
+   },
+   {
+    "v": "pasillo;X=sorprendido@0.5;fx:carta;cu",
+    "f": "Abajo dice: \"La carta de Mateo era para mi amiga. Él es muy tímido. Como tú.\""
+   },
+   {
+    "v": "pasillo;X=riendo@0.5;cu",
+    "f": "\"Posdata: los pulpos sí tienen tres corazones. Lo busqué.\""
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "30%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Esta vez no ensayas nada. La buscas en la biblioteca, en la mesa de siempre. Te sientas frente a ella. Respiras. Y dices, por fin, bien clarito: —Hola, Sofía. Ella levanta la vista, sonríe y responde: —Hola… tostada. Los dos se ríen tan fuerte que la bibliotecaria los manda a callar. —¡Shhh!",
+  "planos": [
+   {
+    "v": "biblio;S=normal@0.65;X=normal@0.28",
+    "f": "Esta vez no ensayas nada. La buscas en la biblioteca, en la mesa de siempre."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5;cu",
+    "f": "Te sientas frente a ella. Respiras. Y dices, por fin, bien clarito: —Hola, Sofía."
+   },
+   {
+    "v": "biblio;S=riendo@0.5;cu",
+    "f": "Ella levanta la vista, sonríe y responde: —Hola… tostada."
+   },
+   {
+    "v": "biblio;X=riendo@0.3;S=riendo@0.68;fx:brillo",
+    "f": "Los dos se ríen tan fuerte que la bibliotecaria los manda a callar."
+   },
+   {
+    "v": "biblio;D=enojado@0.5;cu",
+    "f": "—¡Shhh!"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "5%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Y así, el peor día de tu vida se convirtió en el mejor. Porque a veces la persona que te gusta no necesita que seas perfecto. Solo necesita que seas tú… aunque llegues tarde, con un calcetín de cada color y sin tostada. ¿Y tú? ¿Qué es lo más vergonzoso que te ha pasado frente a tu crush? Te leo en los comentarios.",
+  "planos": [
+   {
+    "v": "patio;X=riendo@0.32;S=riendo@0.68;fx:brillo",
+    "f": "Y así, el peor día de tu vida se convirtió en el mejor."
+   },
+   {
+    "v": "patio;X=sonrojado@0.5;cu",
+    "f": "Porque a veces la persona que te gusta no necesita que seas perfecto. Solo necesita que seas tú…"
+   },
+   {
+    "v": "neutro;fx:calcetines",
+    "f": "aunque llegues tarde, con un calcetín de cada color y sin tostada."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;ui:¿TU PEOR MOMENTO?",
+    "f": "¿Y tú? ¿Qué es lo más vergonzoso que te ha pasado frente a tu crush? Te leo en los comentarios."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "VERGÜENZA",
+    "0%"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ }
+]
