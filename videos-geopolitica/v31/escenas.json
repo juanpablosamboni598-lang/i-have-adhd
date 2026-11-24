@@ -1,0 +1,630 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Imagina que la persona que te gusta pudiera escuchar todo lo que piensas. Todo. Cada pensamiento. Cada uno. El problema es que tú piensas en ella… todo el tiempo. Y no hay forma de apagarlo.",
+  "planos": [
+   {
+    "v": "salon;X=normal@0.3;S=normal@0.68",
+    "f": "Imagina que la persona que te gusta pudiera escuchar todo lo que piensas."
+   },
+   {
+    "v": "salon;X=sorprendido@0.5;cu",
+    "f": "Todo. Cada pensamiento. Cada uno."
+   },
+   {
+    "v": "salon;X=sonrojado@0.3;S=sorprendido@0.68;fx:rayo",
+    "f": "El problema es que tú piensas en ella… todo el tiempo."
+   },
+   {
+    "v": "neutro;X=preocupado@0.5;cu;th:no pienses en ella…",
+    "f": "Y no hay forma de apagarlo."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "¿Qué pasaría si tu crush pudiera escuchar tus pensamientos?",
+  "planos": [
+   {
+    "v": "tit",
+    "f": "¿Qué pasaría si tu crush pudiera escuchar tus pensamientos?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": true,
+   "chip": null
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Es un lunes normal. Llegas al colegio medio dormido, con la gorra torcida. Y ahí está Sofía, en la entrada, riéndose con sus amigas. Y piensas, sin querer: \"Qué bonita se ve hoy\". Sofía se da la vuelta de golpe. Te mira. Se pone roja como un tomate. —¿Qué dijiste? Tú no dijiste nada. Ni una palabra.",
+  "planos": [
+   {
+    "v": "entrada;X=normal@0.5",
+    "f": "Es un lunes normal. Llegas al colegio medio dormido, con la gorra torcida."
+   },
+   {
+    "v": "entrada;S=riendo@0.62;X=sonrojado@0.28",
+    "f": "Y ahí está Sofía, en la entrada, riéndose con sus amigas."
+   },
+   {
+    "v": "entrada;X=sonrojado@0.5;cu;th:qué bonita se ve hoy…",
+    "f": "Y piensas, sin querer: \"Qué bonita se ve hoy\"."
+   },
+   {
+    "v": "entrada;S=sorprendido@0.62;X=sorprendido@0.28;fx:rayo",
+    "f": "Sofía se da la vuelta de golpe. Te mira. Se pone roja como un tomate."
+   },
+   {
+    "v": "entrada;S=sonrojado@0.5;cu",
+    "f": "—¿Qué dijiste?"
+   },
+   {
+    "v": "entrada;X=sorprendido@0.5;cu",
+    "f": "Tú no dijiste nada. Ni una palabra."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "1",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En clase decides hacer una prueba. Te sientas detrás de ella y piensas, muy fuerte, una sola palabra. Pizza. Sofía se da la vuelta y susurra: —¿Pizza? Ay, no. Ella puede escuchar tus pensamientos. Solo ella. Y solo los tuyos.",
+  "planos": [
+   {
+    "v": "salon;X=pensando@0.5",
+    "f": "En clase decides hacer una prueba. Te sientas detrás de ella y piensas, muy fuerte, una sola palabra."
+   },
+   {
+    "v": "salon;X=pensando@0.5;cu;th:PIZZA",
+    "f": "Pizza."
+   },
+   {
+    "v": "salon;S=pensando@0.5;cu",
+    "f": "Sofía se da la vuelta y susurra: —¿Pizza?"
+   },
+   {
+    "v": "salon;X=sorprendido@0.5;cu",
+    "f": "Ay, no."
+   },
+   {
+    "v": "salon;X=preocupado@0.3;S=normal@0.68;fx:rayo",
+    "f": "Ella puede escuchar tus pensamientos. Solo ella. Y solo los tuyos."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "2",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Entras en pánico. Intentas no pensar en nada. Pero cuando intentas no pensar en algo… es lo único en lo que piensas. No pienses en su pelo. No pienses en su pinza de estrella. No pienses en cómo se ríe. Sofía se tapa la boca para no reírse.",
+  "planos": [
+   {
+    "v": "salon;X=preocupado@0.5;cu",
+    "f": "Entras en pánico. Intentas no pensar en nada."
+   },
+   {
+    "v": "salon;X=preocupado@0.5;cu;th:no pienses en su pelo…",
+    "f": "Pero cuando intentas no pensar en algo… es lo único en lo que piensas."
+   },
+   {
+    "v": "salon;X=llorando@0.5;cu;th:ni en su pinza de estrella…",
+    "f": "No pienses en su pelo. No pienses en su pinza de estrella. No pienses en cómo se ríe."
+   },
+   {
+    "v": "salon;S=riendo@0.5;cu",
+    "f": "Sofía se tapa la boca para no reírse."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "5",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "El profesor explica fracciones. Tú intentas concentrarte. Pero tu cerebro decide hacer poesía: \"Su pinza de estrella brilla… como ella\". Sofía suelta una carcajada en plena clase. —Señorita, ¿le parecen graciosas las fracciones? —No, profe… perdón.",
+  "planos": [
+   {
+    "v": "salon;T=normal@0.6;X=pensando@0.25",
+    "f": "El profesor explica fracciones. Tú intentas concentrarte."
+   },
+   {
+    "v": "salon;X=pensando@0.5;cu;th:su pinza brilla… como ella",
+    "f": "Pero tu cerebro decide hacer poesía: \"Su pinza de estrella brilla… como ella\"."
+   },
+   {
+    "v": "salon;S=riendo@0.5;cu",
+    "f": "Sofía suelta una carcajada en plena clase."
+   },
+   {
+    "v": "salon;T=enojado@0.5;cu",
+    "f": "—Señorita, ¿le parecen graciosas las fracciones?"
+   },
+   {
+    "v": "salon;S=sonrojado@0.62;X=sonrojado@0.28",
+    "f": "—No, profe… perdón."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "7",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Te hundes en tu silla y piensas, triste: \"Ojalá algún día me hablara\". Dos segundos después, un papelito cae sobre tu pupitre. Dice: \"Te estoy hablando, tonto\". Tu cerebro se apaga por completo. Y por primera vez en todo el día, no piensas en nada.",
+  "planos": [
+   {
+    "v": "salon;X=pensando@0.5;cu;th:ojalá me hablara…",
+    "f": "Te hundes en tu silla y piensas, triste: \"Ojalá algún día me hablara\"."
+   },
+   {
+    "v": "salon;S=normal@0.62;X=normal@0.28;fx:carta",
+    "f": "Dos segundos después, un papelito cae sobre tu pupitre."
+   },
+   {
+    "v": "neutro;fx:carta",
+    "f": "Dice: \"Te estoy hablando, tonto\"."
+   },
+   {
+    "v": "salon;X=sorprendido@0.5;cu",
+    "f": "Tu cerebro se apaga por completo. Y por primera vez en todo el día, no piensas en nada."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "9",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Y como el universo tiene sentido del humor, el profesor anuncia: —Hoy hay exposiciones. Empieza… usted. Te toca a ti. Delante de toda la clase. Delante de ella. Te paras frente al pizarrón. Te tiemblan las piernas. Y tu cabeza no ayuda: \"No la mires, no la mires, no la mires…\". La miras. Ella te levanta el pulgar. Y de repente, la exposición te sale perfecta. Sacas la mejor nota de la clase.",
+  "planos": [
+   {
+    "v": "salon;T=normal@0.5;cu",
+    "f": "Y como el universo tiene sentido del humor, el profesor anuncia: —Hoy hay exposiciones. Empieza… usted."
+   },
+   {
+    "v": "salon;X=sorprendido@0.5;cu",
+    "f": "Te toca a ti. Delante de toda la clase. Delante de ella."
+   },
+   {
+    "v": "salon;X=preocupado@0.5;ui:EXPOSICIÓN",
+    "f": "Te paras frente al pizarrón. Te tiemblan las piernas."
+   },
+   {
+    "v": "salon;X=preocupado@0.5;cu;th:no la mires, no la mires…",
+    "f": "Y tu cabeza no ayuda: \"No la mires, no la mires, no la mires…\"."
+   },
+   {
+    "v": "salon;S=riendo@0.5;cu",
+    "f": "La miras. Ella te levanta el pulgar."
+   },
+   {
+    "v": "salon;X=riendo@0.5;cu;th:¡me levantó el pulgar!",
+    "f": "Y de repente, la exposición te sale perfecta. Sacas la mejor nota de la clase."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "11",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Tu mejor amiga, Camila, te mira con los ojos entrecerrados. —Hoy estás rarísimo. Y Sofía no deja de mirarte. ¿Qué está pasando? Piensas: \"No le digas, no le digas\". Pero Camila te conoce desde el kínder. —Ay, por fin. Ya era hora de que ella se diera cuenta. Llevas meses suspirando como una novela.",
+  "planos": [
+   {
+    "v": "comedor;C=pensando@0.62;X=normal@0.28",
+    "f": "Tu mejor amiga, Camila, te mira con los ojos entrecerrados."
+   },
+   {
+    "v": "comedor;C=pensando@0.5;cu",
+    "f": "—Hoy estás rarísimo. Y Sofía no deja de mirarte. ¿Qué está pasando?"
+   },
+   {
+    "v": "comedor;X=sonrojado@0.5;cu;th:no le digas, no le digas…",
+    "f": "Piensas: \"No le digas, no le digas\". Pero Camila te conoce desde el kínder."
+   },
+   {
+    "v": "comedor;C=riendo@0.5;cu",
+    "f": "—Ay, por fin. Ya era hora de que ella se diera cuenta. Llevas meses suspirando como una novela."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "12",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En el recreo, Mateo, el capitán del equipo, se acerca a Sofía. —Oye, el sábado hay una fiesta en mi casa. ¿Quieres venir? Y tú, desde lejos, piensas sin poder evitarlo: \"Dile que no, dile que no, dile que no\". Y luego, más bajito: \"No… mejor que haga lo que la haga feliz\". Sofía escuchó las dos cosas. Le sonríe a Mateo y le dice: —Gracias, pero el sábado ya tengo planes.",
+  "planos": [
+   {
+    "v": "patio;MT=riendo@0.3;S=normal@0.68",
+    "f": "En el recreo, Mateo, el capitán del equipo, se acerca a Sofía."
+   },
+   {
+    "v": "patio;MT=sonrojado@0.5;cu",
+    "f": "—Oye, el sábado hay una fiesta en mi casa. ¿Quieres venir?"
+   },
+   {
+    "v": "patio;X=enojado@0.5;cu;th:dile que no…",
+    "f": "Y tú, desde lejos, piensas sin poder evitarlo: \"Dile que no, dile que no, dile que no\"."
+   },
+   {
+    "v": "patio;X=preocupado@0.5;cu;th:…o mejor que sea feliz",
+    "f": "Y luego, más bajito: \"No… mejor que haga lo que la haga feliz\"."
+   },
+   {
+    "v": "patio;S=pensando@0.62;X=preocupado@0.28;fx:rayo",
+    "f": "Sofía escuchó las dos cosas."
+   },
+   {
+    "v": "patio;S=riendo@0.5;cu",
+    "f": "Le sonríe a Mateo y le dice: —Gracias, pero el sábado ya tengo planes."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "13",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En la cafetería se te ocurre un plan genial para esconder tus pensamientos. Cantas el abecedario en tu cabeza. Una y otra vez. Sofía pasa junto a tu mesa y te susurra: —Te saltaste la eme. Ya está. Lo sabe. Sabe que puedes saber que ella sabe.",
+  "planos": [
+   {
+    "v": "comedor;X=normal@0.5",
+    "f": "En la cafetería se te ocurre un plan genial para esconder tus pensamientos."
+   },
+   {
+    "v": "comedor;X=riendo@0.5;cu;th:A, B, C, D, E…",
+    "f": "Cantas el abecedario en tu cabeza. Una y otra vez."
+   },
+   {
+    "v": "comedor;S=riendo@0.62;X=riendo@0.28",
+    "f": "Sofía pasa junto a tu mesa y te susurra: —Te saltaste la eme."
+   },
+   {
+    "v": "comedor;X=llorando@0.5;cu",
+    "f": "Ya está. Lo sabe. Sabe que puedes saber que ella sabe."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "15",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Sales corriendo del colegio. Caminas a casa repasando todo lo que pensaste hoy. Lo bonita que se ve. Lo de la pizza. Lo de Mateo. Cada pensamiento te da más vergüenza que el anterior. Si pudieras, te mudarías a otro país. A otro planeta. Tu mamá te ve entrar empapado y te pregunta qué te pasó. Le dices que nada. Ella no te cree, pero te prepara chocolate caliente igual. Te tiras en la cama y piensas: \"Ya arruiné todo\". Pero entonces se te ocurre algo. Si ella puede escuchar lo que piensas… también puede escuchar la verdad completa.",
+  "planos": [
+   {
+    "v": "pasillo;X=llorando@0.5",
+    "f": "Sales corriendo del colegio."
+   },
+   {
+    "v": "calle;X=preocupado@0.5;fx:lluvia",
+    "f": "Caminas a casa repasando todo lo que pensaste hoy. Lo bonita que se ve. Lo de la pizza. Lo de Mateo."
+   },
+   {
+    "v": "calle;X=llorando@0.5;cu;fx:lluvia",
+    "f": "Cada pensamiento te da más vergüenza que el anterior. Si pudieras, te mudarías a otro país. A otro planeta."
+   },
+   {
+    "v": "cocina;M=preocupado@0.62;X=llorando@0.28",
+    "f": "Tu mamá te ve entrar empapado y te pregunta qué te pasó. Le dices que nada. Ella no te cree, pero te prepara chocolate caliente igual."
+   },
+   {
+    "v": "noche;X=llorando@0.5;cu;th:ya arruiné todo…",
+    "f": "Te tiras en la cama y piensas: \"Ya arruiné todo\"."
+   },
+   {
+    "v": "noche;X=pensando@0.5;cu",
+    "f": "Pero entonces se te ocurre algo. Si ella puede escuchar lo que piensas… también puede escuchar la verdad completa."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "16",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Al día siguiente la encuentras en la biblioteca. Te sientas frente a ella. No dices ni una palabra. Solo la miras… y piensas. Piensas en la primera vez que la viste dibujando junto a la ventana. En los seis meses que pasaste ensayando un \"hola\". En lo mucho que te gusta cómo se ríe. Sofía baja la mirada. Tiene los ojos brillantes. Y entonces te pregunta: —¿Quieres saber qué estoy pensando yo?",
+  "planos": [
+   {
+    "v": "biblio;S=normal@0.65;X=normal@0.28",
+    "f": "Al día siguiente la encuentras en la biblioteca. Te sientas frente a ella."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5;cu",
+    "f": "No dices ni una palabra. Solo la miras… y piensas."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.5;cu;th:desde la primera vez que te vi…",
+    "f": "Piensas en la primera vez que la viste dibujando junto a la ventana."
+   },
+   {
+    "v": "biblio;X=sonrojado@0.3;S=sonrojado@0.68;fx:rayo",
+    "f": "En los seis meses que pasaste ensayando un \"hola\". En lo mucho que te gusta cómo se ríe."
+   },
+   {
+    "v": "biblio;S=llorando@0.5;cu",
+    "f": "Sofía baja la mirada. Tiene los ojos brillantes."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;cu",
+    "f": "Y entonces te pregunta: —¿Quieres saber qué estoy pensando yo?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "17",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Por un segundo, todo se queda en silencio. Y por primera vez, eres tú quien escucha un pensamiento que no es tuyo: \"Por fin\". Los dos se ríen tan fuerte que la bibliotecaria los manda a callar.",
+  "planos": [
+   {
+    "v": "biblio;X=sorprendido@0.5;cu",
+    "f": "Por un segundo, todo se queda en silencio."
+   },
+   {
+    "v": "biblio;S=sonrojado@0.5;cu;th:por fin…",
+    "f": "Y por primera vez, eres tú quien escucha un pensamiento que no es tuyo: \"Por fin\"."
+   },
+   {
+    "v": "biblio;X=riendo@0.3;S=riendo@0.68;fx:brillo",
+    "f": "Los dos se ríen tan fuerte que la bibliotecaria los manda a callar."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "18",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "A la mañana siguiente, el poder desaparece. Sofía ya no escucha lo que piensas. Pero ya no hace falta. Porque ahora se lo dices en voz alta. Ella te cuenta que también ensayaba \"holas\" en el espejo. Que también dibujaba pensando en ti. Que también tenía miedo. A veces lo que más miedo nos da decir… es justo lo que la otra persona necesita escuchar. Y tú, si tu crush pudiera escuchar un solo pensamiento tuyo, ¿cuál sería? Te leo en los comentarios.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5",
+    "f": "A la mañana siguiente, el poder desaparece. Sofía ya no escucha lo que piensas."
+   },
+   {
+    "v": "patio;X=riendo@0.32;S=riendo@0.68;fx:brillo",
+    "f": "Pero ya no hace falta. Porque ahora se lo dices en voz alta."
+   },
+   {
+    "v": "patio;S=riendo@0.5;cu",
+    "f": "Ella te cuenta que también ensayaba \"holas\" en el espejo. Que también dibujaba pensando en ti. Que también tenía miedo."
+   },
+   {
+    "v": "patio;X=sonrojado@0.5;cu",
+    "f": "A veces lo que más miedo nos da decir… es justo lo que la otra persona necesita escuchar."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;ui:¿QUÉ PENSARÍAS?",
+    "f": "Y tú, si tu crush pudiera escuchar un solo pensamiento tuyo, ¿cuál sería? Te leo en los comentarios."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "PENSAMIENTOS",
+    "0",
+    "OÍDOS"
+   ]
+  },
+  "sfx": [
+   [
+    0.05,
+    "whoosh"
+   ]
+  ]
+ }
+]
