@@ -1,0 +1,8715 @@
+{
+  "format": "anima",
+  "version": 1,
+  "name": "Prueba Xeno",
+  "width": 1280,
+  "height": 720,
+  "background": "#8FD0FF",
+  "fps": 24,
+  "seq": 137,
+  "nodes": {
+    "n1": {
+      "id": "n1",
+      "name": "camara",
+      "parent": null,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n2",
+        "n3",
+        "n4",
+        "n5",
+        "n6",
+        "n7",
+        "n8",
+        "n9",
+        "n10",
+        "n11",
+        "n12",
+        "n13",
+        "n14",
+        "n15",
+        "n16",
+        "n17",
+        "n18",
+        "n19",
+        "n20",
+        "n21",
+        "n22",
+        "n23",
+        "n24",
+        "n25",
+        "n26",
+        "n27",
+        "n28",
+        "n29",
+        "n30",
+        "n31",
+        "n32",
+        "n33",
+        "n34",
+        "n35",
+        "n134"
+      ],
+      "clip": false
+    },
+    "n2": {
+      "id": "n2",
+      "name": "cielo",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 640,
+        "y": 360,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": 0,
+          "y": -500
+        },
+        "to": {
+          "x": 0,
+          "y": 500
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6EC3FF"
+          },
+          {
+            "offset": 1,
+            "color": "#FFE3B8"
+          }
+        ]
+      },
+      "stroke": null,
+      "type": "rect",
+      "width": 1700,
+      "height": 1000,
+      "cornerRadius": 0,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n3": {
+      "id": "n3",
+      "name": "sol",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": {
+        "color": "#FFD23F",
+        "x": 0,
+        "y": 0,
+        "blur": 60
+      },
+      "transform": {
+        "x": 1080,
+        "y": 130,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFD23F"
+      },
+      "stroke": null,
+      "type": "ellipse",
+      "width": 150,
+      "height": 150,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n4": {
+      "id": "n4",
+      "name": "edificio0",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 120,
+        "y": 450,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#F08A72"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 220,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n5": {
+      "id": "n5",
+      "name": "Rect 5",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 75,
+        "y": 400,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n6": {
+      "id": "n6",
+      "name": "Rect 6",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 165,
+        "y": 400,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n7": {
+      "id": "n7",
+      "name": "Rect 7",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 75,
+        "y": 475,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n8": {
+      "id": "n8",
+      "name": "Rect 8",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 165,
+        "y": 475,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n9": {
+      "id": "n9",
+      "name": "edificio1",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 330,
+        "y": 423.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#7CC0D0"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 273,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n10": {
+      "id": "n10",
+      "name": "Rect 10",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 285,
+        "y": 347,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n11": {
+      "id": "n11",
+      "name": "Rect 11",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 375,
+        "y": 347,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n12": {
+      "id": "n12",
+      "name": "Rect 12",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 285,
+        "y": 422,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n13": {
+      "id": "n13",
+      "name": "Rect 13",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 375,
+        "y": 422,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n14": {
+      "id": "n14",
+      "name": "edificio2",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 540,
+        "y": 397,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#F2C46A"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 326,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n15": {
+      "id": "n15",
+      "name": "Rect 15",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 495,
+        "y": 294,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n16": {
+      "id": "n16",
+      "name": "Rect 16",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 585,
+        "y": 294,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n17": {
+      "id": "n17",
+      "name": "Rect 17",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 495,
+        "y": 369,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n18": {
+      "id": "n18",
+      "name": "Rect 18",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 585,
+        "y": 369,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n19": {
+      "id": "n19",
+      "name": "edificio3",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 750,
+        "y": 440.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#B79CFF"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 239,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n20": {
+      "id": "n20",
+      "name": "Rect 20",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 705,
+        "y": 381,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n21": {
+      "id": "n21",
+      "name": "Rect 21",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 795,
+        "y": 381,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n22": {
+      "id": "n22",
+      "name": "Rect 22",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 705,
+        "y": 456,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n23": {
+      "id": "n23",
+      "name": "Rect 23",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 795,
+        "y": 456,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n24": {
+      "id": "n24",
+      "name": "edificio4",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 960,
+        "y": 414,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#8AC07A"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 292,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n25": {
+      "id": "n25",
+      "name": "Rect 25",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 915,
+        "y": 328,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n26": {
+      "id": "n26",
+      "name": "Rect 26",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1005,
+        "y": 328,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n27": {
+      "id": "n27",
+      "name": "Rect 27",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 915,
+        "y": 403,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n28": {
+      "id": "n28",
+      "name": "Rect 28",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1005,
+        "y": 403,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n29": {
+      "id": "n29",
+      "name": "edificio5",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1170,
+        "y": 387.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#E8A0C0"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 5,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 230,
+      "height": 345,
+      "cornerRadius": 6,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n30": {
+      "id": "n30",
+      "name": "Rect 30",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1125,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n31": {
+      "id": "n31",
+      "name": "Rect 31",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1215,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n32": {
+      "id": "n32",
+      "name": "Rect 32",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1125,
+        "y": 350,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n33": {
+      "id": "n33",
+      "name": "Rect 33",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 1215,
+        "y": 350,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFF3D8"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 3,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "rect",
+      "width": 46,
+      "height": 46,
+      "cornerRadius": 4,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n34": {
+      "id": "n34",
+      "name": "suelo",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 640,
+        "y": 690,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#C8C2D0"
+      },
+      "stroke": null,
+      "type": "rect",
+      "width": 1700,
+      "height": 260,
+      "cornerRadius": 0,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n35": {
+      "id": "n35",
+      "name": "acera",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 640,
+        "y": 562,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#9A94A4"
+      },
+      "stroke": null,
+      "type": "rect",
+      "width": 1700,
+      "height": 16,
+      "cornerRadius": 0,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n36": {
+      "id": "n36",
+      "name": "xeno_cuerpo",
+      "parent": "n134",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n37",
+        "n38",
+        "n39",
+        "n40",
+        "n41",
+        "n42",
+        "n43",
+        "n44",
+        "n45",
+        "n46",
+        "n47",
+        "n48",
+        "n49",
+        "n50",
+        "n51",
+        "n52",
+        "n53",
+        "n54",
+        "n55",
+        "n56",
+        "n57",
+        "n58",
+        "n59",
+        "n60",
+        "n61",
+        "n62",
+        "n63",
+        "n64",
+        "n65",
+        "n66",
+        "n67",
+        "n68",
+        "n69"
+      ],
+      "clip": false
+    },
+    "n37": {
+      "id": "n37",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 408.5,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 31,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n38": {
+      "id": "n38",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 408.5,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "linear",
+          "from": {
+            "x": -10.5,
+            "y": -90
+          },
+          "to": {
+            "x": 10.5,
+            "y": -90
+          },
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#22253a"
+            },
+            {
+              "offset": 0.45,
+              "color": "#3a3f58"
+            },
+            {
+              "offset": 1,
+              "color": "#1c1e2e"
+            }
+          ]
+        },
+        "width": 25,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n39": {
+      "id": "n39",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 403,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#454a60"
+        },
+        "width": 5.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n40": {
+      "id": "n40",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 398,
+        "y": 674,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#f4f4fa"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -25,
+          "y": 9,
+          "inX": 0,
+          "inY": 0,
+          "outX": -0.6666666666666643,
+          "outY": -12
+        },
+        {
+          "x": -3,
+          "y": -10,
+          "inX": -15.333333333333329,
+          "inY": 0.6666666666666856,
+          "outX": 17.333333333333332,
+          "outY": 1.3333333333333144
+        },
+        {
+          "x": 25,
+          "y": 10,
+          "inX": -1.333333333333334,
+          "inY": -12,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n41": {
+      "id": "n41",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 398,
+        "y": 679,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#2fb86a"
+        },
+        "width": 3.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -25,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 25,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n42": {
+      "id": "n42",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 398.5,
+        "y": 684,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#c9c6d8"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -22.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 22.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n43": {
+      "id": "n43",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 395,
+        "y": 664,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#2b2e3d"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n44": {
+      "id": "n44",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 451.5,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 31,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n45": {
+      "id": "n45",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 451.5,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "linear",
+          "from": {
+            "x": -10.5,
+            "y": -90
+          },
+          "to": {
+            "x": 10.5,
+            "y": -90
+          },
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#22253a"
+            },
+            {
+              "offset": 0.45,
+              "color": "#3a3f58"
+            },
+            {
+              "offset": 1,
+              "color": "#1c1e2e"
+            }
+          ]
+        },
+        "width": 25,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n46": {
+      "id": "n46",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 446,
+        "y": 580,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#454a60"
+        },
+        "width": 5.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -10.5,
+          "y": -90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 10.5,
+          "y": 90,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n47": {
+      "id": "n47",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 468,
+        "y": 674,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#f4f4fa"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -25,
+          "y": 9,
+          "inX": 0,
+          "inY": 0,
+          "outX": -0.6666666666666661,
+          "outY": -12
+        },
+        {
+          "x": -3,
+          "y": -10,
+          "inX": -15.333333333333332,
+          "inY": 0.6666666666666856,
+          "outX": 17.33333333333333,
+          "outY": 1.3333333333333144
+        },
+        {
+          "x": 25,
+          "y": 10,
+          "inX": -1.3333333333333357,
+          "inY": -12,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n48": {
+      "id": "n48",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 468,
+        "y": 679,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#2fb86a"
+        },
+        "width": 3.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -25,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 25,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n49": {
+      "id": "n49",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 468.5,
+        "y": 684,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#c9c6d8"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -22.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 22.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n50": {
+      "id": "n50",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 465,
+        "y": 664,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#2b2e3d"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n51": {
+      "id": "n51",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 327.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#1e8048"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -31,
+          "y": -7.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 20.666666666666664,
+          "outY": -10
+        },
+        {
+          "x": 31,
+          "y": -7.5,
+          "inX": -20.666666666666664,
+          "inY": -10,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 33,
+          "y": 7.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -22,
+          "outY": -6
+        },
+        {
+          "x": -33,
+          "y": 7.5,
+          "inX": 22,
+          "inY": -6,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n52": {
+      "id": "n52",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 409,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -42.571428571428555,
+          "y": -86
+        },
+        "to": {
+          "x": 42.571428571428555,
+          "y": -86
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#22a15a"
+          },
+          {
+            "offset": 0.35,
+            "color": "#43cc7e"
+          },
+          {
+            "offset": 0.7,
+            "color": "#2fb86a"
+          },
+          {
+            "offset": 1,
+            "color": "#18703e"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -40,
+          "y": -77,
+          "inX": 11.333333333333332,
+          "inY": -6,
+          "outX": -4,
+          "outY": 52
+        },
+        {
+          "x": -38,
+          "y": 86,
+          "inX": -5.333333333333336,
+          "inY": -56.66666666666666,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 38,
+          "y": 86,
+          "inX": 0,
+          "inY": 0,
+          "outX": 5.333333333333336,
+          "outY": -56.66666666666666
+        },
+        {
+          "x": 40,
+          "y": -77,
+          "inX": 4,
+          "inY": 52,
+          "outX": -11.333333333333332,
+          "outY": -6
+        },
+        {
+          "x": 0,
+          "y": -86,
+          "inX": 15.333333333333332,
+          "inY": 0,
+          "outX": -15.333333333333332,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n53": {
+      "id": "n53",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 488,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#1e8048"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -38,
+          "y": -8,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 38,
+          "y": -8,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 37,
+          "y": 8,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -37,
+          "y": 8,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n54": {
+      "id": "n54",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.5,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 450,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#1e8048"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": -25,
+          "y": -15,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 25,
+          "y": -15,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 22,
+          "y": 15,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -22,
+          "y": 15,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n55": {
+      "id": "n55",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.6,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 435,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#7be0a6"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -20,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 13.333333333333332,
+          "outY": -3.333333333333343
+        },
+        {
+          "x": 20,
+          "y": 0,
+          "inX": -13.333333333333332,
+          "inY": -3.333333333333343,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n56": {
+      "id": "n56",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.6,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 401.5,
+        "y": 400,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1e8048"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -1.5,
+          "y": -30,
+          "inX": 0,
+          "inY": 0,
+          "outX": 6.666666666666664,
+          "outY": 20
+        },
+        {
+          "x": 1.5,
+          "y": 30,
+          "inX": 4.666666666666664,
+          "inY": -20,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n57": {
+      "id": "n57",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.5,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 454.5,
+        "y": 390,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#7be0a6"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -0.5,
+          "y": -30,
+          "inX": 0,
+          "inY": 0,
+          "outX": 4.666666666666664,
+          "outY": 20
+        },
+        {
+          "x": 0.5,
+          "y": 30,
+          "inX": 4,
+          "inY": -20,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n58": {
+      "id": "n58",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 350.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#ffffff"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -8,
+          "y": -17.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -10,
+          "y": 17.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 8,
+              "y": -17.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 0,
+              "outY": 0
+            },
+            {
+              "x": 10,
+              "y": 17.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n59": {
+      "id": "n59",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 371.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#c9c6d8"
+        },
+        "width": 3.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -11,
+          "y": -3.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 3.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 11,
+              "y": -3.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 0,
+              "outY": 0
+            },
+            {
+              "x": 11,
+              "y": 3.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n60": {
+      "id": "n60",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 319,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.3999999999999773,
+          "y": -2.159999999999968
+        },
+        "radius": 13.168143377105217,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": -10,
+          "y": -6,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -10,
+          "y": 6,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 10,
+          "y": 6,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 10,
+          "y": -6,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n61": {
+      "id": "n61",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 320,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#dcd8ea"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -10,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 6.666666666666666,
+          "outY": 4
+        },
+        {
+          "x": 10,
+          "y": 0,
+          "inX": -6.666666666666666,
+          "inY": 4,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n62": {
+      "id": "n62",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 489.5,
+        "y": 297.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 29,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -24.5,
+          "y": 47.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 26.666666666666664,
+          "outY": -3.3333333333333286
+        },
+        {
+          "x": 24.5,
+          "y": 2.5,
+          "inX": -6,
+          "inY": 26.666666666666664,
+          "outX": 2.6666666666666714,
+          "outY": -20
+        },
+        {
+          "x": 24.5,
+          "y": -47.5,
+          "inX": 2.6666666666666714,
+          "inY": 13.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n63": {
+      "id": "n63",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 489.5,
+        "y": 297.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "linear",
+          "from": {
+            "x": -24.5,
+            "y": -47.5
+          },
+          "to": {
+            "x": 26.5,
+            "y": -47.5
+          },
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#22a15a"
+            },
+            {
+              "offset": 0.35,
+              "color": "#43cc7e"
+            },
+            {
+              "offset": 0.7,
+              "color": "#2fb86a"
+            },
+            {
+              "offset": 1,
+              "color": "#18703e"
+            }
+          ]
+        },
+        "width": 23,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -24.5,
+          "y": 47.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 26.666666666666664,
+          "outY": -3.3333333333333286
+        },
+        {
+          "x": 24.5,
+          "y": 2.5,
+          "inX": -6,
+          "inY": 26.666666666666664,
+          "outX": 2.6666666666666714,
+          "outY": -20
+        },
+        {
+          "x": 24.5,
+          "y": -47.5,
+          "inX": 2.6666666666666714,
+          "inY": 13.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n64": {
+      "id": "n64",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 484.44,
+        "y": 297.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#7be0a6"
+        },
+        "width": 5.06,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -24.5,
+          "y": 47.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 26.666666666666664,
+          "outY": -3.3333333333333286
+        },
+        {
+          "x": 24.5,
+          "y": 2.5,
+          "inX": -6,
+          "inY": 26.666666666666664,
+          "outX": 2.6666666666666714,
+          "outY": -20
+        },
+        {
+          "x": 24.5,
+          "y": -47.5,
+          "inX": 2.6666666666666714,
+          "inY": 13.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n65": {
+      "id": "n65",
+      "name": "ellipse",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 514,
+        "y": 239,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.6399999999999864,
+          "y": -4.5
+        },
+        "radius": 19.93426697924958,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -6.903559372499999,
+          "outX": 0,
+          "outY": 6.903559372499999
+        },
+        {
+          "x": 0,
+          "y": 12.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 6.903559372499999,
+          "outX": 0,
+          "outY": -6.903559372499999
+        },
+        {
+          "x": 0,
+          "y": -12.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n66": {
+      "id": "n66",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 399,
+        "y": 407.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 29,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -5,
+          "y": -62.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -15.333333333333329,
+          "outY": 33.33333333333333
+        },
+        {
+          "x": -11,
+          "y": 42.5,
+          "inX": -11.333333333333329,
+          "inY": -36.66666666666666,
+          "outX": 4.666666666666664,
+          "outY": 8.666666666666657
+        },
+        {
+          "x": 11,
+          "y": 62.5,
+          "inX": -10,
+          "inY": -4.666666666666657,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n67": {
+      "id": "n67",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 399,
+        "y": 407.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "linear",
+          "from": {
+            "x": -18.225000000000023,
+            "y": -62.5
+          },
+          "to": {
+            "x": 11,
+            "y": -62.5
+          },
+          "stops": [
+            {
+              "offset": 0,
+              "color": "#22a15a"
+            },
+            {
+              "offset": 0.35,
+              "color": "#43cc7e"
+            },
+            {
+              "offset": 0.7,
+              "color": "#2fb86a"
+            },
+            {
+              "offset": 1,
+              "color": "#18703e"
+            }
+          ]
+        },
+        "width": 23,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -5,
+          "y": -62.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -15.333333333333329,
+          "outY": 33.33333333333333
+        },
+        {
+          "x": -11,
+          "y": 42.5,
+          "inX": -11.333333333333329,
+          "inY": -36.66666666666666,
+          "outX": 4.666666666666664,
+          "outY": 8.666666666666657
+        },
+        {
+          "x": 11,
+          "y": 62.5,
+          "inX": -10,
+          "inY": -4.666666666666657,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n68": {
+      "id": "n68",
+      "name": "path",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 393.94,
+        "y": 407.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#7be0a6"
+        },
+        "width": 5.06,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -5,
+          "y": -62.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -15.333333333333329,
+          "outY": 33.33333333333333
+        },
+        {
+          "x": -11,
+          "y": 42.5,
+          "inX": -11.333333333333329,
+          "inY": -36.66666666666666,
+          "outX": 4.666666666666664,
+          "outY": 8.666666666666657
+        },
+        {
+          "x": 11,
+          "y": 62.5,
+          "inX": -10,
+          "inY": -4.666666666666657,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n69": {
+      "id": "n69",
+      "name": "ellipse",
+      "parent": "n36",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 412,
+        "y": 472,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.6399999999999864,
+          "y": -4.5
+        },
+        "radius": 19.93426697924958,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -6.903559372499999,
+          "outX": 0,
+          "outY": 6.903559372499999
+        },
+        {
+          "x": 0,
+          "y": 12.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 6.903559372499999,
+          "outX": 0,
+          "outY": -6.903559372499999
+        },
+        {
+          "x": 0,
+          "y": -12.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n70": {
+      "id": "n70",
+      "name": "xeno_cara_riendo",
+      "parent": "n134",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n71"
+      ],
+      "clip": false
+    },
+    "n71": {
+      "id": "n71",
+      "name": "g",
+      "parent": "n70",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n72",
+        "n73",
+        "n74",
+        "n75",
+        "n76",
+        "n77",
+        "n78",
+        "n79",
+        "n80",
+        "n81",
+        "n82",
+        "n83",
+        "n84",
+        "n85",
+        "n86",
+        "n87",
+        "n88",
+        "n89",
+        "n90",
+        "n91",
+        "n92",
+        "n93",
+        "n94",
+        "n95",
+        "n96"
+      ],
+      "clip": false
+    },
+    "n72": {
+      "id": "n72",
+      "name": "ellipse",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 376,
+        "y": 257,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.159999999999968,
+          "y": -4.680000000000007
+        },
+        "radius": 18.388311504866348,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": 0,
+          "inX": 0,
+          "inY": -7.179701747399999,
+          "outX": 0,
+          "outY": 7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "inX": 4.9705627482,
+          "inY": 0,
+          "outX": -4.9705627482,
+          "outY": 0
+        },
+        {
+          "x": -9,
+          "y": 0,
+          "inX": 0,
+          "inY": 7.179701747399999,
+          "outX": 0,
+          "outY": -7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": -13,
+          "inX": -4.9705627482,
+          "inY": 0,
+          "outX": 4.9705627482,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n73": {
+      "id": "n73",
+      "name": "ellipse",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 484,
+        "y": 257,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.159999999999968,
+          "y": -4.680000000000007
+        },
+        "radius": 18.388311504866348,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": 0,
+          "inX": 0,
+          "inY": -7.179701747399999,
+          "outX": 0,
+          "outY": 7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "inX": 4.9705627482,
+          "inY": 0,
+          "outX": -4.9705627482,
+          "outY": 0
+        },
+        {
+          "x": -9,
+          "y": 0,
+          "inX": 0,
+          "inY": 7.179701747399999,
+          "outX": 0,
+          "outY": -7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": -13,
+          "inX": -4.9705627482,
+          "inY": 0,
+          "outX": 4.9705627482,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n74": {
+      "id": "n74",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 245.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -12.75200000000001,
+          "y": -18.25999999999999
+        },
+        "radius": 95.78586099559092,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -53,
+          "y": -10.5,
+          "inX": 3.3333333333333357,
+          "inY": -29.33333333333333,
+          "outX": -1.3333333333333357,
+          "outY": 31.333333333333332
+        },
+        {
+          "x": -27,
+          "y": 56.5,
+          "inX": -18.666666666666664,
+          "inY": -13.333333333333329,
+          "outX": 18,
+          "outY": 8.666666666666664
+        },
+        {
+          "x": 27,
+          "y": 56.5,
+          "inX": -18,
+          "inY": 8.666666666666664,
+          "outX": 18.666666666666664,
+          "outY": -13.333333333333329
+        },
+        {
+          "x": 53,
+          "y": -10.5,
+          "inX": 1.3333333333333357,
+          "inY": 31.333333333333332,
+          "outX": -3.3333333333333357,
+          "outY": -29.33333333333333
+        },
+        {
+          "x": 0,
+          "y": -56.5,
+          "inX": 32,
+          "inY": 1.3333333333333357,
+          "outX": -32,
+          "outY": 1.3333333333333357
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n75": {
+      "id": "n75",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 463,
+        "y": 262.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#dcd8ea"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": -3,
+          "y": -42.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 14.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": 13,
+          "y": 12.5,
+          "inX": 4,
+          "inY": -20,
+          "outX": -5.333333333333336,
+          "outY": 14
+        },
+        {
+          "x": -13,
+          "y": 42.5,
+          "inX": 12,
+          "inY": -6,
+          "outX": 15.333333333333329,
+          "outY": -16.666666666666664
+        },
+        {
+          "x": 2,
+          "y": -22.5,
+          "inX": 5.333333333333336,
+          "inY": 26.666666666666664,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n76": {
+      "id": "n76",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 381,
+        "y": 252.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -12.0625,
+          "y": -22.5
+        },
+        "to": {
+          "x": -12.0625,
+          "y": 22.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -9,
+          "y": -22.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -4.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": -7,
+          "y": 22.5,
+          "inX": -6,
+          "inY": -13.333333333333332,
+          "outX": 2.6666666666666643,
+          "outY": -10
+        },
+        {
+          "x": -1,
+          "y": -7.5,
+          "inX": -1.3333333333333357,
+          "inY": 10,
+          "outX": 1.3333333333333357,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": 7,
+          "y": 19.5,
+          "inX": -4,
+          "inY": -4.666666666666664,
+          "outX": -0.6666666666666643,
+          "outY": -14.666666666666666
+        },
+        {
+          "x": 9,
+          "y": -17.5,
+          "inX": -2,
+          "inY": 10,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n77": {
+      "id": "n77",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 479,
+        "y": 252.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -9,
+          "y": -22.5
+        },
+        "to": {
+          "x": -9,
+          "y": 22.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": -22.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 4.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": 7,
+          "y": 22.5,
+          "inX": 6,
+          "inY": -13.333333333333332,
+          "outX": -2.6666666666666643,
+          "outY": -10
+        },
+        {
+          "x": 1,
+          "y": -7.5,
+          "inX": 1.3333333333333357,
+          "inY": 10,
+          "outX": -1.3333333333333357,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": -7,
+          "y": 19.5,
+          "inX": 4,
+          "inY": -4.666666666666664,
+          "outX": 0.6666666666666643,
+          "outY": -14.666666666666666
+        },
+        {
+          "x": -9,
+          "y": -17.5,
+          "inX": 2,
+          "inY": 10,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n78": {
+      "id": "n78",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430.5,
+        "y": 226,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -48.5,
+          "y": -13
+        },
+        "to": {
+          "x": -48.5,
+          "y": 13
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "round",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -48.5,
+          "y": -11,
+          "inX": 0,
+          "inY": 0,
+          "outX": 2,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": -35.5,
+          "y": 12,
+          "inX": -6.666666666666664,
+          "inY": -2,
+          "outX": -1.3333333333333357,
+          "outY": -7.333333333333332
+        },
+        {
+          "x": -30.5,
+          "y": -4,
+          "inX": -4.666666666666664,
+          "inY": 3.333333333333332,
+          "outX": 1.3333333333333321,
+          "outY": 10.666666666666664
+        },
+        {
+          "x": -15.5,
+          "y": 13,
+          "inX": -8.666666666666664,
+          "inY": -0.6666666666666661,
+          "outX": -3.333333333333332,
+          "outY": -8.666666666666664
+        },
+        {
+          "x": -10.5,
+          "y": -6,
+          "inX": -6.666666666666664,
+          "inY": 4,
+          "outX": 2,
+          "outY": 10
+        },
+        {
+          "x": 6.5,
+          "y": 10,
+          "inX": -9.333333333333332,
+          "inY": -0.6666666666666661,
+          "outX": -3.333333333333333,
+          "outY": -8
+        },
+        {
+          "x": 11.5,
+          "y": -7,
+          "inX": -6.666666666666666,
+          "inY": 3.333333333333332,
+          "outX": 3.333333333333332,
+          "outY": 10.666666666666664
+        },
+        {
+          "x": 30.5,
+          "y": 9,
+          "inX": -9.333333333333332,
+          "inY": 0,
+          "outX": -4,
+          "outY": -8
+        },
+        {
+          "x": 34.5,
+          "y": -7,
+          "inX": -6.666666666666664,
+          "inY": 2.666666666666668,
+          "outX": 3.3333333333333357,
+          "outY": 8.666666666666664
+        },
+        {
+          "x": 48.5,
+          "y": 4,
+          "inX": -6,
+          "inY": 1.3333333333333321,
+          "outX": 2,
+          "outY": -6.666666666666664
+        },
+        {
+          "x": 47.5,
+          "y": -13,
+          "inX": 2.6666666666666643,
+          "inY": 4.666666666666664,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n79": {
+      "id": "n79",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.8,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 431.5,
+        "y": 230.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#9a6a4c"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -31.5,
+          "y": -4.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 3.333333333333332,
+          "outY": 3.333333333333332
+        },
+        {
+          "x": -28.5,
+          "y": 6.5,
+          "inX": 1.3333333333333321,
+          "inY": -4,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 3.5,
+              "y": -5.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 3.333333333333332,
+              "outY": 3.333333333333332
+            },
+            {
+              "x": 5.5,
+              "y": 4.5,
+              "inX": 2,
+              "inY": -3.333333333333332,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        },
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 29.5,
+              "y": -6.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 2.6666666666666643,
+              "outY": 3.333333333333332
+            },
+            {
+              "x": 31.5,
+              "y": 3.5,
+              "inX": 1.3333333333333357,
+              "inY": -3.333333333333332,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n80": {
+      "id": "n80",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 190.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -59.06349206349205,
+          "y": -28.5
+        },
+        "to": {
+          "x": 59.06349206349205,
+          "y": 28.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#3a3f55"
+          },
+          {
+            "offset": 0.5,
+            "color": "#262a3c"
+          },
+          {
+            "offset": 1,
+            "color": "#14161f"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -59,
+          "y": 28.5,
+          "inX": 39.33333333333333,
+          "inY": -7.333333333333336,
+          "outX": -1.3333333333333357,
+          "outY": -36
+        },
+        {
+          "x": 0,
+          "y": -28.5,
+          "inX": -40.666666666666664,
+          "inY": 2,
+          "outX": 40.666666666666664,
+          "outY": 2
+        },
+        {
+          "x": 59,
+          "y": 28.5,
+          "inX": 1.3333333333333357,
+          "inY": -36,
+          "outX": -39.33333333333333,
+          "outY": -7.333333333333336
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n81": {
+      "id": "n81",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.8,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 187.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#4a5070"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 0,
+          "y": -25.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 0,
+          "y": 23.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -30,
+              "y": -21.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 6.666666666666664,
+              "outY": 16
+            },
+            {
+              "x": -23,
+              "y": 25.5,
+              "inX": 2,
+              "inY": -15.333333333333329,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        },
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 30,
+              "y": -21.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": -6.666666666666664,
+              "outY": 16
+            },
+            {
+              "x": 23,
+              "y": 25.5,
+              "inX": -2,
+              "inY": -15.333333333333329,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n82": {
+      "id": "n82",
+      "name": "circle",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 163,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#262a3c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -2.4852813741,
+          "outX": 0,
+          "outY": 2.4852813741
+        },
+        {
+          "x": 0,
+          "y": 4.5,
+          "inX": 2.4852813741,
+          "inY": 0,
+          "outX": -2.4852813741,
+          "outY": 0
+        },
+        {
+          "x": -4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 2.4852813741,
+          "outX": 0,
+          "outY": -2.4852813741
+        },
+        {
+          "x": 0,
+          "y": -4.5,
+          "inX": -2.4852813741,
+          "inY": 0,
+          "outX": 2.4852813741,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n83": {
+      "id": "n83",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.7,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 417.5,
+        "y": 171.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#5a6080"
+        },
+        "width": 4,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -22.5,
+          "y": 3.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 13.333333333333332,
+          "outY": -6.666666666666671
+        },
+        {
+          "x": 22.5,
+          "y": -3.5,
+          "inX": -16.666666666666664,
+          "inY": -2,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n84": {
+      "id": "n84",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 223.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffc93c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -64,
+          "y": -6.5,
+          "inX": -7.333333333333329,
+          "inY": 4,
+          "outX": 42.666666666666664,
+          "outY": -10
+        },
+        {
+          "x": 64,
+          "y": -6.5,
+          "inX": -42.666666666666664,
+          "inY": -10,
+          "outX": 7.333333333333329,
+          "outY": 4
+        },
+        {
+          "x": 66,
+          "y": 6.5,
+          "inX": 6,
+          "inY": -4.666666666666664,
+          "outX": -44,
+          "outY": -8.666666666666664
+        },
+        {
+          "x": -66,
+          "y": 6.5,
+          "inX": 44,
+          "inY": -8.666666666666664,
+          "outX": -6,
+          "outY": -4.666666666666664
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n85": {
+      "id": "n85",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 225,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e0a520"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -59,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 39.33333333333333,
+          "outY": -8
+        },
+        {
+          "x": 59,
+          "y": 0,
+          "inX": -39.33333333333333,
+          "inY": -8,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n86": {
+      "id": "n86",
+      "name": "circle",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 189,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffc93c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 15,
+          "y": 0,
+          "inX": 0,
+          "inY": -8.284271247,
+          "outX": 0,
+          "outY": 8.284271247
+        },
+        {
+          "x": 0,
+          "y": 15,
+          "inX": 8.284271247,
+          "inY": 0,
+          "outX": -8.284271247,
+          "outY": 0
+        },
+        {
+          "x": -15,
+          "y": 0,
+          "inX": 0,
+          "inY": 8.284271247,
+          "outX": 0,
+          "outY": -8.284271247
+        },
+        {
+          "x": 0,
+          "y": -15,
+          "inX": -8.284271247,
+          "inY": 0,
+          "outX": 8.284271247,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n87": {
+      "id": "n87",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 403.5,
+        "y": 225,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#3a2418"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13.5,
+          "y": 1,
+          "inX": 0,
+          "inY": 0,
+          "outX": 8,
+          "outY": -4.666666666666664
+        },
+        {
+          "x": 13.5,
+          "y": -1,
+          "inX": -10,
+          "inY": -3.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n88": {
+      "id": "n88",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 456.5,
+        "y": 225,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#3a2418"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13.5,
+          "y": -1,
+          "inX": 0,
+          "inY": 0,
+          "outX": 10,
+          "outY": -3.333333333333332
+        },
+        {
+          "x": 13.5,
+          "y": 1,
+          "inX": -8,
+          "inY": -4.666666666666664,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n89": {
+      "id": "n89",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 404,
+        "y": 255,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 4.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 8.666666666666664,
+          "outY": -9.333333333333332
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "inX": -8.666666666666664,
+          "inY": -9.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n90": {
+      "id": "n90",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 456,
+        "y": 255,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 4.5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 8.666666666666664,
+          "outY": -9.333333333333332
+        },
+        {
+          "x": 13,
+          "y": 0,
+          "inX": -8.666666666666664,
+          "inY": -9.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n91": {
+      "id": "n91",
+      "name": "ellipse",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.5,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 397,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n92": {
+      "id": "n92",
+      "name": "ellipse",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.5,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 463,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n93": {
+      "id": "n93",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 431.5,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#dcd8ea"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 0.5,
+          "y": -3,
+          "inX": 0,
+          "inY": 0,
+          "outX": 2,
+          "outY": 2.666666666666668
+        },
+        {
+          "x": -0.5,
+          "y": 3,
+          "inX": 2.6666666666666665,
+          "inY": -1.3333333333333321,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n94": {
+      "id": "n94",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 293.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#5a1a2a"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -17,
+          "y": -11.5,
+          "inX": 2,
+          "inY": 14.666666666666664,
+          "outX": 11.333333333333332,
+          "outY": 2
+        },
+        {
+          "x": 17,
+          "y": -11.5,
+          "inX": -11.333333333333332,
+          "inY": 2,
+          "outX": -2,
+          "outY": 14.666666666666664
+        },
+        {
+          "x": 0,
+          "y": 11.5,
+          "inX": 9.333333333333332,
+          "inY": -0.6666666666666643,
+          "outX": -9.333333333333332,
+          "outY": -0.6666666666666643
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n95": {
+      "id": "n95",
+      "name": "path",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 285.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": -15,
+          "y": -2.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 10,
+          "outY": 2
+        },
+        {
+          "x": 15,
+          "y": -2.5,
+          "inX": -10,
+          "inY": 2,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 14,
+          "y": 2.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -9.333333333333332,
+          "outY": 2
+        },
+        {
+          "x": -14,
+          "y": 2.5,
+          "inX": 9.333333333333332,
+          "inY": 2,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n96": {
+      "id": "n96",
+      "name": "ellipse",
+      "parent": "n71",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 299,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 7,
+          "y": 0,
+          "inX": 0,
+          "inY": -1.9329966242999999,
+          "outX": 0,
+          "outY": 1.9329966242999999
+        },
+        {
+          "x": 0,
+          "y": 3.5,
+          "inX": 3.8659932485999997,
+          "inY": 0,
+          "outX": -3.8659932485999997,
+          "outY": 0
+        },
+        {
+          "x": -7,
+          "y": 0,
+          "inX": 0,
+          "inY": 1.9329966242999999,
+          "outX": 0,
+          "outY": -1.9329966242999999
+        },
+        {
+          "x": 0,
+          "y": -3.5,
+          "inX": -3.8659932485999997,
+          "inY": 0,
+          "outX": 3.8659932485999997,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n97": {
+      "id": "n97",
+      "name": "xeno_cara_sorprendido",
+      "parent": "n134",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n98"
+      ],
+      "clip": false
+    },
+    "n98": {
+      "id": "n98",
+      "name": "g",
+      "parent": "n97",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n99",
+        "n100",
+        "n101",
+        "n102",
+        "n103",
+        "n104",
+        "n105",
+        "n106",
+        "n107",
+        "n108",
+        "n109",
+        "n110",
+        "n111",
+        "n112",
+        "n113",
+        "n114",
+        "n115",
+        "n116",
+        "n117",
+        "n118",
+        "n119",
+        "n120",
+        "n121",
+        "n122",
+        "n123",
+        "n124",
+        "n125",
+        "n126",
+        "n127",
+        "n128",
+        "n129",
+        "n130",
+        "n131",
+        "n132",
+        "n133"
+      ],
+      "clip": false
+    },
+    "n99": {
+      "id": "n99",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 376,
+        "y": 257,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.159999999999968,
+          "y": -4.680000000000007
+        },
+        "radius": 18.388311504866348,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": 0,
+          "inX": 0,
+          "inY": -7.179701747399999,
+          "outX": 0,
+          "outY": 7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "inX": 4.9705627482,
+          "inY": 0,
+          "outX": -4.9705627482,
+          "outY": 0
+        },
+        {
+          "x": -9,
+          "y": 0,
+          "inX": 0,
+          "inY": 7.179701747399999,
+          "outX": 0,
+          "outY": -7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": -13,
+          "inX": -4.9705627482,
+          "inY": 0,
+          "outX": 4.9705627482,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n100": {
+      "id": "n100",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 484,
+        "y": 257,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -2.159999999999968,
+          "y": -4.680000000000007
+        },
+        "radius": 18.388311504866348,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": 0,
+          "inX": 0,
+          "inY": -7.179701747399999,
+          "outX": 0,
+          "outY": 7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": 13,
+          "inX": 4.9705627482,
+          "inY": 0,
+          "outX": -4.9705627482,
+          "outY": 0
+        },
+        {
+          "x": -9,
+          "y": 0,
+          "inX": 0,
+          "inY": 7.179701747399999,
+          "outX": 0,
+          "outY": -7.179701747399999
+        },
+        {
+          "x": 0,
+          "y": -13,
+          "inX": -4.9705627482,
+          "inY": 0,
+          "outX": 4.9705627482,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n101": {
+      "id": "n101",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 245.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "radial",
+        "center": {
+          "x": -12.75200000000001,
+          "y": -18.25999999999999
+        },
+        "radius": 95.78586099559092,
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#ffffff"
+          },
+          {
+            "offset": 0.65,
+            "color": "#f6f4fb"
+          },
+          {
+            "offset": 1,
+            "color": "#d6d1e6"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -53,
+          "y": -10.5,
+          "inX": 3.3333333333333357,
+          "inY": -29.33333333333333,
+          "outX": -1.3333333333333357,
+          "outY": 31.333333333333332
+        },
+        {
+          "x": -27,
+          "y": 56.5,
+          "inX": -18.666666666666664,
+          "inY": -13.333333333333329,
+          "outX": 18,
+          "outY": 8.666666666666664
+        },
+        {
+          "x": 27,
+          "y": 56.5,
+          "inX": -18,
+          "inY": 8.666666666666664,
+          "outX": 18.666666666666664,
+          "outY": -13.333333333333329
+        },
+        {
+          "x": 53,
+          "y": -10.5,
+          "inX": 1.3333333333333357,
+          "inY": 31.333333333333332,
+          "outX": -3.3333333333333357,
+          "outY": -29.33333333333333
+        },
+        {
+          "x": 0,
+          "y": -56.5,
+          "inX": 32,
+          "inY": 1.3333333333333357,
+          "outX": -32,
+          "outY": 1.3333333333333357
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n102": {
+      "id": "n102",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.55,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 463,
+        "y": 262.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#dcd8ea"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": -3,
+          "y": -42.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 14.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": 13,
+          "y": 12.5,
+          "inX": 4,
+          "inY": -20,
+          "outX": -5.333333333333336,
+          "outY": 14
+        },
+        {
+          "x": -13,
+          "y": 42.5,
+          "inX": 12,
+          "inY": -6,
+          "outX": 15.333333333333329,
+          "outY": -16.666666666666664
+        },
+        {
+          "x": 2,
+          "y": -22.5,
+          "inX": 5.333333333333336,
+          "inY": 26.666666666666664,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n103": {
+      "id": "n103",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 381,
+        "y": 252.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -12.0625,
+          "y": -22.5
+        },
+        "to": {
+          "x": -12.0625,
+          "y": 22.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -9,
+          "y": -22.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": -4.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": -7,
+          "y": 22.5,
+          "inX": -6,
+          "inY": -13.333333333333332,
+          "outX": 2.6666666666666643,
+          "outY": -10
+        },
+        {
+          "x": -1,
+          "y": -7.5,
+          "inX": -1.3333333333333357,
+          "inY": 10,
+          "outX": 1.3333333333333357,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": 7,
+          "y": 19.5,
+          "inX": -4,
+          "inY": -4.666666666666664,
+          "outX": -0.6666666666666643,
+          "outY": -14.666666666666666
+        },
+        {
+          "x": 9,
+          "y": -17.5,
+          "inX": -2,
+          "inY": 10,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n104": {
+      "id": "n104",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 479,
+        "y": 252.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -9,
+          "y": -22.5
+        },
+        "to": {
+          "x": -9,
+          "y": 22.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 9,
+          "y": -22.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 4.666666666666664,
+          "outY": 16.666666666666664
+        },
+        {
+          "x": 7,
+          "y": 22.5,
+          "inX": 6,
+          "inY": -13.333333333333332,
+          "outX": -2.6666666666666643,
+          "outY": -10
+        },
+        {
+          "x": 1,
+          "y": -7.5,
+          "inX": 1.3333333333333357,
+          "inY": 10,
+          "outX": -1.3333333333333357,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": -7,
+          "y": 19.5,
+          "inX": 4,
+          "inY": -4.666666666666664,
+          "outX": 0.6666666666666643,
+          "outY": -14.666666666666666
+        },
+        {
+          "x": -9,
+          "y": -17.5,
+          "inX": 2,
+          "inY": 10,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n105": {
+      "id": "n105",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430.5,
+        "y": 226,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -48.5,
+          "y": -13
+        },
+        "to": {
+          "x": -48.5,
+          "y": 13
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#6a4330"
+          },
+          {
+            "offset": 1,
+            "color": "#2e1a10"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "round",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -48.5,
+          "y": -11,
+          "inX": 0,
+          "inY": 0,
+          "outX": 2,
+          "outY": 13.333333333333332
+        },
+        {
+          "x": -35.5,
+          "y": 12,
+          "inX": -6.666666666666664,
+          "inY": -2,
+          "outX": -1.3333333333333357,
+          "outY": -7.333333333333332
+        },
+        {
+          "x": -30.5,
+          "y": -4,
+          "inX": -4.666666666666664,
+          "inY": 3.333333333333332,
+          "outX": 1.3333333333333321,
+          "outY": 10.666666666666664
+        },
+        {
+          "x": -15.5,
+          "y": 13,
+          "inX": -8.666666666666664,
+          "inY": -0.6666666666666661,
+          "outX": -3.333333333333332,
+          "outY": -8.666666666666664
+        },
+        {
+          "x": -10.5,
+          "y": -6,
+          "inX": -6.666666666666664,
+          "inY": 4,
+          "outX": 2,
+          "outY": 10
+        },
+        {
+          "x": 6.5,
+          "y": 10,
+          "inX": -9.333333333333332,
+          "inY": -0.6666666666666661,
+          "outX": -3.333333333333333,
+          "outY": -8
+        },
+        {
+          "x": 11.5,
+          "y": -7,
+          "inX": -6.666666666666666,
+          "inY": 3.333333333333332,
+          "outX": 3.333333333333332,
+          "outY": 10.666666666666664
+        },
+        {
+          "x": 30.5,
+          "y": 9,
+          "inX": -9.333333333333332,
+          "inY": 0,
+          "outX": -4,
+          "outY": -8
+        },
+        {
+          "x": 34.5,
+          "y": -7,
+          "inX": -6.666666666666664,
+          "inY": 2.666666666666668,
+          "outX": 3.3333333333333357,
+          "outY": 8.666666666666664
+        },
+        {
+          "x": 48.5,
+          "y": 4,
+          "inX": -6,
+          "inY": 1.3333333333333321,
+          "outX": 2,
+          "outY": -6.666666666666664
+        },
+        {
+          "x": 47.5,
+          "y": -13,
+          "inX": 2.6666666666666643,
+          "inY": 4.666666666666664,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n106": {
+      "id": "n106",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.8,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 431.5,
+        "y": 230.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#9a6a4c"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -31.5,
+          "y": -4.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 3.333333333333332,
+          "outY": 3.333333333333332
+        },
+        {
+          "x": -28.5,
+          "y": 6.5,
+          "inX": 1.3333333333333321,
+          "inY": -4,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 3.5,
+              "y": -5.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 3.333333333333332,
+              "outY": 3.333333333333332
+            },
+            {
+              "x": 5.5,
+              "y": 4.5,
+              "inX": 2,
+              "inY": -3.333333333333332,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        },
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 29.5,
+              "y": -6.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 2.6666666666666643,
+              "outY": 3.333333333333332
+            },
+            {
+              "x": 31.5,
+              "y": 3.5,
+              "inX": 1.3333333333333357,
+              "inY": -3.333333333333332,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n107": {
+      "id": "n107",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 190.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "linear",
+        "from": {
+          "x": -59.06349206349205,
+          "y": -28.5
+        },
+        "to": {
+          "x": 59.06349206349205,
+          "y": 28.5
+        },
+        "stops": [
+          {
+            "offset": 0,
+            "color": "#3a3f55"
+          },
+          {
+            "offset": 0.5,
+            "color": "#262a3c"
+          },
+          {
+            "offset": 1,
+            "color": "#14161f"
+          }
+        ]
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -59,
+          "y": 28.5,
+          "inX": 39.33333333333333,
+          "inY": -7.333333333333336,
+          "outX": -1.3333333333333357,
+          "outY": -36
+        },
+        {
+          "x": 0,
+          "y": -28.5,
+          "inX": -40.666666666666664,
+          "inY": 2,
+          "outX": 40.666666666666664,
+          "outY": 2
+        },
+        {
+          "x": 59,
+          "y": 28.5,
+          "inX": 1.3333333333333357,
+          "inY": -36,
+          "outX": -39.33333333333333,
+          "outY": -7.333333333333336
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n108": {
+      "id": "n108",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.8,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 187.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#4a5070"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 0,
+          "y": -25.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": 0,
+          "y": 23.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": -30,
+              "y": -21.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": 6.666666666666664,
+              "outY": 16
+            },
+            {
+              "x": -23,
+              "y": 25.5,
+              "inX": 2,
+              "inY": -15.333333333333329,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        },
+        {
+          "closed": false,
+          "points": [
+            {
+              "x": 30,
+              "y": -21.5,
+              "inX": 0,
+              "inY": 0,
+              "outX": -6.666666666666664,
+              "outY": 16
+            },
+            {
+              "x": 23,
+              "y": 25.5,
+              "inX": -2,
+              "inY": -15.333333333333329,
+              "outX": 0,
+              "outY": 0
+            }
+          ]
+        }
+      ],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n109": {
+      "id": "n109",
+      "name": "circle",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 163,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#262a3c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -2.4852813741,
+          "outX": 0,
+          "outY": 2.4852813741
+        },
+        {
+          "x": 0,
+          "y": 4.5,
+          "inX": 2.4852813741,
+          "inY": 0,
+          "outX": -2.4852813741,
+          "outY": 0
+        },
+        {
+          "x": -4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 2.4852813741,
+          "outX": 0,
+          "outY": -2.4852813741
+        },
+        {
+          "x": 0,
+          "y": -4.5,
+          "inX": -2.4852813741,
+          "inY": 0,
+          "outX": 2.4852813741,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n110": {
+      "id": "n110",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.7,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 417.5,
+        "y": 171.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#5a6080"
+        },
+        "width": 4,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -22.5,
+          "y": 3.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 13.333333333333332,
+          "outY": -6.666666666666671
+        },
+        {
+          "x": 22.5,
+          "y": -3.5,
+          "inX": -16.666666666666664,
+          "inY": -2,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n111": {
+      "id": "n111",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 223.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffc93c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 3,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -64,
+          "y": -6.5,
+          "inX": -7.333333333333329,
+          "inY": 4,
+          "outX": 42.666666666666664,
+          "outY": -10
+        },
+        {
+          "x": 64,
+          "y": -6.5,
+          "inX": -42.666666666666664,
+          "inY": -10,
+          "outX": 7.333333333333329,
+          "outY": 4
+        },
+        {
+          "x": 66,
+          "y": 6.5,
+          "inX": 6,
+          "inY": -4.666666666666664,
+          "outX": -44,
+          "outY": -8.666666666666664
+        },
+        {
+          "x": -66,
+          "y": 6.5,
+          "inX": 44,
+          "inY": -8.666666666666664,
+          "outX": -6,
+          "outY": -4.666666666666664
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n112": {
+      "id": "n112",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 225,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e0a520"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -59,
+          "y": 0,
+          "inX": 0,
+          "inY": 0,
+          "outX": 39.33333333333333,
+          "outY": -8
+        },
+        {
+          "x": 59,
+          "y": 0,
+          "inX": -39.33333333333333,
+          "inY": -8,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n113": {
+      "id": "n113",
+      "name": "circle",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 189,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffc93c"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 15,
+          "y": 0,
+          "inX": 0,
+          "inY": -8.284271247,
+          "outX": 0,
+          "outY": 8.284271247
+        },
+        {
+          "x": 0,
+          "y": 15,
+          "inX": 8.284271247,
+          "inY": 0,
+          "outX": -8.284271247,
+          "outY": 0
+        },
+        {
+          "x": -15,
+          "y": 0,
+          "inX": 0,
+          "inY": 8.284271247,
+          "outX": 0,
+          "outY": -8.284271247
+        },
+        {
+          "x": 0,
+          "y": -15,
+          "inX": -8.284271247,
+          "inY": 0,
+          "outX": 8.284271247,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n114": {
+      "id": "n114",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 403.5,
+        "y": 220,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#3a2418"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13.5,
+          "y": 2,
+          "inX": 0,
+          "inY": 0,
+          "outX": 8,
+          "outY": -3.333333333333332
+        },
+        {
+          "x": 13.5,
+          "y": -2,
+          "inX": -10,
+          "inY": -0.6666666666666643,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n115": {
+      "id": "n115",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 456.5,
+        "y": 220,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#3a2418"
+        },
+        "width": 5,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -13.5,
+          "y": -2,
+          "inX": 0,
+          "inY": 0,
+          "outX": 10,
+          "outY": -0.6666666666666643
+        },
+        {
+          "x": 13.5,
+          "y": 2,
+          "inX": -8,
+          "inY": -3.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n116": {
+      "id": "n116",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 404,
+        "y": 252,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 15,
+          "y": 0,
+          "inX": 0,
+          "inY": -10.4934102462,
+          "outX": 0,
+          "outY": 10.4934102462
+        },
+        {
+          "x": 0,
+          "y": 19,
+          "inX": 8.284271247,
+          "inY": 0,
+          "outX": -8.284271247,
+          "outY": 0
+        },
+        {
+          "x": -15,
+          "y": 0,
+          "inX": 0,
+          "inY": 10.4934102462,
+          "outX": 0,
+          "outY": -10.4934102462
+        },
+        {
+          "x": 0,
+          "y": -19,
+          "inX": -8.284271247,
+          "inY": 0,
+          "outX": 8.284271247,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n117": {
+      "id": "n117",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 404,
+        "y": 253,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#2e2556"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 2.4852813741,
+          "inY": 0,
+          "outX": -2.4852813741,
+          "outY": 0
+        },
+        {
+          "x": -4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -2.4852813741,
+          "inY": 0,
+          "outX": 2.4852813741,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n118": {
+      "id": "n118",
+      "name": "circle",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 402.5,
+        "y": 251,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 1.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -0.8284271246999999,
+          "outX": 0,
+          "outY": 0.8284271246999999
+        },
+        {
+          "x": 0,
+          "y": 1.5,
+          "inX": 0.8284271246999999,
+          "inY": 0,
+          "outX": -0.8284271246999999,
+          "outY": 0
+        },
+        {
+          "x": -1.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0.8284271246999999,
+          "outX": 0,
+          "outY": -0.8284271246999999
+        },
+        {
+          "x": 0,
+          "y": -1.5,
+          "inX": -0.8284271246999999,
+          "inY": 0,
+          "outX": 0.8284271246999999,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n119": {
+      "id": "n119",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 456,
+        "y": 252,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 15,
+          "y": 0,
+          "inX": 0,
+          "inY": -10.4934102462,
+          "outX": 0,
+          "outY": 10.4934102462
+        },
+        {
+          "x": 0,
+          "y": 19,
+          "inX": 8.284271247,
+          "inY": 0,
+          "outX": -8.284271247,
+          "outY": 0
+        },
+        {
+          "x": -15,
+          "y": 0,
+          "inX": 0,
+          "inY": 10.4934102462,
+          "outX": 0,
+          "outY": -10.4934102462
+        },
+        {
+          "x": 0,
+          "y": -19,
+          "inX": -8.284271247,
+          "inY": 0,
+          "outX": 8.284271247,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n120": {
+      "id": "n120",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 456,
+        "y": 253,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#2e2556"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 2.4852813741,
+          "inY": 0,
+          "outX": -2.4852813741,
+          "outY": 0
+        },
+        {
+          "x": -4.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -2.4852813741,
+          "inY": 0,
+          "outX": 2.4852813741,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n121": {
+      "id": "n121",
+      "name": "circle",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 454.5,
+        "y": 251,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ffffff"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 1.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -0.8284271246999999,
+          "outX": 0,
+          "outY": 0.8284271246999999
+        },
+        {
+          "x": 0,
+          "y": 1.5,
+          "inX": 0.8284271246999999,
+          "inY": 0,
+          "outX": -0.8284271246999999,
+          "outY": 0
+        },
+        {
+          "x": -1.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 0.8284271246999999,
+          "outX": 0,
+          "outY": -0.8284271246999999
+        },
+        {
+          "x": 0,
+          "y": -1.5,
+          "inX": -0.8284271246999999,
+          "inY": 0,
+          "outX": 0.8284271246999999,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n122": {
+      "id": "n122",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.95,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 397,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n123": {
+      "id": "n123",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 389.75,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n124": {
+      "id": "n124",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 395.25,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n125": {
+      "id": "n125",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 400.75,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n126": {
+      "id": "n126",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 0.95,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 463,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 11,
+          "y": 0,
+          "inX": 0,
+          "inY": -3.0375661239,
+          "outX": 0,
+          "outY": 3.0375661239
+        },
+        {
+          "x": 0,
+          "y": 5.5,
+          "inX": 6.0751322478,
+          "inY": 0,
+          "outX": -6.0751322478,
+          "outY": 0
+        },
+        {
+          "x": -11,
+          "y": 0,
+          "inX": 0,
+          "inY": 3.0375661239,
+          "outX": 0,
+          "outY": -3.0375661239
+        },
+        {
+          "x": 0,
+          "y": -5.5,
+          "inX": -6.0751322478,
+          "inY": 0,
+          "outX": 6.0751322478,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n127": {
+      "id": "n127",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 455.75,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n128": {
+      "id": "n128",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 461.25,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n129": {
+      "id": "n129",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 466.75,
+        "y": 274.75,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#e04868"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 1.25,
+          "y": -2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        },
+        {
+          "x": -1.25,
+          "y": 2.75,
+          "inX": 0,
+          "inY": 0,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n130": {
+      "id": "n130",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 431.5,
+        "y": 275,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#dcd8ea"
+        },
+        "width": 2,
+        "join": "miter",
+        "cap": "round"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 0.5,
+          "y": -3,
+          "inX": 0,
+          "inY": 0,
+          "outX": 2,
+          "outY": 2.666666666666668
+        },
+        {
+          "x": -0.5,
+          "y": 3,
+          "inX": 2.6666666666666665,
+          "inY": -1.3333333333333321,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": false,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n131": {
+      "id": "n131",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 295,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#5a1a2a"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 2.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": -9,
+          "y": -10,
+          "inX": -2,
+          "inY": 12,
+          "outX": 6,
+          "outY": -2.6666666666666643
+        },
+        {
+          "x": 9,
+          "y": -10,
+          "inX": -6,
+          "inY": -2.6666666666666643,
+          "outX": 2,
+          "outY": 12
+        },
+        {
+          "x": 0,
+          "y": 10,
+          "inX": 8,
+          "inY": -1.3333333333333357,
+          "outX": -8,
+          "outY": -1.3333333333333357
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n132": {
+      "id": "n132",
+      "name": "ellipse",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 430,
+        "y": 299,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#ff7e93"
+      },
+      "stroke": null,
+      "type": "path",
+      "points": [
+        {
+          "x": 5.5,
+          "y": 0,
+          "inX": 0,
+          "inY": -1.9329966242999999,
+          "outX": 0,
+          "outY": 1.9329966242999999
+        },
+        {
+          "x": 0,
+          "y": 3.5,
+          "inX": 3.0375661239,
+          "inY": 0,
+          "outX": -3.0375661239,
+          "outY": 0
+        },
+        {
+          "x": -5.5,
+          "y": 0,
+          "inX": 0,
+          "inY": 1.9329966242999999,
+          "outX": 0,
+          "outY": -1.9329966242999999
+        },
+        {
+          "x": 0,
+          "y": -3.5,
+          "inX": -3.0375661239,
+          "inY": 0,
+          "outX": 3.0375661239,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n133": {
+      "id": "n133",
+      "name": "path",
+      "parent": "n98",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 478.5,
+        "y": 228.5,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#8fd8ff"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1a1424"
+        },
+        "width": 1.5,
+        "join": "miter",
+        "cap": "butt"
+      },
+      "type": "path",
+      "points": [
+        {
+          "x": 0.5,
+          "y": -11.5,
+          "inX": 0,
+          "inY": 0,
+          "outX": 6,
+          "outY": 9.333333333333332
+        },
+        {
+          "x": 3.5,
+          "y": 11.5,
+          "inX": 4,
+          "inY": -6,
+          "outX": -5.333333333333336,
+          "outY": 0
+        },
+        {
+          "x": -3.5,
+          "y": 0.5,
+          "inX": -0.6666666666666643,
+          "inY": 7.333333333333332,
+          "outX": 0,
+          "outY": 0
+        }
+      ],
+      "closed": true,
+      "subpaths": [],
+      "fillRule": "nonzero",
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    },
+    "n134": {
+      "id": "n134",
+      "name": "xeno",
+      "parent": "n1",
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 0,
+        "y": 0,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "none"
+      },
+      "stroke": null,
+      "type": "group",
+      "children": [
+        "n36",
+        "n70",
+        "n97"
+      ],
+      "clip": false
+    },
+    "n135": {
+      "id": "n135",
+      "name": "titulo",
+      "parent": null,
+      "visible": true,
+      "locked": false,
+      "opacity": 1,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 640,
+        "y": 80,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#FFD23F"
+      },
+      "stroke": {
+        "paint": {
+          "type": "solid",
+          "color": "#1A1424"
+        },
+        "width": 10,
+        "join": "round",
+        "cap": "round"
+      },
+      "type": "text",
+      "text": "¿QUÉ PASARÍA SI…?",
+      "fontFamily": "SF Pro Display",
+      "fontSize": 64,
+      "fontWeight": 900,
+      "lineHeight": 1.2,
+      "letterSpacing": 0,
+      "align": "center"
+    },
+    "n136": {
+      "id": "n136",
+      "name": "fundido",
+      "parent": null,
+      "visible": true,
+      "locked": false,
+      "opacity": 0,
+      "blur": 0,
+      "shadow": null,
+      "transform": {
+        "x": 640,
+        "y": 360,
+        "rotation": 0,
+        "scaleX": 1,
+        "scaleY": 1,
+        "originX": 0,
+        "originY": 0
+      },
+      "fill": {
+        "type": "solid",
+        "color": "#000000"
+      },
+      "stroke": null,
+      "type": "rect",
+      "width": 1400,
+      "height": 800,
+      "cornerRadius": 0,
+      "trimStart": 0,
+      "trimEnd": 1,
+      "trimOffset": 0
+    }
+  },
+  "root": [
+    "n1",
+    "n135",
+    "n136"
+  ],
+  "animations": [
+    {
+      "id": "a137",
+      "name": "Escena",
+      "duration": 6,
+      "loop": "none",
+      "tracks": [
+        {
+          "nodeId": "n134",
+          "prop": "transform.x",
+          "keys": [
+            {
+              "time": 0,
+              "value": -600,
+              "ease": "easeOut"
+            },
+            {
+              "time": 1.2,
+              "value": 0,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3,
+              "value": 0,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.075,
+              "value": 12,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.15,
+              "value": -12,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.225,
+              "value": 8.399999999999999,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.3,
+              "value": -8.399999999999999,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.4,
+              "value": 3.5999999999999996,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 3.5,
+              "value": 0,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n134",
+          "prop": "opacity",
+          "keys": [
+            {
+              "time": 0,
+              "value": 0,
+              "ease": "easeOut"
+            },
+            {
+              "time": 0.72,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n135",
+          "prop": "transform.scaleX",
+          "keys": [
+            {
+              "time": 0.6,
+              "value": 0,
+              "ease": "backOut"
+            },
+            {
+              "time": 1.2,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n135",
+          "prop": "transform.scaleY",
+          "keys": [
+            {
+              "time": 0.6,
+              "value": 0,
+              "ease": "backOut"
+            },
+            {
+              "time": 1.2,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n135",
+          "prop": "opacity",
+          "keys": [
+            {
+              "time": 0.6,
+              "value": 0,
+              "ease": "easeOut"
+            },
+            {
+              "time": 0.84,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n3",
+          "prop": "transform.scaleX",
+          "keys": [
+            {
+              "time": 0.2,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 1.2,
+              "value": 1.12,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 2.2,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n3",
+          "prop": "transform.scaleY",
+          "keys": [
+            {
+              "time": 0.2,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 1.2,
+              "value": 1.12,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 2.2,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n134",
+          "prop": "transform.y",
+          "keys": [
+            {
+              "time": 1.4,
+              "value": 0,
+              "ease": "easeOut"
+            },
+            {
+              "time": 1.76,
+              "value": -30,
+              "ease": "easeIn"
+            },
+            {
+              "time": 2.12,
+              "value": 0,
+              "ease": "easeOut"
+            },
+            {
+              "time": 2.16,
+              "value": -3.5999999999999996,
+              "ease": "easeIn"
+            },
+            {
+              "time": 2.2,
+              "value": 0,
+              "ease": "easeInOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n70",
+          "prop": "opacity",
+          "keys": [
+            {
+              "time": 0,
+              "value": 1,
+              "ease": "hold"
+            },
+            {
+              "time": 3,
+              "value": 0,
+              "ease": "hold"
+            }
+          ]
+        },
+        {
+          "nodeId": "n97",
+          "prop": "opacity",
+          "keys": [
+            {
+              "time": 0,
+              "value": 0,
+              "ease": "hold"
+            },
+            {
+              "time": 3,
+              "value": 1,
+              "ease": "hold"
+            }
+          ]
+        },
+        {
+          "nodeId": "n1",
+          "prop": "transform.scaleX",
+          "keys": [
+            {
+              "time": 0,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 2.6,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 4.6,
+              "value": 1.6,
+              "ease": "easeOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n1",
+          "prop": "transform.scaleY",
+          "keys": [
+            {
+              "time": 0,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 2.6,
+              "value": 1,
+              "ease": "easeInOut"
+            },
+            {
+              "time": 4.6,
+              "value": 1.6,
+              "ease": "easeOut"
+            }
+          ]
+        },
+        {
+          "nodeId": "n136",
+          "prop": "opacity",
+          "keys": [
+            {
+              "time": 5.2,
+              "value": 0,
+              "ease": "easeIn"
+            },
+            {
+              "time": 6,
+              "value": 1,
+              "ease": "easeInOut"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "activeAnimation": "a137",
+  "stateMachines": []
+}
