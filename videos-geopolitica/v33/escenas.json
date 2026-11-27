@@ -1,0 +1,870 @@
+[
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Me cayeron cuarenta y siete dólares en un solo día. Y todos venían de ella. La regla era simple: cada vez que mi crush me miente, me cae un dólar. Todo era divertido… hasta que me dijo: te quiero… como amigo. Y cayó una moneda.",
+  "planos": [
+   {
+    "v": "noche;X=sorprendido@0.5;fx:monedas;sh",
+    "f": "Me cayeron cuarenta y siete dólares en un solo día."
+   },
+   {
+    "v": "noche;S=pensando@0.5;cu;kw:TODOS DE ELLA",
+    "f": "Y todos venían de ella."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;fx:moneda",
+    "f": "La regla era simple: cada vez que mi crush me miente, me cae un dólar."
+   },
+   {
+    "v": "balcon;S=sonrojado@0.5;cu",
+    "f": "Todo era divertido… hasta que me dijo: te quiero… como amigo."
+   },
+   {
+    "v": "balcon;X=sorprendido@0.5;cu;fx:moneda;sh",
+    "f": "Y cayó una moneda."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": null
+  },
+  "sfx": [
+   [
+    0.0,
+    "impacto"
+   ],
+   [
+    0.133,
+    "clink"
+   ],
+   [
+    0.0,
+    "clink"
+   ],
+   [
+    0.04,
+    "clink"
+   ],
+   [
+    0.08,
+    "clink"
+   ],
+   [
+    0.12,
+    "clink"
+   ],
+   [
+    0.01,
+    "impacto"
+   ],
+   [
+    0.232,
+    "impacto"
+   ],
+   [
+    0.533,
+    "clink"
+   ],
+   [
+    0.333,
+    "swish"
+   ],
+   [
+    0.667,
+    "swish"
+   ],
+   [
+    0.964,
+    "clink"
+   ],
+   [
+    0.921,
+    "impacto"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Todo empezó un lunes cualquiera. Me desperté, me puse mi gorra de siempre y fui a la escuela. En el pasillo me encontré con Sofía. Pelo largo, pinza de estrella, la sonrisa que me arruina la concentración. Le pregunté, nervioso: ¿te gusta mi gorra nueva? Ella dijo: ¡me encanta! Y de la nada, ¡clink! Una moneda de un dólar cayó justo en mi cabeza. Miré al techo. Nada. Sofía no vio nada. Nadie vio nada.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5",
+    "f": "Todo empezó un lunes cualquiera. Me desperté, me puse mi gorra de siempre y fui a la escuela."
+   },
+   {
+    "v": "pasillo;S=normal@0.62;X=normal@0.3",
+    "f": "En el pasillo me encontré con Sofía. Pelo largo, pinza de estrella, la sonrisa que me arruina la concentración."
+   },
+   {
+    "v": "pasillo;X=sonrojado@0.5;cu",
+    "f": "Le pregunté, nervioso: ¿te gusta mi gorra nueva?"
+   },
+   {
+    "v": "pasillo;S=riendo@0.5;cu",
+    "f": "Ella dijo: ¡me encanta!"
+   },
+   {
+    "v": "pasillo;X=sorprendido@0.4;S=riendo@0.7;fx:moneda;kw:+$1",
+    "f": "Y de la nada, ¡clink! Una moneda de un dólar cayó justo en mi cabeza."
+   },
+   {
+    "v": "pasillo;X=pensando@0.5;cu;th:¿de dónde salió?",
+    "f": "Miré al techo. Nada. Sofía no vio nada. Nadie vio nada."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$1",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.24,
+    "swish"
+   ],
+   [
+    0.493,
+    "swish"
+   ],
+   [
+    0.6,
+    "swish"
+   ],
+   [
+    0.773,
+    "clink"
+   ],
+   [
+    0.663,
+    "impacto"
+   ],
+   [
+    0.853,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "En el recreo hice un experimento. ¿Hiciste la tarea de mate? Sí, toda. Clink. Otra moneda. ¿Te gustó mi chiste de ayer? Jajaja, buenísimo. Clink. Tres dólares. Probé con mi mamá, con mi hermano, con el profe. Nada. Solo funcionaba con ella. Y ojo, que esto no es tan raro. En estudios con diarios, la gente admitió decir en promedio una o dos mentiras al día. Casi todas pequeñas. Para no herir a nadie. Pero yo no lo veía así. Yo veía dinero.",
+  "planos": [
+   {
+    "v": "patio;X=pensando@0.5;th:¿y si…?",
+    "f": "En el recreo hice un experimento."
+   },
+   {
+    "v": "patio;X=normal@0.3;S=normal@0.7",
+    "f": "¿Hiciste la tarea de mate? Sí, toda."
+   },
+   {
+    "v": "patio;X=sorprendido@0.4;S=normal@0.7;fx:moneda",
+    "f": "Clink. Otra moneda."
+   },
+   {
+    "v": "patio;S=riendo@0.5;cu",
+    "f": "¿Te gustó mi chiste de ayer? Jajaja, buenísimo."
+   },
+   {
+    "v": "patio;X=riendo@0.5;cu;fx:moneda;sh",
+    "f": "Clink. Tres dólares."
+   },
+   {
+    "v": "patio;M=normal@0.6;X=pensando@0.3",
+    "f": "Probé con mi mamá, con mi hermano, con el profe. Nada. Solo funcionaba con ella."
+   },
+   {
+    "v": "neutro;ui:1 O 2 AL DÍA",
+    "f": "Y ojo, que esto no es tan raro. En estudios con diarios, la gente admitió decir en promedio una o dos mentiras al día."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;cu;th:casi todas pequeñitas",
+    "f": "Casi todas pequeñas. Para no herir a nadie. Pero yo no lo veía así. Yo veía dinero."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$3",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.072,
+    "swish"
+   ],
+   [
+    0.178,
+    "clink"
+   ],
+   [
+    0.157,
+    "swish"
+   ],
+   [
+    0.193,
+    "swish"
+   ],
+   [
+    0.311,
+    "clink"
+   ],
+   [
+    0.299,
+    "impacto"
+   ],
+   [
+    0.325,
+    "swish"
+   ],
+   [
+    0.506,
+    "swish"
+   ],
+   [
+    0.795,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Así que armé un plan millonario. ¿Te gusta el brócoli? ¿Te encanta madrugar? ¿Mi peinado se ve bien? Clink, clink, clink. Las monedas caían como lluvia. En una hora ya llevaba doce dólares. Me imaginaba comprando una consola, unos tenis, una pizza gigante. Pero Sofía empezó a mirarme raro. ¿Por qué me haces tantas preguntas tontas? Y se fue a otra mesa. Sola. Con los audífonos puestos. Mi amiga Camila me jaló del brazo. Oye, la estás poniendo incómoda a propósito. Eso es tóxico. Me dolió. Porque tenía razón. Dejé de preguntarle tonterías.",
+  "planos": [
+   {
+    "v": "biblio;X=riendo@0.5;kw:PLAN MILLONARIO",
+    "f": "Así que armé un plan millonario."
+   },
+   {
+    "v": "biblio;X=riendo@0.3;S=normal@0.7",
+    "f": "¿Te gusta el brócoli? ¿Te encanta madrugar? ¿Mi peinado se ve bien?"
+   },
+   {
+    "v": "biblio;S=sonrojado@0.7;X=riendo@0.3;fx:monedas",
+    "f": "Clink, clink, clink. Las monedas caían como lluvia."
+   },
+   {
+    "v": "biblio;X=riendo@0.5;cu;th:$12 en una hora",
+    "f": "En una hora ya llevaba doce dólares. Me imaginaba comprando una consola, unos tenis, una pizza gigante."
+   },
+   {
+    "v": "biblio;S=enojado@0.5;cu",
+    "f": "Pero Sofía empezó a mirarme raro. ¿Por qué me haces tantas preguntas tontas?"
+   },
+   {
+    "v": "biblio;S=preocupado@0.62;X=preocupado@0.3",
+    "f": "Y se fue a otra mesa. Sola. Con los audífonos puestos."
+   },
+   {
+    "v": "comedor;C=enojado@0.62;X=normal@0.3",
+    "f": "Mi amiga Camila me jaló del brazo."
+   },
+   {
+    "v": "comedor;C=enojado@0.5;cu;kw:ESO ES TÓXICO",
+    "f": "Oye, la estás poniendo incómoda a propósito. Eso es tóxico."
+   },
+   {
+    "v": "comedor;X=preocupado@0.5;cu;th:…tiene razón",
+    "f": "Me dolió. Porque tenía razón. Dejé de preguntarle tonterías."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$12",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.01,
+    "impacto"
+   ],
+   [
+    0.065,
+    "swish"
+   ],
+   [
+    0.245,
+    "clink"
+   ],
+   [
+    0.194,
+    "clink"
+   ],
+   [
+    0.234,
+    "clink"
+   ],
+   [
+    0.274,
+    "clink"
+   ],
+   [
+    0.314,
+    "clink"
+   ],
+   [
+    0.194,
+    "swish"
+   ],
+   [
+    0.28,
+    "swish"
+   ],
+   [
+    0.462,
+    "swish"
+   ],
+   [
+    0.602,
+    "swish"
+   ],
+   [
+    0.72,
+    "swish"
+   ],
+   [
+    0.806,
+    "impacto"
+   ],
+   [
+    0.903,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Pero el viernes pasó algo raro. Le dije hola. Ella dijo: no estoy haciendo nada raro. Clink. No tengo planes el sábado. Clink. No sé ni cuándo es tu cumpleaños. Clink. Para la salida ya llevaba cuarenta y siete dólares. Todos de ella. En un solo día. Y entonces la vi. Secreteándose con Mateo. Riéndose. Escondiendo algo en la mochila. Sentí el estómago en el piso. Me estaba mintiendo todo el día… ¿por él?",
+  "planos": [
+   {
+    "v": "pasillo;X=normal@0.3;S=preocupado@0.7;kw:VIERNES",
+    "f": "Pero el viernes pasó algo raro."
+   },
+   {
+    "v": "pasillo;S=preocupado@0.5;cu;fx:moneda",
+    "f": "Le dije hola. Ella dijo: no estoy haciendo nada raro. Clink."
+   },
+   {
+    "v": "patio;S=preocupado@0.7;X=pensando@0.3;fx:moneda",
+    "f": "No tengo planes el sábado. Clink."
+   },
+   {
+    "v": "patio;S=sonrojado@0.5;cu;fx:moneda",
+    "f": "No sé ni cuándo es tu cumpleaños. Clink."
+   },
+   {
+    "v": "patio;X=sorprendido@0.5;fx:monedas;sh",
+    "f": "Para la salida ya llevaba cuarenta y siete dólares. Todos de ella. En un solo día."
+   },
+   {
+    "v": "calle;MT=riendo@0.7;S=riendo@0.45;X=preocupado@0.15",
+    "f": "Y entonces la vi. Secreteándose con Mateo. Riéndose. Escondiendo algo en la mochila."
+   },
+   {
+    "v": "calle;X=llorando@0.5;cu;th:me está mintiendo por él…",
+    "f": "Sentí el estómago en el piso. Me estaba mintiendo todo el día… ¿por él?"
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$59",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.01,
+    "impacto"
+   ],
+   [
+    0.17,
+    "clink"
+   ],
+   [
+    0.081,
+    "swish"
+   ],
+   [
+    0.278,
+    "clink"
+   ],
+   [
+    0.23,
+    "swish"
+   ],
+   [
+    0.376,
+    "clink"
+   ],
+   [
+    0.311,
+    "swish"
+   ],
+   [
+    0.549,
+    "clink"
+   ],
+   [
+    0.419,
+    "clink"
+   ],
+   [
+    0.459,
+    "clink"
+   ],
+   [
+    0.499,
+    "clink"
+   ],
+   [
+    0.539,
+    "clink"
+   ],
+   [
+    0.429,
+    "impacto"
+   ],
+   [
+    0.635,
+    "swish"
+   ],
+   [
+    0.811,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "susp",
+  "texto": "Esa noche puse las cuarenta y siete monedas sobre la cama. Tenía más dinero que nunca. Y nunca me había sentido tan mal. Entendí algo: no quería ganar dinero con sus mentiras. Quería que me dijera la verdad.",
+  "planos": [
+   {
+    "v": "cuarto;X=llorando@0.5;fx:lluvia",
+    "f": "Esa noche puse las cuarenta y siete monedas sobre la cama."
+   },
+   {
+    "v": "cuarto;X=preocupado@0.5;cu",
+    "f": "Tenía más dinero que nunca. Y nunca me había sentido tan mal."
+   },
+   {
+    "v": "cuarto;X=pensando@0.5;cu;th:no quiero ganar así",
+    "f": "Entendí algo: no quería ganar dinero con sus mentiras. Quería que me dijera la verdad."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$59",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.289,
+    "swish"
+   ],
+   [
+    0.605,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Y entonces hice algo de lo que todavía me arrepiento. Le escribí: ya sé que me estás mintiendo. Ella respondió: no te estoy mintiendo, te lo juro. Clink. Me dio tanta rabia que la dejé en visto. Ella me mandó tres mensajes más. No abrí ninguno. Apagué el celular y me quedé mirando el techo hasta las dos de la mañana.",
+  "planos": [
+   {
+    "v": "cuarto;X=enojado@0.5;fx:chat",
+    "f": "Y entonces hice algo de lo que todavía me arrepiento. Le escribí: ya sé que me estás mintiendo."
+   },
+   {
+    "v": "cuarto;X=enojado@0.5;cu;fx:moneda",
+    "f": "Ella respondió: no te estoy mintiendo, te lo juro. Clink."
+   },
+   {
+    "v": "cuarto;X=enojado@0.5;cu;kw:VISTO",
+    "f": "Me dio tanta rabia que la dejé en visto."
+   },
+   {
+    "v": "cuarto;X=preocupado@0.5;cu;th:¿y si me equivoco?",
+    "f": "Ella me mandó tres mensajes más. No abrí ninguno. Apagué el celular y me quedé mirando el techo hasta las dos de la mañana."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$60",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.393,
+    "clink"
+   ],
+   [
+    0.295,
+    "swish"
+   ],
+   [
+    0.469,
+    "impacto"
+   ],
+   [
+    0.607,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "El sábado mi mamá me pidió que la acompañara a casa de una vecina. Raro, pero fui. Toqué el timbre. Las luces estaban apagadas. Y de pronto: ¡sorpresa! Era mi cumpleaños. Se me había olvidado por completo. Sofía lo había organizado todo. Mateo la ayudó con el pastel. Camila con los globos. Las cuarenta y siete mentiras del viernes… eran para que yo no descubriera nada. Y yo la había dejado en visto. Me sentí el peor amigo del mundo. Me acerqué y le dije: perdón por lo de anoche. Pensé que me escondías algo malo. Ella se rió: te escondía algo, sí. Pero era bonito. Cantamos, comimos pastel y por primera vez en toda la semana me olvidé de las monedas.",
+  "planos": [
+   {
+    "v": "cuarto;M=riendo@0.62;X=normal@0.28",
+    "f": "El sábado mi mamá me pidió que la acompañara a casa de una vecina. Raro, pero fui."
+   },
+   {
+    "v": "entrada;X=normal@0.5",
+    "f": "Toqué el timbre. Las luces estaban apagadas."
+   },
+   {
+    "v": "fiesta;S=riendo@0.5;MT=riendo@0.78;C=riendo@0.22;fx:confeti;sh;kw:¡SORPRESA!",
+    "f": "Y de pronto: ¡sorpresa!"
+   },
+   {
+    "v": "fiesta;X=sorprendido@0.5;cu",
+    "f": "Era mi cumpleaños. Se me había olvidado por completo."
+   },
+   {
+    "v": "fiesta;S=sonrojado@0.62;X=sorprendido@0.3",
+    "f": "Sofía lo había organizado todo. Mateo la ayudó con el pastel. Camila con los globos."
+   },
+   {
+    "v": "fiesta;X=pensando@0.5;cu;th:47 mentiras = 47 sorpresas",
+    "f": "Las cuarenta y siete mentiras del viernes… eran para que yo no descubriera nada."
+   },
+   {
+    "v": "fiesta;X=preocupado@0.5;cu;th:soy un idiota",
+    "f": "Y yo la había dejado en visto. Me sentí el peor amigo del mundo."
+   },
+   {
+    "v": "fiesta;X=preocupado@0.3;S=normal@0.7",
+    "f": "Me acerqué y le dije: perdón por lo de anoche. Pensé que me escondías algo malo."
+   },
+   {
+    "v": "fiesta;S=riendo@0.5;cu",
+    "f": "Ella se rió: te escondía algo, sí. Pero era bonito."
+   },
+   {
+    "v": "fiesta;X=riendo@0.3;S=riendo@0.7;fx:confeti",
+    "f": "Cantamos, comimos pastel y por primera vez en toda la semana me olvidé de las monedas."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$60",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.139,
+    "swish"
+   ],
+   [
+    0.207,
+    "impacto"
+   ],
+   [
+    0.23,
+    "swish"
+   ],
+   [
+    0.303,
+    "swish"
+   ],
+   [
+    0.426,
+    "swish"
+   ],
+   [
+    0.541,
+    "swish"
+   ],
+   [
+    0.656,
+    "swish"
+   ],
+   [
+    0.787,
+    "swish"
+   ],
+   [
+    0.869,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Más tarde salimos al balcón. Hacía frío y se veían las estrellas. Le pregunté: ¿por qué hiciste todo esto por mí? Ella miró al suelo y dijo: porque te quiero… como amigo. Clink. Una moneda rodó entre los dos. Y yo sabía exactamente lo que significaba. Si decir te quiero como amigo era mentira… entonces ella no me quería como amigo. Me quería más.",
+  "planos": [
+   {
+    "v": "balcon;X=sonrojado@0.3;S=sonrojado@0.7",
+    "f": "Más tarde salimos al balcón. Hacía frío y se veían las estrellas."
+   },
+   {
+    "v": "balcon;X=sonrojado@0.5;cu",
+    "f": "Le pregunté: ¿por qué hiciste todo esto por mí?"
+   },
+   {
+    "v": "balcon;S=sonrojado@0.5;cu",
+    "f": "Ella miró al suelo y dijo: porque te quiero… como amigo."
+   },
+   {
+    "v": "balcon;X=sorprendido@0.5;cu;fx:moneda;sh;kw:CLINK",
+    "f": "Clink."
+   },
+   {
+    "v": "balcon;X=riendo@0.5;cu;th:¡¿era MENTIRA?!",
+    "f": "Una moneda rodó entre los dos. Y yo sabía exactamente lo que significaba."
+   },
+   {
+    "v": "balcon;X=pensando@0.5;cu;th:si es mentira…",
+    "f": "Si decir te quiero como amigo era mentira… entonces ella no me quería como amigo. Me quería más."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$61",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.188,
+    "swish"
+   ],
+   [
+    0.328,
+    "swish"
+   ],
+   [
+    0.509,
+    "clink"
+   ],
+   [
+    0.51,
+    "impacto"
+   ],
+   [
+    0.516,
+    "swish"
+   ],
+   [
+    0.719,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Ella vio la moneda. ¿De dónde salió eso? Y le conté todo. Lo de las monedas, lo del plan millonario, lo del viernes. Hasta lo del brócoli. Ella se rió tanto que tuvo que agarrarse del barandal. Así que por eso me preguntabas tantas tonterías. Junté todo el valor que tenía y le dije: Sofía, yo no te quiero como amigo. Ella se puso roja como un tomate. Y dijo bajito: yo tampoco. Esperé el clink. Pero no cayó nada. Ninguna moneda. Era verdad. Y valía más que los sesenta y un dólares juntos.",
+  "planos": [
+   {
+    "v": "balcon;S=sorprendido@0.7;X=sonrojado@0.3",
+    "f": "Ella vio la moneda. ¿De dónde salió eso?"
+   },
+   {
+    "v": "balcon;X=riendo@0.5;cu",
+    "f": "Y le conté todo. Lo de las monedas, lo del plan millonario, lo del viernes. Hasta lo del brócoli."
+   },
+   {
+    "v": "balcon;S=riendo@0.5;cu;kw:JAJAJA",
+    "f": "Ella se rió tanto que tuvo que agarrarse del barandal. Así que por eso me preguntabas tantas tonterías."
+   },
+   {
+    "v": "balcon;X=sonrojado@0.5;cu",
+    "f": "Junté todo el valor que tenía y le dije: Sofía, yo no te quiero como amigo."
+   },
+   {
+    "v": "balcon;S=sonrojado@0.5;cu",
+    "f": "Ella se puso roja como un tomate. Y dijo bajito: yo tampoco."
+   },
+   {
+    "v": "balcon;X=riendo@0.3;S=riendo@0.7;fx:brillo;kw:0 MONEDAS",
+    "f": "Esperé el clink. Pero no cayó nada. Ninguna moneda."
+   },
+   {
+    "v": "balcon;X=sonrojado@0.3;S=riendo@0.7;fx:brillo",
+    "f": "Era verdad. Y valía más que los sesenta y un dólares juntos."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": [
+    "$",
+    "$61",
+    "GANADO"
+   ]
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.085,
+    "swish"
+   ],
+   [
+    0.297,
+    "impacto"
+   ],
+   [
+    0.479,
+    "swish"
+   ],
+   [
+    0.649,
+    "swish"
+   ],
+   [
+    0.787,
+    "impacto"
+   ],
+   [
+    0.872,
+    "swish"
+   ]
+  ]
+ },
+ {
+  "tipo": "planos",
+  "titulo": "",
+  "voz": "narr",
+  "texto": "Esa noche entendí que no todas las mentiras son malas. Algunas esconden una fiesta. Pero la verdad, la de verdad, siempre necesita un poco de valor. Y tú, si ganaras un dólar cada vez que tu crush te miente, ¿le dirías o te harías millonario? Te leo en los comentarios.",
+  "planos": [
+   {
+    "v": "cuarto;X=normal@0.5;cu",
+    "f": "Esa noche entendí que no todas las mentiras son malas. Algunas esconden una fiesta."
+   },
+   {
+    "v": "cuarto;X=pensando@0.5;cu;th:la verdad cuesta valor",
+    "f": "Pero la verdad, la de verdad, siempre necesita un poco de valor."
+   },
+   {
+    "v": "neutro;X=pensando@0.5;ui:¿QUÉ HARÍAS TÚ?",
+    "f": "Y tú, si ganaras un dólar cada vez que tu crush te miente, ¿le dirías o te harías millonario? Te leo en los comentarios."
+   }
+  ],
+  "p": {
+   "esc": null,
+   "med": null,
+   "flash": false,
+   "chip": null
+  },
+  "sfx": [
+   [
+    0.0,
+    "whoosh"
+   ],
+   [
+    0.28,
+    "swish"
+   ],
+   [
+    0.52,
+    "swish"
+   ]
+  ]
+ }
+]
