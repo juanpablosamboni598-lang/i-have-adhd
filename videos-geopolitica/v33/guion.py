@@ -44,7 +44,7 @@ esc('narr', [
   ('patio;S=riendo@0.5;cu', '¿Te gustó mi chiste de ayer? Jajaja, buenísimo.'),
   ('patio;X=riendo@0.5;cu;fx:moneda;sh', 'Clink. Tres dólares.'),
   ('patio;M=normal@0.6;X=pensando@0.3', 'Probé con mi mamá, con mi hermano, con el profe. Nada. Solo funcionaba con ella.'),
-  ('neutro;ui:1 O 2 AL DÍA', 'Y ojo, que esto no es tan raro. En estudios con diarios, la gente admitió decir en promedio una o dos mentiras al día.'),
+  ('patio;X=sorprendido@0.35;S=normal@0.7;kw:1 O 2 AL DÍA;ui:1 O 2 AL DÍA', 'Y ojo, que esto no es tan raro. En estudios con diarios, la gente admitió decir en promedio una o dos mentiras al día.'),
   ('neutro;X=pensando@0.5;cu;th:casi todas pequeñitas', 'Casi todas pequeñas. Para no herir a nadie. Pero yo no lo veía así. Yo veía dinero.'),
 ], gan='$3')
 # 3 EL NEGOCIO
