@@ -440,9 +440,24 @@ const Thumb3 = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width=
   <Lbl x={1600} y={160} txt="TU CRUSH" c="#FF3FA4" sz={124} rot={4} />
   <Arrow d="M1560 200 Q 1530 260 1490 300 M1490 300 l 48 -6 M1490 300 l 8 -48" />
   <Vignette o={0.35} /></svg></AbsoluteFill>;
+const Thumb4 = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`} style={{ filter: 'saturate(1.3) contrast(1.06)' }}>
+  <defs><filter id="tb4"><feGaussianBlur stdDeviation="5" /></filter></defs>
+  {SETS.pasillo(1.2).bg}<rect width={W} height={H} fill="#2A0A4A" opacity="0.5" />
+  <Glow x={430} y={560} r={640} c="#38E8FF" o={0.5} /><Glow x={1480} y={560} r={640} c="#FF3FA4" o={0.6} />
+  <g filter="url(#tb4)" opacity="0.85"><Char k="M" exp="riendo" x={1040} y={520} s={1.0} t={0.3} /><Char k="MT" exp="riendo" x={1840} y={560} s={1.0} t={0.6} /></g>
+  <g opacity="0.9"><Corazon x={1050} y={330} val="1000" t={3} s={0.75} /><Corazon x={1830} y={350} val="90" t={3} s={0.7} /></g>
+  <g style={{ filter: 'drop-shadow(0 0 5px #FF5FB4) drop-shadow(0 0 30px #FF5FB4)' }}><Char k="S" exp="normal" x={1440} y={760} s={2.25} t={0.4} /></g>
+  <g style={{ filter: 'drop-shadow(0 0 5px #5FF0FF) drop-shadow(0 0 30px #5FF0FF)' }}><Char k="X" exp="sorprendido" x={430} y={790} s={2.45} t={0.2} /></g>
+  <Bang x={740} y={330} s={0.85} t={2} />
+  <g transform="translate(1440 190) scale(1.55)"><Glow x={0} y={0} r={200} c="#B04FFF" o={0.7} /><path d={HEART} transform="scale(1.9)" fill="#8A7AA8" stroke={OUT} strokeWidth="3.5" /><text x="0" y="14" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="56" fill="#fff" stroke={OUT} strokeWidth="5" paintOrder="stroke">???</text></g>
+  <Lbl x={230} y={175} txt="TÚ" c="#fff" sz={150} rot={-6} />
+  <Arrow d="M270 215 Q 320 280 350 330 M350 330 l -48 -14 M350 330 l 2 -50" />
+  <Lbl x={1000} y={1010} txt="¿y el de ELLA?" c="#FFD23F" sz={104} rot={-3} />
+  <Vignette o={0.35} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V34-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
+  <Composition id="THUMB4" component={Thumb4} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB3" component={Thumb3} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB2" component={Thumb2} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB" component={Thumb} durationInFrames={1} fps={30} width={W} height={H} />
