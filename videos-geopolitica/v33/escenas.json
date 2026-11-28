@@ -190,7 +190,7 @@
     "f": "Probé con mi mamá, con mi hermano, con el profe. Nada. Solo funcionaba con ella."
    },
    {
-    "v": "neutro;ui:1 O 2 AL DÍA",
+    "v": "patio;X=sorprendido@0.35;S=normal@0.7;kw:1 O 2 AL DÍA;ui:1 O 2 AL DÍA",
     "f": "Y ojo, que esto no es tan raro. En estudios con diarios, la gente admitió decir en promedio una o dos mentiras al día."
    },
    {
@@ -242,8 +242,8 @@
     "swish"
    ],
    [
-    0.506,
-    "swish"
+    0.516,
+    "impacto"
    ],
    [
     0.795,
