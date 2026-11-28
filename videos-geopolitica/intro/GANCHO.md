@@ -31,3 +31,13 @@
 - `sting_xseng.anima`: proyecto editable de RaveAnima.
 - `sting.mjs`: lo regenera (`node intro/sting.mjs <carpeta_svg>`).
 - `partes_xeno.py`: saca a Xeno de `chars28.json` como SVG para RaveAnima.
+
+## Miniatura que funciona (crush, nov 2026)
+Vista en los "¿Qué pasaría si…?" de crush con más vistas (ImaginaX 967K, Zack Mils 706K):
+- Las dos caras **enormes y juntas**, llenando el cuadro (nada de personajes chiquitos y lejos).
+- Etiquetas **"TÚ"** (blanco) y **"TU CRUSH"** (rosa) con flechas a cada cara.
+- Él en pánico (ojos enormes, gota de sudor), ella sonrojada y tranquila.
+- **Un solo objeto** que cuenta el poder (38 %, -30 °C, la moneda "+$1").
+- Colores saturados de noche/neón. Casi nada de texto aparte de las etiquetas.
+- Sin camas, pijamas ni poses sugerentes: romance sano.
+Plantilla: composición `THUMB2` en `remotion/src/index33.jsx`.

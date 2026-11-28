@@ -384,9 +384,26 @@ const Thumb = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width={
   <text x="1460" y="200" textAnchor="middle" fontFamily={FONT} fontWeight="900" fontSize="64" fill="#fff" stroke={OUT} strokeWidth="12" paintOrder="stroke">"te quiero…"</text>
   <text x="70" y="1010" fontFamily={FONT} fontWeight="900" fontSize="118" fill="#fff" stroke={OUT} strokeWidth="20" paintOrder="stroke">¿<tspan fill="#FFD23F">como amigo</tspan>?..</text>
   <Vignette o={0.4} /></svg></AbsoluteFill>;
+const Arrow = ({ d, c = '#fff' }) => <path d={d} fill="none" stroke={c} strokeWidth="14" strokeLinecap="round" strokeLinejoin="round" style={{ filter: 'drop-shadow(0 0 0 #000)' }} />;
+const Lbl = ({ x, y, txt, c, sz = 120, rot = 0 }) => <text x={x} y={y} textAnchor="middle" transform={`rotate(${rot} ${x} ${y})`} fontFamily={FONT} fontWeight="900" fontSize={sz} fill={c} stroke={OUT} strokeWidth="22" paintOrder="stroke">{txt}</text>;
+const Thumb2 = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+  {SETS.balcon(1.2).bg}<rect width={W} height={H} fill="#2A0A4A" opacity="0.45" />
+  <Glow x={620} y={520} r={620} c="#38E8FF" o={0.45} /><Glow x={1340} y={520} r={620} c="#FF3FA4" o={0.55} />
+  <g opacity="0.95">{Array.from({ length: 8 }).map((_, k) => <COIN key={k} x={60 + rnd(k + 3) * 1800} y={300 + rnd(k + 8) * 500} r={26 + rnd(k) * 26} rot={k * 37} sq={0.4 + rnd(k + 1) * 0.6} />)}</g>
+  <Char k="S" exp="sonrojado" x={1390} y={720} s={2.35} t={0.4} />
+  <Char k="X" exp="sorprendido" x={540} y={740} s={2.5} t={0.2} />
+  <Glow x={965} y={560} r={220} c="#FFD23F" o={0.6} />
+  <COIN x={965} y={560} r={100} rot={-14} />
+  <Lbl x={965} y={745} txt="+$1" c="#7CFF6B" sz={110} rot={-6} />
+  <Lbl x={250} y={190} txt="TÚ" c="#fff" sz={150} rot={-6} />
+  <Arrow d="M300 230 Q 380 300 400 360 M400 360 l -50 -10 M400 360 l 5 -50" />
+  <Lbl x={1580} y={170} txt="TU CRUSH" c="#FF3FA4" sz={130} rot={4} />
+  <Arrow d="M1640 210 Q 1600 290 1530 340 M1530 340 l 50 -2 M1530 340 l 12 -48" />
+  <Vignette o={0.35} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V33-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
+  <Composition id="THUMB2" component={Thumb2} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB" component={Thumb} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="SHEET" component={Sheet} defaultProps={{ at: 0.5 }} durationInFrames={D.length} fps={30} width={W} height={H} />
 </>);
