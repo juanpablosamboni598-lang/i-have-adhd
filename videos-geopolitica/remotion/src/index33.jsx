@@ -400,9 +400,37 @@ const Thumb2 = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width=
   <Lbl x={1580} y={170} txt="TU CRUSH" c="#FF3FA4" sz={130} rot={4} />
   <Arrow d="M1640 210 Q 1600 290 1530 340 M1530 340 l 50 -2 M1530 340 l 12 -48" />
   <Vignette o={0.35} /></svg></AbsoluteFill>;
+const Bang = ({ x, y, s = 1, c = '#FF3B3B' }) => <g transform={`translate(${x} ${y}) scale(${s}) rotate(-12)`}>{[0, 70].map((dx, k) => <g key={k} transform={`translate(${dx} ${k * -14})`}><path d="M-18 -110 L18 -110 L10 10 L-10 10Z" fill={c} stroke={OUT} strokeWidth="9" strokeLinejoin="round" /><circle cx="0" cy="44" r="17" fill={c} stroke={OUT} strokeWidth="9" /></g>)}
+  {[-60, -30, 200, 230].map((a, k) => <path key={k} d={`M${Math.cos(a * Math.PI / 180) * 150 + 35} ${Math.sin(a * Math.PI / 180) * 150 - 40} l${Math.cos(a * Math.PI / 180) * 50} ${Math.sin(a * Math.PI / 180) * 50}`} stroke="#fff" strokeWidth="10" strokeLinecap="round" />)}</g>;
+const MiniChat = ({ x, y, s }) => <g transform={`translate(${x} ${y}) scale(${s}) rotate(4)`}><Glow x={0} y={0} r={520} c="#B79CFF" o={0.55} />
+  <rect x="-260" y="-470" width="520" height="940" rx="60" fill="#14121C" stroke={OUT} strokeWidth="14" /><rect x="-232" y="-430" width="464" height="860" rx="40" fill="#F4F2FA" />
+  <rect x="-232" y="-430" width="464" height="120" fill="#B79CFF" /><circle cx="-165" cy="-370" r="36" fill="#FFE2D0" stroke={OUT} strokeWidth="4" /><text x="-112" y="-356" fontFamily={FONT} fontWeight="900" fontSize="42" fill="#fff">Sofía ⭐</text>
+  <rect x="-215" y="-200" width="430" height="210" rx="36" fill="#fff" stroke="#D8D2EA" strokeWidth="5" />
+  <text x="-190" y="-122" fontFamily={FONT} fontWeight="900" fontSize="50" fill="#2A2238">te quiero…</text><text x="-190" y="-52" fontFamily={FONT} fontWeight="900" fontSize="50" fill="#7E62D6">como amigo 💛</text>
+  <text x="200" y="60" textAnchor="end" fontFamily={FONT} fontWeight="700" fontSize="32" fill="#9A94A8">Visto 9:47 p. m.</text></g>;
+const Thumb3 = () => <AbsoluteFill style={{ background: '#120A26' }}><svg width={W} height={H} viewBox={`0 0 ${W} ${H}`}>
+  <defs><filter id="tb3"><feGaussianBlur stdDeviation="6" /></filter></defs>
+  {SETS.balcon(1.2).bg}<rect width={W} height={H} fill="#2A0A4A" opacity="0.4" />
+  <Glow x={430} y={560} r={620} c="#38E8FF" o={0.5} /><Glow x={1500} y={560} r={620} c="#FF3FA4" o={0.6} />
+  <g filter="url(#tb3)" opacity="0.9"><Char k="C" exp="enojado" x={1830} y={560} s={1.25} t={0.7} flip /></g>
+  <g transform="rotate(-9 1480 700)"><Char k="S" exp="riendo" x={1480} y={760} s={2.3} t={0.4} /></g>
+  <Char k="X" exp="sorprendido" x={430} y={780} s={2.45} t={0.2} />
+  <Bang x={720} y={250} s={0.9} />
+  <MiniChat x={985} y={560} s={0.56} />
+  <Glow x={880} y={800} r={200} c="#FFD23F" o={0.7} />
+  <path d="M880 560 v120 M840 590 v80 M920 600 v70" stroke="#fff" strokeWidth="8" strokeLinecap="round" opacity="0.7" />
+  <COIN x={880} y={800} r={92} rot={-18} />
+  <Lbl x={1080} y={960} txt="+$1" c="#7CFF6B" sz={120} rot={-6} />
+  {[[1250, 300, 1.1], [1700, 380, 0.8], [1180, 470, 0.6]].map(([hx, hy, hs], k) => <path key={k} d={HEART} transform={`translate(${hx} ${hy}) scale(${hs})`} fill="#FF4F7B" stroke={OUT} strokeWidth="4" />)}
+  <Lbl x={210} y={175} txt="TÚ" c="#fff" sz={150} rot={-6} />
+  <Arrow d="M250 215 Q 300 280 330 330 M330 330 l -48 -14 M330 330 l 2 -50" />
+  <Lbl x={1600} y={160} txt="TU CRUSH" c="#FF3FA4" sz={124} rot={4} />
+  <Arrow d="M1560 200 Q 1530 260 1490 300 M1490 300 l 48 -6 M1490 300 l 8 -48" />
+  <Vignette o={0.35} /></svg></AbsoluteFill>;
 const Sheet = ({ at }) => { const f = useCurrentFrame(); return <Scene i={f % D.length} at={at} />; };
 registerRoot(() => <>
   {D.map((sc, i) => <Composition key={i} id={`V33-${String(i).padStart(2, '0')}`} component={Scene} defaultProps={{ i }} durationInFrames={sc.frames} fps={30} width={W} height={H} />)}
+  <Composition id="THUMB3" component={Thumb3} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB2" component={Thumb2} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="THUMB" component={Thumb} durationInFrames={1} fps={30} width={W} height={H} />
   <Composition id="SHEET" component={Sheet} defaultProps={{ at: 0.5 }} durationInFrames={D.length} fps={30} width={W} height={H} />
