@@ -41,3 +41,11 @@ Vista en los "¿Qué pasaría si…?" de crush con más vistas (ImaginaX 967K, Z
 - Colores saturados de noche/neón. Casi nada de texto aparte de las etiquetas.
 - Sin camas, pijamas ni poses sugerentes: romance sano.
 Plantilla: composición `THUMB2` en `remotion/src/index33.jsx`.
+Revisión ampliada (9 miniaturas top, 120K–1,1M vistas: Zack Mils, If Cape, IMAGINE, Possiblo, IFPOP, ImaginaX):
+- **Contraste de emociones:** él SIEMPRE en pánico (ojos enormes, "!!", gota); ella tranquila, sonriendo o con ojos cerrados.
+- **Cercanía física sana:** ella apoyada en su hombro o abrazándolo de lado; mejillas casi juntas.
+- **Objeto-prueba con texto dentro del mundo:** reloj "12:07 AM", celular "I love you · Visto 2:08", cartel "REGLA 1…", "190 °F", "POBLACIÓN: 2". Da curiosidad sin explicar.
+- **Etiquetas de estado con flecha:** "OBSESIONADA ♡" / "IGNORANDO", o "TÚ" / "TU CRUSH".
+- **Máx. 2–3 palabras grandes**, una en amarillo o rosa ("ENCERRADO CON ELLA").
+- **Tercer personaje** al fondo reaccionando (celos, shock) para insinuar historia.
+- **Adornos:** "!!", corazones, líneas de brillo, luz de borde de color, fondo con bokeh.
